@@ -19,8 +19,7 @@ The affected version numbers are unfortunately quite a pain to get right, if you
 ## Contributing
 
 + Spot a `FIXME` inside an advisory file? Try and FIX it! :)
-+ Ensure the advisory file still validate against the OSV's json schema
-+ ...
++ Ensure new advisory files are validated against the [OSV's JSON schema](utils/schema.json)
 
 
 ## FAQ

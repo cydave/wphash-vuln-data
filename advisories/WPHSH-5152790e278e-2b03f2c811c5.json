@@ -1,0 +1,65 @@
+{
+    "id": "WPHSH-5152790e278e-2b03f2c811c5",
+    "modified": "2017-08-29T01:33Z",
+    "published": "2014-05-27T14:55Z",
+    "aliases": [
+        "CVE-2013-2698"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in the Calendar plugin before 1.3.3 for WordPress allows remote attackers to hijack the authentication of users for requests that add a calendar entry via unspecified vectors.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "calendar"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/calendar",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.3.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.3.2",
+                "1.3.1",
+                "1.3",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.1.1",
+                "1.1",
+                "1.0",
+                "1.2",
+                "1.1.2",
+                "wp_calendar_v1.1.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2698"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/calendar"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/calendar/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

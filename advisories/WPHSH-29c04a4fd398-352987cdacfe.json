@@ -1,0 +1,76 @@
+{
+    "id": "WPHSH-29c04a4fd398-352987cdacfe",
+    "modified": "2022-07-28T15:10:11Z",
+    "published": "2022-07-28T15:10:10Z",
+    "aliases": [
+        "CVE-2022-35882"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "gs-testimonial"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/gs-testimonial",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.9.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.9.1",
+                "1.8.16",
+                "1.8.15",
+                "1.8.14",
+                "1.8.12",
+                "1.8.11",
+                "1.8.10",
+                "1.8.9",
+                "1.8.8",
+                "1.8.7",
+                "1.8.6",
+                "1.8.5",
+                "1.8.4",
+                "1.8.3",
+                "1.8.2",
+                "1.8.1",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-35882"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/gs-testimonial"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/gs-testimonial/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

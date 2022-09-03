@@ -1,0 +1,81 @@
+{
+    "id": "WPHSH-3e0772edca1b-d97b727c288b",
+    "modified": "2012-09-07T04:00Z",
+    "published": "2012-09-06T21:55Z",
+    "aliases": [
+        "CVE-2012-4874"
+    ],
+    "summary": "FIXME",
+    "details": "Unspecified vulnerability in the Another WordPress Classifieds Plugin before 2.0 for WordPress has unknown impact and attack vectors related to \"image uploads.\"",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "another-wordpress-classifieds-plugin"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/another-wordpress-classifieds-plugin",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "test",
+                "1.8.9.4",
+                "1.8.9.3",
+                "1.8.9.2",
+                "1.8.9",
+                "1.8.8.1",
+                "1.8.8",
+                "1.8.7.1",
+                "1.8.7",
+                "1.8.6.4",
+                "1.8.6.3",
+                "1.8.6.2",
+                "1.8.6.1",
+                "1.8.6",
+                "1.8.5",
+                "1.8.1",
+                "1.8.0",
+                "1.0.7",
+                "1.0.6.18",
+                "1.0.6.17",
+                "1.0.6.16",
+                "1.0.6.15",
+                "1.0.6.14",
+                "1.0.6.13",
+                "1.0.6.12",
+                "1.0.6.11",
+                "1.0.6.10",
+                "1.0.6.9",
+                "1.0.6.8",
+                "1.0.6.7"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4874"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/another-wordpress-classifieds-plugin"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/another-wordpress-classifieds-plugin/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

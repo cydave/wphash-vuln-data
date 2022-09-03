@@ -1,0 +1,83 @@
+{
+    "id": "WPHSH-1c9e55ed1f5e-2982c216acd6",
+    "modified": "2022-07-07T14:53Z",
+    "published": "2022-06-27T09:15Z",
+    "aliases": [
+        "CVE-2022-1010"
+    ],
+    "summary": "FIXME",
+    "details": "The Login using WordPress Users ( WP as SAML IDP ) WordPress plugin before 1.13.4 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks when the unfiltered_html capability is disallowed (for example in multisite setup)",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "miniorange-wp-as-saml-idp"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/miniorange-wp-as-saml-idp",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.13.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.13.3",
+                "1.13.2",
+                "1.13.1",
+                "1.13.0",
+                "1.12.7",
+                "1.12.6",
+                "1.12.5",
+                "1.12.4",
+                "1.12.3",
+                "1.12.2",
+                "1.12.1",
+                "1.11.1",
+                "1.11.0",
+                "1.10.9",
+                "1.10.8",
+                "1.10.7",
+                "1.10.6",
+                "1.10.5",
+                "1.10.4",
+                "1.10.3",
+                "1.10.2",
+                "1.10.1",
+                "1.10",
+                "1.8"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1010"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/miniorange-wp-as-saml-idp"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/miniorange-wp-as-saml-idp/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

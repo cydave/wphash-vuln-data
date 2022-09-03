@@ -1,0 +1,79 @@
+{
+    "id": "WPHSH-8643a2ff6a6a-ff76db70b9ff",
+    "modified": "2022-06-24T17:51Z",
+    "published": "2022-06-15T20:15Z",
+    "aliases": [
+        "CVE-2022-32280"
+    ],
+    "summary": "FIXME",
+    "details": "Authenticated (contributor or higher user role) Stored Cross-Site Scripting (XSS) vulnerability in Xakuro's XO Slider plugin <= 3.3.2 at WordPress.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "xo-liteslider"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/xo-liteslider",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.3.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.3.2",
+                "3.3.1",
+                "3.3.0",
+                "3.2.2",
+                "3.2.1",
+                "3.2.0",
+                "3.1.3",
+                "3.1.2",
+                "3.1.1",
+                "3.1.0",
+                "3.0.1",
+                "3.0.0",
+                "2.1.0",
+                "2.0.1",
+                "2.0.0",
+                "1.3.1",
+                "1.3.0",
+                "1.2.0",
+                "1.1.0",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32280"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/xo-liteslider"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/xo-liteslider/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

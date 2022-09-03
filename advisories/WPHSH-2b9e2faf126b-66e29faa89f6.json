@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-2b9e2faf126b-66e29faa89f6",
+    "modified": "2014-08-13T18:40Z",
+    "published": "2014-08-12T20:55Z",
+    "aliases": [
+        "CVE-2014-5199"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in the WordPress File Upload plugin (wp-file-upload) before 2.4.2 for WordPress allows remote attackers to hijack the authentication of administrators for requests that change plugin settings via unspecified vectors.  NOTE: some of these details are obtained from third party information.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-file-upload"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-file-upload",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.4.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.4.1",
+                "2.3.1",
+                "2.2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.1.3",
+                "2.1.2",
+                "2.0.2",
+                "2.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5199"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-file-upload"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-file-upload/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-69b0defa22c8-0888a4e440bb",
+    "modified": "2022-03-12T04:08Z",
+    "published": "2022-03-10T17:42Z",
+    "aliases": [
+        "CVE-2021-33851"
+    ],
+    "summary": "FIXME",
+    "details": "A cross-site scripting (XSS) attack can cause arbitrary code (JavaScript) to run in a user's browser and can use an application as the vehicle for the attack. The XSS payload given in the \"Custom logo link\" executes whenever the user opens the Settings Page of the \"Customize Login Image\" Plugin.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "customize-login-image"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/customize-login-image",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.5.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.5.2",
+                "3.5.1",
+                "3.5",
+                "3.4",
+                "3.3.1",
+                "3.3",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.0",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33851"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/customize-login-image"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/customize-login-image/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

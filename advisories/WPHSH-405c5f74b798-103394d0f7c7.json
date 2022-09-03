@@ -1,0 +1,125 @@
+{
+    "id": "WPHSH-405c5f74b798-103394d0f7c7",
+    "modified": "2020-04-08T13:41Z",
+    "published": "2020-04-07T17:15Z",
+    "aliases": [
+        "CVE-2020-11512"
+    ],
+    "summary": "FIXME",
+    "details": "Stored XSS in the IMPress for IDX Broker WordPress plugin before 2.6.2 allows authenticated attackers with minimal (subscriber-level) permissions to save arbitrary JavaScript in the plugin's settings panel via the idx_update_recaptcha_key AJAX action and a crafted idx_recaptcha_site_key parameter, which would then be executed in the browser of any administrator visiting the panel. This could be used to create new administrator-level accounts.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "idx-broker-platinum"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/idx-broker-platinum",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.6.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.6.1",
+                "2.6.0",
+                "2.5.12",
+                "2.5.11",
+                "2.5.10.2",
+                "2.5.11.1",
+                "2.5.10.1",
+                "2.5.10",
+                "2.5.9",
+                "2.5.8",
+                "2.5.7",
+                "2.5.6",
+                "2.5.5",
+                "2.5.4",
+                "2.5.3",
+                "2.5.2",
+                "2.5.1",
+                "2.5.0",
+                "2.4.5",
+                "2.4.4",
+                "2.4.3",
+                "2.4.2",
+                "2.4.1",
+                "2.4.0",
+                "2.3.5",
+                "2.3.4",
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.3.0",
+                "2.2.1",
+                "2.2.0",
+                "2.1.5",
+                "2.1.4",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1.0",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.7",
+                "1.1.6",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11512"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/idx-broker-platinum"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/idx-broker-platinum/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

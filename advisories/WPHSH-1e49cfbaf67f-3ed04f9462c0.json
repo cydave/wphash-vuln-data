@@ -1,0 +1,61 @@
+{
+    "id": "WPHSH-1e49cfbaf67f-3ed04f9462c0",
+    "modified": "2016-12-22T14:35Z",
+    "published": "2016-10-10T20:59Z",
+    "aliases": [
+        "CVE-2016-1000150"
+    ],
+    "summary": "FIXME",
+    "details": "Reflected XSS in wordpress plugin simplified-content v1.0.0",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "simplified-content"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/simplified-content",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.0",
+                "0.0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1000150"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/simplified-content"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/simplified-content/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

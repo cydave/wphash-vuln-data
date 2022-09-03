@@ -1,0 +1,66 @@
+{
+    "id": "WPHSH-e192c2a8661e-5c0fcf39c0fe",
+    "modified": "2017-09-08T01:29Z",
+    "published": "2014-08-22T14:55Z",
+    "aliases": [
+        "CVE-2014-5368"
+    ],
+    "summary": "FIXME",
+    "details": "Directory traversal vulnerability in the file_get_contents function in downloadfiles/download.php in the WP Content Source Control (wp-source-control) plugin 3.0.0 and earlier for WordPress allows remote attackers to read arbitrary files via a .. (dot dot) in the path parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-source-control"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-source-control",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.1.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.1.0",
+                "3.0.0",
+                "2.4.0",
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.3",
+                "2.2",
+                "2.1.1",
+                "2.1",
+                "2.0",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5368"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-source-control"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-source-control/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-22"
+        ]
+    }
+}

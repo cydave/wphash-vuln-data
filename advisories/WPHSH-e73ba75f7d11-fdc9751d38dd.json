@@ -1,0 +1,68 @@
+{
+    "id": "WPHSH-e73ba75f7d11-fdc9751d38dd",
+    "modified": "2019-07-18T18:38Z",
+    "published": "2019-07-18T12:15Z",
+    "aliases": [
+        "CVE-2016-10763"
+    ],
+    "summary": "FIXME",
+    "details": "The CampTix Event Ticketing plugin before 1.5 for WordPress allows XSS in the admin section via a ticket title or body.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "camptix"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/camptix",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4.2",
+                "1.4.1",
+                "1.3.1",
+                "1.3",
+                "1.2.1",
+                "1.2",
+                "1.1",
+                "1.0",
+                "0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10763"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/camptix"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/camptix/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

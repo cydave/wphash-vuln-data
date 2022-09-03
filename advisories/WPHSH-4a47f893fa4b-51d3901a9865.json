@@ -1,0 +1,68 @@
+{
+    "id": "WPHSH-4a47f893fa4b-51d3901a9865",
+    "modified": "2018-07-02T18:09Z",
+    "published": "2018-06-01T15:29Z",
+    "aliases": [
+        "CVE-2018-11486"
+    ],
+    "summary": "FIXME",
+    "details": "An issue was discovered in the MULTIDOTS Advance Search for WooCommerce plugin 1.0.9 and earlier for WordPress. This plugin is vulnerable to a stored Cross-site scripting (XSS) vulnerability. A non-authenticated user can save the plugin settings and inject malicious JavaScript code in the Custom CSS textarea field, which will be loaded on every site page.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "woo-advance-search"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/woo-advance-search",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.2",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11486"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/woo-advance-search"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/woo-advance-search/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

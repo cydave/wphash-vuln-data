@@ -1,0 +1,82 @@
+{
+    "id": "WPHSH-49985c860aa7-5ae02c094f44",
+    "modified": "2022-04-27T16:32Z",
+    "published": "2022-04-19T21:15Z",
+    "aliases": [
+        "CVE-2022-1119"
+    ],
+    "summary": "FIXME",
+    "details": "The Simple File List WordPress plugin is vulnerable to Arbitrary File Download via the eeFile parameter found in the ~/includes/ee-downloader.php file due to missing controls which makes it possible unauthenticated attackers to supply a path to a file that will subsequently be downloaded, in versions up to and including 3.2.7.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "simple-file-list"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/simple-file-list",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.2.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.2.7",
+                "3.2.6",
+                "3.2.5",
+                "3.2.4",
+                "3.2.3",
+                "3.2.2",
+                "3.2.1",
+                "3.2",
+                "3.1.2",
+                "3.1.1",
+                "3.0.5",
+                "3.0.4",
+                "3.0.2",
+                "2.0.8",
+                "2.0.7",
+                "2.0.6",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1119"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/simple-file-list"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/simple-file-list/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/browser/simple-file-list/trunk/includes/ee-downloader.php?rev=2071880"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-22"
+        ]
+    }
+}

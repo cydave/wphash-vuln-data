@@ -1,0 +1,63 @@
+{
+    "id": "WPHSH-370511b6e0ba-f338766a8680",
+    "modified": "2017-12-02T16:17Z",
+    "published": "2017-11-09T22:29Z",
+    "aliases": [
+        "CVE-2017-16758"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in admin/partials/uif-access-token-display.php in the Ultimate Instagram Feed plugin before 1.3 for WordPress allows remote attackers to inject arbitrary web script or HTML via the \"access_token\" parameter.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "ultimate-instagram-feed"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/ultimate-instagram-feed",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.3.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-16758"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/ultimate-instagram-feed"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/ultimate-instagram-feed/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

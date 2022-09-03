@@ -1,0 +1,105 @@
+{
+    "id": "WPHSH-8589c63b0943-7b3ec39feead",
+    "modified": "2021-08-26T18:50Z",
+    "published": "2021-08-23T12:15Z",
+    "aliases": [
+        "CVE-2021-24533"
+    ],
+    "summary": "FIXME",
+    "details": "The Maintenance WordPress plugin before 4.03 does not sanitise or escape some of its settings, allowing high privilege users such as admin to se Cross-Site Scripting payload in them (even when the unfiltered_html capability is disallowed), which will be triggered in the frontend",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "maintenance"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/maintenance",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.03"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.02",
+                "4.01",
+                "4.0",
+                "3.99",
+                "3.97",
+                "3.96",
+                "3.95",
+                "3.90",
+                "3.85",
+                "3.8",
+                "3.7.1",
+                "3.7.0",
+                "3.6.4",
+                "3.6.3",
+                "3.6.2",
+                "3.6.1",
+                "3.6",
+                "3.5.1",
+                "3.5",
+                "3.4.1",
+                "3.4",
+                "3.3",
+                "3.2",
+                "3.1.1",
+                "3.1",
+                "3.0",
+                "2.7.1",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2.1",
+                "2.2",
+                "2.1.2",
+                "2.1.1",
+                "2.1",
+                "2.0.1",
+                "2.0",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1.1",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24533"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/maintenance"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/maintenance/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

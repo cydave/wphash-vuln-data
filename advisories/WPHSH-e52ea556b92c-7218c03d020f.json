@@ -1,0 +1,102 @@
+{
+    "id": "WPHSH-e52ea556b92c-7218c03d020f",
+    "modified": "2022-03-11T17:59Z",
+    "published": "2022-03-07T09:15Z",
+    "aliases": [
+        "CVE-2021-24810"
+    ],
+    "summary": "FIXME",
+    "details": "The WP Event Manager WordPress plugin before 3.1.23 does not escape some of its Field Editor settings when outputting them, allowing high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-event-manager"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-event-manager",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.1.23"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.1.22",
+                "3.1.21",
+                "3.1.20",
+                "3.1.19",
+                "3.1.18",
+                "3.1.17",
+                "3.1.16",
+                "3.1.15",
+                "3.1.14",
+                "3.1.13",
+                "3.1.12",
+                "3.1.11",
+                "3.1.10",
+                "3.1.9",
+                "3.1.8",
+                "3.1.7",
+                "3.1.6",
+                "3.1.5",
+                "3.1.4",
+                "3.1.3",
+                "3.1.2",
+                "3.1.1",
+                "3.0",
+                "2.9",
+                "2.8",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24810"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-event-manager"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-event-manager/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

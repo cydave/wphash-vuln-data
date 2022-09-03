@@ -1,0 +1,103 @@
+{
+    "id": "WPHSH-9e633073547b-0a2fd715f101",
+    "modified": "2019-09-03T17:15Z",
+    "published": "2019-08-28T12:15Z",
+    "aliases": [
+        "CVE-2015-9358"
+    ],
+    "summary": "FIXME",
+    "details": "The feedwordpress plugin before 2015.0514 for WordPress has XSS via add_query_arg() and remove_query_arg().",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "feedwordpress"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/feedwordpress",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2015.0514"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2015.0426",
+                "2014.0805",
+                "2013.0504",
+                "2013.0503",
+                "2012.1218",
+                "2012.1212",
+                "2011.1019",
+                "2011.1018",
+                "2011.0721",
+                "2011.0706",
+                "2011.0602",
+                "2011.0531",
+                "2011.0512",
+                "2011.0211.2",
+                "2011.0211",
+                "2010.0905",
+                "2010.0903",
+                "2010.0623",
+                "2010.0602",
+                "2010.0531",
+                "2010.0528",
+                "2010.0127",
+                "2009.1112",
+                "2009.1111",
+                "2009.0707",
+                "2009.0618",
+                "2009.0613",
+                "2009.0612",
+                "2008.1214",
+                "2008.1105",
+                "2008.1101",
+                "2008.1030",
+                "0.993",
+                "0.992",
+                "0.991",
+                "0.99",
+                "0.981",
+                "0.98",
+                "0.97",
+                "0.96",
+                "0.95",
+                "0.91",
+                "0.9",
+                "0.8"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9358"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/feedwordpress"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/feedwordpress/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

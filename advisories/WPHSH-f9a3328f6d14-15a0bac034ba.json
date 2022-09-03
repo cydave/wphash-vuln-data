@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-f9a3328f6d14-15a0bac034ba",
+    "modified": "2021-09-20T17:11Z",
+    "published": "2021-06-21T20:15Z",
+    "aliases": [
+        "CVE-2021-24379"
+    ],
+    "summary": "FIXME",
+    "details": "The Comments Like Dislike WordPress plugin before 1.1.4 allows users to like/dislike posted comments, however does not prevent them from replaying the AJAX request to add a like. This allows any user (even unauthenticated) to add unlimited like/dislike to any comment. The plugin appears to have some Restriction modes, such as Cookie Restriction, IP Restrictions, Logged In User Restriction, however, they do not prevent such attack as they only check client side",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "comments-like-dislike"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/comments-like-dislike",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.2",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24379"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/comments-like-dislike"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/comments-like-dislike/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-863"
+        ]
+    }
+}

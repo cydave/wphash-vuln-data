@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-33e20203a39a-6e5d558fbace",
+    "modified": "2022-07-29T10:15Z",
+    "published": "2021-08-02T11:15Z",
+    "aliases": [
+        "CVE-2021-24504"
+    ],
+    "summary": "FIXME",
+    "details": "The WP LMS \u00e2\u20ac\u201c Best WordPress LMS Plugin WordPress plugin through 1.1.2 does not properly sanitise or validate its User Field Titles, allowing XSS payload to be used in them. Furthermore, no CSRF and capability checks were in place, allowing such attack to be performed either via CSRF or as any user (including unauthenticated)",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "learn-manager"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/learn-manager",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "learn-manager",
+                "1.0.2",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24504"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/learn-manager"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/learn-manager/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79",
+            "CWE-352"
+        ]
+    }
+}

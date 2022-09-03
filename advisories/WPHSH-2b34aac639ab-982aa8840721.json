@@ -1,0 +1,71 @@
+{
+    "id": "WPHSH-2b34aac639ab-982aa8840721",
+    "modified": "2018-01-24T20:10Z",
+    "published": "2018-01-12T09:29Z",
+    "aliases": [
+        "CVE-2018-5372"
+    ],
+    "summary": "FIXME",
+    "details": "The Testimonial Slider plugin through 1.2.4 for WordPress has SQL Injection via settings\\sliders.php (current_slider_id parameter).",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "testimonial-slider"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/testimonial-slider",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5372"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/testimonial-slider"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/testimonial-slider/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "id": "WPHSH-ed1934821ccb-6b69c9f0023b",
+    "modified": "2015-03-03T18:01Z",
+    "published": "2015-03-03T11:59Z",
+    "aliases": [
+        "CVE-2015-0890"
+    ],
+    "summary": "FIXME",
+    "details": "The BestWebSoft Google Captcha (aka reCAPTCHA) plugin before 1.13 for WordPress allows remote attackers to bypass the CAPTCHA protection mechanism and obtain administrative access via unspecified vectors.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "google-captcha"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/google-captcha",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.13"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.12",
+                "1.11",
+                "1.10",
+                "1.09",
+                "1.08",
+                "1.07",
+                "1.06",
+                "1.05",
+                "1.04",
+                "1.03",
+                "1.02",
+                "1.01"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0890"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/google-captcha"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/google-captcha/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

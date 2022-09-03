@@ -1,0 +1,65 @@
+{
+    "id": "WPHSH-2a3206448012-56305fbc4931",
+    "modified": "2022-07-25T17:04Z",
+    "published": "2022-07-18T17:15Z",
+    "aliases": [
+        "CVE-2022-2001"
+    ],
+    "summary": "FIXME",
+    "details": "The DX Share Selection plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including 1.4. This is due to missing nonce protection on the dxss_admin_page() function found in the ~/dx-share-selection.php file. This makes it possible for unauthenticated attackers to inject malicious web scripts into the page, granted they can trick a site's administrator into performing an action such as clicking on a link.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "dx-share-selection"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/dx-share-selection",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4",
+                "1.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2001"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/dx-share-selection"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/dx-share-selection/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2747572/dx-share-selection/trunk?contextall=1&old=2384535&old_path=%2Fdx-share-selection%2Ftrunk"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

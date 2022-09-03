@@ -1,0 +1,64 @@
+{
+    "id": "WPHSH-2f849b411b0e-57883581e11b",
+    "modified": "2019-08-23T18:48Z",
+    "published": "2019-08-22T20:15Z",
+    "aliases": [
+        "CVE-2017-18585"
+    ],
+    "summary": "FIXME",
+    "details": "The posts-in-page plugin before 1.3.0 for WordPress has ic_add_posts template='../ directory traversal.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "posts-in-page"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/posts-in-page",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.3.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.0.10"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18585"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/posts-in-page"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/posts-in-page/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-22"
+        ]
+    }
+}

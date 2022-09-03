@@ -1,0 +1,98 @@
+{
+    "id": "WPHSH-3e0772edca1b-e8820c6b42ec",
+    "modified": "2017-09-08T01:29Z",
+    "published": "2015-01-13T11:59Z",
+    "aliases": [
+        "CVE-2014-10013"
+    ],
+    "summary": "FIXME",
+    "details": "SQL injection vulnerability in the Another WordPress Classifieds Plugin plugin for WordPress allows remote attackers to execute arbitrary SQL commands via the keywordphrase parameter in a dosearch action.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "another-wordpress-classifieds-plugin"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/another-wordpress-classifieds-plugin",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.2.1",
+                "2.2",
+                "2.1.3.1",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1.0",
+                "2.0.6",
+                "2.0.5",
+                "2.0.4.1",
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0",
+                "test",
+                "1.8.9.4",
+                "1.8.9.3",
+                "1.8.9.2",
+                "1.8.9",
+                "1.8.8.1",
+                "1.8.8",
+                "1.8.7.1",
+                "1.8.7",
+                "1.8.6.4",
+                "1.8.6.3",
+                "1.8.6.2",
+                "1.8.6.1",
+                "1.8.6",
+                "1.8.5",
+                "1.8.1",
+                "1.8.0",
+                "1.0.7",
+                "1.0.6.18",
+                "1.0.6.17",
+                "1.0.6.16",
+                "1.0.6.15",
+                "1.0.6.14",
+                "1.0.6.13",
+                "1.0.6.12",
+                "1.0.6.11",
+                "1.0.6.10",
+                "1.0.6.9",
+                "1.0.6.8",
+                "1.0.6.7"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-10013"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/another-wordpress-classifieds-plugin"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/another-wordpress-classifieds-plugin/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

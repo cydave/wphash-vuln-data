@@ -1,0 +1,134 @@
+{
+    "id": "WPHSH-81a452771c22-95a8fc7968fb",
+    "modified": "2022-07-29T10:15Z",
+    "published": "2021-08-09T10:15Z",
+    "aliases": [
+        "CVE-2021-24467"
+    ],
+    "summary": "FIXME",
+    "details": "The Leaflet Map WordPress plugin before 3.0.0 does not verify the CSRF nonce when saving its settings, which allows attackers to make a logged in admin update the settings via a Cross-Site Request Forgery attack. This could lead to Cross-Site Scripting issues by either changing the URL of the JavaScript library being used, or using malicious attributions which will be executed in all page with an embed map from the plugin",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "leaflet-map"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/leaflet-map",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.0.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.23.3",
+                "2.23.2",
+                "2.23.1",
+                "2.23.0",
+                "2.22.1",
+                "2.22.0",
+                "2.21.0",
+                "2.20.0",
+                "2.19.1",
+                "2.19.0",
+                "2.18.0",
+                "2.17.3",
+                "2.17.2",
+                "2.17.1",
+                "2.17.0",
+                "2.16.2",
+                "2.16.1",
+                "2.16.0",
+                "2.15.0",
+                "2.14.0",
+                "2.13.0",
+                "2.12.0",
+                "2.11.5",
+                "2.11.4",
+                "2.11.3",
+                "2.11.2",
+                "2.11.1",
+                "2.11.0",
+                "2.10.1",
+                "2.10.0",
+                "2.9.1",
+                "2.9",
+                "2.8.6",
+                "2.8.5",
+                "2.8.4",
+                "2.8.3",
+                "2.8.2",
+                "2.8.1",
+                "2.8.0",
+                "2.7.8",
+                "2.7.7",
+                "2.7.5",
+                "2.7.4",
+                "2.7.3",
+                "2.7.2",
+                "2.7.1",
+                "2.7.0",
+                "2.6.0",
+                "2.5.0",
+                "2.4.0",
+                "2.3.0",
+                "2.2.0",
+                "2.1.0",
+                "2.0.2",
+                "2.0.1",
+                "2.0",
+                "1.16",
+                "1.15",
+                "1.14",
+                "1.13",
+                "1.12",
+                "1.11",
+                "1.10",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24467"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/leaflet-map"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/leaflet-map/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79",
+            "CWE-352"
+        ]
+    }
+}

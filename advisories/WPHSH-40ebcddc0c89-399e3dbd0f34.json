@@ -1,0 +1,70 @@
+{
+    "id": "WPHSH-40ebcddc0c89-399e3dbd0f34",
+    "modified": "2022-06-09T17:49Z",
+    "published": "2022-05-30T09:15Z",
+    "aliases": [
+        "CVE-2022-1583"
+    ],
+    "summary": "FIXME",
+    "details": "The External Links in New Window / New Tab WordPress plugin before 1.43 does not ensure window.opener is set to \"null\" when links to external sites are clicked, which may enable tabnabbing attacks to occur.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "open-external-links-in-a-new-window"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/open-external-links-in-a-new-window",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.43"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.42",
+                "1.41",
+                "1.4",
+                "1.3.2",
+                "1.3.1",
+                "1.3",
+                "1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1583"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/open-external-links-in-a-new-window"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/open-external-links-in-a-new-window/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-1022"
+        ]
+    }
+}

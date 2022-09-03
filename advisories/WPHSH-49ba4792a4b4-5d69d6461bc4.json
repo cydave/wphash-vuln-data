@@ -1,0 +1,84 @@
+{
+    "id": "WPHSH-49ba4792a4b4-5d69d6461bc4",
+    "modified": "2020-05-11T19:54Z",
+    "published": "2020-05-07T05:15Z",
+    "aliases": [
+        "CVE-2020-12696"
+    ],
+    "summary": "FIXME",
+    "details": "The iframe plugin before 4.5 for WordPress does not sanitize a URL.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "iframe"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/iframe",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.4",
+                "4.3",
+                "4.2",
+                "4.1",
+                "4.0",
+                "3.0",
+                "2.9",
+                "2.8",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.8",
+                "1.7",
+                "1.6.0",
+                "1.5.0",
+                "1.4.0",
+                "1.3.0",
+                "1.2.0",
+                "1.1.0",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-12696"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/iframe"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/iframe/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

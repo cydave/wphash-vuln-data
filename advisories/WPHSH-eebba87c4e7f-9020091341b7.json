@@ -1,0 +1,77 @@
+{
+    "id": "WPHSH-eebba87c4e7f-9020091341b7",
+    "modified": "2021-08-26T19:12Z",
+    "published": "2021-08-23T12:15Z",
+    "aliases": [
+        "CVE-2021-24552"
+    ],
+    "summary": "FIXME",
+    "details": "The Simple Events Calendar WordPress plugin through 1.4.0 does not sanitise, validate or escape the event_id POST parameter before using it in a SQL statement when deleting events, leading to an authenticated SQL injection issue",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "simple-events-calendar"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/simple-events-calendar",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4.0",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.1",
+                "1.3.0",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.0",
+                "0.1.5",
+                "0.1.4",
+                "0.1.3",
+                "0.1.2",
+                "0.1.1",
+                "0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24552"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/simple-events-calendar"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/simple-events-calendar/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

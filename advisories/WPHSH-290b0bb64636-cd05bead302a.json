@@ -1,0 +1,69 @@
+{
+    "id": "WPHSH-290b0bb64636-cd05bead302a",
+    "modified": "2017-05-24T15:15Z",
+    "published": "2017-05-17T14:29Z",
+    "aliases": [
+        "CVE-2015-3998"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in phpwhois 4.2.5, as used in the adsense-click-fraud-monitoring plugin 1.7.5 for WordPress, allows remote attackers to inject arbitrary web script or HTML via the query parameter to whois.php.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "adsense-click-fraud-monitoring"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/adsense-click-fraud-monitoring",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.7.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.7.5",
+                "1.7.4",
+                "1.7.3",
+                "1.7.2",
+                "1.7.1",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3998"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/adsense-click-fraud-monitoring"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/adsense-click-fraud-monitoring/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

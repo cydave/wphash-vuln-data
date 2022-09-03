@@ -1,0 +1,65 @@
+{
+    "id": "WPHSH-4ef1c659396b-489e6ad3b52b",
+    "modified": "2017-10-06T15:22Z",
+    "published": "2017-09-26T22:29Z",
+    "aliases": [
+        "CVE-2017-14751"
+    ],
+    "summary": "FIXME",
+    "details": "The Intense WP \"WP Jobs\" plugin 1.5 for WordPress has XSS, related to the Job Qualification field.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-jobs"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-jobs",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-14751"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-jobs"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-jobs/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

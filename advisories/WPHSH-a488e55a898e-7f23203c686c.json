@@ -1,0 +1,58 @@
+{
+    "id": "WPHSH-a488e55a898e-7f23203c686c",
+    "modified": "2016-11-30T03:00Z",
+    "published": "2015-02-25T22:59Z",
+    "aliases": [
+        "CVE-2015-2084"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in the Easy Social Icons plugin before 1.2.3 for WordPress allows remote attackers to hijack the authentication of administrators for requests that conduct cross-site scripting (XSS) attacks via the image_file parameter in an edit action in the cnss_social_icon_add page to wp-admin/admin.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "easy-social-icons"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/easy-social-icons",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2084"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/easy-social-icons"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/easy-social-icons/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

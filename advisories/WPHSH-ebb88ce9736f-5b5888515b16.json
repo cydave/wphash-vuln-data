@@ -1,0 +1,69 @@
+{
+    "id": "WPHSH-ebb88ce9736f-5b5888515b16",
+    "modified": "2016-12-08T03:03Z",
+    "published": "2013-02-07T05:56Z",
+    "aliases": [
+        "CVE-2013-1464"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in assets/player.swf in the Audio Player plugin before 2.0.4.6 for Wordpress allows remote attackers to inject arbitrary web script or HTML via the playerID parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "audio-player"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/audio-player",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.0.4.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.0.4.5",
+                "2.0.4.4",
+                "2.0.4.3",
+                "2.0.4.2",
+                "2.0.4.1",
+                "2.0.4",
+                "2.0.3.1",
+                "2.0.3",
+                "2.0b6",
+                "2.0.2",
+                "2.0.1",
+                "2.0",
+                "1.2.3",
+                "1.0.1",
+                "1.0",
+                "0.7.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1464"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/audio-player"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/audio-player/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

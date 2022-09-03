@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-53119163b3c6-4003002030da",
+    "modified": "2021-10-19T13:38Z",
+    "published": "2021-10-13T09:15Z",
+    "aliases": [
+        "CVE-2021-20831"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in OG Tags versions prior to 2.0.2 allows a remote attacker to hijack the authentication of administrators and unintended operation may be performed via unspecified vectors.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "og-tags"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/og-tags",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.0.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.0.1",
+                "2.0.0",
+                "1.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20831"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/og-tags"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/og-tags/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

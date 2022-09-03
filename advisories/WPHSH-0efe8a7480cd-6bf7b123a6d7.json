@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-0efe8a7480cd-6bf7b123a6d7",
+    "modified": "2015-02-12T17:55Z",
+    "published": "2015-02-11T19:59Z",
+    "aliases": [
+        "CVE-2015-1582"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple cross-site scripting (XSS) vulnerabilities in the Spider Facebook plugin before 1.0.11 for WordPress allow (1) remote attackers to inject arbitrary web script or HTML via the appid parameter in a registration task to the default URI or remote administrators to inject arbitrary web script or HTML via the (2) asc_or_desc, (3) order_by, (4) page_number, (5) serch_or_not, or (6) search_events_by_title parameter in (a) the Spider_Facebook_manage page to wp-admin/admin.php or a (b) selectpagesforfacebook or (c) selectpostsforfacebook action to wp-admin/admin-ajax.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "spider-facebook"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/spider-facebook",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.11"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.10",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-1582"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/spider-facebook"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/spider-facebook/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

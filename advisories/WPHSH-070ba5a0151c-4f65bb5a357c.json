@@ -1,0 +1,64 @@
+{
+    "id": "WPHSH-070ba5a0151c-4f65bb5a357c",
+    "modified": "2014-05-14T15:35Z",
+    "published": "2014-05-13T14:55Z",
+    "aliases": [
+        "CVE-2013-2705"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in the WordPress Simple Paypal Shopping Cart plugin before 3.6 for WordPress allows remote attackers to hijack the authentication of administrators for requests that change plugin settings.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wordpress-simple-paypal-shopping-cart"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wordpress-simple-paypal-shopping-cart",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.5",
+                "3.3.1",
+                "3.3.0",
+                "3.2.3",
+                "3.2.7",
+                "3.1",
+                "2.8.4",
+                "2.8.1",
+                "2.6",
+                "1.7",
+                "1.6"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2705"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wordpress-simple-paypal-shopping-cart"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wordpress-simple-paypal-shopping-cart/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

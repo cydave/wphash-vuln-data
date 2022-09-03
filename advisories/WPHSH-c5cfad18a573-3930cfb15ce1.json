@@ -1,0 +1,92 @@
+{
+    "id": "WPHSH-c5cfad18a573-3930cfb15ce1",
+    "modified": "2019-09-26T19:25Z",
+    "published": "2019-09-26T02:15Z",
+    "aliases": [
+        "CVE-2015-9431"
+    ],
+    "summary": "FIXME",
+    "details": "The qtranslate-x plugin before 3.4.4 for WordPress has CSRF with resultant XSS via the wp-admin/options-general.php?page=qtranslate-x json_config_files or json_custom_i18n_config parameter.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "qtranslate-x"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/qtranslate-x",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.4.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.4.3",
+                "3.4.2",
+                "3.4.1",
+                "3.4",
+                "3.3",
+                "3.2.9",
+                "3.2.7",
+                "3.2.2",
+                "3.2.1",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.9.7b",
+                "2.9.6",
+                "2.9.5",
+                "2.9.4",
+                "2.9.3",
+                "2.9.2",
+                "2.9.1",
+                "2.9",
+                "2.8",
+                "2.7.9",
+                "2.7.8",
+                "2.7.7",
+                "2.7.6",
+                "2.7.5",
+                "2.7.4",
+                "2.7.3",
+                "2.7.2",
+                "2.7.1",
+                "2.7",
+                "2.6.4",
+                "2.6.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9431"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/qtranslate-x"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/qtranslate-x/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

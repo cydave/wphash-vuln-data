@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-01d68703569b-f43f77ee0ed9",
+    "modified": "2022-07-21T09:26:46Z",
+    "published": "2022-07-21T09:26:46Z",
+    "aliases": [
+        "CVE-2022-2384"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "digital-publications-by-supsystic"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/digital-publications-by-supsystic",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.7.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.7.3",
+                "1.7.2",
+                "1.7.1",
+                "1.6.12",
+                "1.6.11",
+                "1.6.10",
+                "1.6.9",
+                "1.6.8",
+                "1.6.3",
+                "1.5.0",
+                "1.4.7"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2384"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/digital-publications-by-supsystic"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/digital-publications-by-supsystic/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

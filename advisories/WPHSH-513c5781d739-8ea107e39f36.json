@@ -1,0 +1,161 @@
+{
+    "id": "WPHSH-513c5781d739-8ea107e39f36",
+    "modified": "2021-12-27T15:52Z",
+    "published": "2021-12-21T09:15Z",
+    "aliases": [
+        "CVE-2021-24849"
+    ],
+    "summary": "FIXME",
+    "details": "The wcfm_ajax_controller AJAX action of the WCFM Marketplace WordPress plugin before 3.4.12, available to unauthenticated and authenticated user, does not properly sanitise multiple parameters before using them in SQL statements, leading to SQL injections",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wc-multivendor-marketplace"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wc-multivendor-marketplace",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.4.12"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.4.11",
+                "3.4.10",
+                "3.4.9",
+                "3.4.8",
+                "3.4.7",
+                "3.4.6",
+                "3.4.5",
+                "3.4.4",
+                "3.4.3",
+                "3.4.2",
+                "3.4.1",
+                "3.4.0",
+                "3.3.12",
+                "3.3.11",
+                "3.3.10",
+                "3.3.9",
+                "3.3.8",
+                "3.3.7",
+                "3.3.6",
+                "3.3.5",
+                "3.3.4",
+                "3.3.3",
+                "3.3.2",
+                "3.3.1",
+                "3.3.0",
+                "3.2.8",
+                "3.2.7",
+                "3.2.6",
+                "3.2.5",
+                "3.2.4",
+                "3.2.3",
+                "3.2.2",
+                "3.2.1",
+                "3.2.0",
+                "3.1.11",
+                "3.1.10",
+                "3.1.9",
+                "3.1.8",
+                "3.1.7",
+                "3.1.6",
+                "3.1.5",
+                "3.1.4",
+                "3.1.3",
+                "3.1.2",
+                "3.1.1",
+                "3.1.0",
+                "3.0.9",
+                "3.0.8",
+                "3.0.7",
+                "3.0.6",
+                "3.0.5",
+                "3.0.4",
+                "3.0.3",
+                "3.0.2",
+                "3.0.1",
+                "3.0.0",
+                "2.2.7",
+                "2.2.6",
+                "2.2.5",
+                "2.2.4",
+                "2.2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.2.0",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1.0",
+                "2.0.8",
+                "2.0.7",
+                "2.0.6",
+                "2.0.5",
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.2.7",
+                "1.2.6",
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.11",
+                "1.0.10",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24849"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wc-multivendor-marketplace"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wc-multivendor-marketplace/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

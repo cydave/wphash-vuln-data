@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-c5e80ac8d1e8-b40aec78b317",
+    "modified": "2013-10-07T16:29Z",
+    "published": "2012-06-15T19:55Z",
+    "aliases": [
+        "CVE-2012-2633"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in wassup.php in the WassUp plugin before 1.8.3.1 for WordPress allows remote attackers to inject arbitrary web script or HTML via the User-Agent HTTP header.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wassup"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wassup",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.8.3.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.8.3",
+                "1.8.2",
+                "1.8.1",
+                "1.8",
+                "1.7.2.1",
+                "1.7.2",
+                "1.7.1",
+                "1.7",
+                "1.6.4",
+                "1.6.3",
+                "1.6.2",
+                "1.6.1",
+                "1.6",
+                "1.5.1",
+                "1.5",
+                "1.4.9",
+                "1.4.8",
+                "1.4.5",
+                "1.4.3a",
+                "1.4.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2633"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wassup"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wassup/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

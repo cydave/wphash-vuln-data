@@ -1,0 +1,180 @@
+{
+    "id": "WPHSH-445aa312244f-07efb6358fd2",
+    "modified": "2022-01-04T16:12Z",
+    "published": "2021-12-13T11:15Z",
+    "aliases": [
+        "CVE-2021-24747"
+    ],
+    "summary": "FIXME",
+    "details": "The SEO Booster WordPress plugin before 3.8 allows for authenticated SQL injection via the \"fn_my_ajaxified_dataloader_ajax\" AJAX request as the $_REQUEST['order'][0]['dir'] parameter is not properly escaped leading to blind and error-based SQL injections.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "seo-booster"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/seo-booster",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.7",
+                "3.6.20",
+                "3.6.19",
+                "3.6.18",
+                "3.6.17",
+                "3.6.16",
+                "3.6.15",
+                "3.6.14",
+                "3.6.13",
+                "3.6.12",
+                "3.6.11",
+                "3.6.10",
+                "3.6.9",
+                "3.6.8",
+                "3.6.7",
+                "3.6.6",
+                "3.6.5",
+                "3.6.4",
+                "3.6.3",
+                "3.6.2",
+                "3.6.1",
+                "3.6",
+                "3.5.27",
+                "3.5.26",
+                "3.5.25",
+                "3.5.24",
+                "3.5.23",
+                "3.5.22",
+                "3.5.20",
+                "3.5.19",
+                "3.5.18",
+                "3.5.17",
+                "3.5.16",
+                "3.5.15",
+                "3.5.14",
+                "3.5.13",
+                "3.5.12",
+                "3.5.8",
+                "3.5.7",
+                "3.5.5",
+                "3.5.2",
+                "3.4.7",
+                "3.4.5",
+                "3.4.4",
+                "3.4.3",
+                "3.4.2",
+                "3.4.1",
+                "3.4",
+                "3.3.35",
+                "3.3.34",
+                "3.3.33",
+                "3.3.32",
+                "3.3.31",
+                "3.3.30",
+                "3.3.29",
+                "3.3.28",
+                "3.3.27",
+                "3.3.26",
+                "3.3.25",
+                "3.3.24",
+                "3.3.23",
+                "3.3.22",
+                "3.3.21",
+                "3.3.20",
+                "3.3.19",
+                "3.3.18",
+                "3.3.17",
+                "3.3.16",
+                "3.3.15",
+                "3.3.14",
+                "3.3.13",
+                "3.3.12",
+                "3.3.11",
+                "3.3.10",
+                "3.3.9",
+                "3.3.8",
+                "3.3.7",
+                "3.3.6",
+                "3.3.5",
+                "3.3.4",
+                "3.3.3",
+                "3.3.2",
+                "3.3.1",
+                "3.3",
+                "3.2.16",
+                "3.2.15",
+                "3.2.13",
+                "3.2.14",
+                "3.2.12",
+                "3.2.11",
+                "3.2.10",
+                "3.2.9.3",
+                "3.2.9.2",
+                "3.2.9.1",
+                "3.2.9",
+                "3.2.8.1",
+                "3.2.8",
+                "3.2.7.1",
+                "3.2.7",
+                "3.2.6",
+                "3.2.5",
+                "3.2.4",
+                "3.2.2",
+                "3.2.3",
+                "3.2.1",
+                "3.2",
+                "3.1.5",
+                "3.1.4",
+                "3.1.3",
+                "3.1.2",
+                "3.1.1",
+                "3.1",
+                "3.0.9",
+                "3.0.8",
+                "3.0.7",
+                "3.0.6",
+                "3.0.5"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24747"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/seo-booster"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/seo-booster/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2637115"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

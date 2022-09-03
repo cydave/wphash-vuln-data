@@ -1,0 +1,63 @@
+{
+    "id": "WPHSH-ecab43a63b31-2a01bcaa727e",
+    "modified": "2018-01-17T17:38Z",
+    "published": "2018-01-02T03:29Z",
+    "aliases": [
+        "CVE-2017-18015"
+    ],
+    "summary": "FIXME",
+    "details": "The ILLID Share This Image plugin before 1.04 for WordPress has XSS via the sharer.php url parameter.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "share-this-image"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/share-this-image",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.04"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.03",
+                "1.02",
+                "1.01",
+                "1.00"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18015"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/share-this-image"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/share-this-image/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

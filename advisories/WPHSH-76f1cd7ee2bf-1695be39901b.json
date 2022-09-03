@@ -1,0 +1,66 @@
+{
+    "id": "WPHSH-76f1cd7ee2bf-1695be39901b",
+    "modified": "2022-04-21T14:32Z",
+    "published": "2016-10-10T20:59Z",
+    "aliases": [
+        "CVE-2016-1000133"
+    ],
+    "summary": "FIXME",
+    "details": "Reflected XSS in wordpress plugin forget-about-shortcode-buttons v1.1.1",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "forget-about-shortcode-buttons"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/forget-about-shortcode-buttons",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.1",
+                "1.1.0",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1000133"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/forget-about-shortcode-buttons"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/forget-about-shortcode-buttons/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

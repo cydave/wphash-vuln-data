@@ -1,0 +1,77 @@
+{
+    "id": "WPHSH-4a061fc38141-f3b300eeb858",
+    "modified": "2018-01-19T18:13Z",
+    "published": "2018-01-08T07:29Z",
+    "aliases": [
+        "CVE-2018-5287"
+    ],
+    "summary": "FIXME",
+    "details": "The GD Rating System plugin 2.3 for WordPress has Directory Traversal in the wp-admin/admin.php panel parameter for the gd-rating-system-about page.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "gd-rating-system"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/gd-rating-system",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.3.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.3",
+                "2.2",
+                "2.1.1",
+                "2.1",
+                "2.0.2",
+                "2.0.1",
+                "2.0",
+                "1.4",
+                "1.3.1",
+                "1.3",
+                "1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.3",
+                "1.0.2.1",
+                "1.0.2",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5287"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/gd-rating-system"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/gd-rating-system/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-22"
+        ]
+    }
+}

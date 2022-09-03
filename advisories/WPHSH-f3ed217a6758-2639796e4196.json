@@ -1,0 +1,124 @@
+{
+    "id": "WPHSH-f3ed217a6758-2639796e4196",
+    "modified": "2021-05-24T18:52Z",
+    "published": "2021-05-17T17:15Z",
+    "aliases": [
+        "CVE-2021-24292"
+    ],
+    "summary": "FIXME",
+    "details": "The Happy Addons for Elementor WordPress plugin before 2.24.0, Happy Addons Pro for Elementor WordPress plugin before 1.17.0 have a number of widgets that are vulnerable to stored Cross-Site Scripting(XSS) by lower-privileged users such as contributors, all via a similar method: The \u201cCard\u201d widget accepts a \u201ctitle_tag\u201d parameter. Although the element control lists a fixed set of possible html tags, it is possible to send a \u2018save_builder\u2019 request with the \u201cheading_tag\u201d set to \u201cscript\u201d, and the actual \u201ctitle\u201d parameter set to JavaScript to be executed within the script tags added by the \u201cheading_tag\u201d parameter.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "happy-elementor-addons"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/happy-elementor-addons",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.24.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.23.0",
+                "2.22.1",
+                "2.22.0",
+                "2.21.1",
+                "2.21.0",
+                "2.20.0",
+                "2.19.0",
+                "2.18.0",
+                "2.17.1",
+                "2.17.0",
+                "2.16.1",
+                "2.16.0",
+                "2.15.0",
+                "2.14.3",
+                "2.14.2",
+                "2.14.1",
+                "2.14.0",
+                "2.13.3",
+                "2.13.2",
+                "2.13.1",
+                "2.13.0",
+                "2.12.3",
+                "2.12.2",
+                "2.12.1",
+                "2.12.0",
+                "2.11.1",
+                "2.11.0",
+                "2.10.0",
+                "2.9.0",
+                "2.8.1",
+                "2.8.0",
+                "2.7.3",
+                "2.7.2",
+                "2.7.1",
+                "2.7.0",
+                "2.6.1",
+                "2.6.0",
+                "2.5.0",
+                "2.4.2",
+                "2.4.1",
+                "2.4.0",
+                "2.3.0",
+                "2.2.6",
+                "2.2.5",
+                "2.2.4",
+                "2.2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.2.0",
+                "2.1.0",
+                "2.0.0",
+                "1.5.0",
+                "1.4.1",
+                "1.4.0",
+                "1.3.1",
+                "1.3.0",
+                "1.2.1",
+                "1.2.0",
+                "1.1.1",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "0.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24292"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/happy-elementor-addons"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/happy-elementor-addons/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

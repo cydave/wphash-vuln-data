@@ -1,0 +1,122 @@
+{
+    "id": "WPHSH-080bf03b254d-f74fee57e1d9",
+    "modified": "2022-04-04T20:26Z",
+    "published": "2022-03-28T18:15Z",
+    "aliases": [
+        "CVE-2022-0499"
+    ],
+    "summary": "FIXME",
+    "details": "The Sermon Browser WordPress plugin through 0.45.22 does not have CSRF checks in place when uploading Sermon files, and does not validate them in any way, allowing attackers to make a logged in admin upload arbitrary files such as PHP ones.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "sermon-browser"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/sermon-browser",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.45.20"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.45.19",
+                "0.45.18",
+                "0.45.17",
+                "0.45.16",
+                "0.45.15",
+                "0.45.14",
+                "0.45.13",
+                "0.45.12",
+                "0.45.11",
+                "0.45.10",
+                "0.45.9",
+                "0.45.8",
+                "0.45.7",
+                "0.45.6",
+                "0.45.5",
+                "0.45.4",
+                "0.45.3",
+                "0.45.2",
+                "0.45.1",
+                "0.45",
+                "0.44.1",
+                "0.44",
+                "0.43.6",
+                "0.43.5",
+                "0.43.4",
+                "0.43.3",
+                "0.43.2",
+                "0.43.1",
+                "0.43",
+                "0.42.4",
+                "0.42.3",
+                "0.42.2",
+                "0.42.1",
+                "0.41.2",
+                "0.42",
+                "041.2",
+                "0.41.1",
+                "0.41",
+                "0.40.2",
+                "0.40.1",
+                "0.40",
+                "0.39",
+                "0.38",
+                "0.37.3",
+                "0.37.2",
+                "0.37.1",
+                "0.37",
+                "0.36",
+                "0.35",
+                "0.34",
+                "0.33",
+                "0.32",
+                "0.31",
+                "0.30.1",
+                "0.30",
+                "0.25",
+                "0.24",
+                "0.10",
+                "0.20",
+                "0.21",
+                "0.22",
+                "0.23"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0499"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/sermon-browser"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/sermon-browser/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352",
+            "CWE-434"
+        ]
+    }
+}

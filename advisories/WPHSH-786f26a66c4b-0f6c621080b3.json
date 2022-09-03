@@ -1,0 +1,93 @@
+{
+    "id": "WPHSH-786f26a66c4b-0f6c621080b3",
+    "modified": "2020-12-22T20:01Z",
+    "published": "2020-12-21T07:15Z",
+    "aliases": [
+        "CVE-2020-35590"
+    ],
+    "summary": "FIXME",
+    "details": "LimitLoginAttempts.php in the limit-login-attempts-reloaded plugin before 2.17.4 for WordPress allows a bypass of (per IP address) rate limits because the X-Forwarded-For header can be forged. When the plugin is configured to accept an arbitrary header for the client source IP address, a malicious user is not limited to perform a brute force attack, because the client IP header accepts any arbitrary string. When randomizing the header input, the login count does not ever reach the maximum allowed retries.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "limit-login-attempts-reloaded"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/limit-login-attempts-reloaded",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.17.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.17.3",
+                "2.17.2",
+                "2.17.1",
+                "2.17.0",
+                "2.16.0",
+                "2.15.2",
+                "2.15.1",
+                "2.15.0",
+                "2.14.0",
+                "2.13.0",
+                "2.12.3",
+                "2.12.2",
+                "2.12.1",
+                "2.12.0",
+                "2.11.0",
+                "2.10.1",
+                "2.10.0",
+                "2.9.0",
+                "2.8.1",
+                "2.8.0",
+                "2.7.4",
+                "2.7.3",
+                "2.7.2",
+                "2.7.1",
+                "2.7.0",
+                "2.6.3",
+                "2.6.2",
+                "2.6.1",
+                "2.5.0",
+                "2.4.0",
+                "2.3.0",
+                "2.2.0",
+                "2.1.0",
+                "2.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35590"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/limit-login-attempts-reloaded"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/limit-login-attempts-reloaded/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-307"
+        ]
+    }
+}

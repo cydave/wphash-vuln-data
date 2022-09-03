@@ -1,0 +1,70 @@
+{
+    "id": "WPHSH-fd8c75c6d0ed-702df98ad0fe",
+    "modified": "2021-05-11T16:35Z",
+    "published": "2021-05-05T19:15Z",
+    "aliases": [
+        "CVE-2021-24266"
+    ],
+    "summary": "FIXME",
+    "details": "The \u201cThe Plus Addons for Elementor Page Builder Lite\u201d WordPress Plugin before 2.0.6 has four widgets that are vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "the-plus-addons-for-elementor-page-builder"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/the-plus-addons-for-elementor-page-builder",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.0.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.0.5",
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24266"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/the-plus-addons-for-elementor-page-builder"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/the-plus-addons-for-elementor-page-builder/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

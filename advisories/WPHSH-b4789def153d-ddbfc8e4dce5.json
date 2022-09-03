@@ -1,0 +1,78 @@
+{
+    "id": "WPHSH-b4789def153d-ddbfc8e4dce5",
+    "modified": "2021-11-02T21:17Z",
+    "published": "2021-11-01T09:15Z",
+    "aliases": [
+        "CVE-2021-24624"
+    ],
+    "summary": "FIXME",
+    "details": "The MP3 Audio Player for Music, Radio & Podcast by Sonaar WordPress plugin before 2.4.2 does not properly sanitize or escape data in some of its Playlist settings, allowing high privilege users to perform Cross-Site Scripting attacks",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "mp3-music-player-by-sonaar"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/mp3-music-player-by-sonaar",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.4.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.4",
+                "2.3.2",
+                "2.3",
+                "2.2.4",
+                "2.2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.2",
+                "2.1",
+                "2.0.2",
+                "2.0.1",
+                "2.0",
+                "1.5",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24624"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/mp3-music-player-by-sonaar"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/mp3-music-player-by-sonaar/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

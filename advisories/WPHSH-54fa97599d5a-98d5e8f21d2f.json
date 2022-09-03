@@ -1,0 +1,156 @@
+{
+    "id": "WPHSH-54fa97599d5a-98d5e8f21d2f",
+    "modified": "2022-03-11T19:26Z",
+    "published": "2022-03-07T09:15Z",
+    "aliases": [
+        "CVE-2021-24952"
+    ],
+    "summary": "FIXME",
+    "details": "The Conversios.io WordPress plugin before 4.6.2 does not sanitise, validate and escape the sync_progressive_data parameter for the tvcajax_product_sync_bantch_wise AJAX action before using it in a SQL statement, allowing any authenticated user to perform SQL injection attacks.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "enhanced-e-commerce-for-woocommerce-store"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/enhanced-e-commerce-for-woocommerce-store",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.6.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.6.1",
+                "4.6.0",
+                "4.5.9",
+                "4.5.8",
+                "4.5.7",
+                "4.5.6",
+                "4.5.5",
+                "4.5.4",
+                "4.5.3",
+                "4.5.2",
+                "4.5.1",
+                "4.5.0",
+                "4.4.1",
+                "4.4.0",
+                "4.3.5",
+                "4.3.4",
+                "4.3.3",
+                "4.3.2",
+                "4.3.1",
+                "4.3.0",
+                "4.2.1",
+                "4.2.0",
+                "4.1.3",
+                "4.1.2",
+                "4.1.1",
+                "4.1.0",
+                "4.0.1",
+                "4.0",
+                "3.1.3",
+                "3.1.2",
+                "3.1.1",
+                "3.1.0",
+                "3.0.5",
+                "3.0.4",
+                "3.0.3",
+                "3.0.2",
+                "3.0.1",
+                "3.0.0",
+                "2.3.6.1",
+                "2.3.5",
+                "2.2.2",
+                "2.3.6",
+                "2.3.4",
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.3.0",
+                "2.2.1",
+                "2.2.0",
+                "2.1.9",
+                "2.1.8",
+                "2.1.7",
+                "2.1.6",
+                "2.1.5",
+                "2.1.4",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1.0",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.2.2",
+                "1.2.1.2",
+                "1.2.1.1",
+                "1.2.1",
+                "1.2.0.1",
+                "1.2.0",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.21.1",
+                "1.0.21",
+                "1.0.20",
+                "1.0.18",
+                "1.0.19",
+                "1.0.16",
+                "1.0.15",
+                "1.0.14",
+                "1.0.13",
+                "1.0.12",
+                "1.0.11",
+                "1.0.10",
+                "1.0.9.1",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6.1",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0",
+                "2.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24952"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/enhanced-e-commerce-for-woocommerce-store"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/enhanced-e-commerce-for-woocommerce-store/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

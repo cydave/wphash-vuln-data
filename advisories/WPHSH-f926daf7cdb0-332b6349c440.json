@@ -1,0 +1,92 @@
+{
+    "id": "WPHSH-f926daf7cdb0-332b6349c440",
+    "modified": "2022-05-24T15:36Z",
+    "published": "2022-05-16T15:15Z",
+    "aliases": [
+        "CVE-2022-1455"
+    ],
+    "summary": "FIXME",
+    "details": "The Call Now Button WordPress plugin before 1.1.2 does not escape a parameter before outputting it back in an attribute of a hidden input, leading to a Reflected Cross-Site Scripting when the premium is enabled",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "call-now-button"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/call-now-button",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.1",
+                "1.1.0",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0",
+                "0.5.0",
+                "0.4.7",
+                "0.4.6",
+                "0.4.5",
+                "0.4.4",
+                "0.4.3",
+                "0.4.2",
+                "0.4.1",
+                "0.4.0",
+                "0.3.6",
+                "0.3.5",
+                "0.3.4",
+                "0.3.3",
+                "0.3.2",
+                "0.3.1",
+                "0.3.0",
+                "0.2.1",
+                "0.2.0",
+                "0.1.3",
+                "0.1.2",
+                "0.1.1",
+                "0.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1455"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/call-now-button"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/call-now-button/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

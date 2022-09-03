@@ -1,0 +1,119 @@
+{
+    "id": "WPHSH-c2f2736b88f4-c75e59dc1e79",
+    "modified": "2021-12-02T20:59Z",
+    "published": "2021-11-26T17:15Z",
+    "aliases": [
+        "CVE-2021-36919"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple Authenticated Reflected Cross-Site Scripting (XSS) vulnerabilities in WordPress Awesome Support plugin (versions <= 6.0.6), vulnerable parameters (&id, &assignee).",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "awesome-support"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/awesome-support",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.0.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "6.0.6",
+                "6.0.5",
+                "6.0.3",
+                "6.0.1",
+                "6.0.0",
+                "5.8.2",
+                "5.8.0",
+                "5.7.1",
+                "5.7.0",
+                "5.5.2",
+                "5.5.1",
+                "5.5.0",
+                "5.1.1",
+                "5.1.0",
+                "5.0.0",
+                "4.3.5",
+                "4.3.4",
+                "4.3.3",
+                "4.3.2",
+                "4.3.1",
+                "4.3.0",
+                "4.2.1",
+                "4.1.0",
+                "4.0.6",
+                "4.0.5",
+                "4.0.4",
+                "4.0.3",
+                "4.0.2",
+                "4.0.1",
+                "4.0.0",
+                "3.3.4",
+                "3.3.3",
+                "3.3.2",
+                "3.3.1",
+                "3.3.0",
+                "3.2.9",
+                "3.2.8",
+                "3.2.7",
+                "3.2.6",
+                "3.2.5",
+                "3.2.4",
+                "3.2.3",
+                "3.2.2",
+                "3.2.1",
+                "3.2.0",
+                "3.1.12",
+                "3.1.11",
+                "3.1.10",
+                "3.1.9",
+                "3.1.8",
+                "3.1.7",
+                "3.1.6",
+                "3.1.5",
+                "3.1.4",
+                "3.1.3",
+                "3.1.2",
+                "3.1.1",
+                "3.1.0",
+                "3.0.1",
+                "3.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36919"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/awesome-support"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/awesome-support/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

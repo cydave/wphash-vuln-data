@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-b30e317b25ad-59af5a364307",
+    "modified": "2019-08-26T16:34Z",
+    "published": "2019-08-22T13:15Z",
+    "aliases": [
+        "CVE-2017-18573"
+    ],
+    "summary": "FIXME",
+    "details": "The simple-login-log plugin before 1.1.2 for WordPress has SQL injection.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "simple-login-log"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/simple-login-log",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.1",
+                "1.1.0",
+                "1.0",
+                "0.9.6",
+                "0.9.5",
+                "0.9.4",
+                "0.9.3",
+                "0.9.2",
+                "0.9",
+                "0.8",
+                "0.7",
+                "0.5",
+                "0.3",
+                "0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18573"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/simple-login-log"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/simple-login-log/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

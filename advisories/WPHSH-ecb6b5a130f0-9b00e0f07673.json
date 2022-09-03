@@ -1,0 +1,60 @@
+{
+    "id": "WPHSH-ecb6b5a130f0-9b00e0f07673",
+    "modified": "2019-07-26T15:02Z",
+    "published": "2017-12-27T19:29Z",
+    "aliases": [
+        "CVE-2015-7666"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple cross-site scripting (XSS) vulnerabilities in the (1) cp_updateMessageItem and (2) cp_deleteMessageItem functions in cp_ppp_admin_int_message_list.inc.php in the Payment Form for PayPal Pro plugin before 1.0.2 for WordPress allow remote attackers to inject arbitrary web script or HTML via the cal parameter.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "payment-form-for-paypal-pro"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/payment-form-for-paypal-pro",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7666"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/payment-form-for-paypal-pro"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/payment-form-for-paypal-pro/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

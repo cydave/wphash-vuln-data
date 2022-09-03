@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-53de422a6c01-a4ff3f967e2c",
+    "modified": "2022-03-11T17:51Z",
+    "published": "2022-03-07T09:15Z",
+    "aliases": [
+        "CVE-2021-24777"
+    ],
+    "summary": "FIXME",
+    "details": "The view submission functionality in the Hotscot Contact Form WordPress plugin before 1.3 makes a get request with the sub_id parameter which not sanitised, escaped or validated before inserting to a SQL statement, leading to an SQL injection.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "hotscot-contact-form"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/hotscot-contact-form",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24777"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/hotscot-contact-form"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/hotscot-contact-form/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

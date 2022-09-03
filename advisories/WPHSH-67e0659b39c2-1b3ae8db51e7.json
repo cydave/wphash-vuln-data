@@ -1,0 +1,66 @@
+{
+    "id": "WPHSH-67e0659b39c2-1b3ae8db51e7",
+    "modified": "2022-08-08T11:42:02Z",
+    "published": "2022-08-08T11:42:02Z",
+    "aliases": [
+        "CVE-2022-2638"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "export-all-urls"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/export-all-urls",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.2",
+                "4.3",
+                "4.1",
+                "4.0",
+                "3.6",
+                "3.5",
+                "3.0",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2638"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/export-all-urls"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/export-all-urls/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

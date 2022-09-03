@@ -1,0 +1,87 @@
+{
+    "id": "WPHSH-8df0e28a76db-22b70977e96a",
+    "modified": "2021-11-28T23:12Z",
+    "published": "2021-10-25T14:15Z",
+    "aliases": [
+        "CVE-2021-24779"
+    ],
+    "summary": "FIXME",
+    "details": "The WP Debugging WordPress plugin before 2.11.0 has its update_settings() function hooked to admin_init and is missing any authorisation and CSRF checks, as a result, the settings can be updated by unauthenticated users.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-debugging"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-debugging",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.11.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.10.2",
+                "2.10.1",
+                "2.10.0",
+                "2.9.3",
+                "2.9.2",
+                "2.9.1",
+                "2.9.0",
+                "2.8.0",
+                "2.7.2",
+                "2.7.1",
+                "2.7.0",
+                "2.6.1",
+                "2.6.0",
+                "2.5.8",
+                "2.5.7",
+                "2.5.6",
+                "2.5.5",
+                "2.5.4",
+                "2.5.3",
+                "2.5.2",
+                "2.5.1",
+                "2.5.0",
+                "2.4.3",
+                "2.4.2",
+                "2.4.1",
+                "2.4.0",
+                "2.3.0",
+                "2.2.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24779"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-debugging"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-debugging/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-862"
+        ]
+    }
+}

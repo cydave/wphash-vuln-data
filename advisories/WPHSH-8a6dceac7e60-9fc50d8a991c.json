@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-8a6dceac7e60-9fc50d8a991c",
+    "modified": "2017-09-08T01:29Z",
+    "published": "2014-12-24T18:59Z",
+    "aliases": [
+        "CVE-2014-9413"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple cross-site request forgery (CSRF) vulnerabilities in the IP Ban (simple-ip-ban) plugin 1.2.3 for WordPress allow remote attackers to hijack the authentication of administrators for requests that conduct cross-site scripting (XSS) attacks via the (1) ip_list, (2) user_agent_list, or (3) redirect_url parameter in the simple-ip-ban page to wp-admin/options-general.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "simple-ip-ban"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/simple-ip-ban",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.8",
+                "1.1.1",
+                "1.1.0",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9413"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/simple-ip-ban"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/simple-ip-ban/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "id": "WPHSH-9a022cbe6c81-d91e6a82314c",
+    "modified": "2021-10-18T12:06Z",
+    "published": "2021-05-05T19:15Z",
+    "aliases": [
+        "CVE-2021-24274"
+    ],
+    "summary": "FIXME",
+    "details": "The Ultimate Maps by Supsystic WordPress plugin before 1.2.5 did not sanitise the tab parameter of its options page before outputting it in an attribute, leading to a reflected Cross-Site Scripting issue",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "ultimate-maps-by-supsystic"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/ultimate-maps-by-supsystic",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.17",
+                "1.1.16",
+                "1.1.14",
+                "1.1.13",
+                "1.1.12",
+                "1.1.11",
+                "1.1.10",
+                "1.0.8"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24274"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/ultimate-maps-by-supsystic"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/ultimate-maps-by-supsystic/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "id": "WPHSH-b416f12ff9f2-8a2ffb4e2525",
+    "modified": "2022-03-12T04:10Z",
+    "published": "2022-03-10T17:42Z",
+    "aliases": [
+        "CVE-2021-33852"
+    ],
+    "summary": "FIXME",
+    "details": "A cross-site scripting (XSS) attack can cause arbitrary code (JavaScript) to run in a user's browser and can use an application as the vehicle for the attack. The XSS payload given in the \"Duplicate Title\" text box executes whenever the user opens the Settings Page of the Post Duplicator Plugin or the application root page after duplicating any of the existing posts.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "post-duplicator"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/post-duplicator",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.27"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.26",
+                "2.25",
+                "2.24",
+                "2.23",
+                "2.22",
+                "2.21",
+                "2.20",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.0",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33852"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/post-duplicator"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/post-duplicator/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

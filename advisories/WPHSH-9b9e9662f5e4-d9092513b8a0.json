@@ -1,0 +1,77 @@
+{
+    "id": "WPHSH-9b9e9662f5e4-d9092513b8a0",
+    "modified": "2018-10-09T19:50Z",
+    "published": "2014-09-11T15:55Z",
+    "aliases": [
+        "CVE-2014-5460"
+    ],
+    "summary": "FIXME",
+    "details": "Unrestricted file upload vulnerability in the Tribulant Slideshow Gallery plugin before 1.4.7 for WordPress allows remote authenticated users to execute arbitrary code by uploading a PHP file, then accessing it via a direct request to the file in wp-content/uploads/slideshow-gallery/.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "slideshow-gallery"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/slideshow-gallery",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4.6",
+                "1.4.5",
+                "1.4.4.3",
+                "1.4.4.2",
+                "1.4.4.1",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3.1",
+                "1.3",
+                "1.2.3.2",
+                "1.2.3",
+                "1.2.2.1",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5460"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/slideshow-gallery"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/slideshow-gallery/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-20"
+        ]
+    }
+}

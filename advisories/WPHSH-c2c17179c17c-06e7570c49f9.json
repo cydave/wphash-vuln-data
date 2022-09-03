@@ -1,0 +1,60 @@
+{
+    "id": "WPHSH-c2c17179c17c-06e7570c49f9",
+    "modified": "2021-08-23T17:08Z",
+    "published": "2021-08-16T11:15Z",
+    "aliases": [
+        "CVE-2021-24538"
+    ],
+    "summary": "FIXME",
+    "details": "The Current Book WordPress plugin through 1.0.1 does not sanitize user input when an authenticated user adds Author or Book Title, then does not escape these values when outputting to the browser leading to an Authenticated Stored XSS Cross-Site Scripting issue.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "current-book"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/current-book",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24538"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/current-book"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/current-book/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

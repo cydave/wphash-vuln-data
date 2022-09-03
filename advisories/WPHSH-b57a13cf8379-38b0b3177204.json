@@ -1,0 +1,116 @@
+{
+    "id": "WPHSH-b57a13cf8379-38b0b3177204",
+    "modified": "2021-12-07T13:55Z",
+    "published": "2021-12-06T16:15Z",
+    "aliases": [
+        "CVE-2021-24930"
+    ],
+    "summary": "FIXME",
+    "details": "The WordPress Online Booking and Scheduling Plugin WordPress plugin before 20.3.1 does not escape the Staff Full Name field before outputting it back in a page, which could lead to a Stored Cross-Site Scripting issue",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "bookly-responsive-appointment-booking-tool"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/bookly-responsive-appointment-booking-tool",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "20.3.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "20.3",
+                "20.2",
+                "20.1.1",
+                "20.1",
+                "20.0",
+                "19.9.1",
+                "19.9",
+                "19.8",
+                "19.7",
+                "19.6.1",
+                "19.6",
+                "19.5",
+                "19.4",
+                "19.3",
+                "19.2",
+                "19.1",
+                "19.0",
+                "18.9",
+                "18.8",
+                "18.7",
+                "18.6",
+                "18.5",
+                "18.4",
+                "18.3",
+                "18.2",
+                "18.1",
+                "18.0",
+                "17.9",
+                "17.8",
+                "17.7",
+                "17.6",
+                "17.5",
+                "17.4",
+                "17.3",
+                "17.2",
+                "17.1",
+                "17.0",
+                "16.9",
+                "16.8",
+                "16.7",
+                "16.6",
+                "16.5",
+                "16.4",
+                "16.3",
+                "16.2",
+                "16.1",
+                "16.0",
+                "14.5.1",
+                "14.5",
+                "13.2",
+                "13.1",
+                "13.0",
+                "11.3.1",
+                "11.3",
+                "7.6.1",
+                "3.3",
+                "2.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24930"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/bookly-responsive-appointment-booking-tool"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/bookly-responsive-appointment-booking-tool/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

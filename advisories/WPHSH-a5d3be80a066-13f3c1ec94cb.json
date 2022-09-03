@@ -1,0 +1,104 @@
+{
+    "id": "WPHSH-a5d3be80a066-13f3c1ec94cb",
+    "modified": "2022-07-06T17:16Z",
+    "published": "2022-06-27T09:15Z",
+    "aliases": [
+        "CVE-2022-1953"
+    ],
+    "summary": "FIXME",
+    "details": "The Product Configurator for WooCommerce WordPress plugin before 1.2.32 suffers from an arbitrary file deletion vulnerability via an AJAX action, accessible to unauthenticated users, which accepts user input that is being used in a path and passed to unlink() without validation first",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "product-configurator-for-woocommerce"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/product-configurator-for-woocommerce",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.32"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.31",
+                "1.2.30",
+                "1.2.29",
+                "1.2.28",
+                "1.2.27",
+                "1.2.26",
+                "1.2.25",
+                "1.2.24",
+                "1.2.23",
+                "1.2.22",
+                "1.2.21",
+                "1.2.20",
+                "1.2.19",
+                "1.2.18",
+                "1.2.17",
+                "1.2.16",
+                "1.2.15",
+                "1.2.14",
+                "1.2.13",
+                "1.2.12",
+                "1.2.11",
+                "1.2.10",
+                "1.2.9",
+                "1.2.8",
+                "1.2.7",
+                "1.2.6",
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.10",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1953"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/product-configurator-for-woocommerce"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/product-configurator-for-woocommerce/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-22"
+        ]
+    }
+}

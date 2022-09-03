@@ -1,0 +1,61 @@
+{
+    "id": "WPHSH-f9587b1c99c0-f3f0173483aa",
+    "modified": "2022-01-04T16:12Z",
+    "published": "2021-11-08T18:15Z",
+    "aliases": [
+        "CVE-2021-24645"
+    ],
+    "summary": "FIXME",
+    "details": "The Booking.com Product Helper WordPress plugin before 1.0.2 does not sanitize and escape Product Code when creating Product Shortcode, which could allow high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "bookingcom-product-helper"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/bookingcom-product-helper",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24645"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/bookingcom-product-helper"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/bookingcom-product-helper/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

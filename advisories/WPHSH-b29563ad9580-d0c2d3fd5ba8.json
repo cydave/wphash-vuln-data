@@ -1,0 +1,72 @@
+{
+    "id": "WPHSH-b29563ad9580-d0c2d3fd5ba8",
+    "modified": "2014-09-27T02:58Z",
+    "published": "2014-09-26T10:55Z",
+    "aliases": [
+        "CVE-2014-5324"
+    ],
+    "summary": "FIXME",
+    "details": "Unrestricted file upload vulnerability in the N-Media file uploader plugin before 3.4 for WordPress allows remote authenticated users to execute arbitrary PHP code by leveraging Author privileges to store a file.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "nmedia-user-file-uploader"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/nmedia-user-file-uploader",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.4",
+                "3.3",
+                "3.2",
+                "3.1",
+                "3.0",
+                "nm-file-upload-manager-v-8.0",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5324"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/nmedia-user-file-uploader"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/nmedia-user-file-uploader/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-94"
+        ]
+    }
+}

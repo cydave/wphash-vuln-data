@@ -1,0 +1,63 @@
+{
+    "id": "WPHSH-b491527c4535-a5e4a052ccd6",
+    "modified": "2019-09-26T18:28Z",
+    "published": "2019-09-26T01:15Z",
+    "aliases": [
+        "CVE-2015-9424"
+    ],
+    "summary": "FIXME",
+    "details": "The multicons plugin before 3.0 for WordPress has CSRF with resultant XSS via the wp-admin/options-general.php?page=multicons%2Fmulticons.php global_url or admin_url parameter.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "multicons"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/multicons",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.1",
+                "2.0",
+                "1.2",
+                "Multicons 1.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9424"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/multicons"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/multicons/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

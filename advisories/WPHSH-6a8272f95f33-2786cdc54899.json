@@ -1,0 +1,55 @@
+{
+    "id": "WPHSH-6a8272f95f33-2786cdc54899",
+    "modified": "2014-01-17T18:35Z",
+    "published": "2014-01-16T21:55Z",
+    "aliases": [
+        "CVE-2012-6627"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in admin/test_mail.php in the Newsletter Manager plugin 1.0.2 and earlier for WordPress allows remote attackers to inject arbitrary web script or HTML via the id parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "newsletter-manager"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/newsletter-manager",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-6627"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/newsletter-manager"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/newsletter-manager/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "id": "WPHSH-f3911a0c676f-070d9c9693f6",
+    "modified": "2021-09-15T16:28Z",
+    "published": "2021-09-10T14:15Z",
+    "aliases": [
+        "CVE-2021-38337"
+    ],
+    "summary": "FIXME",
+    "details": "The RSVPMaker Excel WordPress plugin is vulnerable to Reflected Cross-Site Scripting due to a reflected $_SERVER[\"PHP_SELF\"] value in the ~/phpexcel/PHPExcel/Shared/JAMA/docs/download.php file which allows attackers to inject arbitrary web scripts, in versions up to and including 1.1.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "rsvpmaker-excel"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/rsvpmaker-excel",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38337"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/rsvpmaker-excel"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/rsvpmaker-excel/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

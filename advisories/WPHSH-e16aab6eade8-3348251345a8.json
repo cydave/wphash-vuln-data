@@ -1,0 +1,107 @@
+{
+    "id": "WPHSH-e16aab6eade8-3348251345a8",
+    "modified": "2021-08-19T16:27Z",
+    "published": "2015-05-27T18:59Z",
+    "aliases": [
+        "CVE-2015-4066"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple SQL injection vulnerabilities in admin/handlers.php in the GigPress plugin before 2.3.9 for WordPress allow remote authenticated users to execute arbitrary SQL commands via the (1) show_artist_id or (2) show_venue_id parameter in an add action in the gigpress.php page to wp-admin/admin.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "gigpress"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/gigpress",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.3.9"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.3.8",
+                "2.3.7",
+                "2.3.6",
+                "2.3.5",
+                "2.3.4",
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.3",
+                "2.2.9.3",
+                "2.2.9.2",
+                "2.2.9.1",
+                "2.2.8",
+                "2.2.7",
+                "2.2.6",
+                "2.2.5",
+                "2.2.3",
+                "2.2.2",
+                "2.1.14",
+                "2.1.13",
+                "2.1.8",
+                "2.1.7",
+                "2.1.6",
+                "2.1.5",
+                "2.1.4",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0",
+                "1.4.9",
+                "1.4.8",
+                "1.4.7",
+                "1.4.6",
+                "1.4.5",
+                "1.4.4",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3",
+                "1.2.7",
+                "1.2.6",
+                "1.2.2",
+                "1.2.1",
+                "1.0",
+                "1.1.1",
+                "1.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4066"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/gigpress"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/gigpress/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

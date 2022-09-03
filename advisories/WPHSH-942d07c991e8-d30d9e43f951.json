@@ -1,0 +1,69 @@
+{
+    "id": "WPHSH-942d07c991e8-d30d9e43f951",
+    "modified": "2022-07-18T10:37Z",
+    "published": "2022-07-17T11:15Z",
+    "aliases": [
+        "CVE-2022-2187"
+    ],
+    "summary": "FIXME",
+    "details": "The Contact Form 7 Captcha WordPress plugin before 0.1.2 does not escape the $_SERVER['REQUEST_URI'] parameter before outputting it back in an attribute, which could lead to Reflected Cross-Site Scripting in old web browsers",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "contact-form-7-simple-recaptcha"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/contact-form-7-simple-recaptcha",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.1.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.1.1",
+                "0.1.0",
+                "0.0.9",
+                "0.0.8",
+                "0.0.7",
+                "0.0.6",
+                "0.0.5",
+                "0.0.4",
+                "0.0.3",
+                "0.0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2187"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/contact-form-7-simple-recaptcha"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/contact-form-7-simple-recaptcha/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

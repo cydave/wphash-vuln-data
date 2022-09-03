@@ -1,0 +1,87 @@
+{
+    "id": "WPHSH-7fba41aa1c8e-afe15e2228b3",
+    "modified": "2021-11-02T17:16Z",
+    "published": "2021-11-01T09:15Z",
+    "aliases": [
+        "CVE-2021-24773"
+    ],
+    "summary": "FIXME",
+    "details": "The WordPress Download Manager WordPress plugin before 3.2.16 does not escape some of the Download settings when outputting them, allowing high privilege users to perform XSS attacks even when the unfiltered_html capability is disallowed",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "download-manager"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/download-manager",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.2.16"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.2.14",
+                "3.2.13",
+                "3.2.04",
+                "3.1.28",
+                "3.1.27",
+                "3.1.26",
+                "3.1.25",
+                "3.1.24",
+                "3.1.23",
+                "3.1.22",
+                "3.1.18",
+                "3.1.17",
+                "3.1.14",
+                "3.1.12",
+                "3.1.11",
+                "3.1.08",
+                "3.1.07",
+                "3.1.05",
+                "3.0.4",
+                "2.9.99",
+                "2.8.3",
+                "2.6.96",
+                "2.6.2",
+                "2.5.97",
+                "2.5.96",
+                "2.3.0",
+                "2.1.3",
+                "2.1.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24773"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/download-manager"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/download-manager/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

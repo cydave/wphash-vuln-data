@@ -1,0 +1,140 @@
+{
+    "id": "WPHSH-a9c8a1c51e50-440c0675bfe2",
+    "modified": "2022-03-11T17:35Z",
+    "published": "2022-03-07T09:15Z",
+    "aliases": [
+        "CVE-2022-0442"
+    ],
+    "summary": "FIXME",
+    "details": "The UsersWP WordPress plugin before 1.2.3.1 is missing access controls when updating a user avatar, and does not make sure file names for user avatars are unique, allowing a logged in user to overwrite another users avatar.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "userswp"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/userswp",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.3.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.3",
+                "1.2.2.37",
+                "1.2.2.36",
+                "1.2.2.35",
+                "1.2.2.34",
+                "1.2.2.33",
+                "1.2.2.32",
+                "1.2.2.31",
+                "1.2.2.30",
+                "1.2.2.29",
+                "1.2.2.28",
+                "1.2.2.27",
+                "1.2.2.26",
+                "1.2.2.25",
+                "1.2.2.24",
+                "1.2.2.23",
+                "1.2.2.22",
+                "1.2.2.21",
+                "1.2.2.20",
+                "1.2.2.19",
+                "1.2.2.18",
+                "1.2.2.17",
+                "1.2.2.16",
+                "1.2.2.15",
+                "1.2.2.14",
+                "1.2.2.13",
+                "1.2.2.12",
+                "1.2.2.11",
+                "1.2.2.10",
+                "1.2.2.9",
+                "1.2.2.8",
+                "1.2.2.7",
+                "1.2.2.6",
+                "1.2.2.5",
+                "1.2.2.4",
+                "1.2.2.3",
+                "1.2.2.2",
+                "1.2.2.1",
+                "1.2.2",
+                "1.2.1.9",
+                "1.2.1.8",
+                "1.2.1.7",
+                "1.2.1.6",
+                "1.2.1.5",
+                "1.2.1.4",
+                "1.2.1.3",
+                "1.2.1.2",
+                "1.2.1.1",
+                "1.2.1",
+                "1.2.0.12",
+                "1.2.0.11",
+                "1.2.0.10",
+                "1.2.0.9",
+                "1.2.0.8",
+                "1.2.0.7",
+                "1.2.0.6",
+                "1.2.0.5",
+                "1.2.0.4",
+                "1.2.0.3",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.23",
+                "1.0.22",
+                "1.0.21",
+                "1.0.20",
+                "1.0.19",
+                "1.0.18",
+                "1.0.17",
+                "1.0.16",
+                "1.0.15",
+                "1.0.14",
+                "1.0.13",
+                "1.0.12",
+                "1.0.11",
+                "1.0.10",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0442"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/userswp"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/userswp/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-863"
+        ]
+    }
+}

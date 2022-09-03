@@ -1,0 +1,78 @@
+{
+    "id": "WPHSH-dd23c56f2315-15f56c47d73a",
+    "modified": "2022-08-02T16:15Z",
+    "published": "2021-06-14T17:15Z",
+    "aliases": [
+        "CVE-2021-32682"
+    ],
+    "summary": "FIXME",
+    "details": "elFinder is an open-source file manager for web, written in JavaScript using jQuery UI. Several vulnerabilities affect elFinder 2.1.58. These vulnerabilities can allow an attacker to execute arbitrary code and commands on the server hosting the elFinder PHP connector, even with minimal configuration. The issues were patched in version 2.1.59. As a workaround, ensure the connector is not exposed without authentication.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "file-manager"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/file-manager",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.2.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "5.2.2",
+                "5.2.1",
+                "5.2.0",
+                "5.1.2",
+                "5.1.1",
+                "5.0.2",
+                "4.1.6",
+                "4.1.3",
+                "4.1.2",
+                "4.1.1",
+                "4.1.0",
+                "4.0.4",
+                "4.0.3",
+                "3.1.0",
+                "3.0.1",
+                "3.0.0",
+                "2.2.4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32682"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/file-manager"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/file-manager/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-78",
+            "CWE-918",
+            "CWE-22"
+        ]
+    }
+}

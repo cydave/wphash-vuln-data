@@ -1,0 +1,84 @@
+{
+    "id": "WPHSH-1a796bbe68a3-b002aecb2b46",
+    "modified": "2019-08-27T09:15Z",
+    "published": "2019-08-21T19:15Z",
+    "aliases": [
+        "CVE-2014-10377"
+    ],
+    "summary": "FIXME",
+    "details": "The cforms2 plugin before 13.2 for WordPress has XSS in lib_ajax.php.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "cforms2"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/cforms2",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "13.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "13.1",
+                "13.0",
+                "12.2",
+                "12.1",
+                "12.0",
+                "11.9",
+                "11.8",
+                "11.7.3",
+                "11.7.2",
+                "11.7.1",
+                "11.7",
+                "11.6.1",
+                "11.6",
+                "11.5",
+                "11.4",
+                "11.3",
+                "11.2",
+                "11.1",
+                "11.0",
+                "10.6",
+                "10.5.2",
+                "10.5.1",
+                "10.5",
+                "10.4",
+                "10.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-10377"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/cforms2"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/cforms2/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

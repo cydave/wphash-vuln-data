@@ -1,0 +1,98 @@
+{
+    "id": "WPHSH-02c9d6410bc8-65f958ead117",
+    "modified": "2013-05-01T04:00Z",
+    "published": "2013-04-25T23:55Z",
+    "aliases": [
+        "CVE-2013-1949"
+    ],
+    "summary": "FIXME",
+    "details": "Social Media Widget (social-media-widget) plugin 4.0 for WordPress contains an externally introduced modification (Trojan Horse), which allows remote attackers to force the upload of arbitrary files.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "social-media-widget"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/social-media-widget",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.0.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.0",
+                "3.3",
+                "3.2",
+                "3.1",
+                "3.0.3",
+                "3.0.2",
+                "3.0.1",
+                "3.0",
+                "2.9.8",
+                "2.9.7",
+                "2.9.6",
+                "2.9.5",
+                "2.9.4",
+                "2.9.3",
+                "2.9.2",
+                "2.9.1",
+                "2.9",
+                "2.8.2",
+                "2.8.1",
+                "2.8",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.5.5",
+                "2.4.1",
+                "2.4",
+                "2.3.5",
+                "2.3",
+                "2.2.1",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.4",
+                "1.3",
+                "1.3.1",
+                "1.2.8",
+                "1.2.7",
+                "1.2.6",
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1949"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/social-media-widget"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/social-media-widget/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

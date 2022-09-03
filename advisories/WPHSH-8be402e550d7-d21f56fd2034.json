@@ -1,0 +1,75 @@
+{
+    "id": "WPHSH-8be402e550d7-d21f56fd2034",
+    "modified": "2021-07-15T14:33Z",
+    "published": "2021-07-12T20:15Z",
+    "aliases": [
+        "CVE-2021-24408"
+    ],
+    "summary": "FIXME",
+    "details": "The Prismatic WordPress plugin before 2.8 does not sanitise or validate some of its shortcode parameters, allowing users with a role as low as Contributor to set Cross-Site payload in them. A post made by a contributor would still have to be approved by an admin to have the XSS trigger able in the frontend, however, higher privilege users, such as editor could exploit this without the need of approval, and even when the blog disallows the unfiltered_html capability.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "prismatic"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/prismatic",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6.1",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24408"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/prismatic"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/prismatic/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

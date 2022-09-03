@@ -1,0 +1,53 @@
+{
+    "id": "WPHSH-ab5ec7ee29a5-72fdf16dcce4",
+    "modified": "2022-07-08T14:11:20Z",
+    "published": "2022-07-08T14:11:20Z",
+    "aliases": [
+        "CVE-2022-2245"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "counter-box"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/counter-box",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2245"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/counter-box"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/counter-box/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "id": "WPHSH-6f9928d205fe-d46b6de0d6de",
+    "modified": "2022-07-01T10:15Z",
+    "published": "2022-05-09T17:15Z",
+    "aliases": [
+        "CVE-2022-0424"
+    ],
+    "summary": "FIXME",
+    "details": "The Popup by Supsystic WordPress plugin before 1.10.9 does not have any authentication and authorisation in an AJAX action, allowing unauthenticated attackers to call it and get the email addresses of subscribed users",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "popup-by-supsystic"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/popup-by-supsystic",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.10.9"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.10.8",
+                "1.10.7",
+                "1.10.6",
+                "1.10.5",
+                "1.10.4",
+                "1.10.3",
+                "1.10.2",
+                "1.10.1",
+                "1.9.56",
+                "1.9.42",
+                "1.9.44",
+                "1.9.38",
+                "1.9.20",
+                "1.8.0",
+                "1.8.3",
+                "1.8.2",
+                "1.8.1",
+                "1.8.4",
+                "1.8.6",
+                "1.8.5",
+                "1.8.8",
+                "1.8.7",
+                "1.8.9",
+                "1.9.0",
+                "1.9.2",
+                "1.9.1",
+                "1.9.3",
+                "1.9.4",
+                "1.9.5"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0424"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/popup-by-supsystic"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/popup-by-supsystic/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-306"
+        ]
+    }
+}

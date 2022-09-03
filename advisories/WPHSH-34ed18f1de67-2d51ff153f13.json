@@ -1,0 +1,98 @@
+{
+    "id": "WPHSH-34ed18f1de67-2d51ff153f13",
+    "modified": "2022-02-22T10:16Z",
+    "published": "2021-01-15T17:15Z",
+    "aliases": [
+        "CVE-2020-35749"
+    ],
+    "summary": "FIXME",
+    "details": "Directory traversal vulnerability in class-simple_job_board_resume_download_handler.php in the Simple Board Job plugin 2.9.3 and earlier for WordPress allows remote attackers to read arbitrary files via the sjb_file parameter to wp-admin/post.php.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "simple-job-board"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/simple-job-board",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.9.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.9.3",
+                "2.9.2",
+                "2.9.1",
+                "2.9.0",
+                "2.8.3",
+                "2.8.2",
+                "2.8.1",
+                "2.8.0",
+                "2.7.4",
+                "2.7.3",
+                "2.7.2",
+                "7.2.2",
+                "2.7.1",
+                "2.7.0",
+                "2.6.0",
+                "2.5.0",
+                "2.4.6",
+                "2.4.5",
+                "2.4.4",
+                "2.4.3",
+                "2.4.2",
+                "2.4.1",
+                "2.4.0",
+                "2.3.2",
+                "2.3.1",
+                "2.3.0",
+                "2.2.4",
+                "2.2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.2.0",
+                "2.1.4",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1.0",
+                "2.0",
+                "1.0",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35749"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/simple-job-board"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/simple-job-board/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-22"
+        ]
+    }
+}

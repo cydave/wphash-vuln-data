@@ -1,0 +1,133 @@
+{
+    "id": "WPHSH-5a3b0a4b406d-f522de62cab8",
+    "modified": "2011-05-31T04:00Z",
+    "published": "2011-04-07T14:23Z",
+    "aliases": [
+        "CVE-2010-4779"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in lib/includes/auth.inc.php in the WPtouch plugin 1.9.19.4 and 1.9.20 for WordPress allows remote attackers to inject arbitrary web script or HTML via the wptouch_settings parameter to include/adsense-new.php.  NOTE: some of these details are obtained from third party information.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wptouch"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wptouch",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.9.20"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.9.19.5",
+                "1.9.19.4",
+                "1.9.19.3",
+                "1.9.19.2",
+                "1.9.19.1",
+                "1.9.19",
+                "1.9.18",
+                "1.9.17",
+                "1.9.16",
+                "1.9.15",
+                "1.9.14",
+                "1.9.13",
+                "1.9.12",
+                "1.9.11",
+                "1.9.10",
+                "1.9.9.8",
+                "1.9.9.7",
+                "1.9.9.6",
+                "1.9.9.5",
+                "1.9.9.4",
+                "1.9.9.3",
+                "1.9.9.2",
+                "1.9.9.1",
+                "1.9.9",
+                "1.9.8.3",
+                "1.8.9.3",
+                "1.9.7.7",
+                "1.9.7.6",
+                "1.9.7.5",
+                "1.9.7.4",
+                "1.9.7.3",
+                "1.9.7.2",
+                "1.9.4.1",
+                "1.9.4",
+                "1.9.3.4",
+                "1.9.3.3",
+                "1.9.3.2",
+                "1.9.3.1",
+                "1.9.3",
+                "1.9.2.2",
+                "1.9.2.1",
+                "1.9.2",
+                "1.9.1",
+                "1.9",
+                "1.8.9.1",
+                "1.8.9",
+                "1.8.8",
+                "1.8.7",
+                "1.8.6",
+                "1.8.5",
+                "1.8.4",
+                "1.8.3",
+                "1.8.1",
+                "1.8",
+                "1.7.5",
+                "1.7.4",
+                "1.7.3",
+                "1.7.2",
+                "1.7.1",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3.5",
+                "1.3.4",
+                "1.3.2",
+                "1.3.1",
+                "1.3",
+                "1.2.1",
+                "1.2",
+                "1.1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4779"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wptouch"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wptouch/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

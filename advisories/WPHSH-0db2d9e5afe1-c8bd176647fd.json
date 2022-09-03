@@ -1,0 +1,81 @@
+{
+    "id": "WPHSH-0db2d9e5afe1-c8bd176647fd",
+    "modified": "2019-10-03T00:03Z",
+    "published": "2018-11-12T17:29Z",
+    "aliases": [
+        "CVE-2018-19207"
+    ],
+    "summary": "FIXME",
+    "details": "The Van Ons WP GDPR Compliance (aka wp-gdpr-compliance) plugin before 1.4.3 for WordPress allows remote attackers to execute arbitrary code because $wpdb->prepare() input is mishandled, as exploited in the wild in November 2018.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-gdpr-compliance"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-gdpr-compliance",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.9",
+                "1.3.8",
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1.2",
+                "1.1.1",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19207"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-gdpr-compliance"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-gdpr-compliance/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-425"
+        ]
+    }
+}

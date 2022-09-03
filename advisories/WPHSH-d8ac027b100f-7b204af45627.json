@@ -1,0 +1,132 @@
+{
+    "id": "WPHSH-d8ac027b100f-7b204af45627",
+    "modified": "2021-07-28T13:21Z",
+    "published": "2021-07-19T11:15Z",
+    "aliases": [
+        "CVE-2021-24447"
+    ],
+    "summary": "FIXME",
+    "details": "The WP Image Zoom WordPress plugin before 1.47 did not validate its tab parameter before using it in the include_once() function, leading to a local file inclusion issue in the admin dashboard",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-image-zoooom"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-image-zoooom",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.47"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.46",
+                "1.45.1",
+                "1.45",
+                "1.44",
+                "1.43",
+                "1.42",
+                "1.41.1",
+                "1.41",
+                "1.40.1",
+                "1.40",
+                "1.39.2",
+                "1.39.1",
+                "1.39",
+                "1.38",
+                "1.37",
+                "1.36",
+                "1.35",
+                "1.34",
+                "1.33",
+                "1.32.1",
+                "1.32",
+                "1.31",
+                "1.30",
+                "1.29",
+                "1.28",
+                "1.27",
+                "1.26",
+                "1.25",
+                "1.24",
+                "1.23",
+                "1.22",
+                "1.21",
+                "1.19",
+                "1.18",
+                "1.17",
+                "1.16",
+                "1.15",
+                "1.14",
+                "1.13",
+                "1.12",
+                "1.11",
+                "1.10",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.5",
+                "1.4",
+                "1.3.1",
+                "1.3.0",
+                "1.2.9",
+                "1.2.8",
+                "1.2.7",
+                "1.2.6",
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.20",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24447"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-image-zoooom"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-image-zoooom/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-22"
+        ]
+    }
+}

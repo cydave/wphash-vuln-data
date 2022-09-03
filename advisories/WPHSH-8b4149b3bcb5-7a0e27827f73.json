@@ -1,0 +1,87 @@
+{
+    "id": "WPHSH-8b4149b3bcb5-7a0e27827f73",
+    "modified": "2022-03-21T16:24Z",
+    "published": "2022-03-14T15:15Z",
+    "aliases": [
+        "CVE-2022-0658"
+    ],
+    "summary": "FIXME",
+    "details": "The CommonsBooking WordPress plugin before 2.6.8 does not sanitise and escape the location parameter of the calendar_data AJAX action (available to unauthenticated users) before it is used in dynamically constructed SQL queries, leading to an unauthenticated SQL injection",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "commonsbooking"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/commonsbooking",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.6.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.6.7",
+                "2.6.6",
+                "2.6.5",
+                "2.6.4",
+                "2.6.3",
+                "2.6.2",
+                "2.6.1",
+                "2.6",
+                "2.5",
+                "2.4.5",
+                "2.4.4",
+                "2.4.3",
+                "2.4.2",
+                "2.4.1",
+                "2.4",
+                "2.3.2",
+                "2.3.1",
+                "2.3",
+                "2.2.15",
+                "2.2.14",
+                "2.2.13",
+                "2.2.12",
+                "2.2.11",
+                "2.2.10",
+                "2.2.9",
+                "2.2.8",
+                "2.2.7",
+                "2.2.6"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0658"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/commonsbooking"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/commonsbooking/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

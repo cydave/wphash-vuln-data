@@ -1,0 +1,65 @@
+{
+    "id": "WPHSH-48787417db04-380de367a71b",
+    "modified": "2022-06-08T15:56Z",
+    "published": "2022-05-30T09:15Z",
+    "aliases": [
+        "CVE-2022-1562"
+    ],
+    "summary": "FIXME",
+    "details": "The Enable SVG WordPress plugin before 1.4.0 does not sanitise uploaded SVG files, which could allow users with a role as low as Author to upload a malicious SVG containing XSS payloads",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "enable-svg"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/enable-svg",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.3.1",
+                "1.3.0",
+                "1.2.1",
+                "1.2.0",
+                "1.1.1",
+                "1.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1562"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/enable-svg"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/enable-svg/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "id": "WPHSH-1abf89ebbfbb-99a4096834bd",
+    "modified": "2022-02-04T17:57Z",
+    "published": "2022-02-01T13:15Z",
+    "aliases": [
+        "CVE-2021-25093"
+    ],
+    "summary": "FIXME",
+    "details": "The Link Library WordPress plugin before 7.2.8 does not have authorisation in place when deleting links, allowing unauthenticated users to delete arbitrary links via a crafted request",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "link-library"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/link-library",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "7.2.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "7.2.7",
+                "7.2.6",
+                "7.2.5",
+                "7.2.4",
+                "7.2.3",
+                "7.2.2",
+                "7.2.1",
+                "7.2.0",
+                "7.1.9",
+                "7.1.8",
+                "7.1.7",
+                "7.1.6",
+                "7.1.5",
+                "7.1.4",
+                "last59version",
+                "6.6.8",
+                "LinkLibrary_6.0.46",
+                "LinkLibrary_5.9.15.8",
+                "6.0-Beta12",
+                "6.0-Beta11",
+                "6.0-Beta10",
+                "6.0-Beta9",
+                "6.0-Beta8",
+                "6.0-Beta7",
+                "6.0-Beta6",
+                "6.0-Beta5",
+                "6.0-Beta4",
+                "6.0-Beta3",
+                "6.0-Beta2",
+                "6.0-Beta1",
+                "stable",
+                "5.8.12.7",
+                "5.8.7.1",
+                "5.8.0.6",
+                "5.8.0.5",
+                "5.8.0.4",
+                "5.8.0.2",
+                "5.8.0.1",
+                "link-library-2.5.5",
+                "wordpress20"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25093"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/link-library"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/link-library/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-862"
+        ]
+    }
+}

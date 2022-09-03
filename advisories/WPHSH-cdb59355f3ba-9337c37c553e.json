@@ -1,0 +1,58 @@
+{
+    "id": "WPHSH-cdb59355f3ba-9337c37c553e",
+    "modified": "2014-12-11T13:46Z",
+    "published": "2014-11-04T15:55Z",
+    "aliases": [
+        "CVE-2014-8584"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in the Web Dorado Spider Video Player (aka WordPress Video Player) plugin before 1.5.2 for WordPress allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "player"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/player",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5.1",
+                "1.5",
+                "1.4.9",
+                "1.4.8",
+                "1.4.7"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8584"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/player"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/player/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

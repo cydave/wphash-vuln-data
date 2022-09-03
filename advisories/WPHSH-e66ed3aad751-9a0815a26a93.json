@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-e66ed3aad751-9a0815a26a93",
+    "modified": "2022-08-30T06:36:05Z",
+    "published": "2022-08-30T06:36:05Z",
+    "aliases": [
+        "CVE-2022-2429"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "ultimate-sms-notifications"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/ultimate-sms-notifications",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4.1",
+                "1.3",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2429"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/ultimate-sms-notifications"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/ultimate-sms-notifications/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

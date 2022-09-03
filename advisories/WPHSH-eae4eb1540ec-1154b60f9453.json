@@ -1,0 +1,76 @@
+{
+    "id": "WPHSH-eae4eb1540ec-1154b60f9453",
+    "modified": "2021-07-07T18:15Z",
+    "published": "2018-08-26T07:29Z",
+    "aliases": [
+        "CVE-2018-15877"
+    ],
+    "summary": "FIXME",
+    "details": "The Plainview Activity Monitor plugin before 20180826 for WordPress is vulnerable to OS command injection via shell metacharacters in the ip parameter of a wp-admin/admin.php?page=plainview_activity_monitor&tab=activity_tools request.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "plainview-activity-monitor"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/plainview-activity-monitor",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "20180826"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "20161228",
+                "20160210",
+                "20160202",
+                "20160107",
+                "20151224",
+                "20151211",
+                "20151119",
+                "20151112",
+                "20150806",
+                "20150508",
+                "20141016",
+                "20141013",
+                "20140623",
+                "20140615",
+                "20140605",
+                "20140521",
+                "20140511"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-15877"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/plainview-activity-monitor"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/plainview-activity-monitor/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-78"
+        ]
+    }
+}

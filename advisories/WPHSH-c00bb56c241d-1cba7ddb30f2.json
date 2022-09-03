@@ -1,0 +1,68 @@
+{
+    "id": "WPHSH-c00bb56c241d-1cba7ddb30f2",
+    "modified": "2022-05-26T19:48Z",
+    "published": "2022-05-20T20:15Z",
+    "aliases": [
+        "CVE-2022-29448"
+    ],
+    "summary": "FIXME",
+    "details": "Authenticated (admin or higher user role) Local File Inclusion (LFI) vulnerability in Wow-Company's Herd Effects plugin <= 5.2 at WordPress.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "mwp-herd-effect"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/mwp-herd-effect",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.2.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "5.2",
+                "5.1.2",
+                "5.1.3",
+                "5.0.2",
+                "4.0.1",
+                "4.1",
+                "3.3.1",
+                "2.3.1",
+                "2.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29448"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/mwp-herd-effect"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/mwp-herd-effect/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-706"
+        ]
+    }
+}

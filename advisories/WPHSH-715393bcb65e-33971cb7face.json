@@ -1,0 +1,79 @@
+{
+    "id": "WPHSH-715393bcb65e-33971cb7face",
+    "modified": "2019-08-22T17:21Z",
+    "published": "2019-08-21T19:15Z",
+    "aliases": [
+        "CVE-2014-10378"
+    ],
+    "summary": "FIXME",
+    "details": "The duplicate-post plugin before 2.6 for WordPress has XSS.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "duplicate-post"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/duplicate-post",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.5",
+                "2.4.1",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1.1",
+                "2.1",
+                "2.0.2",
+                "2.0.1",
+                "2.0",
+                "1.1.2",
+                "1.1.1",
+                "1.1",
+                "1.0",
+                "0.6.1",
+                "0.6",
+                "0.5",
+                "0.4",
+                "0.3",
+                "0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-10378"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/duplicate-post"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/duplicate-post/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

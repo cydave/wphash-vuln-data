@@ -1,0 +1,60 @@
+{
+    "id": "WPHSH-13c0e6532396-c1fd6b8ec21b",
+    "modified": "2019-09-16T20:51Z",
+    "published": "2019-09-16T13:15Z",
+    "aliases": [
+        "CVE-2016-10959"
+    ],
+    "summary": "FIXME",
+    "details": "The estatik plugin before 2.3.1 for WordPress has authenticated arbitrary file upload (exploitable with CSRF) via es_media_images[] to wp-admin/admin-ajax.php.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "estatik"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/estatik",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.3.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10959"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/estatik"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/estatik/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-434"
+        ]
+    }
+}

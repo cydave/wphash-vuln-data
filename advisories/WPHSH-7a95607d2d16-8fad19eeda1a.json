@@ -1,0 +1,79 @@
+{
+    "id": "WPHSH-7a95607d2d16-8fad19eeda1a",
+    "modified": "2019-08-21T17:16Z",
+    "published": "2019-08-21T12:15Z",
+    "aliases": [
+        "CVE-2017-18536"
+    ],
+    "summary": "FIXME",
+    "details": "The stop-user-enumeration plugin before 1.3.8 for WordPress has XSS.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "stop-user-enumeration"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/stop-user-enumeration",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.3.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.9",
+                "1.2.8",
+                "1.2.7",
+                "1.2.6",
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18536"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/stop-user-enumeration"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/stop-user-enumeration/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

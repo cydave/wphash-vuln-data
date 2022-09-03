@@ -1,0 +1,61 @@
+{
+    "id": "WPHSH-17d9bf4c2701-aedd684295a2",
+    "modified": "2022-06-15T15:58Z",
+    "published": "2022-06-08T10:15Z",
+    "aliases": [
+        "CVE-2022-1673"
+    ],
+    "summary": "FIXME",
+    "details": "The WooCommerce Green Wallet Gateway WordPress plugin before 1.0.2 does not escape the error_envision query parameter before outputting it to the page, leading to a Reflected Cross-Site Scripting vulnerability.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "greenwallet-gateway"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/greenwallet-gateway",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1673"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/greenwallet-gateway"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/greenwallet-gateway/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

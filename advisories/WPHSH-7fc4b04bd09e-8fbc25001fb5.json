@@ -1,0 +1,53 @@
+{
+    "id": "WPHSH-7fc4b04bd09e-8fbc25001fb5",
+    "modified": "2022-08-16T06:55:02Z",
+    "published": "2022-08-16T06:55:02Z",
+    "aliases": [
+        "CVE-2022-2271"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-database-backup"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-database-backup",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.9"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.1.1",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2271"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-database-backup"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-database-backup/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

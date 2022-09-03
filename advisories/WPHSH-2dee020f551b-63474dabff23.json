@@ -1,0 +1,70 @@
+{
+    "id": "WPHSH-2dee020f551b-63474dabff23",
+    "modified": "2018-07-05T13:55Z",
+    "published": "2018-05-31T01:29Z",
+    "aliases": [
+        "CVE-2018-11579"
+    ],
+    "summary": "FIXME",
+    "details": "class-woo-banner-management.php in the MULTIDOTS WooCommerce Category Banner Management plugin 1.1.0 for WordPress has an Unauthenticated Settings Change Vulnerability, related to certain wp_ajax_nopriv_ usage. Anyone can change the plugin's setting by simply sending a request with a wbm_save_shop_page_banner_data action.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "banner-management-for-woocommerce"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/banner-management-for-woocommerce",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11579"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/banner-management-for-woocommerce"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/banner-management-for-woocommerce/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-287"
+        ]
+    }
+}

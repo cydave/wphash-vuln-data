@@ -1,0 +1,114 @@
+{
+    "id": "WPHSH-acca9a730f25-2777a34b4976",
+    "modified": "2018-06-13T11:29Z",
+    "published": "2018-04-25T09:29Z",
+    "aliases": [
+        "CVE-2018-10310"
+    ],
+    "summary": "FIXME",
+    "details": "A persistent cross-site scripting vulnerability has been identified in the web interface of the Catapult UK Cookie Consent plugin before 2.3.10 for WordPress that allows the execution of arbitrary HTML/script code in the context of a victim's browser.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "uk-cookie-consent"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/uk-cookie-consent",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.3.10"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.3.9",
+                "2.3.8",
+                "2.3.7",
+                "2.3.6",
+                "2.3.5",
+                "2.3.4",
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.3.0",
+                "2.2.5",
+                "2.2.4",
+                "2.2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.2.0",
+                "2.1.7",
+                "2.1.6",
+                "2.1.5",
+                "2.1.4",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1.0",
+                "2.0.12",
+                "2.0.11",
+                "2.0.10",
+                "2.0.9",
+                "2.0.8",
+                "2.0.7",
+                "2.0.6",
+                "2.0.5",
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.8.3",
+                "1.8.2",
+                "1.8.1",
+                "1.8",
+                "1.7.1",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.31",
+                "1.3",
+                "1.25",
+                "1.24",
+                "1.23",
+                "1.22",
+                "1.21",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10310"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/uk-cookie-consent"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/uk-cookie-consent/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

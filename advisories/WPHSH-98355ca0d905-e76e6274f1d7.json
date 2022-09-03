@@ -1,0 +1,66 @@
+{
+    "id": "WPHSH-98355ca0d905-e76e6274f1d7",
+    "modified": "2021-11-05T21:24Z",
+    "published": "2021-09-27T16:15Z",
+    "aliases": [
+        "CVE-2021-24633"
+    ],
+    "summary": "FIXME",
+    "details": "The Countdown Block WordPress plugin before 1.1.2 does not have authorisation in the eb_write_block_css AJAX action, which allows any authenticated user, such as Subscriber, to modify post contents displayed to users.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "countdown-block"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/countdown-block",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.1",
+                "1.1.0",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24633"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/countdown-block"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/countdown-block/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-862"
+        ]
+    }
+}

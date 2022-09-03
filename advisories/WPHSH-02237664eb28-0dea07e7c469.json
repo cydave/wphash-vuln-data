@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-02237664eb28-0dea07e7c469",
+    "modified": "2021-12-16T18:39Z",
+    "published": "2021-11-17T11:15Z",
+    "aliases": [
+        "CVE-2021-24815"
+    ],
+    "summary": "FIXME",
+    "details": "The Accept Donations with PayPal WordPress plugin before 1.3.2 does not escape the Amount Menu Name field of created Buttons, which could allow a high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "easy-paypal-donation"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/easy-paypal-donation",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.3.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.3.1",
+                "1.3",
+                "1.2.9",
+                "1.2.8",
+                "1.2.7",
+                "1.2.6",
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24815"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/easy-paypal-donation"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/easy-paypal-donation/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

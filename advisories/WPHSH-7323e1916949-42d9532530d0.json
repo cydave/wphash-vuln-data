@@ -1,0 +1,53 @@
+{
+    "id": "WPHSH-7323e1916949-42d9532530d0",
+    "modified": "2018-10-16T16:44Z",
+    "published": "2007-05-03T17:19Z",
+    "aliases": [
+        "CVE-2007-2482"
+    ],
+    "summary": "FIXME",
+    "details": "Directory traversal vulnerability in wordtube-button.php in the wordTube 1.43 and earlier plugin for WordPress, when register_globals is enabled, allows remote attackers to include and execute arbitrary local files via a .. (dot dot) in the wpPATH parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wordtube"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wordtube",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.44"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.43",
+                "version_1.42"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2482"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wordtube"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wordtube/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

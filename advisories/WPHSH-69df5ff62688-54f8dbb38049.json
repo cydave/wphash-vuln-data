@@ -1,0 +1,61 @@
+{
+    "id": "WPHSH-69df5ff62688-54f8dbb38049",
+    "modified": "2022-03-30T19:26Z",
+    "published": "2022-03-14T15:15Z",
+    "aliases": [
+        "CVE-2021-24958"
+    ],
+    "summary": "FIXME",
+    "details": "The Meks Easy Photo Feed Widget WordPress plugin before 1.2.4 does not have capability and CSRF checks in the meks_save_business_selected_account AJAX action, available to any authenticated user, and does not escape some of the settings. As a result, any authenticated user, such as subscriber could update the plugin's settings and put Cross-Site Scripting payloads in them",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "meks-easy-instagram-widget"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/meks-easy-instagram-widget",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.3",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24958"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/meks-easy-instagram-widget"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/meks-easy-instagram-widget/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "id": "WPHSH-7fba41aa1c8e-503f6d2caf26",
+    "modified": "2022-04-15T18:36Z",
+    "published": "2022-04-11T15:15Z",
+    "aliases": [
+        "CVE-2022-0828"
+    ],
+    "summary": "FIXME",
+    "details": "The Download Manager WordPress plugin before 3.2.39 uses the uniqid php function to generate the master key for a download, allowing an attacker to brute force the key with reasonable resources giving direct download access regardless of role based restrictions or password protections set for the download.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "download-manager"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/download-manager",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.2.39"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.2.38",
+                "3.2.37",
+                "3.2.35",
+                "3.2.34",
+                "3.2.33",
+                "3.2.32",
+                "3.2.31",
+                "3.2.30",
+                "3.2.29",
+                "3.2.28",
+                "3.2.27",
+                "3.2.25",
+                "3.2.24",
+                "3.2.23",
+                "3.2.21",
+                "3.2.22",
+                "3.2.19",
+                "3.2.18",
+                "3.2.16",
+                "3.2.14",
+                "3.2.13",
+                "3.2.04",
+                "3.1.28",
+                "3.1.27",
+                "3.1.26",
+                "3.1.25",
+                "3.1.24",
+                "3.1.23",
+                "3.1.22",
+                "3.1.18",
+                "3.1.17",
+                "3.1.14",
+                "3.1.12",
+                "3.1.11",
+                "3.1.08",
+                "3.1.07",
+                "3.1.05",
+                "3.0.4",
+                "2.9.99",
+                "2.8.3",
+                "2.6.96",
+                "2.6.2",
+                "2.5.97",
+                "2.5.96",
+                "2.3.0",
+                "2.1.3",
+                "2.1.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0828"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/download-manager"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/download-manager/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-326"
+        ]
+    }
+}

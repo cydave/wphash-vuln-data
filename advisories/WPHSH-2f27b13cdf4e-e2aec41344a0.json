@@ -1,0 +1,84 @@
+{
+    "id": "WPHSH-2f27b13cdf4e-e2aec41344a0",
+    "modified": "2020-10-16T19:57Z",
+    "published": "2020-10-15T03:15Z",
+    "aliases": [
+        "CVE-2020-5642"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in Live Chat - Live support version 3.1.0 and earlier allows remote attackers to hijack the authentication of administrators via unspecified vectors.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "onwebchat"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/onwebchat",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.2.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.1.0",
+                "3.0.5",
+                "3.0.4",
+                "3.0.3",
+                "3.0.2",
+                "3.0.1",
+                "2.1.0",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.0.13",
+                "1.013",
+                "1.0.12",
+                "1.0.11",
+                "1.0.10",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-5642"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/onwebchat"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/onwebchat/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

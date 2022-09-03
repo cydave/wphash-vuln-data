@@ -1,0 +1,115 @@
+{
+    "id": "WPHSH-e16aab6eade8-1f371149a7ae",
+    "modified": "2019-08-29T12:58Z",
+    "published": "2019-08-28T12:15Z",
+    "aliases": [
+        "CVE-2015-9354"
+    ],
+    "summary": "FIXME",
+    "details": "The gigpress plugin before 2.3.11 for WordPress has XSS.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "gigpress"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/gigpress",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.3.11"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.3.10",
+                "2.3.9",
+                "2.3.8",
+                "2.3.7",
+                "2.3.6",
+                "2.3.5",
+                "2.3.4",
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.3",
+                "2.2.9.3",
+                "2.2.9.2",
+                "2.2.9.1",
+                "2.2.8",
+                "2.2.7",
+                "2.2.6",
+                "2.2.5",
+                "2.2.3",
+                "2.2.2",
+                "2.1.14",
+                "2.1.13",
+                "2.1.8",
+                "2.1.7",
+                "2.1.6",
+                "2.1.5",
+                "2.1.4",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0",
+                "1.4.9",
+                "1.4.8",
+                "1.4.7",
+                "1.4.6",
+                "1.4.5",
+                "1.4.4",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3",
+                "1.2.7",
+                "1.2.6",
+                "1.2.2",
+                "1.2.1",
+                "1.0",
+                "1.1.1",
+                "1.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9354"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/gigpress"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/gigpress/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

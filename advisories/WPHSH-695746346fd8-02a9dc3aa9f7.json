@@ -1,0 +1,118 @@
+{
+    "id": "WPHSH-695746346fd8-02a9dc3aa9f7",
+    "modified": "2021-06-18T01:11Z",
+    "published": "2021-06-14T14:15Z",
+    "aliases": [
+        "CVE-2021-24357"
+    ],
+    "summary": "FIXME",
+    "details": "In the Best Image Gallery & Responsive Photo Gallery \u00e2\u20ac\u201c FooGallery WordPress plugin before 2.0.35, the Custom CSS field of each gallery is not properly sanitised or validated before being being output in the page where the gallery is embed, leading to a stored Cross-Site Scripting issue.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "foogallery"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/foogallery",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.0.35"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.0.33",
+                "2.0.30",
+                "2.0.24",
+                "1.10.3",
+                "1.9.53",
+                "1.9.44",
+                "1.9.47",
+                "1.9.37",
+                "1.9.34",
+                "1.9.31",
+                "1.9.25",
+                "1.9.24",
+                "1.9.11",
+                "1.9.8",
+                "1.8.18",
+                "1.8.12",
+                "1.8.11",
+                "1.8.8",
+                "1.7.8",
+                "1.7.7",
+                "1.7.6",
+                "1.6.17",
+                "1.6.15",
+                "1.6.11",
+                "1.6.7",
+                "1.6.1",
+                "1.5.9",
+                "1.4.31",
+                "1.4.30",
+                "1.4.29",
+                "1.4.27",
+                "1.4.25",
+                "1.4.15",
+                "1.4.12",
+                "1.4.8",
+                "1.4.7",
+                "1.4.5",
+                "1.4.4",
+                "1.3.29",
+                "1.3.8",
+                "1.3.6",
+                "1.2.20",
+                "1.2.19",
+                "1.2.18",
+                "1.2.17",
+                "1.2.15",
+                "1.2.13",
+                "1.2.12",
+                "1.2.11",
+                "1.2.10",
+                "1.2.9",
+                "1.2.8",
+                "1.2.7",
+                "1.2.6",
+                "1.2.4",
+                "1.2.1",
+                "1.2.0",
+                "1.1.8",
+                "1.1.7"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24357"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/foogallery"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/foogallery/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

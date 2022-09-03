@@ -1,0 +1,85 @@
+{
+    "id": "WPHSH-0a7cef59239e-cfba74c71d8f",
+    "modified": "2022-03-08T16:27Z",
+    "published": "2022-02-28T09:15Z",
+    "aliases": [
+        "CVE-2022-0150"
+    ],
+    "summary": "FIXME",
+    "details": "The WP Accessibility Helper (WAH) WordPress plugin before 0.6.0.7 does not sanitise and escape the wahi parameter before outputting back its base64 decode value in the page, leading to a Reflected Cross-Site Scripting issue",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-accessibility-helper"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-accessibility-helper",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.6.0.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.6.0.6",
+                "0.6.0.5",
+                "0.6.0.4",
+                "0.5.9.2",
+                "0.5.9",
+                "0.5.8.9",
+                "0.5.8.6",
+                "0.5.8.3",
+                "0.5.8.2",
+                "0.5.8.1",
+                "0.5.7.9",
+                "0.5.7.6",
+                "0.5.7.5",
+                "0.5.7.4",
+                "0.5.7.2",
+                "0.5.7.1",
+                "0.5.6.8",
+                "0.5.6.5",
+                "0.5.6.4",
+                "0.5.6.1",
+                "0.5.5.6",
+                "0.5.5.7",
+                "0.5.5.5",
+                "0.5.5.3",
+                "0.5.5.2",
+                "0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0150"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-accessibility-helper"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-accessibility-helper/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

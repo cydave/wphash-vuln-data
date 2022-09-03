@@ -1,0 +1,105 @@
+{
+    "id": "WPHSH-d4af567bc093-33bf278f8268",
+    "modified": "2018-10-19T18:24Z",
+    "published": "2018-08-30T15:29Z",
+    "aliases": [
+        "CVE-2018-16159"
+    ],
+    "summary": "FIXME",
+    "details": "The Gift Vouchers plugin through 2.0.1 for WordPress allows SQL Injection via the template_id parameter in a wp-admin/admin-ajax.php wpgv_doajax_front_template request.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "gift-voucher"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/gift-voucher",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.1.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.1.7",
+                "4.1.6",
+                "4.1.5",
+                "4.1.4",
+                "4.1.3",
+                "4.1.2",
+                "4.1.1",
+                "4.1.0",
+                "4.0.0",
+                "3.3.10",
+                "3.3.9.1",
+                "3.3.9",
+                "3.3.8",
+                "3.3.7",
+                "3.3.6",
+                "3.3.5",
+                "3.3.4",
+                "3.3.3",
+                "3.3.2",
+                "3.3.1",
+                "3.3.0",
+                "3.2.9",
+                "3.2.8",
+                "3.2.7",
+                "3.2.6",
+                "3.2.5",
+                "3.2.4",
+                "3.2.3",
+                "3.2.2",
+                "3.2.1",
+                "3.2.0",
+                "3.1.5",
+                "3.1.3",
+                "3.1.2",
+                "3.1.0",
+                "3.1.1",
+                "3.0.1",
+                "2.0.3",
+                "2.0.1",
+                "1.0.0",
+                "1.0.4",
+                "1.0.3",
+                "1.0.5",
+                ".0.5",
+                "1.0.2",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16159"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/gift-voucher"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/gift-voucher/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

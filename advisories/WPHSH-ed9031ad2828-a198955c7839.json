@@ -1,0 +1,66 @@
+{
+    "id": "WPHSH-ed9031ad2828-a198955c7839",
+    "modified": "2019-08-23T18:43Z",
+    "published": "2019-08-21T13:15Z",
+    "aliases": [
+        "CVE-2016-10903"
+    ],
+    "summary": "FIXME",
+    "details": "The GoDaddy godaddy-email-marketing-sign-up-forms plugin before 1.1.3 for WordPress has CSRF.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "godaddy-email-marketing-sign-up-forms"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/godaddy-email-marketing-sign-up-forms",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10903"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/godaddy-email-marketing-sign-up-forms"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/godaddy-email-marketing-sign-up-forms/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

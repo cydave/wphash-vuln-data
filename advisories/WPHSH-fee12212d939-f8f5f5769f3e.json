@@ -1,0 +1,116 @@
+{
+    "id": "WPHSH-fee12212d939-f8f5f5769f3e",
+    "modified": "2022-01-11T16:45Z",
+    "published": "2022-01-03T13:15Z",
+    "aliases": [
+        "CVE-2021-25023"
+    ],
+    "summary": "FIXME",
+    "details": "The Speed Booster Pack \u00e2\u0161\u00a1 PageSpeed Optimization Suite WordPress plugin before 4.3.3.1 does not escape the sbp_convert_table_name parameter before using it in a SQL statement to convert the related table, leading to an SQL injection",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "speed-booster-pack"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/speed-booster-pack",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.3.3.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.3.3",
+                "4.3.2",
+                "4.3.1",
+                "4.3.0",
+                "4.2.2",
+                "4.2.1",
+                "4.2.0",
+                "4.1.3",
+                "4.1.2",
+                "4.1.1",
+                "4.1.0",
+                "4.0.1",
+                "4.0.0",
+                "3.8.6",
+                "3.8.5.1",
+                "3.8.5",
+                "3.8.4.3",
+                "3.8.4.2",
+                "3.8.4.1",
+                "3.8.3",
+                "3.8.2.1",
+                "3.8.2",
+                "3.8.1",
+                "3.8",
+                "3.7.7",
+                "3.7.6",
+                "3.7.5",
+                "3.7.4",
+                "3.7.2",
+                "3.7.3",
+                "3.6.1",
+                "3.6",
+                "3.5",
+                "3.4",
+                "3.3",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.9",
+                "2.8",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25023"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/speed-booster-pack"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/speed-booster-pack/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

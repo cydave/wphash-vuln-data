@@ -1,0 +1,118 @@
+{
+    "id": "WPHSH-e65462f42b35-a90104d71789",
+    "modified": "2022-05-10T17:01Z",
+    "published": "2022-04-18T18:15Z",
+    "aliases": [
+        "CVE-2022-1020"
+    ],
+    "summary": "FIXME",
+    "details": "The Product Table for WooCommerce (wooproducttable) WordPress plugin before 3.1.2 does not have authorisation and CSRF checks in the wpt_admin_update_notice_option AJAX action (available to both unauthenticated and authenticated users), as well as does not validate the callback parameter, allowing unauthenticated attackers to call arbitrary functions with either none or one user controlled argument",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "woo-product-table"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/woo-product-table",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.1.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.1.1",
+                "3.0.9",
+                "3.0.8",
+                "3.0.7",
+                "3.0.6",
+                "3.0.5",
+                "3.0.4.backup",
+                "3.0.3",
+                "3.0.2.backup",
+                "3.0.1",
+                "3.0.0",
+                "2.9.8",
+                "2.9.7",
+                "2.9.6",
+                "2.9.5",
+                "2.9.4",
+                "2.9.3",
+                "2.9.2",
+                "2.9.1",
+                "2.8.8",
+                "2.8.7",
+                "2.8.6",
+                "2.8.5",
+                "2.8.4",
+                "2.8.3",
+                "2.8.2",
+                "2.8.0",
+                "2.7.8",
+                "2.7.9",
+                "2.7.7",
+                "2.7.6",
+                "2.7.5",
+                "2.7.4",
+                "2.7.2",
+                "2.7.0",
+                "2.7.1",
+                "2.6.1.6",
+                "2.6.1.5",
+                "2.6.5",
+                "2.6.1.4",
+                "2.6.1.3",
+                "2.6.1.2",
+                "2.6.1",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6.0",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1020"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/woo-product-table"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/woo-product-table/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352",
+            "CWE-862"
+        ]
+    }
+}

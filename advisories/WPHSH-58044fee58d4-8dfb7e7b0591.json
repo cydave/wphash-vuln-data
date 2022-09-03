@@ -1,0 +1,90 @@
+{
+    "id": "WPHSH-58044fee58d4-8dfb7e7b0591",
+    "modified": "2022-06-24T14:39Z",
+    "published": "2022-06-15T19:15Z",
+    "aliases": [
+        "CVE-2022-29443"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple Authenticated (contributor or higher user role) Stored Cross-Site Scripting (XSS) vulnerabilities in Nicdark's Hotel Booking plugin <= 3.0 at WordPress.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "nd-booking"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/nd-booking",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.0",
+                "2.9",
+                "2.8",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4.2",
+                "2.4.1",
+                "2.4",
+                "2.3.9",
+                "2.3.8",
+                "2.3.7",
+                "2.3.6",
+                "2.3.5",
+                "2.3.4",
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.3.0",
+                "2.2.9",
+                "2.2.8",
+                "2.2.7",
+                "2.2.6",
+                "2.2.5",
+                "2.2.4",
+                "2.2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.2",
+                "2.1",
+                "2.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29443"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/nd-booking"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/nd-booking/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

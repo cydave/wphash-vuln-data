@@ -1,0 +1,64 @@
+{
+    "id": "WPHSH-310275f207b4-e0c73272ef20",
+    "modified": "2018-10-10T19:48Z",
+    "published": "2009-12-02T18:30Z",
+    "aliases": [
+        "CVE-2009-4170"
+    ],
+    "summary": "FIXME",
+    "details": "WP-Cumulus Plug-in 1.20 for WordPress, and possibly other versions, allows remote attackers to obtain sensitive information via a crafted request to wp-cumulus.php, probably without parameters, which reveals the installation path in an error message.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-cumulus"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-cumulus",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.23"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.22",
+                "1.21",
+                "1.20",
+                "1.19",
+                "1.18",
+                "1.17",
+                "1.16",
+                "1.15",
+                "1.14",
+                "1.13",
+                "1.12"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4170"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-cumulus"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-cumulus/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-200"
+        ]
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "id": "WPHSH-2227466015c1-227bf4aca128",
+    "modified": "2019-08-21T17:14Z",
+    "published": "2019-08-21T13:15Z",
+    "aliases": [
+        "CVE-2016-10909"
+    ],
+    "summary": "FIXME",
+    "details": "The booking-calendar-contact-form plugin before 1.0.24 for WordPress has SQL injection.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "booking-calendar-contact-form"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/booking-calendar-contact-form",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.24"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.23",
+                "1.0.22",
+                "1.0.21",
+                "1.0.20",
+                "1.0.19",
+                "1.0.18",
+                "1.0.17",
+                "1.0.16",
+                "1.0.15",
+                "1.0.14",
+                "1.0.13",
+                "1.0.12",
+                "1.0.11",
+                "1.0.10",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10909"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/booking-calendar-contact-form"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/booking-calendar-contact-form/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

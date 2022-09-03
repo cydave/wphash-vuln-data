@@ -1,0 +1,192 @@
+{
+    "id": "WPHSH-464d258d745b-4dfae18f26f7",
+    "modified": "2021-09-23T14:07Z",
+    "published": "2021-09-13T18:15Z",
+    "aliases": [
+        "CVE-2021-24508"
+    ],
+    "summary": "FIXME",
+    "details": "The Smash Balloon Social Post Feed WordPress plugin before 2.19.2 does not sanitise or escape the feedID POST parameter in its feed_locator AJAX action (available to both authenticated and unauthenticated users) before outputting a truncated version of it in the admin dashboard, leading to an unauthenticated Stored Cross-Site Scripting issue which will be executed in the context of a logged in administrator.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "custom-facebook-feed"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/custom-facebook-feed",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.19.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.19.1",
+                "2.19",
+                "2.18.3",
+                "2.18.2",
+                "2.18.1",
+                "2.18",
+                "2.17.1",
+                "2.17",
+                "2.16.1",
+                "2.16",
+                "2.15.1",
+                "2.15",
+                "2.14.1",
+                "2.14",
+                "2.13",
+                "2.12.4",
+                "2.12.3",
+                "2.12.2",
+                "2.12.1",
+                "1.12.1",
+                "2.12",
+                "2.11.1",
+                "2.11",
+                "2.10",
+                "2.9.1",
+                "2.9",
+                "2.8",
+                "2.7.2",
+                "2.7.1",
+                "2.7",
+                "2.6.4",
+                "2.6.3",
+                "2.6.2",
+                "2.6.1",
+                "2.6",
+                "2.5.2",
+                "2.5.1",
+                "2.5",
+                "2.4.6",
+                "2.4.5",
+                "2.4.4",
+                "2.4.3",
+                "2.4.2",
+                "2.4.1.2",
+                "2.4.1.1",
+                "2.4.1",
+                "2.4",
+                "2.3.10",
+                "2.3.9",
+                "2.3.8",
+                "2.3.7",
+                "2.3.6",
+                "2.3.4",
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.3",
+                "2.2.1",
+                "2.2",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1",
+                "2.0.1",
+                "2.0",
+                "1.9.9.3",
+                "1.9.9.2",
+                "1.9.9.1",
+                "1.9.9",
+                "1.9.8.1",
+                "1.9.8",
+                "1.9.7",
+                "1.9.6",
+                "1.9.5",
+                "1.9.4",
+                "1.9.3",
+                "1.9.1",
+                "1.9.0",
+                "1.8.2.3",
+                "1.8.2.2",
+                "1.8.2.1",
+                "1.8.2",
+                "1.8.1",
+                "1.8.0",
+                "1.7.2",
+                "1.7.1",
+                "1.7.0",
+                "1.6.8.2",
+                "1.6.8.1",
+                "1.6.8",
+                "1.6.7.1",
+                "1.6.7",
+                "1.6.6.3",
+                "1.6.6.2",
+                "1.6.6.1",
+                "1.6.6",
+                "1.6.5.1",
+                "1.6.5",
+                "1.6.4.1",
+                "1.6.4",
+                "1.6.3",
+                "1.6.2",
+                "1.6.1",
+                "1.6.0",
+                "1.5.9",
+                "1.5.2",
+                "1.5.1",
+                "1.4.8",
+                "1.4.7",
+                "1.4.6",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.9",
+                "1.2.8",
+                "1.2.7",
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.5",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24508"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/custom-facebook-feed"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/custom-facebook-feed/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

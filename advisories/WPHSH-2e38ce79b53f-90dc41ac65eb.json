@@ -1,0 +1,109 @@
+{
+    "id": "WPHSH-2e38ce79b53f-90dc41ac65eb",
+    "modified": "2019-08-16T12:43Z",
+    "published": "2019-08-13T17:15Z",
+    "aliases": [
+        "CVE-2012-6713"
+    ],
+    "summary": "FIXME",
+    "details": "The job-manager plugin before 0.7.19 for WordPress has multiple XSS issues.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "job-manager"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/job-manager",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.7.19"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.7.18",
+                "0.7.17",
+                "0.7.16",
+                "0.7.14",
+                "0.7.15",
+                "0.7.13",
+                "0.7.12",
+                "0.7.11",
+                "0.7.10",
+                "0.7.9",
+                "0.7.8",
+                "0.7.7",
+                "0.7.6",
+                "0.7.5",
+                "0.7.4",
+                "0.7.3",
+                "0.7.2",
+                "0.7.1",
+                "0.7",
+                "0.6.6",
+                "0.6.5",
+                "0.6.4",
+                "0.6.3",
+                "0.6.2",
+                "0.6.1",
+                "0.6",
+                "0.5.4",
+                "0.5.3",
+                "0.5.2",
+                "0.5.1",
+                "0.5",
+                "0.4.8",
+                "0.4.7",
+                "0.4.6",
+                "0.4.5",
+                "0.4.4",
+                "0.4.2",
+                "0.4.3",
+                "0.4.0",
+                "0.4.1",
+                "0.4.0-beta",
+                "0.3.3",
+                "0.3.2",
+                "0.2.0",
+                "0.2.1",
+                "0.2.2",
+                "0.2.3",
+                "0.2.4",
+                "0.3.0",
+                "0.3.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-6713"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/job-manager"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/job-manager/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

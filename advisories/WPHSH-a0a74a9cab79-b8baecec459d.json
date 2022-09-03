@@ -1,0 +1,74 @@
+{
+    "id": "WPHSH-a0a74a9cab79-b8baecec459d",
+    "modified": "2021-07-09T15:50Z",
+    "published": "2021-07-06T11:15Z",
+    "aliases": [
+        "CVE-2021-24494"
+    ],
+    "summary": "FIXME",
+    "details": "The WP Offload SES Lite WordPress plugin before 1.4.5 did not escape some of the fields in the Activity page of the admin dashboard, such as the email's id, subject and recipient, which could lead to Stored Cross-Site Scripting issues when an attacker can control any of these fields, like the subject when filling a contact form for example. The XSS will be executed in the context of a logged in admin viewing the Activity tab of the plugin.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-ses"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-ses",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1",
+                "1.0",
+                "0.8.2",
+                "0.7.2.1",
+                "0.2.1",
+                "0.1.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24494"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-ses"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-ses/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

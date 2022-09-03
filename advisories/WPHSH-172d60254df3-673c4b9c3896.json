@@ -1,0 +1,116 @@
+{
+    "id": "WPHSH-172d60254df3-673c4b9c3896",
+    "modified": "2022-07-25T14:51Z",
+    "published": "2022-07-25T13:15Z",
+    "aliases": [
+        "CVE-2022-2072"
+    ],
+    "summary": "FIXME",
+    "details": "The Name Directory WordPress plugin before 1.25.3 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting. Furthermore, as the payload is also saved into the database after the request, it leads to a Stored XSS as well",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "name-directory"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/name-directory",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.25.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.25.2",
+                "1.25.1",
+                "1.25.0",
+                "1.24.0",
+                "1.23.2",
+                "1.23.1",
+                "1.23.0",
+                "1.22",
+                "trunk",
+                "1.20",
+                "1.19",
+                "1.18.1",
+                "1.18",
+                "1.17.4",
+                "1.17.3",
+                "1.17.2",
+                "1.17.1",
+                "1.17",
+                "1.16.1",
+                "1.16",
+                "1.15.6",
+                "1.15.5",
+                "1.15.4",
+                "1.15.3",
+                "1.15.2",
+                "1.15.1",
+                "1.15",
+                "1.14.2",
+                "1.14.1",
+                "1.14",
+                "1.13.7",
+                "1.13.6",
+                "1.13.5",
+                "1.13.15",
+                "1.13.4",
+                "1.13.3",
+                "1.13.2",
+                "1.13.1",
+                "1.13",
+                "1.12",
+                "1.11.6",
+                "1.11.5",
+                "1.11.4",
+                "1.11.3",
+                "1.11.2",
+                "1.11.1",
+                "1.11",
+                "1.10",
+                "1.9.7",
+                "1.9.6",
+                "1.9.5",
+                "1.9.4",
+                "1.9.3",
+                "1.9.2",
+                "1.9.0",
+                "1.9.1",
+                "1.8.1",
+                "1.8.0",
+                "1.7.15",
+                "1.7.14",
+                "1.7.13",
+                "1.7.12",
+                "1.7.11",
+                "1.7.10",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2072"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/name-directory"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/name-directory/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

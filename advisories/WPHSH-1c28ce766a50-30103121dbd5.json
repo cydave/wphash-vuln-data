@@ -1,0 +1,82 @@
+{
+    "id": "WPHSH-1c28ce766a50-30103121dbd5",
+    "modified": "2021-10-22T14:48Z",
+    "published": "2021-10-15T13:15Z",
+    "aliases": [
+        "CVE-2021-39349"
+    ],
+    "summary": "FIXME",
+    "details": "The Author Bio Box WordPress plugin is vulnerable to Stored Cross-Site Scripting due to insufficient input validation and sanitization via several parameters found in the ~/includes/admin/class-author-bio-box-admin.php file which allowed attackers with administrative user access to inject arbitrary web scripts, in versions up to and including 3.3.1. This affects multi-site installations where unfiltered_html is disabled for administrators, and sites where unfiltered_html is disabled.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "author-bio-box"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/author-bio-box",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.4.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.3.3",
+                "3.3.2",
+                "3.3.1",
+                "3.3.0",
+                "3.2.1",
+                "3.2.0",
+                "3.1.1",
+                "3.1.0",
+                "3.0.0",
+                "2.0.0",
+                "1.7.1",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39349"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/author-bio-box"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/author-bio-box/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2613798/author-bio-box/tags/3.3.2/includes/admin/class-author-bio-box-admin.php"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

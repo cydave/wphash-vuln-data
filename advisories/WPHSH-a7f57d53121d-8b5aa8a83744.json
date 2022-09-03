@@ -1,0 +1,72 @@
+{
+    "id": "WPHSH-a7f57d53121d-8b5aa8a83744",
+    "modified": "2022-07-29T10:15Z",
+    "published": "2021-11-01T09:15Z",
+    "aliases": [
+        "CVE-2021-24685"
+    ],
+    "summary": "FIXME",
+    "details": "The Flat Preloader WordPress plugin before 1.5.4 does not enforce nonce checks when saving its settings, as well as does not sanitise and escape them, which could allow attackers to a make logged in admin change them with a Cross-Site Scripting payload (triggered either in the frontend or backend depending on the payload)",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "flat-preloader"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/flat-preloader",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5",
+                "1.4.1",
+                "1.4",
+                "1.3.1",
+                "1.3",
+                "1.2",
+                "1.1.2",
+                "1.1.1",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24685"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/flat-preloader"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/flat-preloader/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79",
+            "CWE-352"
+        ]
+    }
+}

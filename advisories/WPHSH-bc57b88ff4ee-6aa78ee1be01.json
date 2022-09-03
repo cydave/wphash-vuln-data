@@ -1,0 +1,67 @@
+{
+    "id": "WPHSH-bc57b88ff4ee-6aa78ee1be01",
+    "modified": "2021-08-23T18:49Z",
+    "published": "2021-08-16T11:15Z",
+    "aliases": [
+        "CVE-2021-24445"
+    ],
+    "summary": "FIXME",
+    "details": "The My Site Audit WordPress plugin through 1.2.4 does not sanitise or escape the Audit Name field when creating an audit, allowing high privilege users to set JavaScript payloads in them, even when he unfiltered_html capability is disallowed, leading to an authenticated Stored Cross-Site Scripting issue",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "site-audit"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/site-audit",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.0",
+                "1.1",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24445"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/site-audit"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/site-audit/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

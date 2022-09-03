@@ -1,0 +1,86 @@
+{
+    "id": "WPHSH-464c7d7f3178-2c8f6383f2ae",
+    "modified": "2021-06-23T15:17Z",
+    "published": "2021-06-14T14:15Z",
+    "aliases": [
+        "CVE-2021-24341"
+    ],
+    "summary": "FIXME",
+    "details": "When deleting a date in the Xllentech English Islamic Calendar WordPress plugin before 2.6.8, the year_number and month_number POST parameters are not sanitised, escaped or validated before being used in a SQL statement, leading to SQL injection.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "xllentech-english-islamic-calendar"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/xllentech-english-islamic-calendar",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.6.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.6.7",
+                "2.6.6",
+                "2.6.5",
+                "2.6.4",
+                "2.6.3",
+                "2.6.2",
+                "2.6.1",
+                "2.6.0",
+                "2.5.0",
+                "2.4.1",
+                "2.4.0",
+                "2.3.1",
+                "2.3.0",
+                "2.2.4",
+                "2.2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.2.0",
+                "2.1.1",
+                "2.1.0",
+                "2.0.1",
+                "2.0.0",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.0",
+                "1.1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24341"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/xllentech-english-islamic-calendar"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/xllentech-english-islamic-calendar/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

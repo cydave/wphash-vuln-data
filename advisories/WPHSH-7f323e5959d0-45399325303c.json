@@ -1,0 +1,98 @@
+{
+    "id": "WPHSH-7f323e5959d0-45399325303c",
+    "modified": "2021-12-10T20:06Z",
+    "published": "2021-11-08T18:15Z",
+    "aliases": [
+        "CVE-2021-24783"
+    ],
+    "summary": "FIXME",
+    "details": "The Post Expirator WordPress plugin before 2.6.0 does not have proper capability checks in place, which could allow users with a role as low as Contributor to schedule deletion of arbitrary posts.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "post-expirator"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/post-expirator",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.6.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.5.1",
+                "2.5.0",
+                "2.4.4",
+                "2.4.3",
+                "2.4.2",
+                "2.4.1",
+                "2.4.0.1",
+                "2.4.0",
+                "2.3.1.1",
+                "2.3.1",
+                "2.3.0",
+                "2.2.2",
+                "2.2.1",
+                "2.2.0",
+                "2.1.4",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1.0",
+                "2.0.1",
+                "2.0.0",
+                "1.6.2",
+                "1.6.1",
+                "1.6",
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3.1",
+                "1.3",
+                "1.2.1",
+                "1.0",
+                "1.1",
+                "1.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24783"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/post-expirator"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/post-expirator/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-863"
+        ]
+    }
+}

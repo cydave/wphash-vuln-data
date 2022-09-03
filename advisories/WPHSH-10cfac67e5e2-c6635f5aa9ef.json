@@ -1,0 +1,63 @@
+{
+    "id": "WPHSH-10cfac67e5e2-c6635f5aa9ef",
+    "modified": "2016-12-22T03:00Z",
+    "published": "2015-07-16T15:59Z",
+    "aliases": [
+        "CVE-2015-5528"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in the save_order function in class-floating-social-bar.php in the Floating Social Bar plugin before 1.1.6 for WordPress allows remote attackers to inject arbitrary web script or HTML via the items[] parameter in an fsb_save_order action to wp-admin/admin-ajax.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "floating-social-bar"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/floating-social-bar",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.1",
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.5",
+                "1.0.6",
+                "1.0.4",
+                "1.0.2",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5528"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/floating-social-bar"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/floating-social-bar/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

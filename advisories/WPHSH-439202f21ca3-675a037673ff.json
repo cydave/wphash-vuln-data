@@ -1,0 +1,93 @@
+{
+    "id": "WPHSH-439202f21ca3-675a037673ff",
+    "modified": "2022-02-22T22:32Z",
+    "published": "2022-02-14T12:15Z",
+    "aliases": [
+        "CVE-2021-25110"
+    ],
+    "summary": "FIXME",
+    "details": "The Futurio Extra WordPress plugin before 1.6.3 allows any logged in user, such as subscriber, to extract any other user's email address.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "futurio-extra"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/futurio-extra",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.6.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.6.2",
+                "1.6.1",
+                "1.6.0",
+                "1.5.2",
+                "1.5.1",
+                "1.5.0",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.10",
+                "1.2.9",
+                "1.2.8",
+                "1.2.7",
+                "1.2.6",
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.0",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25110"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/futurio-extra"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/futurio-extra/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-200"
+        ]
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "id": "WPHSH-911b50a376b8-1eef148b19c4",
+    "modified": "2022-03-08T16:56Z",
+    "published": "2022-02-28T09:15Z",
+    "aliases": [
+        "CVE-2021-25042"
+    ],
+    "summary": "FIXME",
+    "details": "The WP Visitor Statistics (Real Time Traffic) WordPress plugin before 5.5 does not have authorisation and CSRF checks in the updateIpAddress AJAX action, allowing any authenticated user to call it, or make a logged in user do it via a CSRF attack and add an arbitrary IP address to exclude. Furthermore, due to the lack of validation, sanitisation and escaping, users could set a malicious value and perform Cross-Site Scripting attacks against logged in admin",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-stats-manager"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-stats-manager",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "5.4",
+                "5.3",
+                "5.2",
+                "5.1",
+                "4.9",
+                "4.8",
+                "4.7",
+                "4.6",
+                "4.5",
+                "4.3",
+                "4.2",
+                "3.14",
+                "2.7",
+                "2.4",
+                "2.5"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25042"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-stats-manager"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-stats-manager/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-862"
+        ]
+    }
+}

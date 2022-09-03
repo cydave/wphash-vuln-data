@@ -1,0 +1,128 @@
+{
+    "id": "WPHSH-2dab56b85441-e3a57597a236",
+    "modified": "2020-08-24T17:37Z",
+    "published": "2019-04-26T22:29Z",
+    "aliases": [
+        "CVE-2019-11557"
+    ],
+    "summary": "FIXME",
+    "details": "The WebDorado Contact Form Builder plugin before 1.0.69 for WordPress allows CSRF via the wp-admin/admin-ajax.php action parameter, with resultant local file inclusion via directory traversal, because there can be a discrepancy between the $_POST['action'] value and the $_GET['action'] value, and the latter is unsanitized.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "contact-form-builder"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/contact-form-builder",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.69"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.68",
+                "1.0.67",
+                "1.0.66",
+                "1.0.65",
+                "1.0.64",
+                "1.0.63",
+                "1.0.62",
+                "1.0.61",
+                "1.0.60",
+                "1.0.59",
+                "1.0.58",
+                "1.0.57",
+                "1.0.56",
+                "1.0.55",
+                "1.0.54",
+                "1.0.53",
+                "1.0.52",
+                "1.0.51",
+                "1.0.50",
+                "1.0.49",
+                "1.0.47",
+                "1.0.46",
+                "1.0.45",
+                "1.0.44",
+                "1.0.43",
+                "1.0.42",
+                "1.0.41",
+                "1.0.40",
+                "1.0.39",
+                "1.0.38",
+                "1.0.37",
+                "1.0.36",
+                "1.0.35",
+                "1.0.34",
+                "1.0.33",
+                "1.0.32",
+                "1.0.31",
+                "1.0.30",
+                "1.0.29",
+                "1.0.28",
+                "1.0.27",
+                "1.0.26",
+                "1.0.25",
+                "1.0.24",
+                "1.0.23",
+                "1.0.22",
+                "1.0.21",
+                "1.0.20",
+                "1.0.19",
+                "1.0.18",
+                "1.0.17",
+                "1.0.16",
+                "1.0.15",
+                "1.0.14",
+                "1.0.13",
+                "1.0.12",
+                "1.0.11",
+                "1.0.10",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11557"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/contact-form-builder"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/contact-form-builder/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352",
+            "CWE-22"
+        ]
+    }
+}

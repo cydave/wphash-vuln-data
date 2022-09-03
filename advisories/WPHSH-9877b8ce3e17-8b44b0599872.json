@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-9877b8ce3e17-8b44b0599872",
+    "modified": "2022-08-11T06:58:01Z",
+    "published": "2022-08-11T06:58:01Z",
+    "aliases": [
+        "CVE-2022-2565"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-payment-form"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-payment-form",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.2.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.2.0",
+                "4.1.1",
+                "4.1.0",
+                "4.0.1",
+                "4.0.0",
+                "3.0.0",
+                "2.1.0",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.9.91",
+                "1.9.8",
+                "1.9.3",
+                "1.9.2",
+                "1.9.0",
+                "1.2.5",
+                "1.2.1",
+                "1.2.0",
+                "1.1.6",
+                "1.1.5",
+                "1.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2565"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-payment-form"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-payment-form/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

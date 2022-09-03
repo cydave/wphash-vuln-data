@@ -1,0 +1,56 @@
+{
+    "id": "WPHSH-99d542152511-8b7500c36685",
+    "modified": "2014-07-11T17:58Z",
+    "published": "2014-07-02T18:55Z",
+    "aliases": [
+        "CVE-2014-4532"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in templates/printAdminUsersList_Footer.tpl.php in the GarageSale plugin before 1.2.3 for WordPress allows remote attackers to inject arbitrary web script or HTML via the page parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "garagesale"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/garagesale",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.2",
+                "1.2.1",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4532"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/garagesale"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/garagesale/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

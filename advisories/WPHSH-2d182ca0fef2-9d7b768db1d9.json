@@ -1,0 +1,85 @@
+{
+    "id": "WPHSH-2d182ca0fef2-9d7b768db1d9",
+    "modified": "2019-09-17T18:13Z",
+    "published": "2019-09-17T15:15Z",
+    "aliases": [
+        "CVE-2016-10986"
+    ],
+    "summary": "FIXME",
+    "details": "The tweet-wheel plugin before 1.0.3.3 for WordPress has XSS via consumer_key, consumer_secret, access_token, and access_token_secret.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "tweet-wheel"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/tweet-wheel",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.3.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.3.2",
+                "1.0.3.1",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0",
+                "0.6.1",
+                "0.6",
+                "0.5.12",
+                "0.5.11",
+                "0.5.10",
+                "0.5.9",
+                "0.5.8",
+                "0.5.7",
+                "0.5.6",
+                "0.5.5",
+                "0.5.4",
+                "0.5.3",
+                "0.5.2",
+                "0.5.1",
+                "0.5",
+                "0.4",
+                "0.3.2",
+                "0.3.1",
+                "0.3",
+                "0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10986"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/tweet-wheel"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/tweet-wheel/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

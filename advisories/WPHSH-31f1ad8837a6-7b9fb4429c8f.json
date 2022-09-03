@@ -1,0 +1,60 @@
+{
+    "id": "WPHSH-31f1ad8837a6-7b9fb4429c8f",
+    "modified": "2022-04-15T17:47Z",
+    "published": "2022-04-11T15:15Z",
+    "aliases": [
+        "CVE-2021-25090"
+    ],
+    "summary": "FIXME",
+    "details": "The Portfolio Gallery, Product Catalog WordPress plugin before 2.1.0 does not have authorisation and CSRF checks in various functions related to AJAX actions, allowing any authenticated users, such as subscriber, to call them. Due to the lack of sanitisation and escaping, it could also allows attackers to perform Cross-Site Scripting attacks on pages where a Portfolio is embed",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "portfolio-wp"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/portfolio-wp",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.1.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25090"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/portfolio-wp"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/portfolio-wp/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-9c4f94afa7a0-f741c04f861a",
+    "modified": "2018-10-09T19:56Z",
+    "published": "2015-04-01T14:59Z",
+    "aliases": [
+        "CVE-2015-2755"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple cross-site request forgery (CSRF) vulnerabilities in the AB Google Map Travel (AB-MAP) plugin before 4.0 for WordPress allow remote attackers to hijack the authentication of administrators for requests that conduct cross-site scripting (XSS) attacks via the (1) lat (Latitude), (2) long (Longitude), (3) map_width, (4) map_height, or (5) zoom (Map Zoom) parameter in the ab_map_options page to wp-admin/admin.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "ab-google-map-travel"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/ab-google-map-travel",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.4",
+                "3.3",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.1",
+                "2.0",
+                "1.2",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2755"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/ab-google-map-travel"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/ab-google-map-travel/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

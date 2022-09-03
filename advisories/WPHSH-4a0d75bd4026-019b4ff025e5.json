@@ -1,0 +1,63 @@
+{
+    "id": "WPHSH-4a0d75bd4026-019b4ff025e5",
+    "modified": "2014-10-27T14:58Z",
+    "published": "2014-10-25T00:55Z",
+    "aliases": [
+        "CVE-2014-6230"
+    ],
+    "summary": "FIXME",
+    "details": "WP-Ban plugin before 1.6.4 for WordPress, when running in certain configurations, allows remote attackers to bypass the IP blacklist via a crafted X-Forwarded-For header.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-ban"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-ban",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.64"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.63",
+                "1.62",
+                "1.50",
+                "1.40",
+                "1.31",
+                "1.30",
+                "1.20",
+                "1.11",
+                "1.10",
+                "1.00"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6230"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-ban"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-ban/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-20"
+        ]
+    }
+}

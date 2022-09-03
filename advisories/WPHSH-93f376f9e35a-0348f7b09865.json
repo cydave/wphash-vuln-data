@@ -1,0 +1,80 @@
+{
+    "id": "WPHSH-93f376f9e35a-0348f7b09865",
+    "modified": "2017-10-03T17:33Z",
+    "published": "2017-09-25T17:29Z",
+    "aliases": [
+        "CVE-2017-14125"
+    ],
+    "summary": "FIXME",
+    "details": "SQL injection vulnerability in the Responsive Image Gallery plugin before 1.2.1 for WordPress allows remote attackers to execute arbitrary SQL commands via the \"id\" parameter in an add_edit_theme task in the wpdevart_gallery_themes page to wp-admin/admin.php.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "gallery-album"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/gallery-album",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.0",
+                "1.1.9",
+                "1.1.8",
+                "1.1.7",
+                "1.1.6",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-14125"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/gallery-album"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/gallery-album/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

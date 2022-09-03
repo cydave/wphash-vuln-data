@@ -1,0 +1,68 @@
+{
+    "id": "WPHSH-65ff76981b5c-c1342f8727fb",
+    "modified": "2021-05-07T20:15Z",
+    "published": "2021-05-05T19:15Z",
+    "aliases": [
+        "CVE-2021-24268"
+    ],
+    "summary": "FIXME",
+    "details": "The \u201cJetWidgets For Elementor\u201d WordPress Plugin before 1.0.9 has several widgets that are vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "jetwidgets-for-elementor"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/jetwidgets-for-elementor",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.9"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24268"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/jetwidgets-for-elementor"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/jetwidgets-for-elementor/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

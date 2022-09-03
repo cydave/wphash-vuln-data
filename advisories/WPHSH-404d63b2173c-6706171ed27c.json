@@ -1,0 +1,104 @@
+{
+    "id": "WPHSH-404d63b2173c-6706171ed27c",
+    "modified": "2018-05-16T14:58Z",
+    "published": "2018-04-12T15:29Z",
+    "aliases": [
+        "CVE-2015-4557"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in the new_Twitter_sign_button function in nextend-Twitter-connect.php in the Nextend Twitter Connect plugin before 1.5.2 for WordPress allows remote attackers to inject arbitrary web script or HTML via the redirect_to parameter.  NOTE: this may overlap CVE-2015-4413.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "nextend-twitter-connect"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/nextend-twitter-connect",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5.1",
+                "1.5.0",
+                "1.4.61",
+                "1.4.59",
+                "1.4.58",
+                "1.4.57",
+                "1.4.56",
+                "1.4.55",
+                "1.4.52",
+                "1.4.49",
+                "1.4.48",
+                "1.4.47",
+                "1.4.43",
+                "1.4.42",
+                "1.4.41",
+                "1.4.40",
+                "1.4.39",
+                "1.4.38",
+                "1.4.37",
+                "1.4.36",
+                "1.4.35",
+                "1.4.32",
+                "1.4.31",
+                "1.4.27",
+                "1.4.26",
+                "1.4.25",
+                "1.4.24",
+                "1.4.23",
+                "1.4.21",
+                "1.4.18",
+                "1.4.17",
+                "1.4.16",
+                "1.4.15",
+                "1.4.14",
+                "1.4.13",
+                "1.4.11",
+                "1.4.10",
+                "1.4.9",
+                "1.4.8",
+                "1.4.7",
+                "1.4.5",
+                "1.4.4",
+                "1.2.1",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4557"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/nextend-twitter-connect"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/nextend-twitter-connect/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

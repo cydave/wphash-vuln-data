@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-d7eb324eeb45-efbf40eab5e0",
+    "modified": "2019-09-20T17:20Z",
+    "published": "2019-09-20T15:15Z",
+    "aliases": [
+        "CVE-2016-11005"
+    ],
+    "summary": "FIXME",
+    "details": "The instalinker plugin before 1.1.2 for WordPress has includes/instalinker-admin-preview.php?client_id= XSS.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "instalinker"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/instalinker",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.1",
+                "1.1.0",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-11005"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/instalinker"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/instalinker/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

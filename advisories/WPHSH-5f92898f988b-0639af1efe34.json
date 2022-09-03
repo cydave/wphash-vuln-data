@@ -1,0 +1,116 @@
+{
+    "id": "WPHSH-5f92898f988b-0639af1efe34",
+    "modified": "2021-11-18T20:32Z",
+    "published": "2021-11-17T11:15Z",
+    "aliases": [
+        "CVE-2021-24850"
+    ],
+    "summary": "FIXME",
+    "details": "The Insert Pages WordPress plugin before 3.7.0 adds a shortcode that prints out other pages' content and custom fields. It can be used by users with a role as low as Contributor to perform Cross-Site Scripting attacks by storing the payload/s in another post's custom fields.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "insert-pages"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/insert-pages",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.7.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.6.1",
+                "3.6.0",
+                "3.5.10",
+                "3.5.9",
+                "3.5.8",
+                "3.5.7",
+                "3.5.6",
+                "3.5.5",
+                "3.5.4",
+                "3.5.3.2",
+                "3.5.3.1",
+                "3.5.3",
+                "3.5.2",
+                "3.5.1",
+                "3.5.0",
+                "3.4.7",
+                "3.4.6",
+                "3.4.5",
+                "3.4.4",
+                "3.4.3",
+                "3.4.2",
+                "3.4.1",
+                "3.4.0",
+                "3.3.0",
+                "3.2.9",
+                "3.2.8",
+                "3.2.7",
+                "3.2.6",
+                "3.2.5",
+                "3.2.4",
+                "3.2.3",
+                "3.2.2",
+                "3.2.1",
+                "3.2.0",
+                "3.1.9",
+                "3.1.8",
+                "3.1.7",
+                "3.1.6",
+                "3.1.5",
+                "3.1.4",
+                "3.1.3",
+                "3.1.2",
+                "3.1.1",
+                "3.1",
+                "3.0.2",
+                "3.0.1",
+                "3.0",
+                "2.9.1",
+                "2.9",
+                "2.8",
+                "2.7.2",
+                "2.7.1",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "1.4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24850"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/insert-pages"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/insert-pages/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

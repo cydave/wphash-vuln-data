@@ -1,0 +1,60 @@
+{
+    "id": "WPHSH-cce5b74dc96f-d8c91b727ec2",
+    "modified": "2017-09-19T01:30Z",
+    "published": "2010-03-26T20:30Z",
+    "aliases": [
+        "CVE-2009-4748"
+    ],
+    "summary": "FIXME",
+    "details": "SQL injection vulnerability in mycategoryorder.php in the My Category Order plugin 2.8 and earlier for WordPress allows remote attackers to execute arbitrary SQL commands via the parentID parameter in an act_OrderCategories action to wp-admin/post-new.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "my-category-order"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/my-category-order",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.8.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.8",
+                "2.7.1",
+                "2.7",
+                "2.6.1a",
+                "2.6.1",
+                "2.5.1",
+                "2.5"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4748"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/my-category-order"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/my-category-order/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

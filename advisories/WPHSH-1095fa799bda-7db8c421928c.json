@@ -1,0 +1,83 @@
+{
+    "id": "WPHSH-1095fa799bda-7db8c421928c",
+    "modified": "2019-08-29T12:54Z",
+    "published": "2019-08-22T20:15Z",
+    "aliases": [
+        "CVE-2014-10386"
+    ],
+    "summary": "FIXME",
+    "details": "The wp-live-chat-support plugin before 4.1.0 for WordPress has JavaScript injections.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-live-chat-support"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-live-chat-support",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.1.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.0.2",
+                "4.0.1",
+                "4.0.0",
+                "3.08",
+                "3.07",
+                "3.06",
+                "3.05",
+                "3.04",
+                "3.03",
+                "3.02",
+                "3.01",
+                "3.0",
+                "2.10",
+                "2.9",
+                "2.8",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-10386"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-live-chat-support"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-live-chat-support/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-74"
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "id": "WPHSH-90eddfe1f6b6-b8596f2d141c",
+    "modified": "2014-08-07T12:25Z",
+    "published": "2014-08-06T19:55Z",
+    "aliases": [
+        "CVE-2012-6653"
+    ],
+    "summary": "FIXME",
+    "details": "Unspecified vulnerability in the All Video Gallery (all-video-gallery) plugin before 1.2.0 for WordPress has unspecified impact and attack vectors.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "all-video-gallery"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/all-video-gallery",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-6653"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/all-video-gallery"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/all-video-gallery/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

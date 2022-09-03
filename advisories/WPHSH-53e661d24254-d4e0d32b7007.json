@@ -1,0 +1,61 @@
+{
+    "id": "WPHSH-53e661d24254-d4e0d32b7007",
+    "modified": "2014-08-07T12:46Z",
+    "published": "2014-08-06T19:55Z",
+    "aliases": [
+        "CVE-2014-5182"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple SQL injection vulnerabilities in the yawpp plugin 1.2 for WordPress allow remote authenticated users with Contributor privileges to execute arbitrary SQL commands via vectors related to (1) admin_functions.php or (2) admin_update.php, as demonstrated by the id parameter in the update action to wp-admin/admin.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "yawpp"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/yawpp",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.1",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5182"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/yawpp"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/yawpp/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=834445%40yawpp&old=824042%40yawpp&sfp_email=&sfph_mail=#file36"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

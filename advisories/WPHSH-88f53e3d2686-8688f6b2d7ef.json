@@ -1,0 +1,71 @@
+{
+    "id": "WPHSH-88f53e3d2686-8688f6b2d7ef",
+    "modified": "2021-11-29T20:29Z",
+    "published": "2021-11-29T09:15Z",
+    "aliases": [
+        "CVE-2021-24842"
+    ],
+    "summary": "FIXME",
+    "details": "The Bulk Datetime Change WordPress plugin before 1.12 does not enforce capability checks which allows users with Contributor roles to 1) list private post titles of other users and 2) change the posted date of other users' posts.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "bulk-datetime-change"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/bulk-datetime-change",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.12"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.11",
+                "1.10",
+                "1.09",
+                "1.08",
+                "1.07",
+                "1.06",
+                "1.05",
+                "1.04",
+                "1.03",
+                "1.02",
+                "1.01",
+                "1.00"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24842"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/bulk-datetime-change"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/bulk-datetime-change/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-862"
+        ]
+    }
+}

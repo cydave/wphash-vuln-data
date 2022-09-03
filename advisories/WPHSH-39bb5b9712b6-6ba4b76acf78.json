@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-39bb5b9712b6-6ba4b76acf78",
+    "modified": "2022-07-18T08:56:47Z",
+    "published": "2022-07-18T08:56:46Z",
+    "aliases": [
+        "CVE-2022-2411"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "auto-more-tag"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/auto-more-tag",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.1.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.0.0",
+                "3.2.2",
+                "3.2.1",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.1.2",
+                "2.1.1",
+                "2.1",
+                "2.0",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2411"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/auto-more-tag"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/auto-more-tag/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

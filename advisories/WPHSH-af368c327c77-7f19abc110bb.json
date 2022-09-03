@@ -1,0 +1,66 @@
+{
+    "id": "WPHSH-af368c327c77-7f19abc110bb",
+    "modified": "2017-10-12T16:47Z",
+    "published": "2017-10-06T14:29Z",
+    "aliases": [
+        "CVE-2014-7240"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in the Easy Contact Form Solution plugin before 1.7 for WordPress allows remote attackers to inject arbitrary web script or HTML via the value parameter in a master_response action to wp-admin/admin-ajax.php.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "easy-contact-form-solution"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/easy-contact-form-solution",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-7240"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/easy-contact-form-solution"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/easy-contact-form-solution/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

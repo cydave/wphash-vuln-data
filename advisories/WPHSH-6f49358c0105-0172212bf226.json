@@ -1,0 +1,98 @@
+{
+    "id": "WPHSH-6f49358c0105-0172212bf226",
+    "modified": "2021-07-30T14:15Z",
+    "published": "2019-03-24T15:29Z",
+    "aliases": [
+        "CVE-2019-9978"
+    ],
+    "summary": "FIXME",
+    "details": "The social-warfare plugin before 3.5.3 for WordPress has stored XSS via the wp-admin/admin-post.php?swp_debug=load_options swp_url parameter, as exploited in the wild in March 2019. This affects Social Warfare and Social Warfare Pro.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "social-warfare"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/social-warfare",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.5.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.5.2",
+                "3.5.1",
+                "3.5.0",
+                "3.4.2",
+                "3.4.1",
+                "3.4.0",
+                "3.3.3",
+                "3.3.2",
+                "3.3.1",
+                "3.3.0",
+                "3.2.2",
+                "3.2.1",
+                "3.2.0",
+                "3.1.1",
+                "3.1.0",
+                "3.0.9",
+                "3.0.8",
+                "3.0.6",
+                "3.0.5",
+                "3.0.1",
+                "3.0.0",
+                "2.3.5",
+                "2.3.4",
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.3.0",
+                "2.2.11",
+                "2.2.10",
+                "2.2.9",
+                "2.2.8",
+                "2.2.7",
+                "2.2.6",
+                "2.2.5",
+                "2.2.4",
+                "2.2.3",
+                "2.2.2",
+                "2.0.4",
+                "1.4.8"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9978"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/social-warfare"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/social-warfare/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "id": "WPHSH-8216381ff825-746c5eba57c9",
+    "modified": "2018-10-09T19:43Z",
+    "published": "2014-03-03T18:55Z",
+    "aliases": [
+        "CVE-2014-2040"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple cross-site scripting (XSS) vulnerabilities in the (1) callback_multicheck, (2) callback_radio, and (3) callback_wysiwygin functions in mfrh_class.settings-api.php in the Media File Renamer plugin 1.7.0 for WordPress allow remote authenticated users with permissions to add media or edit media to inject arbitrary web script or HTML via unspecified parameters, as demonstrated by the title of an uploaded file.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "media-file-renamer"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/media-file-renamer",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.2.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.2.0",
+                "1.9.8",
+                "1.9.4",
+                "1.9.2",
+                "1.9.0",
+                "1.7.0",
+                "1.4.2",
+                "1.4.0",
+                "1.3.4",
+                "1.3.0",
+                "1.2.2",
+                "1.2.0",
+                "1.0.4",
+                "1.0.2",
+                "1.0.0",
+                "0.9.4",
+                "0.9",
+                "0.8",
+                "0.6",
+                "0.54",
+                "0.52",
+                "0.5",
+                "0.4",
+                "0.34",
+                "0.32",
+                "0.3",
+                "0.2",
+                "0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-2040"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/media-file-renamer"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/media-file-renamer/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

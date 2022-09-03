@@ -1,0 +1,110 @@
+{
+    "id": "WPHSH-62ec923d1aed-f17e45234039",
+    "modified": "2017-08-29T01:32Z",
+    "published": "2012-08-13T22:55Z",
+    "aliases": [
+        "CVE-2012-4273"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in libs/xing.php in the 2 Click Social Media Buttons plugin before 0.34 for WordPress allows remote attackers to inject arbitrary web script or HTML via the xing-url parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "2-click-socialmedia-buttons"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/2-click-socialmedia-buttons",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.34"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.33-alpha",
+                "0.32.2",
+                "0.32.1",
+                "0.32",
+                "0.31.3",
+                "0.31.2",
+                "0.31.1",
+                "0.31",
+                "0.30",
+                "0.29",
+                "0.28",
+                "0.27.1",
+                "0.27",
+                "0.26",
+                "0.25",
+                "0.24.1",
+                "0.24",
+                "0.23.1",
+                "0.23",
+                "0.22",
+                "0.21.1",
+                "0.21",
+                "0.20",
+                "0.19.1",
+                "0.19",
+                "0.18.1",
+                "0.18",
+                "0.17",
+                "0.16",
+                "0.15",
+                "0.14",
+                "0.13",
+                "0.12",
+                "0.11-r2",
+                "0.11-r1",
+                "0.11",
+                "0.10",
+                "0.9",
+                "0.8.2",
+                "0.8.1",
+                "0.8.0",
+                "0.7.2",
+                "0.7.1",
+                "0.7",
+                "0.6.1",
+                "0.6",
+                "0.5.2",
+                "0.5.1",
+                "0.5",
+                "0.4",
+                "0.3",
+                "0.2",
+                "0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4273"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/2-click-socialmedia-buttons"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/2-click-socialmedia-buttons/"
+        },
+        {
+            "type": "FIX",
+            "url": "http://plugins.trac.wordpress.org/changeset?old_path=%2F2-click-socialmedia-buttons&old=532798&new_path=%2F2-click-socialmedia-buttons&new=532798"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

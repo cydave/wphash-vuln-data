@@ -1,0 +1,61 @@
+{
+    "id": "WPHSH-bcf72b39dcf8-3275f36c96e3",
+    "modified": "2021-05-24T15:41Z",
+    "published": "2021-05-17T17:15Z",
+    "aliases": [
+        "CVE-2021-24326"
+    ],
+    "summary": "FIXME",
+    "details": "The tab parameter of the settings page of the All 404 Redirect to Homepage WordPress plugin before 1.21 was vulnerable to an authenticated reflected Cross-Site Scripting (XSS) issue as user input was not properly sanitised before being output in an attribute.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "all-404-redirect-to-homepage"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/all-404-redirect-to-homepage",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.21"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.1",
+                "2.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24326"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/all-404-redirect-to-homepage"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/all-404-redirect-to-homepage/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

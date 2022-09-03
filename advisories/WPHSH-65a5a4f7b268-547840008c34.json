@@ -1,0 +1,98 @@
+{
+    "id": "WPHSH-65a5a4f7b268-547840008c34",
+    "modified": "2021-11-19T22:28Z",
+    "published": "2021-11-19T16:15Z",
+    "aliases": [
+        "CVE-2021-42363"
+    ],
+    "summary": "FIXME",
+    "details": "The Preview E-Mails for WooCommerce WordPress plugin is vulnerable to Reflected Cross-Site Scripting via the search_order parameter found in the ~/views/form.php file which allows attackers to inject arbitrary web scripts, in versions up to and including 1.6.8.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "woo-preview-emails"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/woo-preview-emails",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.0.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.6.8",
+                "1.6.7",
+                "1.6.6",
+                "1.6.5",
+                "1.6.4",
+                "1.6.3",
+                "1.6.2",
+                "1.6.1",
+                "1.6.0",
+                "1.5.5",
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5.0",
+                "1.4.1",
+                "1.4.0",
+                "1.3.1",
+                "1.3.0",
+                "1.2.11",
+                "1.2.10",
+                "1.2.9",
+                "1.2.8",
+                "1.2.7",
+                "1.2.6",
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.1.4",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42363"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/woo-preview-emails"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/woo-preview-emails/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2625941/woo-preview-emails/trunk/views/form.php"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

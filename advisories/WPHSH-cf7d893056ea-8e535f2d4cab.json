@@ -1,0 +1,136 @@
+{
+    "id": "WPHSH-cf7d893056ea-8e535f2d4cab",
+    "modified": "2021-04-12T11:28Z",
+    "published": "2021-04-05T19:15Z",
+    "aliases": [
+        "CVE-2021-24210"
+    ],
+    "summary": "FIXME",
+    "details": "There is an open redirect in the PhastPress WordPress plugin before 1.111 that allows an attacker to malform a request to a page with the plugin and then redirect the victim to a malicious page. There is also a support comment from another user one year ago (https://wordpress.org/support/topic/phast-php-used-for-remote-fetch/) that says that the php involved in the request only go to whitelisted pages but it's possible to redirect the victim to any domain.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "phastpress"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/phastpress",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.111"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.110",
+                "1.109",
+                "1.108",
+                "1.107",
+                "1.106",
+                "1.105",
+                "1.104",
+                "1.103",
+                "1.102",
+                "1.101",
+                "1.100",
+                "1.99",
+                "1.98",
+                "1.97",
+                "1.96",
+                "1.95",
+                "1.94",
+                "1.93",
+                "1.92",
+                "1.91",
+                "1.90",
+                "1.89",
+                "1.88",
+                "1.87",
+                "1.86",
+                "1.85",
+                "1.84",
+                "1.83",
+                "1.82",
+                "1.81",
+                "1.80",
+                "1.79",
+                "1.78",
+                "1.77",
+                "1.76",
+                "1.75",
+                "1.74",
+                "1.73",
+                "1.72",
+                "1.71",
+                "1.70",
+                "1.69",
+                "1.68",
+                "1.67",
+                "1.66",
+                "1.65",
+                "1.64",
+                "1.63",
+                "1.62",
+                "1.61",
+                "1.60",
+                "1.59",
+                "1.58",
+                "1.57",
+                "1.56",
+                "1.55",
+                "1.54-1-gde5bb35",
+                "1.54",
+                "1.53",
+                "1.52",
+                "1.51",
+                "1.50",
+                "1.49",
+                "1.48",
+                "1.47",
+                "1.46",
+                "1.45",
+                "1.44",
+                "1.43",
+                "1.42",
+                "1.39",
+                "1.40",
+                "1.41"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24210"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/phastpress"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/phastpress/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2497610/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-601"
+        ]
+    }
+}

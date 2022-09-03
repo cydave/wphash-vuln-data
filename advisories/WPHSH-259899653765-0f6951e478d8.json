@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-259899653765-0f6951e478d8",
+    "modified": "2022-08-05T12:22Z",
+    "published": "2021-09-29T20:15Z",
+    "aliases": [
+        "CVE-2021-39342"
+    ],
+    "summary": "FIXME",
+    "details": "The Credova_Financial WordPress plugin discloses a site's associated Credova API account username and password in plaintext via an AJAX action whenever a site user goes to checkout on a page that has the Credova Financing option enabled. This affects versions up to, and including, 1.4.8.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "credova-financial"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/credova-financial",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.9"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4.8",
+                "1.4.7",
+                "1.4.6",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.3.9",
+                "1.3.8",
+                "1.3.7",
+                "1.3.4.6"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39342"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/credova-financial"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/credova-financial/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2606811/credova-financial/trunk/credova-financial.php"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-522"
+        ]
+    }
+}

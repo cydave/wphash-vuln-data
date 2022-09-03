@@ -1,0 +1,80 @@
+{
+    "id": "WPHSH-a426ac8b4f38-5115c15f4019",
+    "modified": "2021-10-21T17:17Z",
+    "published": "2021-10-18T14:15Z",
+    "aliases": [
+        "CVE-2021-24754"
+    ],
+    "summary": "FIXME",
+    "details": "The MainWP Child Reports WordPress plugin before 2.0.8 does not validate or sanitise the order parameter before using it in a SQL statement in the admin dashboard, leading to an SQL injection issue",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "mainwp-child-reports"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/mainwp-child-reports",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.0.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.0.7",
+                "2.0.6",
+                "2.0.5",
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0",
+                "1.9.3",
+                "1.9.2",
+                "1.9.1",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0",
+                "0.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24754"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/mainwp-child-reports"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/mainwp-child-reports/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "id": "WPHSH-5b426e1c1030-052e43850b50",
+    "modified": "2022-06-08T15:53Z",
+    "published": "2022-05-30T09:15Z",
+    "aliases": [
+        "CVE-2022-1566"
+    ],
+    "summary": "FIXME",
+    "details": "The Quotes llama WordPress plugin through 0.7 does not sanitise and escape Quotes, which could allow high privilege users such as admin to perform Cross-Site Scripting attacks even when unfiltered_html is disallowed. The attack could also be performed by tricking an admin to import a malicious CSV file",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "quotes-llama"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/quotes-llama",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.7",
+                "0.6.5",
+                "0.6.4",
+                "0.6.3",
+                "0.6.2",
+                "0.6.1",
+                "0.6",
+                "0.5",
+                "0.5.1",
+                "0.4.4",
+                "0.4.3",
+                "0.4.2",
+                "0.4.1",
+                "0.4",
+                "v0.4",
+                "0.3",
+                "0.2.1",
+                "0.2",
+                "0.1.2",
+                "1.1.2",
+                "0.1.1",
+                "0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1566"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/quotes-llama"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/quotes-llama/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

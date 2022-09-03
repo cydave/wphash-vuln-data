@@ -1,0 +1,79 @@
+{
+    "id": "WPHSH-d45e2c7c9e8a-b5dc687cfed0",
+    "modified": "2022-03-01T14:20Z",
+    "published": "2022-02-21T18:15Z",
+    "aliases": [
+        "CVE-2022-23983"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-Site Request Forgery (CSRF) vulnerability leading to plugin Settings Update discovered in WP Content Copy Protection & No Right Click WordPress plugin (versions <= 3.4.4).",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-content-copy-protector"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-content-copy-protector",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.4.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.4.4",
+                "3.4.3",
+                "3.4.2",
+                "3.4.1",
+                "3.1.5",
+                "3.4",
+                "3.1",
+                "2.9",
+                "2.8.1",
+                "2.6",
+                "2.3",
+                "1.9",
+                "1.7.3",
+                "1.7",
+                "1.6",
+                "1.5.0.4",
+                "1.5.0.3",
+                "1.3",
+                "1.2",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23983"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-content-copy-protector"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-content-copy-protector/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

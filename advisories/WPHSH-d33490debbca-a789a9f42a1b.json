@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-d33490debbca-a789a9f42a1b",
+    "modified": "2019-09-26T15:40Z",
+    "published": "2019-09-26T01:15Z",
+    "aliases": [
+        "CVE-2015-9430"
+    ],
+    "summary": "FIXME",
+    "details": "The crazy-bone plugin before 0.6.0 for WordPress has XSS via the User-Agent HTTP header.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "crazy-bone"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/crazy-bone",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.6.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.5.6",
+                "0.5.5",
+                "0.5.4",
+                "0.5.3",
+                "0.5.2",
+                "0.5.1",
+                "0.5.0",
+                "0.4.2",
+                "0.4.1",
+                "0.4.0",
+                "0.3.0",
+                "0.2.0",
+                "0.1.2",
+                "0.1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9430"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/crazy-bone"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/crazy-bone/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

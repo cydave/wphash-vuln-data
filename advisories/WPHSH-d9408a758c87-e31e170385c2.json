@@ -1,0 +1,66 @@
+{
+    "id": "WPHSH-d9408a758c87-e31e170385c2",
+    "modified": "2017-08-29T01:33Z",
+    "published": "2013-07-16T14:08Z",
+    "aliases": [
+        "CVE-2013-4117"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in includes/CatGridPost.php in the Category Grid View Gallery plugin 2.3.1 for WordPress allows remote attackers to inject arbitrary web script or HTML via the ID parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "category-grid-view-gallery"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/category-grid-view-gallery",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.3.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.3.2",
+                "2.3.1",
+                "2.3",
+                "2.2.4",
+                "2.2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.2",
+                "2.1",
+                "2.0",
+                "0.2",
+                "0.1.1",
+                "0.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4117"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/category-grid-view-gallery"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/category-grid-view-gallery/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

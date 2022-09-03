@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-2d6d9497528c-fe371f328353",
+    "modified": "2016-11-28T19:27Z",
+    "published": "2015-05-28T14:59Z",
+    "aliases": [
+        "CVE-2015-4133"
+    ],
+    "summary": "FIXME",
+    "details": "Unrestricted file upload vulnerability in admin/scripts/FileUploader/php.php in the ReFlex Gallery plugin before 3.1.4 for WordPress allows remote attackers to execute arbitrary PHP code by uploading a file with a PHP extension, then accessing it via a direct request to the file in uploads/ directory.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "reflex-gallery"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/reflex-gallery",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.1.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.1.3",
+                "3.1",
+                "3.0.1",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.4.9",
+                "1.4.8",
+                "1.4.7",
+                "1.4.6",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4133"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/reflex-gallery"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/reflex-gallery/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

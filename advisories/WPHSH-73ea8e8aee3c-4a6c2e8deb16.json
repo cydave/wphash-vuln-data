@@ -1,0 +1,60 @@
+{
+    "id": "WPHSH-73ea8e8aee3c-4a6c2e8deb16",
+    "modified": "2021-11-23T18:14Z",
+    "published": "2021-11-19T16:15Z",
+    "aliases": [
+        "CVE-2021-33850"
+    ],
+    "summary": "FIXME",
+    "details": "There is a Cross-Site Scripting vulnerability in Microsoft Clarity version 0.3. The XSS payload executes whenever the user changes the clarity configuration in Microsoft Clarity version 0.3. The payload is stored on the configuring project Id page.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "microsoft-clarity"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/microsoft-clarity",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33850"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/microsoft-clarity"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/microsoft-clarity/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

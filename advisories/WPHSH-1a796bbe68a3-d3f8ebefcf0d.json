@@ -1,0 +1,96 @@
+{
+    "id": "WPHSH-1a796bbe68a3-d3f8ebefcf0d",
+    "modified": "2015-01-08T19:06Z",
+    "published": "2015-01-08T00:59Z",
+    "aliases": [
+        "CVE-2014-9473"
+    ],
+    "summary": "FIXME",
+    "details": "Unrestricted file upload vulnerability in lib_nonajax.php in the CformsII plugin 14.7 and earlier for WordPress allows remote attackers to execute arbitrary code by uploading a file with an executable extension via the cf_uploadfile2[] parameter, then accessing the file via a direct request to the file in the default upload directory.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "cforms2"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/cforms2",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "14.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "14.7",
+                "14.6.11",
+                "14.6.10",
+                "14.6.9",
+                "14.6.8",
+                "14.6.7",
+                "14.6.6",
+                "14.6.5",
+                "14.6.4",
+                "14.6.3",
+                "14.6.2",
+                "14.6.1",
+                "14.6",
+                "14.5",
+                "14.2",
+                "14.1",
+                "14.0",
+                "13.2.2",
+                "13.2.1",
+                "13.2",
+                "13.1",
+                "13.0",
+                "12.2",
+                "12.1",
+                "12.0",
+                "11.9",
+                "11.8",
+                "11.7.3",
+                "11.7.2",
+                "11.7.1",
+                "11.7",
+                "11.6.1",
+                "11.6",
+                "11.5",
+                "11.4",
+                "11.3",
+                "11.2",
+                "11.1",
+                "11.0",
+                "10.6",
+                "10.5.2",
+                "10.5.1",
+                "10.5",
+                "10.4",
+                "10.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9473"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/cforms2"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/cforms2/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

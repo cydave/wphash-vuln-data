@@ -1,0 +1,72 @@
+{
+    "id": "WPHSH-e2c6f7fa6c83-72f090250e7e",
+    "modified": "2020-07-23T17:19Z",
+    "published": "2020-07-21T18:15Z",
+    "aliases": [
+        "CVE-2020-14063"
+    ],
+    "summary": "FIXME",
+    "details": "A stored Cross-Site Scripting (XSS) vulnerability in the TC Custom JavaScript plugin before 1.2.2 for WordPress allows unauthenticated remote attackers to inject arbitrary JavaScript via the tccj-content parameter. This is displayed in the page footer of every front-end page and executed in the browser of visitors.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "tc-custom-javascript"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/tc-custom-javascript",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.1",
+                "1.2.0",
+                "1.1.6",
+                "1.1.5",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14063"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/tc-custom-javascript"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/tc-custom-javascript/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

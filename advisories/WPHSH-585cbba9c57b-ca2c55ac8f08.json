@@ -1,0 +1,89 @@
+{
+    "id": "WPHSH-585cbba9c57b-ca2c55ac8f08",
+    "modified": "2020-08-24T17:37Z",
+    "published": "2019-06-19T18:15Z",
+    "aliases": [
+        "CVE-2018-16613"
+    ],
+    "summary": "FIXME",
+    "details": "An issue was discovered in the update function in the wpForo Forum plugin before 1.5.2 for WordPress. A registered forum is able to escalate privilege to the forum administrator without any form of user interaction.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wpforo"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wpforo",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5.1",
+                "1.5.0",
+                "1.4.13",
+                "1.4.12",
+                "1.4.11",
+                "1.4.10",
+                "1.4.9",
+                "1.4.8",
+                "1.4.7",
+                "1.4.6",
+                "1.4.5",
+                "1.4.4.1",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.1",
+                "1.3.0",
+                "1.2.0",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0",
+                "beta-6",
+                "beta-5",
+                "beta-4",
+                "beta-3",
+                "beta-2",
+                "beta-1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16613"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wpforo"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wpforo/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "id": "WPHSH-2a1d8fa44c04-af415892d17c",
+    "modified": "2017-08-29T01:34Z",
+    "published": "2015-01-05T20:59Z",
+    "aliases": [
+        "CVE-2014-2598"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in the Quick Page/Post Redirect plugin before 5.0.5 for WordPress allows remote attackers to hijack the authentication of administrators for requests that conduct cross-site scripting (XSS) attacks via the quickppr_redirects[request][] parameter in the redirect-updates page to wp-admin/admin.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "quick-pagepost-redirect-plugin"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/quick-pagepost-redirect-plugin",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.0.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "5.0.4",
+                "5.0.3",
+                "5.0.2",
+                "5.0.1",
+                "5.0",
+                "4.2.3",
+                "4.2.2",
+                "4.2",
+                "4.1",
+                "4.0.1",
+                "4.0",
+                "3.2.3",
+                "3.2.2",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.1",
+                "2.0",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6.1",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-2598"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/quick-pagepost-redirect-plugin"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/quick-pagepost-redirect-plugin/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

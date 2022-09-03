@@ -1,0 +1,83 @@
+{
+    "id": "WPHSH-0fa23859a1b2-af8919ff693e",
+    "modified": "2021-07-15T15:04Z",
+    "published": "2021-07-12T20:15Z",
+    "aliases": [
+        "CVE-2021-24424"
+    ],
+    "summary": "FIXME",
+    "details": "The WP Reset \u00e2\u20ac\u201c Most Advanced WordPress Reset Tool WordPress plugin before 1.90 did not sanitise or escape its extra_data parameter when creating a snapshot via the admin dashboard, leading to an authenticated Stored Cross-Site Scripting issue",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-reset"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-reset",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.90"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.86",
+                "1.85",
+                "1.84",
+                "1.83",
+                "1.82",
+                "1.81",
+                "1.80",
+                "1.77",
+                "1.75",
+                "1.70",
+                "1.65",
+                "1.60",
+                "1.55",
+                "1.50",
+                "1.45",
+                "1.40",
+                "1.35",
+                "1.30",
+                "1.25",
+                "1.20",
+                "1.11",
+                "1.0",
+                "1.1",
+                "wp-reset"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24424"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-reset"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-reset/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

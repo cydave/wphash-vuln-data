@@ -1,0 +1,105 @@
+{
+    "id": "WPHSH-be97473a353e-093257392d20",
+    "modified": "2021-10-28T01:09Z",
+    "published": "2021-10-25T14:15Z",
+    "aliases": [
+        "CVE-2021-24885"
+    ],
+    "summary": "FIXME",
+    "details": "The YOP Poll WordPress plugin before 6.1.2 does not escape the perpage parameter before outputting it back in an attribute, leading to a Reflected Cross-Site Scripting",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "yop-poll"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/yop-poll",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.1.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "6.1.1",
+                "6.1.0",
+                "6.0.9",
+                "6.0.8",
+                "6.0.7",
+                "6.0.6",
+                "6.0.5",
+                "6.0.4",
+                "6.0.3",
+                "6.0.2",
+                "6.0.1",
+                "6.0.0",
+                "5.8.3",
+                "5.7.9",
+                "5.7.8",
+                "5.7.7",
+                "5.7.6",
+                "5.7.5",
+                "5.7.4",
+                "5.7.3",
+                "5.7.1",
+                "5.7.2",
+                "5.7",
+                "5.6",
+                "5.5",
+                "5.3",
+                "4.9.3",
+                "4.9.2",
+                "4.9.1",
+                "4.9",
+                "4.6",
+                "2.0",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.1",
+                "1.2",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24885"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/yop-poll"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/yop-poll/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2227747/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

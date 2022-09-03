@@ -1,0 +1,142 @@
+{
+    "id": "WPHSH-adcdc2f92e9c-449b20916ba8",
+    "modified": "2021-09-02T16:30Z",
+    "published": "2021-08-30T19:15Z",
+    "aliases": [
+        "CVE-2021-38343"
+    ],
+    "summary": "FIXME",
+    "details": "The Nested Pages WordPress plugin <= 3.1.15 was vulnerable to an Open Redirect via the `page` POST parameter in the `npBulkActions`, `npBulkEdit`, `npListingSort`, and `npCategoryFilter` `admin_post` actions.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-nested-pages"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-nested-pages",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.1.16"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.1.15",
+                "3.1.14",
+                "3.1.13",
+                "3.1.12",
+                "3.1.11",
+                "3.1.10",
+                "3.1.9",
+                "3.1.8",
+                "3.1.7",
+                "3.1.6",
+                "3.1.5",
+                "3.1.4",
+                "3.1.3",
+                "3.1.2",
+                "3.1.1",
+                "3.1.0",
+                "3.0.11",
+                "3.0.10",
+                "3.0.9",
+                "3.0.8",
+                "3.0.7",
+                "3.0.6",
+                "3.0.5",
+                "3.0.4",
+                "3.0.3",
+                "3.0.2",
+                "3.0.1",
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "1.7.1",
+                "1.7.0",
+                "1.6.8",
+                "1.6.7",
+                "1.6.6",
+                "1.6.5.2",
+                "1.6.5.1",
+                "1.6.5",
+                "1.6.4",
+                "1.6.3.2",
+                "1.6.3.1",
+                "1.6.3",
+                "1.6.2",
+                "1.6.1",
+                "1.6.0",
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5.0",
+                "1.4.1",
+                "1.4.0",
+                "1.3.15",
+                "1.3.14",
+                "1.3.13",
+                "1.3.12",
+                "1.3.11",
+                "1.3.10",
+                "1.3.9",
+                "1.3.8",
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.1",
+                "1.2.0",
+                "1.2",
+                "1.1.9",
+                "1.1.8",
+                "1.1.7",
+                "1.1.6",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.11",
+                "1.1.1",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38343"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-nested-pages"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-nested-pages/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-601"
+        ]
+    }
+}

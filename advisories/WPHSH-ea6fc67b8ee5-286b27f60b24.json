@@ -1,0 +1,69 @@
+{
+    "id": "WPHSH-ea6fc67b8ee5-286b27f60b24",
+    "modified": "2018-07-02T15:36Z",
+    "published": "2018-05-31T20:29Z",
+    "aliases": [
+        "CVE-2018-11632"
+    ],
+    "summary": "FIXME",
+    "details": "An issue was discovered in the MULTIDOTS Add Social Share Messenger Buttons Whatsapp and Viber plugin 1.0.8 for WordPress. If an admin user can be tricked into visiting a crafted URL created by an attacker (via spear phishing/social engineering), the attacker can change the plugin settings via wp-admin/admin-post.php CSRF. There's no nonce or capability check in the whatsapp_share_setting_add_update() function.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "add-social-share-buttons"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/add-social-share-buttons",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11632"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/add-social-share-buttons"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/add-social-share-buttons/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

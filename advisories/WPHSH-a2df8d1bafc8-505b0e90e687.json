@@ -1,0 +1,169 @@
+{
+    "id": "WPHSH-a2df8d1bafc8-505b0e90e687",
+    "modified": "2019-10-18T14:35Z",
+    "published": "2019-10-14T14:15Z",
+    "aliases": [
+        "CVE-2019-17574"
+    ],
+    "summary": "FIXME",
+    "details": "An issue was discovered in the Popup Maker plugin before 1.8.13 for WordPress. An unauthenticated attacker can partially control the arguments of the do_action function to invoke certain popmake_ or pum_ methods, as demonstrated by controlling content and delivery of popmake-system-info.txt (aka the \"support debug text file\").",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "popup-maker"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/popup-maker",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.8.13"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.8.12",
+                "1.8.11",
+                "1.8.10",
+                "1.8.9",
+                "1.8.8",
+                "1.8.7",
+                "1.8.6",
+                "1.8.5",
+                "1.8.4",
+                "1.8.3",
+                "1.8.2",
+                "1.8.1",
+                "1.8.0",
+                "1.7.30",
+                "1.7.29",
+                "1.7.28",
+                "1.7.27",
+                "1.7.26",
+                "1.7.25",
+                "1.7.24",
+                "1.7.23",
+                "1.7.22",
+                "1.7.21",
+                "1.7.20",
+                "1.7.19",
+                "1.7.18",
+                "1.7.17",
+                "1.7.16",
+                "1.7.15",
+                "1.7.14",
+                "1.7.13",
+                "1.7.12",
+                "1.7.11",
+                "1.7.10",
+                "1.7.9",
+                "1.7.8",
+                "1.7.7",
+                "1.7.6",
+                "1.7.5",
+                "1.7.3",
+                "1.7.2",
+                "1.7.1",
+                "1.7.0",
+                "1.6.6",
+                "1.6.5",
+                "1.6.4",
+                "1.6.3",
+                "1.6.2",
+                "1.6.1",
+                "1.6.0",
+                "1.5.8",
+                "1.5.7",
+                "1.5.6",
+                "1.5.5",
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5.0",
+                "1.4.21",
+                "1.4.20",
+                "1.4.19",
+                "1.4.18",
+                "1.4.17",
+                "1.4.16",
+                "1.4.15",
+                "1.4.14",
+                "1.4.13",
+                "1.4.12",
+                "1.4.10",
+                "1.4.9",
+                "1.4.8",
+                "1.4.7",
+                "1.4.6",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3.9",
+                "1.3.8",
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1.10",
+                "1.1.9",
+                "1.1.8",
+                "1.1.7",
+                "1.1.6",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17574"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/popup-maker"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/popup-maker/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-639"
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "id": "WPHSH-b9f955ba6527-f497577d8e1a",
+    "modified": "2021-11-19T08:15Z",
+    "published": "2021-11-17T11:15Z",
+    "aliases": [
+        "CVE-2021-24776"
+    ],
+    "summary": "FIXME",
+    "details": "The WP Performance Score Booster WordPress plugin before 2.1 does not have CSRF check when saving its settings, which could allow attackers to make a logged in admin change them via a CSRF attack.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-performance-score-booster"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-performance-score-booster",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.0",
+                "1.9.2.2",
+                "1.9.2.1",
+                "1.9.2",
+                "1.9.1",
+                "1.9",
+                "1.8",
+                "1.7.2",
+                "1.7.1",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3.1",
+                "1.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1.1",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24776"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-performance-score-booster"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-performance-score-booster/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

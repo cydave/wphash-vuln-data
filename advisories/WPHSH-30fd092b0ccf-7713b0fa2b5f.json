@@ -1,0 +1,65 @@
+{
+    "id": "WPHSH-30fd092b0ccf-7713b0fa2b5f",
+    "modified": "2022-02-04T18:21Z",
+    "published": "2022-02-01T13:15Z",
+    "aliases": [
+        "CVE-2021-24868"
+    ],
+    "summary": "FIXME",
+    "details": "The Document Embedder WordPress plugin before 1.7.9 contains a AJAX action endpoint, which could allow any authenticated user, such as subscriber to enumerate the title of arbitrary private and draft posts.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "document-emberdder"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/document-emberdder",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.7.9"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.7.6",
+                "1.7.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24868"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/document-emberdder"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/document-emberdder/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-668"
+        ]
+    }
+}

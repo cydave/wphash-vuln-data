@@ -1,0 +1,163 @@
+{
+    "id": "WPHSH-99afd1c96cf5-0b9e9499727b",
+    "modified": "2021-10-25T19:56Z",
+    "published": "2021-10-21T20:15Z",
+    "aliases": [
+        "CVE-2021-39357"
+    ],
+    "summary": "FIXME",
+    "details": "The Leaky Paywall WordPress plugin is vulnerable to Stored Cross-Site Scripting due to insufficient input validation and sanitization via the ~/class.php file which allowed attackers with administrative user access to inject arbitrary web scripts, in versions up to and including 4.16.5. This affects multi-site installations where unfiltered_html is disabled for administrators, and sites where unfiltered_html is disabled.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "leaky-paywall"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/leaky-paywall",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.16.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.16.6",
+                "4.16.5",
+                "4.16.4",
+                "4.16.3",
+                "4.16.2",
+                "4.16.1",
+                "4.16.0",
+                "4.15.9",
+                "4.15.8",
+                "4.15.7",
+                "4.15.6",
+                "4.15.5",
+                "4.15.4",
+                "4.15.3",
+                "4.15.2",
+                "4.15.1",
+                "4.15.0",
+                "4.14.7",
+                "4.14.6",
+                "4.14.5",
+                "4.14.4",
+                "4.14.3",
+                "4.14.2",
+                "4.14.1",
+                "4.14.0",
+                "4.13.9",
+                "4.13.8",
+                "4.10.5",
+                "4.13.7",
+                "4.13.6",
+                "4.13.5",
+                "4.13.4",
+                "4.13.3",
+                "4.13.2",
+                "4.13.1",
+                "4.13.0",
+                "4.12.9",
+                "4.12.8",
+                "4.12.7",
+                "4.12.6",
+                "4.12.5",
+                "4.12.4",
+                "4.12.3",
+                "4.12.2",
+                "4.12.1",
+                "4.12.0",
+                "4.11.2",
+                "4.11.1",
+                "4.11.0",
+                "4.10.16",
+                "4.10.15",
+                "4.10.14",
+                "4.10.13",
+                "4.10.12",
+                "4.10.11",
+                "4.10.10",
+                "4.10.9",
+                "4.10.8",
+                "4.10.7",
+                "4.10.6",
+                "4.10.4",
+                "4.10.3",
+                "4.10.2",
+                "4.10.1",
+                "4.10.0",
+                "4.9.2",
+                "4.9.1",
+                "4.9.0",
+                "4.8.0",
+                "4.7.0",
+                "4.6.1",
+                "4.6.0",
+                "4.5.2",
+                "4.5.1",
+                "4.5.0",
+                "4.4.0",
+                "4.3.0",
+                "4.2.0",
+                "4.1.5",
+                "4.1.4",
+                "4.1.3",
+                "4.1.2",
+                "4.1.1",
+                "4.1.0",
+                "4.0.6",
+                "4.0.5",
+                "4.0.4",
+                "4.0.3",
+                "4.0.2",
+                "4.0.1",
+                "4.0.0",
+                "3.8.0",
+                "3.7.0",
+                "3.6.0",
+                "3.5.0",
+                "3.4.0",
+                "3.3.1",
+                "3.3.0",
+                "3.2.1",
+                "3.2.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39357"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/leaky-paywall"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/leaky-paywall/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2615195/leaky-paywall/trunk/class.php"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

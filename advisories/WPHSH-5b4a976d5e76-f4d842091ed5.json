@@ -1,0 +1,67 @@
+{
+    "id": "WPHSH-5b4a976d5e76-f4d842091ed5",
+    "modified": "2021-07-08T19:27Z",
+    "published": "2021-07-07T13:15Z",
+    "aliases": [
+        "CVE-2021-34627"
+    ],
+    "summary": "FIXME",
+    "details": "A vulnerability in the getSelectedMimeTypesByRole function of the WP Upload Restriction WordPress plugin allows low-level authenticated users to view custom extensions added by administrators. This issue affects versions 2.2.3 and prior.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-upload-restriction"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-upload-restriction",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.2.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.2.3",
+                "2.2.2",
+                "2.2.0",
+                "2.1.0",
+                "2.0.1",
+                "2.0.0",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34627"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-upload-restriction"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-upload-restriction/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-863"
+        ]
+    }
+}

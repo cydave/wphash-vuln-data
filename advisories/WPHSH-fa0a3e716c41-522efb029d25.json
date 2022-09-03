@@ -1,0 +1,76 @@
+{
+    "id": "WPHSH-fa0a3e716c41-522efb029d25",
+    "modified": "2022-03-18T21:04Z",
+    "published": "2022-02-01T13:15Z",
+    "aliases": [
+        "CVE-2021-24762"
+    ],
+    "summary": "FIXME",
+    "details": "The Perfect Survey WordPress plugin before 1.5.2 does not validate and escape the question_id GET parameter before using it in a SQL statement in the get_question AJAX action, allowing unauthenticated users to perform SQL injection.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "perfect-survey"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/perfect-survey",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5.1",
+                "1.5.0",
+                "1.4.9",
+                "1.4.7",
+                "1.4.6.1",
+                "1.4.6",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3",
+                "1.2.1.1",
+                "1.2.1",
+                "1.2.0",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24762"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/perfect-survey"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/perfect-survey/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

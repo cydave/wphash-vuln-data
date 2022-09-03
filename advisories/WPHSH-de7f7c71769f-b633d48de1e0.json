@@ -1,0 +1,67 @@
+{
+    "id": "WPHSH-de7f7c71769f-b633d48de1e0",
+    "modified": "2021-09-13T11:58Z",
+    "published": "2021-09-06T11:15Z",
+    "aliases": [
+        "CVE-2021-24611"
+    ],
+    "summary": "FIXME",
+    "details": "The Keyword Meta WordPress plugin through 3.0 does not sanitise of escape its settings before outputting them back in the page after they are saved, allowing for Cross-Site Scripting issues. Furthermore, it is also lacking any CSRF check, allowing attacker to make a logged in high privilege user save arbitrary setting via a CSRF attack.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "keyword-meta"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/keyword-meta",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.0",
+                "2.1",
+                "2.0.1",
+                "2.0",
+                "0.2",
+                "1.3",
+                "1.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24611"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/keyword-meta"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/keyword-meta/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79",
+            "CWE-352"
+        ]
+    }
+}

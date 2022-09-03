@@ -1,0 +1,92 @@
+{
+    "id": "WPHSH-fbdb5a3b7d2d-553de0d55d7e",
+    "modified": "2019-09-20T17:46Z",
+    "published": "2019-09-20T15:15Z",
+    "aliases": [
+        "CVE-2016-11007"
+    ],
+    "summary": "FIXME",
+    "details": "The wp-invoice plugin before 4.1.1 for WordPress has incorrect access control over wpi_user_id for invoice retrieval.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-invoice"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-invoice",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.1.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.1.0",
+                "4.0.2",
+                "4.0.1",
+                "4.0.0",
+                "3.10.0",
+                "3.09.6",
+                "3.09.5",
+                "3.09.4",
+                "3.09.3.1",
+                "3.09.3",
+                "3.09.2",
+                "3.09.1",
+                "3.09.0",
+                "3.08.9",
+                "3.08.8",
+                "3.08.7",
+                "3.08.6",
+                "3.08.5",
+                "3.08.4",
+                "3.08.3",
+                "3.08.2",
+                "3.07.0",
+                "3.08.0",
+                "3.08.1",
+                "1.95",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.1",
+                "1.0",
+                "wp-invoice"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-11007"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-invoice"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-invoice/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-668"
+        ]
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "id": "WPHSH-d73952c0e946-4f78046ed12f",
+    "modified": "2016-12-22T03:00Z",
+    "published": "2015-09-17T16:59Z",
+    "aliases": [
+        "CVE-2015-7235"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple SQL injection vulnerabilities in dex_reservations.php in the CP Reservation Calendar plugin before 1.1.7 for WordPress allow remote attackers to execute arbitrary SQL commands via the (1) id parameter in a dex_reservations_calendar_load2 action or (2) dex_item parameter in a dex_reservations_check_posted_data action in a request to the default URI.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "cp-reservation-calendar"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/cp-reservation-calendar",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.6",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7235"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/cp-reservation-calendar"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/cp-reservation-calendar/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

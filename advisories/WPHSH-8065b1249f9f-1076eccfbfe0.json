@@ -1,0 +1,78 @@
+{
+    "id": "WPHSH-8065b1249f9f-1076eccfbfe0",
+    "modified": "2018-11-23T19:20Z",
+    "published": "2018-10-05T06:29Z",
+    "aliases": [
+        "CVE-2014-10076"
+    ],
+    "summary": "FIXME",
+    "details": "The wp-db-backup plugin 2.2.4 for WordPress relies on a five-character string for access control, which makes it easier for remote attackers to read backup archives via a brute-force attack.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-db-backup"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-db-backup",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.3.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.2.4",
+                "2.2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.2",
+                "2.1.5",
+                "2.1.4",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1.0",
+                "2.0.6",
+                "2.0.5",
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0",
+                "1.4",
+                "1.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-10076"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-db-backup"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-db-backup/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-200"
+        ]
+    }
+}

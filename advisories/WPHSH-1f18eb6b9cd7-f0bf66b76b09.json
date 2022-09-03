@@ -1,0 +1,76 @@
+{
+    "id": "WPHSH-1f18eb6b9cd7-f0bf66b76b09",
+    "modified": "2021-07-21T11:39Z",
+    "published": "2020-04-05T00:15Z",
+    "aliases": [
+        "CVE-2020-11548"
+    ],
+    "summary": "FIXME",
+    "details": "The Search Meter plugin through 2.13.2 for WordPress allows user input introduced in the search bar to be any formula. The attacker could achieve remote code execution via CSV injection if a wp-admin/index.php?page=search-meter Export is performed.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "search-meter"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/search-meter",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.13.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.13.2",
+                "2.13.1",
+                "2.13",
+                "2.12",
+                "2.11",
+                "2.10",
+                "2.9.1",
+                "2.9",
+                "2.8",
+                "2.7.3",
+                "2.7.2",
+                "2.7.1",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11548"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/search-meter"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/search-meter/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-1236"
+        ]
+    }
+}

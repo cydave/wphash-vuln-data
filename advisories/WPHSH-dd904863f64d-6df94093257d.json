@@ -1,0 +1,63 @@
+{
+    "id": "WPHSH-dd904863f64d-6df94093257d",
+    "modified": "2019-08-22T18:47Z",
+    "published": "2019-08-21T18:15Z",
+    "aliases": [
+        "CVE-2016-10912"
+    ],
+    "summary": "FIXME",
+    "details": "The universal-analytics plugin before 1.3.1 for WordPress has XSS.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "universal-analytics"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/universal-analytics",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.3.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.3.0",
+                "1.2.0",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10912"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/universal-analytics"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/universal-analytics/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

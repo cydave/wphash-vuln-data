@@ -1,0 +1,64 @@
+{
+    "id": "WPHSH-086dc836a9ff-e112907aea31",
+    "modified": "2021-06-25T13:19Z",
+    "published": "2021-06-21T20:15Z",
+    "aliases": [
+        "CVE-2021-24373"
+    ],
+    "summary": "FIXME",
+    "details": "The WP Hardening \u00e2\u20ac\u201c Fix Your WordPress Security WordPress plugin before 1.2.2 did not sanitise or escape the historyvalue GET parameter before outputting it in a Javascript block, leading to a reflected Cross-Site Scripting issue.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-security-hardening"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-security-hardening",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.1",
+                "1.2",
+                "1.1.2",
+                "1.1.1",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24373"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-security-hardening"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-security-hardening/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

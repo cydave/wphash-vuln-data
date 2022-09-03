@@ -1,0 +1,68 @@
+{
+    "id": "WPHSH-3a8d6ce39dbf-d87a1df66aef",
+    "modified": "2021-09-09T17:42Z",
+    "published": "2021-05-05T19:15Z",
+    "aliases": [
+        "CVE-2021-24273"
+    ],
+    "summary": "FIXME",
+    "details": "The \u201cClever Addons for Elementor\u201d WordPress Plugin before 2.1.0 has several widgets that are vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "cafe-lite"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/cafe-lite",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.1.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.0.15",
+                "2.0.14",
+                "2.0.13",
+                "2.0.12",
+                "2.0.11",
+                "2.0.10",
+                "2.0.9",
+                "2.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24273"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/cafe-lite"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/cafe-lite/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-a069143edf09-0c7365652791",
+    "modified": "2019-09-16T12:59Z",
+    "published": "2019-09-13T12:15Z",
+    "aliases": [
+        "CVE-2017-18614"
+    ],
+    "summary": "FIXME",
+    "details": "The kama-clic-counter plugin 3.4.9 for WordPress has SQL injection via the admin.php order parameter.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "kama-clic-counter"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/kama-clic-counter",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.5.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.2.3",
+                "3.2.1",
+                "3.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18614"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/kama-clic-counter"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/kama-clic-counter/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

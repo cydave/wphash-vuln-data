@@ -1,0 +1,101 @@
+{
+    "id": "WPHSH-119564026423-f788e4ec8995",
+    "modified": "2020-02-06T20:25Z",
+    "published": "2020-01-21T19:15Z",
+    "aliases": [
+        "CVE-2016-11018"
+    ],
+    "summary": "FIXME",
+    "details": "An issue was discovered in the Huge-IT gallery-images plugin before 1.9.0 for WordPress. The headers Client-Ip and X-Forwarded-For are prone to unauthenticated SQL injection. The affected file is gallery-images.php. The affected function is huge_it_image_gallery_ajax_callback().",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "gallery-images"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/gallery-images",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.9.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.8.9",
+                "1.8.8",
+                "1.8.7",
+                "1.8.6",
+                "1.8.5",
+                "1.8.4",
+                "1.8.3",
+                "1.8.2",
+                "1.8.1",
+                "1.8.0",
+                "1.7.9",
+                "1.7.8",
+                "1.7.7",
+                "1.7.6",
+                "1.7.5",
+                "1.7.4",
+                "1.7.3",
+                "1.7.2",
+                "1.7.1",
+                "1.7.0",
+                "1.6.9",
+                "1.6.8",
+                "1.6.7",
+                "1.6.6",
+                "1.6.5",
+                "1.6.4",
+                "1.6.3",
+                "1.6.2",
+                "1.6.1",
+                "1.6.0",
+                "1.5.9",
+                "1.5.8",
+                "1.5.7",
+                "1.5.6",
+                "1.5.1",
+                "1.5.0",
+                "1.4.9",
+                "1.4.8",
+                "1.4.6",
+                "1.4.7",
+                "1.4.4",
+                "1.4.5"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-11018"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/gallery-images"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/gallery-images/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

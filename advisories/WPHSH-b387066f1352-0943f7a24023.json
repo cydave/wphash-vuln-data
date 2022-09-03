@@ -1,0 +1,69 @@
+{
+    "id": "WPHSH-b387066f1352-0943f7a24023",
+    "modified": "2022-07-29T10:15Z",
+    "published": "2021-09-13T18:15Z",
+    "aliases": [
+        "CVE-2021-24431"
+    ],
+    "summary": "FIXME",
+    "details": "The Language Bar Flags WordPress plugin through 1.0.8 does not have any CSRF in place when saving its settings and did not sanitise or escape them when generating the flag bar in the frontend. This could allow attackers to make a logged in admin change the settings, and set Cross-Site Scripting payload in them, which will be executed in the frontend for all users",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "language-bar-flags"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/language-bar-flags",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24431"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/language-bar-flags"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/language-bar-flags/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79",
+            "CWE-352"
+        ]
+    }
+}

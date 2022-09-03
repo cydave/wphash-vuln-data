@@ -1,0 +1,55 @@
+{
+    "id": "WPHSH-1052fc1ecfe0-7b649d88a583",
+    "modified": "2017-08-29T01:33Z",
+    "published": "2013-09-10T19:55Z",
+    "aliases": [
+        "CVE-2013-5673"
+    ],
+    "summary": "FIXME",
+    "details": "SQL injection vulnerability in testimonial.php in the IndiaNIC Testimonial plugin 2.2 for WordPress allows remote attackers to execute arbitrary SQL commands via the custom_query parameter in a testimonial_add action to wp-admin/admin-ajax.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "indianic-testimonial"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/indianic-testimonial",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.1",
+                "2.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5673"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/indianic-testimonial"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/indianic-testimonial/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

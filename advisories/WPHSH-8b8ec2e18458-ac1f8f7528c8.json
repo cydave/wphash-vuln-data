@@ -1,0 +1,86 @@
+{
+    "id": "WPHSH-8b8ec2e18458-ac1f8f7528c8",
+    "modified": "2021-08-09T19:10Z",
+    "published": "2021-08-02T11:15Z",
+    "aliases": [
+        "CVE-2021-24428"
+    ],
+    "summary": "FIXME",
+    "details": "The RSS for Yandex Turbo WordPress plugin through 1.30 does not sanitise or escape some of its settings before saving and outputing them in the admin dashboard, leading to an Authenticated Stored Cross-Site Scripting issue even when the unfiltered_html capability is disallowed.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "rss-for-yandex-turbo"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/rss-for-yandex-turbo",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.31"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.30",
+                "1.29",
+                "1.28",
+                "1.27",
+                "1.26",
+                "1.25",
+                "1.24",
+                "1.23",
+                "1.22",
+                "1.21",
+                "1.20",
+                "1.19",
+                "1.18",
+                "1.17",
+                "1.16",
+                "1.15",
+                "1.14",
+                "1.13",
+                "1.12",
+                "1.11",
+                "1.10",
+                "1.09",
+                "1.08",
+                "1.07",
+                "1.06",
+                "1.05",
+                "1.04"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24428"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/rss-for-yandex-turbo"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/rss-for-yandex-turbo/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

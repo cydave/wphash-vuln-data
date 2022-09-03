@@ -1,0 +1,87 @@
+{
+    "id": "WPHSH-f4404c82df8c-dc50379e7875",
+    "modified": "2022-03-21T16:12Z",
+    "published": "2022-03-14T15:15Z",
+    "aliases": [
+        "CVE-2022-0659"
+    ],
+    "summary": "FIXME",
+    "details": "The Sync QCloud COS WordPress plugin before 2.0.1 does not escape some of its settings, allowing high privilege users such as admin to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "sync-qcloud-cos"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/sync-qcloud-cos",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.0.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.0.0",
+                "1.9.9",
+                "1.9.8",
+                "1.9.7",
+                "1.9.6",
+                "1.9.5",
+                "1.9.4",
+                "1.9.3",
+                "1.9.2",
+                "1.9.1",
+                "1.9.0",
+                "1.8.5",
+                "1.8.4",
+                "1.8.3",
+                "1.8.2",
+                "1.8.1",
+                "1.8.0",
+                "1.7.1",
+                "1.7.0",
+                "1.6.8",
+                "1.6.7",
+                "1.6.6",
+                "1.6.5",
+                "1.6.4",
+                "1.6.3",
+                "1.6.2",
+                "1.6.1",
+                "1.6.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0659"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/sync-qcloud-cos"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/sync-qcloud-cos/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

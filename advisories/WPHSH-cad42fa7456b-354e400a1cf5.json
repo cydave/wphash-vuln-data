@@ -1,0 +1,65 @@
+{
+    "id": "WPHSH-cad42fa7456b-354e400a1cf5",
+    "modified": "2022-01-04T16:12Z",
+    "published": "2021-11-08T18:15Z",
+    "aliases": [
+        "CVE-2021-24646"
+    ],
+    "summary": "FIXME",
+    "details": "The Booking.com Banner Creator WordPress plugin before 1.4.3 does not properly sanitize inputs when creating banners, which could allow high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "bookingcom-banner-creator"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/bookingcom-banner-creator",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4.2",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24646"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/bookingcom-banner-creator"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/bookingcom-banner-creator/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

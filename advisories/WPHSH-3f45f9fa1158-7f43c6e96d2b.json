@@ -1,0 +1,100 @@
+{
+    "id": "WPHSH-3f45f9fa1158-7f43c6e96d2b",
+    "modified": "2019-07-31T08:15Z",
+    "published": "2019-07-05T14:15Z",
+    "aliases": [
+        "CVE-2019-5973"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in Online Lesson Booking 0.8.6 and earlier allows remote attackers to hijack the authentication of administrators via unspecified vectors.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "online-lesson-booking-system"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/online-lesson-booking-system",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.8.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.8.6",
+                "0.8.5",
+                "0.8.4",
+                "0.8.3",
+                "0.8.2",
+                "0.8.1",
+                "0.8.0",
+                "0.7.9",
+                "0.7.8",
+                "0.7.7",
+                "0.7.6",
+                "0.7.5",
+                "0.7.4",
+                "0.7.3",
+                "0.7.2",
+                "0.7.1",
+                "0.7.0",
+                "0.6.8",
+                "0.6.7",
+                "0.6.6",
+                "0.6.5",
+                "0.6.4",
+                "0.6.3",
+                "0.6.2",
+                "0.6.1",
+                "0.6.0",
+                "0.5.4",
+                "0.5.3",
+                "0.5.2",
+                "0.5.1",
+                "0.5.0",
+                "0.4.5",
+                "0.4.4",
+                "0.4.3",
+                "0.4.2",
+                "0.4.1",
+                "0.4.0",
+                "0.3.1",
+                "0.3.0",
+                "0.2.0.1",
+                "0.2.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-5973"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/online-lesson-booking-system"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/online-lesson-booking-system/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "id": "WPHSH-5d7c6c28f7c6-2e3c361116c9",
+    "modified": "2015-09-02T17:19Z",
+    "published": "2014-07-10T16:55Z",
+    "aliases": [
+        "CVE-2014-4847"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in the Random Banner plugin 1.1.2.1 for WordPress allows remote attackers to inject arbitrary web script or HTML via the buffercode_RBanner_url_banner1 parameter in an update action to wp-admin/options.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "random-banner"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/random-banner",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.3",
+                "1.2",
+                "1.1.2.1",
+                "1.1.2",
+                "1.1.1",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4847"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/random-banner"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/random-banner/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

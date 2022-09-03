@@ -1,0 +1,89 @@
+{
+    "id": "WPHSH-6ab3ae2a13f4-2d3a887af050",
+    "modified": "2020-07-13T10:51Z",
+    "published": "2012-01-20T17:55Z",
+    "aliases": [
+        "CVE-2012-0895"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in map/map.php in the Count Per Day module before 3.1.1 for WordPress allows remote attackers to inject arbitrary web script or HTML via the map parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "count-per-day"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/count-per-day",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.1.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.1",
+                "3.0",
+                "2.17",
+                "2.16.1",
+                "2.16",
+                "2.15.1",
+                "2.15",
+                "2.14",
+                "2.13.1",
+                "2.13",
+                "2.12",
+                "2.11",
+                "2.10.1",
+                "2.10",
+                "2.9",
+                "2.8",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4.2",
+                "2.4.1",
+                "2.4",
+                "2.3.1",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.5.1",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0895"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/count-per-day"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/count-per-day/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

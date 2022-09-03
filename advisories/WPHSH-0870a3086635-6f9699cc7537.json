@@ -1,0 +1,74 @@
+{
+    "id": "WPHSH-0870a3086635-6f9699cc7537",
+    "modified": "2022-02-22T22:26Z",
+    "published": "2022-02-14T12:15Z",
+    "aliases": [
+        "CVE-2021-25107"
+    ],
+    "summary": "FIXME",
+    "details": "The Form Store to DB WordPress plugin before 1.1.1 does not sanitise and escape parameter keys before outputting it back in the created entry, allowing unauthenticated attacker to perform Cross-Site Scripting attacks against admin",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "cf7-store-to-db-lite"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/cf7-store-to-db-lite",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25107"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/cf7-store-to-db-lite"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/cf7-store-to-db-lite/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2657583"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

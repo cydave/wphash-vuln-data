@@ -1,0 +1,80 @@
+{
+    "id": "WPHSH-e7b2c7f52608-4f622c7d0384",
+    "modified": "2022-04-27T00:15Z",
+    "published": "2022-04-18T18:15Z",
+    "aliases": [
+        "CVE-2022-0737"
+    ],
+    "summary": "FIXME",
+    "details": "The Text Hover WordPress plugin before 4.2 does not sanitize and escape the text to hover, which could allow high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "text-hover"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/text-hover",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.1",
+                "4.0",
+                "3.9.1",
+                "3.9",
+                "3.8",
+                "3.7.1",
+                "3.6",
+                "3.5.1",
+                "3.5",
+                "3.2.2",
+                "3.2.1",
+                "3.2",
+                "3.1.1",
+                "3.1",
+                "3.0.3",
+                "3.0.2",
+                "3.0.1",
+                "3.0",
+                "2.2",
+                "2.0",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0737"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/text-hover"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/text-hover/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

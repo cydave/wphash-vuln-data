@@ -1,0 +1,79 @@
+{
+    "id": "WPHSH-60b19dfc180b-78c51a657652",
+    "modified": "2022-01-27T16:49Z",
+    "published": "2022-01-24T08:15Z",
+    "aliases": [
+        "CVE-2021-24936"
+    ],
+    "summary": "FIXME",
+    "details": "The WP Extra File Types WordPress plugin before 0.5.1 does not have CSRF check when saving its settings, nor sanitise and escape some of them, which could allow attackers to make a logged in admin change them and perform Cross-Site Scripting attacks",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-extra-file-types"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-extra-file-types",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.5.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.5",
+                "0.4.4.1",
+                "0.4.4",
+                "0.4.3",
+                "0.4.2",
+                "0.4.1",
+                "0.4.0",
+                "0.3.6",
+                "0.3.5",
+                "0.3.4",
+                "0.3.3",
+                "0.3.2",
+                "0.3.1",
+                "0.3.0",
+                "0.2.4",
+                "0.2.3",
+                "0.2.2",
+                "0.2.1",
+                "0.2",
+                "0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24936"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-extra-file-types"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-extra-file-types/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

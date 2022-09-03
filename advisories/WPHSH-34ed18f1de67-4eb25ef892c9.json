@@ -1,0 +1,79 @@
+{
+    "id": "WPHSH-34ed18f1de67-4eb25ef892c9",
+    "modified": "2019-08-15T16:25Z",
+    "published": "2019-08-13T17:15Z",
+    "aliases": [
+        "CVE-2017-18498"
+    ],
+    "summary": "FIXME",
+    "details": "The simple-job-board plugin before 2.4.4 for WordPress has reflected XSS via keyword search.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "simple-job-board"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/simple-job-board",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.4.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.4.3",
+                "2.4.2",
+                "2.4.1",
+                "2.4.0",
+                "2.3.2",
+                "2.3.1",
+                "2.3.0",
+                "2.2.4",
+                "2.2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.2.0",
+                "2.1.4",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1.0",
+                "2.0",
+                "1.0",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18498"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/simple-job-board"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/simple-job-board/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-92e9cafe22ac-a50f102cedee",
+    "modified": "2019-08-30T18:20Z",
+    "published": "2019-08-28T12:15Z",
+    "aliases": [
+        "CVE-2015-9362"
+    ],
+    "summary": "FIXME",
+    "details": "The Post Connector plugin before 1.0.4 for WordPress has XSS via add_query_arg() and remove_query_arg().",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "post-connector"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/post-connector",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.3",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9362"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/post-connector"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/post-connector/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

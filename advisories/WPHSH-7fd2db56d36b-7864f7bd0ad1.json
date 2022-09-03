@@ -1,0 +1,56 @@
+{
+    "id": "WPHSH-7fd2db56d36b-7864f7bd0ad1",
+    "modified": "2014-07-11T17:53Z",
+    "published": "2014-07-02T18:55Z",
+    "aliases": [
+        "CVE-2014-4574"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in resize.php in the WebEngage plugin before 2.0.1 for WordPress allows remote attackers to inject arbitrary web script or HTML via the height parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "webengage"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/webengage",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.0.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.0.0",
+                "1.1.0",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4574"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/webengage"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/webengage/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "id": "WPHSH-0c298ba629cc-628dcbbd0026",
+    "modified": "2022-02-10T21:24Z",
+    "published": "2022-02-07T16:15Z",
+    "aliases": [
+        "CVE-2021-25106"
+    ],
+    "summary": "FIXME",
+    "details": "The Privacy Policy Generator, Terms & Conditions Generator WordPress Plugin : WPLegalPages WordPress plugin before 2.7.1 does not check for authorisation and has a flawed CSRF logic when saving its settings, allowing any authenticated users, such as subscriber, to update them. Furthermore, due to the lack of sanitisation and escaping, it could lead to Stored Cross-Site Scripting",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wplegalpages"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wplegalpages",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.7.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.7.0",
+                "2.6.0",
+                "2.5.3",
+                "2.5.2",
+                "2.5.1",
+                "2.5.0",
+                "2.4.9",
+                "2.4.8",
+                "2.4.7",
+                "2.4.6",
+                "2.4.5",
+                "2.4.4",
+                "2.4.3",
+                "2.4.2",
+                "2.4.1",
+                "2.4.0",
+                "2.3.9",
+                "2.3.8",
+                "2.3.7",
+                "2.3.6",
+                "2.3.5",
+                "2.3.4",
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.3.0",
+                "2.2.9",
+                "2.2.8",
+                "2.2.7",
+                "2.2.6",
+                "2.2.5",
+                "2.2.4",
+                "2.2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.2",
+                "2.1",
+                "2.0.6",
+                "2.0.5",
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.5.9",
+                "1.5.8",
+                "1.5.7",
+                "1.5.6",
+                "1.5.5",
+                "1.5.4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25106"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wplegalpages"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wplegalpages/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

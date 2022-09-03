@@ -1,0 +1,64 @@
+{
+    "id": "WPHSH-acb42d8008a4-a3d087613423",
+    "modified": "2016-11-28T19:29Z",
+    "published": "2016-01-08T20:59Z",
+    "aliases": [
+        "CVE-2015-4694"
+    ],
+    "summary": "FIXME",
+    "details": "Directory traversal vulnerability in download.php in the Zip Attachments plugin before 1.5.1 for WordPress allows remote attackers to read arbitrary files via a .. (dot dot) in the za_file parameter.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "zip-attachments"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/zip-attachments",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4694"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/zip-attachments"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/zip-attachments/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-22"
+        ]
+    }
+}

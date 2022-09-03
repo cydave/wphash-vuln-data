@@ -1,0 +1,78 @@
+{
+    "id": "WPHSH-c97682d57aa9-ecbdde0265d2",
+    "modified": "2022-02-28T19:39Z",
+    "published": "2022-02-21T11:15Z",
+    "aliases": [
+        "CVE-2021-24921"
+    ],
+    "summary": "FIXME",
+    "details": "The Advanced Database Cleaner WordPress plugin before 3.0.4 does not sanitise and escape $_GET keys and values before outputting them back in attributes, leading to Reflected Cross-Site Scripting issues",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "advanced-database-cleaner"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/advanced-database-cleaner",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.0.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.0.3",
+                "3.0.2",
+                "3.0.1",
+                "3.0.0",
+                "2.0.1",
+                "2.0.0",
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.1",
+                "1.3.0",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.1",
+                "1.1.0",
+                "1.5.0",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24921"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/advanced-database-cleaner"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/advanced-database-cleaner/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

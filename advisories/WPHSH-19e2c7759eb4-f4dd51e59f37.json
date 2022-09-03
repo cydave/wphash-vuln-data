@@ -1,0 +1,106 @@
+{
+    "id": "WPHSH-19e2c7759eb4-f4dd51e59f37",
+    "modified": "2020-05-07T20:16Z",
+    "published": "2020-05-05T15:15Z",
+    "aliases": [
+        "CVE-2020-12104"
+    ],
+    "summary": "FIXME",
+    "details": "The Import feature in the wp-advanced-search plugin 3.3.6 for WordPress is vulnerable to authenticated SQL injection via an uploaded .sql file. An attacker can use this to execute SQL commands without any validation.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-advanced-search"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-advanced-search",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.3.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.3.6",
+                "3.3.5",
+                "3.3.4",
+                "3.3.3",
+                "3.3.2",
+                "3.3.1",
+                "3.3",
+                "3.2.2",
+                "3.2.1",
+                "3.2",
+                "3.0.4",
+                "3.0.2",
+                "3.0.1",
+                "3.0",
+                "2.8.1",
+                "2.8",
+                "2.7.1",
+                "2.7",
+                "2.6.2",
+                "2.6.1",
+                "2.6",
+                "2.5.1",
+                "2.5",
+                "2.4.4",
+                "2.4.3",
+                "2.4.2",
+                "2.4.1",
+                "v2.4.1",
+                "2.4",
+                "2.3",
+                "2.2.1",
+                "2.2",
+                "2.1",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0",
+                "1.8",
+                "1.7.1",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.2",
+                "1.1.5",
+                "1.1.1",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-12104"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-advanced-search"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-advanced-search/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

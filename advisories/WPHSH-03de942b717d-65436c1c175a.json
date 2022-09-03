@@ -1,0 +1,89 @@
+{
+    "id": "WPHSH-03de942b717d-65436c1c175a",
+    "modified": "2021-12-02T13:56Z",
+    "published": "2021-06-01T14:15Z",
+    "aliases": [
+        "CVE-2021-24311"
+    ],
+    "summary": "FIXME",
+    "details": "The wp_ajax_upload-remote-file AJAX action of the External Media WordPress plugin before 1.0.34 was vulnerable to arbitrary file uploads via any authenticated users.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "external-media"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/external-media",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.34"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.33",
+                "1.0.32",
+                "1.0.31",
+                "1.0.30",
+                "1.0.29",
+                "1.0.28",
+                "1.0.27",
+                "1.0.26",
+                "1.0.25",
+                "1.0.24",
+                "1.0.23",
+                "1.0.22",
+                "1.0.21",
+                "1.0.20",
+                "1.0.19",
+                "1.0.18",
+                "1.0.17",
+                "1.0.16",
+                "1.0.15",
+                "1.0.12",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24311"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/external-media"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/external-media/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-434"
+        ]
+    }
+}

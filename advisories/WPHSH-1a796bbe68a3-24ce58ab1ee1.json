@@ -1,0 +1,61 @@
+{
+    "id": "WPHSH-1a796bbe68a3-24ce58ab1ee1",
+    "modified": "2019-08-23T18:49Z",
+    "published": "2019-08-22T20:15Z",
+    "aliases": [
+        "CVE-2014-10393"
+    ],
+    "summary": "FIXME",
+    "details": "The cforms2 plugin before 10.5 for WordPress has XSS.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "cforms2"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/cforms2",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "10.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "10.4",
+                "10.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-10393"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/cforms2"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/cforms2/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

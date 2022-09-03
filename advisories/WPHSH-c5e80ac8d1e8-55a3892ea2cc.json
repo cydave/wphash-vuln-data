@@ -1,0 +1,54 @@
+{
+    "id": "WPHSH-c5e80ac8d1e8-55a3892ea2cc",
+    "modified": "2017-09-29T01:30Z",
+    "published": "2008-01-31T20:00Z",
+    "aliases": [
+        "CVE-2008-0520"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple SQL injection vulnerabilities in main.php in the WassUp plugin 1.4 through 1.4.3 for WordPress allow remote attackers to execute arbitrary SQL commands via the (1) from_date or (2) to_date parameter to spy.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wassup"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wassup",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.3a"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-0520"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wassup"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wassup/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

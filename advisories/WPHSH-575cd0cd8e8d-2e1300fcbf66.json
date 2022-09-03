@@ -1,0 +1,60 @@
+{
+    "id": "WPHSH-575cd0cd8e8d-2e1300fcbf66",
+    "modified": "2022-05-09T15:27Z",
+    "published": "2022-05-02T16:15Z",
+    "aliases": [
+        "CVE-2022-0771"
+    ],
+    "summary": "FIXME",
+    "details": "The SiteSuperCharger WordPress plugin before 5.2.0 does not validate, sanitise and escape various user inputs before using them in SQL statements via AJAX actions (available to both unauthenticated and authenticated users), leading to Unauthenticated SQL Injections",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "sitesupercharger"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/sitesupercharger",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.2.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "5.1.10"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0771"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/sitesupercharger"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/sitesupercharger/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

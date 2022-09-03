@@ -1,0 +1,80 @@
+{
+    "id": "WPHSH-ace3e5f024e3-8c82c9c77095",
+    "modified": "2017-08-29T01:31Z",
+    "published": "2012-05-21T18:55Z",
+    "aliases": [
+        "CVE-2012-2916"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in sabre_class_admin.php in the SABRE plugin before 2.1 for WordPress allows remote attackers to inject arbitrary web script or HTML via the active_option parameter to wp-admin/tools.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "sabre"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/sabre",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.1",
+                "1.2.0",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.0",
+                "0.9.0",
+                "0.8.1",
+                "0.8.0",
+                "0.7.4",
+                "0.7.3",
+                "0.7.2",
+                "0.7.1",
+                "0.7.0",
+                "0.6.3",
+                "0.6.2",
+                "0.6.1",
+                "0.6.0",
+                "0.4.2",
+                "0.4.1",
+                "0.4.0",
+                "0.2.1",
+                "0.2.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2916"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/sabre"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/sabre/"
+        },
+        {
+            "type": "FIX",
+            "url": "http://plugins.trac.wordpress.org/changeset?old_path=%2Fsabre&old=534490&new_path=%2Fsabre&new=534490"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "id": "WPHSH-f3d0c6474cac-734323b76bea",
+    "modified": "2022-07-25T12:22:39Z",
+    "published": "2022-07-25T12:22:38Z",
+    "aliases": [
+        "CVE-2022-2354"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-dbmanager"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-dbmanager",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.80.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.80.7",
+                "2.80.6",
+                "2.80.5",
+                "2.80.3",
+                "2.80.2",
+                "2.80.1",
+                "2.80",
+                "2.79.2",
+                "2.79.1",
+                "2.79",
+                "2.78.1",
+                "2.78",
+                "2.76",
+                "2.75",
+                "2.74",
+                "2.73",
+                "2.72",
+                "2.71",
+                "2.70",
+                "2.65",
+                "2.50",
+                "2.40",
+                "2.31",
+                "2.30",
+                "2.20",
+                "2.11",
+                "2.04",
+                "2.00",
+                "2.01",
+                "1.00",
+                "2.02",
+                "2.05",
+                "2.03",
+                "2.10"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2354"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-dbmanager"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-dbmanager/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "id": "WPHSH-ccdc6c628c86-9474b6b7180a",
+    "modified": "2019-08-21T17:17Z",
+    "published": "2019-08-21T12:15Z",
+    "aliases": [
+        "CVE-2015-9321"
+    ],
+    "summary": "FIXME",
+    "details": "The shortcode-factory plugin before 1.1.1 for WordPress has XSS via add_query_arg.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "shortcode-factory"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/shortcode-factory",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9321"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/shortcode-factory"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/shortcode-factory/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

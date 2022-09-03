@@ -1,0 +1,91 @@
+{
+    "id": "WPHSH-e50f76cc1b08-341e9cfdab8e",
+    "modified": "2019-03-13T15:52Z",
+    "published": "2015-02-16T15:59Z",
+    "aliases": [
+        "CVE-2015-1436"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in the Easing Slider plugin before 2.2.0.7 for WordPress allows remote attackers to inject arbitrary web script or HTML via the edit parameter in the (1) easingslider_manage_customizations or (2) easingslider_edit_sliders page to wp-admin/admin.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "easing-slider"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/easing-slider",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.2.0.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.2.0.6",
+                "2.2.0.5",
+                "2.2.0.4",
+                "2.2.0.3",
+                "2.2.0.2",
+                "2.2.0.1",
+                "2.2",
+                "2.1.4.3",
+                "2.1.4.2",
+                "2.1.4.1",
+                "2.1.4",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1",
+                "2.0.2",
+                "2.0.1.3",
+                "2.0.1.2",
+                "2.0.1.1",
+                "2.0.1",
+                "2.0",
+                "1.2.1",
+                "1.2",
+                "1.1.9",
+                "1.1.8",
+                "1.1.7",
+                "1.1.6",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.0.1",
+                "1.1.1",
+                "1.1.0",
+                "1.0",
+                "1.0.3",
+                "1.0.2",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-1436"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/easing-slider"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/easing-slider/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "id": "WPHSH-57d8a0bc0dde-7072441cc969",
+    "modified": "2022-03-07T18:28Z",
+    "published": "2022-02-28T09:15Z",
+    "aliases": [
+        "CVE-2021-24704"
+    ],
+    "summary": "FIXME",
+    "details": "In the Orange Form WordPress plugin through 1.0, the process_bulk_action() function in \"admin/orange-form-email.php\" performs an unprepared SQL query with an unsanitized parameter ($id). Only admin can access the page that invokes the function, but because of lack of CSRF protection, it is actually exploitable and could allow attackers to make a logged in admin delete arbitrary posts for example",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "orange-form"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/orange-form",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24704"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/orange-form"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/orange-form/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89",
+            "CWE-352"
+        ]
+    }
+}

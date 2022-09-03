@@ -1,0 +1,88 @@
+{
+    "id": "WPHSH-786f26a66c4b-21f9ca34a4d2",
+    "modified": "2020-12-22T19:53Z",
+    "published": "2020-12-21T07:15Z",
+    "aliases": [
+        "CVE-2020-35589"
+    ],
+    "summary": "FIXME",
+    "details": "The limit-login-attempts-reloaded plugin before 2.17.4 for WordPress allows wp-admin/options-general.php?page=limit-login-attempts&tab= XSS. A malicious user can cause an administrator user to supply dangerous content to the vulnerable page, which is then reflected back to the user and executed by the web browser. The most common mechanism for delivering malicious content is to include it as a parameter in a URL that is posted publicly or e-mailed directly to victims.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "limit-login-attempts-reloaded"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/limit-login-attempts-reloaded",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.16.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.15.2",
+                "2.15.1",
+                "2.15.0",
+                "2.14.0",
+                "2.13.0",
+                "2.12.3",
+                "2.12.2",
+                "2.12.1",
+                "2.12.0",
+                "2.11.0",
+                "2.10.1",
+                "2.10.0",
+                "2.9.0",
+                "2.8.1",
+                "2.8.0",
+                "2.7.4",
+                "2.7.3",
+                "2.7.2",
+                "2.7.1",
+                "2.7.0",
+                "2.6.3",
+                "2.6.2",
+                "2.6.1",
+                "2.5.0",
+                "2.4.0",
+                "2.3.0",
+                "2.2.0",
+                "2.1.0",
+                "2.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35589"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/limit-login-attempts-reloaded"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/limit-login-attempts-reloaded/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

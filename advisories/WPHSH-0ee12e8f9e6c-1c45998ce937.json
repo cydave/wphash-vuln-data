@@ -1,0 +1,167 @@
+{
+    "id": "WPHSH-0ee12e8f9e6c-1c45998ce937",
+    "modified": "2019-07-24T18:25Z",
+    "published": "2018-02-01T14:29Z",
+    "aliases": [
+        "CVE-2018-0511"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting vulnerability in WP Retina 2x prior to version 5.2.2 allows an attacker to inject arbitrary web script or HTML via unspecified vectors.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-retina-2x"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-retina-2x",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.2.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "5.2.2",
+                "5.2.0",
+                "5.1.4",
+                "5.1.2",
+                "5.1.1",
+                "5.1.0",
+                "5.0.5",
+                "5.0.4",
+                "5.0.3",
+                "5.0.2",
+                "5.0.0",
+                "4.8.0",
+                "4.7.9",
+                "4.7.7",
+                "4.7.6",
+                "4.7.5",
+                "4.7.4",
+                "4.7.3",
+                "4.7.1",
+                "4.7.0",
+                "4.6.0",
+                "4.5.9",
+                "4.5.8",
+                "4.5.7",
+                "4.5.5",
+                "4.5.4",
+                "4.5.2",
+                "4.5.0",
+                "4.4.6",
+                "4.4.4",
+                "4.4.3",
+                "4.4.2",
+                "4.4.1",
+                "4.4.0",
+                "4.0.2",
+                "4.0.0",
+                "3.5.4",
+                "3.5.2",
+                "2.5.0",
+                "3.4.8",
+                "3.4.6",
+                "3.4.4",
+                "3.4.2",
+                "3.4.0",
+                "3.3.8",
+                "3.3.6",
+                "3.3.5",
+                "3.3.4",
+                "3.3.2",
+                "3.3.1",
+                "3.3.0",
+                "3.2.9",
+                "3.2.8",
+                "3.2.7",
+                "3.2.6",
+                "3.2.4",
+                "3.2.2",
+                "3.2.0",
+                "3.1.0",
+                "3.0.8",
+                "3.0.6",
+                "3.0.4",
+                "3.0.0",
+                "2.6.0",
+                "2.4.0",
+                "2.2.0",
+                "2.0.8",
+                "2.0.6",
+                "2.0.4",
+                "2.0.2",
+                "2.0.0",
+                "1.9.4",
+                "1.9.2",
+                "1.9.0",
+                "1.8.0",
+                "1.6.2",
+                "1.6.0",
+                "1.4.2",
+                "1.4.0",
+                "1.2.0",
+                "1.0.0",
+                "0.9.8",
+                "0.9.6",
+                "0.9.4",
+                "0.9",
+                "0.8",
+                "0.4.2",
+                "0.4",
+                "0.3.4",
+                "0.3.2",
+                "0.3.1",
+                "0.3",
+                "0.2.9",
+                "0.2.8",
+                "0.2.6",
+                "0.2.4",
+                "0.2.2",
+                "0.2.1",
+                "0.2",
+                "0.1.8",
+                "0.1.6",
+                "0.1.4",
+                "0.1.2",
+                "0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-0511"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-retina-2x"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-retina-2x/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/1802137/#file1"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

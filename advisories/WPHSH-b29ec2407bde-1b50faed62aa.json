@@ -1,0 +1,96 @@
+{
+    "id": "WPHSH-b29ec2407bde-1b50faed62aa",
+    "modified": "2022-04-04T18:27Z",
+    "published": "2022-03-28T18:15Z",
+    "aliases": [
+        "CVE-2022-0818"
+    ],
+    "summary": "FIXME",
+    "details": "The WooCommerce Affiliate Plugin WordPress plugin before 4.16.4.5 does not have authorization and CSRF checks on a specific action handler, as well as does not sanitize its settings, which enables an unauthenticated attacker to inject malicious XSS payloads into the settings page of the plugin.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "woo-coupon-usage"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/woo-coupon-usage",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.16.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.16.2",
+                "4.16.1",
+                "4.16.0.4",
+                "4.16.0.3",
+                "4.15.2",
+                "4.14.2.2",
+                "4.15.0",
+                "4.15.1.1",
+                "4.15.1",
+                "4.14.2.1",
+                "4.15.0.3",
+                "4.14.2",
+                "4.14.1",
+                "4.14.0",
+                "4.13.0.1",
+                "4.13.0.2",
+                "4.13.0.3",
+                "4.13.0.4",
+                "4.13.0",
+                "4.11.3.6",
+                "4.11.3.3",
+                "4.11.3.4",
+                "4.12.0",
+                "4.12.0.1",
+                "4.11.3.2",
+                "4.11.3.1",
+                "4.11.1",
+                "4.10.0.2",
+                "4.11.3",
+                "4.11.0.2",
+                "4.11.0",
+                "4.10.0.1",
+                "4.10.0",
+                "4.9.1.2",
+                "4.9.1.1",
+                "4.9.1",
+                "4.9.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0818"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/woo-coupon-usage"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/woo-coupon-usage/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

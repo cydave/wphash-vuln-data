@@ -1,0 +1,100 @@
+{
+    "id": "WPHSH-a13937bbaa0f-baa73dd27aa8",
+    "modified": "2017-08-29T01:31Z",
+    "published": "2014-04-07T15:55Z",
+    "aliases": [
+        "CVE-2012-1834"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in the cms_tpv_admin_head function in functions.php in the CMS Tree Page View plugin before 0.8.9 for WordPress allows remote attackers to inject arbitrary web script or HTML via the cms_tpv_view parameter to wp-admin/options-general.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "cms-tree-page-view"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/cms-tree-page-view",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.8.9"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.8.8",
+                "0.8.7",
+                "0.8.6",
+                "0.8.5",
+                "0.8.4",
+                "0.8.3",
+                "0.8.2",
+                "0.8.1",
+                "0.8",
+                "0.7.20",
+                "0.7.19",
+                "0.7.18",
+                "0.7.17",
+                "0.7.16",
+                "0.7.15",
+                "0.7.14",
+                "0.7.13",
+                "0.7.12",
+                "0.7.11",
+                "0.7.10",
+                "0.7.9",
+                "0.7.8",
+                "0.7.7",
+                "0.7.6",
+                "0.7.5",
+                "0.7.4",
+                "0.7.2",
+                "0.7.3",
+                "0.7.1",
+                "0.7",
+                "0.6.3",
+                "0.6.1",
+                "0.6",
+                "0.5.7",
+                "0.5.6",
+                "0.5.5",
+                "0.5.4",
+                "0.5.3",
+                "0.5.2",
+                "0.4.9",
+                "0.4.8",
+                "0.4.7",
+                "0.4.6"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-1834"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/cms-tree-page-view"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/cms-tree-page-view/"
+        },
+        {
+            "type": "FIX",
+            "url": "http://plugins.trac.wordpress.org/changeset/523576/cms-tree-page-view"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

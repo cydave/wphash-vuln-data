@@ -1,0 +1,159 @@
+{
+    "id": "WPHSH-c1a22e0978a4-89babfaa8e92",
+    "modified": "2022-02-25T16:10Z",
+    "published": "2022-02-07T16:15Z",
+    "aliases": [
+        "CVE-2021-25108"
+    ],
+    "summary": "FIXME",
+    "details": "The IP2Location Country Blocker WordPress plugin before 2.26.6 does not have CSRF check in the ip2location_country_blocker_save_rules AJAX action, allowing attackers to make a logged in admin block arbitrary country, or block all of them at once, preventing users from accessing the frontend.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "ip2location-country-blocker"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/ip2location-country-blocker",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.26.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.26.4",
+                "2.26.3",
+                "2.26.2",
+                "2.26.1",
+                "2.26.0",
+                "2.25.17",
+                "2.25.16",
+                "1.25.15",
+                "2.25.14",
+                "2.25.13",
+                "2.25.12",
+                "2.25.11",
+                "2.25.10",
+                "2.25.9",
+                "2.25.8",
+                "2.25.7",
+                "2.25.6",
+                "2.25.5",
+                "2.25.4",
+                "2.25.3",
+                "2.25.2",
+                "2.25.1",
+                "2.25.0",
+                "2.24.1",
+                "2.24.0",
+                "2.23.1",
+                "2.23.0",
+                "2.22.1",
+                "2.22.0",
+                "2.21.2",
+                "2.21.1",
+                "2.21.0",
+                "2.20.2",
+                "2.20.1",
+                "2.20.0",
+                "2.19.21",
+                "2.19.20",
+                "2.19.19",
+                "1.19.18",
+                "2.19.17",
+                "2.19.15",
+                "2.19.14",
+                "2.19.13",
+                "2.19.12",
+                "2.19.11",
+                "2.19.10",
+                "2.19.9",
+                "2.19.8",
+                "2.19.7",
+                "2.19.6",
+                "2.19.5",
+                "2.19.4",
+                "2.19.3",
+                "2.19.2",
+                "2.19.1",
+                "2.19.0",
+                "2.18.1",
+                "2.18.0",
+                "2.17.6",
+                "2.17.5",
+                "2.17.4",
+                "2.17.3",
+                "2.17.2",
+                "2.17.1",
+                "2.17.0",
+                "2.16.0",
+                "2.15.3",
+                "2.15.2",
+                "2.15.1",
+                "2.15.0",
+                "2.14.6",
+                "2.14.5",
+                "2.14.4",
+                "2.14.3",
+                "2.14.2",
+                "2.14.1",
+                "2.14.0",
+                "2.13.2",
+                "2.13.1",
+                "2.13.0",
+                "2.12.0",
+                "2.11.3",
+                "2.11.2",
+                "2.11.1",
+                "2.11.0",
+                "2.10.4",
+                "2.10.3",
+                "2.10.2",
+                "2.10.0",
+                "2.8.7",
+                "2.8.6",
+                "2.8.5",
+                "2.8.1",
+                "2.8.0",
+                "2.7.5",
+                "2.7.4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25108"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/ip2location-country-blocker"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/ip2location-country-blocker/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2653459"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

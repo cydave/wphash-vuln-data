@@ -1,0 +1,57 @@
+{
+    "id": "WPHSH-aa465c32666f-f0ae8ed81d33",
+    "modified": "2015-08-06T16:41Z",
+    "published": "2014-10-21T14:55Z",
+    "aliases": [
+        "CVE-2014-8375"
+    ],
+    "summary": "FIXME",
+    "details": "SQL injection vulnerability in GBgallery.php in the GB Gallery Slideshow plugin 1.5 for WordPress allows remote administrators to execute arbitrary SQL commands via the selected_group parameter in a gb_ajax_get_group action to wp-admin/admin-ajax.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "gb-gallery-slideshow"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/gb-gallery-slideshow",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5",
+                "1.2",
+                "1.1",
+                "0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8375"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/gb-gallery-slideshow"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/gb-gallery-slideshow/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

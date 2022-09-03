@@ -1,0 +1,98 @@
+{
+    "id": "WPHSH-c62330487c46-933184ce421f",
+    "modified": "2022-07-18T10:51Z",
+    "published": "2022-07-17T11:15Z",
+    "aliases": [
+        "CVE-2022-2114"
+    ],
+    "summary": "FIXME",
+    "details": "The Data Tables Generator by Supsystic WordPress plugin before 1.10.20 does not sanitise and escape some of its Table settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks when the unfiltered_html capability is disallowed (for example in multisite setup)",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "data-tables-generator-by-supsystic"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/data-tables-generator-by-supsystic",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.10.20"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.10.19",
+                "1.10.18",
+                "1.10.17",
+                "1.10.16",
+                "1.10.15",
+                "1.10.14",
+                "1.10.13",
+                "1.10.12",
+                "1.10.11",
+                "1.10.9",
+                "1.10.8",
+                "1.10.7",
+                "1.10.6",
+                "1.10.5",
+                "1.10.4",
+                "1.10.3",
+                "1.10.2",
+                "1.10.1",
+                "1.10.0",
+                "1.9.99",
+                "1.9.98",
+                "1.9.97",
+                "1.9.96",
+                "1.9.95",
+                "1.9.94",
+                "1.9.80",
+                "1.9.77",
+                "1.9.71",
+                "1.9.6",
+                "1.9.3",
+                "1.9.0",
+                "1.8.8",
+                "1.8.7",
+                "1.8.6",
+                "1.8.5",
+                "1.8.4",
+                "1.8.3",
+                "1.8.2",
+                "1.7.5"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2114"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/data-tables-generator-by-supsystic"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/data-tables-generator-by-supsystic/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

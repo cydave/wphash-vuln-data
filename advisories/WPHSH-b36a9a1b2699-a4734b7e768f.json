@@ -1,0 +1,74 @@
+{
+    "id": "WPHSH-b36a9a1b2699-a4734b7e768f",
+    "modified": "2018-10-09T19:33Z",
+    "published": "2012-08-29T04:39Z",
+    "aliases": [
+        "CVE-2011-4926"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in adminimize/adminimize_page.php in the Adminimize plugin before 1.7.22 for WordPress allows remote attackers to inject arbitrary web script or HTML via the page parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "adminimize"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/adminimize",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.7.22"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.7.21",
+                "1.7.20",
+                "1.7.19",
+                "1.7.18",
+                "1.7.17",
+                "1.7.16",
+                "1.7.15",
+                "1.7.14",
+                "1.7.13",
+                "1.7.12",
+                "exports",
+                "2.0-alpha",
+                "1.7.7",
+                "beta",
+                "1.6",
+                "1.4.7",
+                "1.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4926"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/adminimize"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/adminimize/"
+        },
+        {
+            "type": "FIX",
+            "url": "http://plugins.trac.wordpress.org/changeset?reponame=&new=467338@adminimize&old=466900@adminimize#file5"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

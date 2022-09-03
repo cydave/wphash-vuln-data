@@ -1,0 +1,54 @@
+{
+    "id": "WPHSH-13d622515a9a-af2da7d4b90b",
+    "modified": "2015-08-28T16:34Z",
+    "published": "2014-07-02T18:55Z",
+    "aliases": [
+        "CVE-2014-4594"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in index.php in the WordPress Responsive Preview plugin before 1.2 for WordPress allows remote attackers to inject arbitrary web script or HTML via the url parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-responsive-preview"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-responsive-preview",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "tags.1.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4594"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-responsive-preview"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-responsive-preview/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

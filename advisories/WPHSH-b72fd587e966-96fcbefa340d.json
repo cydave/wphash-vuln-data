@@ -1,0 +1,55 @@
+{
+    "id": "WPHSH-b72fd587e966-96fcbefa340d",
+    "modified": "2014-06-27T16:51Z",
+    "published": "2014-05-22T15:13Z",
+    "aliases": [
+        "CVE-2014-3845"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in the TinyMCE Color Picker plugin before 1.2 for WordPress allows remote attackers to hijack the authentication of unspecified users for requests that change plugin settings via unknown vectors.  NOTE: some of these details are obtained from third party information.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "tinymce-colorpicker"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/tinymce-colorpicker",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3845"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/tinymce-colorpicker"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/tinymce-colorpicker/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

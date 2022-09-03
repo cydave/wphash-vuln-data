@@ -1,0 +1,66 @@
+{
+    "id": "WPHSH-890eadb08a59-4a76e977be16",
+    "modified": "2019-08-21T17:14Z",
+    "published": "2019-08-21T13:15Z",
+    "aliases": [
+        "CVE-2017-18554"
+    ],
+    "summary": "FIXME",
+    "details": "The analytics-tracker plugin before 1.1.1 for WordPress has XSS via a search event.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "analytics-tracker"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/analytics-tracker",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.0",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18554"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/analytics-tracker"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/analytics-tracker/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

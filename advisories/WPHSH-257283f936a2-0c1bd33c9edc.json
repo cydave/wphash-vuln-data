@@ -1,0 +1,66 @@
+{
+    "id": "WPHSH-257283f936a2-0c1bd33c9edc",
+    "modified": "2021-10-20T22:18Z",
+    "published": "2021-10-18T14:15Z",
+    "aliases": [
+        "CVE-2021-24672"
+    ],
+    "summary": "FIXME",
+    "details": "The One User Avatar WordPress plugin before 2.3.7 does not escape the link and target attributes of its shortcode, allowing users with a role as low as Contributor to perform Stored Cross-Site Scripting attacks",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "one-user-avatar"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/one-user-avatar",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.3.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.3.6",
+                "2.3.5",
+                "2.3.4",
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.3.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24672"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/one-user-avatar"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/one-user-avatar/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

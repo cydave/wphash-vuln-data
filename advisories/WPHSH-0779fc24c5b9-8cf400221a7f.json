@@ -1,0 +1,139 @@
+{
+    "id": "WPHSH-0779fc24c5b9-8cf400221a7f",
+    "modified": "2020-02-06T21:03Z",
+    "published": "2020-01-30T13:15Z",
+    "aliases": [
+        "CVE-2013-0291"
+    ],
+    "summary": "FIXME",
+    "details": "NextGEN Gallery Plugin for WordPress 1.9.10 and 1.9.11 has a Path Disclosure Vulnerability",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "nextgen-gallery"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/nextgen-gallery",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.0.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.9.13",
+                "1.9.12",
+                "1.9.11",
+                "1.9.10",
+                "1.9.9",
+                "1.9.8",
+                "1.9.7",
+                "1.9.6",
+                "1.9.5",
+                "1.9.3",
+                "1.9.2",
+                "1.9.1",
+                "1.9.0",
+                "1.8.4",
+                "1.8.3",
+                "1.8.2",
+                "1.8.1",
+                "1.8.0",
+                "1.7.4",
+                "1.7.3",
+                "1.7.2",
+                "1.7.1",
+                "1.7.0",
+                "1.6.2",
+                "1.6.1",
+                "1.6.0",
+                "1.5.5",
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5.0",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.1",
+                "1.2.0",
+                "1.1.0",
+                "1.0.2",
+                "0.99.1",
+                "0.99",
+                "0.97",
+                "0.96",
+                "0.95",
+                "0.94",
+                "0.93",
+                "0.92",
+                "0.91",
+                "0.90",
+                "0.83",
+                "0.81",
+                "0.80",
+                "0.74",
+                "0.73",
+                "0.71",
+                "0.70",
+                "0.64",
+                "0.63",
+                "0.62",
+                "0.61",
+                "0.60",
+                "0.52",
+                "0.51",
+                "0.50",
+                "0.43",
+                "0.42",
+                "0.41",
+                "0.40",
+                "0.391",
+                "0.39",
+                "0.38",
+                "0.37"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0291"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/nextgen-gallery"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/nextgen-gallery/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-200"
+        ]
+    }
+}

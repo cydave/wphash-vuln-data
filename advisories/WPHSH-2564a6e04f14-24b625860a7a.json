@@ -1,0 +1,63 @@
+{
+    "id": "WPHSH-2564a6e04f14-24b625860a7a",
+    "modified": "2017-08-29T01:30Z",
+    "published": "2011-11-28T21:55Z",
+    "aliases": [
+        "CVE-2011-4562"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple cross-site scripting (XSS) vulnerabilities in (1) view/admin/log_item.php and (2) view/admin/log_item_details.php in the Redirection plugin 2.2.9 for WordPress allow remote attackers to inject arbitrary web script or HTML via the Referer HTTP header in a request to a post that does not exist.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "redirection"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/redirection",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.2.10"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.2.9",
+                "2.2.8",
+                "2.2.7",
+                "2.2.2",
+                "2.1.29",
+                "2.2.29",
+                "2.1.14",
+                "2.1.13",
+                "2.0",
+                "1.7"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4562"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/redirection"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/redirection/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

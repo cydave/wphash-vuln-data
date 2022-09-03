@@ -1,0 +1,74 @@
+{
+    "id": "WPHSH-dd23c56f2315-74ed5a733a49",
+    "modified": "2019-10-03T00:03Z",
+    "published": "2018-03-07T20:29Z",
+    "aliases": [
+        "CVE-2018-7204"
+    ],
+    "summary": "FIXME",
+    "details": "inc/logger.php in the Giribaz File Manager plugin before 5.0.2 for WordPress logged activity related to the plugin in /wp-content/uploads/file-manager/log.txt. If a user edits the wp-config.php file using this plugin, the wp-config.php contents get added to log.txt, which is not protected and contains database credentials, salts, etc. These files have been indexed by Google and a simple dork will find affected sites.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "file-manager"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/file-manager",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.0.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.1.6",
+                "4.1.3",
+                "4.1.2",
+                "4.1.1",
+                "4.1.0",
+                "4.0.4",
+                "4.0.3",
+                "3.1.0",
+                "3.0.1",
+                "3.0.0",
+                "2.2.4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7204"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/file-manager"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/file-manager/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/1823035/file-manager"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-532"
+        ]
+    }
+}

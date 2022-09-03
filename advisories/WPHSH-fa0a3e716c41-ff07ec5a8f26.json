@@ -1,0 +1,76 @@
+{
+    "id": "WPHSH-fa0a3e716c41-ff07ec5a8f26",
+    "modified": "2022-02-04T17:45Z",
+    "published": "2022-02-01T13:15Z",
+    "aliases": [
+        "CVE-2021-24763"
+    ],
+    "summary": "FIXME",
+    "details": "The Perfect Survey WordPress plugin before 1.5.2 does not have proper authorisation nor CSRF checks in the save_global_setting AJAX action, allowing unauthenticated users to edit surveys and modify settings. Given the lack of sanitisation and escaping in the settings, this could also lead to a Stored Cross-Site Scripting issue which will be executed in the context of a user viewing any survey",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "perfect-survey"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/perfect-survey",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5.1",
+                "1.5.0",
+                "1.4.9",
+                "1.4.7",
+                "1.4.6.1",
+                "1.4.6",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3",
+                "1.2.1.1",
+                "1.2.1",
+                "1.2.0",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24763"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/perfect-survey"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/perfect-survey/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "id": "WPHSH-ce97f5ea5e0a-149d9858028d",
+    "modified": "2018-12-11T13:19Z",
+    "published": "2018-11-04T05:29Z",
+    "aliases": [
+        "CVE-2018-18919"
+    ],
+    "summary": "FIXME",
+    "details": "The WP Editor.md plugin 10.0.1 for WordPress allows XSS via the comment area.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-editormd"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-editormd",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "10.0.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "10.0.3",
+                "10.0.2",
+                "10.0.1",
+                "10.0.0",
+                "valine",
+                "9.9.9",
+                "6.1.6",
+                "6.1.5",
+                "6.1.4",
+                "5.0.8",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18919"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-editormd"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-editormd/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

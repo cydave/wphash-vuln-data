@@ -1,0 +1,83 @@
+{
+    "id": "WPHSH-573123c1d17c-929160edd86c",
+    "modified": "2016-12-22T03:00Z",
+    "published": "2015-08-18T17:59Z",
+    "aliases": [
+        "CVE-2015-5482"
+    ],
+    "summary": "FIXME",
+    "details": "Directory traversal vulnerability in the GD bbPress Attachments plugin before 2.3 for WordPress allows remote administrators to include and execute arbitrary local files via a .. (dot dot) in the tab parameter in the gdbbpress_attachments page to wp-admin/edit.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "gd-bbpress-attachments"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/gd-bbpress-attachments",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.9.2",
+                "1.9.1",
+                "1.9",
+                "1.8.4",
+                "1.8.3",
+                "1.8.2",
+                "1.8.1",
+                "1.8",
+                "1.7.6",
+                "1.7.5",
+                "1.7.2",
+                "1.7.1",
+                "1.7",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5.0",
+                "1.2.4",
+                "1.2.3",
+                "1.2.1",
+                "1.2.0",
+                "1.1.0",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5482"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/gd-bbpress-attachments"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/gd-bbpress-attachments/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-22"
+        ]
+    }
+}

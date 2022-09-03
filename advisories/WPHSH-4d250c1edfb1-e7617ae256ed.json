@@ -1,0 +1,76 @@
+{
+    "id": "WPHSH-4d250c1edfb1-e7617ae256ed",
+    "modified": "2022-03-29T16:08Z",
+    "published": "2022-03-18T18:15Z",
+    "aliases": [
+        "CVE-2021-44760"
+    ],
+    "summary": "FIXME",
+    "details": "Authenticated Reflected Cross-Site Scripting (XSS) vulnerability discovered in WP-DownloadManager WordPress plugin (versions <= 1.68.6).",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-downloadmanager"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-downloadmanager",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.68.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.68.6",
+                "1.68.5",
+                "1.68.4",
+                "1.68.2",
+                "1.68.1",
+                "1.67",
+                "1.66",
+                "1.65",
+                "1.64",
+                "1.63",
+                "1.62",
+                "1.61",
+                "1.50",
+                "1.40",
+                "1.31",
+                "1.30",
+                "1.00"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44760"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-downloadmanager"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-downloadmanager/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

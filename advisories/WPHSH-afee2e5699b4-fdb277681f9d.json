@@ -1,0 +1,65 @@
+{
+    "id": "WPHSH-afee2e5699b4-fdb277681f9d",
+    "modified": "2022-04-18T18:05Z",
+    "published": "2022-04-11T20:15Z",
+    "aliases": [
+        "CVE-2022-27845"
+    ],
+    "summary": "FIXME",
+    "details": "Authenticated (admin or higher user role) Stored Cross-Site Scripting (XSS) in PlausibleHQ Plausible Analytics (WordPress plugin) <= 1.2.2",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "plausible-analytics"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/plausible-analytics",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.0",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27845"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/plausible-analytics"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/plausible-analytics/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

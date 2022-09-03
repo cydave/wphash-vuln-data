@@ -1,0 +1,70 @@
+{
+    "id": "WPHSH-eec505190d55-512f6096da3e",
+    "modified": "2018-09-13T13:55Z",
+    "published": "2018-07-16T20:29Z",
+    "aliases": [
+        "CVE-2018-13832"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple Persistent cross-site scripting (XSS) issues in the Techotronic all-in-one-favicon (aka All In One Favicon) plugin 4.6 for WordPress allow remote attackers to inject arbitrary web script or HTML via Apple-Text, GIF-Text, ICO-Text, PNG-Text, or JPG-Text.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "all-in-one-favicon"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/all-in-one-favicon",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.6",
+                "4.5",
+                "4.4",
+                "4.2.1",
+                "4.1",
+                "4.0",
+                "3.1",
+                "3.0",
+                "2.1",
+                "2.0",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-13832"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/all-in-one-favicon"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/all-in-one-favicon/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "id": "WPHSH-46d2166f07b2-540eed78303e",
+    "modified": "2018-10-09T19:56Z",
+    "published": "2015-03-03T19:59Z",
+    "aliases": [
+        "CVE-2015-2195"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple cross-site scripting (XSS) vulnerabilities in the WP Media Cleaner plugin 2.2.6 for WordPress allow remote attackers to inject arbitrary web script or HTML via the (1) view, (2) paged, or (3) s parameter in the wp-media-cleaner page to wp-admin/upload.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-media-cleaner"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-media-cleaner",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.4.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.2.6",
+                "2.2.4",
+                "2.2.2",
+                "2.2.0",
+                "2.0.2",
+                "2.0.0",
+                "1.9.2",
+                "1.9.0",
+                "1.8.0",
+                "1.7.0",
+                "1.6.0",
+                "1.4.2",
+                "1.4.0",
+                "1.2.2",
+                "1.2.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2195"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-media-cleaner"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-media-cleaner/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

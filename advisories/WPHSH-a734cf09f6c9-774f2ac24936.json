@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-a734cf09f6c9-774f2ac24936",
+    "modified": "2022-01-06T17:28Z",
+    "published": "2021-12-27T11:15Z",
+    "aliases": [
+        "CVE-2021-24967"
+    ],
+    "summary": "FIXME",
+    "details": "The Contact Form & Lead Form Elementor Builder WordPress plugin before 1.6.4 does not sanitise and escape some lead values, which could allow unauthenticated users to perform Cross-Site Scripting attacks against logged in admin viewing the inserted Leads",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "lead-form-builder"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/lead-form-builder",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.6.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.6.3",
+                "1.6.2",
+                "1.6.1",
+                "1.6.0",
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24967"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/lead-form-builder"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/lead-form-builder/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

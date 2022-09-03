@@ -1,0 +1,61 @@
+{
+    "id": "WPHSH-620a968d91e0-2e25ace620f3",
+    "modified": "2022-06-28T18:28Z",
+    "published": "2022-06-20T11:15Z",
+    "aliases": [
+        "CVE-2022-1801"
+    ],
+    "summary": "FIXME",
+    "details": "The Very Simple Contact Form WordPress plugin before 11.6 exposes the solution to the captcha in the rendered contact form, both as hidden input fields and as plain text in the page, making it very easy for bots to bypass the captcha check, rendering the page a likely target for spam bots.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "very-simple-contact-form"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/very-simple-contact-form",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "11.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "11.5",
+                "11.4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1801"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/very-simple-contact-form"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/very-simple-contact-form/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-863"
+        ]
+    }
+}

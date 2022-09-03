@@ -1,0 +1,93 @@
+{
+    "id": "WPHSH-04aeeb5892ac-65070b9e177b",
+    "modified": "2019-08-22T18:48Z",
+    "published": "2019-08-21T18:15Z",
+    "aliases": [
+        "CVE-2016-10910"
+    ],
+    "summary": "FIXME",
+    "details": "The formbuilder plugin before 1.06 for WordPress has multiple XSS issues.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "formbuilder"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/formbuilder",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.06"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.05",
+                "1.04",
+                "1.03",
+                "1.01",
+                "1.00",
+                "0.93",
+                "0.91",
+                "0.90",
+                "0.891",
+                "0.89",
+                "0.881",
+                "0.88",
+                "0.87",
+                "0.86",
+                "0.852",
+                "0.851",
+                "0.84",
+                "0.83",
+                "0.82",
+                "0.82-broken",
+                "0.81",
+                "0.80",
+                "0.77",
+                "0.76",
+                "0.75",
+                "0.75-RC1",
+                "0.74",
+                "0.73",
+                "0.73-RC1",
+                "0.72",
+                "0.71-RC1",
+                "0.71",
+                "0.70-RC1",
+                "0.63"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10910"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/formbuilder"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/formbuilder/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "id": "WPHSH-93a6eaa43f67-195992a6874f",
+    "modified": "2019-08-13T10:15Z",
+    "published": "2019-07-30T13:15Z",
+    "aliases": [
+        "CVE-2019-13635"
+    ],
+    "summary": "FIXME",
+    "details": "The WP Fastest Cache plugin through 0.8.9.5 for WordPress allows wpFastestCache.php and inc/cache.php Directory Traversal.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-fastest-cache"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-fastest-cache",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.8.9.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.8.9.5",
+                "0.8.9.4",
+                "0.8.9.3",
+                "0.8.9.2",
+                "0.8.9.1",
+                "0.8.9.0",
+                "0.8.8.9",
+                "0.8.8.8",
+                "0.8.8.7",
+                "0.8.8.6",
+                "0.8.8.5",
+                "0.8.8.4",
+                "0.8.8.3",
+                "0.8.8.2",
+                "0.8.8.1",
+                "0.8.8.0",
+                "0.8.7.9",
+                "0.8.7.8",
+                "0.8.7.7",
+                "0.8.7.6",
+                "0.8.7.5",
+                "0.8.7.4",
+                "0.8.7.3",
+                "0.8.7.2",
+                "0.8.7.1",
+                "0.8.7.0",
+                "0.8.6.9",
+                "0.8.6.8",
+                "0.8.6.7",
+                "0.8.6.6"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-13635"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-fastest-cache"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-fastest-cache/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2124619"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2124614"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-22"
+        ]
+    }
+}

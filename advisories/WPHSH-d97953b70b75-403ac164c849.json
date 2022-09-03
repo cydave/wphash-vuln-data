@@ -1,0 +1,94 @@
+{
+    "id": "WPHSH-d97953b70b75-403ac164c849",
+    "modified": "2019-08-21T16:31Z",
+    "published": "2019-08-21T13:15Z",
+    "aliases": [
+        "CVE-2017-18560"
+    ],
+    "summary": "FIXME",
+    "details": "The content-audit plugin before 1.9.2 for WordPress has XSS.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "content-audit"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/content-audit",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.9.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.9.1",
+                "1.9",
+                "1.8.2",
+                "1.8.1",
+                "1.8",
+                "1.7",
+                "1.6.3",
+                "1.6.2",
+                "1.6.1",
+                "1.6",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3.1",
+                "1.3",
+                "1.2.1",
+                "0.2",
+                "0.6",
+                "0.1",
+                "0.6.5",
+                "0.7",
+                "0.4.5",
+                "1.2",
+                "1.1.2",
+                "1.1.1",
+                "1.1",
+                "1.01",
+                "1.0",
+                "0.9b",
+                "0.85b",
+                "0.8b"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18560"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/content-audit"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/content-audit/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

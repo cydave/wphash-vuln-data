@@ -1,0 +1,107 @@
+{
+    "id": "WPHSH-5e6a9e42959c-e46005424395",
+    "modified": "2015-08-07T18:16Z",
+    "published": "2014-03-09T13:16Z",
+    "aliases": [
+        "CVE-2014-2316"
+    ],
+    "summary": "FIXME",
+    "details": "SQL injection vulnerability in se_search_default in the Search Everything plugin before 7.0.3 for WordPress allows remote attackers to execute arbitrary SQL commands via the s parameter to index.php. NOTE: some of these details are obtained from third party information.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "search-everything"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/search-everything",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "7.0.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "7.0.2",
+                "7.0.1",
+                "7",
+                "6.9.4.1",
+                "6.9.4",
+                "6.9.3.1",
+                "6.9.3",
+                "6.9.2",
+                "6.9.1",
+                "6.9",
+                "6.8.2",
+                "6.8.1",
+                "6.8",
+                "6.7",
+                "6.6",
+                "6.5.2",
+                "6.5.1",
+                "6.5",
+                "6.4.1",
+                "6.4",
+                "6.3.1",
+                "6.3",
+                "6.2.5",
+                "6.2.2",
+                "6.2",
+                "6.1.7",
+                "6.1.5",
+                "6.1.3",
+                "6.1.1",
+                "6.1",
+                "6.0.1",
+                "6",
+                "5.0",
+                "4.7.8",
+                "4.7.7",
+                "4.7.6",
+                "4.7.5",
+                "4.7.1",
+                "4.7",
+                "4.6.2",
+                "4.6",
+                "4.5",
+                "4.2.3",
+                "4.2.2",
+                "4.2.1",
+                "4.2",
+                "4.1",
+                "4.0.3",
+                "4.0.2",
+                "4.0.1",
+                "4.0",
+                "3.9.9.5",
+                "3.7",
+                "3.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-2316"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/search-everything"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/search-everything/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

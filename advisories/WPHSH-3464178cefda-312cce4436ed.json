@@ -1,0 +1,54 @@
+{
+    "id": "WPHSH-3464178cefda-312cce4436ed",
+    "modified": "2012-08-14T04:00Z",
+    "published": "2012-08-13T20:55Z",
+    "aliases": [
+        "CVE-2012-2371"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in index.php in the WP-FaceThumb plugin 0.1 for WordPress allows remote attackers to inject arbitrary web script or HTML via the pagination_wp_facethumb parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-facethumb"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-facethumb",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2371"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-facethumb"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-facethumb/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

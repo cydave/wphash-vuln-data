@@ -1,0 +1,99 @@
+{
+    "id": "WPHSH-f56e2d4e3534-2f3230993ecf",
+    "modified": "2021-05-28T18:03Z",
+    "published": "2021-05-24T11:15Z",
+    "aliases": [
+        "CVE-2021-24294"
+    ],
+    "summary": "FIXME",
+    "details": "The dsgvoaio_write_log AJAX action of the DSGVO All in one for WP WordPress plugin before 4.0 did not sanitise or escape some POST parameter submitted before outputting them in the Log page in the administrator dashboard (wp-admin/admin.php?page=dsgvoaiofree-show-log). This could allow unauthenticated attackers to gain unauthorised access by using an XSS payload to create a rogue administrator account, which will be trigged when an administrator will view the logs.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "dsgvo-all-in-one-for-wp"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/dsgvo-all-in-one-for-wp",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.9",
+                "3.8",
+                "3.7",
+                "3.6",
+                "3.5",
+                "3.4",
+                "3.3",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.9",
+                "2.8",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.1.8",
+                "1.1.7",
+                "1.1.6",
+                "1.1.5",
+                "1.1.4",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24294"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/dsgvo-all-in-one-for-wp"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/dsgvo-all-in-one-for-wp/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

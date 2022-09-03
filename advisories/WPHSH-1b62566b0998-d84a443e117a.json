@@ -1,0 +1,88 @@
+{
+    "id": "WPHSH-1b62566b0998-d84a443e117a",
+    "modified": "2022-05-24T21:41Z",
+    "published": "2022-05-16T15:15Z",
+    "aliases": [
+        "CVE-2022-1334"
+    ],
+    "summary": "FIXME",
+    "details": "The WP YouTube Live WordPress plugin before 1.8.3 does not validate, sanitise and escape various of its settings, which could allow high privilege users such as admin to perform Cross-Site Scripting attacks even when unfiltered_html is disallowed",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-youtube-live"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-youtube-live",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.8.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.8.2",
+                "1.8.1",
+                "1.8.0",
+                "1.7.22",
+                "1.7.21",
+                "1.7.20",
+                "1.7.19",
+                "1.7.18",
+                "1.7.16",
+                "1.7.14",
+                "1.7.13",
+                "1.7.12",
+                "1.7.11",
+                "1.7.10",
+                "1.7.9",
+                "1.7.8",
+                "1.7.7",
+                "1.7.6",
+                "1.7.5",
+                "1.7.4",
+                "1.6.4",
+                "1.6.3",
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5",
+                "1.4.2",
+                "1.4.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1334"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-youtube-live"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-youtube-live/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

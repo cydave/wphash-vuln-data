@@ -1,0 +1,74 @@
+{
+    "id": "WPHSH-afed8a780ca3-5bd58529e7d4",
+    "modified": "2022-01-07T17:16Z",
+    "published": "2021-12-27T11:15Z",
+    "aliases": [
+        "CVE-2021-24998"
+    ],
+    "summary": "FIXME",
+    "details": "The Simple JWT Login WordPress plugin before 3.3.0 can be used to create new WordPress user accounts with a randomly generated password. The password is generated using the str_shuffle PHP function that \"does not generate cryptographically secure values, and should not be used for cryptographic purposes\" according to PHP's documentation.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "simple-jwt-login"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/simple-jwt-login",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.3.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.2.1",
+                "3.2.0",
+                "3.1.0",
+                "3.0.0",
+                "2.6.2",
+                "2.2.7",
+                "1.6.4",
+                "1.5.0",
+                "1.4.0",
+                "1.3.1",
+                "1.2.4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24998"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/simple-jwt-login"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/simple-jwt-login/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2613782"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-326"
+        ]
+    }
+}

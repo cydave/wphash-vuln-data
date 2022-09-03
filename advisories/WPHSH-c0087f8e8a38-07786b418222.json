@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-c0087f8e8a38-07786b418222",
+    "modified": "2022-06-08T17:55Z",
+    "published": "2022-05-30T09:15Z",
+    "aliases": [
+        "CVE-2022-1611"
+    ],
+    "summary": "FIXME",
+    "details": "The Bulk Page Creator WordPress plugin before 1.1.4 does not protect its page creation functionalities with nonce checks, which makes them vulnerable to CSRF.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "bulk-page-creator"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/bulk-page-creator",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1611"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/bulk-page-creator"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/bulk-page-creator/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

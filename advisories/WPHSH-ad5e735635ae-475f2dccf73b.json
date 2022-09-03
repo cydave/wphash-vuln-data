@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-ad5e735635ae-475f2dccf73b",
+    "modified": "2022-06-28T18:23Z",
+    "published": "2022-06-20T11:15Z",
+    "aliases": [
+        "CVE-2022-1915"
+    ],
+    "summary": "FIXME",
+    "details": "The WP Zillow Review Slider WordPress plugin before 2.4 does not escape a settings, which could allow high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite)",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-zillow-review-slider"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-zillow-review-slider",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1915"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-zillow-review-slider"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-zillow-review-slider/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

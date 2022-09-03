@@ -1,0 +1,63 @@
+{
+    "id": "WPHSH-7e3ccffcdff5-e7a0415d1b92",
+    "modified": "2021-07-15T15:32Z",
+    "published": "2021-07-12T20:15Z",
+    "aliases": [
+        "CVE-2021-24441"
+    ],
+    "summary": "FIXME",
+    "details": "The Sign-up Sheets WordPress plugin before 1.0.14 does not not sanitise or validate the Sheet title when generating the CSV to export, which could lead to a CSV injection issue",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "sign-up-sheets"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/sign-up-sheets",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.14"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.13",
+                "1.0.12",
+                "1.0.11",
+                "1.0.10"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24441"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/sign-up-sheets"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/sign-up-sheets/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-1236"
+        ]
+    }
+}

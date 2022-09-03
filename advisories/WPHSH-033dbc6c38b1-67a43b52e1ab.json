@@ -1,0 +1,84 @@
+{
+    "id": "WPHSH-033dbc6c38b1-67a43b52e1ab",
+    "modified": "2019-08-21T16:50Z",
+    "published": "2019-08-21T13:15Z",
+    "aliases": [
+        "CVE-2016-10900"
+    ],
+    "summary": "FIXME",
+    "details": "The uji-countdown plugin before 2.0.7 for WordPress has XSS.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "uji-countdown"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/uji-countdown",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.0.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.0.6",
+                "2.0.5",
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3",
+                "1.2",
+                "1.1",
+                "js",
+                "languages",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6.1",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10900"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/uji-countdown"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/uji-countdown/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

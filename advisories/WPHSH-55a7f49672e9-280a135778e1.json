@@ -1,0 +1,55 @@
+{
+    "id": "WPHSH-55a7f49672e9-280a135778e1",
+    "modified": "2017-08-29T01:32Z",
+    "published": "2012-10-08T20:55Z",
+    "aliases": [
+        "CVE-2012-5325"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple cross-site scripting (XSS) vulnerabilities in the scr_do_redirect function in scr.php in the Shortcode Redirect plugin 1.0.01 and earlier for WordPress allow remote authenticated users with certain permissions to inject arbitrary web script or HTML via the (1) url or (2) sec attributes in a redirect tag.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "shortcode-redirect"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/shortcode-redirect",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.02"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.01",
+                "1.0.00"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5325"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/shortcode-redirect"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/shortcode-redirect/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

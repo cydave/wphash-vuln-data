@@ -1,0 +1,77 @@
+{
+    "id": "WPHSH-d3ba04777c92-1c69d8e4490f",
+    "modified": "2022-05-05T13:08Z",
+    "published": "2022-04-25T16:16Z",
+    "aliases": [
+        "CVE-2022-1396"
+    ],
+    "summary": "FIXME",
+    "details": "The Donorbox WordPress plugin before 7.1.7 does not sanitise and escape its Campaign URL settings before outputting it in an attribute, leading to a Stored Cross-Site Scripting issue even when the unfiltered_html capability is disallowed",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "donorbox-donation-form"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/donorbox-donation-form",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "7.1.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "7.1.6",
+                "7.1.5",
+                "7.1.4",
+                "7.1.3",
+                "7.1.2",
+                "7.1.1",
+                "7.1",
+                "7.0",
+                "6.2",
+                "6.1",
+                "6.0",
+                "5.0",
+                "4.0",
+                "3.0",
+                "2.0",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1396"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/donorbox-donation-form"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/donorbox-donation-form/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

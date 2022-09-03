@@ -1,0 +1,77 @@
+{
+    "id": "WPHSH-c42697fc3018-9bad27f3fc33",
+    "modified": "2022-06-28T18:30Z",
+    "published": "2022-06-20T11:15Z",
+    "aliases": [
+        "CVE-2022-1945"
+    ],
+    "summary": "FIXME",
+    "details": "The Coming Soon & Maintenance Mode by Colorlib WordPress plugin before 1.0.99 does not sanitize and escape some settings, allowing high privilege users such as admin to perform Stored Cross-Site Scripting when unfiltered_html is disallowed (for example in multisite setup)",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "colorlib-coming-soon-maintenance"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/colorlib-coming-soon-maintenance",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.99"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.98",
+                "1.0.97",
+                "1.0.96",
+                "1.0.95",
+                "1.0.94",
+                "1.0.93",
+                "1.0.92",
+                "1.0.91",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1945"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/colorlib-coming-soon-maintenance"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/colorlib-coming-soon-maintenance/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

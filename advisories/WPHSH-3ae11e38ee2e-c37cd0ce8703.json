@@ -1,0 +1,74 @@
+{
+    "id": "WPHSH-3ae11e38ee2e-c37cd0ce8703",
+    "modified": "2022-03-29T00:43Z",
+    "published": "2022-03-23T20:15Z",
+    "aliases": [
+        "CVE-2022-0750"
+    ],
+    "summary": "FIXME",
+    "details": "The Photoswipe Masonry Gallery WordPress plugin is vulnerable to Cross-Site Scripting due to insufficient escaping and sanitization of the thumbnail_width, thumbnail_height, max_image_width, and max_image_height parameters found in the ~/photoswipe-masonry.php file which allows authenticated attackers to inject arbitrary web scripts into galleries created by the plugin and on the PhotoSwipe Options page. This affects versions up to and including 1.2.14.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "photoswipe-masonry"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/photoswipe-masonry",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.15"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.14",
+                "1.2.12",
+                "1.2.11",
+                "1.2.10",
+                "1.2.9",
+                "1.2.8",
+                "1.2.7",
+                "1.2.6",
+                "1.2.5",
+                "1.2.4",
+                "4.6.1",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0750"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/photoswipe-masonry"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/photoswipe-masonry/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

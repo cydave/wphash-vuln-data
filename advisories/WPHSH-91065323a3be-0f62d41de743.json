@@ -1,0 +1,111 @@
+{
+    "id": "WPHSH-91065323a3be-0f62d41de743",
+    "modified": "2021-05-28T18:44Z",
+    "published": "2021-05-24T11:15Z",
+    "aliases": [
+        "CVE-2021-24300"
+    ],
+    "summary": "FIXME",
+    "details": "The slider import search feature of the PickPlugins Product Slider for WooCommerce WordPress plugin before 1.13.22 did not properly sanitised the keyword GET parameter, leading to reflected Cross-Site Scripting issue",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "woocommerce-products-slider"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/woocommerce-products-slider",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.13.22"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.13.21",
+                "1.13.20",
+                "1.13.19",
+                "1.13.17",
+                "1.13.16",
+                "1.13.15",
+                "1.13.14",
+                "1.13.13",
+                "1.13.12",
+                "1.13.11",
+                "1.13.10",
+                "1.13.9",
+                "1.13.8",
+                "1.13.7",
+                "1.13.6",
+                "1.13.5",
+                "1.13.4",
+                "1.13.3",
+                "1.13.2",
+                "1.13.1",
+                "1.13.0",
+                "1.12.24",
+                "1.12.23",
+                "1.12.22",
+                "1.12.21",
+                "1.12.20",
+                "1.12.19",
+                "1.12.18",
+                "1.12.17",
+                "1.12.16",
+                "1.12.15",
+                "1.12.14",
+                "1.12.13",
+                "1.12.11",
+                "1.12.10",
+                "1.12.9",
+                "1.12.8",
+                "1.12.7",
+                "1.12.6",
+                "1.12.5",
+                "1.12.4",
+                "1.12.3",
+                "1.12.1",
+                "1.11",
+                "1.9",
+                "1.8",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24300"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/woocommerce-products-slider"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/woocommerce-products-slider/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

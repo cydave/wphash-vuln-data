@@ -1,0 +1,75 @@
+{
+    "id": "WPHSH-b6ea6a68cb6c-e0243becbaac",
+    "modified": "2021-06-11T19:16Z",
+    "published": "2021-06-01T14:15Z",
+    "aliases": [
+        "CVE-2021-24334"
+    ],
+    "summary": "FIXME",
+    "details": "The Instant Images \u00e2\u20ac\u201c One Click Unsplash Uploads WordPress plugin before 4.4.0.1 did not properly validate and sanitise its unsplash_download_w and unsplash_download_h parameter settings (/wp-admin/upload.php?page=instant-images), only validating them client side before saving them, leading to a Stored Cross-Site Scripting issue.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "instant-images"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/instant-images",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.4.0.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.4.0",
+                "4.3.2",
+                "4.3.1",
+                "4.2.0",
+                "4.1.0",
+                "4.0.1",
+                "3.3.0",
+                "3.2.1",
+                "3.2",
+                "3.1.1",
+                "3.1",
+                "3.0",
+                "2.1.1",
+                "2.1",
+                "2.0.1",
+                "2.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24334"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/instant-images"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/instant-images/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "id": "WPHSH-c6e7459a21dc-d7edf20813dc",
+    "modified": "2021-08-17T17:02Z",
+    "published": "2021-08-09T10:15Z",
+    "aliases": [
+        "CVE-2021-24505"
+    ],
+    "summary": "FIXME",
+    "details": "The Forms WordPress plugin before 1.12.3 did not sanitise its input fields, leading to Stored Cross-Site scripting issues. The plugin was vulnerable to an Authenticated Stored Cross-Site Scripting (XSS) vulnerability within the Forms \"Add new\" field.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "forms-by-made-it"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/forms-by-made-it",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.12.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.12.2",
+                "1.12.1",
+                "1.12.0",
+                "1.11.1",
+                "1.11.0",
+                "1.10.1",
+                "1.10.0",
+                "1.8.1",
+                "1.8.0",
+                "1.7.0",
+                "1.6.3",
+                "1.6.2",
+                "1.6.1",
+                "1.6.0",
+                "1.5.2",
+                "1.5.1",
+                "1.5.0",
+                "1.4.1",
+                "1.4",
+                "1.3",
+                "1.2.1",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24505"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/forms-by-made-it"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/forms-by-made-it/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

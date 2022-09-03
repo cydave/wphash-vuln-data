@@ -1,0 +1,67 @@
+{
+    "id": "WPHSH-1da3aa7cb25e-12db51e043a9",
+    "modified": "2022-04-27T01:10Z",
+    "published": "2022-04-18T17:15Z",
+    "aliases": [
+        "CVE-2022-23976"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-Site Request Forgery (CSRF) in Access Demo Importer <= 1.0.7 on WordPress allows an attacker to reset all data (posts / pages / media).",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "access-demo-importer"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/access-demo-importer",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23976"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/access-demo-importer"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/access-demo-importer/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "id": "WPHSH-265e7eac76ac-5c171a8382e7",
+    "modified": "2019-08-26T13:42Z",
+    "published": "2019-08-22T13:15Z",
+    "aliases": [
+        "CVE-2009-5158"
+    ],
+    "summary": "FIXME",
+    "details": "The google-analyticator plugin before 5.2.1 for WordPress has insufficient HTML sanitization for Google Analytics API text.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "google-analyticator"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/google-analyticator",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.2.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "5.2",
+                "5.1",
+                "5.0",
+                "4.3.4",
+                "4.3.3",
+                "4.3.2",
+                "4.3.1",
+                "4.3",
+                "4.2.3",
+                "4.2.2",
+                "4.2.1",
+                "4.2",
+                "4.1.1",
+                "4.1",
+                "4.0.1",
+                "4.0",
+                "3.0.3",
+                "3.0.2",
+                "3.01",
+                "3.0",
+                "2.40",
+                "2.3",
+                "2.24",
+                "2.23",
+                "2.22",
+                "2.21",
+                "2.2",
+                "2.14",
+                "2.13",
+                "2.12",
+                "2.11",
+                "2.1",
+                "2.02",
+                "2.01",
+                "2.0",
+                "1.54",
+                "1.53",
+                "1.52",
+                "1.51",
+                "1.5",
+                "1.41",
+                "1.4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-5158"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/google-analyticator"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/google-analyticator/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-20"
+        ]
+    }
+}

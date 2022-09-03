@@ -1,0 +1,85 @@
+{
+    "id": "WPHSH-1ae5dde03a5d-486dfa86d839",
+    "modified": "2014-04-14T11:13Z",
+    "published": "2014-04-11T14:55Z",
+    "aliases": [
+        "CVE-2013-2706"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in the Stream Video Player plugin 1.4.0 for WordPress allows remote attackers to hijack the authentication of administrators for requests that change plugin settings via unspecified vectors.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "stream-video-player"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/stream-video-player",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4.0",
+                "1.3.8",
+                "1.3.7",
+                "1.3.6",
+                "1.3.4",
+                "1.3.2",
+                "1.3.0",
+                "1.2.1",
+                "1.2.0",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0",
+                "0.7.9",
+                "0.7.8",
+                "0.7.7",
+                "0.7.6",
+                "0.7.5",
+                "0.7.4",
+                "0.7.3",
+                "0.7.2",
+                "0.7.1",
+                "0.7",
+                "0.6"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2706"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/stream-video-player"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/stream-video-player/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "id": "WPHSH-46d2c5d5966c-a6996e71f4d0",
+    "modified": "2014-12-01T18:31Z",
+    "published": "2014-12-01T15:59Z",
+    "aliases": [
+        "CVE-2014-8749"
+    ],
+    "summary": "FIXME",
+    "details": "Server-side request forgery (SSRF) vulnerability in admin/htaccess/bpsunlock.php in the BulletProof Security plugin before .51.1 for WordPress allows remote attackers to trigger outbound requests that authenticate to arbitrary databases via the dbhost parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "bulletproof-security"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/bulletproof-security",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": ".51.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                ".51",
+                ".50.9",
+                ".50.8",
+                ".50.7",
+                ".50.6",
+                ".50.5",
+                ".50.4",
+                ".50.3",
+                ".50.2",
+                ".50.1",
+                ".50",
+                ".49.9",
+                ".49.8",
+                ".49.7",
+                ".49.6",
+                ".49.5",
+                ".49.4",
+                ".49.3",
+                ".49.2",
+                ".49.1",
+                ".49",
+                ".48.9",
+                ".48.8",
+                ".48.7",
+                ".48.6",
+                ".48.5",
+                ".48.4",
+                ".48.3",
+                ".48.2",
+                ".48.1",
+                ".48",
+                ".47.9",
+                ".47.8",
+                ".47.7",
+                ".47.6",
+                ".47.5",
+                ".47.4",
+                ".47.3",
+                ".47.2",
+                ".47.1",
+                ".47",
+                ".46.9",
+                ".46.8",
+                ".46.7",
+                ".46.6",
+                ".46.5",
+                ".46.4",
+                ".46.3",
+                ".46.2",
+                ".46.1",
+                ".46",
+                ".45.9",
+                ".45.8",
+                ".45.7",
+                ".45.6",
+                ".45.5",
+                ".45.4",
+                ".45.3",
+                ".45.2",
+                ".45.1",
+                ".45",
+                ".44.1",
+                ".44"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8749"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/bulletproof-security"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/bulletproof-security/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

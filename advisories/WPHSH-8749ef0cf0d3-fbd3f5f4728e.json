@@ -1,0 +1,61 @@
+{
+    "id": "WPHSH-8749ef0cf0d3-fbd3f5f4728e",
+    "modified": "2017-08-29T01:33Z",
+    "published": "2014-03-05T16:37Z",
+    "aliases": [
+        "CVE-2013-3478"
+    ],
+    "summary": "FIXME",
+    "details": "SQL injection vulnerability in Apptha WordPress Video Gallery 2.0, 1.6, and earlier for WordPress allows remote attackers to execute arbitrary SQL commands via the playid parameter to index.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "contus-video-gallery"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/contus-video-gallery",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.0",
+                "1.6",
+                "1.0",
+                "1.1",
+                "1.2",
+                "1.3",
+                "1.4",
+                "1.5"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3478"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/contus-video-gallery"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/contus-video-gallery/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

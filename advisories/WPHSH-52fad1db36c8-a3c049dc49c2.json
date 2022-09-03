@@ -1,0 +1,101 @@
+{
+    "id": "WPHSH-52fad1db36c8-a3c049dc49c2",
+    "modified": "2018-03-28T21:53Z",
+    "published": "2018-03-09T16:29Z",
+    "aliases": [
+        "CVE-2018-0547"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting vulnerability in WP All Import plugin prior to version 3.4.7 for WordPress allows an attacker to inject arbitrary web script or HTML via unspecified vectors.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-all-import"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-all-import",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.4.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.4.6",
+                "3.4.5",
+                "3.4.4",
+                "3.4.3",
+                "3.4.2",
+                "3.4.1",
+                "3.4.0",
+                "3.3.9",
+                "3.3.8",
+                "3.3.7",
+                "3.3.6",
+                "3.3.5",
+                "3.3.4",
+                "3.3.3",
+                "3.3.2",
+                "3.3.1",
+                "3.3.0",
+                "3.2.9",
+                "3.2.8",
+                "3.2.7",
+                "3.2.6",
+                "3.2.5",
+                "3.2.4",
+                "3.2.3",
+                "3.2.2",
+                "3.2.1",
+                "3.2.0",
+                "3.1.5",
+                "3.1.4",
+                "3.1.3",
+                "3.1.2",
+                "3.1.1",
+                "3.1.0",
+                "3.0.4",
+                "3.0.3",
+                "3.0.2",
+                "3.0.1",
+                "3.01",
+                "3.0",
+                "2.14",
+                "2.13",
+                "2.12"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-0547"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-all-import"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-all-import/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

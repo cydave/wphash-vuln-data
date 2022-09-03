@@ -1,0 +1,82 @@
+{
+    "id": "WPHSH-b729b7cdb738-092741df90fb",
+    "modified": "2021-07-23T13:12:24Z",
+    "published": "2021-04-27T08:05:44Z",
+    "aliases": [
+        "CVE-2021-31157"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-graphql"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-graphql",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.3.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.6",
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.8",
+                "1.1.7",
+                "1.1.6",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0",
+                "0.15.6",
+                "0.15.5",
+                "0.15.4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31157"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-graphql"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-graphql/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

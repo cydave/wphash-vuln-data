@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-4a061fc38141-51565ca830fc",
+    "modified": "2019-08-29T14:37Z",
+    "published": "2019-08-27T13:15Z",
+    "aliases": [
+        "CVE-2017-18591"
+    ],
+    "summary": "FIXME",
+    "details": "The gd-rating-system plugin before 2.1 for WordPress has XSS in log.php.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "gd-rating-system"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/gd-rating-system",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.0.2",
+                "2.0.1",
+                "2.0",
+                "1.4",
+                "1.3.1",
+                "1.3",
+                "1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.3",
+                "1.0.2.1",
+                "1.0.2",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18591"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/gd-rating-system"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/gd-rating-system/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

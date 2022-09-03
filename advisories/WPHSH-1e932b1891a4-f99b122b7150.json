@@ -1,0 +1,65 @@
+{
+    "id": "WPHSH-1e932b1891a4-f99b122b7150",
+    "modified": "2017-08-29T01:33Z",
+    "published": "2014-05-27T14:55Z",
+    "aliases": [
+        "CVE-2013-0724"
+    ],
+    "summary": "FIXME",
+    "details": "PHP remote file inclusion vulnerability in includes/generate-pdf.php in the WP ecommerce Shop Styling plugin for WordPress before 1.8 allows remote attackers to execute arbitrary PHP code via a URL in the dompdf parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-ecommerce-shop-styling"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-ecommerce-shop-styling",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.7.2",
+                "1.7",
+                "1.6.0.1",
+                "1.6",
+                "1.5.1",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2.1",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0724"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-ecommerce-shop-styling"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-ecommerce-shop-styling/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-94"
+        ]
+    }
+}

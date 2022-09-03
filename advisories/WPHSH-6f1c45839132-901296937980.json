@@ -1,0 +1,122 @@
+{
+    "id": "WPHSH-6f1c45839132-901296937980",
+    "modified": "2022-07-14T12:35Z",
+    "published": "2022-07-06T20:15Z",
+    "aliases": [
+        "CVE-2015-3173"
+    ],
+    "summary": "FIXME",
+    "details": "custom-content-type-manager Wordpress plugin can be used by an administrator to achieve arbitrary PHP remote code execution.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "custom-content-type-manager"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/custom-content-type-manager",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.9.8.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.9.8.5",
+                "0.9.8.4",
+                "0.9.8.3",
+                "0.9.8.1",
+                "0.9.8",
+                "0.9.7.13",
+                "0.9.7.12",
+                "0.9.7.11",
+                "0.9.7.10",
+                "0.9.7.9",
+                "0.9.7.8",
+                "0.9.7.7",
+                "0.9.7.6",
+                "0.9.7.5",
+                "0.9.7.4",
+                "0.9.7.3",
+                "0.9.7.2",
+                "0.9.7.1",
+                "0.9.7",
+                "0.9.6.7",
+                "0.9.6.6",
+                "0.9.6.5",
+                "0.9.6.4",
+                "0.9.6.3",
+                "0.9.6.2",
+                "0.9.6.1",
+                "0.9.6",
+                "0.9.5.15",
+                "0.9.5.14",
+                "0.9.5.13",
+                "0.9.5.12",
+                "0.9.5.11",
+                "0.9.5.10",
+                "0.9.5.9",
+                "0.9.5.8",
+                "0.9.5.7",
+                "0.9.5.6",
+                "0.9.5.5",
+                "0.9.5.4",
+                "0.9.5.3",
+                "0.9.5.2",
+                "0.9.5.1",
+                "0.9.5",
+                "0.9.4.5",
+                "0.9.4.4",
+                "0.9.4.3",
+                "0.9.4.2",
+                "0.9.4.1",
+                "0.9.4",
+                "0.9.3.3",
+                "0.9.3.2",
+                "0.9.3.1",
+                "0.9.3",
+                "0.9.0",
+                "0.8.9",
+                "0.8.8",
+                "0.8.6",
+                "0.8.5",
+                "0.8.4",
+                "0.8.3",
+                "0.8.2",
+                "0.8.1",
+                "0.8.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3173"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/custom-content-type-manager"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/custom-content-type-manager/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-94"
+        ]
+    }
+}

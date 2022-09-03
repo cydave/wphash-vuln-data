@@ -1,0 +1,70 @@
+{
+    "id": "WPHSH-4a9bf8344764-f9d366295b86",
+    "modified": "2022-08-05T11:03Z",
+    "published": "2021-11-01T21:15Z",
+    "aliases": [
+        "CVE-2021-39333"
+    ],
+    "summary": "FIXME",
+    "details": "The Hashthemes Demo Importer Plugin <= 1.1.1 for WordPress contained several AJAX functions which relied on a nonce which was visible to all logged-in users for access control, allowing them to execute a function that truncated nearly all database tables and removed the contents of wp-content/uploads.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "hashthemes-demo-importer"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/hashthemes-demo-importer",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.1",
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39333"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/hashthemes-demo-importer"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/hashthemes-demo-importer/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

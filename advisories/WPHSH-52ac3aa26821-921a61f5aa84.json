@@ -1,0 +1,74 @@
+{
+    "id": "WPHSH-52ac3aa26821-921a61f5aa84",
+    "modified": "2015-01-06T16:57Z",
+    "published": "2015-01-05T20:59Z",
+    "aliases": [
+        "CVE-2014-9524"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple cross-site request forgery (CSRF) vulnerabilities in the Facebook Like Box (cardoza-facebook-like-box) plugin before 2.8.3 for WordPress allow remote attackers to hijack the authentication of administrators for requests that (1) change plugin settings via unspecified vectors or conduct cross-site scripting (XSS) attacks via the (2) frm_title, (3) frm_url, (4) frm_border_color, (5) frm_width, or (6) frm_height parameter in the slug_for_fb_like_box page to wp-admin/admin.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "cardoza-facebook-like-box"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/cardoza-facebook-like-box",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.8.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.8.2",
+                "2.8.1",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0",
+                "Version 1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9524"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/cardoza-facebook-like-box"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/cardoza-facebook-like-box/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

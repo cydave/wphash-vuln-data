@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-df5ee3e71dba-c9df34a6a5ba",
+    "modified": "2022-06-21T17:39Z",
+    "published": "2022-06-13T13:15Z",
+    "aliases": [
+        "CVE-2022-1772"
+    ],
+    "summary": "FIXME",
+    "details": "The Google Places Reviews WordPress plugin before 2.0.0 does not properly escape its Google API key setting, which is reflected on the site's administration panel. A malicious administrator could abuse this bug, in a multisite WordPress configuration, to trick super-administrators into viewing the booby-trapped payload and taking over their account.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "google-places-reviews"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/google-places-reviews",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.0.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5.2",
+                "1.5.1",
+                "1.5.0",
+                "1.4.3",
+                "1.4.2",
+                "1.4",
+                "1.3",
+                "1.2.1",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1772"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/google-places-reviews"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/google-places-reviews/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

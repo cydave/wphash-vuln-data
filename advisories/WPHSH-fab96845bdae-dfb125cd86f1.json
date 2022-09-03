@@ -1,0 +1,70 @@
+{
+    "id": "WPHSH-fab96845bdae-dfb125cd86f1",
+    "modified": "2019-09-26T17:18Z",
+    "published": "2019-09-26T01:15Z",
+    "aliases": [
+        "CVE-2015-9426"
+    ],
+    "summary": "FIXME",
+    "details": "The manual-image-crop plugin before 1.11 for WordPress has CSRF with resultant XSS via the wp-admin/admin-ajax.php?action=mic_editor_window postId parameter.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "manual-image-crop"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/manual-image-crop",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.11"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.10",
+                "1.09",
+                "1.08",
+                "1.07",
+                "1.06",
+                "1.1",
+                "1.05",
+                "1.04",
+                "1.03",
+                "1.02",
+                "1.01"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9426"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/manual-image-crop"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/manual-image-crop/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

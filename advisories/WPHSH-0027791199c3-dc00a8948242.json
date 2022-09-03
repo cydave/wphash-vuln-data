@@ -1,0 +1,90 @@
+{
+    "id": "WPHSH-0027791199c3-dc00a8948242",
+    "modified": "2022-07-24T19:49:43Z",
+    "published": "2022-07-19T00:00:00Z",
+    "aliases": [
+        "CVE-2022-2473"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-useronline"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-useronline",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.88.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.87.6",
+                "2.87.5",
+                "2.87.4",
+                "2.87.3",
+                "2.87.2",
+                "2.87.1",
+                "2.87",
+                "2.86",
+                "2.85",
+                "2.84",
+                "2.83",
+                "2.82",
+                "2.81",
+                "2.80",
+                "2.73",
+                "2.73-beta",
+                "2.70",
+                "2.72",
+                "2.71",
+                "2.62",
+                "2.61",
+                "2.60",
+                "2.50",
+                "1.50",
+                "2.40",
+                "2.31",
+                "2.30",
+                "2.20",
+                "2.11",
+                "2.04",
+                "2.00",
+                "2.01",
+                "1.00",
+                "2.06",
+                "2.02",
+                "2.05",
+                "2.03",
+                "2.10",
+                "2.04(wp1.52)"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2473"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-useronline"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-useronline/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

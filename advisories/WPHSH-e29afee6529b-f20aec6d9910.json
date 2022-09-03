@@ -1,0 +1,63 @@
+{
+    "id": "WPHSH-e29afee6529b-f20aec6d9910",
+    "modified": "2015-12-04T16:17Z",
+    "published": "2014-08-12T20:55Z",
+    "aliases": [
+        "CVE-2014-5196"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in improved-user-search-in-backend.php in the backend in the Improved user search in backend plugin before 1.2.5 for WordPress allows remote attackers to hijack the authentication of administrators for requests that insert XSS sequences via the iusib_meta_fields parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "improved-user-search-in-backend"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/improved-user-search-in-backend",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5196"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/improved-user-search-in-backend"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/improved-user-search-in-backend/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

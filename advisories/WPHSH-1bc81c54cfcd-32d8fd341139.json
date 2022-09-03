@@ -1,0 +1,121 @@
+{
+    "id": "WPHSH-1bc81c54cfcd-32d8fd341139",
+    "modified": "2022-06-23T18:56Z",
+    "published": "2022-06-15T14:15Z",
+    "aliases": [
+        "CVE-2021-36901"
+    ],
+    "summary": "FIXME",
+    "details": "Unauthenticated Stored Cross-Site Scripting (XSS) vulnerability in Phil Baker's Age Gate plugin <= 2.17.0 at WordPress.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "age-gate"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/age-gate",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.17.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.17.0",
+                "2.16.6",
+                "2.16.5",
+                "2.16.4",
+                "2.16.3",
+                "2.16.2",
+                "2.16.1",
+                "2.13.4",
+                "2.10.0",
+                "2.9.0",
+                "2.8.0",
+                "2.5.0",
+                "2.4.0",
+                "2.3.6",
+                "2.3.5",
+                "2.3.4",
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.3.0",
+                "2.2.6",
+                "2.2.5",
+                "2.2.4",
+                "2.2.2",
+                "2.2.1",
+                "2.2.0",
+                "2.0.6",
+                "2.0.5",
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "1.5.5",
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5.0",
+                "1.4.13",
+                "1.4.12",
+                "1.4.11",
+                "1.4.10",
+                "1.4.9",
+                "1.4.8",
+                "1.4.7",
+                "1.4.6",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.0",
+                "1.1.0",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36901"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/age-gate"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/age-gate/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

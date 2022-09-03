@@ -1,0 +1,64 @@
+{
+    "id": "WPHSH-eb48e19ea24d-e33f98c4cf39",
+    "modified": "2021-09-20T12:21Z",
+    "published": "2021-07-19T11:15Z",
+    "aliases": [
+        "CVE-2021-24453"
+    ],
+    "summary": "FIXME",
+    "details": "The Include Me WordPress plugin through 1.2.1 is vulnerable to path traversal / local file inclusion, which can lead to Remote Code Execution (RCE) of the system due to log poisoning and therefore potentially a full compromise of the underlying structure",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "include-me"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/include-me",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.1",
+                "1.2.0",
+                "1.1.8",
+                "1.1.7",
+                "1.1.5"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24453"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/include-me"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/include-me/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-22"
+        ]
+    }
+}

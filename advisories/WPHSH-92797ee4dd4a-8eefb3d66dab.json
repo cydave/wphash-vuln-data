@@ -1,0 +1,58 @@
+{
+    "id": "WPHSH-92797ee4dd4a-8eefb3d66dab",
+    "modified": "2015-09-16T19:47Z",
+    "published": "2015-09-15T18:59Z",
+    "aliases": [
+        "CVE-2015-5472"
+    ],
+    "summary": "FIXME",
+    "details": "Absolute path traversal vulnerability in lib/download.php in the IBS Mappro plugin before 1.0 for WordPress allows remote attackers to read arbitrary files via a full pathname in the file parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "ibs-mappro"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/ibs-mappro",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.6",
+                "0.5",
+                "0.4",
+                "0.3",
+                "0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5472"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/ibs-mappro"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/ibs-mappro/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-22"
+        ]
+    }
+}

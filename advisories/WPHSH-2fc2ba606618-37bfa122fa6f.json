@@ -1,0 +1,69 @@
+{
+    "id": "WPHSH-2fc2ba606618-37bfa122fa6f",
+    "modified": "2022-01-28T16:28Z",
+    "published": "2022-01-24T08:15Z",
+    "aliases": [
+        "CVE-2021-25079"
+    ],
+    "summary": "FIXME",
+    "details": "The Contact Form Entries WordPress plugin before 1.2.4 does not sanitise and escape various parameters, such as form_id, status, end_date, order, orderby and search before outputting them back in the admin page",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "contact-form-entries"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/contact-form-entries",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.6",
+                "1.1.5",
+                "1.1.4",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.9",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25079"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/contact-form-entries"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/contact-form-entries/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

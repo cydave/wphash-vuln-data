@@ -1,0 +1,60 @@
+{
+    "id": "WPHSH-acd70fc1ef08-d4f936c686bc",
+    "modified": "2021-08-24T14:43Z",
+    "published": "2021-08-16T19:15Z",
+    "aliases": [
+        "CVE-2021-34664"
+    ],
+    "summary": "FIXME",
+    "details": "The Moova for WooCommerce WordPress plugin is vulnerable to Reflected Cross-Site Scripting via the lat parameter in the ~/Checkout/Checkout.php file which allows attackers to inject arbitrary web scripts, in versions up to and including 3.5.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "moova-for-woocommerce"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/moova-for-woocommerce",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.6"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34664"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/moova-for-woocommerce"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/moova-for-woocommerce/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

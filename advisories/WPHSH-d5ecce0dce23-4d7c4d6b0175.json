@@ -1,0 +1,72 @@
+{
+    "id": "WPHSH-d5ecce0dce23-4d7c4d6b0175",
+    "modified": "2022-07-01T10:15Z",
+    "published": "2021-11-23T20:15Z",
+    "aliases": [
+        "CVE-2021-24894"
+    ],
+    "summary": "FIXME",
+    "details": "The Reviews Plus WordPress plugin before 1.2.14 does not validate the submitted rating, allowing submission of long integer, causing a Denial of Service in the review section when an authenticated user submit such rating and the reviews are set to be displayed on the post/page",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "reviews-plus"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/reviews-plus",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.14"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.13",
+                "1.2.12",
+                "1.2.11",
+                "1.2.10",
+                "1.2.9",
+                "1.2.8",
+                "1.2.7",
+                "1.2.6",
+                "1.2.5",
+                "1.1.1",
+                "1.0.7"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24894"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/reviews-plus"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/reviews-plus/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2618234"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

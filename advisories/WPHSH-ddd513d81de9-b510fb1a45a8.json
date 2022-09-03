@@ -1,0 +1,69 @@
+{
+    "id": "WPHSH-ddd513d81de9-b510fb1a45a8",
+    "modified": "2018-01-16T18:39Z",
+    "published": "2018-01-01T06:29Z",
+    "aliases": [
+        "CVE-2018-3811"
+    ],
+    "summary": "FIXME",
+    "details": "SQL Injection vulnerability in the Oturia Smart Google Code Inserter plugin before 3.5 for WordPress allows unauthenticated attackers to execute SQL queries in the context of the web server. The saveGoogleAdWords() function in smartgooglecode.php did not use prepared statements and did not sanitize the $_POST[\"oId\"] variable before passing it as input into the SQL query.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "smart-google-code-inserter"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/smart-google-code-inserter",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.4",
+                "3.3",
+                "3.1",
+                "3.2",
+                "3.0",
+                "2.2",
+                "2.1",
+                "2.1 - Copy",
+                "2.0",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3811"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/smart-google-code-inserter"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/smart-google-code-inserter/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

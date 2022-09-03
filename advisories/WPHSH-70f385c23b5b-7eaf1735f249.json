@@ -1,0 +1,65 @@
+{
+    "id": "WPHSH-70f385c23b5b-7eaf1735f249",
+    "modified": "2022-07-22T11:17:31Z",
+    "published": "2022-07-22T11:17:30Z",
+    "aliases": [
+        "CVE-2022-2314"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "vr-calendar-sync"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/vr-calendar-sync",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.3.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.2.2",
+                "2.2.1",
+                "2.2.0",
+                "2.1.0",
+                "2.0.1",
+                "2.0.0",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.5",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2314"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/vr-calendar-sync"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/vr-calendar-sync/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

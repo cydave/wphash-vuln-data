@@ -1,0 +1,66 @@
+{
+    "id": "WPHSH-61473e0e6cb4-c1a5a9b63a8a",
+    "modified": "2021-10-27T17:51Z",
+    "published": "2021-10-25T14:15Z",
+    "aliases": [
+        "CVE-2021-24774"
+    ],
+    "summary": "FIXME",
+    "details": "The Check & Log Email WordPress plugin before 1.0.3 does not validate and escape the \"order\" and \"orderby\" GET parameters before using them in a SQL statement when viewing logs, leading to SQL injections issues",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "check-email"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/check-email",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.2",
+                "1.0.1",
+                "1.0.0",
+                "0.6.2",
+                "0.6.1",
+                "0.5.7",
+                "0.6.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24774"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/check-email"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/check-email/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

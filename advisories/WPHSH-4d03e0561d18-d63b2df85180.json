@@ -1,0 +1,83 @@
+{
+    "id": "WPHSH-4d03e0561d18-d63b2df85180",
+    "modified": "2022-03-24T15:51Z",
+    "published": "2021-11-23T20:15Z",
+    "aliases": [
+        "CVE-2021-24668"
+    ],
+    "summary": "FIXME",
+    "details": "The MAZ Loader WordPress plugin before 1.4.1 does not enforce nonce checks, which allows attackers to make administrators delete arbitrary loaders via a CSRF attack",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "maz-loader"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/maz-loader",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.8",
+                "1.1.7",
+                "1.1.6",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24668"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/maz-loader"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/maz-loader/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

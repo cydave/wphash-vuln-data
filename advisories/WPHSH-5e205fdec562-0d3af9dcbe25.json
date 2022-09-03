@@ -1,0 +1,61 @@
+{
+    "id": "WPHSH-5e205fdec562-0d3af9dcbe25",
+    "modified": "2022-04-04T19:20Z",
+    "published": "2022-03-28T18:15Z",
+    "aliases": [
+        "CVE-2022-0680"
+    ],
+    "summary": "FIXME",
+    "details": "The Plezi WordPress plugin before 1.0.3 has a REST endpoint allowing unauthenticated users to update the plz_configuration_tracker_enable option, which is then displayed in the admin panel without sanitisation and escaping, leading to a Stored Cross-Site Scripting issue",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "plezi"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/plezi",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.2",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0680"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/plezi"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/plezi/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

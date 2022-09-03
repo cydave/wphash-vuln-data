@@ -1,0 +1,67 @@
+{
+    "id": "WPHSH-8872fdf45b4d-064a56bfd0e1",
+    "modified": "2022-07-07T15:57Z",
+    "published": "2022-06-27T09:15Z",
+    "aliases": [
+        "CVE-2022-1653"
+    ],
+    "summary": "FIXME",
+    "details": "The Social Share Buttons by Supsystic WordPress plugin before 2.2.4 does not perform CSRF checks in it's ajax endpoints and admin pages, allowing an attacker to trick any logged in user to manipulate or change the plugin settings, as well as create, delete and rename projects and networks.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "social-share-buttons-by-supsystic"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/social-share-buttons-by-supsystic",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.2.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "app",
+                "2.2.3",
+                "src",
+                "2.2.2",
+                "2.2.0",
+                "2.1.15",
+                "2.1.14",
+                "2.1.8"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1653"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/social-share-buttons-by-supsystic"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/social-share-buttons-by-supsystic/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

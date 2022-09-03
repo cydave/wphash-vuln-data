@@ -1,0 +1,87 @@
+{
+    "id": "WPHSH-585cbba9c57b-16bfa674e8f6",
+    "modified": "2018-07-16T12:12Z",
+    "published": "2018-06-04T13:29Z",
+    "aliases": [
+        "CVE-2018-11709"
+    ],
+    "summary": "FIXME",
+    "details": "wpforo_get_request_uri in wpf-includes/functions.php in the wpForo Forum plugin before 1.4.12 for WordPress allows Unauthenticated Reflected Cross-Site Scripting (XSS) via the URI.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wpforo"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wpforo",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.12"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4.11",
+                "1.4.10",
+                "1.4.9",
+                "1.4.8",
+                "1.4.7",
+                "1.4.6",
+                "1.4.5",
+                "1.4.4.1",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.1",
+                "1.3.0",
+                "1.2.0",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0",
+                "beta-6",
+                "beta-5",
+                "beta-4",
+                "beta-3",
+                "beta-2",
+                "beta-1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11709"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wpforo"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wpforo/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

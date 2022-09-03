@@ -1,0 +1,93 @@
+{
+    "id": "WPHSH-be23124e9837-db6be3f3ef93",
+    "modified": "2018-01-24T20:28Z",
+    "published": "2018-01-12T09:29Z",
+    "aliases": [
+        "CVE-2018-5373"
+    ],
+    "summary": "FIXME",
+    "details": "The Smooth Slider plugin through 2.8.6 for WordPress has SQL Injection via smooth-slider.php (trid parameter).",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "smooth-slider"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/smooth-slider",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.8.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.8.6",
+                "2.8.5",
+                "2.8.4",
+                "2.8.3",
+                "2.8.2",
+                "2.8.1",
+                "2.8",
+                "2.7.1",
+                "2.7",
+                "2.6.5",
+                "2.6.4",
+                "2.6.3",
+                "2.6.2",
+                "2.6.1",
+                "2.6",
+                "2.5.1",
+                "2.5",
+                "2.4",
+                "2.3.5",
+                "2.3.4.1",
+                "2.3.4",
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.3",
+                "2.2",
+                "2.1.2",
+                "2.1.1",
+                "2.1",
+                "2.0",
+                "1.2",
+                "1.1",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5373"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/smooth-slider"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/smooth-slider/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

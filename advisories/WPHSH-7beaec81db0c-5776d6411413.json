@@ -1,0 +1,82 @@
+{
+    "id": "WPHSH-7beaec81db0c-5776d6411413",
+    "modified": "2022-07-25T14:51Z",
+    "published": "2022-07-25T13:15Z",
+    "aliases": [
+        "CVE-2022-1539"
+    ],
+    "summary": "FIXME",
+    "details": "The Exports and Reports WordPress plugin before 0.9.2 does not sanitize and validate data when generating the CSV to export, which could lead to a CSV injection, by the use of Microsoft Excel DDE function, or to leak data via maliciously injected hyperlinks.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "exports-and-reports"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/exports-and-reports",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.9.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.9.1",
+                "0.9.0",
+                "0.8.8",
+                "0.8.7",
+                "0.8.6",
+                "0.8.5",
+                "0.8.4",
+                "0.8.3",
+                "0.8.2",
+                "0.8.1",
+                "0.8.0",
+                "0.7.4",
+                "0.7.3",
+                "0.7.2",
+                "0.7.1",
+                "0.7.0",
+                "0.6.4",
+                "0.6.3",
+                "0.6.2",
+                "0.6.1",
+                "0.6.0",
+                "0.5.3",
+                "0.5.2",
+                "0.5.1",
+                "0.4.2",
+                "0.3.3",
+                "0.3.2",
+                "0.3.1",
+                "0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1539"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/exports-and-reports"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/exports-and-reports/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-1236"
+        ]
+    }
+}

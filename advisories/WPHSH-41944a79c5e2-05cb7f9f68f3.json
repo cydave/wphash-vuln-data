@@ -1,0 +1,66 @@
+{
+    "id": "WPHSH-41944a79c5e2-05cb7f9f68f3",
+    "modified": "2019-08-29T16:31Z",
+    "published": "2019-08-27T13:15Z",
+    "aliases": [
+        "CVE-2015-9348"
+    ],
+    "summary": "FIXME",
+    "details": "The sell-downloads plugin before 1.0.8 for WordPress has insufficient restrictions on brute-force guessing of purchase IDs.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "sell-downloads"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/sell-downloads",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9348"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/sell-downloads"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/sell-downloads/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-20"
+        ]
+    }
+}

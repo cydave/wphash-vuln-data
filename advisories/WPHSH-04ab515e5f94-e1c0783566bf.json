@@ -1,0 +1,63 @@
+{
+    "id": "WPHSH-04ab515e5f94-e1c0783566bf",
+    "modified": "2015-08-28T16:26Z",
+    "published": "2014-07-02T20:55Z",
+    "aliases": [
+        "CVE-2014-4549"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple cross-site scripting (XSS) vulnerabilities in pages/3DComplete.php in the WooCommerce SagePay Direct Payment Gateway plugin before 0.1.6.7 for WordPress allow remote attackers to inject arbitrary web script or HTML via the (1) MD or (2) PARes parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "sagepay-direct-for-woocommerce-payment-gateway"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/sagepay-direct-for-woocommerce-payment-gateway",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.1.6.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.1.6.6",
+                "0.1.6.5",
+                "0.1.6.4",
+                "0.1.6.3",
+                "0.1.6.2",
+                "0.1.6.1",
+                "0.1.6",
+                "0.1.1",
+                "0.1.4",
+                "0.1.5"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4549"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/sagepay-direct-for-woocommerce-payment-gateway"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/sagepay-direct-for-woocommerce-payment-gateway/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

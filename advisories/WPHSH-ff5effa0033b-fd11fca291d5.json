@@ -1,0 +1,75 @@
+{
+    "id": "WPHSH-ff5effa0033b-fd11fca291d5",
+    "modified": "2021-10-04T19:34Z",
+    "published": "2021-09-27T16:15Z",
+    "aliases": [
+        "CVE-2021-24634"
+    ],
+    "summary": "FIXME",
+    "details": "The Recipe Card Blocks by WPZOOM WordPress plugin before 2.8.3 does not properly sanitise or escape some of the properties of the Recipe Card Block (such as ingredientsLayout, iconSet, steps, ingredients, recipeTitle, or settings), which could allow users with a role as low as contributor to perform Stored Cross-Site Scripting attacks.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "recipe-card-blocks-by-wpzoom"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/recipe-card-blocks-by-wpzoom",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.8.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.8.0",
+                "2.7.14",
+                "2.7.13",
+                "2.7.12",
+                "2.7.11",
+                "2.7.10",
+                "2.7.9",
+                "2.7.8",
+                "2.6.4",
+                "2.5.0",
+                "2.4.0",
+                "2.3.0",
+                "2.2.0",
+                "2.1.0",
+                "2.0.4",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24634"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/recipe-card-blocks-by-wpzoom"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/recipe-card-blocks-by-wpzoom/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

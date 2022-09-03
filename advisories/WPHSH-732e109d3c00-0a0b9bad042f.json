@@ -1,0 +1,71 @@
+{
+    "id": "WPHSH-732e109d3c00-0a0b9bad042f",
+    "modified": "2022-04-27T16:15Z",
+    "published": "2022-04-19T21:15Z",
+    "aliases": [
+        "CVE-2022-0993"
+    ],
+    "summary": "FIXME",
+    "details": "The SiteGround Security plugin for WordPress is vulnerable to authentication bypass that allows unauthenticated users to log in as administrative users due to missing identity verification on the 2FA back-up code implementation that logs users in upon success. This affects versions up to, and including, 1.2.5.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "sg-security"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/sg-security",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.5",
+                "1.2.3",
+                "1.2.4",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.3",
+                "1.1.0",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0993"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/sg-security"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/sg-security/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-287"
+        ]
+    }
+}

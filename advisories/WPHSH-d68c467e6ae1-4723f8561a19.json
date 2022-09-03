@@ -1,0 +1,71 @@
+{
+    "id": "WPHSH-d68c467e6ae1-4723f8561a19",
+    "modified": "2018-07-05T16:57Z",
+    "published": "2018-05-31T01:29Z",
+    "aliases": [
+        "CVE-2018-11580"
+    ],
+    "summary": "FIXME",
+    "details": "An issue was discovered in mass-pages-posts-creator.php in the MULTIDOTS Mass Pages/Posts Creator plugin 1.2.2 for WordPress. Any logged in user can launch Mass Pages/Posts creation with custom content. There is no nonce or user capability check, so anyone can launch a DoS attack against a site and create hundreds of thousands of posts with custom content.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "mass-pagesposts-creator"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/mass-pagesposts-creator",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11580"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/mass-pagesposts-creator"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/mass-pagesposts-creator/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

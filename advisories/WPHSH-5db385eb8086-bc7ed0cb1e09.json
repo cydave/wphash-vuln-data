@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-5db385eb8086-bc7ed0cb1e09",
+    "modified": "2021-10-01T16:29Z",
+    "published": "2021-09-20T10:15Z",
+    "aliases": [
+        "CVE-2021-24585"
+    ],
+    "summary": "FIXME",
+    "details": "The Timetable and Event Schedule WordPress plugin before 2.4.0 outputs the Hashed Password, Username and Email Address (along other less sensitive data) of the user related to the Even Head of the Timeslot in the response when requesting the event Timeslot data with a user with the edit_posts capability. Combined with the other Unauthorised Event Timeslot Modification issue (https://wpscan.com/reports/submissions/4699/) where an arbitrary user ID can be set, this could allow low privilege users with the edit_posts capability (such as author) to retrieve sensitive User data by iterating over the user_id",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "mp-timetable"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/mp-timetable",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.4.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.3.19",
+                "2.3.18",
+                "2.3.16",
+                "2.3.14",
+                "2.3.13",
+                "2.3.12",
+                "2.3.11",
+                "2.3.10",
+                "2.3.9",
+                "2.3.8",
+                "2.3.7",
+                "2.3.6",
+                "2.3.5",
+                "2.3.4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24585"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/mp-timetable"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/mp-timetable/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-200"
+        ]
+    }
+}

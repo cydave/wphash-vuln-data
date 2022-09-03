@@ -1,0 +1,70 @@
+{
+    "id": "WPHSH-c43431ec2d3a-414106c7be59",
+    "modified": "2017-08-17T01:33Z",
+    "published": "2010-12-30T21:00Z",
+    "aliases": [
+        "CVE-2010-4637"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in feedlist/handler_image.php in the FeedList plugin 2.61.01 for WordPress allows remote attackers to inject arbitrary web script or HTML via the i parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "feedlist"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/feedlist",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.70.00"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.61.03",
+                "2.61.02",
+                "2.61.01",
+                "2.61",
+                "2.60",
+                "2.6",
+                "2.51",
+                "2.50",
+                "2.24",
+                "2.23",
+                "2.22.6",
+                "2.22.5",
+                "2.22.4",
+                "2.22.3",
+                "2.22.2",
+                "2.22.1",
+                "2.22"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4637"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/feedlist"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/feedlist/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

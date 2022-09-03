@@ -1,0 +1,56 @@
+{
+    "id": "WPHSH-0c7c0be42c73-67c03c402bf2",
+    "modified": "2022-07-18T09:15:21Z",
+    "published": "2022-07-18T09:15:20Z",
+    "aliases": [
+        "CVE-2022-2355"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "username-updater"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/username-updater",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2355"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/username-updater"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/username-updater/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

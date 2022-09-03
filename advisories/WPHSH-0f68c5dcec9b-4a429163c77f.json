@@ -1,0 +1,58 @@
+{
+    "id": "WPHSH-0f68c5dcec9b-4a429163c77f",
+    "modified": "2014-07-14T18:25Z",
+    "published": "2014-07-11T20:55Z",
+    "aliases": [
+        "CVE-2014-4940"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple directory traversal vulnerabilities in Tera Charts (tera-charts) plugin 0.1 for WordPress allow remote attackers to read arbitrary files via a .. (dot dot) in the fn parameter to (1) charts/treemap.php or (2) charts/zoomabletreemap.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "tera-charts"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/tera-charts",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4940"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/tera-charts"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/tera-charts/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=851874%40tera-charts&old=799253%40tera-charts&sfp_email=&sfph_mail="
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-22"
+        ]
+    }
+}

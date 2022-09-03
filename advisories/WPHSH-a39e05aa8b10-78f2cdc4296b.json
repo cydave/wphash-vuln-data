@@ -1,0 +1,142 @@
+{
+    "id": "WPHSH-a39e05aa8b10-78f2cdc4296b",
+    "modified": "2021-04-08T19:26Z",
+    "published": "2021-04-05T19:15Z",
+    "aliases": [
+        "CVE-2021-24161"
+    ],
+    "summary": "FIXME",
+    "details": "In the Reponsive Menu (free and Pro) WordPress plugins before 4.0.4, attackers could craft a request and trick an administrator into uploading a zip archive containing malicious PHP files. The attacker could then access those files to achieve remote code execution and further infect the targeted site.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "responsive-menu"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/responsive-menu",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.0.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.0.3",
+                "4.0.2",
+                "4.0.1",
+                "4.0.0",
+                "3.1.30",
+                "3.1.29",
+                "3.1.28",
+                "3.1.27",
+                "3.1.26",
+                "3.1.25",
+                "3.1.24",
+                "3.1.23",
+                "3.1.22",
+                "3.1.21",
+                "3.1.20",
+                "3.1.19",
+                "3.1.18",
+                "3.1.17",
+                "3.1.16",
+                "3.1.15",
+                "3.1.14",
+                "3.1.13",
+                "3.1.12",
+                "3.1.11",
+                "3.1.10",
+                "3.1.9",
+                "3.1.8",
+                "3.1.7",
+                "3.1.6",
+                "3.1.5",
+                "3.1.4",
+                "3.1.3",
+                "3.1.2",
+                "3.1.1",
+                "3.1.0",
+                "beta",
+                "3.0.18",
+                "3.0.17",
+                "3.0.16",
+                "3.0.15",
+                "3.0.14",
+                "3.0.13",
+                "3.0.12",
+                "3.0.11",
+                "3.0.10",
+                "3.0.9",
+                "3.0.8",
+                "3.0.7",
+                "3.0.6",
+                "3.0.5",
+                "3.0.4",
+                "3.0.3",
+                "3.0.2",
+                "3.0.1",
+                "3.0.0",
+                "2.8.9",
+                "2.8.8",
+                "2.8.7",
+                "2.8.6",
+                "2.8.5",
+                "2.8.4",
+                "2.8.3",
+                "2.8.2",
+                "2.8.1",
+                "2.8",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.10",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24161"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/responsive-menu"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/responsive-menu/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

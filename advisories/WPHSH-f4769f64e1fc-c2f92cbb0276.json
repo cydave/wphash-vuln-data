@@ -1,0 +1,57 @@
+{
+    "id": "WPHSH-f4769f64e1fc-c2f92cbb0276",
+    "modified": "2019-10-09T23:14Z",
+    "published": "2015-06-09T14:59Z",
+    "aliases": [
+        "CVE-2015-4010"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in the Encrypted Contact Form plugin before 1.1 for WordPress allows remote attackers to hijack the authentication of administrators for requests that conduct cross-site scripting (XSS) attacks via the iframe_url parameter in an Update Page action in the conformconf page to wp-admin/options-general.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "encrypted-contact-form"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/encrypted-contact-form",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4010"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/encrypted-contact-form"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/encrypted-contact-form/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

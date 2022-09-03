@@ -1,0 +1,94 @@
+{
+    "id": "WPHSH-5df6ba4f5766-78ebd6d9a1bf",
+    "modified": "2022-04-21T01:40Z",
+    "published": "2022-04-11T20:15Z",
+    "aliases": [
+        "CVE-2022-25615"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-Site Request Forgery (CSRF) in StylemixThemes eRoom \u2013 Zoom Meetings & Webinar (WordPress plugin) <= 1.3.8 allows cache deletion.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "eroom-zoom-meetings-webinar"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/eroom-zoom-meetings-webinar",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.3.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.9",
+                "1.2.8",
+                "1.2.7",
+                "1.2.6",
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.9",
+                "1.1.8",
+                "1.1.7",
+                "1.1.6",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25615"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/eroom-zoom-meetings-webinar"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/eroom-zoom-meetings-webinar/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

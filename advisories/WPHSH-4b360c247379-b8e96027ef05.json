@@ -1,0 +1,70 @@
+{
+    "id": "WPHSH-4b360c247379-b8e96027ef05",
+    "modified": "2022-05-03T13:05Z",
+    "published": "2021-06-14T14:15Z",
+    "aliases": [
+        "CVE-2021-24354"
+    ],
+    "summary": "FIXME",
+    "details": "A lack of capability checks and insufficient nonce check on the AJAX action in the Simple 301 Redirects by BetterLinks WordPress plugin before 2.0.4, made it possible for authenticated users to install arbitrary plugins on vulnerable sites.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "simple-301-redirects"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/simple-301-redirects",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.0.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.07",
+                "1.06",
+                "1.05",
+                "1.03",
+                "1.02",
+                "1.0",
+                "1.01"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24354"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/simple-301-redirects"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/simple-301-redirects/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-862"
+        ]
+    }
+}

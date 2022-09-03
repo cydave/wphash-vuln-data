@@ -1,0 +1,83 @@
+{
+    "id": "WPHSH-00e080f77c3a-fc3031b65274",
+    "modified": "2021-08-10T14:28Z",
+    "published": "2021-08-02T11:15Z",
+    "aliases": [
+        "CVE-2021-24503"
+    ],
+    "summary": "FIXME",
+    "details": "The Popular Brand Icons \u00e2\u20ac\u201c Simple Icons WordPress plugin before 2.7.8 does not sanitise or validate some of its shortcode parameters, such as \"color\", \"size\" or \"class\", allowing users with a role as low as Contributor to set Cross-Site payload in them. A post made by a contributor would still have to be approved by an admin to have the XSS triggered in the frontend, however, higher privilege users, such as editor could exploit this without the need of approval, and even when the blog disallows the unfiltered_html capability.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "simple-icons"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/simple-icons",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.7.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.7.7",
+                "2.7.6",
+                "2.7.5",
+                "2.7.4",
+                "2.7.3",
+                "2.7.2",
+                "2.7.1",
+                "2.7.0",
+                "2.6.0",
+                "2.5.0",
+                "2.4.0",
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.3.0",
+                "2.2.2",
+                "2.2.1",
+                "2.2.0",
+                "2.1",
+                "2.0.3",
+                "2.0.2",
+                "2.0",
+                "1.1.0",
+                "2.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24503"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/simple-icons"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/simple-icons/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,135 @@
+{
+    "id": "WPHSH-4342e46e8ee7-8602625fb732",
+    "modified": "2022-04-15T17:53Z",
+    "published": "2022-04-11T15:15Z",
+    "aliases": [
+        "CVE-2022-0246"
+    ],
+    "summary": "FIXME",
+    "details": "The settings of the iQ Block Country WordPress plugin before 1.2.13 can be exported or imported using its backup functionality. An authorized user can import preconfigured settings of the plugin by uploading a zip file. After the uploading process, files in the uploaded zip file are extracted one by one. During the extraction process, existence of a file is checked. If the file exists, it is deleted without any security control by only considering the name of the extracted file. This behavior leads to \"Zip Slip\" vulnerability.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "iq-block-country"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/iq-block-country",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.13"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.12",
+                "1.2.11",
+                "1.2.10",
+                "1.2.9",
+                "1.2.8",
+                "1.2.7",
+                "1.2.6",
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.51",
+                "1.1.50",
+                "1.1.49",
+                "1.1.48",
+                "1.1.47",
+                "1.1.46",
+                "1.1.45",
+                "1.1.44",
+                "1.1.43",
+                "1.1.42",
+                "1.4.41",
+                "1.1.40",
+                "1.1.38",
+                "1.1.37",
+                "1.1.36",
+                "1.1.35",
+                "1.1.34",
+                "1.1.33",
+                "1.1.32",
+                "1.1.31",
+                "1.1.30",
+                "1.1.29",
+                "1.1.28",
+                "1.1.27",
+                "1.1.26",
+                "1.1.25",
+                "1.1.24",
+                "1.1.23",
+                "1.1.22",
+                "1.1.21",
+                "1.1.20",
+                "1.1.19",
+                "1.1.18",
+                "1.1.17",
+                "1.1.16",
+                "1.1.15",
+                "1.1.14",
+                "1.1.13",
+                "1.1.12",
+                "1.1.11",
+                "1.1.10",
+                "1.1.9",
+                "1.1.8",
+                "1.1.7",
+                "1.1.6",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.12",
+                "1.0.11",
+                "1.0.10",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0246"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/iq-block-country"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/iq-block-country/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-73"
+        ]
+    }
+}

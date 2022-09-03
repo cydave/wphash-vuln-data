@@ -1,0 +1,77 @@
+{
+    "id": "WPHSH-d9d061e54ebd-f07f3acf12bf",
+    "modified": "2021-04-12T13:10Z",
+    "published": "2021-04-05T19:15Z",
+    "aliases": [
+        "CVE-2021-24208"
+    ],
+    "summary": "FIXME",
+    "details": "The editor of the WP Page Builder WordPress plugin before 1.2.4 allows lower-privileged users to insert unfiltered HTML, including JavaScript, into pages via the \u201cRaw HTML\u201d widget and the \u201cCustom HTML\u201d widgets (though the custom HTML widget requires sending a crafted request - it appears that this widget uses some form of client side validation but not server side validation), all of which are added via the \u201cpage_builder_data\u201d parameter when performing the \u201cwppb_page_save\u201d AJAX action. It is also possible to insert malicious JavaScript via the \u201cwppb_page_css\u201d parameter (this can be done by closing out the style tag and opening a script tag) when performing the \u201cwppb_page_save\u201d AJAX action.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-pagebuilder"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-pagebuilder",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0",
+                "1.0.0-beta2",
+                "1.0.0-beta1",
+                "1.0.0-beta"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24208"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-pagebuilder"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-pagebuilder/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

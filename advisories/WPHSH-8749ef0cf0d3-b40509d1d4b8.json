@@ -1,0 +1,68 @@
+{
+    "id": "WPHSH-8749ef0cf0d3-b40509d1d4b8",
+    "modified": "2016-11-30T03:00Z",
+    "published": "2015-02-24T17:59Z",
+    "aliases": [
+        "CVE-2015-2065"
+    ],
+    "summary": "FIXME",
+    "details": "SQL injection vulnerability in videogalleryrss.php in the Apptha WordPress Video Gallery (contus-video-gallery) plugin before 2.8 for WordPress allows remote attackers to execute arbitrary SQL commands via the vid parameter in a rss action to wp-admin/admin-ajax.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "contus-video-gallery"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/contus-video-gallery",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.7",
+                "2.5",
+                "2.3.1.0.1",
+                "2.3.1",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.6",
+                "1.0",
+                "1.1",
+                "1.2",
+                "1.3",
+                "1.4",
+                "1.5"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2065"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/contus-video-gallery"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/contus-video-gallery/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

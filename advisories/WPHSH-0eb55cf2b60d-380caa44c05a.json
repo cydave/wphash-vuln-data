@@ -1,0 +1,86 @@
+{
+    "id": "WPHSH-0eb55cf2b60d-380caa44c05a",
+    "modified": "2019-08-29T12:53Z",
+    "published": "2019-08-22T20:15Z",
+    "aliases": [
+        "CVE-2013-7483"
+    ],
+    "summary": "FIXME",
+    "details": "The slidedeck2 plugin before 2.3.5 for WordPress has file inclusion.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "slidedeck2"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/slidedeck2",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.3.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.2",
+                "2.1.20130325",
+                "2.1.20130228",
+                "2.1.20130219",
+                "2.1.20130116",
+                "2.1.20121212",
+                "2.1.20121115",
+                "2.1.20121102",
+                "2.1.20121101",
+                "2.1.20121017",
+                "2.1.20121010",
+                "2.1.20120919",
+                "2.1.20120827",
+                "2.1.20120823",
+                "2.1.20120807",
+                "2.1.20120724",
+                "2.1.20120717",
+                "2.1.20120711",
+                "2.1.20120705",
+                "2.1.20120702",
+                "2.1.20120628"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-7483"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/slidedeck2"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/slidedeck2/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-20"
+        ]
+    }
+}

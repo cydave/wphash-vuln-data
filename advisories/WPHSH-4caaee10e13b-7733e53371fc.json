@@ -1,0 +1,112 @@
+{
+    "id": "WPHSH-4caaee10e13b-7733e53371fc",
+    "modified": "2019-08-26T15:33Z",
+    "published": "2019-08-22T14:15Z",
+    "aliases": [
+        "CVE-2018-20985"
+    ],
+    "summary": "FIXME",
+    "details": "The wp-payeezy-pay plugin before 2.98 for WordPress has local file inclusion in pay.php, donate.php, donate-rec, and pay-rec.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-payeezy-pay"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-payeezy-pay",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.98"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.97",
+                "2.96",
+                "2.95",
+                "2.94",
+                "2.93",
+                "2.92",
+                "2.91",
+                "2.90",
+                "2.89",
+                "2.88",
+                "2.87",
+                "2.86",
+                "2.85",
+                "2.84",
+                "2.81",
+                "2.82",
+                "2.83",
+                "2.80",
+                "2.79",
+                "2.78",
+                "2.77",
+                "2.76",
+                "2.75",
+                "2.74",
+                "2.73",
+                "2.72",
+                "2.71",
+                "2.70",
+                "2.68",
+                "2.67",
+                "2.66",
+                "2.65",
+                "2.62",
+                "2.61",
+                "2.60",
+                "2.53",
+                "2.52",
+                "2.51",
+                "2.50",
+                "2.45",
+                "2.41",
+                "2.40",
+                "2.36",
+                "2.35",
+                "2.31",
+                "2.30",
+                "2.2",
+                "2.1",
+                "2.25",
+                "2.0",
+                "1.4",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20985"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-payeezy-pay"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-payeezy-pay/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-20"
+        ]
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "id": "WPHSH-18d6fec461a4-d440eea5d769",
+    "modified": "2021-08-16T20:54Z",
+    "published": "2021-08-09T13:15Z",
+    "aliases": [
+        "CVE-2021-34660"
+    ],
+    "summary": "FIXME",
+    "details": "The WP Fusion Lite WordPress plugin is vulnerable to Reflected Cross-Site Scripting via the startdate parameter found in the ~/includes/admin/logging/class-log-table-list.php file which allows attackers to inject arbitrary web scripts, in versions up to and including 3.37.18.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-fusion-lite"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-fusion-lite",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.37.30"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.37.18",
+                "3.37",
+                "3.35",
+                "3.34",
+                "3.31",
+                "3.27",
+                "3.25",
+                "3.24",
+                "3.22",
+                "3.18",
+                "3.17.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34660"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-fusion-lite"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-fusion-lite/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "id": "WPHSH-686e34dbfe6c-36a3983a983d",
+    "modified": "2019-09-20T16:37Z",
+    "published": "2019-09-20T15:15Z",
+    "aliases": [
+        "CVE-2016-10996"
+    ],
+    "summary": "FIXME",
+    "details": "The optinmonster plugin before 1.1.4.6 for WordPress has incorrect access control for shortcodes because of a nonce leak.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "optinmonster"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/optinmonster",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.4.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.4.5",
+                "1.1.4.4",
+                "1.1.4.3",
+                "1.1.4.2",
+                "1.1.4",
+                "1.1.3.9",
+                "1.1.3.8",
+                "1.1.3.7",
+                "1.1.3.6",
+                "1.1.3.5",
+                "1.1.3.4",
+                "1.1.3.3",
+                "1.1.3.2",
+                "1.1.3.1",
+                "1.1.3",
+                "1.1.2.7",
+                "1.1.2.6",
+                "1.1.2.5",
+                "1.1.2.4",
+                "1.1.2.3",
+                "1.1.2.2",
+                "1.1.2.1",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0.5",
+                "1.1.0.4",
+                "1.1.0.3",
+                "1.1.0.2",
+                "1.1.0.1",
+                "1.1.0",
+                "1.0.0.9",
+                "1.0.0.8",
+                "1.0.0.7",
+                "1.0.0.6",
+                "1.0.0.5",
+                "1.0.0.4",
+                "1.0.0.3",
+                "1.0.0.2",
+                "1.0.0.1",
+                "1.0.0",
+                "0.9.9",
+                "0.9.8"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10996"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/optinmonster"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/optinmonster/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-863"
+        ]
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "id": "WPHSH-710c5f8bfe61-4321de8461ff",
+    "modified": "2022-04-25T16:53Z",
+    "published": "2022-04-18T18:15Z",
+    "aliases": [
+        "CVE-2022-1001"
+    ],
+    "summary": "FIXME",
+    "details": "The WP Downgrade WordPress plugin before 1.2.3 only perform client side validation of its \"WordPress Target Version\" settings, but does not sanitise and escape it server side, allowing high privilege users such as admin to perform Cross-Site attacks even when the unfiltered_html capability is disallowed",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-downgrade"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-downgrade",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1001"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-downgrade"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-downgrade/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2696091"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

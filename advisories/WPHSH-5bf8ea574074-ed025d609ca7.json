@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-5bf8ea574074-ed025d609ca7",
+    "modified": "2014-07-11T17:55Z",
+    "published": "2014-07-02T18:55Z",
+    "aliases": [
+        "CVE-2014-4524"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in classes/custom-image/media.php in the WP Easy Post Types plugin before 1.4.4 for WordPress allows remote attackers to inject arbitrary web script or HTML via the ref parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "easy-post-types"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/easy-post-types",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4.3",
+                "1.4.1",
+                "1.4.0",
+                "1.3.1",
+                "1.3.0",
+                "1.2.1",
+                "1.2.0",
+                "1.0.0",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4524"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/easy-post-types"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/easy-post-types/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "id": "WPHSH-dd410e6244cd-f348b9c98c6e",
+    "modified": "2022-07-29T10:15Z",
+    "published": "2021-09-20T10:15Z",
+    "aliases": [
+        "CVE-2021-24618"
+    ],
+    "summary": "FIXME",
+    "details": "The Donate With QRCode WordPress plugin before 1.4.5 does not sanitise or escape its QRCode Image setting, which result into a Stored Cross-Site Scripting (XSS). Furthermore, the plugin also does not have any CSRF and capability checks in place when saving such setting, allowing any authenticated user (as low as subscriber), or unauthenticated user via a CSRF vector to update them and perform such attack.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "donate-with-qrcode"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/donate-with-qrcode",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.1",
+                "1.3.2",
+                "1.3.0",
+                "1.2.1",
+                "1.1.0",
+                "1.2.0",
+                "1.0.0",
+                "0.1.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24618"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/donate-with-qrcode"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/donate-with-qrcode/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79",
+            "CWE-352"
+        ]
+    }
+}

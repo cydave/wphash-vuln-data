@@ -1,0 +1,68 @@
+{
+    "id": "WPHSH-e771f175ce1f-b0fb4f8224ca",
+    "modified": "2022-01-27T16:45Z",
+    "published": "2022-01-24T08:15Z",
+    "aliases": [
+        "CVE-2021-24858"
+    ],
+    "summary": "FIXME",
+    "details": "The Cookie Notification Plugin for WordPress plugin before 1.0.9 does not sanitise or escape the id GET parameter before using it in a SQL statement, when retrieving the setting to edit in the admin dashboard, leading to an authenticated SQL Injection",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-cookie-user-info"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-cookie-user-info",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.9"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24858"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-cookie-user-info"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-cookie-user-info/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

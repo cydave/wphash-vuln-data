@@ -1,0 +1,156 @@
+{
+    "id": "WPHSH-963780bfec2a-fb40c0f1ff4f",
+    "modified": "2021-10-26T19:59Z",
+    "published": "2021-08-02T11:15Z",
+    "aliases": [
+        "CVE-2021-24444"
+    ],
+    "summary": "FIXME",
+    "details": "The TaxoPress \u2013 Create and Manage Taxonomies, Tags, Categories WordPress plugin before 3.7.0.2 does not sanitise its Taxonomy description field, allowing high privilege users to set JavaScript payload in them even when the unfiltered_html capability is disallowed, leading to an authenticated Stored Cross-Site Scripting issue.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "simple-tags"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/simple-tags",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.0.7.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.0.7.1",
+                "3.0.7",
+                "3.0.6.1",
+                "3.0.6",
+                "3.0.5.2",
+                "3.0.5.1",
+                "3.0.5",
+                "3.0.4.3",
+                "3.0.4.2",
+                "3.0.4.1",
+                "3.0.4",
+                "3.0.3",
+                "3.0.2",
+                "3.0.1",
+                "3.0.0",
+                "3.0",
+                "2.63",
+                "2.62",
+                "2.61",
+                "2.6",
+                "2.5.7",
+                "2.5.5",
+                "2.5.4",
+                "2.5.3",
+                "2.5.2",
+                "2.5.1",
+                "2.5.0",
+                "2.4.7",
+                "2.4.6",
+                "2.4.5",
+                "2.4.4",
+                "2.4.3",
+                "2.4.1",
+                "2.4",
+                "2.3.2",
+                "2.3.1",
+                "2.3",
+                "2.2",
+                "2.1.2",
+                "2.1.1",
+                "2.1",
+                "2.0-beta9",
+                "2.0-beta8",
+                "2.0-beta7",
+                "2.0-beta6",
+                "2.0-beta5",
+                "2.0-beta4",
+                "2.0-beta3",
+                "2.0-beta2",
+                "2.0-beta1",
+                "1.8",
+                "1.7.4.4",
+                "1.7.4.3",
+                "1.7.4.2",
+                "1.7.4.1",
+                "1.7.4",
+                "1.7.1-rc1.2",
+                "1.6.6",
+                "1.6.5",
+                "1.6.4",
+                "1.6.3",
+                "1.6.2",
+                "1.6.1",
+                "1.6",
+                "1.5.8",
+                "1.5.7 - 2.7",
+                "1.5.7",
+                "1.5.6",
+                "1.5.5",
+                "1.5.3",
+                "1.5.2.1",
+                "1.5.2",
+                "1.5.1",
+                "1.5",
+                "1.3.9.1",
+                "1.3.9",
+                "1.3.8",
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.4a",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24444"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/simple-tags"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/simple-tags/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

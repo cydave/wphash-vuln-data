@@ -1,0 +1,81 @@
+{
+    "id": "WPHSH-88f076509bbd-dc46a8f99fc9",
+    "modified": "2022-07-25T20:15Z",
+    "published": "2022-07-25T20:15Z",
+    "aliases": [
+        "CVE-2022-36375"
+    ],
+    "summary": "FIXME",
+    "details": "Authenticated (high role user) WordPress Options Change vulnerability in Biplob Adhikari's Tabs plugin <= 3.6.0 at WordPress.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "vc-tabs"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/vc-tabs",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.7.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.6.0",
+                "3.5.4",
+                "3.5.3",
+                "3.5.2",
+                "3.5.1",
+                "3.5.0",
+                "3.4.0",
+                "3.3.2",
+                "3.3.1",
+                "3.3.0",
+                "3.2.1",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.9",
+                "2.8",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.2",
+                "2.0",
+                "1.1",
+                "1.1.2",
+                "1.2",
+                "2.3",
+                "2.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36375"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/vc-tabs"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/vc-tabs/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-264"
+        ]
+    }
+}

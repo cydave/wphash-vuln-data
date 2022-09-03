@@ -1,0 +1,84 @@
+{
+    "id": "WPHSH-93a6eaa43f67-ffa689598ad2",
+    "modified": "2020-08-24T17:37Z",
+    "published": "2019-07-29T16:15Z",
+    "aliases": [
+        "CVE-2019-6726"
+    ],
+    "summary": "FIXME",
+    "details": "The WP Fastest Cache plugin through 0.8.9.0 for WordPress allows remote attackers to delete arbitrary files because wp_postratings_clear_fastest_cache and rm_folder_recursively in wpFastestCache.php mishandle ../ in an HTTP Referer header.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-fastest-cache"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-fastest-cache",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.8.9.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.8.9.0",
+                "0.8.8.9",
+                "0.8.8.8",
+                "0.8.8.7",
+                "0.8.8.6",
+                "0.8.8.5",
+                "0.8.8.4",
+                "0.8.8.3",
+                "0.8.8.2",
+                "0.8.8.1",
+                "0.8.8.0",
+                "0.8.7.9",
+                "0.8.7.8",
+                "0.8.7.7",
+                "0.8.7.6",
+                "0.8.7.5",
+                "0.8.7.4",
+                "0.8.7.3",
+                "0.8.7.2",
+                "0.8.7.1",
+                "0.8.7.0",
+                "0.8.6.9",
+                "0.8.6.8",
+                "0.8.6.7",
+                "0.8.6.6"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6726"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-fastest-cache"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-fastest-cache/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-22"
+        ]
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "id": "WPHSH-1a5ffa8e06b3-286de6ec4042",
+    "modified": "2022-08-29T21:00Z",
+    "published": "2022-01-24T08:15Z",
+    "aliases": [
+        "CVE-2021-24906"
+    ],
+    "summary": "FIXME",
+    "details": "The Protect WP Admin WordPress plugin before 3.6.2 does not check for authorisation in the lib/pwa-deactivate.php file, which could allow unauthenticated users to disable the plugin (and therefore the protection offered) via a crafted request",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "protect-wp-admin"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/protect-wp-admin",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.6.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.6",
+                "3.2.1",
+                "3.3",
+                "3.2",
+                "3.1.1",
+                "3.1",
+                "3.0.3",
+                "3.0.2",
+                "3.0.1",
+                "3.0",
+                "2.9",
+                "2.8",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24906"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/protect-wp-admin"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/protect-wp-admin/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-862"
+        ]
+    }
+}

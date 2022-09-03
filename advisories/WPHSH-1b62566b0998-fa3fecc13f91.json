@@ -1,0 +1,88 @@
+{
+    "id": "WPHSH-1b62566b0998-fa3fecc13f91",
+    "modified": "2022-04-27T17:06Z",
+    "published": "2022-04-19T21:15Z",
+    "aliases": [
+        "CVE-2022-1187"
+    ],
+    "summary": "FIXME",
+    "details": "The WordPress WP YouTube Live Plugin is vulnerable to Reflected Cross-Site Scripting via POST data found in the ~/inc/admin.php file which allows unauthenticated attackers to inject arbitrary web scripts in versions up to, and including, 1.7.21.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-youtube-live"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-youtube-live",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.7.22"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.7.21",
+                "1.7.20",
+                "1.7.19",
+                "1.7.18",
+                "1.7.16",
+                "1.7.14",
+                "1.7.13",
+                "1.7.12",
+                "1.7.11",
+                "1.7.10",
+                "1.7.9",
+                "1.7.8",
+                "1.7.7",
+                "1.7.6",
+                "1.7.5",
+                "1.7.4",
+                "1.6.4",
+                "1.6.3",
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5",
+                "1.4.2",
+                "1.4.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1187"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-youtube-live"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-youtube-live/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=2702715%40wp-youtube-live&new=2702715%40wp-youtube-live&sfp_email=&sfph_mail="
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

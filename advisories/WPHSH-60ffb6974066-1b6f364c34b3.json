@@ -1,0 +1,90 @@
+{
+    "id": "WPHSH-60ffb6974066-1b6f364c34b3",
+    "modified": "2013-09-26T16:47Z",
+    "published": "2013-09-05T03:27Z",
+    "aliases": [
+        "CVE-2013-3479"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in the ShareThis plugin before 7.0.6 for WordPress allows remote attackers to hijack the authentication of administrators for requests that modify this plugin's settings.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "share-this"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/share-this",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "7.0.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "7.0.5",
+                "7.0.4",
+                "7.0.3",
+                "7.0.2",
+                "7.0.1",
+                "7.0",
+                "6.0",
+                "5.4.1",
+                "5.4",
+                "5.3",
+                "5.2",
+                "5.2.0",
+                "5.0.1",
+                "5.0.0",
+                "4.1.0",
+                "4.0.3",
+                "4.0.2",
+                "4.0.1",
+                "4.0",
+                "3.2",
+                "3.0.1",
+                "3.0",
+                "2.3",
+                "2.2",
+                "1.5.2-classic",
+                "classic-1.5.2",
+                "2.1",
+                "2.1b1",
+                "1.5.1",
+                "1.5",
+                "2.0",
+                "1.4",
+                "1.3.1",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3479"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/share-this"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/share-this/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "id": "WPHSH-5c4bdd8f6901-b62263976607",
+    "modified": "2015-01-06T16:55Z",
+    "published": "2015-01-05T20:59Z",
+    "aliases": [
+        "CVE-2014-9523"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple cross-site request forgery (CSRF) vulnerabilities in the Our Team Showcase (our-team-enhanced) plugin before 1.3 for WordPress allow remote attackers to hijack the authentication of administrators for requests that (1) change plugin settings via unspecified vectors or (2) conduct cross-site scripting (XSS) attacks via the sc_our_team_member_count parameter in the sc_team_settings page to wp-admin/edit.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "our-team-enhanced"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/our-team-enhanced",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9523"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/our-team-enhanced"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/our-team-enhanced/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

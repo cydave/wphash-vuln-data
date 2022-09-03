@@ -1,0 +1,81 @@
+{
+    "id": "WPHSH-edd852573f74-c2d3d701fc3c",
+    "modified": "2014-05-30T00:32Z",
+    "published": "2014-05-23T00:55Z",
+    "aliases": [
+        "CVE-2013-2107"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in the Mail On Update plugin before 5.2.0 for WordPress allows remote attackers to hijack the authentication of administrators for requests that change the \"List of alternative recipients\" via the mailonupdate_mailto parameter in the mail-on-update page to wp-admin/options-general.php.  NOTE: a third party claims that 5.2.1 and 5.2.2 are also vulnerable, but the issue might require a separate CVE identifier since this might reflect an incomplete fix.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "mail-on-update"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/mail-on-update",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.2.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "5.1.0",
+                "5.0.0",
+                "4.6.0",
+                "4.5",
+                "4.4",
+                "4.3",
+                "4.2",
+                "4.1",
+                "4.0",
+                "3.4",
+                "3.3",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1 Beta",
+                "1.0 Beta"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2107"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/mail-on-update"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/mail-on-update/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

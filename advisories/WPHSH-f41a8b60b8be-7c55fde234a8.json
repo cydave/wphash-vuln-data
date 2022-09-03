@@ -1,0 +1,71 @@
+{
+    "id": "WPHSH-f41a8b60b8be-7c55fde234a8",
+    "modified": "2021-10-05T18:54Z",
+    "published": "2021-09-27T16:15Z",
+    "aliases": [
+        "CVE-2021-24671"
+    ],
+    "summary": "FIXME",
+    "details": "The MX Time Zone Clocks WordPress plugin before 3.4.1 does not escape the time_zone attribute of the mxmtzc_time_zone_clocks shortcode, allowing users with a role as low as Contributor to perform Stored Cross-Site Scripting attacks",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "mx-time-zone-clocks"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/mx-time-zone-clocks",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.4.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.4",
+                "3.3.2",
+                "3.3.1",
+                "3.3",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24671"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/mx-time-zone-clocks"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/mx-time-zone-clocks/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

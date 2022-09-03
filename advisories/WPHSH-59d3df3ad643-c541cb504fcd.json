@@ -1,0 +1,74 @@
+{
+    "id": "WPHSH-59d3df3ad643-c541cb504fcd",
+    "modified": "2021-12-17T01:59Z",
+    "published": "2021-12-14T16:15Z",
+    "aliases": [
+        "CVE-2021-41836"
+    ],
+    "summary": "FIXME",
+    "details": "The Fathom Analytics WordPress plugin is vulnerable to Stored Cross-Site Scripting due to insufficient input validation and escaping via the $site_id parameter found in the ~/fathom-analytics.php file which allowed attackers with administrative user access to inject arbitrary web scripts, in versions up to and including 3.0.4. This affects multi-site installations where unfiltered_html is disabled for administrators, and sites where unfiltered_html is disabled.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "fathom-analytics"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/fathom-analytics",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.0.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.0.4",
+                "3.0.3",
+                "3.0.2",
+                "3.0.1",
+                "3.0.0",
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-41836"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/fathom-analytics"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/fathom-analytics/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=2641005%40fathom-analytics&new=2641005%40fathom-analytics&sfp_email=&sfph_mail="
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

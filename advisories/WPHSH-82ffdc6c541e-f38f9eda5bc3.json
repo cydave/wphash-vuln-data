@@ -1,0 +1,57 @@
+{
+    "id": "WPHSH-82ffdc6c541e-f38f9eda5bc3",
+    "modified": "2022-07-20T11:39:07Z",
+    "published": "2022-07-20T11:39:07Z",
+    "aliases": [
+        "CVE-2022-2152"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "duplicate-wp-page-post"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/duplicate-wp-page-post",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.7",
+                "2.6.1",
+                "2.6",
+                "2.5.8",
+                "2.0",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2152"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/duplicate-wp-page-post"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/duplicate-wp-page-post/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "id": "WPHSH-62f53cf02b67-fb541855d6bc",
+    "modified": "2021-04-20T19:11Z",
+    "published": "2021-04-12T14:15Z",
+    "aliases": [
+        "CVE-2021-24217"
+    ],
+    "summary": "FIXME",
+    "details": "The run_action function of the Facebook for WordPress plugin before 3.0.0 deserializes user supplied data making it possible for PHP objects to be supplied creating an Object Injection vulnerability. There was also a useable magic method in the plugin that could be used to achieve remote code execution.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "official-facebook-pixel"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/official-facebook-pixel",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.0.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.2.2",
+                "2.2.1",
+                "2.2.0",
+                "2.1.0",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.8.0",
+                "1.7.25",
+                "1.7.24",
+                "1.7.23",
+                "1.7.22",
+                "1.7.21",
+                "1.7.20",
+                "1.7.19",
+                "1.7.18",
+                "1.7.17",
+                "1.7.16"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24217"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/official-facebook-pixel"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/official-facebook-pixel/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-502"
+        ]
+    }
+}

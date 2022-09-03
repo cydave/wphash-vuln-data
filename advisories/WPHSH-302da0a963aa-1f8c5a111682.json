@@ -1,0 +1,89 @@
+{
+    "id": "WPHSH-302da0a963aa-1f8c5a111682",
+    "modified": "2021-07-21T11:39Z",
+    "published": "2020-01-09T20:15Z",
+    "aliases": [
+        "CVE-2020-6168"
+    ],
+    "summary": "FIXME",
+    "details": "A flaw in the WordPress plugin, Minimal Coming Soon & Maintenance Mode through 2.10, allows authenticated users with basic access to enable and disable maintenance-mode settings (impacting the availability and confidentiality of a vulnerable site, along with the integrity of the setting).",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "minimal-coming-soon-maintenance-mode"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/minimal-coming-soon-maintenance-mode",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.15"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.10",
+                "2.07",
+                "2.05",
+                "2.01",
+                "2.0",
+                "1.95",
+                "1.90",
+                "1.87",
+                "1.85",
+                "1.80",
+                "1.75",
+                "1.70",
+                "1.65",
+                "1.62",
+                "1.60",
+                "1.55",
+                "1.50",
+                "1.45",
+                "1.40",
+                "1.35",
+                "1.30",
+                "1.25",
+                "1.2",
+                "1.1.1",
+                "1.0",
+                "0.5",
+                "0.4",
+                "0.3",
+                "0.2",
+                "0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-6168"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/minimal-coming-soon-maintenance-mode"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/minimal-coming-soon-maintenance-mode/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-862"
+        ]
+    }
+}

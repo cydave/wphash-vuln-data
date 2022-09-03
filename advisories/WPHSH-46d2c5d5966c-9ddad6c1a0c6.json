@@ -1,0 +1,80 @@
+{
+    "id": "WPHSH-46d2c5d5966c-9ddad6c1a0c6",
+    "modified": "2017-08-29T01:32Z",
+    "published": "2012-08-13T22:55Z",
+    "aliases": [
+        "CVE-2012-4268"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in bulletproof-security/admin/options.php in the BulletProof Security plugin before .47.1 for WordPress allows remote attackers to inject arbitrary web script or HTML via the HTTP_ACCEPT_ENCODING header.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "bulletproof-security"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/bulletproof-security",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": ".47.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                ".47",
+                ".46.9",
+                ".46.8",
+                ".46.7",
+                ".46.6",
+                ".46.5",
+                ".46.4",
+                ".46.3",
+                ".46.2",
+                ".46.1",
+                ".46",
+                ".45.9",
+                ".45.8",
+                ".45.7",
+                ".45.6",
+                ".45.5",
+                ".45.4",
+                ".45.3",
+                ".45.2",
+                ".45.1",
+                ".45",
+                ".44.1",
+                ".44"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4268"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/bulletproof-security"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/bulletproof-security/"
+        },
+        {
+            "type": "FIX",
+            "url": "http://plugins.trac.wordpress.org/changeset?old_path=%2Fbulletproof-security&old=543044&new_path=%2Fbulletproof-security&new=543044"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

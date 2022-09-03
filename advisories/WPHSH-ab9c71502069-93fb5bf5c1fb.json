@@ -1,0 +1,80 @@
+{
+    "id": "WPHSH-ab9c71502069-93fb5bf5c1fb",
+    "modified": "2018-01-29T12:32Z",
+    "published": "2018-01-08T07:29Z",
+    "aliases": [
+        "CVE-2018-5285"
+    ],
+    "summary": "FIXME",
+    "details": "The ImageInject plugin 1.15 for WordPress has CSRF via wp-admin/options-general.php.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-inject"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-inject",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.16"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.15",
+                "1.14",
+                "1.13",
+                "1.12",
+                "1.11",
+                "1.10",
+                "1.06",
+                "1.05",
+                "1.04",
+                "1.03",
+                "1.02",
+                "1.01",
+                "1.00",
+                "0.53",
+                "0.52",
+                "0.51",
+                "0.50",
+                "0.41",
+                "0.40",
+                "0.30",
+                "0.31"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5285"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-inject"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-inject/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

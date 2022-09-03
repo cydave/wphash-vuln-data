@@ -1,0 +1,81 @@
+{
+    "id": "WPHSH-b42ccc080123-f4e0a47b6ceb",
+    "modified": "2022-07-06T12:51Z",
+    "published": "2022-06-27T09:15Z",
+    "aliases": [
+        "CVE-2022-1964"
+    ],
+    "summary": "FIXME",
+    "details": "The Easy SVG Support WordPress plugin before 3.3.0 does not sanitise uploaded SVG files, which could allow users with a role as low as Author to upload a malicious SVG containing XSS payloads",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "easy-svg"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/easy-svg",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.3.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.2.0",
+                "3.1.0",
+                "3.0.0",
+                "2.9.1",
+                "2.9",
+                "2.8",
+                "2.7",
+                "2.6",
+                "2.5.1",
+                "2.5",
+                "2.4.1",
+                "2.4",
+                "2.3.1",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1964"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/easy-svg"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/easy-svg/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

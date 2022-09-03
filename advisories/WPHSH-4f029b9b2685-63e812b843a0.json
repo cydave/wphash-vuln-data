@@ -1,0 +1,79 @@
+{
+    "id": "WPHSH-4f029b9b2685-63e812b843a0",
+    "modified": "2017-12-21T21:18Z",
+    "published": "2017-12-07T00:29Z",
+    "aliases": [
+        "CVE-2017-17451"
+    ],
+    "summary": "FIXME",
+    "details": "The WP Mailster plugin before 1.5.5 for WordPress has XSS in the unsubscribe handler via the mes parameter to view/subscription/unsubscribe2.php.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-mailster"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-mailster",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5.0",
+                "1.4.19",
+                "1.4.18",
+                "1.4.17",
+                "1.4.16",
+                "1.4.15",
+                "1.4.12",
+                "1.4.11",
+                "1.4.10",
+                "1.4.9",
+                "1.4.8",
+                "1.4.7",
+                "1.4.6",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-17451"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-mailster"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-mailster/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

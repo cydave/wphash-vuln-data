@@ -1,0 +1,66 @@
+{
+    "id": "WPHSH-193f28a9ccad-af28ab68740c",
+    "modified": "2017-11-14T14:53Z",
+    "published": "2017-10-23T17:29Z",
+    "aliases": [
+        "CVE-2017-15811"
+    ],
+    "summary": "FIXME",
+    "details": "The Pootle Button plugin before 1.2.0 for WordPress has XSS via the assets_url parameter in assets/dialog.php, exploitable via wp-admin/admin-ajax.php.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "pootle-button"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/pootle-button",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.1",
+                "1.1.0",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-15811"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/pootle-button"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/pootle-button/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/1745805/pootle-button/tags/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

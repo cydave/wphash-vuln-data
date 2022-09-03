@@ -1,0 +1,66 @@
+{
+    "id": "WPHSH-2f47b7611d70-f3882a04b371",
+    "modified": "2019-08-20T15:41Z",
+    "published": "2019-08-14T16:15Z",
+    "aliases": [
+        "CVE-2016-10883"
+    ],
+    "summary": "FIXME",
+    "details": "The simple-add-pages-or-posts plugin before 1.7 for WordPress has CSRF for deleting users.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "simple-add-pages-or-posts"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/simple-add-pages-or-posts",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.6.1",
+                "1.6",
+                "1.5",
+                "1.2.1",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10883"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/simple-add-pages-or-posts"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/simple-add-pages-or-posts/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "id": "WPHSH-823d9982f327-e4722477a3d9",
+    "modified": "2017-08-04T13:42Z",
+    "published": "2017-08-02T16:29Z",
+    "aliases": [
+        "CVE-2017-2285"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting vulnerability in Simple Custom CSS and JS prior to version 3.4 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "custom-css-js"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/custom-css-js",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.10",
+                "2.9",
+                "2.8",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2285"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/custom-css-js"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/custom-css-js/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/1695440/#file6"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "id": "WPHSH-d5ba065c73ee-f30032e66642",
+    "modified": "2021-11-29T17:10Z",
+    "published": "2021-11-24T16:15Z",
+    "aliases": [
+        "CVE-2021-20846"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in Push Notifications for WordPress (Lite) versions prior to 6.0.1 allows a remote attacker to hijack the authentication of an administrator and conduct an arbitrary operation via a specially crafted web page.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "push-notifications-for-wp"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/push-notifications-for-wp",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.0.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "6.0",
+                "5.2",
+                "5.1",
+                "5.0",
+                "4.3",
+                "4.2",
+                "4.1",
+                "4.0",
+                "3.7",
+                "3.6",
+                "3.5",
+                "3.4",
+                "3.3",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.6",
+                "2.5.1",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.7.1",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1.1",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20846"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/push-notifications-for-wp"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/push-notifications-for-wp/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-83c002043515-c168473e2717",
+    "modified": "2017-09-08T01:29Z",
+    "published": "2014-12-31T22:59Z",
+    "aliases": [
+        "CVE-2014-9119"
+    ],
+    "summary": "FIXME",
+    "details": "Directory traversal vulnerability in download.php in the DB Backup plugin 4.5 and earlier for Wordpress allows remote attackers to read arbitrary files via a .. (dot dot) in the file parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "db-backup"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/db-backup",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "5",
+                "4.5",
+                "4.2",
+                "4.1",
+                "4.0",
+                "3.0",
+                "1.0",
+                "2.0",
+                "js"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9119"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/db-backup"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/db-backup/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-22"
+        ]
+    }
+}

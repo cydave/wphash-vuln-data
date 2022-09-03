@@ -1,0 +1,87 @@
+{
+    "id": "WPHSH-3d8949aa8519-952292836c9c",
+    "modified": "2022-04-12T09:14Z",
+    "published": "2022-04-04T16:15Z",
+    "aliases": [
+        "CVE-2022-1165"
+    ],
+    "summary": "FIXME",
+    "details": "The Blackhole for Bad Bots WordPress plugin before 3.3.2 uses headers such as CF-CONNECTING-IP, CLIENT-IP etc to determine the IP address of requests hitting the blackhole URL, which allows them to be spoofed. This could result in blocking arbitrary IP addresses, such as legitimate/good search engine crawlers / bots. This could also be abused by competitors to cause damage related to visibility in search engines, can be used to bypass arbitrary blocks caused by this plugin, block any visitor or even the administrator and even more.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "blackhole-bad-bots"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/blackhole-bad-bots",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.3.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.3.1",
+                "3.3",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.9.1",
+                "2.9",
+                "2.8",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.9.2",
+                "1.9.1",
+                "1.9",
+                "1.8",
+                "1.7.1",
+                "1.7",
+                "1.6",
+                "1.5"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1165"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/blackhole-bad-bots"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/blackhole-bad-bots/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2666486"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-639"
+        ]
+    }
+}

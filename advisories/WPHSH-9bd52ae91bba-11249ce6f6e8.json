@@ -1,0 +1,114 @@
+{
+    "id": "WPHSH-9bd52ae91bba-11249ce6f6e8",
+    "modified": "2022-08-04T18:53Z",
+    "published": "2021-12-13T11:15Z",
+    "aliases": [
+        "CVE-2021-24836"
+    ],
+    "summary": "FIXME",
+    "details": "The Temporary Login Without Password WordPress plugin before 1.7.1 does not have authorisation and CSRF checks when updating its settings, which could allows any logged-in users, such as subscribers to update them",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "temporary-login-without-password"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/temporary-login-without-password",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.7.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.7.0",
+                "1.6.15",
+                "1.6.14",
+                "1.6.13",
+                "1.6.12",
+                "1.6.11",
+                "1.6.10",
+                "1.6.9",
+                "1,6,8",
+                "1.6.7",
+                "1.6.6",
+                "1.6.5",
+                "1.6.4",
+                "1.6.3",
+                "1.6.2",
+                "1.6.1",
+                "1.6.0",
+                "1.5.23",
+                "1.5.22",
+                "1.5.21",
+                "1.5.20",
+                "1.5.19.1",
+                "1.5.19",
+                "1.5.18",
+                "1.5.17",
+                "1.5.16",
+                "1.5.15.2",
+                "1.5.15.1",
+                "1.5.15",
+                "1.5.14",
+                "1.5.13",
+                "1.5.12",
+                "1.5.11",
+                "1.5.10",
+                "1.5.9",
+                "1.5.8",
+                "1.5.7",
+                "1.5.6",
+                "1.5.5",
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24836"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/temporary-login-without-password"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/temporary-login-without-password/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352",
+            "CWE-862"
+        ]
+    }
+}

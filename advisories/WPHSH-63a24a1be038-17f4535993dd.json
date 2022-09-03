@@ -1,0 +1,58 @@
+{
+    "id": "WPHSH-63a24a1be038-17f4535993dd",
+    "modified": "2017-08-29T01:33Z",
+    "published": "2013-10-23T16:54Z",
+    "aliases": [
+        "CVE-2013-6243"
+    ],
+    "summary": "FIXME",
+    "details": "SQL injection vulnerability in the Landing Pages plugin 1.2.3, before 20131009, and earlier for WordPress allows remote attackers to execute arbitrary SQL commands via the \"post\" parameter to index.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "landing-pages"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/landing-pages",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-6243"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/landing-pages"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/landing-pages/"
+        },
+        {
+            "type": "FIX",
+            "url": "http://plugins.trac.wordpress.org/changeset?reponame=&old=785535%40landing-pages&new=785535%40landing-pages"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

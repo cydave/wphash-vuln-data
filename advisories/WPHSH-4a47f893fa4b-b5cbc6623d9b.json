@@ -1,0 +1,68 @@
+{
+    "id": "WPHSH-4a47f893fa4b-b5cbc6623d9b",
+    "modified": "2018-07-02T18:04Z",
+    "published": "2018-06-01T15:29Z",
+    "aliases": [
+        "CVE-2018-11485"
+    ],
+    "summary": "FIXME",
+    "details": "The MULTIDOTS WooCommerce Quick Reports plugin 1.0.6 and earlier for WordPress is vulnerable to Stored XSS. It allows an attacker to inject malicious JavaScript code on the WooCommerce -> Orders admin page. The attack is possible by modifying the \"referral_site\" cookie to have an XSS payload, and placing an order.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "woo-advance-search"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/woo-advance-search",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.2",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11485"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/woo-advance-search"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/woo-advance-search/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "id": "WPHSH-98eba09def6a-ae906992eac2",
+    "modified": "2017-09-08T01:29Z",
+    "published": "2015-01-13T11:59Z",
+    "aliases": [
+        "CVE-2014-100007"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in the HK Exif Tags plugin before 1.12 for WordPress allows remote authenticated users to inject arbitrary web script or HTML via an EXIF tag.  NOTE: some of these details are obtained from third party information.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "hk-exif-tags"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/hk-exif-tags",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.12"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.11",
+                "1.10",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1s",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-100007"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/hk-exif-tags"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/hk-exif-tags/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "id": "WPHSH-91fc273e2e72-cbf7767b0d13",
+    "modified": "2021-09-08T18:52Z",
+    "published": "2021-09-01T15:15Z",
+    "aliases": [
+        "CVE-2021-39320"
+    ],
+    "summary": "FIXME",
+    "details": "The underConstruction plugin <= 1.18 for WordPress echoes out the raw value of `$GLOBALS['PHP_SELF']` in the ucOptions.php file. On certain configurations including Apache+modPHP, this makes it possible to use it to perform a reflected Cross-Site Scripting attack by injecting malicious code in the request path.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "underconstruction"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/underconstruction",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.19"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.18",
+                "1.17",
+                "1.16",
+                "1.15",
+                "1.14",
+                "1.13",
+                "1.12",
+                "1.11",
+                "1.10",
+                "1.09",
+                "1.08",
+                "1.07",
+                "1.06",
+                "1.05",
+                "1.04",
+                "1.03",
+                "1.02",
+                "1.01",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39320"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/underconstruction"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/underconstruction/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

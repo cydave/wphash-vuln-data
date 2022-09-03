@@ -1,0 +1,131 @@
+{
+    "id": "WPHSH-b27bfc852462-503fda253a7e",
+    "modified": "2022-05-26T13:34Z",
+    "published": "2022-05-16T15:15Z",
+    "aliases": [
+        "CVE-2022-0873"
+    ],
+    "summary": "FIXME",
+    "details": "The Gmedia Photo Gallery WordPress plugin before 1.20.0 does not sanitise and escape the Album's name before outputting it in pages/posts with a media embed, which could allow high privilege users such as admin to perform Cross-Site Scripting attacks even when the unfiltered-html capability is disallowed",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "grand-media"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/grand-media",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.20.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.18.0",
+                "1.17.6",
+                "1.16.7",
+                "1.16.6",
+                "1.16.4",
+                "1.14.7",
+                "1.13.4",
+                "1.13.2",
+                "1.12.4",
+                "1.12.1",
+                "1.9.20",
+                "1.9.16",
+                "1.8.94",
+                "1.8.80",
+                "1.8.23",
+                "1.8.14",
+                "1.8.12",
+                "1.8.10",
+                "1.8.08",
+                "1.7.56",
+                "1.7.40",
+                "1.7.30",
+                "1.7.10",
+                "1.7.6",
+                "1.7.4",
+                "1.7.2",
+                "1.7.0",
+                "1.6.9",
+                "1.6.7",
+                "1.6.6",
+                "1.6.1",
+                "1.5.91",
+                "1.5.8",
+                "1.5.7",
+                "1.5.6",
+                "1.5.5",
+                "1.5.4",
+                "1.5.3",
+                "1.4.2",
+                "1.4.1",
+                "1.3.7",
+                "1.3.5",
+                "1.3.4",
+                "1.3.2",
+                "1.2.6",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.1.1",
+                "0.9.23",
+                "0.9.21",
+                "0.9.20",
+                "0.9.14",
+                "0.9.6",
+                "0.9.5",
+                "dev",
+                "0.9.4",
+                "0.9.3",
+                "0.9.2",
+                "0.9.1",
+                "0.9.0",
+                "0.8.6",
+                "0.8.5",
+                "0.8.4",
+                "0.8.3",
+                "0.8.2",
+                "0.8.1",
+                "0.8.0",
+                "0.7.0",
+                "0.6.3",
+                "0.6.2",
+                "0.6.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0873"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/grand-media"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/grand-media/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

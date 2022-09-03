@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-5405ee4b20e4-f3002a69c7ad",
+    "modified": "2022-05-03T17:07Z",
+    "published": "2022-04-25T16:16Z",
+    "aliases": [
+        "CVE-2022-1228"
+    ],
+    "summary": "FIXME",
+    "details": "The Opensea WordPress plugin before 1.0.3 does not sanitize and escape some of its settings, like its \"Referer address\" field, which could allow high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "opensea"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/opensea",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.2",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1228"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/opensea"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/opensea/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

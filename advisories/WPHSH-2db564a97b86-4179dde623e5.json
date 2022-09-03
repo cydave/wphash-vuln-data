@@ -1,0 +1,89 @@
+{
+    "id": "WPHSH-2db564a97b86-4179dde623e5",
+    "modified": "2022-04-18T16:10Z",
+    "published": "2019-08-15T16:15Z",
+    "aliases": [
+        "CVE-2019-14786"
+    ],
+    "summary": "FIXME",
+    "details": "The Rank Math SEO plugin 1.0.27 for WordPress allows non-admin users to reset the settings via the wp-admin/admin-post.php reset-cmb parameter.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "seo-by-rank-math"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/seo-by-rank-math",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.27.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.27",
+                "1.0.26",
+                "1.0.25.1",
+                "1.0.25",
+                "1.0.24.1",
+                "1.0.24",
+                "1.0.23.1",
+                "1.0.23",
+                "1.0.22",
+                "1.0.21",
+                "1.0.20",
+                "1.0.19",
+                "1.0.18",
+                "1.0.17",
+                "1.0.16",
+                "1.0.15",
+                "1.0.14",
+                "1.0.12",
+                "1.0.11",
+                "1.0.10",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14786"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/seo-by-rank-math"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/seo-by-rank-math/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-862"
+        ]
+    }
+}

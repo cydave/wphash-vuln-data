@@ -1,0 +1,76 @@
+{
+    "id": "WPHSH-c2ee72d3bf51-1a7a47d1e6f6",
+    "modified": "2022-01-27T21:56Z",
+    "published": "2022-01-24T08:15Z",
+    "aliases": [
+        "CVE-2021-25083"
+    ],
+    "summary": "FIXME",
+    "details": "The Registrations for the Events Calendar WordPress plugin before 2.7.10 does not escape the qtype parameter before outputting it back in an attribute in the settings page, leading to a Reflected Cross-Site Scripting",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "registrations-for-the-events-calendar"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/registrations-for-the-events-calendar",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.7.10"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.7.9",
+                "2.7.8",
+                "2.7.7",
+                "2.7.6",
+                "2.7.5",
+                "2.7.4",
+                "2.7.3",
+                "2.7.2",
+                "2.7.1",
+                "2.7",
+                "2.6.2",
+                "2.6.1",
+                "2.6"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25083"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/registrations-for-the-events-calendar"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/registrations-for-the-events-calendar/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2648377"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

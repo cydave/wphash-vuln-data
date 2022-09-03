@@ -1,0 +1,88 @@
+{
+    "id": "WPHSH-88594eaf063b-bbc96f261db1",
+    "modified": "2021-10-08T17:59Z",
+    "published": "2021-10-04T12:15Z",
+    "aliases": [
+        "CVE-2021-24676"
+    ],
+    "summary": "FIXME",
+    "details": "The Better Find and Replace WordPress plugin before 1.2.9 does not escape the 's' GET parameter before outputting back in the All Masking Rules page, leading to a Reflected Cross-Site Scripting issue",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "real-time-auto-find-and-replace"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/real-time-auto-find-and-replace",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.9"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.8",
+                "1.2.7",
+                "1.2.6",
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.9",
+                "1.1.8",
+                "1.1.7",
+                "1.1.6",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24676"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/real-time-auto-find-and-replace"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/real-time-auto-find-and-replace/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

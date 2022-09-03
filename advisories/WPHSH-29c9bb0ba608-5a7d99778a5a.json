@@ -1,0 +1,65 @@
+{
+    "id": "WPHSH-29c9bb0ba608-5a7d99778a5a",
+    "modified": "2022-07-18T08:52:23Z",
+    "published": "2022-07-18T08:52:23Z",
+    "aliases": [
+        "CVE-2022-2269"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "website-file-changes-monitor"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/website-file-changes-monitor",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.8.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.8.2",
+                "1.8.1",
+                "1.7.2",
+                "1.7.1",
+                "1.6.2",
+                "1.6.1",
+                "1.6.0",
+                "1.5",
+                "1.4.1",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2269"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/website-file-changes-monitor"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/website-file-changes-monitor/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "id": "WPHSH-d76562faa47d-60718cd572e6",
+    "modified": "2018-10-09T19:55Z",
+    "published": "2015-01-15T15:59Z",
+    "aliases": [
+        "CVE-2014-9570"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple cross-site scripting (XSS) vulnerabilities in the MyWebsiteAdvisor Simple Security plugin 1.1.5 and earlier for WordPress allow remote attackers to inject arbitrary web script or HTML via the (1) datefilter parameter in the access_log page to wp-admin/users.php or (2) simple_security_ip_blacklist[] parameter in an add_blacklist_ip action in the ip_blacklist page to wp-admin/users.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "simple-security"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/simple-security",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9570"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/simple-security"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/simple-security/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

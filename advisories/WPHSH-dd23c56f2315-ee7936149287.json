@@ -1,0 +1,76 @@
+{
+    "id": "WPHSH-dd23c56f2315-ee7936149287",
+    "modified": "2022-04-11T16:16Z",
+    "published": "2022-04-04T16:15Z",
+    "aliases": [
+        "CVE-2022-0403"
+    ],
+    "summary": "FIXME",
+    "details": "The Library File Manager WordPress plugin before 5.2.3 is using an outdated version of the elFinder library, which is know to be affected by security issues (CVE-2021-32682), and does not have any authorisation as well as CSRF checks in its connector AJAX action, allowing any authenticated users, such as subscriber to call it. Furthermore, as the options passed to the elFinder library does not restrict any file type, users with a role as low as subscriber can Create/Upload/Delete Arbitrary files and folders.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "file-manager"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/file-manager",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.2.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "5.2.2",
+                "5.2.1",
+                "5.2.0",
+                "5.1.2",
+                "5.1.1",
+                "5.0.2",
+                "4.1.6",
+                "4.1.3",
+                "4.1.2",
+                "4.1.1",
+                "4.1.0",
+                "4.0.4",
+                "4.0.3",
+                "3.1.0",
+                "3.0.1",
+                "3.0.0",
+                "2.2.4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0403"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/file-manager"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/file-manager/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-434"
+        ]
+    }
+}

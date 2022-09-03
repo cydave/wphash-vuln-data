@@ -1,0 +1,86 @@
+{
+    "id": "WPHSH-69fee2db454f-ac89d5a71e2d",
+    "modified": "2022-02-10T20:26Z",
+    "published": "2022-02-07T16:16Z",
+    "aliases": [
+        "CVE-2022-0149"
+    ],
+    "summary": "FIXME",
+    "details": "The WooCommerce Stored Exporter WordPress plugin before 2.7.1 was affected by a Reflected Cross-Site Scripting (XSS) vulnerability in the woo_ce admin page.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "woocommerce-exporter"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/woocommerce-exporter",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.7.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3.1",
+                "2.3",
+                "2.2.1",
+                "2.2",
+                "2.1",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0",
+                "1.9.6",
+                "1.9.5",
+                "1.9.4",
+                "1.9.2",
+                "1.8.4",
+                "1.9.1.1",
+                "1.8.2",
+                "1.8.8",
+                "1.8.1",
+                "1.9"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0149"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/woocommerce-exporter"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/woocommerce-exporter/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2654545/woocommerce-exporter"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

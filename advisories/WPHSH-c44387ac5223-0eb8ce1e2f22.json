@@ -1,0 +1,66 @@
+{
+    "id": "WPHSH-c44387ac5223-0eb8ce1e2f22",
+    "modified": "2019-09-26T18:23Z",
+    "published": "2019-09-26T01:15Z",
+    "aliases": [
+        "CVE-2015-9429"
+    ],
+    "summary": "FIXME",
+    "details": "The yith-maintenance-mode plugin before 1.2.0 for WordPress has CSRF with resultant XSS via the wp-admin/themes.php?page=yith-maintenance-mode panel_page parameter.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "yith-maintenance-mode"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/yith-maintenance-mode",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9429"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/yith-maintenance-mode"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/yith-maintenance-mode/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

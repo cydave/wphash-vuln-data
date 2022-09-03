@@ -1,0 +1,72 @@
+{
+    "id": "WPHSH-65f4556d229d-68a08f8b3dcc",
+    "modified": "2022-07-30T12:14Z",
+    "published": "2022-02-01T13:15Z",
+    "aliases": [
+        "CVE-2021-24761"
+    ],
+    "summary": "FIXME",
+    "details": "The Error Log Viewer WordPress plugin before 1.1.2 does not perform nonce check when deleting a log file and does not have path traversal prevention, which could allow attackers to make a logged in admin delete arbitrary text files on the web server.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "error-log-viewer"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/error-log-viewer",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.1",
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24761"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/error-log-viewer"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/error-log-viewer/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352",
+            "CWE-22"
+        ]
+    }
+}

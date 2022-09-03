@@ -1,0 +1,74 @@
+{
+    "id": "WPHSH-f2e07bc22786-80ac638e5d1c",
+    "modified": "2019-10-02T19:23Z",
+    "published": "2019-09-26T01:15Z",
+    "aliases": [
+        "CVE-2015-9420"
+    ],
+    "summary": "FIXME",
+    "details": "The soundcloud-is-gold plugin before 2.3.2 for WordPress has XSS via the wp-admin/admin-ajax.php?action=get_soundcloud_player id parameter.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "soundcloud-is-gold"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/soundcloud-is-gold",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.3.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.3.1",
+                "2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3.2",
+                "1.0.3.1",
+                "1.0.2",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9420"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/soundcloud-is-gold"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/soundcloud-is-gold/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

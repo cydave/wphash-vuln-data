@@ -1,0 +1,55 @@
+{
+    "id": "WPHSH-1052fc1ecfe0-06e7dcc976c3",
+    "modified": "2017-08-29T01:33Z",
+    "published": "2013-09-10T19:55Z",
+    "aliases": [
+        "CVE-2013-5672"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple cross-site request forgery (CSRF) vulnerabilities in the IndiaNIC Testimonial plugin 2.2 for WordPress allow remote attackers to hijack the authentication of administrators for requests that (1) add a testimonial via an iNIC_testimonial_save action; (2) add a listing template via an iNIC_testimonial_save_listing_template action; (3) add a widget template via an iNIC_testimonial_save_widget action; insert cross-site scripting (XSS) sequences via the (4) project_name, (5) project_url, (6) client_name, (7) client_city, (8) client_state, (9) description, (10) tags, (11) video_url, or (12) is_featured, (13) title, (14) widget_title, (15) no_of_testimonials, (16) filter_by_country, (17) filter_by_tags, or (18) widget_template parameter to wp-admin/admin-ajax.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "indianic-testimonial"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/indianic-testimonial",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.1",
+                "2.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5672"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/indianic-testimonial"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/indianic-testimonial/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "id": "WPHSH-df4c7ff449d4-981cb84ed1ff",
+    "modified": "2019-07-31T12:52Z",
+    "published": "2017-09-14T13:29Z",
+    "aliases": [
+        "CVE-2017-1002026"
+    ],
+    "summary": "FIXME",
+    "details": "Vulnerability in wordpress plugin Event Expresso Free v3.1.37.11.L, The function edit_event_category does not sanitize user-supplied input via the $id parameter before passing it into an SQL statement.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "event-espresso-free"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/event-espresso-free",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.1.37.12.L"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.1.37.11.L",
+                "3.1.37.6.1.L",
+                "3.1.37.6.L",
+                "3.1.37.5.L",
+                "3.1.37.L",
+                "3.1.36.5.L",
+                "3.1.36.4.L",
+                "3.1.35.L",
+                "3.1.34.1.L",
+                "3.1.33.L",
+                "3.1.31.3.3.L",
+                "3.1.31.3.2.L",
+                "3.1.31.3.1.L",
+                "3.1.30.7L",
+                "3.1.29.1.L",
+                "3.1.28.4.L",
+                "3.1.25.L",
+                "3.1.20.L",
+                "3.1.18.L",
+                "3.1.15.L",
+                "3.1.14.L",
+                "3.1.13.L",
+                "3.1.12.L",
+                "3.0.19.48.L",
+                "3.0.19.L.47"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1002026"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/event-espresso-free"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/event-espresso-free/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "id": "WPHSH-00870cf266e6-c561b7c2ee30",
+    "modified": "2019-08-26T13:46Z",
+    "published": "2019-08-22T13:15Z",
+    "aliases": [
+        "CVE-2015-9335"
+    ],
+    "summary": "FIXME",
+    "details": "The limit-attempts plugin before 1.1.1 for WordPress has SQL injection during IP address handling.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "limit-attempts"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/limit-attempts",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9335"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/limit-attempts"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/limit-attempts/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

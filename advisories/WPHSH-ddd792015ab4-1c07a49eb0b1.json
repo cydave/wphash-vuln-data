@@ -1,0 +1,71 @@
+{
+    "id": "WPHSH-ddd792015ab4-1c07a49eb0b1",
+    "modified": "2022-05-09T15:01Z",
+    "published": "2022-05-02T16:15Z",
+    "aliases": [
+        "CVE-2022-0773"
+    ],
+    "summary": "FIXME",
+    "details": "The Documentor WordPress plugin through 1.5.3 fails to sanitize and escape user input before it is being interpolated in an SQL statement and then executed, leading to an SQL Injection exploitable by unauthenticated users.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "documentor-lite"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/documentor-lite",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5",
+                "1.3.1",
+                "1.3",
+                "1.2.1",
+                "1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0773"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/documentor-lite"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/documentor-lite/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "id": "WPHSH-5152790e278e-0261fae5ca61",
+    "modified": "2019-05-13T16:31Z",
+    "published": "2019-05-13T14:29Z",
+    "aliases": [
+        "CVE-2018-18872"
+    ],
+    "summary": "FIXME",
+    "details": "The Kieran O'Shea Calendar plugin before 1.3.11 for WordPress has Stored XSS via the event_title parameter in a wp-admin/admin.php?page=calendar add action, or the category name during category creation at the wp-admin/admin.php?page=calendar-categories URI.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "calendar"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/calendar",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.3.11"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.3.10",
+                "1.3.9",
+                "1.3.8",
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.1.1",
+                "1.1",
+                "1.0",
+                "1.2",
+                "1.1.2",
+                "wp_calendar_v1.1.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-18872"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/calendar"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/calendar/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

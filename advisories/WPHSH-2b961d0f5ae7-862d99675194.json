@@ -1,0 +1,74 @@
+{
+    "id": "WPHSH-2b961d0f5ae7-862d99675194",
+    "modified": "2017-08-29T01:31Z",
+    "published": "2012-02-07T21:55Z",
+    "aliases": [
+        "CVE-2012-1010"
+    ],
+    "summary": "FIXME",
+    "details": "Unrestricted file upload vulnerability in actions.php in the AllWebMenus plugin before 1.1.8 for WordPress allows remote attackers to execute arbitrary PHP code by uploading a ZIP file containing a PHP file, then accessing it via a direct request to the file in an unspecified directory.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "allwebmenus-wordpress-menu-plugin"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/allwebmenus-wordpress-menu-plugin",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.9"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.8",
+                "1.1.7",
+                "1.1.6",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.0.25",
+                "1.0.24",
+                "1.0.23",
+                "1.0.22",
+                "1.0.21",
+                "1.0.20",
+                "1.0.19",
+                "1.0.18",
+                "1.0.17",
+                "1.0.9",
+                "1.0.8",
+                "1.0.4",
+                "1.0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-1010"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/allwebmenus-wordpress-menu-plugin"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/allwebmenus-wordpress-menu-plugin/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-20"
+        ]
+    }
+}

@@ -1,0 +1,153 @@
+{
+    "id": "WPHSH-4093ba8035cc-addaff619914",
+    "modified": "2021-08-09T14:38Z",
+    "published": "2021-07-07T13:15Z",
+    "aliases": [
+        "CVE-2021-34623"
+    ],
+    "summary": "FIXME",
+    "details": "A vulnerability in the image uploader component found in the ~/src/Classes/ImageUploader.php file of the ProfilePress WordPress plugin made it possible for users to upload arbitrary files during user registration or during profile updates. This issue affects versions 3.0.0 - 3.1.3. .",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-user-avatar"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-user-avatar",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.1.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.1.3",
+                "3.1.2",
+                "3.1.1",
+                "3.1",
+                "3.0",
+                "2.2.16",
+                "2.2.15",
+                "2.2.14",
+                "2.2.13",
+                "2.2.12",
+                "2.2.11",
+                "2.2.10",
+                "2.2.9",
+                "2.2.8",
+                "2.2.7",
+                "2.2.6",
+                "2.2.5",
+                "2.1.9",
+                "2.2.2",
+                "1.9.13",
+                "1.9.12",
+                "1.9.11",
+                "1.9.10",
+                "1.9.9",
+                "1.9.8",
+                "1.9.7",
+                "1.9.6",
+                "1.9.5",
+                "1.9.4",
+                "1.9.3",
+                "1.9.2",
+                "1.9.1",
+                "1.9",
+                "1.8.10",
+                "1.8.9",
+                "1.8.8",
+                "1.8.7",
+                "1.8.6",
+                "1.8.5",
+                "1.8.4",
+                "1.8.3",
+                "1.8.2",
+                "1.8.1",
+                "1.8",
+                "1.7.2",
+                "1.7.1",
+                "1.7",
+                "1.6.8",
+                "1.6.7",
+                "1.6.6",
+                "1.6.5",
+                "1.6.4",
+                "1.6.3",
+                "1.6.2",
+                "1.6.1",
+                "1.6",
+                "1.5.8",
+                "1.5.7",
+                "1.5.6",
+                "1.5.5",
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3",
+                "1.2.6",
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1.7",
+                "1.1.6",
+                "1.1.5a",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.2",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34623"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-user-avatar"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-user-avatar/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-434"
+        ]
+    }
+}

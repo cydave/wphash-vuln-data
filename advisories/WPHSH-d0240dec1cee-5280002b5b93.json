@@ -1,0 +1,57 @@
+{
+    "id": "WPHSH-d0240dec1cee-5280002b5b93",
+    "modified": "2018-10-16T16:44Z",
+    "published": "2007-05-03T17:19Z",
+    "aliases": [
+        "CVE-2007-2483"
+    ],
+    "summary": "FIXME",
+    "details": "Directory traversal vulnerability in js/wptable-button.php in the wp-Table 1.43 and earlier plugin for WordPress, when register_globals is enabled, allows remote attackers to include and execute arbitrary local files via the wpPATH parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-table"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-table",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.45"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.43",
+                "version_1.35",
+                "version_1.30",
+                "version_1.20",
+                "version_1.10",
+                "version_1.01"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2483"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-table"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-table/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

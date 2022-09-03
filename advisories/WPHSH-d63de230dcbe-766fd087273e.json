@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-d63de230dcbe-766fd087273e",
+    "modified": "2022-07-29T10:15Z",
+    "published": "2021-09-13T18:15Z",
+    "aliases": [
+        "CVE-2021-24586"
+    ],
+    "summary": "FIXME",
+    "details": "The Per page add to head WordPress plugin before 1.4.4 is lacking any CSRF check when saving its settings, which could allow attackers to make a logged in admin change them. Furthermore, as the plugin allows arbitrary HTML to be inserted in one of the setting (feature mentioned by the plugin), this could lead to Stored XSS issue which will be triggered either in the backend, frontend or both depending on the payload used.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "per-page-add-to"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/per-page-add-to",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3",
+                "1.2.1",
+                "1.2",
+                "1.1.2",
+                "1.1.1",
+                "1.1",
+                "1.0",
+                "0.3",
+                "0.2-beta"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24586"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/per-page-add-to"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/per-page-add-to/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79",
+            "CWE-352"
+        ]
+    }
+}

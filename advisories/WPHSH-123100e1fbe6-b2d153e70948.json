@@ -1,0 +1,97 @@
+{
+    "id": "WPHSH-123100e1fbe6-b2d153e70948",
+    "modified": "2019-08-21T15:07Z",
+    "published": "2019-08-16T21:15Z",
+    "aliases": [
+        "CVE-2018-20973"
+    ],
+    "summary": "FIXME",
+    "details": "The companion-auto-update plugin before 3.2.1 for WordPress has local file inclusion.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "companion-auto-update"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/companion-auto-update",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.2.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.2.0",
+                "3.1.5",
+                "3.1.4",
+                "3.1.3",
+                "3.1.2",
+                "3.1.1",
+                "3.1.0",
+                "3.0.9",
+                "3.0.8",
+                "3.0.7",
+                "3.0.6",
+                "3.0.5",
+                "3.0.4",
+                "3.0.3",
+                "3.0.2",
+                "3.0.1",
+                "3.0",
+                "2.9.6",
+                "2.9.5",
+                "2.9.4",
+                "2.9.3",
+                "2.9.2",
+                "2.9.1",
+                "2.9",
+                "2.8.1",
+                "2.8",
+                "2.7.7",
+                "2.7.5",
+                "2.7.4",
+                "2.7.3",
+                "2.7.2",
+                "2.7.0",
+                "2.5.0",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20973"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/companion-auto-update"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/companion-auto-update/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-20"
+        ]
+    }
+}

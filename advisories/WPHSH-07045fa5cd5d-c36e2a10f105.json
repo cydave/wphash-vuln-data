@@ -1,0 +1,70 @@
+{
+    "id": "WPHSH-07045fa5cd5d-c36e2a10f105",
+    "modified": "2017-09-08T01:29Z",
+    "published": "2015-01-02T19:59Z",
+    "aliases": [
+        "CVE-2014-9437"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple cross-site request forgery (CSRF) vulnerabilities in the Sliding Social Icons plugin 1.61 for WordPress allow remote attackers to hijack the authentication of administrators for requests that (1) change plugin settings via unspecified vectors or (2) conduct cross-site scripting (XSS) attacks via the sc_social_slider_margin parameter in a wpbs_save_settings action in the wpbs_panel page to wp-admin/admin.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "sliding-social-icons"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/sliding-social-icons",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.62"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.61",
+                "1.6",
+                "1.55",
+                "1.54",
+                "1.53",
+                "1.52",
+                "1.51",
+                "1.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9437"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/sliding-social-icons"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/sliding-social-icons/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

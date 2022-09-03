@@ -1,0 +1,65 @@
+{
+    "id": "WPHSH-8355869ec7d7-dd3455ed5b53",
+    "modified": "2022-03-07T18:30Z",
+    "published": "2022-02-28T09:15Z",
+    "aliases": [
+        "CVE-2021-24689"
+    ],
+    "summary": "FIXME",
+    "details": "The Contact Forms - Drag & Drop Contact Form Builder WordPress plugin through 1.0.5 allows high privilege users to download arbitrary files from the web server via a path traversal attack",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "lastform"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/lastform",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24689"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/lastform"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/lastform/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-22"
+        ]
+    }
+}

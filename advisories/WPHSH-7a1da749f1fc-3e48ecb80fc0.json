@@ -1,0 +1,63 @@
+{
+    "id": "WPHSH-7a1da749f1fc-3e48ecb80fc0",
+    "modified": "2022-07-14T08:00:41Z",
+    "published": "2022-07-14T08:00:41Z",
+    "aliases": [
+        "CVE-2022-2398"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-comment-fields"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-comment-fields",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.0",
+                "2.3",
+                "2.2",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2398"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-comment-fields"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-comment-fields/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

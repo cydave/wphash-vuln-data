@@ -1,0 +1,61 @@
+{
+    "id": "WPHSH-175caa057b58-f56e9fb25c2a",
+    "modified": "2022-02-04T15:46Z",
+    "published": "2022-01-24T08:15Z",
+    "aliases": [
+        "CVE-2021-24733"
+    ],
+    "summary": "FIXME",
+    "details": "The WP Post Page Clone WordPress plugin before 1.2 allows users with a role as low as Contributor to clone and view other users' draft and password-protected posts which they cannot view normally.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-post-page-clone"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-post-page-clone",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24733"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-post-page-clone"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-post-page-clone/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-863"
+        ]
+    }
+}

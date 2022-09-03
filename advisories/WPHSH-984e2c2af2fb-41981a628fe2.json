@@ -1,0 +1,134 @@
+{
+    "id": "WPHSH-984e2c2af2fb-41981a628fe2",
+    "modified": "2022-01-28T03:37Z",
+    "published": "2022-01-24T08:15Z",
+    "aliases": [
+        "CVE-2021-25013"
+    ],
+    "summary": "FIXME",
+    "details": "The Qubely WordPress plugin before 1.7.8 does not have authorisation and CSRF check on the qubely_delete_saved_block AJAX action, and does not ensure that the block to be deleted belong to the plugin, as a result, any authenticated users, such as subscriber can delete arbitrary posts",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "qubely"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/qubely",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.7.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.7.7",
+                "1.7.6",
+                "1.7.5",
+                "1.7.4",
+                "1.7.3",
+                "1.7.2",
+                "1.7.1",
+                "1.7.0",
+                "1.6.9",
+                "1.6.8",
+                "1.6.7",
+                "1.6.6",
+                "1.6.5",
+                "1.6.4",
+                "1.6.3",
+                "1.6.2",
+                "1.6.1",
+                "1.6.0",
+                "1.5.5",
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5.0",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.91",
+                "1.3.9",
+                "1.3.8",
+                "1.1.7",
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.2",
+                "1.3.3",
+                "1.3.1",
+                "1.3.0",
+                "1.2.9",
+                "1.2.8",
+                "1.2.7",
+                "1.2.6",
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.6",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0",
+                "1.0.0-RC-2",
+                "1.0.0-RC-1",
+                "1.0.0-beta-3",
+                "1.0.0-beta-2",
+                "1.0.0-beta",
+                "1.0.0-alpha-4",
+                "1.0.0-alpha-3",
+                "1.0.0-alpha-2",
+                "1.0.0-alpha"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25013"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/qubely"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/qubely/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-862"
+        ]
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "id": "WPHSH-61b3ee7d7e32-b24f4cf61b44",
+    "modified": "2022-02-04T17:30Z",
+    "published": "2022-02-01T13:15Z",
+    "aliases": [
+        "CVE-2021-24686"
+    ],
+    "summary": "FIXME",
+    "details": "The SVG Support WordPress plugin before 2.3.20 does not escape the \"CSS Class to target\" setting before outputting it in an attribute, which could allow high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "svg-support"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/svg-support",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.3.20"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.3.19",
+                "2.3.18",
+                "2.3.17",
+                "2.3.16",
+                "2.3.15",
+                "2.3.14",
+                "2.3.13",
+                "2.3.12",
+                "2.3.11",
+                "2.3.10",
+                "2.3.9",
+                "2.3.8",
+                "2.3.7",
+                "2.3.6",
+                "2.3.5",
+                "2.3.4",
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.3",
+                "2.2.5",
+                "2.2.4",
+                "2.2.3.2",
+                "2.2.3.1",
+                "2.2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.2",
+                "2.1.7",
+                "2.1.6",
+                "2.1.5",
+                "2.1.4",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1",
+                "2.0",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24686"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/svg-support"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/svg-support/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2651929"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "id": "WPHSH-f9fa187de109-34ed572cc574",
+    "modified": "2022-03-28T18:41Z",
+    "published": "2022-03-21T19:15Z",
+    "aliases": [
+        "CVE-2021-25019"
+    ],
+    "summary": "FIXME",
+    "details": "The SEO Plugin by Squirrly SEO WordPress plugin before 11.1.12 does not escape the type parameter before outputting it back in an attribute in an admin page, leading to a Reflected Cross-Site Scripting",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "squirrly-seo"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/squirrly-seo",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "11.1.12"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "11.1.11",
+                "11.1.10",
+                "11.1.09",
+                "11.1.08",
+                "11.1.07",
+                "11.1.06",
+                "11.1.05",
+                "11.1.04",
+                "11.1.03",
+                "11.1.02",
+                "11.1.01",
+                "11.1.00",
+                "11.0.04",
+                "11.0.03",
+                "11.0.02",
+                "11.0.01",
+                "10.2.05",
+                "10.2.03",
+                "10.2.02",
+                "10.2.01",
+                "10.2.00",
+                "10.1.07",
+                "10.1.06",
+                "10.1.03",
+                "10.0.11",
+                "10.0.10",
+                "10.0.06",
+                "10.0.04",
+                "9.2.21",
+                "9.2.18",
+                "9.2.16",
+                "9.2.14",
+                "9.2.12",
+                "9.2.10",
+                "9.2.11",
+                "9.2.00",
+                "9.1.19",
+                "9.1.10",
+                "8.4.07",
+                "8.3.12",
+                "8.3.11",
+                "8.3.10",
+                "8.3.08",
+                "8.2.26",
+                "8.2.23",
+                "8.0.5",
+                "8.0.2",
+                "8.0.1",
+                "6.3.1",
+                "6.3.0",
+                "6.2.6",
+                "6.1.0",
+                "5.2.8",
+                "5.1.2",
+                "5.1.1",
+                "5.0.1",
+                "5.0.0",
+                "3.5.0",
+                "3.4.4",
+                "3.0.2",
+                "3.1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25019"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/squirrly-seo"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/squirrly-seo/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

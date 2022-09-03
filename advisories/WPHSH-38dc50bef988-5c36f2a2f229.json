@@ -1,0 +1,68 @@
+{
+    "id": "WPHSH-38dc50bef988-5c36f2a2f229",
+    "modified": "2022-05-26T12:36Z",
+    "published": "2022-05-18T17:15Z",
+    "aliases": [
+        "CVE-2022-29445"
+    ],
+    "summary": "FIXME",
+    "details": "Authenticated (administrator or higher role) Local File Inclusion (LFI) vulnerability in Wow-Company's Popup Box plugin <= 2.1.2 at WordPress.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "popup-box"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/popup-box",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.1.2",
+                "2.1.1",
+                "2.1",
+                "2.0",
+                "1.1.2",
+                "1.1.1",
+                "1.0.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29445"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/popup-box"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/popup-box/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-706"
+        ]
+    }
+}

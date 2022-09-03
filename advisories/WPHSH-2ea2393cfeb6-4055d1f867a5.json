@@ -1,0 +1,55 @@
+{
+    "id": "WPHSH-2ea2393cfeb6-4055d1f867a5",
+    "modified": "2017-09-08T01:29Z",
+    "published": "2014-12-31T21:59Z",
+    "aliases": [
+        "CVE-2014-9393"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple cross-site request forgery (CSRF) vulnerabilities in the Post to Twitter plugin 0.7 and earlier for WordPress allow remote attackers to hijack the authentication of administrators for requests that conduct cross-site scripting (XSS) attacks via the (1) idptt_twitter_username or (2) idptt_tweet_prefix parameter to wp-admin/options-general.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "post-to-twitter"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/post-to-twitter",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.7",
+                "0.6"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9393"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/post-to-twitter"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/post-to-twitter/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

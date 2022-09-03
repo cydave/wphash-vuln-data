@@ -1,0 +1,86 @@
+{
+    "id": "WPHSH-3b47373ba169-cd4518f205f3",
+    "modified": "2017-08-29T01:33Z",
+    "published": "2014-06-02T15:55Z",
+    "aliases": [
+        "CVE-2013-2710"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in the Contextual Related Posts plugin before 1.8.7 for WordPress allows remote attackers to hijack the authentication of administrators for requests that conduct cross-site scripting (XSS) attacks via unspecified vectors.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "contextual-related-posts"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/contextual-related-posts",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.8.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.8.6",
+                "1.8.5",
+                "1.8.4",
+                "1.8.3",
+                "1.8.2",
+                "1.8.1",
+                "1.8",
+                "1.7.4",
+                "1.7.3",
+                "1.7.2",
+                "1.7.1",
+                "1.7",
+                "1.6.5",
+                "1.6.4",
+                "1.6.3",
+                "1.6.2",
+                "1.6.1",
+                "1.6",
+                "1.5.2",
+                "1.5.1",
+                "1.5",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3.1",
+                "1.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2710"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/contextual-related-posts"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/contextual-related-posts/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

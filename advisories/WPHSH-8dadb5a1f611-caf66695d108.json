@@ -1,0 +1,123 @@
+{
+    "id": "WPHSH-8dadb5a1f611-caf66695d108",
+    "modified": "2021-11-02T17:18Z",
+    "published": "2021-11-01T09:15Z",
+    "aliases": [
+        "CVE-2021-24781"
+    ],
+    "summary": "FIXME",
+    "details": "The Image Source Control WordPress plugin before 2.3.1 allows users with a role as low as Contributor to change arbitrary post meta fields of arbitrary posts (even those they should not be able to edit)",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "image-source-control-isc"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/image-source-control-isc",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.3.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.3.0",
+                "2.2.1",
+                "2.2.0",
+                "2.1.1",
+                "2.1.0",
+                "2.0.0",
+                "1.10.5",
+                "1.10.4",
+                "1.10.3",
+                "1.10.2",
+                "1.10.1",
+                "1.10",
+                "1.9.7",
+                "1.9.6",
+                "1.9.5",
+                "1.9.4",
+                "1.9.3",
+                "1.9.2",
+                "1.9.1",
+                "1.9",
+                "1.8.11.2",
+                "1.8.11.1",
+                "1.8.11",
+                "1.8.10.1",
+                "1.8.10",
+                "1.8.9",
+                "1.8.8",
+                "1.8.7",
+                "1.8.6",
+                "1.8.5",
+                "1.8.4",
+                "1.8.3",
+                "1.8.2",
+                "1.8.1",
+                "1.8",
+                "1.7.3",
+                "1.7.2",
+                "1.7.1",
+                "1.6.1",
+                "1.6",
+                "1.5",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4.1",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.0.3",
+                "1.2.0.2",
+                "1.2.0.1",
+                "1.2",
+                "1.1.3",
+                "1.1.2.1",
+                "1.1.2",
+                "1.1.1",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24781"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/image-source-control-isc"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/image-source-control-isc/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2606615/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

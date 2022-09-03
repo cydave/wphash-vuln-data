@@ -1,0 +1,71 @@
+{
+    "id": "WPHSH-a09698f16865-c7e36a874dd5",
+    "modified": "2021-09-23T15:22Z",
+    "published": "2021-09-13T18:15Z",
+    "aliases": [
+        "CVE-2021-24725"
+    ],
+    "summary": "FIXME",
+    "details": "The Comment Link Remove and Other Comment Tools WordPress plugin before 2.1.6 does not have CSRF check in its 'Delete comments easily', which could allow attackers to make logged in admin delete arbitrary comments",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "comment-link-remove"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/comment-link-remove",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.1.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.1.4",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1.0",
+                "2.0.0",
+                "1.9.0",
+                "1.8.0",
+                "1.7.0",
+                "1.6.1",
+                "1.6",
+                "1.5"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24725"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/comment-link-remove"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/comment-link-remove/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

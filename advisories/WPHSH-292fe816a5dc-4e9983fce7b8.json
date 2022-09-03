@@ -1,0 +1,56 @@
+{
+    "id": "WPHSH-292fe816a5dc-4e9983fce7b8",
+    "modified": "2022-07-05T20:50:34Z",
+    "published": "2022-07-05T00:00:00Z",
+    "aliases": [
+        "CVE-2022-2181"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "advanced-wp-reset"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/advanced-wp-reset",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5",
+                "1.1.1",
+                "1.1.0",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2181"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/advanced-wp-reset"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/advanced-wp-reset/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

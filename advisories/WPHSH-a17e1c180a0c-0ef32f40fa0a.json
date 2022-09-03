@@ -1,0 +1,116 @@
+{
+    "id": "WPHSH-a17e1c180a0c-0ef32f40fa0a",
+    "modified": "2014-07-11T00:42Z",
+    "published": "2014-07-10T16:55Z",
+    "aliases": [
+        "CVE-2014-4855"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in the Polylang plugin before 1.5.2 for WordPress allows remote attackers to inject arbitrary web script or HTML via vectors related to a user description.  NOTE: some of these details are obtained from third party information.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "polylang"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/polylang",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5.1",
+                "1.5",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3.1",
+                "1.3",
+                "beta",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1.6",
+                "1.2beta",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0",
+                "0.9.8",
+                "0.9.6",
+                "0.9.5",
+                "0.9.4",
+                "0.9.3",
+                "0.9.2",
+                "0.9.1",
+                "0.9",
+                "0.8.10",
+                "0.8.9",
+                "0.8.8",
+                "0.8.7",
+                "0.8.6",
+                "0.8.4",
+                "0.8.3",
+                "0.8.2",
+                "0.8.1",
+                "0.8",
+                "0.7.2",
+                "0.7.1",
+                "0.7",
+                "0.6.1",
+                "0.6",
+                "0.5.1",
+                "0.5",
+                "0.4.4",
+                "0.4.3",
+                "0.4.2",
+                "0.4.1",
+                "0.4",
+                "0.3.2",
+                "0.3.1",
+                "0.3",
+                "0.2",
+                "0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4855"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/polylang"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/polylang/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

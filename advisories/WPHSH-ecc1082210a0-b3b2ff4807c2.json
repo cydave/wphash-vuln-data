@@ -1,0 +1,63 @@
+{
+    "id": "WPHSH-ecc1082210a0-b3b2ff4807c2",
+    "modified": "2018-10-09T19:58Z",
+    "published": "2015-12-17T19:59Z",
+    "aliases": [
+        "CVE-2015-7527"
+    ],
+    "summary": "FIXME",
+    "details": "lib/core.php in the Cool Video Gallery plugin 1.9 for WordPress allows remote attackers to execute arbitrary code via shell metacharacters in the \"Width of preview image\" and possibly other input fields in the \"Video Gallery Settings\" page.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "cool-video-gallery"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/cool-video-gallery",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7527"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/cool-video-gallery"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/cool-video-gallery/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-20"
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "id": "WPHSH-40466ebc384b-afc564ff963f",
+    "modified": "2013-11-19T19:27Z",
+    "published": "2013-11-19T04:50Z",
+    "aliases": [
+        "CVE-2013-6797"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in bluewrench-video-widget.php in the Blue Wrench Video Widget plugin before 2.0.0 for WordPress allows remote attackers to hijack the authentication of administrators for requests that embed arbitrary URLs via the bw_url parameter in the bw-videos page to wp-admin/admin.php, as demonstrated by embedding a URL to a JavaScript file.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "blue-wrench-videos-widget"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/blue-wrench-videos-widget",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.0.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "tags",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-6797"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/blue-wrench-videos-widget"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/blue-wrench-videos-widget/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

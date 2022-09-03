@@ -1,0 +1,71 @@
+{
+    "id": "WPHSH-89f4910eedbe-12b8c585a341",
+    "modified": "2015-06-18T15:24Z",
+    "published": "2015-06-17T18:59Z",
+    "aliases": [
+        "CVE-2015-4338"
+    ],
+    "summary": "FIXME",
+    "details": "Static code injection vulnerability in the XCloner plugin 3.1.2 for WordPress allows remote authenticated users to inject arbitrary PHP code into the language files via a Translation LM_FRONT_* field for a language, as demonstrated by language/italian.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "xcloner-backup-and-restore"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/xcloner-backup-and-restore",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.1.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.1.2",
+                "3.1.1",
+                "3.1.0",
+                "3.0.9",
+                "3.0.8",
+                "3.0.7",
+                "3.0.6",
+                "3.0.5",
+                "3.0.4",
+                "3.0.3",
+                "3.0.2",
+                "3.0.1",
+                "3.0",
+                "2.2.1",
+                "2.1.2",
+                "2.2",
+                "2.1.1",
+                "2.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4338"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/xcloner-backup-and-restore"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/xcloner-backup-and-restore/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-94"
+        ]
+    }
+}

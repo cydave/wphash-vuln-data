@@ -1,0 +1,66 @@
+{
+    "id": "WPHSH-edbeec0e0ed0-962541a69342",
+    "modified": "2019-08-29T12:57Z",
+    "published": "2019-08-22T20:15Z",
+    "aliases": [
+        "CVE-2017-18579"
+    ],
+    "summary": "FIXME",
+    "details": "The corner-ad plugin before 1.0.8 for WordPress has XSS.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "corner-ad"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/corner-ad",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18579"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/corner-ad"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/corner-ad/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

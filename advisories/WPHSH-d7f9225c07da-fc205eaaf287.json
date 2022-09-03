@@ -1,0 +1,79 @@
+{
+    "id": "WPHSH-d7f9225c07da-fc205eaaf287",
+    "modified": "2022-06-24T03:47Z",
+    "published": "2022-06-15T20:15Z",
+    "aliases": [
+        "CVE-2021-36891"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-Site Request Forgery (CSRF) vulnerability in Photo Gallery by Supsystic plugin <= 1.15.5 at WordPress allows changing the plugin settings.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "gallery-by-supsystic"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/gallery-by-supsystic",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.15.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.15.4",
+                "1.15.3",
+                "1.15.2",
+                "1.15.1",
+                "1.14.10",
+                "1.14.9",
+                "1.14.8",
+                "1.13.9",
+                "1.13.7",
+                "1.13.4",
+                "1.13.5",
+                "1.13.2",
+                "1.13.1",
+                "1.12.9",
+                "1.12.4",
+                "1.12.3",
+                "1.12.2",
+                "1.12.1",
+                "1.11.3",
+                "1.10.15"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36891"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/gallery-by-supsystic"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/gallery-by-supsystic/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

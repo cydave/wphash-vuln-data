@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-551d0462102f-115e41cc7d14",
+    "modified": "2018-06-29T18:55Z",
+    "published": "2018-05-31T20:29Z",
+    "aliases": [
+        "CVE-2018-11633"
+    ],
+    "summary": "FIXME",
+    "details": "An issue was discovered in the MULTIDOTS Woo Checkout for Digital Goods plugin 2.1 for WordPress. If an admin user can be tricked into visiting a crafted URL created by an attacker (via spear phishing/social engineering), the attacker can change the plugin settings. The function woo_checkout_settings_page in the file class-woo-checkout-for-digital-goods-admin.php doesn't do any check against wp-admin/admin-post.php Cross-site request forgery (CSRF) and user capabilities.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "woo-checkout-for-digital-goods"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/woo-checkout-for-digital-goods",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.1",
+                "2.0",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11633"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/woo-checkout-for-digital-goods"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/woo-checkout-for-digital-goods/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "id": "WPHSH-5737b1a0447f-0dd818aac79b",
+    "modified": "2014-05-09T17:29Z",
+    "published": "2014-05-08T14:29Z",
+    "aliases": [
+        "CVE-2014-3123"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in admin/manage-images.php in the NextCellent Gallery plugin before 1.19.18 for WordPress allows remote authenticated users with the NextGEN Upload images, NextGEN Manage gallery, or NextGEN Manage others gallery permission to inject arbitrary web script or HTML via the \"Alt & Title Text\" field.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "nextcellent-gallery-nextgen-legacy"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/nextcellent-gallery-nextgen-legacy",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.9.18"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.9.17",
+                "1.9.15",
+                "1.9.14"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3123"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/nextcellent-gallery-nextgen-legacy"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/nextcellent-gallery-nextgen-legacy/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

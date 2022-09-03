@@ -1,0 +1,68 @@
+{
+    "id": "WPHSH-f3a9978420e9-07cff93a8b2b",
+    "modified": "2021-11-24T15:26Z",
+    "published": "2021-11-23T20:15Z",
+    "aliases": [
+        "CVE-2021-24644"
+    ],
+    "summary": "FIXME",
+    "details": "The Images to WebP WordPress plugin before 1.9 does not validate or sanitise the tab parameter before passing it to the include() function, which could lead to a Local File Inclusion issue",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "images-to-webp"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/images-to-webp",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.9"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24644"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/images-to-webp"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/images-to-webp/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-22"
+        ]
+    }
+}

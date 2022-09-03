@@ -1,0 +1,67 @@
+{
+    "id": "WPHSH-3a685ecf10a5-3825527cca78",
+    "modified": "2017-08-29T01:31Z",
+    "published": "2012-03-19T18:55Z",
+    "aliases": [
+        "CVE-2012-1785"
+    ],
+    "summary": "FIXME",
+    "details": "kg_callffmpeg.php in the Video Embed & Thumbnail Generator plugin before 2.0 for WordPress allows remote attackers to execute arbitrary commands via unspecified vectors.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "video-embed-thumbnail-generator"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/video-embed-thumbnail-generator",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0",
+                "0.2.1",
+                "0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-1785"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/video-embed-thumbnail-generator"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/video-embed-thumbnail-generator/"
+        },
+        {
+            "type": "FIX",
+            "url": "http://plugins.trac.wordpress.org/changeset?old_path=%2Fvideo-embed-thumbnail-generator&old=507924&new_path=%2Fvideo-embed-thumbnail-generator&new=507924"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-20"
+        ]
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "id": "WPHSH-9b082dc461b4-dbbcd49b8901",
+    "modified": "2022-05-04T14:34Z",
+    "published": "2022-04-25T16:16Z",
+    "aliases": [
+        "CVE-2022-0398"
+    ],
+    "summary": "FIXME",
+    "details": "The ThirstyAffiliates Affiliate Link Manager WordPress plugin before 3.10.5 does not have authorisation and CSRF checks when creating affiliate links, which could allow any authenticated user, such as subscriber to create arbitrary affiliate links, which could then be used to redirect users to an arbitrary website",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "thirstyaffiliates"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/thirstyaffiliates",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.10.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.10.4",
+                "3.10.3",
+                "3.10.2",
+                "3.10.1",
+                "3.10.0",
+                "3.9.4",
+                "3.9.3",
+                "3.9.2",
+                "3.9.1",
+                "3.9",
+                "3.8",
+                "3.7",
+                "3.6",
+                "3.5",
+                "3.4.0",
+                "3.3.7",
+                "3.3.6",
+                "3.3.5",
+                "3.3.4",
+                "3.3.3",
+                "3.3.2",
+                "3.3.1",
+                "3.3.0",
+                "3.2.4",
+                "3.2.3",
+                "3.2.2",
+                "3.2.1",
+                "3.2.0",
+                "3.1.3",
+                "3.1.2",
+                "3.1.1",
+                "3.1.0",
+                "3.0.3",
+                "3.0.2",
+                "3.0.1",
+                "3.0.0",
+                "2.7.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0398"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/thirstyaffiliates"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/thirstyaffiliates/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-862"
+        ]
+    }
+}

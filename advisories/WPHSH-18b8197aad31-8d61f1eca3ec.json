@@ -1,0 +1,86 @@
+{
+    "id": "WPHSH-18b8197aad31-8d61f1eca3ec",
+    "modified": "2019-09-10T16:51Z",
+    "published": "2019-09-10T12:15Z",
+    "aliases": [
+        "CVE-2017-18608"
+    ],
+    "summary": "FIXME",
+    "details": "The spotim-comments plugin before 4.0.4 for WordPress has multiple XSS issues.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "spotim-comments"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/spotim-comments",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.0.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.0.3",
+                "4.0.2",
+                "4.0.1",
+                "4.0.0",
+                "3.0.0",
+                "2.1.1",
+                "2.1.0",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.10.6",
+                "1.10.5",
+                "1.10.4",
+                "1.10.3",
+                "1.10.2",
+                "1.10.1",
+                "1.10.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18608"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/spotim-comments"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/spotim-comments/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "id": "WPHSH-e8f1be74d5c9-bdfab238ce8f",
+    "modified": "2021-05-11T15:03Z",
+    "published": "2021-05-05T19:15Z",
+    "aliases": [
+        "CVE-2021-24256"
+    ],
+    "summary": "FIXME",
+    "details": "The \u201cElementor \u2013 Header, Footer & Blocks Template\u201d WordPress Plugin before 1.5.8 has two widgets that are vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "header-footer-elementor"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/header-footer-elementor",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5.7",
+                "1.5.6",
+                "1.5.5",
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5.0",
+                "1.4.1",
+                "1.4.0",
+                "1.3.1",
+                "1.3.0",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "v1.1.4",
+                "v1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.16",
+                "1.0.15",
+                "1.0.14",
+                "1.0.13",
+                "1.0.12",
+                "1.0.11",
+                "1.0.10",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24256"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/header-footer-elementor"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/header-footer-elementor/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

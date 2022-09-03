@@ -1,0 +1,58 @@
+{
+    "id": "WPHSH-dcf6cd60fc63-663c493c5c52",
+    "modified": "2017-08-29T01:33Z",
+    "published": "2014-05-27T14:55Z",
+    "aliases": [
+        "CVE-2013-3477"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in the Related Posts by Zemanta plugin before 1.3.2 for WordPress allows remote attackers to hijack the authentication of unspecified users for requests that change settings via unknown vectors.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "related-posts-by-zemanta"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/related-posts-by-zemanta",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.3.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.3.1",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3477"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/related-posts-by-zemanta"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/related-posts-by-zemanta/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

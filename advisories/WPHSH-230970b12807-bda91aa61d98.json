@@ -1,0 +1,60 @@
+{
+    "id": "WPHSH-230970b12807-bda91aa61d98",
+    "modified": "2022-07-15T19:09Z",
+    "published": "2022-07-11T13:15Z",
+    "aliases": [
+        "CVE-2022-1626"
+    ],
+    "summary": "FIXME",
+    "details": "The Sharebar WordPress plugin through 1.4.1 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack and also lead to Stored Cross-Site Scripting issue due to the lack of sanitisation and escaping in some of them",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "sharebar"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/sharebar",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1626"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/sharebar"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/sharebar/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

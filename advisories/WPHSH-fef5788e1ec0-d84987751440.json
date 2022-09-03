@@ -1,0 +1,81 @@
+{
+    "id": "WPHSH-fef5788e1ec0-d84987751440",
+    "modified": "2022-08-01T08:36:00Z",
+    "published": "2022-08-01T08:36:00Z",
+    "aliases": [
+        "CVE-2022-2392"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "lana-downloads-manager"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/lana-downloads-manager",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.8.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.7.1",
+                "1.7.0",
+                "1.6.0",
+                "1.5.0",
+                "1.4.1",
+                "1.4.0",
+                "1.3.0",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.9",
+                "1.1.8",
+                "1.1.7",
+                "1.1.6",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2392"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/lana-downloads-manager"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/lana-downloads-manager/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

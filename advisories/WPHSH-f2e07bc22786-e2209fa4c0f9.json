@@ -1,0 +1,64 @@
+{
+    "id": "WPHSH-f2e07bc22786-e2209fa4c0f9",
+    "modified": "2019-09-30T11:57Z",
+    "published": "2014-01-16T21:55Z",
+    "aliases": [
+        "CVE-2012-6624"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in the SoundCloud Is Gold plugin 2.1 for WordPress allows remote attackers to inject arbitrary web script or HTML via the width parameter in a soundcloud_is_gold_player_preview action to wp-admin/admin-ajax.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "soundcloud-is-gold"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/soundcloud-is-gold",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.2.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3.2",
+                "1.0.3.1",
+                "1.0.2",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-6624"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/soundcloud-is-gold"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/soundcloud-is-gold/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

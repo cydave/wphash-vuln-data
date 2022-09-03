@@ -1,0 +1,88 @@
+{
+    "id": "WPHSH-c3643c648cf6-c3663ae289e8",
+    "modified": "2022-02-11T13:51Z",
+    "published": "2022-02-07T16:15Z",
+    "aliases": [
+        "CVE-2021-25029"
+    ],
+    "summary": "FIXME",
+    "details": "The CLUEVO LMS, E-Learning Platform WordPress plugin before 1.8.1 does not sanitise and escape Course's module, which could allow high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "cluevo-lms"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/cluevo-lms",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.8.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.8.0",
+                "1.7.1",
+                "1.7.0",
+                "1.6.2",
+                "1.6.1",
+                "1.6.0",
+                "1.5.5",
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5.0",
+                "1.4.7",
+                "1.4.6",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.1",
+                "1.3.0",
+                "1.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.1",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25029"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/cluevo-lms"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/cluevo-lms/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

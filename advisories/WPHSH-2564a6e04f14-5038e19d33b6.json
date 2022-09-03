@@ -1,0 +1,71 @@
+{
+    "id": "WPHSH-2564a6e04f14-5038e19d33b6",
+    "modified": "2019-08-30T20:16Z",
+    "published": "2019-08-28T12:15Z",
+    "aliases": [
+        "CVE-2012-6717"
+    ],
+    "summary": "FIXME",
+    "details": "The redirection plugin before 2.2.12 for WordPress has XSS, a different issue than CVE-2011-4562.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "redirection"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/redirection",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.2.12"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.2.11",
+                "2.2.10",
+                "2.2.9",
+                "2.2.8",
+                "2.2.7",
+                "2.2.2",
+                "2.1.29",
+                "2.2.29",
+                "2.1.14",
+                "2.1.13",
+                "2.0",
+                "1.7"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-6717"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/redirection"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/redirection/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

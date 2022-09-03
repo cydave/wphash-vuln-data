@@ -1,0 +1,85 @@
+{
+    "id": "WPHSH-ad48d350123c-2c258f5b0586",
+    "modified": "2013-05-06T04:00Z",
+    "published": "2013-05-05T11:07Z",
+    "aliases": [
+        "CVE-2013-2702"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in the Easy AdSense Lite plugin before 6.10 for WordPress allows remote attackers to hijack the authentication of arbitrary users for requests that modify this plugin's settings.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "easy-adsense-lite"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/easy-adsense-lite",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.10"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "6.06",
+                "6.05",
+                "6.04",
+                "6.03",
+                "6.02",
+                "6.01",
+                "6.00",
+                "5.24",
+                "5.23",
+                "5.22",
+                "5.21",
+                "5.20",
+                "5.19",
+                "5.18",
+                "5.17",
+                "5.16",
+                "5.15",
+                "5.14",
+                "5.13",
+                "5.12",
+                "5.11",
+                "5.10",
+                "5.09",
+                "5.08",
+                "5.07",
+                "5.06",
+                "5.05",
+                "5.04",
+                "5.03",
+                "5.02",
+                "5.01",
+                "5.00"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2702"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/easy-adsense-lite"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/easy-adsense-lite/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "id": "WPHSH-0f107db385d0-8b700089e694",
+    "modified": "2021-04-29T18:47Z",
+    "published": "2021-04-22T21:15Z",
+    "aliases": [
+        "CVE-2021-24234"
+    ],
+    "summary": "FIXME",
+    "details": "The Search Forms page of the Ivory Search WordPress lugin before 4.6.1 did not properly sanitise the tab parameter before output it in the page, leading to a reflected Cross-Site Scripting issue when opening a malicious crafted link as a high privilege user. Knowledge of a form id is required to conduct the attack.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "add-search-to-menu"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/add-search-to-menu",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.6.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.6",
+                "4.5.11",
+                "4.5.10",
+                "4.5.9",
+                "4.5.8",
+                "4.5.7",
+                "4.5.6",
+                "4.5.5",
+                "4.5.4",
+                "4.5.3",
+                "4.5.2",
+                "4.5.1",
+                "4.5",
+                "4.4.14",
+                "4.4.13",
+                "4.4.12",
+                "4.4.11",
+                "4.4.10",
+                "4.4.9",
+                "4.4.8",
+                "4.4.7",
+                "4.4.6",
+                "4.4.5",
+                "4.4.4",
+                "4.4.3",
+                "4.4.2",
+                "4.4.1",
+                "4.4",
+                "4.3.3",
+                "4.3.2",
+                "4.3.1",
+                "4.3",
+                "4.2.1",
+                "4.2",
+                "4.1.6",
+                "4.1.5",
+                "4.1.4",
+                "4.1.3",
+                "4.1.2",
+                "4.1.1",
+                "4.1",
+                "4.0",
+                "3.4",
+                "3.3",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.0",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24234"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/add-search-to-menu"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/add-search-to-menu/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

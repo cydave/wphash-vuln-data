@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-9b76316f3243-4d24204950f6",
+    "modified": "2017-08-29T01:33Z",
+    "published": "2014-06-02T15:55Z",
+    "aliases": [
+        "CVE-2013-3257"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in the Related Posts plugin before 2.7.2 for WordPress allows remote attackers to hijack the authentication of users for requests that modify settings via unspecified vectors.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "related-posts"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/related-posts",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.7.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.7.1",
+                "2.7",
+                "2.6",
+                "2.5.1",
+                "2.5",
+                "2.4.1",
+                "0.3.2",
+                "0.3.3",
+                "2.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3257"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/related-posts"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/related-posts/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

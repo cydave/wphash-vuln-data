@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-d43077aa6107-a4ba76cf004d",
+    "modified": "2021-10-02T02:09Z",
+    "published": "2021-09-22T11:15Z",
+    "aliases": [
+        "CVE-2021-39339"
+    ],
+    "summary": "FIXME",
+    "details": "The Telefication WordPress plugin is vulnerable to Open Proxy and Server-Side Request Forgery via the ~/bypass.php file due to a user-supplied URL request value that gets called by a curl requests. This affects versions up to, and including, 1.8.0.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "telefication"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/telefication",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.8.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.8.0",
+                "1.7.1",
+                "1.7.0",
+                "1.6.1",
+                "1.6.0",
+                "1.5.2",
+                "1.5.1",
+                "1.5.0",
+                "1.4.0",
+                "1.3.0",
+                "1.2.1",
+                "1.2.0",
+                "1.1.0",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39339"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/telefication"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/telefication/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-918"
+        ]
+    }
+}

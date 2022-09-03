@@ -1,0 +1,64 @@
+{
+    "id": "WPHSH-8096f24381d6-acd7c7bf87f5",
+    "modified": "2022-03-07T18:09Z",
+    "published": "2022-02-28T09:15Z",
+    "aliases": [
+        "CVE-2021-24820"
+    ],
+    "summary": "FIXME",
+    "details": "The Cost Calculator WordPress plugin through 1.6 allows authenticated users (Contributor+ in versions < 1.5, and Admin+ in versions <= 1.6) to perform path traversal and local PHP file inclusion on Windows Web Servers via the Cost Calculator post's Layout",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "nd-projects"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/nd-projects",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24820"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/nd-projects"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/nd-projects/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-22"
+        ]
+    }
+}

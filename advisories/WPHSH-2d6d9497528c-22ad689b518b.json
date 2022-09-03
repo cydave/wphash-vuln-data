@@ -1,0 +1,66 @@
+{
+    "id": "WPHSH-2d6d9497528c-22ad689b518b",
+    "modified": "2019-08-26T17:30Z",
+    "published": "2019-08-22T14:15Z",
+    "aliases": [
+        "CVE-2013-7482"
+    ],
+    "summary": "FIXME",
+    "details": "The reflex-gallery plugin before 1.4.3 for WordPress has XSS.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "reflex-gallery"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/reflex-gallery",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-7482"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/reflex-gallery"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/reflex-gallery/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

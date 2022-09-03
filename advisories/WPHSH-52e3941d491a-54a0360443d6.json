@@ -1,0 +1,81 @@
+{
+    "id": "WPHSH-52e3941d491a-54a0360443d6",
+    "modified": "2022-08-04T11:29:00Z",
+    "published": "2022-08-04T11:29:00Z",
+    "aliases": [
+        "CVE-2022-2261"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wpide"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wpide",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.6",
+                "2.5",
+                "2.4.0",
+                "2.3.2",
+                "2.3.1",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0.16",
+                "2.0.15",
+                "2.0.14",
+                "2.0.13",
+                "2.0.12",
+                "2.0.11",
+                "2.0.10",
+                "2.0.9",
+                "2.0.8",
+                "2.0.7",
+                "2.0.6",
+                "2.0.5",
+                "2.0.4",
+                "2.0.2",
+                "2.0.1",
+                "2.0",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.2",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2261"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wpide"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wpide/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

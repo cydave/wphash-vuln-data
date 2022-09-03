@@ -1,0 +1,171 @@
+{
+    "id": "WPHSH-41b8dc348cba-6d46a245360e",
+    "modified": "2022-01-28T20:58Z",
+    "published": "2022-01-24T08:15Z",
+    "aliases": [
+        "CVE-2021-24965"
+    ],
+    "summary": "FIXME",
+    "details": "The Five Star Restaurant Reservations WordPress plugin before 2.4.8 does not have capability and CSRF checks in the rtb_welcome_set_schedule AJAX action, allowing any authenticated users to call it. Due to the lack of sanitisation and escaping, users with a role as low as subscriber could perform Cross-Site Scripting attacks against logged in admins",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "restaurant-reservations"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/restaurant-reservations",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.4.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.4.7",
+                "2.4.6",
+                "2.4.5",
+                "2.4.4",
+                "2.4.3",
+                "2.4.2",
+                "2.4.1",
+                "2.3.5",
+                "2.3.4",
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.1.18",
+                "2.3.0",
+                "2.2.12",
+                "2.2.11",
+                "2.2.10",
+                "2.2.9",
+                "2.2.8",
+                "2.2.7",
+                "2.2.6",
+                "2.2.5",
+                "2.2.4",
+                "2.2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.2.0",
+                "2.1.24",
+                "2.1.23",
+                "2.1.22",
+                "2.1.21",
+                "2.1.20",
+                "2.1.19",
+                "v2.1.18",
+                "2.1.17",
+                "2.1.16",
+                "2.1.15",
+                "2.1.14",
+                "2.1.13",
+                "2.1.12",
+                "2.1.11",
+                "2.1.10",
+                "2.1.9",
+                "2.1.8",
+                "2.1.7",
+                "2.1.6",
+                "2.1.5",
+                "2.1.4",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1.0",
+                "2.0.15",
+                "2.0.14",
+                "2.0.13",
+                "2.0.12",
+                "2.0.11",
+                "2.0.10",
+                "2.0.9",
+                "2.0.8",
+                "2.0.7",
+                "2.0.6",
+                "2.0.5",
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.9.0",
+                "1.8.2",
+                "1.8.1",
+                "1.8",
+                "1.7.8",
+                "1.7.7",
+                "1.7.6",
+                "1.7.5",
+                "1.7.4",
+                "1.7.3",
+                "1.7.2",
+                "1.7.1",
+                "1.7",
+                "1.6.3",
+                "1.6.2",
+                "1.6.1",
+                "1.6",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5",
+                "1.4.10",
+                "1.4.9",
+                "1.4.8",
+                "1.4.7",
+                "1.4.6",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.2",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24965"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/restaurant-reservations"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/restaurant-reservations/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

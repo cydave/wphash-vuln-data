@@ -1,0 +1,133 @@
+{
+    "id": "WPHSH-635dcc13b5b1-0da5609a21fc",
+    "modified": "2022-03-11T17:25Z",
+    "published": "2022-03-07T09:15Z",
+    "aliases": [
+        "CVE-2022-0429"
+    ],
+    "summary": "FIXME",
+    "details": "The WP Cerber Security, Anti-spam & Malware Scan WordPress plugin before 8.9.6 does not sanitise the $url variable before using it in an attribute in the Activity tab in the plugins dashboard, leading to an unauthenticated stored Cross-Site Scripting vulnerability.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-cerber"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-cerber",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "8.9.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "8.9.5.2",
+                "8.9.5",
+                "8.9.3",
+                "8.9",
+                "8.8.6",
+                "8.8.5",
+                "8.8.3",
+                "8.8",
+                "8.7",
+                "8.6.8",
+                "8.6.7",
+                "8.6.6",
+                "8.6.5",
+                "8.6.3",
+                "8.6",
+                "8.5.9",
+                "8.5.8",
+                "8.5.6",
+                "8.5.5",
+                "8.5.3",
+                "8.5",
+                "8.4",
+                "8.3",
+                "8.2",
+                "8.1",
+                "7.9.7",
+                "7.9.3",
+                "7.9",
+                "7.8.5",
+                "7.8",
+                "7.7",
+                "7.6",
+                "7.5",
+                "7.2",
+                "7.0",
+                "6.7.5",
+                "6.7",
+                "6.5",
+                "6.2",
+                "6.1",
+                "6.0",
+                "5.9",
+                "5.8.6",
+                "5.8",
+                "5.7",
+                "5.5",
+                "5.2",
+                "5.1",
+                "5.0",
+                "4.9",
+                "4.8.2",
+                "4.8.1",
+                "4.8",
+                "4.7.7",
+                "4.5",
+                "4.3",
+                "4.1",
+                "4.0",
+                "3.0",
+                "2.9",
+                "2.7.2",
+                "2.7.1",
+                "2.7",
+                "2.0.1.6",
+                "1.8.1",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0429"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-cerber"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-cerber/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

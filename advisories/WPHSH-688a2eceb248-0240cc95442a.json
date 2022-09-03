@@ -1,0 +1,64 @@
+{
+    "id": "WPHSH-688a2eceb248-0240cc95442a",
+    "modified": "2022-06-28T16:45Z",
+    "published": "2022-06-20T11:15Z",
+    "aliases": [
+        "CVE-2022-1829"
+    ],
+    "summary": "FIXME",
+    "details": "The Inline Google Maps WordPress plugin through 5.11 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack, and lead to Stored Cross-Site Scripting due to the lack of sanitisation and escaping",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "google-maps-advanced"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/google-maps-advanced",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.12"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "5.11",
+                "5.10",
+                "5.9",
+                "5.8",
+                "5.6"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1829"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/google-maps-advanced"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/google-maps-advanced/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

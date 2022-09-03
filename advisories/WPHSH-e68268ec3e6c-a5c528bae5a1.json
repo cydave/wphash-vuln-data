@@ -1,0 +1,57 @@
+{
+    "id": "WPHSH-e68268ec3e6c-a5c528bae5a1",
+    "modified": "2022-07-26T08:42:07Z",
+    "published": "2022-07-26T08:42:07Z",
+    "aliases": [
+        "CVE-2022-2388"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-coder"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-coder",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.5.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.5.2",
+                "2.5.1",
+                "2.4.1",
+                "2.3.2",
+                "2.3.1",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2388"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-coder"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-coder/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

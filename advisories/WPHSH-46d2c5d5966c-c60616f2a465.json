@@ -1,0 +1,95 @@
+{
+    "id": "WPHSH-46d2c5d5966c-c60616f2a465",
+    "modified": "2017-08-29T01:33Z",
+    "published": "2014-03-03T16:55Z",
+    "aliases": [
+        "CVE-2013-3487"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple cross-site scripting (XSS) vulnerabilities in the security log in the BulletProof Security plugin before .49 for WordPress allow remote attackers to inject arbitrary web script or HTML via unspecified HTML header fields to (1) 400.php, (2) 403.php, or (3) 403.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "bulletproof-security"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/bulletproof-security",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": ".49"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                ".48.9",
+                ".48.8",
+                ".48.7",
+                ".48.6",
+                ".48.5",
+                ".48.4",
+                ".48.3",
+                ".48.2",
+                ".48.1",
+                ".48",
+                ".47.9",
+                ".47.8",
+                ".47.7",
+                ".47.6",
+                ".47.5",
+                ".47.4",
+                ".47.3",
+                ".47.2",
+                ".47.1",
+                ".47",
+                ".46.9",
+                ".46.8",
+                ".46.7",
+                ".46.6",
+                ".46.5",
+                ".46.4",
+                ".46.3",
+                ".46.2",
+                ".46.1",
+                ".46",
+                ".45.9",
+                ".45.8",
+                ".45.7",
+                ".45.6",
+                ".45.5",
+                ".45.4",
+                ".45.3",
+                ".45.2",
+                ".45.1",
+                ".45",
+                ".44.1",
+                ".44"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3487"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/bulletproof-security"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/bulletproof-security/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

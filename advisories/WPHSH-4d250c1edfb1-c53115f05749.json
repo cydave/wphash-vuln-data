@@ -1,0 +1,74 @@
+{
+    "id": "WPHSH-4d250c1edfb1-c53115f05749",
+    "modified": "2021-10-05T16:46Z",
+    "published": "2021-07-07T14:15Z",
+    "aliases": [
+        "CVE-2020-24141"
+    ],
+    "summary": "FIXME",
+    "details": "Server-side request forgery in the WP-DownloadManager plugin 1.68.4 for WordPress lets an attacker send crafted requests from the back-end server of a vulnerable web application via the file_remote parameter to download-add.php. It can help identify open ports, local network hosts and execute command on services",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-downloadmanager"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-downloadmanager",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.68.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.68.4",
+                "1.68.2",
+                "1.68.1",
+                "1.67",
+                "1.66",
+                "1.65",
+                "1.64",
+                "1.63",
+                "1.62",
+                "1.61",
+                "1.50",
+                "1.40",
+                "1.31",
+                "1.30",
+                "1.00"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-24141"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-downloadmanager"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-downloadmanager/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-918"
+        ]
+    }
+}

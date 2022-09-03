@@ -1,0 +1,109 @@
+{
+    "id": "WPHSH-0d45b0d752db-6bc845f31458",
+    "modified": "2021-05-25T14:43Z",
+    "published": "2021-05-17T17:15Z",
+    "aliases": [
+        "CVE-2021-24288"
+    ],
+    "summary": "FIXME",
+    "details": "When subscribing using AcyMailing, the 'redirect' parameter isn't properly sanitized. Turning the request from POST to GET, an attacker can craft a link containing a potentially malicious landing page and send it to the victim.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "acymailing"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/acymailing",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "7.5.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "7.4.1",
+                "7.4.0",
+                "7.3.1",
+                "7.3.0",
+                "7.2.2",
+                "7.2.1",
+                "7.2.0",
+                "7.1.2",
+                "7.1.1",
+                "7.1.0",
+                "7.0.4",
+                "7.0.3",
+                "7.0.2",
+                "7.0.1",
+                "7.0.0",
+                "6.19.3",
+                "6.19.2",
+                "6.19.1",
+                "6.19.0",
+                "6.18.3",
+                "6.18.2",
+                "6.18.1",
+                "6.18.0",
+                "6.17.1",
+                "6.17.0",
+                "6.16.4",
+                "6.16.3",
+                "6.16.2",
+                "6.16.1",
+                "6.16.0",
+                "6.15.1",
+                "6.15.0",
+                "6.14.1",
+                "6.14.0",
+                "6.13.3",
+                "6.13.2",
+                "6.13.1",
+                "6.13.0",
+                "6.12.1",
+                "6.12.0",
+                "6.11.1",
+                "6.11.0",
+                "6.10.4",
+                "6.10.2",
+                "6.10.1",
+                "6.10.0",
+                "6.9.2",
+                "6.9.1",
+                "6.9.0",
+                "6.8.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24288"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/acymailing"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/acymailing/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-601"
+        ]
+    }
+}

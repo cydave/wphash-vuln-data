@@ -1,0 +1,57 @@
+{
+    "id": "WPHSH-8b89b189cdf4-6289f28b5fbf",
+    "modified": "2017-08-29T01:29Z",
+    "published": "2011-08-24T10:55Z",
+    "aliases": [
+        "CVE-2010-4825"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in magpie_debug.php in the Twitter Feed plugin (wp-twitter-feed) 0.3.1 for WordPress allows remote attackers to inject arbitrary web script or HTML via the url parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-twitter-feed"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-twitter-feed",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.3.1",
+                "0.3",
+                "0.2",
+                "0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4825"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-twitter-feed"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-twitter-feed/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

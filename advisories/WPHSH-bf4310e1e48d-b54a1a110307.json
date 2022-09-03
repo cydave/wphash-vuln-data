@@ -1,0 +1,78 @@
+{
+    "id": "WPHSH-bf4310e1e48d-b54a1a110307",
+    "modified": "2018-06-26T17:03Z",
+    "published": "2018-05-22T13:29Z",
+    "aliases": [
+        "CVE-2018-11366"
+    ],
+    "summary": "FIXME",
+    "details": "init.php in the Loginizer plugin 1.3.8 through 1.3.9 for WordPress has Unauthenticated Stored Cross-Site Scripting (XSS) because logging is mishandled. This is fixed in 1.4.0.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "loginizer"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/loginizer",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.3.9",
+                "1.3.8",
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.0",
+                "1.1.1",
+                "1.1.0",
+                "1.0.2",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11366"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/loginizer"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/loginizer/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/1878502/loginizer"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-c1b35b9909ec-1e16b5876585",
+    "modified": "2022-07-25T17:01Z",
+    "published": "2022-07-18T17:15Z",
+    "aliases": [
+        "CVE-2022-2108"
+    ],
+    "summary": "FIXME",
+    "details": "The plugin Wbcom Designs \u2013 BuddyPress Group Reviews for WordPress is vulnerable to unauthorized settings changes and review modification due to missing capability checks and improper nonce checks in several functions related to said actions in versions up to, and including, 2.8.3. This makes it possible for unauthenticated attackers to modify reviews and plugin settings on the affected site.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "review-buddypress-groups"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/review-buddypress-groups",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.8.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.8.3",
+                "2.8.2",
+                "2.8.1",
+                "2.8.0",
+                "2.7.0",
+                "2.3.0",
+                "2.2.0",
+                "2.1.0",
+                "2.0.0",
+                "1.0.5",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2108"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/review-buddypress-groups"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/review-buddypress-groups/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-863"
+        ]
+    }
+}

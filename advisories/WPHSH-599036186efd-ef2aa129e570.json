@@ -1,0 +1,79 @@
+{
+    "id": "WPHSH-599036186efd-ef2aa129e570",
+    "modified": "2021-05-11T15:23Z",
+    "published": "2021-05-05T19:15Z",
+    "aliases": [
+        "CVE-2021-24270"
+    ],
+    "summary": "FIXME",
+    "details": "The \u201cDeTheme Kit for Elementor\u201d WordPress Plugin before 1.5.5.5 has a widget that is vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "dethemekit-for-elementor"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/dethemekit-for-elementor",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5.5.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5.5.4",
+                "1.5.5.3",
+                "1.5.5.2",
+                "1.5.5.1",
+                "1.5.5",
+                "1.5.4.4",
+                "1.5.4.3",
+                "1.5.4.2",
+                "1.5.2.1",
+                "1.5.4.1",
+                "1.5.4",
+                "1.5.1",
+                "1.4.3",
+                "1.4.2",
+                "1.4.0",
+                "1.2.0.1",
+                "1.2.0",
+                "1.1.2.2",
+                "1.1.2",
+                "1.1.2.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24270"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/dethemekit-for-elementor"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/dethemekit-for-elementor/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

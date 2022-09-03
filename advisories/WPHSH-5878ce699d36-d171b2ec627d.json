@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-5878ce699d36-d171b2ec627d",
+    "modified": "2019-09-13T17:49Z",
+    "published": "2019-09-12T17:15Z",
+    "aliases": [
+        "CVE-2019-5992"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in WordPress Ultra Simple Paypal Shopping Cart v4.4 and earlier allows remote attackers to hijack the authentication of administrators via unspecified vectors.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-ultra-simple-paypal-shopping-cart"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-ultra-simple-paypal-shopping-cart",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.3.9.7",
+                "4.3.9.6",
+                "4.3.9.5"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-5992"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-ultra-simple-paypal-shopping-cart"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-ultra-simple-paypal-shopping-cart/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "id": "WPHSH-ee7e88c5077b-3e2e5f7d0c47",
+    "modified": "2018-01-17T17:15Z",
+    "published": "2018-01-01T08:29Z",
+    "aliases": [
+        "CVE-2017-18011"
+    ],
+    "summary": "FIXME",
+    "details": "The MyCBGenie Affiliate Ads for Clickbank Products plugin through 1.6 for WordPress has XSS via the text_ads_ajax.php border_color parameter.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "affiliate-ads-builder-for-clickbank-products"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/affiliate-ads-builder-for-clickbank-products",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.0",
+                "1.2",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18011"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/affiliate-ads-builder-for-clickbank-products"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/affiliate-ads-builder-for-clickbank-products/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

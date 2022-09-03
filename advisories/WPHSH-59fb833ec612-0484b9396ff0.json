@@ -1,0 +1,116 @@
+{
+    "id": "WPHSH-59fb833ec612-0484b9396ff0",
+    "modified": "2019-02-28T13:25Z",
+    "published": "2018-03-15T17:29Z",
+    "aliases": [
+        "CVE-2018-8729"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple cross-site scripting (XSS) vulnerabilities in the Activity Log plugin before 2.4.1 for WordPress allow remote attackers to inject arbitrary JavaScript or HTML via a title that is not escaped.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "aryo-activity-log"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/aryo-activity-log",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.4.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.4.0",
+                "2.3.6",
+                "2.3.5",
+                "2.3.4",
+                "2.3.2",
+                "2.3.1",
+                "2.3.0",
+                "2.2.12",
+                "2.2.11",
+                "2.2.10",
+                "2.2.9",
+                "2.2.8",
+                "2.2.7",
+                "2.2.6",
+                "2.2.5",
+                "2.2.4",
+                "2.2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.2.0",
+                "2.1.16",
+                "2.1.15",
+                "2.1.14",
+                "2.1.13",
+                "2.1.12",
+                "2.1.11",
+                "2.1.10",
+                "2.1.9",
+                "2.1.8",
+                "2.1.7",
+                "2.1.6",
+                "2.1.5",
+                "2.1.4",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1.0",
+                "2.0.7",
+                "2.0.6",
+                "2.0.5",
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-8729"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/aryo-activity-log"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/aryo-activity-log/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/1836276"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

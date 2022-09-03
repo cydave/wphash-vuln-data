@@ -1,0 +1,63 @@
+{
+    "id": "WPHSH-4ef1c659396b-557ec5ff27e3",
+    "modified": "2017-08-13T01:29Z",
+    "published": "2017-06-13T18:29Z",
+    "aliases": [
+        "CVE-2017-9603"
+    ],
+    "summary": "FIXME",
+    "details": "SQL injection vulnerability in the WP Jobs plugin before 1.5 for WordPress allows authenticated users to execute arbitrary SQL commands via the jobid parameter to wp-admin/edit.php.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-jobs"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-jobs",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-9603"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-jobs"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-jobs/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

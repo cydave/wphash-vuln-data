@@ -1,0 +1,65 @@
+{
+    "id": "WPHSH-123526bce189-0a40d7715721",
+    "modified": "2022-07-07T16:15Z",
+    "published": "2022-06-24T15:15Z",
+    "aliases": [
+        "CVE-2013-1916"
+    ],
+    "summary": "FIXME",
+    "details": "In WordPress Plugin User Photo 0.9.4, when a photo is uploaded, it is only partially validated and it is possible to upload a backdoor on the server hosting WordPress. This backdoor can be called (executed) even if the photo has not been yet approved.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "user-photo"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/user-photo",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.9.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.9.4",
+                "0.7"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1916"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/user-photo"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/user-photo/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/347137"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-434"
+        ]
+    }
+}

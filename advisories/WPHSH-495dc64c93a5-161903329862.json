@@ -1,0 +1,61 @@
+{
+    "id": "WPHSH-495dc64c93a5-161903329862",
+    "modified": "2019-09-17T18:10Z",
+    "published": "2019-09-17T15:15Z",
+    "aliases": [
+        "CVE-2016-10984"
+    ],
+    "summary": "FIXME",
+    "details": "The echosign plugin before 1.2 for WordPress has XSS via the inc.php page parameter.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "echosign"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/echosign",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10984"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/echosign"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/echosign/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

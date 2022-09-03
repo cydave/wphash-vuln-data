@@ -1,0 +1,74 @@
+{
+    "id": "WPHSH-f3a9a1e7e7ff-12622ed7ab3e",
+    "modified": "2022-06-27T09:15Z",
+    "published": "2022-06-08T10:15Z",
+    "aliases": [
+        "CVE-2022-1691"
+    ],
+    "summary": "FIXME",
+    "details": "The Realty Workstation WordPress plugin before 1.0.15 does not sanitise and escape the trans_edit parameter before using it in a SQL statement when an agent edit a transaction, leading to an SQL injection",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "realty-workstation"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/realty-workstation",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.15"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.14",
+                "1.0.13",
+                "1.0.12",
+                "1.0.11",
+                "1.0.10",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1691"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/realty-workstation"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/realty-workstation/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

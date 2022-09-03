@@ -1,0 +1,143 @@
+{
+    "id": "WPHSH-527dfe682e21-c33064990ad5",
+    "modified": "2022-07-18T11:23Z",
+    "published": "2022-07-17T11:15Z",
+    "aliases": [
+        "CVE-2022-2133"
+    ],
+    "summary": "FIXME",
+    "details": "The OAuth Single Sign On WordPress plugin before 6.22.6 doesn't validate that OAuth access token requests are legitimate, which allows attackers to log onto the site with the only knowledge of a user's email address.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "miniorange-login-with-eve-online-google-facebook"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/miniorange-login-with-eve-online-google-facebook",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "6.22.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "6.22.5",
+                "6.22.4",
+                "6.22.3",
+                "6.22.2",
+                "6.22.1",
+                "6.22.0",
+                "6.21.9",
+                "6.21.8",
+                "6.21.7",
+                "6.21.6",
+                "6.21.5",
+                "6.21.4",
+                "6.21.3",
+                "6.21.2",
+                "6.21.1",
+                "6.21.0",
+                "6.20.4",
+                "6.20.3",
+                "6.20.2",
+                "6.20.1",
+                "6.20.0",
+                "6.19.8",
+                "6.19.7",
+                "6.19.6",
+                "6.19.5",
+                "6.19.4",
+                "6.19.3",
+                "6.19.2",
+                "6.19.1",
+                "6.19.0",
+                "6.18.1",
+                "6.18.0",
+                "6.17.3",
+                "6.17.2",
+                "6.17.1",
+                "6.17.0",
+                "6.16.3",
+                "6.16.2",
+                "6.16.0",
+                "6.16.1",
+                "6.15.3",
+                "6.15.2",
+                "6.15.1",
+                "6.15.0",
+                "6.14.5",
+                "6.14.4",
+                "6.14.3",
+                "6.14.2",
+                "6.14.1",
+                "6.14.0",
+                "6.13.0",
+                "6.12.12",
+                "6.12.0",
+                "6.11.4",
+                "6.11.3",
+                "6.11.2",
+                "6.11.1",
+                "6.11.0",
+                "6.10.6",
+                "6.10.4",
+                "6.10.5",
+                "6.10.3",
+                "6.10.2",
+                "6.10.1",
+                "6.10.0",
+                "6.9.17",
+                "6.8.1",
+                "6.7.0",
+                "6.5.0",
+                "6.0.2",
+                "5.21",
+                "5.20",
+                "5.14",
+                "5.13",
+                "5.12",
+                "5.10",
+                "5.9",
+                "5.8",
+                "5.3",
+                "Updated version 1.7 with timestamp and image file import issues",
+                "Updated version-1.4",
+                "Updated version-1.0.6",
+                "Updated version-1.0.5",
+                "version-1.0.4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2133"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/miniorange-login-with-eve-online-google-facebook"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/miniorange-login-with-eve-online-google-facebook/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-287"
+        ]
+    }
+}

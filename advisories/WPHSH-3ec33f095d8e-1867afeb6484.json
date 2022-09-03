@@ -1,0 +1,66 @@
+{
+    "id": "WPHSH-3ec33f095d8e-1867afeb6484",
+    "modified": "2022-07-06T12:49Z",
+    "published": "2022-06-27T09:15Z",
+    "aliases": [
+        "CVE-2022-1995"
+    ],
+    "summary": "FIXME",
+    "details": "The Malware Scanner WordPress plugin before 4.5.2 does not sanitise and escape some of its settings, leading to malicious users with administrator privileges to store malicious Javascript code leading to Cross-Site Scripting attacks when unfiltered_html is disallowed (for example in multisite setup)",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "miniorange-malware-protection"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/miniorange-malware-protection",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.5.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.5.1",
+                "4.5.0",
+                "4.4",
+                "4.3",
+                "4.2",
+                "4.1",
+                "4.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1995"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/miniorange-malware-protection"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/miniorange-malware-protection/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

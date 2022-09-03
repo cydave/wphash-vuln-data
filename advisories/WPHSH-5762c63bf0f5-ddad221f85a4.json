@@ -1,0 +1,60 @@
+{
+    "id": "WPHSH-5762c63bf0f5-ddad221f85a4",
+    "modified": "2014-07-09T18:48Z",
+    "published": "2014-07-02T18:55Z",
+    "aliases": [
+        "CVE-2014-4605"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in cal/test.php in the ZdStatistics (zdstats) plugin 2.0.1 and earlier for WordPress allows remote attackers to inject arbitrary web script or HTML via the lang parameter.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "zdstats"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/zdstats",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.0.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.0",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4605"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/zdstats"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/zdstats/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

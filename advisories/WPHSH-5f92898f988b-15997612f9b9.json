@@ -1,0 +1,86 @@
+{
+    "id": "WPHSH-5f92898f988b-15997612f9b9",
+    "modified": "2019-08-29T12:53Z",
+    "published": "2019-08-22T19:15Z",
+    "aliases": [
+        "CVE-2017-18586"
+    ],
+    "summary": "FIXME",
+    "details": "The insert-pages plugin before 3.2.4 for WordPress has directory traversal via custom template paths.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "insert-pages"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/insert-pages",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.2.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.2.3",
+                "3.2.2",
+                "3.2.1",
+                "3.2.0",
+                "3.1.9",
+                "3.1.8",
+                "3.1.7",
+                "3.1.6",
+                "3.1.5",
+                "3.1.4",
+                "3.1.3",
+                "3.1.2",
+                "3.1.1",
+                "3.1",
+                "3.0.2",
+                "3.0.1",
+                "3.0",
+                "2.9.1",
+                "2.9",
+                "2.8",
+                "2.7.2",
+                "2.7.1",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "1.4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18586"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/insert-pages"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/insert-pages/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-22"
+        ]
+    }
+}

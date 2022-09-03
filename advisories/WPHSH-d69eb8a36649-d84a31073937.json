@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-d69eb8a36649-d84a31073937",
+    "modified": "2017-07-17T13:18Z",
+    "published": "2017-06-09T16:29Z",
+    "aliases": [
+        "CVE-2017-2195"
+    ],
+    "summary": "FIXME",
+    "details": "SQL injection vulnerability in the Multi Feed Reader prior to version 2.2.4 allows authenticated attackers to execute arbitrary SQL commands via unspecified vectors.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "multi-feed-reader"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/multi-feed-reader",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.2.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.2.0",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1.0",
+                "2.0.0",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2195"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/multi-feed-reader"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/multi-feed-reader/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

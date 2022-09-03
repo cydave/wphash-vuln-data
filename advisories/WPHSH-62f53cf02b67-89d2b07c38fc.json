@@ -1,0 +1,81 @@
+{
+    "id": "WPHSH-62f53cf02b67-89d2b07c38fc",
+    "modified": "2021-04-20T02:06Z",
+    "published": "2021-04-12T14:15Z",
+    "aliases": [
+        "CVE-2021-24218"
+    ],
+    "summary": "FIXME",
+    "details": "The wp_ajax_save_fbe_settings and wp_ajax_delete_fbe_settings AJAX actions of the Facebook for WordPress plugin before 3.0.4 were vulnerable to CSRF due to a lack of nonce protection. The settings in the saveFbeSettings function had no sanitization allowing for script tags to be saved.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "official-facebook-pixel"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/official-facebook-pixel",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.0.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.0.3",
+                "3.0.2",
+                "3.0.1",
+                "3.0.0",
+                "2.2.2",
+                "2.2.1",
+                "2.2.0",
+                "2.1.0",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.8.0",
+                "1.7.25",
+                "1.7.24",
+                "1.7.23",
+                "1.7.22",
+                "1.7.21",
+                "1.7.20",
+                "1.7.19",
+                "1.7.18",
+                "1.7.17",
+                "1.7.16"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24218"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/official-facebook-pixel"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/official-facebook-pixel/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

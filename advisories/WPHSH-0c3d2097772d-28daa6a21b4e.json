@@ -1,0 +1,146 @@
+{
+    "id": "WPHSH-0c3d2097772d-28daa6a21b4e",
+    "modified": "2022-06-28T21:17Z",
+    "published": "2022-06-20T11:15Z",
+    "aliases": [
+        "CVE-2022-1610"
+    ],
+    "summary": "FIXME",
+    "details": "The Seamless Donations WordPress plugin before 5.1.9 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "seamless-donations"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/seamless-donations",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.1.9"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "5.1.8",
+                "5.1.7",
+                "5.1.6",
+                "5.1.5",
+                "5.1.4",
+                "5.1.3",
+                "5.1.2",
+                "5.1.1",
+                "5.1.0",
+                "5.0.23",
+                "5.0.22",
+                "5.0.21",
+                "5.0.20",
+                "5.0.19",
+                "5.0.18",
+                "5.0.17",
+                "5.0.16",
+                "5.0.15",
+                "5.0.14",
+                "5.0.13",
+                "5.0.12",
+                "5.0.11",
+                "5.0.10",
+                "5.0.9",
+                "5.0.8",
+                "5.0.7",
+                "5.0.6",
+                "5.0.5",
+                "5.0.4",
+                "5.0.3",
+                "4.0.23",
+                "4.0.22",
+                "4.0.21",
+                "4.0.20",
+                "4.0.19",
+                "4.0.18",
+                "4.0.17",
+                "4.0.16",
+                "4.0.15",
+                "4.0.14",
+                "4.0.13",
+                "4.0.12",
+                "4.0.11",
+                "4.0.10",
+                "4.0.9",
+                "4.0.8",
+                "4.0.7",
+                "4.0.6",
+                "4.0.3",
+                "4.0.2",
+                "4.0.1",
+                "4.0.0",
+                "3.3.5",
+                "3.3.3",
+                "3.3.2",
+                "3.3.1",
+                "3.3.0",
+                "3.2.4",
+                "3.2.3",
+                "3.2.0",
+                "3.2.2",
+                "3.1.0",
+                "3.0.3",
+                "3.0.2",
+                "3.0.1",
+                "3.0.0",
+                "2.9.0",
+                "2.8.1",
+                "2.7.0",
+                "2.6.0",
+                "2.5.0",
+                "2.4.4",
+                "2.4.3",
+                "2.4.2",
+                "2.4.1",
+                "2.4.0",
+                "2.3.0",
+                "2.2.0",
+                "2.1.7",
+                "2.1.6",
+                "2.1.5",
+                "2.1.4",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1.0",
+                "2.0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1610"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/seamless-donations"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/seamless-donations/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

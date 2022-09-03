@@ -1,0 +1,75 @@
+{
+    "id": "WPHSH-c43bafcab933-05490d5b97df",
+    "modified": "2022-01-07T19:43Z",
+    "published": "2022-01-03T13:15Z",
+    "aliases": [
+        "CVE-2021-24828"
+    ],
+    "summary": "FIXME",
+    "details": "The Mortgage Calculator / Loan Calculator WordPress plugin before 1.5.17 does not escape the some of the attributes of its mlcalc shortcode before outputting them, which could allow users with a role as low as contributor to perform Cross-Site Scripting attacks",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "mortgage-loan-calculator"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/mortgage-loan-calculator",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5.17"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5.16",
+                "1.5.15",
+                "1.5.14",
+                "1.5.13",
+                "1.5.12",
+                "1.5.11",
+                "1.5.10",
+                "1.5.9",
+                "1.5.8",
+                "1.5.7",
+                "1.5.6",
+                "1.5.5",
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24828"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/mortgage-loan-calculator"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/mortgage-loan-calculator/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

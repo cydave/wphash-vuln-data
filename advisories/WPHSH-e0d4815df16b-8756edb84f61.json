@@ -1,0 +1,72 @@
+{
+    "id": "WPHSH-e0d4815df16b-8756edb84f61",
+    "modified": "2020-09-08T14:03Z",
+    "published": "2020-08-31T16:15Z",
+    "aliases": [
+        "CVE-2020-20626"
+    ],
+    "summary": "FIXME",
+    "details": "lara-google-analytics.php in Lara Google Analytics plugin through 2.0.4 for WordPress allows authenticated stored XSS.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "lara-google-analytics"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/lara-google-analytics",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.0.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-20626"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/lara-google-analytics"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/lara-google-analytics/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

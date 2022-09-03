@@ -1,0 +1,97 @@
+{
+    "id": "WPHSH-a598192509ef-1f1c30fed402",
+    "modified": "2022-02-23T15:01Z",
+    "published": "2022-02-14T12:15Z",
+    "aliases": [
+        "CVE-2021-25033"
+    ],
+    "summary": "FIXME",
+    "details": "The WordPress Newsletter Plugin WordPress plugin before 1.6.5 does not validate the to parameter before redirecting the user to its given value, leading to an open redirect issue",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "newsletter-optin-box"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/newsletter-optin-box",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.6.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.6.4",
+                "1.6.3",
+                "1.6.2",
+                "1.6.1",
+                "1.6.0",
+                "1.5.6",
+                "1.5.5",
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5.0",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.9",
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.9",
+                "1.2.8",
+                "1.2.7",
+                "1.2.6",
+                "1.2.5",
+                "1.2.4",
+                "1.2.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25033"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/newsletter-optin-box"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/newsletter-optin-box/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2639592"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-601"
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-246da278ac51-1dadf8a37e4d",
+    "modified": "2022-02-19T04:36Z",
+    "published": "2022-02-14T12:15Z",
+    "aliases": [
+        "CVE-2021-24446"
+    ],
+    "summary": "FIXME",
+    "details": "The Remove Footer Credit WordPress plugin before 1.0.6 does not have CSRF check in place when saving its settings, which could allow attacker to make logged in admins change them and lead to Stored XSS issue as well due to the lack of sanitisation",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "remove-footer-credit"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/remove-footer-credit",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.5",
+                "1.0.4",
+                "1.0.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24446"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/remove-footer-credit"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/remove-footer-credit/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

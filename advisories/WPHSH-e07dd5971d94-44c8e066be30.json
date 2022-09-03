@@ -1,0 +1,52 @@
+{
+    "id": "WPHSH-e07dd5971d94-44c8e066be30",
+    "modified": "2022-08-01T12:09:03Z",
+    "published": "2022-08-01T12:09:03Z",
+    "aliases": [
+        "CVE-2022-2375"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wa-sticky-button"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wa-sticky-button",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2375"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wa-sticky-button"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wa-sticky-button/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

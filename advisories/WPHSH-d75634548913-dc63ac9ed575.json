@@ -1,0 +1,82 @@
+{
+    "id": "WPHSH-d75634548913-dc63ac9ed575",
+    "modified": "2019-08-23T18:43Z",
+    "published": "2019-08-21T12:15Z",
+    "aliases": [
+        "CVE-2017-18534"
+    ],
+    "summary": "FIXME",
+    "details": "The share-on-diaspora plugin before 0.7.2 for WordPress has reflected XSS in share URL parameters.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "share-on-diaspora"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/share-on-diaspora",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.7.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.7.1",
+                "0.7",
+                "0.6.4",
+                "0.6.3",
+                "0.6.2",
+                "0.6.1",
+                "0.6",
+                "0.5.7",
+                "0.5.6",
+                "0.5.5",
+                "0.5.4",
+                "0.5.3",
+                "0.5.2",
+                "0.5.1",
+                "0.5",
+                "0.4.1",
+                "0.4",
+                "0.3.3",
+                "0.3.2",
+                "0.3.1",
+                "0.3",
+                "0.2",
+                "0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18534"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/share-on-diaspora"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/share-on-diaspora/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

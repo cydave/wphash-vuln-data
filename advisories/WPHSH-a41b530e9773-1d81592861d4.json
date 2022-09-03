@@ -1,0 +1,92 @@
+{
+    "id": "WPHSH-a41b530e9773-1d81592861d4",
+    "modified": "2022-03-01T15:55Z",
+    "published": "2022-02-07T16:15Z",
+    "aliases": [
+        "CVE-2021-25084"
+    ],
+    "summary": "FIXME",
+    "details": "The Advanced Cron Manager WordPress plugin before 2.4.2 and Advanced Cron Manager Pro WordPress plugin before 2.5.3 do not have authorisation checks in some of their AJAX actions, allowing any authenticated users, such as subscriber to call them and add or remove events as well as schedules for example",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "advanced-cron-manager"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/advanced-cron-manager",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.4.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.4.1",
+                "2.4.0",
+                "2.3.10",
+                "2.3.9",
+                "2.3.8",
+                "2.3.7",
+                "2.3.6",
+                "2.3.5",
+                "2.3.4",
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.3.0",
+                "2.2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.2.0",
+                "2.1.2",
+                "2.1.1",
+                "2.1.0",
+                "2.0.0",
+                "1.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3.1",
+                "1.3.2",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25084"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/advanced-cron-manager"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/advanced-cron-manager/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-862"
+        ]
+    }
+}

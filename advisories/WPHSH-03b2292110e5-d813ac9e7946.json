@@ -1,0 +1,92 @@
+{
+    "id": "WPHSH-03b2292110e5-d813ac9e7946",
+    "modified": "2022-06-15T19:33Z",
+    "published": "2022-06-08T10:15Z",
+    "aliases": [
+        "CVE-2022-1709"
+    ],
+    "summary": "FIXME",
+    "details": "The Throws SPAM Away WordPress plugin before 3.3.1 does not have CSRF checks in place when deleting comments (either all, spam, or pending), allowing attackers to make a logged in admin delete comments via a CSRF attack",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "throws-spam-away"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/throws-spam-away",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.3.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.8.2.1",
+                "2.8.2",
+                "2.7.1",
+                "2.7",
+                "2.6.9",
+                "2.6.8",
+                "2.6.7",
+                "2.6.6",
+                "2.6.5",
+                "2.6.4",
+                "2.6.3",
+                "2.6.2",
+                "2.6.1",
+                "2.6",
+                "2.5.2.1",
+                "2.5.1",
+                "2.5",
+                "2.4",
+                "2.3.3",
+                "2.3.2",
+                "2.2",
+                "2.3.1",
+                "2.3",
+                "2.1.1",
+                "2.1",
+                "2.0",
+                "1.7",
+                "1.6.1",
+                "1.3",
+                "1.2.1",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1709"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/throws-spam-away"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/throws-spam-away/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

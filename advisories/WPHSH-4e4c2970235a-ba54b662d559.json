@@ -1,0 +1,83 @@
+{
+    "id": "WPHSH-4e4c2970235a-ba54b662d559",
+    "modified": "2018-10-30T16:27Z",
+    "published": "2012-09-04T20:55Z",
+    "aliases": [
+        "CVE-2012-2109"
+    ],
+    "summary": "FIXME",
+    "details": "SQL injection vulnerability in wp-load.php in the BuddyPress plugin 1.5.x before 1.5.5 of WordPress allows remote attackers to execute arbitrary SQL commands via the page parameter in an activity_widget_filter action.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "buddypress"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/buddypress",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5.4",
+                "1.5.3.1",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5",
+                "1.2.10",
+                "1.2.9",
+                "1.2.8",
+                "1.2.7",
+                "1.2.6",
+                "1.2.5.2",
+                "1.2.5.1",
+                "1.2.5",
+                "1.2.4.1",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2.1",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0",
+                "1.0rc2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2109"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/buddypress"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/buddypress/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "id": "WPHSH-4fbb29acab3d-853e8db8fc1d",
+    "modified": "2018-09-20T12:08Z",
+    "published": "2018-07-25T23:29Z",
+    "aliases": [
+        "CVE-2018-14430"
+    ],
+    "summary": "FIXME",
+    "details": "The Mondula Multi Step Form plugin through 1.2.5 for WordPress allows XSS via the fw_data [id][1], fw_data [id][2], fw_data [id][3], fw_data [id][4], or email field of the contact form, exploitable with an fw_send_email action to wp-admin/admin-ajax.php.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "multi-step-form"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/multi-step-form",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.6"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.8",
+                "1.1.7",
+                "1.1.6",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14430"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/multi-step-form"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/multi-step-form/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

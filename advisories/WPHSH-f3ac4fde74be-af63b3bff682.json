@@ -1,0 +1,69 @@
+{
+    "id": "WPHSH-f3ac4fde74be-af63b3bff682",
+    "modified": "2022-05-03T17:00Z",
+    "published": "2022-04-25T16:16Z",
+    "aliases": [
+        "CVE-2021-25111"
+    ],
+    "summary": "FIXME",
+    "details": "The English WordPress Admin WordPress plugin before 1.5.2 does not validate the admin_custom_language_return_url before redirecting users o it, leading to an open redirect issue",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "english-wp-admin"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/english-wp-admin",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5.1.1",
+                "1.5.1",
+                "1.5.0",
+                "1.4.1",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.1",
+                "1.2",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25111"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/english-wp-admin"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/english-wp-admin/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-601"
+        ]
+    }
+}

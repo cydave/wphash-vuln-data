@@ -1,0 +1,60 @@
+{
+    "id": "WPHSH-375a19ae5a8c-c9ce93fc1be4",
+    "modified": "2019-08-26T15:39Z",
+    "published": "2019-08-22T13:15Z",
+    "aliases": [
+        "CVE-2016-10921"
+    ],
+    "summary": "FIXME",
+    "details": "The gallery-photo-gallery plugin before 1.0.1 for WordPress has SQL injection.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "gallery-photo-gallery"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/gallery-photo-gallery",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10921"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/gallery-photo-gallery"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/gallery-photo-gallery/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

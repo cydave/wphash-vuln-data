@@ -1,0 +1,83 @@
+{
+    "id": "WPHSH-a44a9d3e39f3-e11caacafae3",
+    "modified": "2022-04-11T15:24Z",
+    "published": "2022-04-04T20:15Z",
+    "aliases": [
+        "CVE-2021-36851"
+    ],
+    "summary": "FIXME",
+    "details": "Authenticated (editor or higher user role) Cross-Site Scripting (XSS) vulnerability in Web-Settler Testimonial Slider \u2013 Free Testimonials Slider Plugin (WordPress plugin) via parameters mpsp_posts_bg_color, mpsp_posts_description_color, mpsp_slide_nav_button_color.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "testimonial-add"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/testimonial-add",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.5.8.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.5.8.3",
+                "3.5.8.2",
+                "3.5.8.1",
+                "3.5.8",
+                "3.5.7",
+                "3.5.6",
+                "3.5.5",
+                "3.5.4",
+                "3.5.3",
+                "3.5.2",
+                "3.5.1",
+                "3.5",
+                "3.4",
+                "3.3",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.7",
+                "2.6",
+                "2.4",
+                "2.2",
+                "2.0",
+                "1.2",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36851"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/testimonial-add"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/testimonial-add/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

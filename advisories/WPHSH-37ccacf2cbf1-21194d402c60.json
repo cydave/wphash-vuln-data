@@ -1,0 +1,94 @@
+{
+    "id": "WPHSH-37ccacf2cbf1-21194d402c60",
+    "modified": "2022-06-28T17:43Z",
+    "published": "2022-06-20T11:15Z",
+    "aliases": [
+        "CVE-2022-1630"
+    ],
+    "summary": "FIXME",
+    "details": "The WP-EMail WordPress plugin before 2.69.0 does not protect its log deletion functionality with nonce checks, allowing attacker to make a logged in admin delete logs via a CSRF attack",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-email"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-email",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.69.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.68.2",
+                "2.68.1",
+                "2.68.0",
+                "2.67.6",
+                "2.67.5",
+                "2.67.4",
+                "2.67.3",
+                "2.67.2",
+                "2.67.1",
+                "2.67",
+                "2.66",
+                "2.65",
+                "2.64",
+                "2.63",
+                "2.62",
+                "2.61",
+                "2.52",
+                "2.51",
+                "2.50",
+                "2.40",
+                "2.31",
+                "2.30",
+                "2.20",
+                "2.11",
+                "2.07",
+                "2.04",
+                "2.01",
+                "2.04a",
+                "1.00",
+                "2.06",
+                "2.02",
+                "2.05",
+                "2.00b",
+                "2.03",
+                "2.10"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1630"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-email"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-email/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

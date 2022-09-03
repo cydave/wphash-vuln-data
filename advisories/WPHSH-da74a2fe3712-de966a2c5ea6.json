@@ -1,0 +1,68 @@
+{
+    "id": "WPHSH-da74a2fe3712-de966a2c5ea6",
+    "modified": "2021-11-10T17:03Z",
+    "published": "2021-11-08T18:15Z",
+    "aliases": [
+        "CVE-2021-24829"
+    ],
+    "summary": "FIXME",
+    "details": "The Visitor Traffic Real Time Statistics WordPress plugin before 3.9 does not validate and escape user input passed to the today_traffic_index AJAX action (available to any authenticated users) before using it in a SQL statement, leading to an SQL injection issue",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "visitors-traffic-real-time-statistics"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/visitors-traffic-real-time-statistics",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.9"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.8",
+                "3.7",
+                "3.6",
+                "3.5",
+                "2.13",
+                "2.6",
+                "1.21",
+                "1.17",
+                "1.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24829"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/visitors-traffic-real-time-statistics"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/visitors-traffic-real-time-statistics/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

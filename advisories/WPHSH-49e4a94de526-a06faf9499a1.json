@@ -1,0 +1,108 @@
+{
+    "id": "WPHSH-49e4a94de526-a06faf9499a1",
+    "modified": "2019-08-22T17:08Z",
+    "published": "2019-08-20T16:15Z",
+    "aliases": [
+        "CVE-2015-9319"
+    ],
+    "summary": "FIXME",
+    "details": "The gregs-high-performance-seo plugin before 1.6.2 for WordPress has XSS in the context of an old browser.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "gregs-high-performance-seo"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/gregs-high-performance-seo",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.6.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.6.1",
+                "1.6",
+                "1.5.9",
+                "1.5.8",
+                "1.5.7",
+                "1.5.6",
+                "1.5.5",
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5",
+                "1.4.9.6",
+                "1.4.9.5",
+                "1.4.9.4",
+                "1.4.9.3",
+                "1.4.9.2",
+                "1.4.9.1",
+                "1.4.9",
+                "1.4.8",
+                "1.4.7",
+                "1.4.6",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3.8",
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9319"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/gregs-high-performance-seo"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/gregs-high-performance-seo/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

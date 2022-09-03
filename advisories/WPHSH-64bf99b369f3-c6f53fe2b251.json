@@ -1,0 +1,61 @@
+{
+    "id": "WPHSH-64bf99b369f3-c6f53fe2b251",
+    "modified": "2021-06-21T18:36Z",
+    "published": "2021-06-14T14:15Z",
+    "aliases": [
+        "CVE-2021-24348"
+    ],
+    "summary": "FIXME",
+    "details": "The menu delete functionality of the Side Menu \u00e2\u20ac\u201c add fixed side buttons WordPress plugin before 3.1.5, available to Administrator users takes the did GET parameter and uses it into an SQL statement without proper sanitisation, validation or escaping, therefore leading to a SQL Injection issue",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "side-menu"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/side-menu",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.1.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.1.4",
+                "2.2.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24348"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/side-menu"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/side-menu/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

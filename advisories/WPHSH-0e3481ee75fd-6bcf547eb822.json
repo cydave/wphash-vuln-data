@@ -1,0 +1,76 @@
+{
+    "id": "WPHSH-0e3481ee75fd-6bcf547eb822",
+    "modified": "2019-09-04T15:24Z",
+    "published": "2019-08-29T12:15Z",
+    "aliases": [
+        "CVE-2019-15776"
+    ],
+    "summary": "FIXME",
+    "details": "The simple-301-redirects-addon-bulk-uploader plugin before 1.2.5 for WordPress has no protection against 301 redirect rule injection via a CSV file.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "simple-301-redirects-addon-bulk-uploader"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/simple-301-redirects-addon-bulk-uploader",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.3",
+                "1.0.15",
+                "1.0.14",
+                "1.0.13",
+                "1.0.12",
+                "1.0.11",
+                "1.0.10",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15776"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/simple-301-redirects-addon-bulk-uploader"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/simple-301-redirects-addon-bulk-uploader/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-601"
+        ]
+    }
+}

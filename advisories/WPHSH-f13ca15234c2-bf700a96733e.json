@@ -1,0 +1,159 @@
+{
+    "id": "WPHSH-f13ca15234c2-bf700a96733e",
+    "modified": "2022-03-08T16:46Z",
+    "published": "2022-02-28T09:15Z",
+    "aliases": [
+        "CVE-2022-0383"
+    ],
+    "summary": "FIXME",
+    "details": "The WP Review Slider WordPress plugin before 11.0 does not sanitise and escape the pid parameter when copying a Twitter source, which could allow a high privilege users to perform SQL Injections attacks",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-facebook-reviews"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-facebook-reviews",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "11.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "10.9",
+                "10.8",
+                "10.7",
+                "10.6",
+                "10.5",
+                "10.4",
+                "10.3",
+                "10.2",
+                "10.1",
+                "10.0",
+                "9.9",
+                "9.8",
+                "9.7",
+                "9.6",
+                "9.5",
+                "9.4",
+                "9.3",
+                "9.2",
+                "9.1",
+                "9.0",
+                "8.9",
+                "8.8",
+                "8.7",
+                "8.6",
+                "8.5",
+                "8.4",
+                "8.3",
+                "8.2",
+                "8.1",
+                "8.0",
+                "7.9",
+                "7.8",
+                "7.7",
+                "7.6",
+                "7.5",
+                "7.4",
+                "7.3",
+                "7.2",
+                "7.1",
+                "7.0",
+                "6.9",
+                "6.8",
+                "6.7",
+                "6.6",
+                "6.5",
+                "6.4",
+                "6.3",
+                "6.2",
+                "6.1",
+                "6.0",
+                "5.9",
+                "5.8",
+                "5.7",
+                "5.6",
+                "5.5",
+                "5.4",
+                "5.3",
+                "5.2",
+                "5.1",
+                "5.0",
+                "4.9",
+                "4.8",
+                "4.7",
+                "4.6",
+                "4.5",
+                "4.4",
+                "4.3",
+                "4.2",
+                "4.1",
+                "4.0",
+                "3.9",
+                "3.8",
+                "3.7",
+                "3.6",
+                "3.5",
+                "3.4",
+                "3.3",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.9",
+                "2.8",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0383"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-facebook-reviews"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-facebook-reviews/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

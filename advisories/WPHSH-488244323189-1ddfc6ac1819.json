@@ -1,0 +1,96 @@
+{
+    "id": "WPHSH-488244323189-1ddfc6ac1819",
+    "modified": "2017-08-29T01:32Z",
+    "published": "2014-05-29T14:19Z",
+    "aliases": [
+        "CVE-2012-4915"
+    ],
+    "summary": "FIXME",
+    "details": "Directory traversal vulnerability in the Google Doc Embedder plugin before 2.5.4 for WordPress allows remote attackers to read arbitrary files via a .. (dot dot) in the file parameter to libs/pdf.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "google-document-embedder"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/google-document-embedder",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.5.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.5.3",
+                "2.5.2",
+                "2.5.1",
+                "2.5",
+                "2.4.6",
+                "2.4.5",
+                "2.4.4",
+                "2.4.3",
+                "2.4.2",
+                "2.4.1",
+                "2.4",
+                "2.3",
+                "2.2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.2",
+                "2.1.0",
+                "2.0",
+                "1.9.8",
+                "1.9.7",
+                "1.9.6",
+                "1.9.5",
+                "1.9.4",
+                "1.9.3",
+                "1.9.2",
+                "1.9.1",
+                "1.9",
+                "1.8.2",
+                "1.8.1",
+                "1.8",
+                "1.7.3",
+                "1.7.2",
+                "1.7.1",
+                "1.7",
+                "1.6",
+                "1.5.1",
+                "1.5",
+                "1.0.3",
+                "1.0.2",
+                "1.0",
+                "0.3",
+                "0.2.1",
+                "0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4915"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/google-document-embedder"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/google-document-embedder/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-22"
+        ]
+    }
+}

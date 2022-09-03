@@ -1,0 +1,81 @@
+{
+    "id": "WPHSH-7090ac01bd77-1216a0a5c0eb",
+    "modified": "2021-10-28T14:30Z",
+    "published": "2021-10-25T14:15Z",
+    "aliases": [
+        "CVE-2021-24489"
+    ],
+    "summary": "FIXME",
+    "details": "The Request a Quote WordPress plugin before 2.3.5 does not sanitise, validate or escape some of its settings in the admin dashboard, leading to authenticated Stored Cross-Site Scripting issues even when the unfiltered_html capability is disallowed.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "request-a-quote"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/request-a-quote",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.3.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.3.4",
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.3.0",
+                "2.2.0",
+                "2.1.0",
+                "2.0.5",
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.9.6",
+                "1.9.5",
+                "1.9.1",
+                "1.9.0",
+                "1.8.0",
+                "1.7.0",
+                "1.6.0",
+                "1.5.0",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24489"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/request-a-quote"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/request-a-quote/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

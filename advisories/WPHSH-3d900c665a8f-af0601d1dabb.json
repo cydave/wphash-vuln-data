@@ -1,0 +1,166 @@
+{
+    "id": "WPHSH-3d900c665a8f-af0601d1dabb",
+    "modified": "2022-04-04T16:03Z",
+    "published": "2022-03-28T18:15Z",
+    "aliases": [
+        "CVE-2021-24746"
+    ],
+    "summary": "FIXME",
+    "details": "The Social Sharing Plugin WordPress plugin before 3.3.40 does not escape the viewed post URL before outputting it back in onclick attributes when the \"Enable 'More' icon\" option is enabled (which is the default setting), leading to a Reflected Cross-Site Scripting issue.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "sassy-social-share"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/sassy-social-share",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.3.40"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.3.39",
+                "3.3.38",
+                "3.3.37",
+                "3.3.36",
+                "3.3.35",
+                "3.3.34",
+                "3.3.33",
+                "3.3.32",
+                "3.3.31",
+                "3.3.30",
+                "3.3.29",
+                "3.3.28",
+                "3.3.27",
+                "3.3.26",
+                "3.3.25",
+                "3.3.24",
+                "3.3.23",
+                "3.3.22",
+                "3.3.21",
+                "3.3.20",
+                "3.3.19",
+                "3.3.18",
+                "3.3.17",
+                "3.3.16",
+                "3.3.15",
+                "3.3.14",
+                "3.3.13",
+                "3.3.12",
+                "3.3.11",
+                "3.3.10",
+                "3.3.9",
+                "3.3.8",
+                "3.3.7",
+                "3.3.6",
+                "3.3.5",
+                "3.3.4",
+                "3.3.3",
+                "3.3.2",
+                "3.3.1",
+                "3.3",
+                "3.2.28",
+                "3.2.27",
+                "3.2.26",
+                "3.2.25",
+                "3.2.24",
+                "3.2.23",
+                "3.2.22",
+                "3.2.21",
+                "3.2.20",
+                "3.2.19",
+                "3.2.18",
+                "3.2.17",
+                "3.2.16",
+                "3.2.15",
+                "3.2.14",
+                "3.2.13",
+                "3.2.12",
+                "3.2.11",
+                "3.2.10",
+                "3.2.9",
+                "3.2.8",
+                "3.2.7",
+                "3.2.6",
+                "3.2.5",
+                "3.2.4",
+                "3.2.3",
+                "3.2.2",
+                "3.2.1",
+                "3.2",
+                "3.1.10",
+                "3.1.9",
+                "3.1.8",
+                "3.1.7",
+                "3.1.6",
+                "3.1.5",
+                "3.1.4",
+                "3.1.3",
+                "3.1.2",
+                "3.1.1",
+                "3.1",
+                "3.0",
+                "2.5.8",
+                "2.5.7",
+                "2.5.6",
+                "2.5.5",
+                "2.5.4",
+                "2.5.3",
+                "2.5.2",
+                "2.5.1",
+                "2.5",
+                "2.4.5",
+                "2.4.4",
+                "2.4.3",
+                "2.4.2",
+                "2.4.1",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.7.2",
+                "1.7.1",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24746"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/sassy-social-share"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/sassy-social-share/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

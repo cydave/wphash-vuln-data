@@ -1,0 +1,105 @@
+{
+    "id": "WPHSH-2296392fef22-461133b80b7e",
+    "modified": "2019-08-26T13:44Z",
+    "published": "2019-08-22T13:15Z",
+    "aliases": [
+        "CVE-2013-7481"
+    ],
+    "summary": "FIXME",
+    "details": "The contact-form-plugin plugin before 3.3.5 for WordPress has XSS.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "contact-form-plugin"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/contact-form-plugin",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.35"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.34",
+                "3.33",
+                "3.32",
+                "3.31",
+                "3.30",
+                "3.29",
+                "3.28",
+                "3.27",
+                "3.26",
+                "3.25",
+                "3.24",
+                "3.23",
+                "3.22",
+                "3.21",
+                "3.20",
+                "3.19",
+                "3.18",
+                "3.17",
+                "3.16",
+                "3.15",
+                "3.14",
+                "3.13",
+                "3.12",
+                "3.11",
+                "3.10",
+                "3.09",
+                "3.08",
+                "3.07",
+                "3.06",
+                "3.05",
+                "3.04",
+                "3.03",
+                "3.02",
+                "2011.3.01",
+                "2011.2.08",
+                "2011.2.07",
+                "2011.2.06",
+                "2011.2.05",
+                "2011.2.04",
+                "2011.2.03",
+                "2011.2.02",
+                "2011.2.01",
+                "2011.1.03",
+                "2011.05.28",
+                "2011.05.27",
+                "2011.05.26"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-7481"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/contact-form-plugin"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/contact-form-plugin/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,168 @@
+{
+    "id": "WPHSH-686e34dbfe6c-e9aa9715212d",
+    "modified": "2022-08-05T11:03Z",
+    "published": "2021-11-01T21:15Z",
+    "aliases": [
+        "CVE-2021-39341"
+    ],
+    "summary": "FIXME",
+    "details": "The OptinMonster WordPress plugin is vulnerable to sensitive information disclosure and unauthorized setting updates due to insufficient authorization validation via the logged_in_or_has_api_key function in the ~/OMAPI/RestApi.php file that can used to exploit inject malicious web scripts on sites with the plugin installed. This affects versions up to, and including, 2.6.4.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "optinmonster"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/optinmonster",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.6.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.6.4",
+                "2.6.3",
+                "2.0.5",
+                "2.2.2",
+                "2.1.3",
+                "2.5.3",
+                "2.4.3",
+                "2.3.5",
+                "2.6.2",
+                "2.0.4",
+                "2.4.2",
+                "2.3.4",
+                "2.1.2",
+                "2.2.1",
+                "2.5.2",
+                "2.6.1",
+                "2.6.0",
+                "2.5.1",
+                "2.5.0",
+                "2.4.1",
+                "2.3.3",
+                "2.3.2",
+                "2.1.1",
+                "2.1.0",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.9.18",
+                "1.9.15",
+                "1.9.16",
+                "1.9.17",
+                "1.9.14",
+                "1.9.13",
+                "1.9.12",
+                "1.9.11",
+                "1.9.10",
+                "1.9.9",
+                "1.5.2",
+                "1.5.1",
+                "1.4.2",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.9",
+                "1.1.8",
+                "1.1.7",
+                "1.1.6.2",
+                "1.1.6.1",
+                "1.1.6",
+                "1.1.5.9",
+                "1.1.5.8",
+                "1.1.5.7",
+                "1.1.5.6",
+                "1.1.5.5",
+                "1.1.5.4",
+                "1.1.5.3",
+                "1.1.5.2",
+                "1.1.5.1",
+                "1.1.5",
+                "1.1.4.7",
+                "1.1.4.6",
+                "1.1.4.5",
+                "1.1.4.4",
+                "1.1.4.3",
+                "1.1.4.2",
+                "1.1.4",
+                "1.1.3.9",
+                "1.1.3.8",
+                "1.1.3.7",
+                "1.1.3.6",
+                "1.1.3.5",
+                "1.1.3.4",
+                "1.1.3.3",
+                "1.1.3.2",
+                "1.1.3.1",
+                "1.1.3",
+                "1.1.2.7",
+                "1.1.2.6",
+                "1.1.2.5",
+                "1.1.2.4",
+                "1.1.2.3",
+                "1.1.2.2",
+                "1.1.2.1",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0.5",
+                "1.1.0.4",
+                "1.1.0.3",
+                "1.1.0.2",
+                "1.1.0.1",
+                "1.1.0",
+                "1.0.0.9",
+                "1.0.0.8",
+                "1.0.0.7",
+                "1.0.0.6",
+                "1.0.0.5",
+                "1.0.0.4",
+                "1.0.0.3",
+                "1.0.0.2",
+                "1.0.0.1",
+                "1.0.0",
+                "0.9.9",
+                "0.9.8"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39341"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/optinmonster"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/optinmonster/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-863"
+        ]
+    }
+}

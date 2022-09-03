@@ -1,0 +1,54 @@
+{
+    "id": "WPHSH-06b8614b4e02-a2ee10745da8",
+    "modified": "2017-08-29T01:31Z",
+    "published": "2014-06-19T14:55Z",
+    "aliases": [
+        "CVE-2012-2572"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in the ThreeWP Email Reflector plugin before 1.16 for WordPress allows remote attackers to inject arbitrary web script or HTML via the Subject of an email.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "threewp-email-reflector"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/threewp-email-reflector",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.16"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.15"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2572"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/threewp-email-reflector"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/threewp-email-reflector/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

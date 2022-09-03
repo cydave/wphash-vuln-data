@@ -1,0 +1,61 @@
+{
+    "id": "WPHSH-03717622cfe9-c910ae9a4b2d",
+    "modified": "2020-08-24T17:37Z",
+    "published": "2018-06-19T19:29Z",
+    "aliases": [
+        "CVE-2018-11525"
+    ],
+    "summary": "FIXME",
+    "details": "The plugin \"Advanced Order Export For WooCommerce\" for WordPress (v1.5.4 and before) is vulnerable to CSV Injection.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "woo-order-export-lite"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/woo-order-export-lite",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5.4",
+                "1.5.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11525"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/woo-order-export-lite"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/woo-order-export-lite/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-1236"
+        ]
+    }
+}

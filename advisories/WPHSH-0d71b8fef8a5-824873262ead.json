@@ -1,0 +1,113 @@
+{
+    "id": "WPHSH-0d71b8fef8a5-824873262ead",
+    "modified": "2022-07-04T13:15Z",
+    "published": "2021-10-25T14:15Z",
+    "aliases": [
+        "CVE-2021-24485"
+    ],
+    "summary": "FIXME",
+    "details": "The Special Text Boxes WordPress plugin before 5.9.110 does not sanitise or escape some of its settings, which could allow high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html is disallowed.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-special-textboxes"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-special-textboxes",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.9.110"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "5.9.109",
+                "5.9.108",
+                "5.9.107",
+                "5.7.105",
+                "5.6.103",
+                "5.5.102",
+                "5.5.101",
+                "5.5.100",
+                "5.4.98",
+                "5.3.97",
+                "5.3.96",
+                "5.3.95",
+                "5.3.94",
+                "5.3.93",
+                "5.2.91",
+                "5.1.90",
+                "5.1.88",
+                "5.0.86",
+                "5.0.85",
+                "4.5.81",
+                "4.5.80",
+                "4.4.75",
+                "4.3.73",
+                "4.3.72",
+                "4.2.70",
+                "4.1.69",
+                "4.0.65",
+                "3.10.60",
+                "3.10.59",
+                "3.9.57",
+                "3.8.55",
+                "3.7.52",
+                "3.7.51",
+                "3.6.49",
+                "4.6.49",
+                "3.5.45",
+                "3.5.44",
+                "3.4.41",
+                "3.4.40",
+                "3.3.35",
+                "3.2.32",
+                "3.2.31",
+                "3.1.29",
+                "3.0.27",
+                "2.0.25",
+                "2.0.23",
+                "2.0.22",
+                "2.0.20",
+                "1.2.13",
+                "1.2.12",
+                "1.2.11",
+                "1.1.7",
+                "1.1.6",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24485"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-special-textboxes"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-special-textboxes/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "id": "WPHSH-72b55ec855b2-739239924649",
+    "modified": "2019-08-28T19:39Z",
+    "published": "2019-08-27T13:15Z",
+    "aliases": [
+        "CVE-2015-9352"
+    ],
+    "summary": "FIXME",
+    "details": "The wp-polls plugin before 2.72 for WordPress has SQL injection.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-polls"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-polls",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.72"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.71",
+                "2.70",
+                "2.69",
+                "2.68",
+                "2.67",
+                "2.66",
+                "2.65",
+                "2.64",
+                "2.50",
+                "2.40",
+                "2.31",
+                "2.30",
+                "2.21",
+                "2.20",
+                "2.04",
+                "2.02a",
+                "1.00",
+                "2.06",
+                "2.11",
+                "2.12",
+                "2.13",
+                "2.05",
+                "2.03",
+                "2.06a",
+                "2.10",
+                "2.06b",
+                "2.14"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9352"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-polls"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-polls/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

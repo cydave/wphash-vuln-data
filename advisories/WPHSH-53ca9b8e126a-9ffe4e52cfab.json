@@ -1,0 +1,61 @@
+{
+    "id": "WPHSH-53ca9b8e126a-9ffe4e52cfab",
+    "modified": "2019-08-29T12:47Z",
+    "published": "2019-08-22T19:15Z",
+    "aliases": [
+        "CVE-2014-10394"
+    ],
+    "summary": "FIXME",
+    "details": "The rich-counter plugin before 1.2.0 for WordPress has JavaScript injection via a User-Agent header.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "rich-counter"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/rich-counter",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.0",
+                "1.0.5"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-10394"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/rich-counter"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/rich-counter/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-74"
+        ]
+    }
+}

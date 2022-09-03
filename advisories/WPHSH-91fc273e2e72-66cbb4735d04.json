@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-91fc273e2e72-66cbb4735d04",
+    "modified": "2021-09-02T18:22Z",
+    "published": "2014-04-10T20:29Z",
+    "aliases": [
+        "CVE-2013-2699"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in the underConstruction plugin before 1.09 for WordPress allows remote attackers to hijack the authentication of administrators for requests that deactivate a plugin via unspecified vectors.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "underconstruction"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/underconstruction",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.09"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.08",
+                "1.07",
+                "1.06",
+                "1.05",
+                "1.04",
+                "1.03",
+                "1.02",
+                "1.01",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2699"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/underconstruction"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/underconstruction/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

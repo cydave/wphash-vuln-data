@@ -1,0 +1,101 @@
+{
+    "id": "WPHSH-5a4fd375b666-50a56ec736f9",
+    "modified": "2019-09-18T19:43Z",
+    "published": "2019-09-17T15:15Z",
+    "aliases": [
+        "CVE-2016-10992"
+    ],
+    "summary": "FIXME",
+    "details": "The music-store plugin before 1.0.43 for WordPress has XSS via the wp-admin/admin.php?page=music-store-menu-reports from_year parameter.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "music-store"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/music-store",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.43"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.42",
+                "1.0.41",
+                "1.0.40",
+                "1.0.39",
+                "1.0.38",
+                "1.0.37",
+                "1.0.36",
+                "1.0.35",
+                "1.0.34",
+                "1.0.33",
+                "1.0.32",
+                "1.0.31",
+                "1.0.30",
+                "1.0.29",
+                "1.0.28",
+                "1.0.27",
+                "1.0.26",
+                "1.0.25",
+                "1.0.24",
+                "1.0.23",
+                "1.0.22",
+                "1.0.21",
+                "1.0.20",
+                "1.0.19",
+                "1.0.18",
+                "1.0.17",
+                "1.0.16",
+                "1.0.15",
+                "1.0.14",
+                "1.0.13",
+                "1.0.12",
+                "1.0.11",
+                "1.0.10",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10992"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/music-store"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/music-store/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "id": "WPHSH-6dbc225a436c-adbfc6333483",
+    "modified": "2019-12-16T17:49Z",
+    "published": "2019-12-11T19:15Z",
+    "aliases": [
+        "CVE-2013-5978"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple cross-site scripting (XSS) vulnerabilities in products.php in the Cart66 Lite plugin before 1.5.1.15 for WordPress allow remote attackers to inject arbitrary web script or HTML via the (1) Product name or (2) Price description fields via a request to wp-admin/admin.php. NOTE: This issue may only cross privilege boundaries if used in combination with CVE-2013-5977.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "cart66-lite"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/cart66-lite",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5.1.15"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5.1.14",
+                "1.5.1.8",
+                "1.5.1.2",
+                "1.5.1.1",
+                "1.5.1",
+                "1.5.0.2",
+                "1.5.0.1",
+                "1.5.0",
+                "1.4.9",
+                "1.4.8",
+                "1.4.7",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.0",
+                "1.1.6",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.8",
+                "1.0.7",
+                "1.0.5",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5978"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/cart66-lite"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/cart66-lite/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

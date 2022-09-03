@@ -1,0 +1,69 @@
+{
+    "id": "WPHSH-4771e5a54bc3-c1d2cd753755",
+    "modified": "2022-07-29T13:47:05Z",
+    "published": "2022-07-29T13:47:05Z",
+    "aliases": [
+        "CVE-2022-34868"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "yookassa"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/yookassa",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.3.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.3.0",
+                "2.2.5",
+                "2.2.4",
+                "2.2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.2.0",
+                "2.1.5",
+                "2.1.4",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1.0",
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34868"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/yookassa"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/yookassa/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

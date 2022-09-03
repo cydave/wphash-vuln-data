@@ -1,0 +1,70 @@
+{
+    "id": "WPHSH-625a2315a552-c4bfcf222e69",
+    "modified": "2022-02-24T15:19Z",
+    "published": "2022-02-16T17:15Z",
+    "aliases": [
+        "CVE-2022-24665"
+    ],
+    "summary": "FIXME",
+    "details": "PHP Everywhere <= 2.0.3 included functionality that allowed execution of PHP Code Snippets via a WordPress gutenberg block by any user able to edit posts.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "php-everywhere"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/php-everywhere",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.0.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-24665"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/php-everywhere"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/php-everywhere/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-94"
+        ]
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "id": "WPHSH-83f0b84858c8-0a466dda98c4",
+    "modified": "2021-04-12T12:57Z",
+    "published": "2021-04-05T19:15Z",
+    "aliases": [
+        "CVE-2021-24211"
+    ],
+    "summary": "FIXME",
+    "details": "The WordPress Related Posts plugin through 3.6.4 contains an authenticated (admin+) stored XSS vulnerability in the title field on the settings page. By exploiting that an attacker will be able to execute JavaScript code in the user's browser.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wordpress-23-related-posts-plugin"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wordpress-23-related-posts-plugin",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.6.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.6.4",
+                "3.6.3",
+                "3.6.2",
+                "3.6.1",
+                "3.6",
+                "3.5.4",
+                "3.5.3",
+                "3.5.2",
+                "3.5.1",
+                "3.5",
+                "3.4.3",
+                "3.4.2",
+                "3.4.1",
+                "3.4",
+                "3.3.3",
+                "3.3.2",
+                "3.3.1",
+                "3.3",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.9",
+                "2.8",
+                "2.7",
+                "2.6.3",
+                "2.6.2",
+                "2.6.1",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0.2",
+                "2.0.1",
+                "2.0",
+                "1.7",
+                "1.6",
+                "1.5.2",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2.1",
+                "1.2",
+                "1.1.1",
+                "1.1",
+                "1.0",
+                "0.9",
+                "0.8",
+                "0.7",
+                "0.6",
+                "0.51"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24211"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wordpress-23-related-posts-plugin"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wordpress-23-related-posts-plugin/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

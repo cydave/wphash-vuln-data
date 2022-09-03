@@ -1,0 +1,153 @@
+{
+    "id": "WPHSH-60864debeb34-87c4be0b507c",
+    "modified": "2016-08-04T03:17Z",
+    "published": "2015-03-09T16:59Z",
+    "aliases": [
+        "CVE-2015-1874"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in the Contact Form DB (aka CFDB and contact-form-7-to-database-extension) plugin before 2.8.32 for WordPress allows remote attackers to hijack the authentication of administrators for requests that delete all plugin records via a request in the CF7DBPluginSubmissions page to wp-admin/admin.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "contact-form-7-to-database-extension"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/contact-form-7-to-database-extension",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.8.32"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.8.31",
+                "2.8.28",
+                "2.8.27",
+                "2.8.26",
+                "2.8.25",
+                "2.8.24",
+                "2.8.23",
+                "2.8.22",
+                "2.8.21",
+                "2.8.20",
+                "2.8.19",
+                "2.8.18",
+                "2.8.17",
+                "2.8.16",
+                "2.8.15",
+                "2.8.14",
+                "2.8.13",
+                "2.8.12",
+                "2.8.11",
+                "2.8.10",
+                "2.8.9",
+                "2.8.8",
+                "2.8.7",
+                "2.8.6",
+                "2.8.5",
+                "2.8.4",
+                "2.8.3",
+                "2.8.2",
+                "2.8.1",
+                "2.8",
+                "2.7.5",
+                "2.7.4",
+                "2.7.3",
+                "2.7.2",
+                "2.7.1",
+                "2.7",
+                "2.6.3",
+                "2.6.2.1",
+                "2.6.2",
+                "2.6.1",
+                "2.6",
+                "2.5.2",
+                "2.5.1",
+                "2.5",
+                "2.4.8",
+                "2.4.7",
+                "2.4.6",
+                "2.4.5",
+                "2.4.4",
+                "2.4.3",
+                "2.4.2",
+                "2.4.1",
+                "2.4",
+                "2.3.2",
+                "2.3.1",
+                "2.3",
+                "2.2.7",
+                "2.2.6",
+                "2.2.5",
+                "2.2.4",
+                "2.2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.2",
+                "2.1",
+                "2.0.2",
+                "2.0.1",
+                "2.0",
+                "1.8.8",
+                "1.8.7",
+                "1.8.6",
+                "1.8.5",
+                "1.8.4",
+                "1.8.4RC1",
+                "1.8.3",
+                "1.8.3RC1",
+                "1.8.2",
+                "1.8.1",
+                "1.8",
+                "1.7",
+                "1.6.5",
+                "1.6.4",
+                "1.6.3",
+                "1.6.2",
+                "1.6.1",
+                "1.6",
+                "1.5",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-1874"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/contact-form-7-to-database-extension"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/contact-form-7-to-database-extension/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "id": "WPHSH-ba871e5cbfb5-67d686847bcd",
+    "modified": "2022-05-03T16:59Z",
+    "published": "2022-04-25T16:16Z",
+    "aliases": [
+        "CVE-2021-46780"
+    ],
+    "summary": "FIXME",
+    "details": "The Easy Google Maps WordPress plugin before 1.9.32 does not escape the tab parameter before outputting it back in an attribute in the admin dashboard, leading to a Reflected Cross-Site Scripting",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "google-maps-easy"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/google-maps-easy",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.9.32"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.9.31",
+                "1.9.30",
+                "1.9.29",
+                "1.9.28",
+                "1.9.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46780"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/google-maps-easy"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/google-maps-easy/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

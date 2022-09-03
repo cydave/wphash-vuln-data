@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-7f9d2eae3cb9-6e63b834bfc1",
+    "modified": "2014-10-22T17:33Z",
+    "published": "2014-10-15T14:55Z",
+    "aliases": [
+        "CVE-2014-6312"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in the Login Widget With Shortcode (login-sidebar-widget) plugin before 3.2.1 for WordPress allows remote attackers to hijack the authentication of administrators for requests that conduct cross-site scripting (XSS) attacks via the custom_style_afo parameter on the login_widget_afo page to wp-admin/options-general.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "login-sidebar-widget"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/login-sidebar-widget",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.2.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.1.1",
+                "2.2.4",
+                "2.2.3",
+                "2.1.3",
+                "2.1.2",
+                "2.0.2",
+                "2.0.1",
+                "1.0.2",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6312"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/login-sidebar-widget"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/login-sidebar-widget/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

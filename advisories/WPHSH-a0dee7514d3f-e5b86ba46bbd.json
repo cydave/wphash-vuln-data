@@ -1,0 +1,70 @@
+{
+    "id": "WPHSH-a0dee7514d3f-e5b86ba46bbd",
+    "modified": "2020-08-24T17:37Z",
+    "published": "2018-06-19T19:29Z",
+    "aliases": [
+        "CVE-2018-11526"
+    ],
+    "summary": "FIXME",
+    "details": "The plugin \"WordPress Comments Import & Export\" for WordPress (v2.0.4 and before) is vulnerable to CSV Injection.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "comments-import-export-woocommerce"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/comments-import-export-woocommerce",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.0.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.0.4",
+                "1.04",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11526"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/comments-import-export-woocommerce"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/comments-import-export-woocommerce/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-1236"
+        ]
+    }
+}

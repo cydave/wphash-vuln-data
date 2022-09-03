@@ -1,0 +1,121 @@
+{
+    "id": "WPHSH-b7029b654d8a-232b79536fe5",
+    "modified": "2020-03-06T11:15Z",
+    "published": "2018-12-12T16:29Z",
+    "aliases": [
+        "CVE-2018-20101"
+    ],
+    "summary": "FIXME",
+    "details": "The codection \"Import users from CSV with meta\" plugin before 1.12.1 for WordPress allows XSS via the value of a cell.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "import-users-from-csv-with-meta"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/import-users-from-csv-with-meta",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.12.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.12",
+                "1.11.3.17",
+                "1.11.3.16",
+                "1.11.3.15",
+                "1.11.3.14",
+                "1.11.3.13",
+                "1.11.3.12",
+                "1.11.3.11",
+                "1.11.3.10",
+                "1.11.3.9",
+                "1.11.3.8.1",
+                "1.11.3.8",
+                "1.11.3.7",
+                "1.11.3.6",
+                "1.11.3.5",
+                "1.11.3.4",
+                "1.11.3.3",
+                "1.11.3.2",
+                "1.11.3.1",
+                "1.11.3",
+                "1.11.2",
+                "1.11.1",
+                "1.11",
+                "1.10.13",
+                "1.10.12",
+                "1.10.11.1",
+                "1.10.11",
+                "1.10.10",
+                "1.10.9.1",
+                "1.10.9",
+                "1.10.8.2",
+                "1.10.8.1",
+                "1.10.8",
+                "1.10.7.5",
+                "1.10.7.4",
+                "1.10.7.3",
+                "1.10.7.2",
+                "1.10.7.1",
+                "1.10.7",
+                "1.10.6.9",
+                "1.10.6.8.1",
+                "1.10.6.8",
+                "1.10.6.7",
+                "1.10.6.6",
+                "1.10.6.5",
+                "1.10.6.4",
+                "1.10.6.3",
+                "1.10.6.2",
+                "1.10.6.1",
+                "1.10.6",
+                "1.10.5",
+                "1.10.4",
+                "1.10.3.1",
+                "1.10.3",
+                "1.10.2.2",
+                "1.10.2.1",
+                "1.10.2",
+                "1.10.1",
+                "1.9.9.9",
+                "1.9.9.8",
+                "1.9.9.7",
+                "1.9.9.6"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20101"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/import-users-from-csv-with-meta"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/import-users-from-csv-with-meta/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

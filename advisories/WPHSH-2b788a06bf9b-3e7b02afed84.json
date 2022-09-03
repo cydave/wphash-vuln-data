@@ -1,0 +1,71 @@
+{
+    "id": "WPHSH-2b788a06bf9b-3e7b02afed84",
+    "modified": "2018-01-24T15:28Z",
+    "published": "2018-01-13T00:29Z",
+    "aliases": [
+        "CVE-2018-5655"
+    ],
+    "summary": "FIXME",
+    "details": "An issue was discovered in the weblizar-pinterest-feeds plugin 1.1.1 for WordPress. XSS exists via the wp-admin/admin-ajax.php security parameter.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "weblizar-pinterest-feeds"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/weblizar-pinterest-feeds",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.1",
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5655"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/weblizar-pinterest-feeds"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/weblizar-pinterest-feeds/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

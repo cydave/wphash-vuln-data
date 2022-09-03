@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-1261b9f169c8-7818aca09bee",
+    "modified": "2015-09-16T19:29Z",
+    "published": "2014-07-10T16:55Z",
+    "aliases": [
+        "CVE-2014-4854"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in the WP Construction Mode plugin 1.8 for WordPress allows remote attackers to inject arbitrary web script or HTML via the wuc_logo parameter in a save action to wp-admin/admin.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-construction-mode"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-construction-mode",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.9"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4854"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-construction-mode"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-construction-mode/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

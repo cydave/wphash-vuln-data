@@ -1,0 +1,81 @@
+{
+    "id": "WPHSH-6dbc225a436c-e37fd9a029e9",
+    "modified": "2018-08-13T21:47Z",
+    "published": "2013-11-01T15:55Z",
+    "aliases": [
+        "CVE-2013-5977"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site request forgery (CSRF) vulnerability in Cart66Product.php in the Cart66 Lite plugin before 1.5.1.15 for WordPress allows remote attackers to hijack the authentication of administrators for requests that (1) create or modify products or conduct cross-site scripting (XSS) attacks via the (2) Product name or (3) Price description field in a product save action via a request to wp-admin/admin.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "cart66-lite"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/cart66-lite",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5.1.15"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5.1.14",
+                "1.5.1.8",
+                "1.5.1.2",
+                "1.5.1.1",
+                "1.5.1",
+                "1.5.0.2",
+                "1.5.0.1",
+                "1.5.0",
+                "1.4.9",
+                "1.4.8",
+                "1.4.7",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.0",
+                "1.1.6",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.8",
+                "1.0.7",
+                "1.0.5",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5977"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/cart66-lite"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/cart66-lite/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

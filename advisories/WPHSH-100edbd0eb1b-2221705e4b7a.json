@@ -1,0 +1,178 @@
+{
+    "id": "WPHSH-100edbd0eb1b-2221705e4b7a",
+    "modified": "2017-05-05T17:19Z",
+    "published": "2017-04-28T16:59Z",
+    "aliases": [
+        "CVE-2017-2136"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting vulnerability in WP Statistics version 12.0.4 and earlier allows remote attackers to inject arbitrary web script or HTML via specially crafted HTTP Referer headers.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-statistics"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-statistics",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "12.0.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "12.0.4",
+                "12.0.3",
+                "12.0.2",
+                "12.0.1",
+                "12.0",
+                "11.0.3",
+                "11.0.2",
+                "11.0.1",
+                "11.0",
+                "10.3",
+                "10.2",
+                "10.1",
+                "10.0.5",
+                "10.0.4",
+                "10.0.3",
+                "10.0.2",
+                "10.0.1",
+                "10.0",
+                "9.7",
+                "9.6.6",
+                "9.6.5",
+                "2.6.5",
+                "9.6.4",
+                "9.6.3",
+                "9.6.2",
+                "9.6.1",
+                "9.6",
+                "9.5.3",
+                "9.5.2",
+                "9.5.1",
+                "9.5",
+                "9.4.1",
+                "9.4",
+                "9.3.1",
+                "9.3",
+                "9.2",
+                "9.1.3",
+                "9.1.2",
+                "9.1.1",
+                "9.1",
+                "9.0",
+                "8.8.1",
+                "8.8",
+                "8.7.2",
+                "8.7.1",
+                "8.7",
+                "8.6.3",
+                "8.6.2",
+                "8.6.1",
+                "8.6",
+                "8.5.1",
+                "8.5",
+                "8.4",
+                "8.3.1",
+                "8.3",
+                "8.2",
+                "8.1.1",
+                "8.1",
+                "8.0",
+                "7.4",
+                "7.3",
+                "7.2",
+                "7.1",
+                "7.0.4",
+                "7.0.3",
+                "7.0.2",
+                "7.0.1",
+                "7.0",
+                "6.1",
+                "6.0",
+                "5.4",
+                "5.3",
+                "5.2",
+                "5.1",
+                "4.8.1",
+                "5.0",
+                "4.8",
+                "4.7",
+                "4.6.1",
+                "4.6",
+                "4.5",
+                "4.4",
+                "4.3.1",
+                "4.3",
+                "4.2",
+                "4.1",
+                "4.0",
+                "3.2",
+                "3.1.4",
+                "3.1.3",
+                "3.1.2",
+                "3.1.1",
+                "3.1.0",
+                "3.0.2",
+                "3.0.1",
+                "3.0",
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.2.9",
+                "2.3.0",
+                "2.2.8",
+                "2.2.7",
+                "2.2.5",
+                "2.2.6",
+                "2.2.4",
+                "2.2.3",
+                "2.2.2",
+                "2.2.1",
+                "2.2.0",
+                "2.1.6",
+                "2.1.5",
+                "2.1.4",
+                "2.1.3",
+                "2.1.2",
+                "2.1.1",
+                "2.1",
+                "2.0",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2136"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-statistics"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-statistics/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

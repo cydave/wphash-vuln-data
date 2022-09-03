@@ -1,0 +1,78 @@
+{
+    "id": "WPHSH-30b0554c272f-196fa0767924",
+    "modified": "2021-11-04T12:51Z",
+    "published": "2021-10-18T14:15Z",
+    "aliases": [
+        "CVE-2021-24677"
+    ],
+    "summary": "FIXME",
+    "details": "The Find My Blocks WordPress plugin before 3.4.0 does not have authorisation checks in its REST API, which could allow unauthenticated users to enumerate private posts' titles.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "find-my-blocks"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/find-my-blocks",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.4.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.3.2",
+                "3.3.1",
+                "3.3.0",
+                "3.2.0",
+                "3.1.3",
+                "3.1.2",
+                "3.1.0",
+                "3.0.0",
+                "2.3.0",
+                "2.2.1",
+                "2.2.0",
+                "2.1.0",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.4.0",
+                "1.3.0.6",
+                "1.3.0.5",
+                "1.3.0.4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24677"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/find-my-blocks"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/find-my-blocks/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-862"
+        ]
+    }
+}

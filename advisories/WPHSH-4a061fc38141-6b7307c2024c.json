@@ -1,0 +1,77 @@
+{
+    "id": "WPHSH-4a061fc38141-6b7307c2024c",
+    "modified": "2018-01-19T18:40Z",
+    "published": "2018-01-08T07:29Z",
+    "aliases": [
+        "CVE-2018-5288"
+    ],
+    "summary": "FIXME",
+    "details": "The GD Rating System plugin 2.3 for WordPress has XSS via the wp-admin/admin.php panel parameter for the gd-rating-system-transfer page.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "gd-rating-system"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/gd-rating-system",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.3.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.3",
+                "2.2",
+                "2.1.1",
+                "2.1",
+                "2.0.2",
+                "2.0.1",
+                "2.0",
+                "1.4",
+                "1.3.1",
+                "1.3",
+                "1.2",
+                "1.1.1",
+                "1.1",
+                "1.0.3",
+                "1.0.2.1",
+                "1.0.2",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5288"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/gd-rating-system"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/gd-rating-system/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

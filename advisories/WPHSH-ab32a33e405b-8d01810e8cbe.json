@@ -1,0 +1,74 @@
+{
+    "id": "WPHSH-ab32a33e405b-8d01810e8cbe",
+    "modified": "2019-09-26T14:54Z",
+    "published": "2019-09-26T02:15Z",
+    "aliases": [
+        "CVE-2015-9434"
+    ],
+    "summary": "FIXME",
+    "details": "The kiwi-logo-carousel plugin before 1.7.2 for WordPress has CSRF with resultant XSS via the wp-admin/edit.php?post_type=kwlogos&page=kwlogos_settings tab or tab_flags_order parameter.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "kiwi-logo-carousel"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/kiwi-logo-carousel",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.7.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.7.1",
+                "1.7.0",
+                "1.6.1",
+                "1.6.0",
+                "1.6.0 Beta",
+                "1.5.1",
+                "1.5.0",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.1",
+                "1.2.0",
+                "1.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9434"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/kiwi-logo-carousel"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/kiwi-logo-carousel/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

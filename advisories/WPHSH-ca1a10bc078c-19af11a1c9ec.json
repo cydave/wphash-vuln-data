@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-ca1a10bc078c-19af11a1c9ec",
+    "modified": "2017-08-29T01:33Z",
+    "published": "2013-09-30T22:55Z",
+    "aliases": [
+        "CVE-2013-5963"
+    ],
+    "summary": "FIXME",
+    "details": "Unrestricted file upload vulnerability in multi.php in Simple Dropbox Upload plugin before 1.8.8.1 for WordPress allows remote attackers to execute arbitrary code by uploading a file with an executable extension, then accessing it via a direct request to the file in wp-content/uploads/wpdb/.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "simple-dropbox-upload-form"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/simple-dropbox-upload-form",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.8.8.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.8.8",
+                "1.8.6",
+                "1.8.5",
+                "1.8.4",
+                "1.8.3",
+                "1.8.2",
+                "1.8.1",
+                "1.8.0",
+                "1.7.0",
+                "1.6.0",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5.0",
+                "1.4.0",
+                "1.3.1",
+                "1.3.0",
+                "1.2.0",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5963"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/simple-dropbox-upload-form"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/simple-dropbox-upload-form/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": []
+    }
+}

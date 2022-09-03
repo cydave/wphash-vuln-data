@@ -1,0 +1,75 @@
+{
+    "id": "WPHSH-ecfa2939a6a5-ca9d8f063425",
+    "modified": "2017-09-08T01:29Z",
+    "published": "2015-01-13T15:59Z",
+    "aliases": [
+        "CVE-2014-100026"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in readme.php in the April's Super Functions Pack plugin before 1.4.8 for WordPress allows remote attackers to inject arbitrary web script or HTML via the page parameter.  NOTE: some of these details are obtained from third party information.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "aprils-super-functions-pack"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/aprils-super-functions-pack",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4.7",
+                "1.4.6",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3.8",
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3",
+                "1.2.1",
+                "1.2",
+                "1.1.2",
+                "1.1.1",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-100026"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/aprils-super-functions-pack"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/aprils-super-functions-pack/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

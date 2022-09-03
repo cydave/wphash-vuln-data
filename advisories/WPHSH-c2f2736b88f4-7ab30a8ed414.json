@@ -1,0 +1,68 @@
+{
+    "id": "WPHSH-c2f2736b88f4-7ab30a8ed414",
+    "modified": "2019-08-22T15:04Z",
+    "published": "2019-08-20T15:15Z",
+    "aliases": [
+        "CVE-2015-9318"
+    ],
+    "summary": "FIXME",
+    "details": "The awesome-support plugin before 3.1.7 for WordPress has a security issue in which shortcodes are allowed in replies.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "awesome-support"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/awesome-support",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.1.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.1.6",
+                "3.1.5",
+                "3.1.4",
+                "3.1.3",
+                "3.1.2",
+                "3.1.1",
+                "3.1.0",
+                "3.0.1",
+                "3.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9318"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/awesome-support"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/awesome-support/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-254"
+        ]
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "id": "WPHSH-7d2e076092e7-8f7a36dad28c",
+    "modified": "2022-07-30T12:37Z",
+    "published": "2021-04-12T14:15Z",
+    "aliases": [
+        "CVE-2021-24215"
+    ],
+    "summary": "FIXME",
+    "details": "An Improper Access Control vulnerability was discovered in the Controlled Admin Access WordPress plugin before 1.5.2. Uncontrolled access to the website customization functionality and global CMS settings, like /wp-admin/customization.php and /wp-admin/options.php, can lead to a complete compromise of the target resource.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "controlled-admin-access"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/controlled-admin-access",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5.1",
+                "1.5.0",
+                "1.4.0",
+                "1.3.9",
+                "1.3.8",
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.0",
+                "1.0.6",
+                "1.1.1",
+                "1.1.0",
+                "1.6.0",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24215"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/controlled-admin-access"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/controlled-admin-access/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-425"
+        ]
+    }
+}

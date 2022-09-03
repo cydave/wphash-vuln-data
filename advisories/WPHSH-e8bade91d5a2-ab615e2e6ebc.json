@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-e8bade91d5a2-ab615e2e6ebc",
+    "modified": "2017-10-25T20:07Z",
+    "published": "2017-10-16T15:29Z",
+    "aliases": [
+        "CVE-2014-8087"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in the post highlights plugin before 2.6.1 for WordPress allows remote attackers to inject arbitrary web script or HTML via the txt parameter in a headline action to ajax/ph_save.php.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "post-highlights"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/post-highlights",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.6.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.6",
+                "2.5.2",
+                "2.5.1",
+                "2.5",
+                "2.4.1",
+                "2.4",
+                "2.3.4",
+                "2.3.2",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0.1",
+                "2.0",
+                "1.5"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8087"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/post-highlights"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/post-highlights/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

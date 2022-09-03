@@ -1,0 +1,72 @@
+{
+    "id": "WPHSH-ee5838127e5d-406f421936ae",
+    "modified": "2014-08-07T12:30Z",
+    "published": "2014-08-06T19:55Z",
+    "aliases": [
+        "CVE-2014-5180"
+    ],
+    "summary": "FIXME",
+    "details": "SQL injection vulnerability in the videos page in the HDW Player Plugin (hdw-player-video-player-video-gallery) 2.4.2 for WordPress allows remote authenticated administrators to execute arbitrary SQL commands via the id parameter in the edit action to wp-admin/admin.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "hdw-player-video-player-video-gallery"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/hdw-player-video-player-video-gallery",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.4.3",
+                "2.4.2",
+                "2.4.1",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5180"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/hdw-player-video-player-video-gallery"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/hdw-player-video-player-video-gallery/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=900030%40hdw-player-video-player-video-gallery&old=798976%40hdw-player-video-player-video-gallery&sfp_email=&sfph_mail="
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "id": "WPHSH-5aa0892d0da2-3ec98a832d1a",
+    "modified": "2022-06-21T18:36Z",
+    "published": "2022-06-13T14:15Z",
+    "aliases": [
+        "CVE-2022-1820"
+    ],
+    "summary": "FIXME",
+    "details": "The Keep Backup Daily plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the \u2018t\u2019 parameter in versions up to, and including, 2.0.2 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "keep-backup-daily"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/keep-backup-daily",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.0.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.9.9",
+                "1.9.8",
+                "1.9.7",
+                "1.9.6",
+                "1.9.5",
+                "1.9.4",
+                "1.9.3",
+                "1.9.2",
+                "1.9.1",
+                "1.9.0",
+                "1.8.9",
+                "1.8.8",
+                "1.0",
+                "1.8.7",
+                "1.8.6",
+                "1.8.5",
+                "1.8.4",
+                "1.8.3",
+                "1.8.2",
+                "1.8.1",
+                "1.8.0",
+                "1.7.1",
+                "1.7.0",
+                "1.6.2",
+                "1.6.1",
+                "1.6",
+                "1.5.5",
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5",
+                "1.4.9",
+                "1.4.8",
+                "1.4.7",
+                "1.4.6",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3",
+                "1.2.1",
+                "1.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1820"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/keep-backup-daily"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/keep-backup-daily/"
+        },
+        {
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=2727789%40keep-backup-daily&new=2727789%40keep-backup-daily&sfp_email=&sfph_mail="
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "id": "WPHSH-807c96534aaa-1d6e6ad6d4b3",
+    "modified": "2019-08-26T16:33Z",
+    "published": "2019-08-22T13:15Z",
+    "aliases": [
+        "CVE-2017-18572"
+    ],
+    "summary": "FIXME",
+    "details": "The gnucommerce plugin before 1.4.2 for WordPress has XSS.",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "gnucommerce"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/gnucommerce",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4.0",
+                "1.3.8",
+                "1.3.6",
+                "1.3.3",
+                "1.3.0",
+                "1.2.8",
+                "1.2.7",
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.1",
+                "1.2",
+                "1.1.1-beta",
+                "1.1-beta",
+                "1.0-beta",
+                "0.9.1-beta",
+                "0.9-beta",
+                "0.8-beta",
+                "0.7-beta",
+                "0.6-beta",
+                "0.5.8-beta",
+                "0.5.7-beta",
+                "0.5.6-beta",
+                "0.5.5-beta",
+                "0.5.4-beta",
+                "0.5.3-beta",
+                "0.5.2-beta",
+                "0.5.1-beta",
+                "0.5.0-beta",
+                "0.4.9-beta",
+                "0.4.8-beta",
+                "0.4.7-beta",
+                "0.4.6-beta",
+                "0.4.5-beta",
+                "0.4.4-beta",
+                "0.4.3-beta",
+                "0.4.2-beta",
+                "0.4.1-beta",
+                "0.4.0-beta",
+                "0.3.9-beta",
+                "0.3.8-beta",
+                "0.3.7-beta",
+                "0.3.6-beta",
+                "0.3.5-beta",
+                "0.3.4-beta",
+                "0.3.3-beta",
+                "0.3.2-beta",
+                "0.3.1-beta",
+                "0.3.0-beta",
+                "0.2.9-beta",
+                "0.2.8-beta",
+                "0.2.7-beta",
+                "0.2.6-beta",
+                "0.2.5-beta",
+                "0.2.4-beta",
+                "0.2.3-beta",
+                "0.2.2-beta",
+                "0.2.1-beta",
+                "0.2-beta",
+                "0.1.9-beta",
+                "0.1.8-beta",
+                "0.1.7-beta",
+                "0.1.6-beta",
+                "0.1.5-beta",
+                "0.1.4-beta",
+                "0.1.3-beta",
+                "0.1.2-beta",
+                "0.1.1-beta",
+                "0.1-beta"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18572"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/gnucommerce"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/gnucommerce/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

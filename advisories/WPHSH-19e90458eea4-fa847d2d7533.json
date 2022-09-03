@@ -1,0 +1,61 @@
+{
+    "id": "WPHSH-19e90458eea4-fa847d2d7533",
+    "modified": "2020-06-26T16:16Z",
+    "published": "2020-06-22T18:15Z",
+    "aliases": [
+        "CVE-2020-13426"
+    ],
+    "summary": "FIXME",
+    "details": "The Multi-Scheduler plugin 1.0.0 for WordPress has a Cross-Site Request Forgery (CSRF) vulnerability in the forms it presents, allowing the possibility of deleting records (users) when an ID is known.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "multi-scheduler"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/multi-scheduler",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.0",
+                "version1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-13426"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/multi-scheduler"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/multi-scheduler/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

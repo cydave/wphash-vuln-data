@@ -1,0 +1,61 @@
+{
+    "id": "WPHSH-a8ed5554d3db-7c4e115eabf3",
+    "modified": "2020-01-17T21:22Z",
+    "published": "2020-01-15T16:15Z",
+    "aliases": [
+        "CVE-2015-5484"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-site scripting (XSS) vulnerability in the Plotly plugin before 1.0.3 for WordPress allows remote authenticated users to inject arbitrary web script or HTML via a post.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-plotly"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-plotly",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.2",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5484"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/wp-plotly"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-plotly/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "id": "WPHSH-1951bd15a0ef-0074df743651",
+    "modified": "2021-09-29T03:25Z",
+    "published": "2021-09-20T10:15Z",
+    "aliases": [
+        "CVE-2021-24587"
+    ],
+    "summary": "FIXME",
+    "details": "The Splash Header WordPress plugin before 1.20.8 doesn't sanitise and escape some of its settings while outputting them in the admin dashboard, leading to an authenticated Stored Cross-Site Scripting issue.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "splash-header"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/splash-header",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.20.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.20.7",
+                "1.20.6",
+                "1.20.4",
+                "1.20.3",
+                "1.20.2",
+                "1.20.1",
+                "1.20",
+                "1.19",
+                "1.18.4",
+                "1.18.3",
+                "1.18.2",
+                "1.18.1",
+                "1.18.0",
+                "1.17.1",
+                "1.17.0",
+                "1.16.0",
+                "1.15.1",
+                "1.15",
+                "1.14.3",
+                "1.14.2",
+                "1.14.1",
+                "1.14.0",
+                "1.13.0",
+                "1.12",
+                "1.11",
+                "1.10",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24587"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/splash-header"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/splash-header/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

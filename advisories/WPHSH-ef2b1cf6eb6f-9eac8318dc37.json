@@ -1,0 +1,74 @@
+{
+    "id": "WPHSH-ef2b1cf6eb6f-9eac8318dc37",
+    "modified": "2021-09-10T19:58Z",
+    "published": "2021-09-06T11:15Z",
+    "aliases": [
+        "CVE-2021-24590"
+    ],
+    "summary": "FIXME",
+    "details": "The Cookie Notice & Consent Banner for GDPR & CCPA Compliance WordPress plugin before 1.7.2 does not properly sanitize inputs to prevent injection of arbitrary HTML within the plugin's design customization options.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "cookie-notice-and-consent-banner"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/cookie-notice-and-consent-banner",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.7.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.7.1",
+                "1.7.0",
+                "1.6.9",
+                "1.6.8",
+                "1.6.7",
+                "1.6.6",
+                "1.6.5",
+                "1.6.4",
+                "1.6.3",
+                "1.6.2",
+                "1.6.1",
+                "1.5.1",
+                "1.2.2",
+                "1.1.0",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24590"
+        },
+        {
+            "type": "PACKAGE",
+            "url": "https://plugins.svn.wordpress.org/cookie-notice-and-consent-banner"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/cookie-notice-and-consent-banner/"
+        }
+    ],
+    "database_specific": {
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -10,6 +10,12 @@ Submit pull requests to help improve our database of vulnerability information
 for all.
 
 
+## Quality / State of the data
+
+This repo includes both user contributed and publicly available vulnerability data and as such varies in both accuracy and quality.
+The affected version numbers are unfortunately quite a pain to get right, if you stumble upon invalid data feel free to contribute!
+
+
 ## Contributing
 
 + Spot a `FIXME` inside an advisory file? Try and FIX it! :)

@@ -102,19 +102,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/578093db-a025-4148-8c4b-ec2df31743f7"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2268"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-all-import"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-all-import/"
         }
     ],
     "database_specific": {
+        "slug": "wp-all-import",
+        "name": "Import any XML or CSV File to WordPress",
         "cwe_ids": [
             "CWE-1236"
         ]

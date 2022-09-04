@@ -57,19 +57,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/97f4f7da-22a8-42a6-88ac-82e95a6c06dd"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24457"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/portfolio-responsive-gallery"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/portfolio-responsive-gallery/"
         }
     ],
     "database_specific": {
+        "slug": "portfolio-responsive-gallery",
+        "name": "Portfolio Responsive Gallery",
         "cwe_ids": [
             "CWE-89"
         ]

@@ -44,19 +44,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-6624"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/soundcloud-is-gold"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/49188"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/soundcloud-is-gold/"
+            "url": "http://packetstormsecurity.org/files/112689/WordPress-Soundcloud-Is-Gold-2.1-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/53537"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-6624"
         }
     ],
     "database_specific": {
+        "slug": "soundcloud-is-gold",
+        "name": "SoundCloud Is Gold",
         "cwe_ids": [
             "CWE-79"
         ]

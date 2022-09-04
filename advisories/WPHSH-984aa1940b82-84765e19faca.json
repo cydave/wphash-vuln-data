@@ -85,19 +85,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://blog.nintechnet.com/wordpress-gdpr-cookie-consent-plugin-fixed-vulnerability/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-20633"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cookie-law-info"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/cookie-law-info/"
         }
     ],
     "database_specific": {
+        "slug": "cookie-law-info",
+        "name": "CookieYes | GDPR Cookie Consent & Compliance Notice (CCPA Ready)",
         "cwe_ids": [
             "CWE-79"
         ]

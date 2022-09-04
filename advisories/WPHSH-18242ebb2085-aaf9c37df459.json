@@ -146,17 +146,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2538"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-hide-security-enhancer"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-hide-security-enhancer/"
         }
     ],
     "database_specific": {
+        "slug": "wp-hide-security-enhancer",
+        "name": "WP Hide & Security Enhancer",
         "cwe_ids": []
     }
 }

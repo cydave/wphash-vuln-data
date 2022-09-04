@@ -63,19 +63,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36851"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/testimonial-add"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/testimonial-add/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/testimonial-add/"
+            "url": "https://patchstack.com/database/vulnerability/testimonial-add/wordpress-testimonial-slider-plugin-3-5-8-3-cross-site-scripting-xss-vulnerability"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36851"
         }
     ],
     "database_specific": {
+        "slug": "testimonial-add",
+        "name": "Testimonial Slider \u2013 Free Testimonials Slider Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

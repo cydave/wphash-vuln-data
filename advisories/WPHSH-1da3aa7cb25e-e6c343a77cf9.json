@@ -46,16 +46,8 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39317"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/access-demo-importer"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/access-demo-importer/"
+            "url": "https://www.wordfence.com/blog/2021/10/high-severity-vulnerability-patched-in-access-demo-importer-plugin/"
         },
         {
             "type": "FIX",
@@ -64,9 +56,19 @@
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2592642/access-demo-importer/trunk/inc/demo-functions.php"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/articles/authenticated-vulnerability-in-unpatched-wordpress-themes/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39317"
         }
     ],
     "database_specific": {
+        "slug": "access-demo-importer",
+        "name": "Access Demo Importer",
         "cwe_ids": [
             "CWE-434"
         ]

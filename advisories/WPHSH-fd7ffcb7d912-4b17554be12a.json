@@ -182,19 +182,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/ef5aa8a7-23a7-4ce0-bb09-d9c986386114"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1435"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wpcargo"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wpcargo/"
         }
     ],
     "database_specific": {
+        "slug": "wpcargo",
+        "name": "WPCargo Track & Trace",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -43,19 +43,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18015"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/share-this-image"
+            "type": "WEB",
+            "url": "https://wordpress.org/support/topic/share-this-image-1-03-cross-site-scripting/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/share-this-image/"
+            "url": "https://wordpress.org/plugins/share-this-image/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://packetstormsecurity.com/files/145464/WordPress-Share-This-Image-1.03-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8991"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18015"
         }
     ],
     "database_specific": {
+        "slug": "share-this-image",
+        "name": "Share This Image",
         "cwe_ids": [
             "CWE-79"
         ]

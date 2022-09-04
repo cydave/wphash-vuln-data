@@ -166,19 +166,37 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9228"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/nextgen-gallery"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/nextgen-gallery/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/nextgen-gallery/"
+            "url": "https://packetstormsecurity.com/files/135061/WordPress-NextGEN-Gallery-2.1.10-Shell-Upload.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/cybersecurityworks/Disclosed/issues/6"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.openwall.com/lists/oss-security/2015/10/27/6"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/9758"
+        },
+        {
+            "type": "WEB",
+            "url": "https://cybersecurityworks.com/zerodays/cve-2015-9228-crony.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9228"
         }
     ],
     "database_specific": {
+        "slug": "nextgen-gallery",
+        "name": "WordPress Gallery Plugin \u2013 NextGEN Gallery",
         "cwe_ids": [
             "CWE-434"
         ]

@@ -71,17 +71,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36422"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-postratings"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-postratings/"
         }
     ],
     "database_specific": {
+        "slug": "wp-postratings",
+        "name": "WP-PostRatings",
         "cwe_ids": []
     }
 }

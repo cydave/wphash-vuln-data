@@ -87,19 +87,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/75a9fd23-7fa9-4cb1-a55b-ec5deae5d6fa"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1089"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/bulk-edit-user-profiles-in-spreadsheet"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/bulk-edit-user-profiles-in-spreadsheet/"
         }
     ],
     "database_specific": {
+        "slug": "bulk-edit-user-profiles-in-spreadsheet",
+        "name": "Bulk Edit and Create User Profiles \u2013 WP Sheet Editor",
         "cwe_ids": [
             "CWE-79"
         ]

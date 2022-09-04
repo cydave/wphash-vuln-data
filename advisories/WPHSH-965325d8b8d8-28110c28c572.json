@@ -163,19 +163,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/ce12437a-d440-4c4a-9247-95a8f39d00b9"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0206"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/newstatpress"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/newstatpress/"
         }
     ],
     "database_specific": {
+        "slug": "newstatpress",
+        "name": "NewStatPress",
         "cwe_ids": [
             "CWE-79"
         ]

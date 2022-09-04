@@ -81,19 +81,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10996"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/optinmonster"
+            "type": "WEB",
+            "url": "http://www.pritect.net/blog/optinmonster-1-1-4-6-security-vulnerability"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/optinmonster/"
+            "url": "https://wordpress.org/plugins/optinmonster/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10996"
         }
     ],
     "database_specific": {
+        "slug": "optinmonster",
+        "name": "Popup Builder by OptinMonster \u2013 WordPress Popups for Optins, Email Newsletters and Lead Generation",
         "cwe_ids": [
             "CWE-863"
         ]

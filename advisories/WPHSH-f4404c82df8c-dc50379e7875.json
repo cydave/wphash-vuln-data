@@ -67,19 +67,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/22dc2661-ba64-49e7-af65-892a617ab02c"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0659"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sync-qcloud-cos"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/sync-qcloud-cos/"
         }
     ],
     "database_specific": {
+        "slug": "sync-qcloud-cos",
+        "name": "Sync QCloud COS",
         "cwe_ids": [
             "CWE-79"
         ]

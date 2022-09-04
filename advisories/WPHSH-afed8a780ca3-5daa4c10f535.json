@@ -49,19 +49,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/6f015e8e-462b-4ef7-a9a1-bb91e7d28e37"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24804"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/simple-jwt-login"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/simple-jwt-login/"
         }
     ],
     "database_specific": {
+        "slug": "simple-jwt-login",
+        "name": "Simple JWT Login \u2013 Login and Register to WordPress using JWT",
         "cwe_ids": [
             "CWE-352"
         ]

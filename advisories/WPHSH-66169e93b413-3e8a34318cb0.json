@@ -70,19 +70,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/akismet/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9357"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/akismet"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/akismet/"
         }
     ],
     "database_specific": {
+        "slug": "akismet",
+        "name": "Akismet Spam Protection",
         "cwe_ids": [
             "CWE-79"
         ]

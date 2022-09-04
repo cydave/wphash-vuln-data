@@ -165,19 +165,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/a6571f16-66d2-449e-af83-1c6ddd56edfa"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24786"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/download-monitor"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/download-monitor/"
         }
     ],
     "database_specific": {
+        "slug": "download-monitor",
+        "name": "Download Monitor",
         "cwe_ids": [
             "CWE-89"
         ]

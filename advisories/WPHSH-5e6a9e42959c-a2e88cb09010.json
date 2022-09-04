@@ -91,19 +91,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3843"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/search-everything"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/58502"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/search-everything/"
+            "url": "http://wordpress.org/plugins/search-everything/changelog"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3843"
         }
     ],
     "database_specific": {
+        "slug": "search-everything",
+        "name": "Search Everything",
         "cwe_ids": [
             "CWE-352"
         ]

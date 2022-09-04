@@ -93,19 +93,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2324"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/photo-gallery"
+            "type": "WEB",
+            "url": "https://github.com/wp-plugins/photo-gallery/blob/master/readme.txt"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/photo-gallery/"
+            "url": "https://fortiguard.com/zeroday/FG-VD-15-009"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2324"
         }
     ],
     "database_specific": {
+        "slug": "photo-gallery",
+        "name": "Photo Gallery by 10Web \u2013 Mobile-Friendly Image Gallery",
         "cwe_ids": [
             "CWE-79"
         ]

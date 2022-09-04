@@ -45,19 +45,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/36aae14e-4bdf-4da6-a0f9-d71935105d45"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24646"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/bookingcom-banner-creator"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/bookingcom-banner-creator/"
         }
     ],
     "database_specific": {
+        "slug": "bookingcom-banner-creator",
+        "name": "Booking.com Banner Creator",
         "cwe_ids": [
             "CWE-79"
         ]

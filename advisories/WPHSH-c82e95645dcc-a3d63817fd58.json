@@ -46,19 +46,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/js-jobs/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20974"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/js-jobs"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/js-jobs/"
         }
     ],
     "database_specific": {
+        "slug": "js-jobs",
+        "name": "JS Job Manager",
         "cwe_ids": [
             "CWE-352"
         ]

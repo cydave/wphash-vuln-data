@@ -91,19 +91,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/5fbbc7ad-3f1a-48a1-b2eb-e57f153eb837"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24300"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/woocommerce-products-slider"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/woocommerce-products-slider/"
         }
     ],
     "database_specific": {
+        "slug": "woocommerce-products-slider",
+        "name": "PickPlugins Product Slider for WooCommerce",
         "cwe_ids": [
             "CWE-79"
         ]

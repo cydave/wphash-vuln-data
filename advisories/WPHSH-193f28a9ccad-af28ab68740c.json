@@ -42,23 +42,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-15811"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/pootle-button"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/1745805/pootle-button/tags/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/pootle-button/"
+            "url": "https://packetstormsecurity.com/files/144582/WordPress-Pootle-Button-1.1.1-Cross-Site-Scripting.html"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/1745805/pootle-button/tags/"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8930"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-15811"
         }
     ],
     "database_specific": {
+        "slug": "pootle-button",
+        "name": "pootle button",
         "cwe_ids": [
             "CWE-79"
         ]

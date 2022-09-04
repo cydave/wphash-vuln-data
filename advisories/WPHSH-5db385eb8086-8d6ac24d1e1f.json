@@ -52,19 +52,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24724"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mp-timetable"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/c1194a1e-bf33-4f3f-a4a6-27b76b1b1eeb"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/mp-timetable/"
+            "url": "https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=29235"
+        },
+        {
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/changeset/2573479/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24724"
         }
     ],
     "database_specific": {
+        "slug": "mp-timetable",
+        "name": "Timetable and Event Schedule by MotoPress",
         "cwe_ids": [
             "CWE-79"
         ]

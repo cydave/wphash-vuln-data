@@ -99,19 +99,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-7719"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/spider-event-calendar"
+            "type": "WEB",
+            "url": "http://lists.openwall.net/full-disclosure/2017/04/09/1"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/spider-event-calendar/"
+            "url": "http://www.securityfocus.com/bid/97656"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-7719"
         }
     ],
     "database_specific": {
+        "slug": "spider-event-calendar",
+        "name": "spider-event-calendar",
         "cwe_ids": [
             "CWE-89"
         ]

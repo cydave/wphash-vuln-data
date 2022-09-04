@@ -66,19 +66,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/ecf61d17-8b07-4cb6-93a8-64c2c4fbbe04"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1952"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/easync-booking"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/easync-booking/"
         }
     ],
     "database_specific": {
+        "slug": "easync-booking",
+        "name": "Free Booking Plugin for Hotels, Restaurant and Car Rental \u2013 eaSYNC",
         "cwe_ids": [
             "CWE-434"
         ]

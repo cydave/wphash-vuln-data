@@ -255,17 +255,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2432"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ecwid-shopping-cart"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/ecwid-shopping-cart/"
         }
     ],
     "database_specific": {
+        "slug": "ecwid-shopping-cart",
+        "name": "Ecwid Ecommerce Shopping Cart",
         "cwe_ids": []
     }
 }

@@ -83,19 +83,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36857"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/testimonial-builder"
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/testimonial-builder/wordpress-testimonial-builder-plugin-1-6-1-authenticated-stored-cross-site-scripting-xss-vulnerability"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/testimonial-builder/"
+            "url": "https://wordpress.org/plugins/testimonial-builder/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36857"
         }
     ],
     "database_specific": {
+        "slug": "testimonial-builder",
+        "name": "Testimonial",
         "cwe_ids": [
             "CWE-79"
         ]

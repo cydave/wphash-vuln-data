@@ -61,19 +61,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/36e8efe8-b29f-4c9e-9dd5-3e317aa43e0c"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24489"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/request-a-quote"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/request-a-quote/"
         }
     ],
     "database_specific": {
+        "slug": "request-a-quote",
+        "name": "request-a-quote",
         "cwe_ids": [
             "CWE-79"
         ]

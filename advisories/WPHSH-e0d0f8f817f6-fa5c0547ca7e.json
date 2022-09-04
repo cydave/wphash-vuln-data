@@ -115,19 +115,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/6672b59f-14bc-4a22-9e0b-fcab4e01d97f"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0784"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-experiments-free"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-experiments-free/"
         }
     ],
     "database_specific": {
+        "slug": "wp-experiments-free",
+        "name": "Title Experiments Free",
         "cwe_ids": [
             "CWE-89"
         ]

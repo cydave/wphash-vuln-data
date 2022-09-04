@@ -125,19 +125,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20746"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wordpress-popular-posts"
+            "type": "WEB",
+            "url": "https://jvn.jp/en/jp/JVN63066062/index.html"
         },
         {
             "type": "WEB",
             "url": "https://wordpress.org/plugins/wordpress-popular-posts/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://cabrerahector.com/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://cabrerahector.com/wordpress/wordpress-popular-posts-5-3-improved-php-8-support-retina-display-support-and-more/#minor-updates-and-hotfixes"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20746"
         }
     ],
     "database_specific": {
+        "slug": "wordpress-popular-posts",
+        "name": "WordPress Popular Posts",
         "cwe_ids": [
             "CWE-79"
         ]

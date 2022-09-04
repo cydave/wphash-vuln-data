@@ -108,19 +108,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2222"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-members"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-members/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-members/"
+            "url": "https://plugins.trac.wordpress.org/changeset/1667369/#file12"
+        },
+        {
+            "type": "WEB",
+            "url": "https://jvn.jp/en/jp/JVN51355647/index.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2222"
         }
     ],
     "database_specific": {
+        "slug": "wp-members",
+        "name": "WP-Members Membership Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -66,19 +66,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/slidedeck2/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-7483"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/slidedeck2"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/slidedeck2/"
         }
     ],
     "database_specific": {
+        "slug": "slidedeck2",
+        "name": "SlideDeck 2 Lite Responsive Content Slider",
         "cwe_ids": [
             "CWE-20"
         ]

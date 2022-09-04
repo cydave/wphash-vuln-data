@@ -52,19 +52,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/6bbea7fe-e966-406b-ad06-0206fcc6f0a0"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24515"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/smart-grid-gallery"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/smart-grid-gallery/"
         }
     ],
     "database_specific": {
+        "slug": "smart-grid-gallery",
+        "name": "Video Gallery \u2013 Vimeo and YouTube Gallery",
         "cwe_ids": [
             "CWE-79"
         ]

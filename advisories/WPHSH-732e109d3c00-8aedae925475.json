@@ -51,19 +51,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0992"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sg-security"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2022/04/critical-authentication-bypass-vulnerability-patched-in-siteground-security-plugin/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/sg-security/"
+            "url": "https://plugins.trac.wordpress.org/changeset/2706302"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0992"
         }
     ],
     "database_specific": {
+        "slug": "sg-security",
+        "name": "SiteGround Security",
         "cwe_ids": [
             "CWE-287"
         ]

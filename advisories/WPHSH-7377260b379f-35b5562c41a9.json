@@ -386,19 +386,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24891"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/elementor"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/fbed0daa-007d-4f91-8d87-4bca7781de2d"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/elementor/"
+            "url": "https://www.jbelamor.com/xss-elementor-lightox.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24891"
         }
     ],
     "database_specific": {
+        "slug": "elementor",
+        "name": "Elementor Website Builder",
         "cwe_ids": [
             "CWE-79"
         ]

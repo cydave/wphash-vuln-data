@@ -87,19 +87,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4066"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/gigpress"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/gigpress/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/gigpress/"
+            "url": "http://www.securityfocus.com/bid/74747"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/37109/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/132036/WordPress-GigPress-2.3.8-SQL-Injection.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4066"
         }
     ],
     "database_specific": {
+        "slug": "gigpress",
+        "name": "GigPress",
         "cwe_ids": [
             "CWE-89"
         ]

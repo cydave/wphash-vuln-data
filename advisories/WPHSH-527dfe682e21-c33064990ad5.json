@@ -123,19 +123,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/e76939ca-180f-4472-a26a-e0c36cfd32de"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2133"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/miniorange-login-with-eve-online-google-facebook"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/miniorange-login-with-eve-online-google-facebook/"
         }
     ],
     "database_specific": {
+        "slug": "miniorange-login-with-eve-online-google-facebook",
+        "name": "OAuth Single Sign On \u2013 SSO (OAuth Client)",
         "cwe_ids": [
             "CWE-287"
         ]

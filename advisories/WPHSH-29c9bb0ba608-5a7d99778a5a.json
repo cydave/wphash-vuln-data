@@ -49,17 +49,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2269"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/website-file-changes-monitor"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/website-file-changes-monitor/"
         }
     ],
     "database_specific": {
+        "slug": "website-file-changes-monitor",
+        "name": "Website File Changes Monitor",
         "cwe_ids": []
     }
 }

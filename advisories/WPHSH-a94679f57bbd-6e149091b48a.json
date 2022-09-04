@@ -290,19 +290,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-36156"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ultimate-member"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/ultimate-member/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ultimate-member/"
+            "url": "https://wpscan.com/vulnerability/dd4c4ece-7206-4788-8747-f0c0f3ab0a53"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2020/11/critical-privilege-escalation-vulnerabilities-affect-100k-sites-using-ultimate-member-plugin/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-36156"
         }
     ],
     "database_specific": {
+        "slug": "ultimate-member",
+        "name": "Ultimate Member \u2013 User Profile, User Registration, Login & Membership Plugin",
         "cwe_ids": [
             "CWE-269"
         ]

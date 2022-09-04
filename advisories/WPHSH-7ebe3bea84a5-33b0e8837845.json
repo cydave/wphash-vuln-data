@@ -101,23 +101,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0148"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mystickyelements"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/mystickyelements/"
+            "url": "https://wpscan.com/vulnerability/37665ee1-c57f-4445-9596-df4f7d72c8cd"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2654453/mystickyelements"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0148"
         }
     ],
     "database_specific": {
+        "slug": "mystickyelements",
+        "name": "All-in-one Floating Contact Form, Call, Chat, and 50+ Social Icon Tabs  \u2013 My Sticky Elements",
         "cwe_ids": [
             "CWE-79"
         ]

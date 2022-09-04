@@ -50,17 +50,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2638"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/export-all-urls"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/export-all-urls/"
         }
     ],
     "database_specific": {
+        "slug": "export-all-urls",
+        "name": "Export All URLs",
         "cwe_ids": []
     }
 }

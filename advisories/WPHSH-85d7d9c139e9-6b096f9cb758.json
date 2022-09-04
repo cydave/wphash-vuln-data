@@ -236,19 +236,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/a14b668f-812f-46ee-827e-0996b378f7f0"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24987"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/super-socializer"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/super-socializer/"
         }
     ],
     "database_specific": {
+        "slug": "super-socializer",
+        "name": "Social Share, Social Login and Social Comments Plugin \u2013 Super Socializer",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -77,19 +77,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/9b15d47e-43b6-49a8-b2c3-b99c92101e10"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24970"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/all-in-one-video-gallery"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/all-in-one-video-gallery/"
         }
     ],
     "database_specific": {
+        "slug": "all-in-one-video-gallery",
+        "name": "All-in-One Video Gallery",
         "cwe_ids": [
             "CWE-22"
         ]

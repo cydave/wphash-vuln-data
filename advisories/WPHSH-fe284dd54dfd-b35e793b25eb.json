@@ -46,19 +46,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5316"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sagepay-server-gateway-for-woocommerce"
+            "type": "WEB",
+            "url": "https://wordpress.org/support/topic/sagepay-server-gateway-for-woocommerce-1-0-7-cross-site-scripting/#post-9792337"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/sagepay-server-gateway-for-woocommerce/"
+            "url": "https://wordpress.org/plugins/sagepay-server-gateway-for-woocommerce/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://packetstormsecurity.com/files/145459/WordPress-Sagepay-Server-Gateway-For-WooCommerce-1.0.7-XSS.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5316"
         }
     ],
     "database_specific": {
+        "slug": "sagepay-server-gateway-for-woocommerce",
+        "name": "SagePay Server Gateway for WooCommerce",
         "cwe_ids": [
             "CWE-79"
         ]

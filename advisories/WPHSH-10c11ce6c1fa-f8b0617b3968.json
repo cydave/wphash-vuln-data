@@ -274,19 +274,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10866"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/form-maker"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/form-maker/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/form-maker/"
+            "url": "http://seclists.org/fulldisclosure/2019/May/8"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/9286"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10866"
         }
     ],
     "database_specific": {
+        "slug": "form-maker",
+        "name": "Form Maker by 10Web \u2013 Mobile-Friendly Drag & Drop Contact Form Builder",
         "cwe_ids": [
             "CWE-89"
         ]

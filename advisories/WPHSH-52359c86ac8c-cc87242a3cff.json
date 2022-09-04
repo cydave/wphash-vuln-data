@@ -45,19 +45,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/39392055-8cd3-452f-8bcb-a650f5bddc2e"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24914"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/tawkto-live-chat"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/tawkto-live-chat/"
         }
     ],
     "database_specific": {
+        "slug": "tawkto-live-chat",
+        "name": "Tawk.To Live Chat",
         "cwe_ids": [
             "CWE-862"
         ]

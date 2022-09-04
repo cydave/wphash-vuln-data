@@ -62,23 +62,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0595"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/drag-and-drop-multiple-file-upload-contact-form-7"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/drag-and-drop-multiple-file-upload-contact-form-7/"
+            "url": "https://wpscan.com/vulnerability/1b849957-eaca-47ea-8f84-23a3a98cc8de"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2686614"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0595"
         }
     ],
     "database_specific": {
+        "slug": "drag-and-drop-multiple-file-upload-contact-form-7",
+        "name": "Drag and Drop Multiple File Upload \u2013 Contact Form 7",
         "cwe_ids": [
             "CWE-79"
         ]

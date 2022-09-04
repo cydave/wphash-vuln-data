@@ -145,19 +145,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2551"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/backwpup"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/backwpup/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/backwpup/"
+            "url": "http://www.vapidlabs.com/advisory.php?v=201"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2551"
         }
     ],
     "database_specific": {
+        "slug": "backwpup",
+        "name": "BackWPup \u2013 WordPress Backup Plugin",
         "cwe_ids": [
             "CWE-552"
         ]

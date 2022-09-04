@@ -104,19 +104,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36826"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wedevs-project-manager"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wedevs-project-manager/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wedevs-project-manager/"
+            "url": "https://youtu.be/710WcqG6frc"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/wedevs-project-manager/wordpress-wp-project-manager-plugin-2-4-13-stored-cross-site-scripting-xss-vulnerability-1"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36826"
         }
     ],
     "database_specific": {
+        "slug": "wedevs-project-manager",
+        "name": "WP Project Manager \u2013 Project, Task Management & Team Collaboration Software",
         "cwe_ids": [
             "CWE-79"
         ]

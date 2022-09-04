@@ -62,19 +62,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/2239095f-8a66-4a5d-ab49-1662a40fddf1"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0440"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/catch-themes-demo-import"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/catch-themes-demo-import/"
         }
     ],
     "database_specific": {
+        "slug": "catch-themes-demo-import",
+        "name": "Catch Themes Demo Import",
         "cwe_ids": [
             "CWE-434"
         ]

@@ -121,17 +121,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2532"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/feed-them-social"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/feed-them-social/"
         }
     ],
     "database_specific": {
+        "slug": "feed-them-social",
+        "name": "Feed Them Social \u2013 for Twitter feed, Youtube and more",
         "cwe_ids": []
     }
 }

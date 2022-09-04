@@ -168,19 +168,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/contact-form-7/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20979"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contact-form-7"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/contact-form-7/"
         }
     ],
     "database_specific": {
+        "slug": "contact-form-7",
+        "name": "Contact Form 7",
         "cwe_ids": []
     }
 }

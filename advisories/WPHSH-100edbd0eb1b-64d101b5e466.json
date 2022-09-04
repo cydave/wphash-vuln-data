@@ -231,19 +231,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27231"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-statistics"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-statistics/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-statistics/"
+            "url": "https://wordpress.org/plugins/wp-statistics/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://jvn.jp/en/jp/JVN15241647/index.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27231"
         }
     ],
     "database_specific": {
+        "slug": "wp-statistics",
+        "name": "WP Statistics",
         "cwe_ids": [
             "CWE-79"
         ]

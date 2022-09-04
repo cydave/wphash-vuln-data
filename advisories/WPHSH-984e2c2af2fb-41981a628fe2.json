@@ -114,19 +114,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/e88b7a70-ee71-439f-b3c6-0300adb980b0"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25013"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/qubely"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/qubely/"
         }
     ],
     "database_specific": {
+        "slug": "qubely",
+        "name": "Qubely \u2013 Advanced Gutenberg Blocks",
         "cwe_ids": [
             "CWE-862"
         ]

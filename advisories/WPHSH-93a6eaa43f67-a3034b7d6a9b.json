@@ -92,17 +92,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24869"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-fastest-cache"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-fastest-cache/"
         }
     ],
     "database_specific": {
+        "slug": "wp-fastest-cache",
+        "name": "WP Fastest Cache",
         "cwe_ids": []
     }
 }

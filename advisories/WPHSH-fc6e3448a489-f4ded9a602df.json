@@ -103,19 +103,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/41d9027c-a982-44c7-889e-721333496b5c"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24623"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wats"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wats/"
         }
     ],
     "database_specific": {
+        "slug": "wats",
+        "name": "WordPress Advanced Ticket System, Elite Support Helpdesk",
         "cwe_ids": [
             "CWE-79"
         ]

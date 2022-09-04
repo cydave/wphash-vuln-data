@@ -105,19 +105,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9514"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/idx-broker-platinum"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2020/03/vulnerabilities-patched-in-impress-for-idx-broker/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/idx-broker-platinum/"
+            "url": "https://wordpress.org/plugins/idx-broker-platinum/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9514"
         }
     ],
     "database_specific": {
+        "slug": "idx-broker-platinum",
+        "name": "IMPress for IDX Broker",
         "cwe_ids": [
             "CWE-862"
         ]

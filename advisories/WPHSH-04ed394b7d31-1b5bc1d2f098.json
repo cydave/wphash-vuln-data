@@ -401,19 +401,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24307"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/all-in-one-seo-pack"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/ab2c94d2-f6c4-418b-bd14-711ed164bcf1"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/all-in-one-seo-pack/"
+            "url": "https://aioseo.com/changelog/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24307"
         }
     ],
     "database_specific": {
+        "slug": "all-in-one-seo-pack",
+        "name": "All in One SEO \u2013 Best WordPress SEO Plugin \u2013 Easily Improve SEO Rankings & Increase Traffic",
         "cwe_ids": [
             "CWE-502"
         ]

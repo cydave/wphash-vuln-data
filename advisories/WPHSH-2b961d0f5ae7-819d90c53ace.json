@@ -49,23 +49,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3981"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/allwebmenus-wordpress-menu-plugin"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/46068"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/allwebmenus-wordpress-menu-plugin/"
+            "url": "http://www.exploit-db.com/exploits/17861"
         },
         {
             "type": "FIX",
             "url": "http://plugins.trac.wordpress.org/changeset/438959/allwebmenus-wordpress-menu-plugin/trunk/actions.php?old=408304&old_path=allwebmenus-wordpress-menu-plugin%2Ftrunk%2Factions.php"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/49685"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/69929"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3981"
         }
     ],
     "database_specific": {
+        "slug": "allwebmenus-wordpress-menu-plugin",
+        "name": "AllWebMenus WordPress Menu Plugin",
         "cwe_ids": [
             "CWE-94"
         ]

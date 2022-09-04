@@ -111,19 +111,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/557c1c49-7195-4085-b67a-9fd8aca57845"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1604"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/official-mailerlite-sign-up-forms"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/official-mailerlite-sign-up-forms/"
         }
     ],
     "database_specific": {
+        "slug": "official-mailerlite-sign-up-forms",
+        "name": "MailerLite \u2013 Signup forms (official)",
         "cwe_ids": [
             "CWE-79"
         ]

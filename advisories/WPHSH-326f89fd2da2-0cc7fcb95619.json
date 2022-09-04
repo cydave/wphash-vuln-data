@@ -106,19 +106,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6027"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-spell-check"
+            "type": "WEB",
+            "url": "http://jvn.jp/en/jp/JVN26838191/index.html"
         },
         {
             "type": "WEB",
             "url": "https://wordpress.org/plugins/wp-spell-check/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6027"
         }
     ],
     "database_specific": {
+        "slug": "wp-spell-check",
+        "name": "WP Spell Check",
         "cwe_ids": [
             "CWE-352"
         ]

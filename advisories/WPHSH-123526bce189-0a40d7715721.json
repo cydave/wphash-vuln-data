@@ -41,23 +41,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1916"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/user-photo"
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/16181"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/user-photo/"
+            "url": "https://wordpress.org/plugins/user-photo/#developers"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/347137"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1916"
         }
     ],
     "database_specific": {
+        "slug": "user-photo",
+        "name": "User Photo",
         "cwe_ids": [
             "CWE-434"
         ]

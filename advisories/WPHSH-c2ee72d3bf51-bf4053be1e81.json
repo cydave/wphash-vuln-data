@@ -48,19 +48,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/ba50c590-42ee-4523-8aa0-87ac644b77ed"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24943"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/registrations-for-the-events-calendar"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/registrations-for-the-events-calendar/"
         }
     ],
     "database_specific": {
+        "slug": "registrations-for-the-events-calendar",
+        "name": "Registrations for the Events Calendar \u2013 Event Registration Plugin",
         "cwe_ids": [
             "CWE-89"
         ]

@@ -104,19 +104,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24292"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/happy-elementor-addons"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2021/04/recent-patches-rock-the-elementor-ecosystem/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/happy-elementor-addons/"
+            "url": "https://wpscan.com/vulnerability/0f20e098-8106-451f-9448-d35a79f03077"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24292"
         }
     ],
     "database_specific": {
+        "slug": "happy-elementor-addons",
+        "name": "Happy Addons for Elementor (Mega Menu, Post Grid, Woocommerce Product Grid, Table, Event Calendar, Slider Elementor Widget)",
         "cwe_ids": [
             "CWE-79"
         ]

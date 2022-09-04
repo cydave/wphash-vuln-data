@@ -155,19 +155,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8758"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/gallery-bank"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8236"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/gallery-bank/"
+            "url": "https://g0blin.co.uk/cve-2014-8758/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8758"
         }
     ],
     "database_specific": {
+        "slug": "gallery-bank",
+        "name": "gallery-bank",
         "cwe_ids": [
             "CWE-79"
         ]

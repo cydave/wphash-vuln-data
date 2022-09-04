@@ -54,19 +54,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-24313"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ultimate-appointment-scheduling"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/ultimate-appointment-scheduling/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ultimate-appointment-scheduling/"
+            "url": "https://zeroaptitude.com/zerodetail/wordpress-plugin-bug-hunting-part-1/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-24313"
         }
     ],
     "database_specific": {
+        "slug": "ultimate-appointment-scheduling",
+        "name": "Ultimate Appointment Booking & Scheduling",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -200,19 +200,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/e23bf712-d891-4df7-99cc-9ef64f19f685"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24250"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/business-directory-plugin"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/business-directory-plugin/"
         }
     ],
     "database_specific": {
+        "slug": "business-directory-plugin",
+        "name": "Business Directory Plugin \u2013 Easy Listing Directories for WordPress",
         "cwe_ids": [
             "CWE-79"
         ]

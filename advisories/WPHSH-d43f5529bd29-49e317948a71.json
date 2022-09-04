@@ -122,19 +122,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24419"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-youtube-lyte"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/0eeff1ee-d11e-4d52-a032-5f5bd8a6a2d7"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-youtube-lyte/"
+            "url": "https://m0ze.ru/vulnerability/[2021-05-03]-[WordPress]-[CWE-79]-WP-YouTube-Lyte-WordPress-Plugin-v1.7.15.txt"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24419"
         }
     ],
     "database_specific": {
+        "slug": "wp-youtube-lyte",
+        "name": "WP YouTube Lyte",
         "cwe_ids": [
             "CWE-79"
         ]

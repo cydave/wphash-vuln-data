@@ -94,19 +94,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20779"
+            "type": "WEB",
+            "url": "https://jvn.jp/en/jp/JVN42880365/index.html"
         },
         {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-html-mail"
+            "type": "WEB",
+            "url": "https://codemiq.com/en/"
         },
         {
             "type": "WEB",
             "url": "https://wordpress.org/plugins/wp-html-mail/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20779"
         }
     ],
     "database_specific": {
+        "slug": "wp-html-mail",
+        "name": "Email Template Designer \u2013 WP HTML Mail",
         "cwe_ids": [
             "CWE-352"
         ]

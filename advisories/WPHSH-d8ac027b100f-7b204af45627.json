@@ -112,19 +112,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/fb9dbcdf-4ffd-484d-9b67-283683d050fd"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24447"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-image-zoooom"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-image-zoooom/"
         }
     ],
     "database_specific": {
+        "slug": "wp-image-zoooom",
+        "name": "WP Image Zoom",
         "cwe_ids": [
             "CWE-22"
         ]

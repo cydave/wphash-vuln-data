@@ -55,19 +55,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24334"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/instant-images"
+            "type": "WEB",
+            "url": "https://m0ze.ru/vulnerability/[2021-04-22]-[WordPress]-[CWE-79]-Instant-Images-WordPress-Plugin-v4.4.0.txt"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/instant-images/"
+            "url": "https://wpscan.com/vulnerability/ae79189a-6b63-4110-9567-cd7c97d71e4f"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24334"
         }
     ],
     "database_specific": {
+        "slug": "instant-images",
+        "name": "Instant Images \u2013 One Click Unsplash, Pixabay and Pexels Uploads",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -279,19 +279,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/cf7c0207-adb2-44c6-9469-2b24dbfec83a"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24568"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/add-to-any"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/add-to-any/"
         }
     ],
     "database_specific": {
+        "slug": "add-to-any",
+        "name": "AddToAny Share Buttons",
         "cwe_ids": [
             "CWE-79"
         ]

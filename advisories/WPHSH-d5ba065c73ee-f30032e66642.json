@@ -73,19 +73,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20846"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/push-notifications-for-wp"
+            "type": "WEB",
+            "url": "https://jvn.jp/en/jp/JVN85492429/index.html"
         },
         {
             "type": "WEB",
             "url": "https://wordpress.org/plugins/push-notifications-for-wp/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://delitestudio.com/en/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20846"
         }
     ],
     "database_specific": {
+        "slug": "push-notifications-for-wp",
+        "name": "Push Notifications for WordPress (Lite)",
         "cwe_ids": [
             "CWE-352"
         ]

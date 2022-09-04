@@ -365,19 +365,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/f7a0df37-3204-4926-84ec-2204a2f22de3"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1394"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/photo-gallery"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/photo-gallery/"
         }
     ],
     "database_specific": {
+        "slug": "photo-gallery",
+        "name": "Photo Gallery by 10Web \u2013 Mobile-Friendly Image Gallery",
         "cwe_ids": [
             "CWE-79"
         ]

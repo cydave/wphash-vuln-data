@@ -109,19 +109,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/1d0dd7be-29f3-4043-a9c6-67d02746463a"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0349"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/notificationx"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/notificationx/"
         }
     ],
     "database_specific": {
+        "slug": "notificationx",
+        "name": "NotificationX \u2013 Best FOMO, Social Proof, WooCommerce Sales Popup & Notification Bar Plugin With Elementor",
         "cwe_ids": [
             "CWE-89"
         ]

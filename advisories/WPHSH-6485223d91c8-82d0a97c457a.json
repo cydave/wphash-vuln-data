@@ -52,19 +52,41 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4625"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/duplicator"
+            "type": "WEB",
+            "url": "http://osvdb.org/95627"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/duplicator/"
+            "url": "http://archives.neohapsis.com/archives/bugtraq/2013-07/0161.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.htbridge.com/advisory/HTB23162"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/61425"
+        },
+        {
+            "type": "WEB",
+            "url": "http://support.lifeinthegrid.com/knowledgebase.php?article=20"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/122535/WordPress-Duplicator-0.4.4-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/85939"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4625"
         }
     ],
     "database_specific": {
+        "slug": "duplicator",
+        "name": "Duplicator \u2013 WordPress Migration Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

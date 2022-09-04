@@ -78,19 +78,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/0b8c5947-bc73-448e-8f10-a4f4456e4000"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24613"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/post-views-counter"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/post-views-counter/"
         }
     ],
     "database_specific": {
+        "slug": "post-views-counter",
+        "name": "Post Views Counter",
         "cwe_ids": [
             "CWE-79"
         ]

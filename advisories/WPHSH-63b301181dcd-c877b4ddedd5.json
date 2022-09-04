@@ -116,19 +116,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9465"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/yet-another-stars-rating"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8309"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/yet-another-stars-rating/"
+            "url": "https://wordpress.org/plugins/yet-another-stars-rating/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "http://cinu.pl/research/wp-plugins/mail_041b796c7533880df03a43895fed5f00.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9465"
         }
     ],
     "database_specific": {
+        "slug": "yet-another-stars-rating",
+        "name": "Yasr \u2013 Yet Another Stars Rating",
         "cwe_ids": [
             "CWE-89"
         ]

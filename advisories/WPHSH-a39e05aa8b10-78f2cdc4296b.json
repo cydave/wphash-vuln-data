@@ -122,19 +122,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24161"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/responsive-menu"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/efca27e0-bdb6-4497-8330-081f909d6933"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/responsive-menu/"
+            "url": "https://www.wordfence.com/blog/2021/02/multiple-vulnerabilities-patched-in-responsive-menu-plugin/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24161"
         }
     ],
     "database_specific": {
+        "slug": "responsive-menu",
+        "name": "Responsive Menu \u2013 Create Mobile-Friendly Menu",
         "cwe_ids": [
             "CWE-352"
         ]

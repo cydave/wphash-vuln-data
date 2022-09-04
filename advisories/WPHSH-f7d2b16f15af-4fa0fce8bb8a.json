@@ -203,19 +203,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/e9966b3e-2eb9-4d70-8c18-6a829b4827cc"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24964"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/litespeed-cache"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/litespeed-cache/"
         }
     ],
     "database_specific": {
+        "slug": "litespeed-cache",
+        "name": "LiteSpeed Cache",
         "cwe_ids": [
             "CWE-79"
         ]

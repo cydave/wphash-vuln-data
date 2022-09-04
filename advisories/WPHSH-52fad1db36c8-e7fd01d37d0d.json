@@ -97,19 +97,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/a8d314b9-26ac-4b56-a85c-a2528e55e73a"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24714"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-all-import"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-all-import/"
         }
     ],
     "database_specific": {
+        "slug": "wp-all-import",
+        "name": "Import any XML or CSV File to WordPress",
         "cwe_ids": [
             "CWE-79"
         ]

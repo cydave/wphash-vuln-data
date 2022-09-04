@@ -72,19 +72,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-6535"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/youtube-embed"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/youtube-embed/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/youtube-embed/"
+            "url": "http://packetstormsecurity.com/files/133340/WordPress-YouTube-Embed-3.3.2-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8163"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/536334/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-6535"
         }
     ],
     "database_specific": {
+        "slug": "youtube-embed",
+        "name": "YouTube Embed",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -386,19 +386,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24205"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/elementor"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2021/03/cross-site-scripting-vulnerabilities-in-elementor-impact-over-7-million-sites/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/elementor/"
+            "url": "https://wpscan.com/vulnerability/ef23df6d-e265-44f6-bb94-1005b16d34d9"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24205"
         }
     ],
     "database_specific": {
+        "slug": "elementor",
+        "name": "Elementor Website Builder",
         "cwe_ids": [
             "CWE-79"
         ]

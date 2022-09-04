@@ -51,22 +51,20 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/c14e1ba6-fc00-4150-b541-0d6740fee4d2"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24761"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/error-log-viewer"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/error-log-viewer/"
         }
     ],
     "database_specific": {
+        "slug": "error-log-viewer",
+        "name": "Error Log Viewer by BestWebSoft",
         "cwe_ids": [
-            "CWE-352",
-            "CWE-22"
+            "CWE-22",
+            "CWE-352"
         ]
     }
 }

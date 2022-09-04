@@ -85,19 +85,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-1393"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/photo-gallery"
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/changeset/1074134/photo-gallery"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/photo-gallery/"
+            "url": "http://www.securityfocus.com/archive/1/534569/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-1393"
         }
     ],
     "database_specific": {
+        "slug": "photo-gallery",
+        "name": "Photo Gallery by 10Web \u2013 Mobile-Friendly Image Gallery",
         "cwe_ids": [
             "CWE-89"
         ]

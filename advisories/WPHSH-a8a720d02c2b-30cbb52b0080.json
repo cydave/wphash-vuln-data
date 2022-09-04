@@ -116,19 +116,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-15079"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-smushit"
+            "type": "WEB",
+            "url": "https://wordpress.org/support/topic/file-transversal-bug/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-smushit/"
+            "url": "https://wordpress.org/plugins/wp-smushit/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-15079"
         }
     ],
     "database_specific": {
+        "slug": "wp-smushit",
+        "name": "Smush \u2013 Lazy Load Images, Optimize & Compress Images",
         "cwe_ids": [
             "CWE-22"
         ]

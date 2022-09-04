@@ -89,19 +89,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28649"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/orbisius-child-theme-creator"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2020/10/high-severity-vulnerability-patched-in-child-theme-creator-by-orbisius/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/orbisius-child-theme-creator/"
+            "url": "https://wordpress.org/plugins/orbisius-child-theme-creator/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28649"
         }
     ],
     "database_specific": {
+        "slug": "orbisius-child-theme-creator",
+        "name": "Child Theme Creator by Orbisius",
         "cwe_ids": [
             "CWE-352"
         ]

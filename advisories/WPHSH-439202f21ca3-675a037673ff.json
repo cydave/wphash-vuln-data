@@ -73,19 +73,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/b655fc21-47a1-4786-8911-d78ab823c153"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25110"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/futurio-extra"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/futurio-extra/"
         }
     ],
     "database_specific": {
+        "slug": "futurio-extra",
+        "name": "Futurio Extra",
         "cwe_ids": [
             "CWE-200"
         ]

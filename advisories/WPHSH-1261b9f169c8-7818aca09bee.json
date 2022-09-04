@@ -42,19 +42,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4854"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-construction-mode"
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/127287/WordPress-Construction-Mode-1.8-Cross-Site-Scripting.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-construction-mode/"
+            "url": "http://www.securityfocus.com/bid/68287"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4854"
         }
     ],
     "database_specific": {
+        "slug": "wp-construction-mode",
+        "name": "wp-construction-mode",
         "cwe_ids": [
             "CWE-79"
         ]

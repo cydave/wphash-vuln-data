@@ -83,19 +83,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/feedwordpress/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9358"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/feedwordpress"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/feedwordpress/"
         }
     ],
     "database_specific": {
+        "slug": "feedwordpress",
+        "name": "FeedWordPress",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -62,19 +62,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/d55caa9b-d50f-4c13-bc69-dc475641735f"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24791"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/header-footer-code-manager"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/header-footer-code-manager/"
         }
     ],
     "database_specific": {
+        "slug": "header-footer-code-manager",
+        "name": "Header Footer Code Manager",
         "cwe_ids": [
             "CWE-89"
         ]

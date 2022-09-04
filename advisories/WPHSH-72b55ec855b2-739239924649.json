@@ -66,19 +66,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-polls/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9352"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-polls"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-polls/"
         }
     ],
     "database_specific": {
+        "slug": "wp-polls",
+        "name": "WP-Polls",
         "cwe_ids": [
             "CWE-89"
         ]

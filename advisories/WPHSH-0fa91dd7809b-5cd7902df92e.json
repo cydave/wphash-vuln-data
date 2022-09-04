@@ -195,19 +195,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/0d02b222-e672-4ac0-a1d4-d34e1ecf4a95"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0320"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/essential-addons-for-elementor-lite"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/essential-addons-for-elementor-lite/"
         }
     ],
     "database_specific": {
+        "slug": "essential-addons-for-elementor-lite",
+        "name": "Essential Addons for Elementor",
         "cwe_ids": [
             "CWE-22"
         ]

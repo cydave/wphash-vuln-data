@@ -175,19 +175,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/2746101e-e993-42b9-bd6f-dfd5544fa3fe"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24806"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wpdiscuz"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wpdiscuz/"
         }
     ],
     "database_specific": {
+        "slug": "wpdiscuz",
+        "name": "Comments \u2013 wpDiscuz",
         "cwe_ids": [
             "CWE-352"
         ]

@@ -65,19 +65,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0150"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-accessibility-helper"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/7142a538-7c3d-4dd0-bd2c-cbd2efaf53c5"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-accessibility-helper/"
+            "url": "https://plugins.trac.wordpress.org/changeset/2661008"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0150"
         }
     ],
     "database_specific": {
+        "slug": "wp-accessibility-helper",
+        "name": "WP Accessibility Helper (WAH)",
         "cwe_ids": [
             "CWE-79"
         ]

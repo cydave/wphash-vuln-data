@@ -63,19 +63,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/519205ff-2ff6-41e4-9e95-475ab2ce35b9"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24668"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/maz-loader"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/maz-loader/"
         }
     ],
     "database_specific": {
+        "slug": "maz-loader",
+        "name": "MAZ Loader \u2013 Preloader Builder for WordPress",
         "cwe_ids": [
             "CWE-352"
         ]

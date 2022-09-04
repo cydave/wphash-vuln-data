@@ -293,19 +293,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/652efc4a-f931-4668-ae74-a58b288a5715"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24875"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ecommerce-product-catalog"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/ecommerce-product-catalog/"
         }
     ],
     "database_specific": {
+        "slug": "ecommerce-product-catalog",
+        "name": "eCommerce Product Catalog Plugin for WordPress",
         "cwe_ids": [
             "CWE-79"
         ]

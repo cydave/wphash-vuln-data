@@ -45,19 +45,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0724"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-ecommerce-shop-styling"
+            "type": "WEB",
+            "url": "http://osvdb.org/89921"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-ecommerce-shop-styling/"
+            "url": "http://secunia.com/advisories/51707"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/57768"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/plugins/wp-ecommerce-shop-styling/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/81931"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0724"
         }
     ],
     "database_specific": {
+        "slug": "wp-ecommerce-shop-styling",
+        "name": "wp-ecommerce-shop-styling",
         "cwe_ids": [
             "CWE-94"
         ]

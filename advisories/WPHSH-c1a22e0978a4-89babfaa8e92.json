@@ -135,23 +135,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25108"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ip2location-country-blocker"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2653459"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ip2location-country-blocker/"
+            "url": "https://wpscan.com/vulnerability/9d416ca3-bd02-4fcf-b3b8-f2f2280d02d2"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/2653459"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25108"
         }
     ],
     "database_specific": {
+        "slug": "ip2location-country-blocker",
+        "name": "IP2Location Country Blocker",
         "cwe_ids": [
             "CWE-352"
         ]

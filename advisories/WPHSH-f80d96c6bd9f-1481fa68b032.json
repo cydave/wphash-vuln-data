@@ -61,19 +61,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24263"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/powerpack-lite-for-elementor"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/48876006-b00f-49b7-80a1-b1d6dc2f4eec"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/powerpack-lite-for-elementor/"
+            "url": "https://www.wordfence.com/blog/2021/04/recent-patches-rock-the-elementor-ecosystem/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24263"
         }
     ],
     "database_specific": {
+        "slug": "powerpack-lite-for-elementor",
+        "name": "PowerPack Addons for Elementor (Instagram Feed, Pricing Table, Forms Stylers, Display Conditions, Free Elementor Widgets and Elementor Templates)",
         "cwe_ids": [
             "CWE-79"
         ]

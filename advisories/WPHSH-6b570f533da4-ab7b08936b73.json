@@ -56,19 +56,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2168"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-booking-system"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-booking-system/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-booking-system/"
+            "url": "https://jvn.jp/en/jp/JVN96165722/index.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://jvndb.jvn.jp/jvndb/JVNDB-2017-000092"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8830"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2168"
         }
     ],
     "database_specific": {
+        "slug": "wp-booking-system",
+        "name": "WP Booking System \u2013 Booking Calendar",
         "cwe_ids": [
             "CWE-79"
         ]

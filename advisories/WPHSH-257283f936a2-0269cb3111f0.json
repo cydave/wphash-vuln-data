@@ -46,19 +46,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/9b9a55d5-c121-4b5b-80df-f9f419c0dc55"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24675"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/one-user-avatar"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/one-user-avatar/"
         }
     ],
     "database_specific": {
+        "slug": "one-user-avatar",
+        "name": "One User Avatar | User Profile Picture",
         "cwe_ids": [
             "CWE-352"
         ]

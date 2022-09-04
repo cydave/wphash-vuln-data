@@ -47,19 +47,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/2faccd1b-4b1c-4b3e-b917-de2d05e860f8"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24580"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/side-menu-lite"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/side-menu-lite/"
         }
     ],
     "database_specific": {
+        "slug": "side-menu-lite",
+        "name": "Side Menu Lite \u2013 add sticky fixed buttons",
         "cwe_ids": [
             "CWE-89"
         ]

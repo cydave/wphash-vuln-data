@@ -47,23 +47,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39346"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/google-maps-easy"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2021-39346"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/google-maps-easy/"
+            "url": "https://github.com/BigTiger2020/word-press/blob/main/Google%20Maps%20Easy.md"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2620851/google-maps-easy/trunk/modules/marker_groups/views/tpl/mgrEditMarkerGroup.php"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39346"
         }
     ],
     "database_specific": {
+        "slug": "google-maps-easy",
+        "name": "Easy Google Maps",
         "cwe_ids": [
             "CWE-79"
         ]

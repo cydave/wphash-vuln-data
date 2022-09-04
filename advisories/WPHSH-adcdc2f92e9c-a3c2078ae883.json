@@ -127,19 +127,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/42f1bf1f-95a8-41ee-a637-88deb80ab870"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1990"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-nested-pages"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-nested-pages/"
         }
     ],
     "database_specific": {
+        "slug": "wp-nested-pages",
+        "name": "Nested Pages",
         "cwe_ids": [
             "CWE-79"
         ]

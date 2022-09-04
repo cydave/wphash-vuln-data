@@ -68,19 +68,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/af3b32c9-f386-4bb6-a362-86a27f49a739"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1334"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-youtube-live"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-youtube-live/"
         }
     ],
     "database_specific": {
+        "slug": "wp-youtube-live",
+        "name": "WP YouTube Live",
         "cwe_ids": [
             "CWE-79"
         ]

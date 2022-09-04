@@ -67,19 +67,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5190"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/si-captcha-for-wordpress"
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/69011"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/si-captcha-for-wordpress/"
+            "url": "http://packetstormsecurity.com/files/127723/WordPress-SI-CAPTCHA-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/95104"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5190"
         }
     ],
     "database_specific": {
+        "slug": "si-captcha-for-wordpress",
+        "name": "si-captcha-for-wordpress",
         "cwe_ids": [
             "CWE-79"
         ]

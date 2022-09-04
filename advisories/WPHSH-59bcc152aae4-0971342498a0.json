@@ -105,19 +105,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/a8ccb09a-9f8c-448f-b2d0-9b01c3a748ac"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24471"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/youtube-embed"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/youtube-embed/"
         }
     ],
     "database_specific": {
+        "slug": "youtube-embed",
+        "name": "YouTube Embed",
         "cwe_ids": [
             "CWE-79"
         ]

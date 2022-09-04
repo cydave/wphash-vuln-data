@@ -34,19 +34,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2572"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/threewp-email-reflector"
+            "type": "WEB",
+            "url": "http://osvdb.org/show/osvdb/85134"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/threewp-email-reflector/"
+            "url": "http://www.securityfocus.com/bid/54903"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.exploit-db.com/exploits/20365"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/plugins/threewp-email-reflector/changelog"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/77502"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2572"
         }
     ],
     "database_specific": {
+        "slug": "threewp-email-reflector",
+        "name": "threewp-email-reflector",
         "cwe_ids": [
             "CWE-79"
         ]

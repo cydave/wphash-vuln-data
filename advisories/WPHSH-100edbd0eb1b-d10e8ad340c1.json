@@ -231,19 +231,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/f37d1d55-10cc-4202-8d16-9ec2128f54f9"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1005"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-statistics"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-statistics/"
         }
     ],
     "database_specific": {
+        "slug": "wp-statistics",
+        "name": "WP Statistics",
         "cwe_ids": [
             "CWE-79"
         ]

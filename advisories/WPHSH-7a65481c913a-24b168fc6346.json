@@ -106,23 +106,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0441"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/masterstudy-lms-learning-management-system"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2667195"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/masterstudy-lms-learning-management-system/"
+            "url": "https://wpscan.com/vulnerability/173c2efe-ee9c-4539-852f-c242b4f728ed"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/2667195"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0441"
         }
     ],
     "database_specific": {
+        "slug": "masterstudy-lms-learning-management-system",
+        "name": "MasterStudy LMS \u2013 WordPress LMS Plugin",
         "cwe_ids": [
             "CWE-269"
         ]

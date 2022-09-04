@@ -58,19 +58,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/40c7e424-9a97-41ab-a312-2a06b607609a"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24677"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/find-my-blocks"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/find-my-blocks/"
         }
     ],
     "database_specific": {
+        "slug": "find-my-blocks",
+        "name": "Find My Blocks",
         "cwe_ids": [
             "CWE-862"
         ]

@@ -41,19 +41,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8622"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/compfight"
+            "type": "WEB",
+            "url": "http://downloads.wordpress.org/plugin/compfight.1.5.zip"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/compfight/"
+            "url": "http://wordpress.org/plugins/compfight/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/127430/WordPress-Compfight-1.4-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8622"
         }
     ],
     "database_specific": {
+        "slug": "compfight",
+        "name": "compfight",
         "cwe_ids": [
             "CWE-79"
         ]

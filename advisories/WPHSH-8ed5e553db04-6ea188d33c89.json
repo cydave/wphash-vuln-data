@@ -47,19 +47,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-15867"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/user-login-history"
+            "type": "WEB",
+            "url": "https://github.com/faiyazalam/WordPress-plugin-user-login-history/commit/519341a7dece59e2c589b908a636e6cf12a61741"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/user-login-history/"
+            "url": "https://wpvulndb.com/vulnerabilities/8939"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-15867"
         }
     ],
     "database_specific": {
+        "slug": "user-login-history",
+        "name": "User Login History",
         "cwe_ids": [
             "CWE-79"
         ]

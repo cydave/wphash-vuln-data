@@ -79,19 +79,37 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0734"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mingle-forum"
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/58059"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/mingle-forum/"
+            "url": "http://secunia.com/secunia_research/2013-3"
+        },
+        {
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/52167"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/90432"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/90433"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/82187"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0734"
         }
     ],
     "database_specific": {
+        "slug": "mingle-forum",
+        "name": "mingle-forum",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -79,19 +79,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/43b8cfb4-f875-432b-8e3b-52653fdee87c"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24294"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/dsgvo-all-in-one-for-wp"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/dsgvo-all-in-one-for-wp/"
         }
     ],
     "database_specific": {
+        "slug": "dsgvo-all-in-one-for-wp",
+        "name": "DSGVO All in one for WP",
         "cwe_ids": [
             "CWE-79"
         ]

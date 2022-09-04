@@ -36,19 +36,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4532"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/garagesale"
+            "type": "WEB",
+            "url": "http://codevigilant.com/disclosure/wp-plugin-garagesale-a3-cross-site-scripting-xss"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/garagesale/"
+            "url": "http://wordpress.org/plugins/garagesale/changelog"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4532"
         }
     ],
     "database_specific": {
+        "slug": "garagesale",
+        "name": "GarageSale",
         "cwe_ids": [
             "CWE-79"
         ]

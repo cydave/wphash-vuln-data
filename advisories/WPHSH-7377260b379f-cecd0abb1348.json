@@ -334,19 +334,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://blog.nintechnet.com/wordpress-elementor-plugin-fixed-safe-mode-privilege-escalation-vulnerability/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-20634"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/elementor"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/elementor/"
         }
     ],
     "database_specific": {
+        "slug": "elementor",
+        "name": "Elementor Website Builder",
         "cwe_ids": []
     }
 }

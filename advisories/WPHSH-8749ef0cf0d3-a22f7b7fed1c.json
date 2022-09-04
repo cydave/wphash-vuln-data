@@ -46,19 +46,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9098"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contus-video-gallery"
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/68883"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/contus-video-gallery/"
+            "url": "http://packetstormsecurity.com/files/127611/WordPress-Video-Gallery-2.5-Cross-Site-Scripting-SQL-Injection.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9098"
         }
     ],
     "database_specific": {
+        "slug": "contus-video-gallery",
+        "name": "contus-video-gallery",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -92,19 +92,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/e1693318-900c-47f1-bb77-008b0d33327f"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1625"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/new-user-approve"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/new-user-approve/"
         }
     ],
     "database_specific": {
+        "slug": "new-user-approve",
+        "name": "New User Approve",
         "cwe_ids": [
             "CWE-352"
         ]

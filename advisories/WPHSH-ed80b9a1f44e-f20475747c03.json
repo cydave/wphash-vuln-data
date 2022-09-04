@@ -51,19 +51,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24495"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/marmoset-viewer"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/d11b79a3-f762-49ab-b7c8-3174624d7638"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/marmoset-viewer/"
+            "url": "https://johnjhacking.com/blog/cve-2021-24495-improper-neutralization-of-input-during-web-page-generation-on-id-parameter-in-wordpress-marmoset-viewer-plugin-versions-1.9.3-leads-to-reflected-cross-site-scripting/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24495"
         }
     ],
     "database_specific": {
+        "slug": "marmoset-viewer",
+        "name": "Marmoset Viewer",
         "cwe_ids": [
             "CWE-79"
         ]

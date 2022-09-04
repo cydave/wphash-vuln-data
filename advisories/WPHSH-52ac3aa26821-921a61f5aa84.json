@@ -54,19 +54,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9524"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cardoza-facebook-like-box"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/61557"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/cardoza-facebook-like-box/"
+            "url": "http://packetstormsecurity.com/files/129506/WordPress-Facebook-Like-Box-2.8.2-CSRF-XSS.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/cardoza-facebook-like-box/changelog/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9524"
         }
     ],
     "database_specific": {
+        "slug": "cardoza-facebook-like-box",
+        "name": "Easy Social Like Box \u2013 Popup \u2013 Sidebar Widget",
         "cwe_ids": [
             "CWE-352"
         ]

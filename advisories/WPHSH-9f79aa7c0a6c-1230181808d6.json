@@ -49,19 +49,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/c6d3d308-4bf1-493f-86e9-dd623526e3c6"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0728"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/easy-smooth-scroll-links"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/easy-smooth-scroll-links/"
         }
     ],
     "database_specific": {
+        "slug": "easy-smooth-scroll-links",
+        "name": "easy-smooth-scroll-links",
         "cwe_ids": [
             "CWE-79"
         ]

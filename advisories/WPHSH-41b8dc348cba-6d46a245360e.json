@@ -151,19 +151,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/306ecf09-fdf0-449c-930c-9dfa58f0efc2"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24965"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/restaurant-reservations"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/restaurant-reservations/"
         }
     ],
     "database_specific": {
+        "slug": "restaurant-reservations",
+        "name": "Five Star Restaurant Reservations \u2013 WordPress Booking Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

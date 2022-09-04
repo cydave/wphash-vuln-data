@@ -106,19 +106,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24427"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/w3-total-cache"
+            "type": "WEB",
+            "url": "https://m0ze.ru/vulnerability/[2021-04-25]-[WordPress]-[CWE-79]-W3-Total-Cache-WordPress-Plugin-v2.1.2.txt"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/w3-total-cache/"
+            "url": "https://wpscan.com/vulnerability/5da5ce9a-82a6-404f-8dec-795d7905b3f9"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24427"
         }
     ],
     "database_specific": {
+        "slug": "w3-total-cache",
+        "name": "W3 Total Cache",
         "cwe_ids": [
             "CWE-79"
         ]

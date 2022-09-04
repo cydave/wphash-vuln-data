@@ -153,19 +153,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-13640"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wpdiscuz"
+            "type": "WEB",
+            "url": "https://wpdiscuz.com/community/news/security-vulnerability-issue-in-5-3-5-please-udate/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wpdiscuz/"
+            "url": "https://wordpress.org/plugins/wpdiscuz/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/changeset/2323200"
+        },
+        {
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/browser/wpdiscuz/tags/5.3.6"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.openwall.com/lists/oss-security/2020/07/06/1"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-13640"
         }
     ],
     "database_specific": {
+        "slug": "wpdiscuz",
+        "name": "Comments \u2013 wpDiscuz",
         "cwe_ids": [
             "CWE-89"
         ]

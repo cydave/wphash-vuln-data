@@ -65,19 +65,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/19800898-d7b6-4edd-887b-dac3c0597f14"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24142"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/eps-301-redirects"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/eps-301-redirects/"
         }
     ],
     "database_specific": {
+        "slug": "eps-301-redirects",
+        "name": "301 Redirects \u2013 Easy Redirect Manager",
         "cwe_ids": [
             "CWE-89"
         ]

@@ -45,19 +45,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2698"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/calendar"
+            "type": "WEB",
+            "url": "http://wordpress.org/plugins/calendar/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/calendar/"
+            "url": "http://secunia.com/advisories/52841"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/59661"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/84032"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2698"
         }
     ],
     "database_specific": {
+        "slug": "calendar",
+        "name": "Calendar",
         "cwe_ids": [
             "CWE-352"
         ]

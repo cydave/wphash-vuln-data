@@ -81,19 +81,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-11018"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/gallery-images"
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/browser/gallery-images/tags/1.9.0"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/gallery-images/"
+            "url": "http://10degres.net/cve-2016-11018-image-gallery-sql-injection/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/browser/gallery-images/tags/1.8.9"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-11018"
         }
     ],
     "database_specific": {
+        "slug": "gallery-images",
+        "name": "gallery-images",
         "cwe_ids": [
             "CWE-89"
         ]

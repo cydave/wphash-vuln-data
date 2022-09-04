@@ -79,19 +79,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15829"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/photoblocks-grid-gallery"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/9443"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/photoblocks-grid-gallery/"
+            "url": "https://wordpress.org/plugins/photoblocks-grid-gallery/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15829"
         }
     ],
     "database_specific": {
+        "slug": "photoblocks-grid-gallery",
+        "name": "Gallery PhotoBlocks",
         "cwe_ids": [
             "CWE-79"
         ]

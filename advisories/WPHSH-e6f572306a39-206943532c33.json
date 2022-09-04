@@ -71,19 +71,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10987"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/persian-woocommerce-sms"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8463"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/persian-woocommerce-sms/"
+            "url": "https://0x62626262.wordpress.com/2016/04/21/persian-woocommerce-sms-xss-vulnerability/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/persian-woocommerce-sms/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10987"
         }
     ],
     "database_specific": {
+        "slug": "persian-woocommerce-sms",
+        "name": "\u0627\u0641\u0632\u0648\u0646\u0647 \u067e\u06cc\u0627\u0645\u06a9 \u0648\u0648\u06a9\u0627\u0645\u0631\u0633 Persian WooCommerce SMS",
         "cwe_ids": [
             "CWE-79"
         ]

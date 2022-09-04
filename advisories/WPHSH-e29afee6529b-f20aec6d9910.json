@@ -43,19 +43,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5196"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/improved-user-search-in-backend"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/60590"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/improved-user-search-in-backend/"
+            "url": "http://wordpress.org/plugins/improved-user-search-in-backend/changelog"
+        },
+        {
+            "type": "WEB",
+            "url": "https://security.dxw.com/advisories/csrf-and-xss-in-improved-user-search-allow-execution-of-arbitrary-javascript-in-wordpress-admin-area/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5196"
         }
     ],
     "database_specific": {
+        "slug": "improved-user-search-in-backend",
+        "name": "Improved user search in backend",
         "cwe_ids": [
             "CWE-79"
         ]

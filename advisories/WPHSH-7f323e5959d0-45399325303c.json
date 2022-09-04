@@ -78,19 +78,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/de51b970-ab13-41a6-a479-a92cd0e70b71"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24783"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/post-expirator"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/post-expirator/"
         }
     ],
     "database_specific": {
+        "slug": "post-expirator",
+        "name": "PublishPress Future: Automatically Unpublish WordPress Posts",
         "cwe_ids": [
             "CWE-863"
         ]

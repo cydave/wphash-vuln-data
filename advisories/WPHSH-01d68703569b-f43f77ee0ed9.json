@@ -46,17 +46,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2384"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/digital-publications-by-supsystic"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/digital-publications-by-supsystic/"
         }
     ],
     "database_specific": {
+        "slug": "digital-publications-by-supsystic",
+        "name": "Digital Publications by Supsystic",
         "cwe_ids": []
     }
 }

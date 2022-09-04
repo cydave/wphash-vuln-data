@@ -108,19 +108,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/93edcc23-894a-46c2-84d2-407dcb64ba1e"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24376"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/autoptimize"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/autoptimize/"
         }
     ],
     "database_specific": {
+        "slug": "autoptimize",
+        "name": "Autoptimize",
         "cwe_ids": [
             "CWE-434"
         ]

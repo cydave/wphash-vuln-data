@@ -92,17 +92,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34658"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/download-manager"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/download-manager/"
         }
     ],
     "database_specific": {
+        "slug": "download-manager",
+        "name": "Download Manager",
         "cwe_ids": []
     }
 }

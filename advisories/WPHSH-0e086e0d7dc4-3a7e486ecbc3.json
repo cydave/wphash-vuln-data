@@ -45,19 +45,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4525"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ebay-feeds-for-wordpress"
+            "type": "WEB",
+            "url": "http://wordpress.org/plugins/ebay-feeds-for-wordpress/changelog"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ebay-feeds-for-wordpress/"
+            "url": "http://codevigilant.com/disclosure/wp-plugin-ebay-feeds-for-wordpress-a3-cross-site-scripting-xss"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4525"
         }
     ],
     "database_specific": {
+        "slug": "ebay-feeds-for-wordpress",
+        "name": "WP eBay Product Feeds",
         "cwe_ids": [
             "CWE-79"
         ]

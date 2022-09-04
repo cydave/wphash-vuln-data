@@ -59,19 +59,49 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-2598"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/quick-pagepost-redirect-plugin"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/57883"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/quick-pagepost-redirect-plugin/"
+            "url": "http://seclists.org/fulldisclosure/2014/Apr/171"
+        },
+        {
+            "type": "WEB",
+            "url": "https://security.dxw.com/advisories/csrf-and-stored-xss-in-quick-pagepost-redirect-plugin/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.exploit-db.com/exploits/32867"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/show/osvdb/105707"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/show/osvdb/105708"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/quick-pagepost-redirect-plugin/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/126127"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/92528"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-2598"
         }
     ],
     "database_specific": {
+        "slug": "quick-pagepost-redirect-plugin",
+        "name": "Quick Page/Post Redirect Plugin",
         "cwe_ids": [
             "CWE-352"
         ]

@@ -92,19 +92,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-1383"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/geo-mashup"
+            "type": "WEB",
+            "url": "http://www.openwall.com/lists/oss-security/2015/01/27/26"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/geo-mashup/"
+            "url": "https://wordpress.org/plugins/geo-mashup/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://seclists.org/fulldisclosure/2015/Jan/113"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-1383"
         }
     ],
     "database_specific": {
+        "slug": "geo-mashup",
+        "name": "Geo Mashup",
         "cwe_ids": [
             "CWE-79"
         ]

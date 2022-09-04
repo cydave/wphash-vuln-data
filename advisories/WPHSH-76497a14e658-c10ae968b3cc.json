@@ -77,19 +77,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15872"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/loginpress"
+            "type": "WEB",
+            "url": "https://www.webarxsecurity.com/loginpress-plugin/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/loginpress/"
+            "url": "https://wordpress.org/plugins/loginpress/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15872"
         }
     ],
     "database_specific": {
+        "slug": "loginpress",
+        "name": "LoginPress | Custom Login Page Customizer",
         "cwe_ids": [
             "CWE-89"
         ]

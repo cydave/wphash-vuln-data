@@ -61,19 +61,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/6bc8fff1-ff10-4175-8a46-563f0f26f96a"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24812"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/betterlinks"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/betterlinks/"
         }
     ],
     "database_specific": {
+        "slug": "betterlinks",
+        "name": "BetterLinks \u2013 Shorten, Track and Manage any URL",
         "cwe_ids": [
             "CWE-79"
         ]

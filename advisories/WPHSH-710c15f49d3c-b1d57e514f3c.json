@@ -56,19 +56,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25601"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contact-form-x"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/contact-form-x/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/contact-form-x/"
+            "url": "https://patchstack.com/database/vulnerability/contact-form-x/wordpress-contact-form-x-plugin-2-4-authenticated-reflected-cross-site-scripting-xss-vulnerability"
+        },
+        {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PZQCIZQI267YHVYSFB3CRKNK3F4ASPLK/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/7CR6VGITIB2TXXZ6B5QRRWPU5S4BXQPD/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IJX6NVXSRN3RX3YUVEJQ4WUTQSDL3DSR/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25601"
         }
     ],
     "database_specific": {
+        "slug": "contact-form-x",
+        "name": "Contact Form X",
         "cwe_ids": [
             "CWE-79"
         ]

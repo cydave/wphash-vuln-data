@@ -63,19 +63,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9305"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cart66-lite"
+            "type": "WEB",
+            "url": "http://security.szurek.pl/cart66-lite-wordpress-ecommerce-15117-blind-sql-injection.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/cart66-lite/"
+            "url": "http://packetstormsecurity.com/files/129395/Cart66-Lite-WordPress-Ecommerce-1.5.1.17-SQL-Injection.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/cart66-lite/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/show/osvdb/115286"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.exploit-db.com/exploits/35459"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9305"
         }
     ],
     "database_specific": {
+        "slug": "cart66-lite",
+        "name": "cart66-lite",
         "cwe_ids": [
             "CWE-89"
         ]

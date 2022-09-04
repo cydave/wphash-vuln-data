@@ -42,19 +42,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2699"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/underconstruction"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/52881"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/underconstruction/"
+            "url": "http://wordpress.org/plugins/underconstruction/changelog"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/93857"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2699"
         }
     ],
     "database_specific": {
+        "slug": "underconstruction",
+        "name": "underConstruction",
         "cwe_ids": [
             "CWE-352"
         ]

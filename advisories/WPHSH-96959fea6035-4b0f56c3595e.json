@@ -105,19 +105,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2020/10/high-severity-vulnerabilities-in-post-grid-and-team-showcase-plugins/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35939"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/post-grid"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/post-grid/"
         }
     ],
     "database_specific": {
+        "slug": "post-grid",
+        "name": "Post Grid",
         "cwe_ids": [
             "CWE-502"
         ]

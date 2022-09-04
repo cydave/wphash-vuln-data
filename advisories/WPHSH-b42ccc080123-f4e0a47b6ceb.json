@@ -61,19 +61,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/52cf7e3c-2a0c-45c4-be27-be87424f1338"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1964"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/easy-svg"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/easy-svg/"
         }
     ],
     "database_specific": {
+        "slug": "easy-svg",
+        "name": "Easy SVG Support",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -58,19 +58,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/bf6f897b-af65-4122-802c-ae6d4f2346f9"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0702"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/petfinder-listings"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/petfinder-listings/"
         }
     ],
     "database_specific": {
+        "slug": "petfinder-listings",
+        "name": "List Petfinder Pets",
         "cwe_ids": [
             "CWE-79"
         ]

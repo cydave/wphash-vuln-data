@@ -59,19 +59,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/f57615d9-a567-4c2a-9f06-2c6b61f56074"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1326"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/form-forms"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/form-forms/"
         }
     ],
     "database_specific": {
+        "slug": "form-forms",
+        "name": "Form \u2013 Contact Form",
         "cwe_ids": [
             "CWE-79"
         ]

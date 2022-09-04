@@ -113,19 +113,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/e124d1ab-3e02-4ca5-8218-ce635e8bf074"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1298"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/tabs-responsive"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/tabs-responsive/"
         }
     ],
     "database_specific": {
+        "slug": "tabs-responsive",
+        "name": "Tabs Responsive",
         "cwe_ids": [
             "CWE-79"
         ]

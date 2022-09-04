@@ -102,19 +102,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2580"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/postie"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/50207"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/postie/"
+            "url": "http://www.exploit-db.com/exploits/20360"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/54909"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/84532"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/77537"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2580"
         }
     ],
     "database_specific": {
+        "slug": "postie",
+        "name": "Postie",
         "cwe_ids": [
             "CWE-79"
         ]

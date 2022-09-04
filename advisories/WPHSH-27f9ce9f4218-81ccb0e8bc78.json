@@ -43,19 +43,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10991"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/imdb-widget"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/imdb-widget/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/imdb-widget/"
+            "url": "https://wpvulndb.com/vulnerabilities/8426"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10991"
         }
     ],
     "database_specific": {
+        "slug": "imdb-widget",
+        "name": "imdb-widget",
         "cwe_ids": [
             "CWE-20"
         ]

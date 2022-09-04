@@ -105,19 +105,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24181"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/tutor"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/d5a00322-7098-4f8d-8e5e-157b63449c17"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/tutor/"
+            "url": "https://www.wordfence.com/blog/2021/03/several-vulnerabilities-patched-in-tutor-lms-plugin/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24181"
         }
     ],
     "database_specific": {
+        "slug": "tutor",
+        "name": "Tutor LMS \u2013 eLearning and online course solution",
         "cwe_ids": [
             "CWE-89"
         ]

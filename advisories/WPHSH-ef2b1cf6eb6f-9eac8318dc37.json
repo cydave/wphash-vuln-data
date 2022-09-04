@@ -54,19 +54,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/d6846774-1958-4c8d-bb64-af0d8c46e6e7"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24590"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cookie-notice-and-consent-banner"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/cookie-notice-and-consent-banner/"
         }
     ],
     "database_specific": {
+        "slug": "cookie-notice-and-consent-banner",
+        "name": "Cookie Notice & Consent Banner for\u00a0GDPR & CCPA Compliance",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -101,19 +101,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/e9ccf1fc-1dbf-4a41-bf4a-90af20b286d6"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0499"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sermon-browser"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/sermon-browser/"
         }
     ],
     "database_specific": {
+        "slug": "sermon-browser",
+        "name": "sermon-browser",
         "cwe_ids": [
             "CWE-352",
             "CWE-434"

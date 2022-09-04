@@ -348,19 +348,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/1628935f-1d7d-4609-b7a9-e5526499c974"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24363"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/photo-gallery"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/photo-gallery/"
         }
     ],
     "database_specific": {
+        "slug": "photo-gallery",
+        "name": "Photo Gallery by 10Web \u2013 Mobile-Friendly Image Gallery",
         "cwe_ids": [
             "CWE-22"
         ]

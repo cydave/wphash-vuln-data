@@ -43,19 +43,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/ba4503f7-684e-4274-bc53-3aa848712496"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24440"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sign-up-sheets"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/sign-up-sheets/"
         }
     ],
     "database_specific": {
+        "slug": "sign-up-sheets",
+        "name": "Sign-up Sheets",
         "cwe_ids": [
             "CWE-79"
         ]

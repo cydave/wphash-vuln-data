@@ -50,23 +50,49 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4926"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/adminimize"
+            "type": "FIX",
+            "url": "http://plugins.trac.wordpress.org/changeset?reponame=&new=467338@adminimize&old=466900@adminimize#file5"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/adminimize/"
+            "url": "http://www.openwall.com/lists/oss-security/2012/01/10/9"
         },
         {
-            "type": "FIX",
-            "url": "http://plugins.trac.wordpress.org/changeset?reponame=&new=467338@adminimize&old=466900@adminimize#file5"
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/50745"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.osvdb.org/77472"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.openwall.com/lists/oss-security/2012/01/05/10"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/520591"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/extend/plugins/adminimize/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/71414"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/520591/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4926"
         }
     ],
     "database_specific": {
+        "slug": "adminimize",
+        "name": "Adminimize",
         "cwe_ids": [
             "CWE-79"
         ]

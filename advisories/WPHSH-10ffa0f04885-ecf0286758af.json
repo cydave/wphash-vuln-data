@@ -39,23 +39,41 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4954"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/pie-register"
+            "type": "FIX",
+            "url": "http://plugins.trac.wordpress.org/changeset?reponame=&old=740249%40pie-register&new=740249%40pie-register"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/pie-register/"
+            "url": "http://osvdb.org/95160"
         },
         {
-            "type": "FIX",
-            "url": "http://plugins.trac.wordpress.org/changeset?reponame=&old=740249%40pie-register&new=740249%40pie-register"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/54123"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/support/topic/security-issue-web-application-cross-site-scripting"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/plugins/pie-register/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/61140"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/85604"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4954"
         }
     ],
     "database_specific": {
+        "slug": "pie-register",
+        "name": "Registration Forms \u2013 User Profile, Custom Registration Form, Login Form, Invitation-Based Registrations for WordPress",
         "cwe_ids": [
             "CWE-79"
         ]

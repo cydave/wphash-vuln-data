@@ -112,19 +112,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-6342"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/tweet-blender"
+            "type": "WEB",
+            "url": "https://www.htbridge.com/advisory/HTB23180"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/tweet-blender/"
+            "url": "http://secunia.com/advisories/55780"
+        },
+        {
+            "type": "WEB",
+            "url": "http://archives.neohapsis.com/archives/bugtraq/2013-11/0072.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/plugins/tweet-blender/changelog"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-6342"
         }
     ],
     "database_specific": {
+        "slug": "tweet-blender",
+        "name": "tweet-blender",
         "cwe_ids": [
             "CWE-79"
         ]

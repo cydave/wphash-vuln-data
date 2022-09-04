@@ -176,19 +176,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23979"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ultimate-reviews"
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/ultimate-reviews/wordpress-ultimate-reviews-plugin-3-0-15-authenticated-stored-cross-site-scripting-xss-vulnerability"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ultimate-reviews/"
+            "url": "https://wordpress.org/plugins/ultimate-reviews/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23979"
         }
     ],
     "database_specific": {
+        "slug": "ultimate-reviews",
+        "name": "Ultimate Reviews",
         "cwe_ids": [
             "CWE-79"
         ]

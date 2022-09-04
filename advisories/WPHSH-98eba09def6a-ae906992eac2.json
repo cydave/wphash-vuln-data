@@ -46,19 +46,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-100007"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/hk-exif-tags"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/57753"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/hk-exif-tags/"
+            "url": "https://wordpress.org/plugins/hk-exif-tags/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/92555"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-100007"
         }
     ],
     "database_specific": {
+        "slug": "hk-exif-tags",
+        "name": "HK Exif Tags",
         "cwe_ids": [
             "CWE-79"
         ]

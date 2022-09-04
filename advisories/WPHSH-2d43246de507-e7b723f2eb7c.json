@@ -61,19 +61,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/appointment-booking-calendar/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10916"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/appointment-booking-calendar"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/appointment-booking-calendar/"
         }
     ],
     "database_specific": {
+        "slug": "appointment-booking-calendar",
+        "name": "Appointment Booking Calendar",
         "cwe_ids": [
             "CWE-89"
         ]

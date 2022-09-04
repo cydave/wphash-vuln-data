@@ -63,19 +63,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24667"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/simply-gallery-block"
+            "type": "WEB",
+            "url": "https://www.fortiguard.com/zeroday/FG-VD-21-060"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/simply-gallery-block/"
+            "url": "https://wpscan.com/vulnerability/5925b263-6d6f-4a03-a98a-620150dff8f7"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24667"
         }
     ],
     "database_specific": {
+        "slug": "simply-gallery-block",
+        "name": "Gallery Blocks with Lightbox. Image Gallery, (HTML5 video , YouTube, Vimeo) Video Gallery and Lightbox for native gallery",
         "cwe_ids": [
             "CWE-79"
         ]

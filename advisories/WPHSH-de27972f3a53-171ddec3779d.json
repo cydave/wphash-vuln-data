@@ -142,17 +142,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2934"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/beaver-builder-lite-version"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/beaver-builder-lite-version/"
         }
     ],
     "database_specific": {
+        "slug": "beaver-builder-lite-version",
+        "name": "Beaver Builder \u2013 WordPress Page Builder",
         "cwe_ids": []
     }
 }

@@ -130,23 +130,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25076"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-user-frontend"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-user-frontend/"
+            "url": "https://wpscan.com/vulnerability/6d3eeba6-5560-4380-a6e9-f008a9112ac6"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2648715"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/166071/WordPress-WP-User-Frontend-3.5.25-SQL-Injection.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25076"
         }
     ],
     "database_specific": {
+        "slug": "wp-user-frontend",
+        "name": "WP User Frontend \u2013 Membership, Profile, Registration & Post Submission Plugin for WordPress",
         "cwe_ids": [
             "CWE-89"
         ]

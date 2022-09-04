@@ -360,19 +360,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0633"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/updraftplus"
+            "type": "WEB",
+            "url": "https://updraftplus.com/updraftplus-security-release-1-22-3-2-22-3/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/updraftplus/"
+            "url": "https://wpscan.com/vulnerability/d257c28f-3c7e-422b-a5c2-e618ed3c0bf3"
+        },
+        {
+            "type": "WEB",
+            "url": "https://jetpack.com/2022/02/17/severe-vulnerability-fixed-in-updraftplus-1-22-3/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/166059/WordPress-UpdraftPlus-1.22.2-Backup-Disclosure.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0633"
         }
     ],
     "database_specific": {
+        "slug": "updraftplus",
+        "name": "UpdraftPlus WordPress Backup Plugin",
         "cwe_ids": [
             "CWE-863"
         ]

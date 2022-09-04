@@ -52,19 +52,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10983"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ghost"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/ghost/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ghost/"
+            "url": "https://packetstormsecurity.com/files/136887/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10983"
         }
     ],
     "database_specific": {
+        "slug": "ghost",
+        "name": "Ghost",
         "cwe_ids": [
             "CWE-287"
         ]

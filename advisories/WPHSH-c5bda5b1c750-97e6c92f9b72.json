@@ -96,19 +96,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/1980c5ca-447d-4875-b542-9212cc7ff77f"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24940"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/persian-woocommerce"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/persian-woocommerce/"
         }
     ],
     "database_specific": {
+        "slug": "persian-woocommerce",
+        "name": "\u0648\u0648\u06a9\u0627\u0645\u0631\u0633 \u0641\u0627\u0631\u0633\u06cc",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -153,19 +153,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-4825"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/usc-e-shop"
+            "type": "WEB",
+            "url": "http://jvndb.jvn.jp/jvndb/JVNDB-2016-000115"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/usc-e-shop/"
+            "url": "http://jvn.jp/en/jp/JVN47363774/index.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.welcart.com/community/archives/78977"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-4825"
         }
     ],
     "database_specific": {
+        "slug": "usc-e-shop",
+        "name": "Welcart e-Commerce",
         "cwe_ids": [
             "CWE-20"
         ]

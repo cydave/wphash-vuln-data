@@ -60,19 +60,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/erident-custom-login-and-dashboard/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9322"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/erident-custom-login-and-dashboard"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/erident-custom-login-and-dashboard/"
         }
     ],
     "database_specific": {
+        "slug": "erident-custom-login-and-dashboard",
+        "name": "Erident Custom Login and Dashboard",
         "cwe_ids": [
             "CWE-352"
         ]

@@ -40,19 +40,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/32a4a2b5-ef65-4e29-af4a-f003dbd0809c"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25090"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/portfolio-wp"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/portfolio-wp/"
         }
     ],
     "database_specific": {
+        "slug": "portfolio-wp",
+        "name": "Portfolio Gallery, Product Catalog \u2013 Grid KIT Portfolio",
         "cwe_ids": [
             "CWE-79"
         ]

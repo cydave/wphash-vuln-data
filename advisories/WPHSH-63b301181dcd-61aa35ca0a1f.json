@@ -313,19 +313,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23980"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/yet-another-stars-rating"
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/yet-another-stars-rating/wordpress-yasr-yet-another-stars-rating-plugin-2-9-9-cross-site-scripting-xss-vulnerability"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/yet-another-stars-rating/"
+            "url": "https://wordpress.org/plugins/yet-another-stars-rating/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23980"
         }
     ],
     "database_specific": {
+        "slug": "yet-another-stars-rating",
+        "name": "Yasr \u2013 Yet Another Stars Rating",
         "cwe_ids": [
             "CWE-79"
         ]

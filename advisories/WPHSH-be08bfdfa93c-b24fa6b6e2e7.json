@@ -96,23 +96,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34636"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/countdown-wpdevart-extended"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2605523/countdown-wpdevart-extended/trunk/includes/admin/coundown_theme_page.php"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/countdown-wpdevart-extended/"
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2021-34636"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/2605523/countdown-wpdevart-extended/trunk/includes/admin/coundown_theme_page.php"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34636"
         }
     ],
     "database_specific": {
+        "slug": "countdown-wpdevart-extended",
+        "name": "Countdown and CountUp, WooCommerce Sales Timer",
         "cwe_ids": [
             "CWE-352"
         ]

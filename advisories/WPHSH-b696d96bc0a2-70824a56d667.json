@@ -107,19 +107,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24425"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mystickymenu"
+            "type": "WEB",
+            "url": "https://m0ze.ru/vulnerability/[2021-05-21]-[WordPress]-[CWE-79]-MyStickymenu-WordPress-Plugin-v2.5.1.txt"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/mystickymenu/"
+            "url": "https://wpscan.com/vulnerability/14632fa8-597e-49ff-8583-9797208a3583"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24425"
         }
     ],
     "database_specific": {
+        "slug": "mystickymenu",
+        "name": "Floating Notification Bar, Sticky Menu on Scroll, and Sticky Header for Any Theme \u2013 myStickymenu",
         "cwe_ids": [
             "CWE-79"
         ]

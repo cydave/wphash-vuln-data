@@ -81,19 +81,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-0547"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-all-import"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-all-import/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-all-import/"
+            "url": "https://plugins.trac.wordpress.org/changeset/1827741/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://jvn.jp/en/jp/JVN60032768/index.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-0547"
         }
     ],
     "database_specific": {
+        "slug": "wp-all-import",
+        "name": "Import any XML or CSV File to WordPress",
         "cwe_ids": [
             "CWE-79"
         ]

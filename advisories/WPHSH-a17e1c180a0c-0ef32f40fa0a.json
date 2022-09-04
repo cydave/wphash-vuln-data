@@ -96,19 +96,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4855"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/polylang"
+            "type": "WEB",
+            "url": "http://wordpress.org/plugins/polylang/changelog"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/polylang/"
+            "url": "http://secunia.com/advisories/59357"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4855"
         }
     ],
     "database_specific": {
+        "slug": "polylang",
+        "name": "Polylang",
         "cwe_ids": [
             "CWE-79"
         ]

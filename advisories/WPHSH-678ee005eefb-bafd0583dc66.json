@@ -100,17 +100,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1932"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/rezgo"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/rezgo/"
         }
     ],
     "database_specific": {
+        "slug": "rezgo",
+        "name": "Rezgo Online Booking",
         "cwe_ids": []
     }
 }

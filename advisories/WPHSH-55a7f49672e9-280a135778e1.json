@@ -35,19 +35,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5325"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/shortcode-redirect"
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/51626"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/shortcode-redirect/"
+            "url": "http://packetstormsecurity.org/files/view/108914/wpshortcoderedirect-xss.txt"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/72620"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5325"
         }
     ],
     "database_specific": {
+        "slug": "shortcode-redirect",
+        "name": "Shortcode Redirect",
         "cwe_ids": [
             "CWE-79"
         ]

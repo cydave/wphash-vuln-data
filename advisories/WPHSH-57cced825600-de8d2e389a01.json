@@ -193,19 +193,37 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9308"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-easycart"
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/129875/WordPress-Shopping-Cart-3.0.4-Unrestricted-File-Upload.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-easycart/"
+            "url": "http://www.securityfocus.com/bid/71983"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.exploit-db.com/exploits/35730"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/show/osvdb/116806"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-easycart/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://security.szurek.pl/wordpress-shopping-cart-304-unrestricted-file-upload.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9308"
         }
     ],
     "database_specific": {
+        "slug": "wp-easycart",
+        "name": "Shopping Cart & eCommerce Store",
         "cwe_ids": []
     }
 }

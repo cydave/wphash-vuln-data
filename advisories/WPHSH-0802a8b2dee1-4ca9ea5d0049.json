@@ -323,17 +323,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2241"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/featured-image-from-url"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/featured-image-from-url/"
         }
     ],
     "database_specific": {
+        "slug": "featured-image-from-url",
+        "name": "Featured Image from URL (FIFU)",
         "cwe_ids": []
     }
 }

@@ -106,19 +106,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/a9ab9e84-7f5e-4e7c-8647-114d9e02e59f"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25105"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/add-search-to-menu"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/add-search-to-menu/"
         }
     ],
     "database_specific": {
+        "slug": "add-search-to-menu",
+        "name": "Ivory Search \u2013 WordPress Search Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

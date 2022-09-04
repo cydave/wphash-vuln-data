@@ -168,19 +168,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-10196"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/popup-builder"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/10127"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/popup-builder/"
+            "url": "https://www.wordfence.com/blog/2020/03/vulnerabilities-patched-in-popup-builder-plugin-affecting-over-100000-sites/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-10196"
         }
     ],
     "database_specific": {
+        "slug": "popup-builder",
+        "name": "Popup Builder \u2013 Create highly converting, mobile friendly marketing popups.",
         "cwe_ids": [
             "CWE-79"
         ]

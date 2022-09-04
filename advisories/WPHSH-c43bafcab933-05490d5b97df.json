@@ -55,19 +55,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/6f9d1ee5-7ed7-4304-96a2-611b2f0081d2"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24828"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mortgage-loan-calculator"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/mortgage-loan-calculator/"
         }
     ],
     "database_specific": {
+        "slug": "mortgage-loan-calculator",
+        "name": "Mortgage Calculator / Loan Calculator",
         "cwe_ids": [
             "CWE-79"
         ]

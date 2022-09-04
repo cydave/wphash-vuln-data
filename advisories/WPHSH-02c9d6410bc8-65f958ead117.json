@@ -80,19 +80,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1949"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/social-media-widget"
+            "type": "WEB",
+            "url": "http://it.slashdot.org/story/13/04/13/212226/popular-wordpress-plug-in-caught-spamming-is-put-on-probation"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/social-media-widget/"
+            "url": "http://securityledger.com/hacked-wordpress-plug-in-put-on-double-secret-probation/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://blog.sucuri.net/2013/04/wordpress-plugin-social-media-widget.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.openwall.com/lists/oss-security/2013/04/14/1"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1949"
         }
     ],
     "database_specific": {
+        "slug": "social-media-widget",
+        "name": "Social Media Widget",
         "cwe_ids": []
     }
 }

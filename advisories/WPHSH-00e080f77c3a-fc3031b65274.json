@@ -63,19 +63,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/18ab1570-2b4a-48a4-86e6-c1d368563691"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24503"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/simple-icons"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/simple-icons/"
         }
     ],
     "database_specific": {
+        "slug": "simple-icons",
+        "name": "Popular Brand Icons \u2013 Simple Icons",
         "cwe_ids": [
             "CWE-79"
         ]

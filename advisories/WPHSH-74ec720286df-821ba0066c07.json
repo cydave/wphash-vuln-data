@@ -120,19 +120,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24900"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ninja-tables"
+            "type": "WEB",
+            "url": "https://packetstormsecurity.com/files/164632/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ninja-tables/"
+            "url": "https://wpscan.com/vulnerability/213d7c08-a37c-49d0-a072-24db711da5ec"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24900"
         }
     ],
     "database_specific": {
+        "slug": "ninja-tables",
+        "name": "Ninja Tables \u2013 Best Data Table Plugin for WordPress",
         "cwe_ids": [
             "CWE-79"
         ]

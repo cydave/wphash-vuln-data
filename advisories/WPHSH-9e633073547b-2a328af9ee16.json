@@ -77,19 +77,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4018"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/feedwordpress"
+            "type": "WEB",
+            "url": "http://seclists.org/fulldisclosure/2015/May/75"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/feedwordpress/"
+            "url": "https://wordpress.org/plugins/feedwordpress/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/131974/WordPress-FeedWordPress-2015.0426-SQL-Injection.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/37067/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4018"
         }
     ],
     "database_specific": {
+        "slug": "feedwordpress",
+        "name": "FeedWordPress",
         "cwe_ids": [
             "CWE-89"
         ]

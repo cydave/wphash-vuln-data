@@ -334,19 +334,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16308"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ninja-forms"
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/45234/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ninja-forms/"
+            "url": "https://wordpress.org/plugins/ninja-forms/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://packetstormsecurity.com/files/148993/WordPress-Ninja-Forms-3.3.13-CSV-Injection.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16308"
         }
     ],
     "database_specific": {
+        "slug": "ninja-forms",
+        "name": "Ninja Forms Contact Form \u2013 The Drag and Drop Form Builder for WordPress",
         "cwe_ids": [
             "CWE-1236"
         ]

@@ -112,19 +112,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/324e6b7b-a2ac-4c08-8b97-0967513f7328"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24486"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/simple-social-buttons"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/simple-social-buttons/"
         }
     ],
     "database_specific": {
+        "slug": "simple-social-buttons",
+        "name": "Simple Social Media Share Buttons \u2013 Social Sharing for Everyone",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -61,19 +61,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/0af030d8-b676-4826-91c0-98706b816f3c"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1566"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/quotes-llama"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/quotes-llama/"
         }
     ],
     "database_specific": {
+        "slug": "quotes-llama",
+        "name": "Quotes llama",
         "cwe_ids": [
             "CWE-79"
         ]

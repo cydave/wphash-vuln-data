@@ -63,19 +63,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/684bb06d-864f-4cba-ab0d-f83974d026fa"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0255"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-db-backup"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-db-backup/"
         }
     ],
     "database_specific": {
+        "slug": "wp-db-backup",
+        "name": "Database Backup for WordPress",
         "cwe_ids": [
             "CWE-89"
         ]

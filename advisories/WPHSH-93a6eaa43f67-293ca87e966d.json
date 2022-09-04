@@ -59,19 +59,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-17585"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-fastest-cache"
+            "type": "WEB",
+            "url": "https://docs.google.com/document/d/17JSC97ecikWalB_ZTScNipFoud2aFXb5mXEZ7g-KIQI/edit?usp=sharing"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-fastest-cache/"
+            "url": "https://ansawaf.blogspot.com/2019/04/csrf-multiple-stored-xss-in-wp-fastest.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/9696"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-17585"
         }
     ],
     "database_specific": {
+        "slug": "wp-fastest-cache",
+        "name": "WP Fastest Cache",
         "cwe_ids": [
             "CWE-79"
         ]

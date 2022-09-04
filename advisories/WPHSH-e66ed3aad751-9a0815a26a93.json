@@ -46,17 +46,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2429"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ultimate-sms-notifications"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/ultimate-sms-notifications/"
         }
     ],
     "database_specific": {
+        "slug": "ultimate-sms-notifications",
+        "name": "Ultimate SMS Notifications for WooCommerce",
         "cwe_ids": []
     }
 }

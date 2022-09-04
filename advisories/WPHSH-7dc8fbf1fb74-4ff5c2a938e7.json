@@ -60,19 +60,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9435"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/oauth2-provider"
+            "type": "WEB",
+            "url": "https://security.dxw.com/advisories/the-oauth2-complete-plugin-for-wordpress-uses-a-pseudorandom-number-generator-which-is-non-cryptographically-secure/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/oauth2-provider/"
+            "url": "https://wordpress.org/plugins/oauth2-provider/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9435"
         }
     ],
     "database_specific": {
+        "slug": "oauth2-provider",
+        "name": "WP OAuth Server (OAuth Authentication)",
         "cwe_ids": [
             "CWE-338"
         ]

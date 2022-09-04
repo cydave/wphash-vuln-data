@@ -117,19 +117,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/180f8e87-1463-43bb-a901-80031127723a"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0745"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/likebtn-like-button"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/likebtn-like-button/"
         }
     ],
     "database_specific": {
+        "slug": "likebtn-like-button",
+        "name": "Like Button Rating \u2665 LikeBtn",
         "cwe_ids": [
             "CWE-862"
         ]

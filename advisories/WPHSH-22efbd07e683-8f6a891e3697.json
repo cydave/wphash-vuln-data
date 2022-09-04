@@ -213,19 +213,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/76f0257d-aae7-4054-9b3d-ba10b4005cf1"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25001"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/woocommerce-jetpack"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/woocommerce-jetpack/"
         }
     ],
     "database_specific": {
+        "slug": "woocommerce-jetpack",
+        "name": "Booster for WooCommerce",
         "cwe_ids": [
             "CWE-79"
         ]

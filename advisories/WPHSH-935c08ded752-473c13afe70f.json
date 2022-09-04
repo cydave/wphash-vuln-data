@@ -121,19 +121,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/a9f4aab7-b42b-4bb6-b05d-05407f935230"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2169"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/loading-page"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/loading-page/"
         }
     ],
     "database_specific": {
+        "slug": "loading-page",
+        "name": "Loading Page with Loading Screen",
         "cwe_ids": [
             "CWE-79"
         ]

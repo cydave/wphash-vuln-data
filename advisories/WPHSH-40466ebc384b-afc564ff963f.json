@@ -40,19 +40,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-6797"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/blue-wrench-videos-widget"
+            "type": "WEB",
+            "url": "http://osvdb.org/98923"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/blue-wrench-videos-widget/"
+            "url": "http://securityundefined.com/wordpress-plugin-blue-wrench-video-widget-csrf-persistent-xss-0day-disclosure/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/plugins/blue-wrench-videos-widget/changelog"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/98922"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-6797"
         }
     ],
     "database_specific": {
+        "slug": "blue-wrench-videos-widget",
+        "name": "Blue Wrench Video Widget",
         "cwe_ids": [
             "CWE-352"
         ]

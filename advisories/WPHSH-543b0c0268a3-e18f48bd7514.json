@@ -57,19 +57,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24278"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wpcf7-redirect"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2021/04/severe-vulnerabilities-patched-in-redirection-for-contact-form-7-plugin/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wpcf7-redirect/"
+            "url": "https://wpscan.com/vulnerability/99f30604-d62b-4e30-afcd-b482f8d66413"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24278"
         }
     ],
     "database_specific": {
+        "slug": "wpcf7-redirect",
+        "name": "Redirection for Contact Form 7",
         "cwe_ids": [
             "CWE-863"
         ]

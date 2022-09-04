@@ -46,19 +46,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/analytics-tracker/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18554"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/analytics-tracker"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/analytics-tracker/"
         }
     ],
     "database_specific": {
+        "slug": "analytics-tracker",
+        "name": "Analytics Tracker",
         "cwe_ids": [
             "CWE-79"
         ]

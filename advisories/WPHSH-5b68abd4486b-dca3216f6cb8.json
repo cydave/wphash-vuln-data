@@ -70,19 +70,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/79a532e9-bc6e-4722-8d67-9c15720d06a6"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1717"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/custom-share-buttons-with-floating-sidebar"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/custom-share-buttons-with-floating-sidebar/"
         }
     ],
     "database_specific": {
+        "slug": "custom-share-buttons-with-floating-sidebar",
+        "name": "Custom Share Buttons with Floating Sidebar",
         "cwe_ids": [
             "CWE-79"
         ]

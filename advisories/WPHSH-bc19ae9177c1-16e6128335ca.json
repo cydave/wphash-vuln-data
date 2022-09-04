@@ -422,19 +422,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/795acab2-f621-4662-834b-ebb6205ef7de"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25056"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ninja-forms"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/ninja-forms/"
         }
     ],
     "database_specific": {
+        "slug": "ninja-forms",
+        "name": "Ninja Forms Contact Form \u2013 The Drag and Drop Form Builder for WordPress",
         "cwe_ids": [
             "CWE-79"
         ]

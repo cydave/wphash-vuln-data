@@ -56,19 +56,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11548"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/search-meter"
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/48197"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/search-meter/"
+            "url": "https://wordpress.org/plugins/search-meter/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11548"
         }
     ],
     "database_specific": {
+        "slug": "search-meter",
+        "name": "Search Meter",
         "cwe_ids": [
             "CWE-1236"
         ]

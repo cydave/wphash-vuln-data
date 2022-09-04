@@ -70,19 +70,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3479"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/share-this"
+            "type": "WEB",
+            "url": "http://wordpress.org/plugins/share-this/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/share-this/"
+            "url": "http://secunia.com/advisories/53135"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3479"
         }
     ],
     "database_specific": {
+        "slug": "share-this",
+        "name": "share-this",
         "cwe_ids": [
             "CWE-352"
         ]

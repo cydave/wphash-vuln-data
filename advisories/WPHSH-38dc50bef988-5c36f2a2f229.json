@@ -48,19 +48,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29445"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/popup-box"
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/popup-box/wordpress-popup-box-plugin-2-1-2-authenticated-local-file-inclusion-lfi-vulnerability"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/popup-box/"
+            "url": "https://wordpress.org/plugins/popup-box/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29445"
         }
     ],
     "database_specific": {
+        "slug": "popup-box",
+        "name": "Popup Box \u2013 new WordPress popup plugin",
         "cwe_ids": [
             "CWE-706"
         ]

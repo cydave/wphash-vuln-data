@@ -45,19 +45,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/31824250-e0d4-4285-97fa-9880b363e075"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24689"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/lastform"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/lastform/"
         }
     ],
     "database_specific": {
+        "slug": "lastform",
+        "name": "lastform",
         "cwe_ids": [
             "CWE-22"
         ]

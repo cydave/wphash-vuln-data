@@ -116,19 +116,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2583"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mini-mail-dashboard-widget"
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/54888"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/mini-mail-dashboard-widget/"
+            "url": "http://www.exploit-db.com/exploits/20358"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/show/osvdb/85135"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/77536"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2583"
         }
     ],
     "database_specific": {
+        "slug": "mini-mail-dashboard-widget",
+        "name": "mini-mail-dashboard-widget",
         "cwe_ids": [
             "CWE-79"
         ]

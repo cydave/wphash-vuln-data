@@ -53,19 +53,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/d4ff63ee-28e6-486e-9aa7-c878b97f707c"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0448"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cp-blocks"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/cp-blocks/"
         }
     ],
     "database_specific": {
+        "slug": "cp-blocks",
+        "name": "CP Blocks",
         "cwe_ids": [
             "CWE-79"
         ]

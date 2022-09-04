@@ -59,19 +59,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/duplicate-post/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-10378"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/duplicate-post"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/duplicate-post/"
         }
     ],
     "database_specific": {
+        "slug": "duplicate-post",
+        "name": "Yoast Duplicate Post",
         "cwe_ids": [
             "CWE-79"
         ]

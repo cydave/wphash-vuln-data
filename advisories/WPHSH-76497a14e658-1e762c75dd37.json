@@ -116,19 +116,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/a5084367-842b-496a-a23c-24dbebac1e8b"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0347"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/loginpress"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/loginpress/"
         }
     ],
     "database_specific": {
+        "slug": "loginpress",
+        "name": "LoginPress | Custom Login Page Customizer",
         "cwe_ids": [
             "CWE-79"
         ]

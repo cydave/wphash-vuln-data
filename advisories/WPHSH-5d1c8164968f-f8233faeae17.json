@@ -62,19 +62,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8724"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/w3-total-cache"
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/129626/W3-Total-Cache-0.9.4-Cross-Site-Scripting.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/w3-total-cache/"
+            "url": "https://www.secuvera.de/advisories/secuvera-SA-2014-01.txt"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/w3-total-cache/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/534266/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8724"
         }
     ],
     "database_specific": {
+        "slug": "w3-total-cache",
+        "name": "W3 Total Cache",
         "cwe_ids": [
             "CWE-79"
         ]

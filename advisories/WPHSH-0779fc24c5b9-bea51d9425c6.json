@@ -237,19 +237,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14314"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/nextgen-gallery"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/nextgen-gallery/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/nextgen-gallery/"
+            "url": "https://wpvulndb.com/vulnerabilities/9816"
+        },
+        {
+            "type": "WEB",
+            "url": "https://de.wordpress.org/plugins/nextgen-gallery/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14314"
         }
     ],
     "database_specific": {
+        "slug": "nextgen-gallery",
+        "name": "WordPress Gallery Plugin \u2013 NextGEN Gallery",
         "cwe_ids": [
             "CWE-89"
         ]

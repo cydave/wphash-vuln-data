@@ -394,19 +394,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/3cd1d8d2-d2a4-45a9-9b5f-c2a56f08be85"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0709"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/booking-package"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/booking-package/"
         }
     ],
     "database_specific": {
+        "slug": "booking-package",
+        "name": "Booking Package \u2013 Appointment Booking Calendar System",
         "cwe_ids": []
     }
 }

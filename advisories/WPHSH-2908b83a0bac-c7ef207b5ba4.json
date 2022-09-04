@@ -67,19 +67,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9310"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wordpress-backup-to-dropbox"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wordpress-backup-to-dropbox/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wordpress-backup-to-dropbox/"
+            "url": "https://security.szurek.pl/wordpress-backup-to-dropbox-40-reflected-xss.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/75082"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9310"
         }
     ],
     "database_specific": {
+        "slug": "wordpress-backup-to-dropbox",
+        "name": "wordpress-backup-to-dropbox",
         "cwe_ids": [
             "CWE-79"
         ]

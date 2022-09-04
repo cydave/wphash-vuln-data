@@ -188,19 +188,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5310"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/media-from-ftp"
+            "type": "WEB",
+            "url": "https://wordpress.org/support/topic/any-directory-traversal-bugs-at-the-latest-version-of-media-from-ftp/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/media-from-ftp/"
+            "url": "https://wordpress.org/plugins/media-from-ftp/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/d4wner/Vulnerabilities-Report/blob/master/media-from-ftp.md"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5310"
         }
     ],
     "database_specific": {
+        "slug": "media-from-ftp",
+        "name": "Media from FTP",
         "cwe_ids": [
             "CWE-22"
         ]

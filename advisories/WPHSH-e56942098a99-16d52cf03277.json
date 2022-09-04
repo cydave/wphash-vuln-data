@@ -159,19 +159,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0641"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/statpresscn"
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/45950"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/statpresscn/"
+            "url": "http://secunia.com/advisories/43016"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/70595"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/64882"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0641"
         }
     ],
     "database_specific": {
+        "slug": "statpresscn",
+        "name": "StatPressCN",
         "cwe_ids": [
             "CWE-79"
         ]

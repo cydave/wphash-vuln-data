@@ -34,19 +34,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-0520"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wassup"
+            "type": "WEB",
+            "url": "http://www.wpwp.org/archives/warning-security-bug-in-version/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wassup/"
+            "url": "http://www.securityfocus.com/bid/27525"
+        },
+        {
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/28702"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.vupen.com/english/advisories/2008/0365"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/5017"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-0520"
         }
     ],
     "database_specific": {
+        "slug": "wassup",
+        "name": "WassUp Real Time Analytics",
         "cwe_ids": [
             "CWE-89"
         ]

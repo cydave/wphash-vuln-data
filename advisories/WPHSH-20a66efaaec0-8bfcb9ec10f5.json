@@ -59,17 +59,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1194"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mobile-events-manager"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/mobile-events-manager/"
         }
     ],
     "database_specific": {
+        "slug": "mobile-events-manager",
+        "name": "Mobile Events Manager",
         "cwe_ids": []
     }
 }

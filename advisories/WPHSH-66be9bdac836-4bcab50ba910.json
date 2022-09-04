@@ -50,19 +50,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2109"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-cleanfix"
+            "type": "WEB",
+            "url": "http://www.openwall.com/lists/oss-security/2013/05/18/11"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-cleanfix/"
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/84434"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2109"
         }
     ],
     "database_specific": {
+        "slug": "wp-cleanfix",
+        "name": "WP CleanFix",
         "cwe_ids": [
             "CWE-352"
         ]

@@ -46,19 +46,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10309"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/responsive-cookie-consent"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/responsive-cookie-consent/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/responsive-cookie-consent/"
+            "url": "https://gist.github.com/B0UG/f0cfb356e23be3cd6ebea69566d6100a"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/9067"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/44563/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10309"
         }
     ],
     "database_specific": {
+        "slug": "responsive-cookie-consent",
+        "name": "Responsive Cookie Consent",
         "cwe_ids": [
             "CWE-79"
         ]

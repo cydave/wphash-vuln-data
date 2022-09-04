@@ -49,19 +49,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11632"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/add-social-share-buttons"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/add-social-share-buttons/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/add-social-share-buttons/"
+            "url": "http://labs.threatpress.com/cross-site-request-forgery-csrf-in-add-social-share-messenger-buttons-whatsapp-and-viber-plugin/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11632"
         }
     ],
     "database_specific": {
+        "slug": "add-social-share-buttons",
+        "name": "Add Social Share Buttons for Whatsapp and Viber",
         "cwe_ids": [
             "CWE-352"
         ]

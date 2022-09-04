@@ -110,19 +110,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-37597"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-cerber"
+            "type": "WEB",
+            "url": "https://github.com/fireeye/Vulnerability-Disclosures"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-cerber/"
+            "url": "https://github.com/fireeye/Vulnerability-Disclosures/blob/master/FEYE-2021-0023/FEYE-2021-0023.md"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-37597"
         }
     ],
     "database_specific": {
+        "slug": "wp-cerber",
+        "name": "WP Cerber Security, Anti-spam & Malware Scan",
         "cwe_ids": [
             "CWE-287"
         ]

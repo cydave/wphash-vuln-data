@@ -97,23 +97,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0747"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/infographic-and-list-builder-ilist"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/infographic-and-list-builder-ilist/"
+            "url": "https://wpscan.com/vulnerability/a8575322-c2cf-486a-9c37-71a22167aac3"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2684336"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0747"
         }
     ],
     "database_specific": {
+        "slug": "infographic-and-list-builder-ilist",
+        "name": "Infographic Maker \u2013 iList",
         "cwe_ids": [
             "CWE-89"
         ]

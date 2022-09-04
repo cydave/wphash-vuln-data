@@ -113,19 +113,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/56dae1ae-d5d2-45d3-8991-db69cc47ddb7"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24907"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/everest-forms"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/everest-forms/"
         }
     ],
     "database_specific": {
+        "slug": "everest-forms",
+        "name": "Contact Form Plugin \u2013 Easy Drag and Drop Form Builder for WordPress \u2013 Everest Forms",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -50,19 +50,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/xo-security/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18541"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/xo-security"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/xo-security/"
         }
     ],
     "database_specific": {
+        "slug": "xo-security",
+        "name": "XO Security",
         "cwe_ids": [
             "CWE-79"
         ]

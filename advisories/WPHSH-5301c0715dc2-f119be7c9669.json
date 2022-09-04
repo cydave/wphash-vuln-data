@@ -181,19 +181,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27848"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/modern-events-calendar-lite"
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/modern-events-calendar-lite/wordpress-modern-events-calendar-lite-plugin-6-5-1-authenticated-stored-cross-site-scripting-xss-vulnerability"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/modern-events-calendar-lite/"
+            "url": "https://wordpress.org/plugins/modern-events-calendar-lite/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27848"
         }
     ],
     "database_specific": {
+        "slug": "modern-events-calendar-lite",
+        "name": "modern-events-calendar-lite",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -51,19 +51,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36884"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/backup-backup"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/backup-backup/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/backup-backup/"
+            "url": "https://patchstack.com/database/vulnerability/backup-backup/wordpress-backup-migration-plugin-1-1-5-authenticated-persistent-cross-site-scripting-xss-vulnerability"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36884"
         }
     ],
     "database_specific": {
+        "slug": "backup-backup",
+        "name": "Backup Migration",
         "cwe_ids": [
             "CWE-79"
         ]

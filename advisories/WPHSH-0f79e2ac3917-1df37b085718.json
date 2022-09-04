@@ -111,19 +111,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/a1ae4512-0b5b-4f36-8334-14633bf24758"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1046"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/visual-form-builder"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/visual-form-builder/"
         }
     ],
     "database_specific": {
+        "slug": "visual-form-builder",
+        "name": "Visual Form Builder",
         "cwe_ids": [
             "CWE-79"
         ]

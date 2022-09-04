@@ -49,19 +49,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/240ddde9-095f-4919-832a-50279196dac5"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24643"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-map-block"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-map-block/"
         }
     ],
     "database_specific": {
+        "slug": "wp-map-block",
+        "name": "WP Map Block \u2013 Gutenberg Map Block for Google Map and OpenStreet Map",
         "cwe_ids": [
             "CWE-79"
         ]

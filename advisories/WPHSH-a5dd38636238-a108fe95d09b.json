@@ -58,19 +58,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/e9b48b19-14cc-41ad-a029-f7f9ae236e4e"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24386"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-svg-images"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-svg-images/"
         }
     ],
     "database_specific": {
+        "slug": "wp-svg-images",
+        "name": "WP SVG Images",
         "cwe_ids": [
             "CWE-79"
         ]

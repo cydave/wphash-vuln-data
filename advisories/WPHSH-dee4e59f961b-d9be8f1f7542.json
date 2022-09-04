@@ -100,19 +100,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8351"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/gwolle-gb"
+            "type": "WEB",
+            "url": "https://www.htbridge.com/advisory/HTB23275"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/gwolle-gb/"
+            "url": "https://www.exploit-db.com/exploits/38861/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/gwolle-gb/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/134599/WordPress-Gwolle-Guestbook-1.5.3-Remote-File-Inclusion.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/537020/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8351"
         }
     ],
     "database_specific": {
+        "slug": "gwolle-gb",
+        "name": "Gwolle Guestbook",
         "cwe_ids": [
             "CWE-94"
         ]

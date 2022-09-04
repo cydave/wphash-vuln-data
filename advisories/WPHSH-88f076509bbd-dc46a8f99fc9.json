@@ -61,19 +61,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36375"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/vc-tabs"
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/vc-tabs/wordpress-tabs-plugin-3-6-0-authenticated-wordpress-options-change-vulnerability"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/vc-tabs/"
+            "url": "https://plugins.trac.wordpress.org/changeset/2646981"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36375"
         }
     ],
     "database_specific": {
+        "slug": "vc-tabs",
+        "name": "Tabs \u2013 Responsive Tabs with WooCommerce Product Tab Extension",
         "cwe_ids": [
             "CWE-264"
         ]

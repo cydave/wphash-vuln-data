@@ -48,19 +48,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2065"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contus-video-gallery"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/contus-video-gallery/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/contus-video-gallery/"
+            "url": "http://www.exploit-db.com/exploits/36058"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/130371/WordPress-Video-Gallery-2.7-SQL-Injection.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.osvdb.org/118419"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/74882"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2065"
         }
     ],
     "database_specific": {
+        "slug": "contus-video-gallery",
+        "name": "contus-video-gallery",
         "cwe_ids": [
             "CWE-89"
         ]

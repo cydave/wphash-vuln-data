@@ -99,19 +99,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/f3c0a155-9563-4533-97d4-03b9bac83164"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25074"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/webp-converter-for-media"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/webp-converter-for-media/"
         }
     ],
     "database_specific": {
+        "slug": "webp-converter-for-media",
+        "name": "Converter for Media \u2013 One-click image optimization | Convert WebP and AVIF & Optimize Images",
         "cwe_ids": [
             "CWE-601"
         ]

@@ -279,22 +279,20 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/24f933b0-ad57-4ed3-817d-d637256e2fb1"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24651"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/poll-maker"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/poll-maker/"
         }
     ],
     "database_specific": {
+        "slug": "poll-maker",
+        "name": "Poll Maker \u2013 Best WordPress Poll Plugin",
         "cwe_ids": [
-            "CWE-89",
-            "CWE-203"
+            "CWE-203",
+            "CWE-89"
         ]
     }
 }

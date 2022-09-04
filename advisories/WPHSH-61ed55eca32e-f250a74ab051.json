@@ -164,19 +164,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/95a5fad1-e823-4571-8640-19bf5436578d"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1054"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/rsvp"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/rsvp/"
         }
     ],
     "database_specific": {
+        "slug": "rsvp",
+        "name": "RSVP and Event Management Plugin",
         "cwe_ids": [
             "CWE-862"
         ]

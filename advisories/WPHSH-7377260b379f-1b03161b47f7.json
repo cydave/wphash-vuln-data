@@ -322,19 +322,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8426"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/elementor"
+            "type": "WEB",
+            "url": "https://blog.impenetrable.tech/xss-in-wordpress-elementor-plugin"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/elementor/"
+            "url": "https://wordpress.org/plugins/elementor/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/10051"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8426"
         }
     ],
     "database_specific": {
+        "slug": "elementor",
+        "name": "Elementor Website Builder",
         "cwe_ids": [
             "CWE-79"
         ]

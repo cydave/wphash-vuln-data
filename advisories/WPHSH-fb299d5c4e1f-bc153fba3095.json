@@ -338,19 +338,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24666"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/podlove-podcasting-plugin-for-wordpress"
+            "type": "WEB",
+            "url": "https://github.com/podlove/podlove-publisher/commit/aa8a343a2e2333b34a422f801adee09b020c6d76"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/podlove-podcasting-plugin-for-wordpress/"
+            "url": "https://wpscan.com/vulnerability/fb4d7988-60ff-4862-96a1-80b1866336fe"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24666"
         }
     ],
     "database_specific": {
+        "slug": "podlove-podcasting-plugin-for-wordpress",
+        "name": "Podlove Podcast Publisher",
         "cwe_ids": [
             "CWE-89"
         ]

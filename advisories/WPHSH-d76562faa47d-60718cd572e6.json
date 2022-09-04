@@ -43,19 +43,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9570"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/simple-security"
+            "type": "WEB",
+            "url": "https://www.htbridge.com/advisory/HTB23244"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/simple-security/"
+            "url": "http://www.securityfocus.com/archive/1/534477/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9570"
         }
     ],
     "database_specific": {
+        "slug": "simple-security",
+        "name": "Simple Security",
         "cwe_ids": [
             "CWE-79"
         ]

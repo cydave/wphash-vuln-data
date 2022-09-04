@@ -86,19 +86,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/7f0742ad-6fd7-4258-9e44-d42e138789bb"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0828"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/download-manager"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/download-manager/"
         }
     ],
     "database_specific": {
+        "slug": "download-manager",
+        "name": "Download Manager",
         "cwe_ids": [
             "CWE-326"
         ]

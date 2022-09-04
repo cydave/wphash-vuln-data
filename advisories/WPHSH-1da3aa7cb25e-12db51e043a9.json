@@ -47,19 +47,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23976"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/access-demo-importer"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/access-demo-importer/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/access-demo-importer/"
+            "url": "https://patchstack.com/database/vulnerability/access-demo-importer/wordpress-access-demo-importer-plugin-1-0-7-cross-site-request-forgery-csrf-vulnerability-leading-to-data-reset-posts-pages-media"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23976"
         }
     ],
     "database_specific": {
+        "slug": "access-demo-importer",
+        "name": "Access Demo Importer",
         "cwe_ids": [
             "CWE-352"
         ]

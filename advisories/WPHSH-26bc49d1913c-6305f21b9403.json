@@ -66,17 +66,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2389"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-marketing-automations"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-marketing-automations/"
         }
     ],
     "database_specific": {
+        "slug": "wp-marketing-automations",
+        "name": "Abandoned Cart Recovery for WooCommerce, Follow Up Emails, Newsletter Builder & Marketing Automation By Autonami",
         "cwe_ids": []
     }
 }

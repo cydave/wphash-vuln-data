@@ -45,19 +45,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9460"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/booking-system"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8339"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/booking-system/"
+            "url": "http://cinu.pl/research/wp-plugins/mail_dad9a09a6290ae952bfd97010583bdbd.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/booking-system/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9460"
         }
     ],
     "database_specific": {
+        "slug": "booking-system",
+        "name": "Pinpoint Booking System \u2013 #1 WordPress Booking Plugin",
         "cwe_ids": [
             "CWE-89"
         ]

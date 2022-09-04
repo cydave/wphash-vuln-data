@@ -251,22 +251,28 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24884"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/formidable"
+            "type": "WEB",
+            "url": "https://github.com/S1lkys/XSS-in-Formidable-4.09.04/blob/main/XSS-in-Formidable-4.09.04.pdf"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/formidable/"
+            "url": "https://wpscan.com/vulnerability/b57dacdd-43c2-48f8-ac1e-eb8306b22533"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/Strategy11/formidable-forms/pull/335/files"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24884"
         }
     ],
     "database_specific": {
+        "slug": "formidable",
+        "name": "Formidable Forms \u2013 Contact Form, Survey, Quiz, Calculator & Custom Form Builder",
         "cwe_ids": [
-            "CWE-79",
-            "CWE-352"
+            "CWE-352",
+            "CWE-79"
         ]
     }
 }

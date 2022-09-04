@@ -108,19 +108,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/ac5c2a5d-09b6-470b-a598-2972183413ca"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0531"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wpvivid-backuprestore"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wpvivid-backuprestore/"
         }
     ],
     "database_specific": {
+        "slug": "wpvivid-backuprestore",
+        "name": "Migration, Backup, Staging \u2013 WPvivid",
         "cwe_ids": [
             "CWE-79"
         ]

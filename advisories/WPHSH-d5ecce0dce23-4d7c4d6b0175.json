@@ -50,23 +50,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24894"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/reviews-plus"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2618234"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/reviews-plus/"
+            "url": "https://wpscan.com/vulnerability/79bb5acb-ea56-41a9-83a1-28a181ae41e2"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/2618234"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24894"
         }
     ],
     "database_specific": {
+        "slug": "reviews-plus",
+        "name": "Reviews Plus",
         "cwe_ids": []
     }
 }

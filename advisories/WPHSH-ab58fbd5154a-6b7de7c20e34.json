@@ -120,19 +120,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/02c5e10c-1ac7-447e-8ae5-b6d251be750b"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24143"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/accesspress-social-icons"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/accesspress-social-icons/"
         }
     ],
     "database_specific": {
+        "slug": "accesspress-social-icons",
+        "name": "AccessPress Social Icons",
         "cwe_ids": [
             "CWE-89"
         ]

@@ -165,19 +165,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23174"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/download-monitor"
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/download-monitor/wordpress-download-monitor-plugin-4-4-6-authenticated-persistent-cross-site-scripting-xss-vulnerability"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/download-monitor/"
+            "url": "https://github.com/WPChill/download-monitor/blob/master/changelog.txt"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/download-monitor/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23174"
         }
     ],
     "database_specific": {
+        "slug": "download-monitor",
+        "name": "Download Monitor",
         "cwe_ids": [
             "CWE-79"
         ]

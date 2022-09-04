@@ -58,19 +58,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2825"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/simple-ads-manager"
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/131282/WordPress-Simple-Ads-Manager-2.5.94-File-Upload.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/simple-ads-manager/"
+            "url": "http://www.itas.vn/news/ITAS-Team-found-out-multiple-critical-vulnerabilities-in-Hakin9-IT-Security-Magazine-78.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://seclists.org/fulldisclosure/2015/Apr/8"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/simple-ads-manager/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/36614/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2825"
         }
     ],
     "database_specific": {
+        "slug": "simple-ads-manager",
+        "name": "simple-ads-manager",
         "cwe_ids": []
     }
 }

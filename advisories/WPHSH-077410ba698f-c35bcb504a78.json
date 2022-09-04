@@ -117,17 +117,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2413"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/slide-anything"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/slide-anything/"
         }
     ],
     "database_specific": {
+        "slug": "slide-anything",
+        "name": "Slide Anything \u2013 Responsive Content / HTML Slider and Carousel",
         "cwe_ids": []
     }
 }

@@ -40,19 +40,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/gallery-photo-gallery/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10921"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/gallery-photo-gallery"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/gallery-photo-gallery/"
         }
     ],
     "database_specific": {
+        "slug": "gallery-photo-gallery",
+        "name": "Photo Gallery by Ays \u2013 Responsive Image Gallery",
         "cwe_ids": [
             "CWE-89"
         ]

@@ -60,19 +60,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35947"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/pagelayer"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/10239"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/pagelayer/"
+            "url": "https://www.wordfence.com/blog/2020/05/high-severity-vulnerabilities-in-pagelayer-plugin-affect-over-200000-wordpress-sites/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35947"
         }
     ],
     "database_specific": {
+        "slug": "pagelayer",
+        "name": "Page Builder: Pagelayer \u2013 Drag and Drop website builder",
         "cwe_ids": [
             "CWE-79"
         ]

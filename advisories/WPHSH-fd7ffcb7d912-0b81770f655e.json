@@ -177,19 +177,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/5c21ad35-b2fb-4a51-858f-8ffff685de4a"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25003"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wpcargo"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wpcargo/"
         }
     ],
     "database_specific": {
+        "slug": "wpcargo",
+        "name": "WPCargo Track & Trace",
         "cwe_ids": [
             "CWE-94"
         ]

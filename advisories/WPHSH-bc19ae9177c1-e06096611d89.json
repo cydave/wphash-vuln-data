@@ -219,19 +219,45 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1209"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ninja-forms"
+            "type": "WEB",
+            "url": "http://www.pritect.net/blog/ninja-forms-2-9-42-critical-security-vulnerabilities"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ninja-forms/"
+            "url": "https://ninjaforms.com/important-security-update-always-hurt-ones-love/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://jvndb.jvn.jp/jvndb/JVNDB-2016-000064"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/ninja-forms/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://jvn.jp/en/jp/JVN44657371/index.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8485"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.rapid7.com/db/modules/exploit/unix/webapp/wp_ninja_forms_unauthenticated_file_upload"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/137211/WordPress-Ninja-Forms-Unauthenticated-File-Upload.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1209"
         }
     ],
     "database_specific": {
+        "slug": "ninja-forms",
+        "name": "Ninja Forms Contact Form \u2013 The Drag and Drop Form Builder for WordPress",
         "cwe_ids": [
             "CWE-20"
         ]

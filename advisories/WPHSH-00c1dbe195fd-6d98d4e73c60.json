@@ -70,19 +70,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-1000011"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/dukapress"
+            "type": "WEB",
+            "url": "http://www.vapidlabs.com/advisory.php?v=152"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/dukapress/"
+            "url": "http://www.securityfocus.com/bid/94567"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-1000011"
         }
     ],
     "database_specific": {
+        "slug": "dukapress",
+        "name": "DukaPress",
         "cwe_ids": [
             "CWE-89"
         ]

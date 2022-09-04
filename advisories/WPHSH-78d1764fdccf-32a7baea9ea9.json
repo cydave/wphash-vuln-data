@@ -49,19 +49,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/0e74eeb4-89e2-4873-904f-ad4f25c4a8ba"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1029"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/miniorange-limit-login-attempts"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/miniorange-limit-login-attempts/"
         }
     ],
     "database_specific": {
+        "slug": "miniorange-limit-login-attempts",
+        "name": "Limit Login Attempts",
         "cwe_ids": [
             "CWE-79"
         ]

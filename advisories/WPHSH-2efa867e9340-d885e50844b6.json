@@ -69,23 +69,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0248"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contact-form-submissions"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/contact-form-submissions/"
+            "url": "https://wpscan.com/vulnerability/d02cf542-2d75-46bc-a0df-67bbe501cc89"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2682024"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0248"
         }
     ],
     "database_specific": {
+        "slug": "contact-form-submissions",
+        "name": "contact-form-submissions",
         "cwe_ids": [
             "CWE-79"
         ]

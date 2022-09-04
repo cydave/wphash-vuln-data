@@ -51,23 +51,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2039"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/livesupporti"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/browser/livesupporti/trunk/livesupporti.php#L67"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/livesupporti/"
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2022-2039"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/browser/livesupporti/trunk/livesupporti.php#L67"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2039"
         }
     ],
     "database_specific": {
+        "slug": "livesupporti",
+        "name": "Free Live Chat Support",
         "cwe_ids": [
             "CWE-352"
         ]

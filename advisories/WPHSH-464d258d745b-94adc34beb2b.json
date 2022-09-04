@@ -181,19 +181,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/ae1aab4e-b00a-458b-a176-85761655bdcc"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25065"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/custom-facebook-feed"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/custom-facebook-feed/"
         }
     ],
     "database_specific": {
+        "slug": "custom-facebook-feed",
+        "name": "Smash Balloon Social Post Feed",
         "cwe_ids": [
             "CWE-79"
         ]

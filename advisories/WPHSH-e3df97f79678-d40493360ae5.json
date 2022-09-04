@@ -171,19 +171,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19983"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/fast-velocity-minify"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/9914"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/fast-velocity-minify/"
+            "url": "https://www.wordfence.com/blog/2019/10/medium-severity-vulnerability-patched-in-fast-velocity-minify-plugin/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19983"
         }
     ],
     "database_specific": {
+        "slug": "fast-velocity-minify",
+        "name": "Fast Velocity Minify",
         "cwe_ids": [
             "CWE-200"
         ]

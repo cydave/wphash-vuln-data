@@ -52,19 +52,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6444"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/titan-framework"
+            "type": "WEB",
+            "url": "https://research.g0blin.co.uk/cve-2014-6444/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/titan-framework/"
+            "url": "https://wpvulndb.com/vulnerabilities/8233"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6444"
         }
     ],
     "database_specific": {
+        "slug": "titan-framework",
+        "name": "titan-framework",
         "cwe_ids": [
             "CWE-79"
         ]

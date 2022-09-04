@@ -48,19 +48,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/jayj-quicktag/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18546"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/jayj-quicktag"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/jayj-quicktag/"
         }
     ],
     "database_specific": {
+        "slug": "jayj-quicktag",
+        "name": "Jayj Quicktag",
         "cwe_ids": [
             "CWE-352"
         ]

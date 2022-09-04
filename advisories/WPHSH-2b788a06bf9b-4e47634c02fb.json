@@ -51,19 +51,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5653"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/weblizar-pinterest-feeds"
+            "type": "WEB",
+            "url": "https://github.com/d4wner/Vulnerabilities-Report/blob/master/weblizar-pinterest-feeds.md"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/weblizar-pinterest-feeds/"
+            "url": "https://wpvulndb.com/vulnerabilities/9009"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5653"
         }
     ],
     "database_specific": {
+        "slug": "weblizar-pinterest-feeds",
+        "name": "weblizar-pinterest-feeds",
         "cwe_ids": [
             "CWE-79"
         ]

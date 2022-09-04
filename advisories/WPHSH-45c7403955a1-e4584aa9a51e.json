@@ -55,19 +55,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25612"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/simple-event-planner"
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/simple-event-planner/wordpress-simple-event-planner-plugin-1-5-4-multiple-authenticated-persistent-cross-site-scripting-xss-vulnerabilities"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/simple-event-planner/"
+            "url": "https://wordpress.org/plugins/simple-event-planner/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25612"
         }
     ],
     "database_specific": {
+        "slug": "simple-event-planner",
+        "name": "Simple Event Planner",
         "cwe_ids": [
             "CWE-79"
         ]

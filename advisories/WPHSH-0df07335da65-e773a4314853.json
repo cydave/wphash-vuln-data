@@ -49,19 +49,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/two-factor-authentication/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9355"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/two-factor-authentication"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/two-factor-authentication/"
         }
     ],
     "database_specific": {
+        "slug": "two-factor-authentication",
+        "name": "Two Factor Authentication",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -175,19 +175,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24918"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/custom-facebook-feed"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/5d252ad7-bf28-44f3-8cd0-c4fe05c48f35"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/custom-facebook-feed/"
+            "url": "https://jetpack.com/2021/10/29/security-issues-patched-in-smash-balloon-social-post-feed-plugin/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24918"
         }
     ],
     "database_specific": {
+        "slug": "custom-facebook-feed",
+        "name": "Smash Balloon Social Post Feed",
         "cwe_ids": [
             "CWE-79"
         ]

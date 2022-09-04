@@ -85,19 +85,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5227"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/landing-pages"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8200"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/landing-pages/"
+            "url": "https://wordpress.org/plugins/landing-pages/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5227"
         }
     ],
     "database_specific": {
+        "slug": "landing-pages",
+        "name": "landing-pages",
         "cwe_ids": [
             "CWE-74"
         ]

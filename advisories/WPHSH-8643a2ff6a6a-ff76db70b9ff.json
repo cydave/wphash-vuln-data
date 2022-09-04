@@ -59,19 +59,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32280"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/xo-liteslider"
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/xo-liteslider/wordpress-xo-slider-plugin-3-3-2-authenticated-stored-cross-site-scripting-xss-vulnerability"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/xo-liteslider/"
+            "url": "https://wordpress.org/plugins/xo-liteslider/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32280"
         }
     ],
     "database_specific": {
+        "slug": "xo-liteslider",
+        "name": "XO Slider",
         "cwe_ids": [
             "CWE-79"
         ]

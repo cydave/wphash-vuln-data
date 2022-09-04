@@ -177,19 +177,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29420"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/countdown-builder"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/countdown-builder/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/countdown-builder/"
+            "url": "https://patchstack.com/database/vulnerability/countdown-builder/wordpress-countdown-clock-plugin-2-3-1-authenticated-stored-cross-site-scripting-xss-vulnerability"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29420"
         }
     ],
     "database_specific": {
+        "slug": "countdown-builder",
+        "name": "Countdown, Coming Soon, Maintenance \u2013 Countdown & Clock",
         "cwe_ids": [
             "CWE-79"
         ]

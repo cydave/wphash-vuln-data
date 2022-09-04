@@ -42,19 +42,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18614"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/kama-clic-counter"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/kama-clic-counter/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/kama-clic-counter/"
+            "url": "https://seclists.org/fulldisclosure/2017/Feb/67"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18614"
         }
     ],
     "database_specific": {
+        "slug": "kama-clic-counter",
+        "name": "Kama Click Counter",
         "cwe_ids": [
             "CWE-89"
         ]

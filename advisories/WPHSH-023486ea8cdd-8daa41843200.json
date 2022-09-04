@@ -94,19 +94,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/5375bd3e-a30d-4f24-9b17-470b28a8231c"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24652"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ultimate-post"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/ultimate-post/"
         }
     ],
     "database_specific": {
+        "slug": "ultimate-post",
+        "name": "PostX \u2013 Gutenberg Post Grid Blocks",
         "cwe_ids": [
             "CWE-863"
         ]

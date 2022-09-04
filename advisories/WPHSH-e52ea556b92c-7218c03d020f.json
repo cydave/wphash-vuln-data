@@ -82,19 +82,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/94670822-0251-4e77-8d7f-b47aa7232e52"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24810"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-event-manager"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-event-manager/"
         }
     ],
     "database_specific": {
+        "slug": "wp-event-manager",
+        "name": "WP Event Manager \u2013 Events Calendar, Registrations, Sell Tickets with WooCommerce",
         "cwe_ids": [
             "CWE-79"
         ]

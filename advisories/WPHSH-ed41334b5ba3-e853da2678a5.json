@@ -69,23 +69,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1023"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/podcast-importer-secondline"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2696254"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/podcast-importer-secondline/"
+            "url": "https://wpscan.com/vulnerability/163069cd-98a8-4cfb-8b58-a6727a7d5c48"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/2696254"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1023"
         }
     ],
     "database_specific": {
+        "slug": "podcast-importer-secondline",
+        "name": "Podcast Importer SecondLine",
         "cwe_ids": [
             "CWE-89"
         ]

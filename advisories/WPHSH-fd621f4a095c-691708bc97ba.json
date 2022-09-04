@@ -84,19 +84,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/realty/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18532"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/adsense-plugin"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/adsense-plugin/"
         }
     ],
     "database_specific": {
+        "slug": "adsense-plugin",
+        "name": "AdPush",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -86,19 +86,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-12104"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-advanced-search"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-advanced-search/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-advanced-search/"
+            "url": "https://wpvulndb.com/vulnerabilities/10199"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-12104"
         }
     ],
     "database_specific": {
+        "slug": "wp-advanced-search",
+        "name": "WordPress WP-Advanced-Search",
         "cwe_ids": [
             "CWE-89"
         ]

@@ -165,23 +165,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25045"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/asgaros-forum"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/asgaros-forum/"
+            "url": "https://wpscan.com/vulnerability/c60a3d40-449c-4c84-8d13-68c04267c1d7"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2642215"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25045"
         }
     ],
     "database_specific": {
+        "slug": "asgaros-forum",
+        "name": "Asgaros Forum",
         "cwe_ids": [
             "CWE-89"
         ]

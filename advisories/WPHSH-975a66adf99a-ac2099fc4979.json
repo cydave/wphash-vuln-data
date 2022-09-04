@@ -123,19 +123,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/02d25736-c796-49bd-b774-66e0e3fcf4c9"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1967"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-championship"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-championship/"
         }
     ],
     "database_specific": {
+        "slug": "wp-championship",
+        "name": "wp-championship",
         "cwe_ids": [
             "CWE-352"
         ]

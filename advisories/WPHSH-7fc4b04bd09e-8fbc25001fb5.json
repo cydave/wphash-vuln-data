@@ -37,17 +37,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2271"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-database-backup"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-database-backup/"
         }
     ],
     "database_specific": {
+        "slug": "wp-database-backup",
+        "name": "WP Database Backup",
         "cwe_ids": []
     }
 }

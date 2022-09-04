@@ -67,19 +67,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/aab2ddbb-7675-40fc-90ee-f5bfa8a5b995"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24773"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/download-manager"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/download-manager/"
         }
     ],
     "database_specific": {
+        "slug": "download-manager",
+        "name": "Download Manager",
         "cwe_ids": [
             "CWE-79"
         ]

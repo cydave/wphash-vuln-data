@@ -66,19 +66,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/bf5ddc43-974d-41fa-8276-c1a27d3cc882"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24148"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mstore-api"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/mstore-api/"
         }
     ],
     "database_specific": {
+        "slug": "mstore-api",
+        "name": "MStore API",
         "cwe_ids": [
             "CWE-287"
         ]

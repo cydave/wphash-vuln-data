@@ -41,19 +41,45 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-13426"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/multi-scheduler"
+            "type": "WEB",
+            "url": "https://cxsecurity.com/issue/WLB-2020050235"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/multi-scheduler/"
+            "url": "https://wordpress.org/plugins/multi-scheduler/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://twitter.com/UnD3sc0n0c1d0"
+        },
+        {
+            "type": "WEB",
+            "url": "https://infayer.com/archivos/448"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/48532"
+        },
+        {
+            "type": "WEB",
+            "url": "https://packetstormsecurity.com/files/157867/WordPress-Multi-Scheduler-1.0.0-Cross-Site-Request-Forgery.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://research-labs.net/search/exploits/wordpress-plugin-multi-scheduler-100-cross-site-request-forgery-delete-user"
+        },
+        {
+            "type": "WEB",
+            "url": "https://0day.today/exploit/34496"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-13426"
         }
     ],
     "database_specific": {
+        "slug": "multi-scheduler",
+        "name": "multi-scheduler",
         "cwe_ids": [
             "CWE-352"
         ]

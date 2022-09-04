@@ -71,19 +71,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/b01a85cc-0e45-4183-a916-19476354d5d4"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24470"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/yada-wiki"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/yada-wiki/"
         }
     ],
     "database_specific": {
+        "slug": "yada-wiki",
+        "name": "Yada Wiki",
         "cwe_ids": [
             "CWE-79"
         ]

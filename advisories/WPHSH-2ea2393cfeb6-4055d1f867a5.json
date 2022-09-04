@@ -35,19 +35,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9393"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/post-to-twitter"
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/129639/WordPress-Twitter-0.7-CSRF-XSS.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/post-to-twitter/"
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/99482"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9393"
         }
     ],
     "database_specific": {
+        "slug": "post-to-twitter",
+        "name": "post-to-twitter",
         "cwe_ids": [
             "CWE-352"
         ]

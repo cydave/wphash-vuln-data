@@ -115,19 +115,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/df38cc99-da3c-4cc0-b179-1e52e841b883"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0327"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/master-addons"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/master-addons/"
         }
     ],
     "database_specific": {
+        "slug": "master-addons",
+        "name": "Master Addons for Elementor",
         "cwe_ids": [
             "CWE-79"
         ]

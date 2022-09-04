@@ -62,19 +62,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/5c5955d7-24f0-45e6-9c27-78ef50446dad"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1672"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/google-pagespeed-insights"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/google-pagespeed-insights/"
         }
     ],
     "database_specific": {
+        "slug": "google-pagespeed-insights",
+        "name": "Insights from Google PageSpeed",
         "cwe_ids": [
             "CWE-352"
         ]

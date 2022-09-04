@@ -40,19 +40,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34664"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/moova-for-woocommerce"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2021-34664"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/moova-for-woocommerce/"
+            "url": "https://plugins.trac.wordpress.org/browser/moova-for-woocommerce/tags/3.5/Checkout/Checkout.php#L57"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34664"
         }
     ],
     "database_specific": {
+        "slug": "moova-for-woocommerce",
+        "name": "Moova for WooCommerce",
         "cwe_ids": [
             "CWE-79"
         ]

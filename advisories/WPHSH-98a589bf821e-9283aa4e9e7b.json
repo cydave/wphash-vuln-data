@@ -309,19 +309,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24257"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/premium-addons-for-elementor"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/4ad8314e-1cbe-4642-b4ee-aac2060f9a25"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/premium-addons-for-elementor/"
+            "url": "https://www.wordfence.com/blog/2021/04/recent-patches-rock-the-elementor-ecosystem/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24257"
         }
     ],
     "database_specific": {
+        "slug": "premium-addons-for-elementor",
+        "name": "Premium Addons for Elementor (Blog Post Grid, Mega Menu Builder, WooCommerce Products Grid, Carousel, Free Elementor Templates)",
         "cwe_ids": [
             "CWE-79"
         ]

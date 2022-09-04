@@ -44,19 +44,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/8b8d316b-96b2-4cdc-9da5-c9ea6108a85b"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24528"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/fluent-smtp"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/fluent-smtp/"
         }
     ],
     "database_specific": {
+        "slug": "fluent-smtp",
+        "name": "FluentSMTP \u2013 WP Mail SMTP, Amazon SES, SendGrid, MailGun and Any SMTP Connector Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

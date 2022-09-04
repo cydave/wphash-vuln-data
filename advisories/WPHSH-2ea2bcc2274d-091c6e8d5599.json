@@ -117,19 +117,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24330"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cartflows"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/b9748066-83b7-4762-9124-de021f687477"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/cartflows/"
+            "url": "https://m0ze.ru/vulnerability/[2021-04-26]-[WordPress]-[CWE-79]-Funnel-Builder-by-CartFlows-WordPress-Plugin-v1.6.12.txt"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24330"
         }
     ],
     "database_specific": {
+        "slug": "cartflows",
+        "name": "WooCommerce Checkout & Funnel Builder by CartFlows \u2013 Create High Converting Stores For WooCommerce",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -100,19 +100,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/cb232354-f74d-48bb-b437-7bdddd1df42a"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25008"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/code-snippets"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/code-snippets/"
         }
     ],
     "database_specific": {
+        "slug": "code-snippets",
+        "name": "Code Snippets",
         "cwe_ids": [
             "CWE-79"
         ]

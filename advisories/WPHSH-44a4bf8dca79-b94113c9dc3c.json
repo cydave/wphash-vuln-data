@@ -311,23 +311,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17515"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cleantalk-spam-protect"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/cleantalk-spam-protect/"
+            "url": "https://wordpress.org/plugins/cleantalk-spam-protect/#developers"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2172333"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/9949"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17515"
         }
     ],
     "database_specific": {
+        "slug": "cleantalk-spam-protect",
+        "name": "Spam protection, AntiSpam, FireWall by CleanTalk",
         "cwe_ids": [
             "CWE-79"
         ]

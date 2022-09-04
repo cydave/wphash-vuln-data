@@ -121,19 +121,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/9ef14cf1-1e04-4125-a296-9aa5388612f9"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24455"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/tutor"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/tutor/"
         }
     ],
     "database_specific": {
+        "slug": "tutor",
+        "name": "Tutor LMS \u2013 eLearning and online course solution",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -42,19 +42,37 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2755"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ab-google-map-travel"
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/131155/WordPress-Google-Map-Travel-3.4-XSS-CSRF.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ab-google-map-travel/"
+            "url": "http://packetstormsecurity.com/files/130960/WordPress-AB-Google-Map-Travel-CSRF-XSS.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/ab-google-map-travel/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/71417"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/535026/100/0/threaded"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/534954/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2755"
         }
     ],
     "database_specific": {
+        "slug": "ab-google-map-travel",
+        "name": "AB Google Map Travel (AB-MAP)",
         "cwe_ids": [
             "CWE-352"
         ]

@@ -46,19 +46,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/62fb399d-3327-45d0-b10f-769d2d164903"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1995"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/miniorange-malware-protection"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/miniorange-malware-protection/"
         }
     ],
     "database_specific": {
+        "slug": "miniorange-malware-protection",
+        "name": "Malware Scanner",
         "cwe_ids": [
             "CWE-79"
         ]

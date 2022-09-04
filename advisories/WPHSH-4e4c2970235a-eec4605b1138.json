@@ -223,19 +223,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-21389"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/buddypress"
+            "type": "WEB",
+            "url": "https://codex.buddypress.org/releases/version-7-2-1/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/buddypress/"
+            "url": "https://github.com/buddypress/BuddyPress/security/advisories/GHSA-m6j4-8r7p-wpp3"
+        },
+        {
+            "type": "WEB",
+            "url": "https://buddypress.org/2021/03/buddypress-7-2-1-security-release/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-21389"
         }
     ],
     "database_specific": {
+        "slug": "buddypress",
+        "name": "BuddyPress",
         "cwe_ids": [
             "CWE-863"
         ]

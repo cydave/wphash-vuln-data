@@ -93,19 +93,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25055"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/feedwordpress"
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/changeset/2662665"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/feedwordpress/"
+            "url": "https://wpscan.com/vulnerability/7ed050a4-27eb-4ecb-9182-1d8fa1e71571"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25055"
         }
     ],
     "database_specific": {
+        "slug": "feedwordpress",
+        "name": "FeedWordPress",
         "cwe_ids": [
             "CWE-79"
         ]

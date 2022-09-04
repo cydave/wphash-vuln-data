@@ -41,19 +41,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7667"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/resads"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8204"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/resads/"
+            "url": "https://wordpress.org/plugins/resads/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/536601/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7667"
         }
     ],
     "database_specific": {
+        "slug": "resads",
+        "name": "ResAds",
         "cwe_ids": [
             "CWE-79"
         ]

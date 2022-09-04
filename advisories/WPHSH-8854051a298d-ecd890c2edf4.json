@@ -84,19 +84,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/071a2f69-9cd6-42a8-a56c-264a589784ab"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0428"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/content-egg"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/content-egg/"
         }
     ],
     "database_specific": {
+        "slug": "content-egg",
+        "name": "Content Egg",
         "cwe_ids": [
             "CWE-79"
         ]

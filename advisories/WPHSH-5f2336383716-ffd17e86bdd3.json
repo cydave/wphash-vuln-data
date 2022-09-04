@@ -301,19 +301,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2020/08/high-severity-vulnerability-patched-in-advanced-access-manager/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35934"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/advanced-access-manager"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/advanced-access-manager/"
         }
     ],
     "database_specific": {
+        "slug": "advanced-access-manager",
+        "name": "Advanced Access Manager",
         "cwe_ids": [
             "CWE-200"
         ]

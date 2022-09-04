@@ -47,17 +47,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2398"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-comment-fields"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-comment-fields/"
         }
     ],
     "database_specific": {
+        "slug": "wp-comment-fields",
+        "name": "WordPress Comments Fields",
         "cwe_ids": []
     }
 }

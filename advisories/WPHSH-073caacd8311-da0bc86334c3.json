@@ -68,19 +68,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24261"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ht-mega-for-elementor"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/0377705d-29e9-47db-a5bb-8acaf311a38f"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ht-mega-for-elementor/"
+            "url": "https://www.wordfence.com/blog/2021/04/recent-patches-rock-the-elementor-ecosystem/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24261"
         }
     ],
     "database_specific": {
+        "slug": "ht-mega-for-elementor",
+        "name": "HT Mega \u2013 Addons for Elementor Page Builder ( Elementor Addons, Post Grid, Slider, Carousel, Mega Menu, Elementor Widgets, Elementor Templates, Accordion, Forms, Table)",
         "cwe_ids": [
             "CWE-79"
         ]

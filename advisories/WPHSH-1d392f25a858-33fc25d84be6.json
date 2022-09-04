@@ -129,17 +129,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1123"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/leaflet-maps-marker"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/leaflet-maps-marker/"
         }
     ],
     "database_specific": {
+        "slug": "leaflet-maps-marker",
+        "name": "Leaflet Maps Marker (Google Maps, OpenStreetMap, Bing Maps)",
         "cwe_ids": []
     }
 }

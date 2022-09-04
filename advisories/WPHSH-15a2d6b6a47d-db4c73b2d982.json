@@ -70,19 +70,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2062"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/slider-image"
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/130796/WordPress-Huge-IT-Slider-2.6.8-SQL-Injection.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/slider-image/"
+            "url": "http://www.securityfocus.com/archive/1/archive/1/534852/100/0/threaded"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.htbridge.com/advisory/HTB23250"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/support/topic/huge-it-slider-security-vulnerability-notification-sql-injection"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2062"
         }
     ],
     "database_specific": {
+        "slug": "slider-image",
+        "name": "slider-image",
         "cwe_ids": [
             "CWE-89"
         ]

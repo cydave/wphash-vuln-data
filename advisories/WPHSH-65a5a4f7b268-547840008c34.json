@@ -74,23 +74,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42363"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/woo-preview-emails"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/woo-preview-emails/"
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2021-42363"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2625941/woo-preview-emails/trunk/views/form.php"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2021/11/woocommerce-extension-reflected-xss-vulnerability/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42363"
         }
     ],
     "database_specific": {
+        "slug": "woo-preview-emails",
+        "name": "Preview E-mails for WooCommerce",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -51,19 +51,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://cybersecurityworks.com/zerodays/cve-2021-33852-stored-cross-site-scripting-in-wordpress-post-duplicator-plugin-2-23.html"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33852"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/post-duplicator"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/post-duplicator/"
         }
     ],
     "database_specific": {
+        "slug": "post-duplicator",
+        "name": "Post Duplicator",
         "cwe_ids": [
             "CWE-79"
         ]

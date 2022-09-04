@@ -80,19 +80,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/0be5e06e-4ff1-43d2-8ba7-2530519d517e"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24707"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/nd-learning"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/nd-learning/"
         }
     ],
     "database_specific": {
+        "slug": "nd-learning",
+        "name": "nd-learning",
         "cwe_ids": [
             "CWE-79"
         ]

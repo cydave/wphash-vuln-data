@@ -93,19 +93,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/memphis-documents-library/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-10383"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/memphis-documents-library"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/memphis-documents-library/"
         }
     ],
     "database_specific": {
+        "slug": "memphis-documents-library",
+        "name": "memphis-documents-library",
         "cwe_ids": [
             "CWE-20"
         ]

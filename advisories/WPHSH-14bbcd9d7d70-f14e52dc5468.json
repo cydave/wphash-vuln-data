@@ -103,19 +103,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15868"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/affiliates-manager"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/affiliates-manager/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/affiliates-manager/"
+            "url": "https://wpvulndb.com/vulnerabilities/9335"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15868"
         }
     ],
     "database_specific": {
+        "slug": "affiliates-manager",
+        "name": "Affiliates Manager",
         "cwe_ids": [
             "CWE-352"
         ]

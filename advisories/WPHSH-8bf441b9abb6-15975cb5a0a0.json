@@ -65,19 +65,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2020/03/severe-flaws-patched-in-responsive-ready-sites-importer-plugin/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-12073"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/responsive-add-ons"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/responsive-add-ons/"
         }
     ],
     "database_specific": {
+        "slug": "responsive-add-ons",
+        "name": "Responsive Template Importer \u2013 Elementor & Gutenberg Themes",
         "cwe_ids": []
     }
 }

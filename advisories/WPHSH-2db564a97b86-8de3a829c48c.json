@@ -110,19 +110,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11514"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/seo-by-rank-math"
+            "type": "WEB",
+            "url": "https://rankmath.com/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/seo-by-rank-math/"
+            "url": "https://www.wordfence.com/blog/2020/03/critical-vulnerabilities-affecting-over-200000-sites-patched-in-rank-math-seo-plugin/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/seo-by-rank-math/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11514"
         }
     ],
     "database_specific": {
+        "slug": "seo-by-rank-math",
+        "name": "Rank Math SEO \u2013 Best SEO Plugin For WordPress To Increase Your SEO Traffic",
         "cwe_ids": [
             "CWE-862"
         ]

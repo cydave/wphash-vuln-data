@@ -45,19 +45,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/8e5b1e4f-c132-42ee-b2d0-7306ab4ab615"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1562"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/enable-svg"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/enable-svg/"
         }
     ],
     "database_specific": {
+        "slug": "enable-svg",
+        "name": "Enable SVG",
         "cwe_ids": [
             "CWE-79"
         ]

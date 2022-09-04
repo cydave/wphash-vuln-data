@@ -275,19 +275,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-6859"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ultimate-member"
+            "type": "WEB",
+            "url": "https://github.com/ultimatemember/ultimatemember/commit/249682559012734a4f7d71f52609b2f301ea55b1"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ultimate-member/"
+            "url": "https://github.com/ultimatemember/ultimatemember/blob/627bbb0fae81ac34c60b43f0867eadcf8e1bc523/includes/core/class-files.php#L310"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/ultimate-member/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/ultimatemember/ultimatemember/blob/627bbb0fae81ac34c60b43f0867eadcf8e1bc523/includes/core/class-files.php#L269"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/10041"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-6859"
         }
     ],
     "database_specific": {
+        "slug": "ultimate-member",
+        "name": "Ultimate Member \u2013 User Profile, User Registration, Login & Membership Plugin",
         "cwe_ids": [
             "CWE-639"
         ]

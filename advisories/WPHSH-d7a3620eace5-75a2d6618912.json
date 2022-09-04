@@ -62,19 +62,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4920"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/zingiri-forum"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/50833"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/zingiri-forum/"
+            "url": "http://osvdb.org/89069"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/plugins/zingiri-forum/changelog"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/81156"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4920"
         }
     ],
     "database_specific": {
+        "slug": "zingiri-forum",
+        "name": "zingiri-forum",
         "cwe_ids": [
             "CWE-22"
         ]

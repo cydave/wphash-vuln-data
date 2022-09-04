@@ -171,19 +171,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://www.tenable.com/security/research/tra-2020-44-0"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-5767"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/email-subscribers"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/email-subscribers/"
         }
     ],
     "database_specific": {
+        "slug": "email-subscribers",
+        "name": "Email Subscribers & Newsletters \u2013 Simple and Effective Email Marketing WordPress Plugin",
         "cwe_ids": [
             "CWE-352"
         ]

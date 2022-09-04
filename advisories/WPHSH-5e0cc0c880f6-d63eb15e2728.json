@@ -97,19 +97,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8417"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/code-snippets"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/code-snippets/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/code-snippets/"
+            "url": "https://wpvulndb.com/vulnerabilities/10050"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8417"
         }
     ],
     "database_specific": {
+        "slug": "code-snippets",
+        "name": "Code Snippets",
         "cwe_ids": [
             "CWE-352"
         ]

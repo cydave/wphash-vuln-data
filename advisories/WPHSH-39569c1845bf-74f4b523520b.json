@@ -147,19 +147,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/customer-area/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18519"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/customer-area"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/customer-area/"
         }
     ],
     "database_specific": {
+        "slug": "customer-area",
+        "name": "WP Customer Area",
         "cwe_ids": [
             "CWE-79"
         ]

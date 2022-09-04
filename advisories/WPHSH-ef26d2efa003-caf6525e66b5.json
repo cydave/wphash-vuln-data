@@ -51,23 +51,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9472"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/incoming-links"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/incoming-links/"
+            "url": "https://wordpress.org/plugins/incoming-links/#developers"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/1080044/incoming-links"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8015"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9472"
         }
     ],
     "database_specific": {
+        "slug": "incoming-links",
+        "name": "incoming-links",
         "cwe_ids": [
             "CWE-79"
         ]

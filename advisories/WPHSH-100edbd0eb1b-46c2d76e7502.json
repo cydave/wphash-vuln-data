@@ -161,19 +161,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-statistics/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18515"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-statistics"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-statistics/"
         }
     ],
     "database_specific": {
+        "slug": "wp-statistics",
+        "name": "WP Statistics",
         "cwe_ids": [
             "CWE-89"
         ]

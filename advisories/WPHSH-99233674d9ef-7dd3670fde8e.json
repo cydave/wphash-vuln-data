@@ -55,19 +55,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/9579ff13-9597-4a77-8cb9-997e35265d22"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24592"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sitewide-notice-wp"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/sitewide-notice-wp/"
         }
     ],
     "database_specific": {
+        "slug": "sitewide-notice-wp",
+        "name": "Sitewide Notice WP",
         "cwe_ids": [
             "CWE-79"
         ]

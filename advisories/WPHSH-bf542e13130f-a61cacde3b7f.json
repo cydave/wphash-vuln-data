@@ -44,19 +44,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/fefc1411-594d-465b-aeb9-78c141b23762"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0875"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/miniorange-google-authenticator"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/miniorange-google-authenticator/"
         }
     ],
     "database_specific": {
+        "slug": "miniorange-google-authenticator",
+        "name": "Login with TOTP (Google Authenticator, Microsoft Authenticator)",
         "cwe_ids": [
             "CWE-352"
         ]

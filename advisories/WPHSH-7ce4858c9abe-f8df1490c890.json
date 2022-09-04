@@ -89,19 +89,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/625a272f-5c69-4f6a-8eee-32f70cd4a558"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24599"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/email-encoder-bundle"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/email-encoder-bundle/"
         }
     ],
     "database_specific": {
+        "slug": "email-encoder-bundle",
+        "name": "Email Encoder \u2013 Protect Email Addresses and Phone Numbers",
         "cwe_ids": [
             "CWE-79"
         ]

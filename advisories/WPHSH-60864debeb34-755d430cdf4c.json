@@ -119,19 +119,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-7139"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contact-form-7-to-database-extension"
+            "type": "WEB",
+            "url": "https://www.htbridge.com/advisory/HTB23233"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/contact-form-7-to-database-extension/"
+            "url": "https://wordpress.org/plugins/contact-form-7-to-database-extension/changelog"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/128625/WordPress-Contact-Form-DB-2.8.13-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/70374"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/533642/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-7139"
         }
     ],
     "database_specific": {
+        "slug": "contact-form-7-to-database-extension",
+        "name": "contact-form-7-to-database-extension",
         "cwe_ids": [
             "CWE-79"
         ]

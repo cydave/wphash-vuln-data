@@ -37,19 +37,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4825"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-twitter-feed"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/42542"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-twitter-feed/"
+            "url": "http://www.osvdb.org/69760"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.johnleitch.net/Vulnerabilities/WordPress.Twitter.Feed.0.3.1.Reflected.Cross-site.Scripting/68"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/45294"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/63942"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4825"
         }
     ],
     "database_specific": {
+        "slug": "wp-twitter-feed",
+        "name": "Peadig's Twitter Feed: Embedded Timeline WordPress Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

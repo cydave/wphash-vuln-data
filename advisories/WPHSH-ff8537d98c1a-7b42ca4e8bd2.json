@@ -139,19 +139,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24366"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/codepress-admin-columns"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/05427156-4d5c-4aeb-add8-1c574fda5c28"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/codepress-admin-columns/"
+            "url": "https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-24366"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24366"
         }
     ],
     "database_specific": {
+        "slug": "codepress-admin-columns",
+        "name": "Admin Columns",
         "cwe_ids": [
             "CWE-79"
         ]

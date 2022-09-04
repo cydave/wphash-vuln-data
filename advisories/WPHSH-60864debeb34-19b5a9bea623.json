@@ -131,19 +131,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2040"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contact-form-7-to-database-extension"
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/130311/WordPress-Contact-Form-DB-2.8.26-Cross-Site-Scripting.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/contact-form-7-to-database-extension/"
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/100818"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2040"
         }
     ],
     "database_specific": {
+        "slug": "contact-form-7-to-database-extension",
+        "name": "contact-form-7-to-database-extension",
         "cwe_ids": [
             "CWE-79"
         ]

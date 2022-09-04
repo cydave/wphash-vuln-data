@@ -257,19 +257,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24339"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/pods"
+            "type": "WEB",
+            "url": "https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-24339"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/pods/"
+            "url": "https://wpscan.com/vulnerability/8e72236d-f620-4503-a324-dcf49405351b"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24339"
         }
     ],
     "database_specific": {
+        "slug": "pods",
+        "name": "Pods \u2013 Custom Content Types and Fields",
         "cwe_ids": [
             "CWE-79"
         ]

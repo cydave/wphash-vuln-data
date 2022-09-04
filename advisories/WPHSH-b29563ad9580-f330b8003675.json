@@ -57,17 +57,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4693"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/nmedia-user-file-uploader"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/nmedia-user-file-uploader/"
         }
     ],
     "database_specific": {
+        "slug": "nmedia-user-file-uploader",
+        "name": "Frontend File Manager Plugin",
         "cwe_ids": []
     }
 }

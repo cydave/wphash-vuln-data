@@ -179,19 +179,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24728"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/paid-member-subscriptions"
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/changeset/2566399/paid-member-subscriptions"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/paid-member-subscriptions/"
+            "url": "https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=29172"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/2277d335-1c90-4fa8-b0bf-25873c039c38"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24728"
         }
     ],
     "database_specific": {
+        "slug": "paid-member-subscriptions",
+        "name": "Membership & Content Restriction \u2013 Paid Member Subscriptions",
         "cwe_ids": [
             "CWE-89"
         ]

@@ -48,19 +48,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24273"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cafe-lite"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2021/04/recent-patches-rock-the-elementor-ecosystem/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/cafe-lite/"
+            "url": "https://wpscan.com/vulnerability/70ddb3fd-d819-4d85-9f8b-1451a3e3e5a6"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24273"
         }
     ],
     "database_specific": {
+        "slug": "cafe-lite",
+        "name": "Clever Addons for Elementor",
         "cwe_ids": [
             "CWE-79"
         ]

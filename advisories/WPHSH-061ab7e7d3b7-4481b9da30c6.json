@@ -83,19 +83,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8350"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cta"
+            "type": "WEB",
+            "url": "https://www.htbridge.com/advisory/HTB23274"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/cta/"
+            "url": "https://wordpress.org/plugins/cta/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/134598/WordPress-Calls-To-Action-2.4.3-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/537022/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8350"
         }
     ],
     "database_specific": {
+        "slug": "cta",
+        "name": "cta",
         "cwe_ids": [
             "CWE-79"
         ]

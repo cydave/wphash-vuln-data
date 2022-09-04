@@ -146,19 +146,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/30635cc9-4415-48bb-9c67-ea670ea1b942"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24702"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/learnpress"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/learnpress/"
         }
     ],
     "database_specific": {
+        "slug": "learnpress",
+        "name": "LearnPress \u2013 WordPress LMS Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

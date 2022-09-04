@@ -46,19 +46,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/godaddy-email-marketing-sign-up-forms/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10903"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/godaddy-email-marketing-sign-up-forms"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/godaddy-email-marketing-sign-up-forms/"
         }
     ],
     "database_specific": {
+        "slug": "godaddy-email-marketing-sign-up-forms",
+        "name": "GoDaddy Email Marketing",
         "cwe_ids": [
             "CWE-352"
         ]

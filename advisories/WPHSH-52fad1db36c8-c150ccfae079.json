@@ -80,19 +80,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-all-import/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18567"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-all-import"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-all-import/"
         }
     ],
     "database_specific": {
+        "slug": "wp-all-import",
+        "name": "Import any XML or CSV File to WordPress",
         "cwe_ids": [
             "CWE-79"
         ]

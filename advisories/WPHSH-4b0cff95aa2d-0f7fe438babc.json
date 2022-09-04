@@ -228,19 +228,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/e00b2946-15e5-4458-9b13-2e272630a36f"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25070"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/stopbadbots"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/stopbadbots/"
         }
     ],
     "database_specific": {
+        "slug": "stopbadbots",
+        "name": "Block Bad Bots and Stop Bad Bots Crawlers and Spiders and Anti Spam Protection",
         "cwe_ids": [
             "CWE-89"
         ]

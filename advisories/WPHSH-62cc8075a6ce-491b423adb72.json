@@ -38,6 +38,7 @@
                 "1.3.5.2",
                 "1.3.5.1",
                 "1.3.5",
+                "languages",
                 "1.3.4",
                 "1.3.3",
                 "1.3.2",
@@ -50,19 +51,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/099cf9b4-0b3a-43c6-8ca9-7c2d50f86425"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0642"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/jivochat"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/jivochat/"
         }
     ],
     "database_specific": {
+        "slug": "jivochat",
+        "name": "JivoChat Live Chat \u2013 WP live chat plugin for WordPress",
         "cwe_ids": [
             "CWE-352"
         ]

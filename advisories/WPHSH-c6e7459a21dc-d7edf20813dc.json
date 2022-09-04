@@ -63,19 +63,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/550e08ac-4c3a-4e22-8e98-bc5bfc020ca9"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24505"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/forms-by-made-it"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/forms-by-made-it/"
         }
     ],
     "database_specific": {
+        "slug": "forms-by-made-it",
+        "name": "Forms",
         "cwe_ids": [
             "CWE-79"
         ]

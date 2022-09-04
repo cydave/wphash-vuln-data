@@ -188,17 +188,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8814"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-photo-album-plus"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-photo-album-plus/"
         }
     ],
     "database_specific": {
+        "slug": "wp-photo-album-plus",
+        "name": "WP Photo Album Plus",
         "cwe_ids": []
     }
 }

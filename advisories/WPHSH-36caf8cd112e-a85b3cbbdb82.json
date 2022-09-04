@@ -125,23 +125,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3720"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/feedweb"
+            "type": "WEB",
+            "url": "http://wordpress.org/extend/plugins/feedweb/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/feedweb/"
+            "url": "http://secunia.com/advisories/52855"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.darksecurity.de/advisories/2013/SSCHADV2013-004.txt"
         },
         {
             "type": "FIX",
             "url": "http://plugins.trac.wordpress.org/changeset?old_path=%2Ffeedweb&old=689612&new_path=%2Ffeedweb&new=689612"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3720"
         }
     ],
     "database_specific": {
+        "slug": "feedweb",
+        "name": "feedweb",
         "cwe_ids": [
             "CWE-79"
         ]

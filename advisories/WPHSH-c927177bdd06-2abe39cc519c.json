@@ -43,19 +43,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/49328498-d3a0-4d27-8a52-24054b5e42f3"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24855"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/display-post-metadata"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/display-post-metadata/"
         }
     ],
     "database_specific": {
+        "slug": "display-post-metadata",
+        "name": "Display Post Metadata",
         "cwe_ids": [
             "CWE-79"
         ]

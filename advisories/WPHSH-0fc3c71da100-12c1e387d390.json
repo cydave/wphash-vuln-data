@@ -503,19 +503,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23150"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/accelerated-mobile-pages"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/accelerated-mobile-pages/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/accelerated-mobile-pages/"
+            "url": "https://patchstack.com/database/vulnerability/accelerated-mobile-pages/wordpress-amp-for-wp-accelerated-mobile-pages-plugin-1-0-77-31-authenticated-stored-cross-site-scripting-xss-vulnerability"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23150"
         }
     ],
     "database_specific": {
+        "slug": "accelerated-mobile-pages",
+        "name": "AMP for WP \u2013 Accelerated Mobile Pages",
         "cwe_ids": [
             "CWE-79"
         ]

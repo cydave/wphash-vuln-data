@@ -40,19 +40,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38326"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/post-title-counter"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2021-38326"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/post-title-counter/"
+            "url": "https://plugins.trac.wordpress.org/browser/post-title-counter/tags/1.1/post-title-counter.php#L87"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38326"
         }
     ],
     "database_specific": {
+        "slug": "post-title-counter",
+        "name": "post-title-counter",
         "cwe_ids": [
             "CWE-79"
         ]

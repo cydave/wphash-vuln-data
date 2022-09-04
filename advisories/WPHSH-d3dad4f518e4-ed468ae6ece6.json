@@ -65,19 +65,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9437"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/dynamic-widgets"
+            "type": "WEB",
+            "url": "http://cinu.pl/research/wp-plugins/mail_489304900a50751da1495e2ea660bc51.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/dynamic-widgets/"
+            "url": "https://wordpress.org/plugins/dynamic-widgets/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8258"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9437"
         }
     ],
     "database_specific": {
+        "slug": "dynamic-widgets",
+        "name": "dynamic-widgets",
         "cwe_ids": [
             "CWE-352"
         ]

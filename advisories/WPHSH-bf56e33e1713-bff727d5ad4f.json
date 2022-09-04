@@ -211,19 +211,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20734"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/usc-e-shop"
+            "type": "WEB",
+            "url": "https://www.welcart.com/archives/14039.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/usc-e-shop/"
+            "url": "https://jvn.jp/en/jp/JVN70566757/index.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20734"
         }
     ],
     "database_specific": {
+        "slug": "usc-e-shop",
+        "name": "Welcart e-Commerce",
         "cwe_ids": [
             "CWE-79"
         ]

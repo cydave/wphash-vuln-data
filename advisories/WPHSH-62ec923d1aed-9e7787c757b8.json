@@ -86,23 +86,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4272"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/2-click-socialmedia-buttons"
+            "type": "FIX",
+            "url": "http://plugins.trac.wordpress.org/changeset?old_path=%2F2-click-socialmedia-buttons&old=532798&new_path=%2F2-click-socialmedia-buttons&new=532798"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/2-click-socialmedia-buttons/"
+            "url": "http://wordpress.org/extend/plugins/2-click-socialmedia-buttons/changelog/"
         },
         {
-            "type": "FIX",
-            "url": "http://plugins.trac.wordpress.org/changeset?old_path=%2F2-click-socialmedia-buttons&old=532798&new_path=%2F2-click-socialmedia-buttons&new=532798"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4272"
         }
     ],
     "database_specific": {
+        "slug": "2-click-socialmedia-buttons",
+        "name": "2 Click Social Media Buttons",
         "cwe_ids": [
             "CWE-79"
         ]

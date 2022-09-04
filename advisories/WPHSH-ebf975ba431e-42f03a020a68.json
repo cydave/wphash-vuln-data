@@ -250,19 +250,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/80b0682e-2c3b-441b-9628-6462368e5fc7"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25028"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/event-tickets"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/event-tickets/"
         }
     ],
     "database_specific": {
+        "slug": "event-tickets",
+        "name": "Event Tickets and Registration",
         "cwe_ids": [
             "CWE-601"
         ]

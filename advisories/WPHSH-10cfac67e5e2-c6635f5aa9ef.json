@@ -43,19 +43,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5528"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/floating-social-bar"
+            "type": "WEB",
+            "url": "http://security.szurek.pl/floating-social-bar-115-xss.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/floating-social-bar/"
+            "url": "https://wordpress.org/plugins/floating-social-bar/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/132670/WordPress-Floating-Social-Bar-1.1.5-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/75944"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8098"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5528"
         }
     ],
     "database_specific": {
+        "slug": "floating-social-bar",
+        "name": "Floating Social Bar",
         "cwe_ids": [
             "CWE-79"
         ]

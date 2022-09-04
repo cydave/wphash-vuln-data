@@ -68,19 +68,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/59589e74-f901-4f4d-81de-26ad19d1b7fd"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24676"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/real-time-auto-find-and-replace"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/real-time-auto-find-and-replace/"
         }
     ],
     "database_specific": {
+        "slug": "real-time-auto-find-and-replace",
+        "name": "Better Find and Replace",
         "cwe_ids": [
             "CWE-79"
         ]

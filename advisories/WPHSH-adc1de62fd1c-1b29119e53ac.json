@@ -63,19 +63,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29425"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/checkout-files-upload-woocommerce"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/checkout-files-upload-woocommerce/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/checkout-files-upload-woocommerce/"
+            "url": "https://patchstack.com/database/vulnerability/checkout-files-upload-woocommerce/wordpress-checkout-files-upload-for-woocommerce-plugin-2-1-2-cross-site-scripting-xss-vulnerability"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29425"
         }
     ],
     "database_specific": {
+        "slug": "checkout-files-upload-woocommerce",
+        "name": "Checkout Files Upload for WooCommerce",
         "cwe_ids": [
             "CWE-79"
         ]

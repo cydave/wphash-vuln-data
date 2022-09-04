@@ -56,23 +56,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2916"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sabre"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/sabre/"
+            "url": "http://www.securityfocus.com/bid/53528"
         },
         {
             "type": "FIX",
             "url": "http://plugins.trac.wordpress.org/changeset?old_path=%2Fsabre&old=534490&new_path=%2Fsabre&new=534490"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.org/files/112692/WordPress-SABRE-1.2.0-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/extend/plugins/sabre/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/75615"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2916"
         }
     ],
     "database_specific": {
+        "slug": "sabre",
+        "name": "sabre",
         "cwe_ids": [
             "CWE-79"
         ]

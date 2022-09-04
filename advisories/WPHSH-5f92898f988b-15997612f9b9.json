@@ -66,19 +66,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/insert-pages/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18586"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/insert-pages"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/insert-pages/"
         }
     ],
     "database_specific": {
+        "slug": "insert-pages",
+        "name": "Insert Pages",
         "cwe_ids": [
             "CWE-22"
         ]

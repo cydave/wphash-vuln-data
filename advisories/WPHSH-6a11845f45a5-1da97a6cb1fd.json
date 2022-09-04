@@ -93,19 +93,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-100027"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-slimstat"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/57305"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-slimstat/"
+            "url": "http://www.securityfocus.com/bid/66146"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/getusedtoit/wp-slimstat/issues/3"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/91840"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-100027"
         }
     ],
     "database_specific": {
+        "slug": "wp-slimstat",
+        "name": "Slimstat Analytics",
         "cwe_ids": [
             "CWE-79"
         ]

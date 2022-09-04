@@ -47,19 +47,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1000142"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/parsi-font"
+            "type": "WEB",
+            "url": "http://www.vapidlabs.com/wp/wp_advisory.php?v=435"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/parsi-font/"
+            "url": "https://wordpress.org/plugins/parsi-font"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/93802"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1000142"
         }
     ],
     "database_specific": {
+        "slug": "parsi-font",
+        "name": "MW Font Changer",
         "cwe_ids": [
             "CWE-79"
         ]

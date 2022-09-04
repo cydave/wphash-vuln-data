@@ -40,19 +40,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10959"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/estatik"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/estatik/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/estatik/"
+            "url": "https://www.pluginvulnerabilities.com/2016/08/19/authenticated-arbitrary-file-upload-vulnerability-in-estatik/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10959"
         }
     ],
     "database_specific": {
+        "slug": "estatik",
+        "name": "Estatik Real Estate Plugin",
         "cwe_ids": [
             "CWE-434"
         ]

@@ -61,19 +61,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7682"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/pie-register"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8213"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/pie-register/"
+            "url": "https://github.com/GTSolutions/Pie-Register/blob/2.0.19/readme.txt"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/133929/WordPress-Pie-Register-2.0.18-SQL-Injection.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/536669/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7682"
         }
     ],
     "database_specific": {
+        "slug": "pie-register",
+        "name": "Registration Forms \u2013 User Profile, Custom Registration Form, Login Form, Invitation-Based Registrations for WordPress",
         "cwe_ids": [
             "CWE-89"
         ]

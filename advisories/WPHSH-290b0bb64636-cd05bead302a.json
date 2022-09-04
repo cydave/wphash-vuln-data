@@ -49,19 +49,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "http://www.vapid.dhs.org/advisory.php?v=119"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3998"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/adsense-click-fraud-monitoring"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/adsense-click-fraud-monitoring/"
         }
     ],
     "database_specific": {
+        "slug": "adsense-click-fraud-monitoring",
+        "name": "Google AdSense Click-Fraud Monitoring Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -60,19 +60,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/af472879-9328-45c2-957f-e7bed77e4c2d"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24438"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/googleanalytics"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/googleanalytics/"
         }
     ],
     "database_specific": {
+        "slug": "googleanalytics",
+        "name": "ShareThis Dashboard for Google Analytics",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -55,19 +55,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5963"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/simple-dropbox-upload-form"
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/123235"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/simple-dropbox-upload-form/"
+            "url": "http://plugins.trac.wordpress.org/changeset?reponame=&old=774214@simple-dropbox-upload-form%2Ftrunk&new=774214@simple-dropbox-upload-form%2Ftrunk"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/plugins/simple-dropbox-upload-form/changelog"
+        },
+        {
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/54856"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/87166"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5963"
         }
     ],
     "database_specific": {
+        "slug": "simple-dropbox-upload-form",
+        "name": "Simple Dropbox Upload",
         "cwe_ids": []
     }
 }

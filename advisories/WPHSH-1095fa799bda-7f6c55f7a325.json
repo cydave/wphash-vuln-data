@@ -158,19 +158,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10234"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-live-chat-support"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/ultimate-member/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-live-chat-support/"
+            "url": "https://github.com/RiieCco/write-ups/tree/master/CVE-2018-10234"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10234"
         }
     ],
     "database_specific": {
+        "slug": "wp-live-chat-support",
+        "name": "3CX Free Live Chat",
         "cwe_ids": [
             "CWE-79"
         ]

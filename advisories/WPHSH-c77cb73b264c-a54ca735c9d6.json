@@ -150,19 +150,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3256"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sexybookmarks"
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/61561"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/sexybookmarks/"
+            "url": "http://secunia.com/advisories/53138"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/plugins/sexybookmarks/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/86126"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3256"
         }
     ],
     "database_specific": {
+        "slug": "sexybookmarks",
+        "name": "sexybookmarks",
         "cwe_ids": [
             "CWE-352"
         ]

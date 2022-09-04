@@ -99,19 +99,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36919"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/awesome-support"
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/awesome-support/wordpress-awesome-support-plugin-6-0-6-multiple-authenticated-reflected-cross-site-scripting-xss-vulnerabilities"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/awesome-support/"
+            "url": "https://wordpress.org/plugins/awesome-support/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36919"
         }
     ],
     "database_specific": {
+        "slug": "awesome-support",
+        "name": "Awesome Support \u2013 WordPress HelpDesk & Support Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -58,19 +58,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/d79d2f6a-257a-4c9e-b971-9837abd4211c"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24624"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mp3-music-player-by-sonaar"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/mp3-music-player-by-sonaar/"
         }
     ],
     "database_specific": {
+        "slug": "mp3-music-player-by-sonaar",
+        "name": "MP3 Audio Player for Music, Radio & Podcast by Sonaar",
         "cwe_ids": [
             "CWE-79"
         ]

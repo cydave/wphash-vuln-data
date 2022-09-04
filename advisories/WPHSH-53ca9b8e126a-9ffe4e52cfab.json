@@ -41,19 +41,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/rich-counter/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-10394"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/rich-counter"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/rich-counter/"
         }
     ],
     "database_specific": {
+        "slug": "rich-counter",
+        "name": "rich-counter",
         "cwe_ids": [
             "CWE-74"
         ]

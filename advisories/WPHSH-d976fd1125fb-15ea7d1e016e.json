@@ -180,19 +180,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9457"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/pretty-link"
+            "type": "WEB",
+            "url": "http://cinu.pl/research/wp-plugins/mail_9ca443a3759e5c7fd889ae0e02e044e6.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/pretty-link/"
+            "url": "https://wpvulndb.com/vulnerabilities/8249"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/pretty-link/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9457"
         }
     ],
     "database_specific": {
+        "slug": "pretty-link",
+        "name": "Pretty Links \u2013 Link Management, Branding, Tracking & Sharing Plugin",
         "cwe_ids": [
             "CWE-89"
         ]

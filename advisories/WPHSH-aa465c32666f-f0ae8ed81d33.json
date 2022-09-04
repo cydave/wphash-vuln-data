@@ -37,19 +37,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8375"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/gb-gallery-slideshow"
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/127833/WordPress-GB-Gallery-Slideshow-1.5-SQL-Injection.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/gb-gallery-slideshow/"
+            "url": "http://www.homelab.it/index.php/2014/08/10/wordpress-gb-gallery-slideshow"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/69181"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8375"
         }
     ],
     "database_specific": {
+        "slug": "gb-gallery-slideshow",
+        "name": "GB Gallery Slideshow",
         "cwe_ids": [
             "CWE-89"
         ]

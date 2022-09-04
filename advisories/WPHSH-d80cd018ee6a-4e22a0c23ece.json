@@ -55,19 +55,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6011"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wpdatatables"
+            "type": "WEB",
+            "url": "http://jvn.jp/en/jp/JVN14776551/index.html"
         },
         {
             "type": "WEB",
             "url": "https://wordpress.org/plugins/wpdatatables/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6011"
         }
     ],
     "database_specific": {
+        "slug": "wpdatatables",
+        "name": "wpDataTables \u2013 WordPress Tables & Table Charts Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

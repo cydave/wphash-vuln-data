@@ -46,19 +46,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/377fd65f-3a8c-4f7a-9e40-046d52ec0eef"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24571"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/hd-quiz"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/hd-quiz/"
         }
     ],
     "database_specific": {
+        "slug": "hd-quiz",
+        "name": "HD Quiz",
         "cwe_ids": [
             "CWE-79"
         ]

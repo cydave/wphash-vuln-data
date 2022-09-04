@@ -149,19 +149,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/6cd7cd6d-1cc1-472c-809b-b66389f149b0"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0287"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mycred"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/mycred/"
         }
     ],
     "database_specific": {
+        "slug": "mycred",
+        "name": "myCred \u2013 Points, Rewards, Gamification, Ranks, Badges & Loyalty Plugin",
         "cwe_ids": [
             "CWE-200"
         ]

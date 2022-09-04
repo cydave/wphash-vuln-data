@@ -69,19 +69,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/4560eef4-253b-49a4-8e20-9520c45c6f7f"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24708"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-all-export"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-all-export/"
         }
     ],
     "database_specific": {
+        "slug": "wp-all-export",
+        "name": "Export any WordPress data to XML/CSV",
         "cwe_ids": [
             "CWE-79"
         ]

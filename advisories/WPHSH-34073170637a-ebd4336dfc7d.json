@@ -130,19 +130,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2224"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/event-calendar-wd"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/event-calendar-wd/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/event-calendar-wd/"
+            "url": "https://plugins.trac.wordpress.org/changeset/1671891/#file313"
+        },
+        {
+            "type": "WEB",
+            "url": "https://jvn.jp/en/jp/JVN73550134/index.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/99155"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8859"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2224"
         }
     ],
     "database_specific": {
+        "slug": "event-calendar-wd",
+        "name": "event-calendar-wd",
         "cwe_ids": [
             "CWE-79"
         ]

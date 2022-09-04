@@ -271,19 +271,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/c493ac9c-67d1-48a9-be21-824b1a1d56c2"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24835"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wc-frontend-manager"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wc-frontend-manager/"
         }
     ],
     "database_specific": {
+        "slug": "wc-frontend-manager",
+        "name": "WCFM \u2013 Frontend Manager for WooCommerce along with Bookings Subscription Listings Compatible",
         "cwe_ids": [
             "CWE-89"
         ]

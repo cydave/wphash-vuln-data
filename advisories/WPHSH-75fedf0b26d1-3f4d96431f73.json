@@ -91,19 +91,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/58421"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2714"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/podpress"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/podpress/"
         }
     ],
     "database_specific": {
+        "slug": "podpress",
+        "name": "podpress",
         "cwe_ids": [
             "CWE-79"
         ]

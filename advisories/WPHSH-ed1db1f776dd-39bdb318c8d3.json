@@ -159,19 +159,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38323"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/rentpress"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2021-38323"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/rentpress/"
+            "url": "https://plugins.trac.wordpress.org/browser/rentpress/tags/6.6.4/src/rentPress/AjaxRequests.php#L83"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38323"
         }
     ],
     "database_specific": {
+        "slug": "rentpress",
+        "name": "rentpress",
         "cwe_ids": [
             "CWE-79"
         ]

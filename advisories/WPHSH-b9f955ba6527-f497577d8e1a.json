@@ -60,19 +60,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/a59ebab8-5df7-4093-b853-da9472f53508"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24776"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-performance-score-booster"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-performance-score-booster/"
         }
     ],
     "database_specific": {
+        "slug": "wp-performance-score-booster",
+        "name": "WP Performance Score Booster \u2013 Optimize Speed, Enable Cache & Page Preload",
         "cwe_ids": [
             "CWE-352"
         ]

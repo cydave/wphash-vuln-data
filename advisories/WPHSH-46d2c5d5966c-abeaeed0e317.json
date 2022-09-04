@@ -96,19 +96,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-7959"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/bulletproof-security"
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/128977/WordPress-Bulletproof-Security-.51-XSS-SQL-Injection-SSRF.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/bulletproof-security/"
+            "url": "https://wordpress.org/plugins/bulletproof-security/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/70918"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/533904/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-7959"
         }
     ],
     "database_specific": {
+        "slug": "bulletproof-security",
+        "name": "BulletProof Security",
         "cwe_ids": [
             "CWE-89"
         ]

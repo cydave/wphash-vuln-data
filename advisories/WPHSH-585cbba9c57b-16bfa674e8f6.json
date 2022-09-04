@@ -67,19 +67,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11709"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wpforo"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/9090"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wpforo/"
+            "url": "https://wordpress.org/plugins/wpforo/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://blog.dewhurstsecurity.com/2018/06/01/wp-foro-wordpress-plugin-xss-vulnerability.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11709"
         }
     ],
     "database_specific": {
+        "slug": "wpforo",
+        "name": "wpForo Forum",
         "cwe_ids": [
             "CWE-79"
         ]

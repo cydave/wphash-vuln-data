@@ -49,19 +49,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-5207"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/thecartpress"
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/51216"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/thecartpress/"
+            "url": "http://packetstormsecurity.org/files/view/108272/wpcartpress-xss.txt"
+        },
+        {
+            "type": "WEB",
+            "url": "http://plugins.trac.wordpress.org/changeset/482746/thecartpress"
+        },
+        {
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/47427"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/72070"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-5207"
         }
     ],
     "database_specific": {
+        "slug": "thecartpress",
+        "name": "thecartpress",
         "cwe_ids": [
             "CWE-79"
         ]

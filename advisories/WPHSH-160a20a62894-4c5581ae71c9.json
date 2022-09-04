@@ -39,19 +39,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-6991"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-cron-dashboard"
+            "type": "WEB",
+            "url": "https://www.htbridge.com/advisory/HTB23189"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-cron-dashboard/"
+            "url": "http://wordpress.org/support/topic/wp-cron-dashboard-115-security-vulnerability-notification-xss"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/530536/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-6991"
         }
     ],
     "database_specific": {
+        "slug": "wp-cron-dashboard",
+        "name": "WP-Cron Dashboard",
         "cwe_ids": [
             "CWE-79"
         ]

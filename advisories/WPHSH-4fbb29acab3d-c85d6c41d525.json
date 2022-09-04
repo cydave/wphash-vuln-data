@@ -63,19 +63,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14846"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/multi-step-form"
+            "type": "WEB",
+            "url": "https://cwatch.comodo.com/blog/website-security/vulnerability-found-in-multiple-stored-xss-form-in-wordpress-version-1-2-5/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/multi-step-form/"
+            "url": "https://ansawaf.blogspot.com/2018/10/cve-2018-14846-multiple-stored-xss-in.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/9186"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14846"
         }
     ],
     "database_specific": {
+        "slug": "multi-step-form",
+        "name": "Multi Step Form",
         "cwe_ids": [
             "CWE-79"
         ]

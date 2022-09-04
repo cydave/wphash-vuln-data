@@ -340,19 +340,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/f34096ec-b1b0-471d-88a4-4699178a3165"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24310"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/photo-gallery"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/photo-gallery/"
         }
     ],
     "database_specific": {
+        "slug": "photo-gallery",
+        "name": "Photo Gallery by 10Web \u2013 Mobile-Friendly Image Gallery",
         "cwe_ids": [
             "CWE-79"
         ]

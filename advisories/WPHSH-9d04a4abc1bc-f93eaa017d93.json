@@ -96,23 +96,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0218"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-html-mail"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2656984/wp-html-mail/trunk/includes/class-template-designer.php"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-html-mail/"
+            "url": "https://www.wordfence.com/blog/2022/01/unauthenticated-xss-vulnerability-patched-in-html-email-template-designer-plugin/"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/2656984/wp-html-mail/trunk/includes/class-template-designer.php"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0218"
         }
     ],
     "database_specific": {
+        "slug": "wp-html-mail",
+        "name": "Email Template Designer \u2013 WP HTML Mail",
         "cwe_ids": [
             "CWE-79"
         ]

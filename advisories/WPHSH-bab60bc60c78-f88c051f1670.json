@@ -44,19 +44,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4547"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/rezgo-online-booking"
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=848542%40rezgo-online-booking&old=748531%40rezgo-online-booking&sfp_email=&sfph_mail=#file500"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/rezgo-online-booking/"
+            "url": "http://codevigilant.com/disclosure/wp-plugin-rezgo-online-booking-a3-cross-site-scripting-xss"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4547"
         }
     ],
     "database_specific": {
+        "slug": "rezgo-online-booking",
+        "name": "rezgo-online-booking",
         "cwe_ids": [
             "CWE-79"
         ]

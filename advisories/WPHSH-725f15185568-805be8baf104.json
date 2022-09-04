@@ -44,19 +44,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/49589867-f764-4c4a-b640-84973c673b23"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46781"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/coming-soon-by-supsystic"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/coming-soon-by-supsystic/"
         }
     ],
     "database_specific": {
+        "slug": "coming-soon-by-supsystic",
+        "name": "Coming Soon by Supsystic",
         "cwe_ids": [
             "CWE-79"
         ]

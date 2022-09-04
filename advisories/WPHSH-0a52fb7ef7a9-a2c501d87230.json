@@ -92,19 +92,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2696"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/all-in-one-webmaster"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/52877"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/all-in-one-webmaster/"
+            "url": "http://wordpress.org/extend/plugins/all-in-one-webmaster/changelog/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2696"
         }
     ],
     "database_specific": {
+        "slug": "all-in-one-webmaster",
+        "name": "WP Webmaster",
         "cwe_ids": [
             "CWE-352"
         ]

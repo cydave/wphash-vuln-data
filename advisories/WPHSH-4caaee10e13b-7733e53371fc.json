@@ -92,19 +92,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-payeezy-pay/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20985"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-payeezy-pay"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-payeezy-pay/"
         }
     ],
     "database_specific": {
+        "slug": "wp-payeezy-pay",
+        "name": "WP Payeezy Pay",
         "cwe_ids": [
             "CWE-20"
         ]

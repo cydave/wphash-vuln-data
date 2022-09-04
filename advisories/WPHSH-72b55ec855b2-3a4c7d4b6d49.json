@@ -68,19 +68,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1093"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-polls"
+            "type": "WEB",
+            "url": "https://helpx.adobe.com/security/products/acrobat/apsb16-14.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-polls/"
+            "url": "http://www.securitytracker.com/id/1035828"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1093"
         }
     ],
     "database_specific": {
+        "slug": "wp-polls",
+        "name": "WP-Polls",
         "cwe_ids": [
             "CWE-119"
         ]

@@ -59,19 +59,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/38274ef2-5100-4669-9544-a42346b6727d"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24759"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/pdfjs-viewer-shortcode"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/pdfjs-viewer-shortcode/"
         }
     ],
     "database_specific": {
+        "slug": "pdfjs-viewer-shortcode",
+        "name": "PDF.js Viewer",
         "cwe_ids": [
             "CWE-79"
         ]

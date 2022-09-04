@@ -44,19 +44,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/78575072-4e04-4a8a-baec-f313cfffe829"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24453"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/include-me"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/include-me/"
         }
     ],
     "database_specific": {
+        "slug": "include-me",
+        "name": "Include Me",
         "cwe_ids": [
             "CWE-22"
         ]

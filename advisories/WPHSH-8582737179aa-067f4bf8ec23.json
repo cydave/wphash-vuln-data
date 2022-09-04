@@ -45,19 +45,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/70aed824-c53e-4672-84c9-039dc34ed5fa"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1938"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/awin-data-feed"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/awin-data-feed/"
         }
     ],
     "database_specific": {
+        "slug": "awin-data-feed",
+        "name": "Awin Data Feed",
         "cwe_ids": [
             "CWE-79"
         ]

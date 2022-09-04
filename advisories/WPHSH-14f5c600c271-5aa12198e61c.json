@@ -72,19 +72,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/28d26aa6-a8db-4c20-9ec7-39821c606a08"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1903"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/armember-membership"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/armember-membership/"
         }
     ],
     "database_specific": {
+        "slug": "armember-membership",
+        "name": "ARMember \u2013 Membership Plugin, Content Restriction, Member Levels, User Profile & User signup",
         "cwe_ids": [
             "CWE-862"
         ]

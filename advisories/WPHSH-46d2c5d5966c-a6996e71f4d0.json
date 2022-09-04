@@ -96,19 +96,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8749"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/bulletproof-security"
+            "type": "WEB",
+            "url": "http://seclists.org/fulldisclosure/2014/Nov/13"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/bulletproof-security/"
+            "url": "https://wordpress.org/plugins/bulletproof-security/changelog/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8749"
         }
     ],
     "database_specific": {
+        "slug": "bulletproof-security",
+        "name": "BulletProof Security",
         "cwe_ids": []
     }
 }

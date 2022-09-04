@@ -50,19 +50,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/aa9d727c-4d17-4220-b8cb-e6dec30361a9"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1583"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/open-external-links-in-a-new-window"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/open-external-links-in-a-new-window/"
         }
     ],
     "database_specific": {
+        "slug": "open-external-links-in-a-new-window",
+        "name": "External Links in New Window / New Tab",
         "cwe_ids": [
             "CWE-1022"
         ]

@@ -56,19 +56,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/4440e7ca-1a55-444d-8f6c-04153302d750"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24765"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/perfect-survey"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/perfect-survey/"
         }
     ],
     "database_specific": {
+        "slug": "perfect-survey",
+        "name": "perfect-survey",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -386,19 +386,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24165"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ninja-forms"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2021/02/one-million-sites-affected-four-severe-vulnerabilities-patched-in-ninja-forms/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ninja-forms/"
+            "url": "https://wpscan.com/vulnerability/6147acf5-e43f-47e6-ab56-c9c8be584818"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24165"
         }
     ],
     "database_specific": {
+        "slug": "ninja-forms",
+        "name": "Ninja Forms Contact Form \u2013 The Drag and Drop Form Builder for WordPress",
         "cwe_ids": [
             "CWE-601"
         ]

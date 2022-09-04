@@ -89,19 +89,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9425"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/social-locker"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/social-locker/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/social-locker/"
+            "url": "http://cinu.pl/research/wp-plugins/mail_9e26c6f71bf8467e4a5017b15d5acddc.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8327"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9425"
         }
     ],
     "database_specific": {
+        "slug": "social-locker",
+        "name": "social-locker",
         "cwe_ids": [
             "CWE-352"
         ]

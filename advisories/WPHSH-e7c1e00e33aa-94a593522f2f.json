@@ -341,19 +341,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24289"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/store-locator-le"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2021/04/severe-unpatched-vulnerabilities-leads-to-closure-of-store-locator-plus-plugin/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/store-locator-le/"
+            "url": "https://wpscan.com/vulnerability/078e93cd-7cf2-4e23-8171-58d44e354d62"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24289"
         }
     ],
     "database_specific": {
+        "slug": "store-locator-le",
+        "name": "Store Locator Plus\u00ae for WordPress",
         "cwe_ids": [
             "CWE-269"
         ]

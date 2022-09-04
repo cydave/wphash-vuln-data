@@ -266,19 +266,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34635"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/poll-maker"
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/browser/poll-maker/tags/3.2.8/admin/partials/settings/poll-maker-settings.php#L249"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/poll-maker/"
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2021-34635"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34635"
         }
     ],
     "database_specific": {
+        "slug": "poll-maker",
+        "name": "Poll Maker \u2013 Best WordPress Poll Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

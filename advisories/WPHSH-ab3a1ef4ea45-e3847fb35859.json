@@ -49,19 +49,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1000137"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/hero-maps-pro"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/hero-maps-pro"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/hero-maps-pro/"
+            "url": "http://www.vapidlabs.com/wp/wp_advisory.php?v=658"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/93815"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1000137"
         }
     ],
     "database_specific": {
+        "slug": "hero-maps-pro",
+        "name": "hero-maps-pro",
         "cwe_ids": [
             "CWE-79"
         ]

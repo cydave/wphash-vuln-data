@@ -129,19 +129,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/9eb94e55-765b-4df5-baea-b247ef72aef3"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24137"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/blog2social"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/blog2social/"
         }
     ],
     "database_specific": {
+        "slug": "blog2social",
+        "name": "Blog2Social: Social Media Auto Post & Scheduler",
         "cwe_ids": [
             "CWE-89"
         ]

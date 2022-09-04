@@ -56,19 +56,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4403"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/register-plus"
+            "type": "WEB",
+            "url": "http://websecurity.com.ua/4539"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/register-plus/"
+            "url": "http://packetstormsecurity.org/files/view/96143/registerplus-xss.txt"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/514903/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4403"
         }
     ],
     "database_specific": {
+        "slug": "register-plus",
+        "name": "register-plus",
         "cwe_ids": [
             "CWE-200"
         ]

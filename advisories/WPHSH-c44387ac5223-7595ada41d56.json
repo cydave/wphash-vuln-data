@@ -56,19 +56,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36841"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/yith-maintenance-mode"
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/yith-maintenance-mode/wordpress-yith-maintenance-mode-plugin-1-3-7-authenticated-stored-cross-site-scripting-xss-vulnerability"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/yith-maintenance-mode/"
+            "url": "https://wordpress.org/plugins/yith-maintenance-mode/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36841"
         }
     ],
     "database_specific": {
+        "slug": "yith-maintenance-mode",
+        "name": "YITH Maintenance Mode",
         "cwe_ids": [
             "CWE-79"
         ]

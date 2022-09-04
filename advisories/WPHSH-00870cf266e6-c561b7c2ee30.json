@@ -48,19 +48,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/limit-attempts/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9335"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/limit-attempts"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/limit-attempts/"
         }
     ],
     "database_specific": {
+        "slug": "limit-attempts",
+        "name": "Limit Attempts by BestWebSoft \u2013 WordPress Anti-Bot and Security Plugin for Login and Forms",
         "cwe_ids": [
             "CWE-89"
         ]

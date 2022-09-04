@@ -69,19 +69,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24311"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/external-media"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/4fb90999-6f91-4200-a0cc-bfe9b34a5de9"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/external-media/"
+            "url": "https://www.wordfence.com/blog/2021/05/critical-vulnerability-patched-in-external-media-plugin/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24311"
         }
     ],
     "database_specific": {
+        "slug": "external-media",
+        "name": "External Media",
         "cwe_ids": [
             "CWE-434"
         ]

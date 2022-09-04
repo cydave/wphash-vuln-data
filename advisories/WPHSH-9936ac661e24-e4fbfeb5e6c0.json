@@ -63,19 +63,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6446"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/infusionsoft"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/infusionsoft/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/infusionsoft/"
+            "url": "http://research.g0blin.co.uk/cve-2014-6446/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.exploit-db.com/exploits/34925"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/show/osvdb/112171"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/131002/Wordpress-InfusionSoft-Shell-Upload.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6446"
         }
     ],
     "database_specific": {
+        "slug": "infusionsoft",
+        "name": "infusionsoft",
         "cwe_ids": [
             "CWE-94"
         ]

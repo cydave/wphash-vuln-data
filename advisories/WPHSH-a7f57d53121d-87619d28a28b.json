@@ -52,19 +52,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/e8550ccd-3898-4e27-aca9-ade89823ff4d"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24789"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/flat-preloader"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/flat-preloader/"
         }
     ],
     "database_specific": {
+        "slug": "flat-preloader",
+        "name": "Flat Preloader",
         "cwe_ids": [
             "CWE-79"
         ]

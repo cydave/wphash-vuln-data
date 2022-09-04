@@ -57,19 +57,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24552"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/simple-events-calendar"
+            "type": "WEB",
+            "url": "https://codevigilant.com/disclosure/2021/wp-plugin-simple-events-calendar/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/simple-events-calendar/"
+            "url": "https://wpscan.com/vulnerability/3482a015-a5ed-4913-b516-9eae2b3f89db"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24552"
         }
     ],
     "database_specific": {
+        "slug": "simple-events-calendar",
+        "name": "simple-events-calendar",
         "cwe_ids": [
             "CWE-89"
         ]

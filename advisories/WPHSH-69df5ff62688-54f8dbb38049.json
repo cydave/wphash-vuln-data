@@ -41,19 +41,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/011c2519-fd84-4c95-b8b8-23654af59d70"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24958"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/meks-easy-instagram-widget"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/meks-easy-instagram-widget/"
         }
     ],
     "database_specific": {
+        "slug": "meks-easy-instagram-widget",
+        "name": "Meks Easy Photo Feed Widget",
         "cwe_ids": [
             "CWE-79"
         ]

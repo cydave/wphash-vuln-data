@@ -43,19 +43,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1000033"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/vospari-forms"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8862"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/vospari-forms/"
+            "url": "https://cjc.im/advisories/0007/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1000033"
         }
     ],
     "database_specific": {
+        "slug": "vospari-forms",
+        "name": "vospari-forms",
         "cwe_ids": [
             "CWE-79"
         ]

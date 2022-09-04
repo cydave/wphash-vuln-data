@@ -118,19 +118,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-15863"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-noexternallinks"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-noexternallinks/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-noexternallinks/"
+            "url": "http://lists.openwall.net/full-disclosure/2017/06/02/3"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-15863"
         }
     ],
     "database_specific": {
+        "slug": "wp-noexternallinks",
+        "name": "wp-noexternallinks",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -100,19 +100,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2021-34629"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34629"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sendgrid-email-delivery-simplified"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
         }
     ],
     "database_specific": {
+        "slug": "sendgrid-email-delivery-simplified",
+        "name": "sendgrid-email-delivery-simplified",
         "cwe_ids": [
             "CWE-862"
         ]

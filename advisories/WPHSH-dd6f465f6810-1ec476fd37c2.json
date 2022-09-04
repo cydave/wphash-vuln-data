@@ -296,19 +296,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2020/08/newsletter-plugin-vulnerabilities-affect-over-300000-sites/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35932"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/newsletter"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/newsletter/"
         }
     ],
     "database_specific": {
+        "slug": "newsletter",
+        "name": "Newsletter \u2013 Send awesome emails from WordPress",
         "cwe_ids": [
             "CWE-502"
         ]

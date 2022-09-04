@@ -41,19 +41,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/332e1e1e-7420-4605-99bc-4074e212ff9b"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0674"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/kunze-law"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/kunze-law/"
         }
     ],
     "database_specific": {
+        "slug": "kunze-law",
+        "name": "Kunze Law",
         "cwe_ids": [
             "CWE-79"
         ]

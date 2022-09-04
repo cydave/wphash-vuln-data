@@ -68,19 +68,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/723d0d07-c48b-4fe3-9fb2-7dae3c7d3cfb"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25029"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cluevo-lms"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/cluevo-lms/"
         }
     ],
     "database_specific": {
+        "slug": "cluevo-lms",
+        "name": "CLUEVO LMS, E-Learning Platform",
         "cwe_ids": [
             "CWE-79"
         ]

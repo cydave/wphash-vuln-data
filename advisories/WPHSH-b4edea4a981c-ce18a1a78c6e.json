@@ -52,19 +52,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0759"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-recaptcha"
+            "type": "WEB",
+            "url": "http://archives.neohapsis.com/archives/fulldisclosure/2011-03/0206.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-recaptcha/"
+            "url": "http://secunia.com/advisories/43771"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/46909"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/66169"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/66167"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0759"
         }
     ],
     "database_specific": {
+        "slug": "wp-recaptcha",
+        "name": "wp-recaptcha",
         "cwe_ids": [
             "CWE-352"
         ]

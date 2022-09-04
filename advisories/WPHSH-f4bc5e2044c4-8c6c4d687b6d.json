@@ -152,19 +152,41 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5532"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/paid-memberships-pro"
+            "type": "WEB",
+            "url": "https://www.htbridge.com/advisory/HTB23264"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/paid-memberships-pro/"
+            "url": "https://wordpress.org/plugins/paid-memberships-pro/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/strangerstudios/paid-memberships-pro/commit/add03e3ed90e9163e5a46e20e6c371a87ff5a677"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.paidmembershipspro.com/2015/07/pmpro-updates-1-8-4-3-and-1-8-4-4/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/132812/WordPress-Paid-Memberships-Pro-1.8.4.2-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8109"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/536057/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5532"
         }
     ],
     "database_specific": {
+        "slug": "paid-memberships-pro",
+        "name": "Paid Memberships Pro \u2013 Restrict Member Access to Content, Courses, Communities \u2013 Free or Paid Subscriptions",
         "cwe_ids": [
             "CWE-79"
         ]

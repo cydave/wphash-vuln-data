@@ -116,19 +116,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/a9073616-ffd6-4956-b2e7-0fb2eac6e9b5"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24866"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-data-access"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-data-access/"
         }
     ],
     "database_specific": {
+        "slug": "wp-data-access",
+        "name": "WP Data Access",
         "cwe_ids": [
             "CWE-89"
         ]

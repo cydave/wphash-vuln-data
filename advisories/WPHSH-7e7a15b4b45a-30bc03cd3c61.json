@@ -102,19 +102,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/df74ed76-af9e-47a8-9a4d-c5c57e9e0f91"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24709"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/weather-effect"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/weather-effect/"
         }
     ],
     "database_specific": {
+        "slug": "weather-effect",
+        "name": "Weather Effect \u2013 Christmas Santa Snow Falling",
         "cwe_ids": [
             "CWE-79"
         ]

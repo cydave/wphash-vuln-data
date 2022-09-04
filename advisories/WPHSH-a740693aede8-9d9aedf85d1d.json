@@ -113,19 +113,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24332"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/autoptimize"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/6678e064-ce21-4bb2-8c50-061073fb22fb"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/autoptimize/"
+            "url": "https://m0ze.ru/vulnerability/[2021-04-01]-[WordPress]-[CWE-79]-Autoptimize-WordPress-Plugin-v2.8.3.txt"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24332"
         }
     ],
     "database_specific": {
+        "slug": "autoptimize",
+        "name": "Autoptimize",
         "cwe_ids": [
             "CWE-79"
         ]

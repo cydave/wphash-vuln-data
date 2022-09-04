@@ -174,19 +174,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15643"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ultimate-faqs"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/ultimate-faqs/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ultimate-faqs/"
+            "url": "https://wpvulndb.com/vulnerabilities/9833"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15643"
         }
     ],
     "database_specific": {
+        "slug": "ultimate-faqs",
+        "name": "Ultimate FAQ \u2013 WordPress FAQ and Accordion Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

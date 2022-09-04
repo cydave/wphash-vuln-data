@@ -67,19 +67,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/e2185887-3e53-4089-aa3f-981c944ee0bb"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25063"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contact-form-7-skins"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/contact-form-7-skins/"
         }
     ],
     "database_specific": {
+        "slug": "contact-form-7-skins",
+        "name": "CF7 Skins for Contact Form 7",
         "cwe_ids": [
             "CWE-79"
         ]

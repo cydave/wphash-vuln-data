@@ -34,23 +34,37 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-6243"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/landing-pages"
+            "type": "FIX",
+            "url": "http://plugins.trac.wordpress.org/changeset?reponame=&old=785535%40landing-pages&new=785535%40landing-pages"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/landing-pages/"
+            "url": "http://wordpress.org/plugins/landing-pages/changelog"
         },
         {
-            "type": "FIX",
-            "url": "http://plugins.trac.wordpress.org/changeset?reponame=&old=785535%40landing-pages&new=785535%40landing-pages"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/55192"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/98334"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/62942"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/87803"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-6243"
         }
     ],
     "database_specific": {
+        "slug": "landing-pages",
+        "name": "landing-pages",
         "cwe_ids": [
             "CWE-89"
         ]

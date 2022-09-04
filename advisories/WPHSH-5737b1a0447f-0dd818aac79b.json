@@ -36,19 +36,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3123"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/nextcellent-gallery-nextgen-legacy"
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/67085"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/nextcellent-gallery-nextgen-legacy/"
+            "url": "https://wordpress.org/plugins/nextcellent-gallery-nextgen-legacy/changelog"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.vapid.dhs.org/advisories/wordpress/plugins/nextCellent-gallery-1.9.13"
+        },
+        {
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/58031"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3123"
         }
     ],
     "database_specific": {
+        "slug": "nextcellent-gallery-nextgen-legacy",
+        "name": "nextcellent-gallery-nextgen-legacy",
         "cwe_ids": [
             "CWE-79"
         ]

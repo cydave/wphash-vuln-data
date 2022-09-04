@@ -84,19 +84,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/b66d6682-edbc-435f-a73a-dced32a32770"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1953"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/product-configurator-for-woocommerce"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/product-configurator-for-woocommerce/"
         }
     ],
     "database_specific": {
+        "slug": "product-configurator-for-woocommerce",
+        "name": "Product Configurator for WooCommerce",
         "cwe_ids": [
             "CWE-22"
         ]

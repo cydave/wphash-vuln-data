@@ -42,19 +42,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9119"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/db-backup"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/7726"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/db-backup/"
+            "url": "http://seclists.org/oss-sec/2014/q4/1059"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/99368"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9119"
         }
     ],
     "database_specific": {
+        "slug": "db-backup",
+        "name": "DB Backup",
         "cwe_ids": [
             "CWE-22"
         ]

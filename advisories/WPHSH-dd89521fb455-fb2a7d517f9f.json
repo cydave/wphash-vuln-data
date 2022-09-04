@@ -145,19 +145,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36832"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/icegram"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/icegram/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/icegram/"
+            "url": "https://patchstack.com/database/vulnerability/icegram/wordpress-icegram-plugin-2-0-2-authenticated-stored-cross-site-scripting-xss-vulnerability"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36832"
         }
     ],
     "database_specific": {
+        "slug": "icegram",
+        "name": "Popups, Welcome Bar, Optins and Lead Generation Plugin \u2013 Icegram",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -49,19 +49,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-editor/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10877"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-editor"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-editor/"
         }
     ],
     "database_specific": {
+        "slug": "wp-editor",
+        "name": "WP Editor",
         "cwe_ids": [
             "CWE-79"
         ]

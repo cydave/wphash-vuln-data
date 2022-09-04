@@ -51,19 +51,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/redirection/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-6717"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/redirection"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/redirection/"
         }
     ],
     "database_specific": {
+        "slug": "redirection",
+        "name": "Redirection",
         "cwe_ids": [
             "CWE-79"
         ]

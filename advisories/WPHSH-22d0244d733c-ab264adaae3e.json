@@ -49,19 +49,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9421"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/olevmedia-shortcodes"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/olevmedia-shortcodes/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/olevmedia-shortcodes/"
+            "url": "https://wpvulndb.com/vulnerabilities/8338"
+        },
+        {
+            "type": "WEB",
+            "url": "http://cinu.pl/research/wp-plugins/mail_d9e466122cd9a6ca27db840cca277cdb.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9421"
         }
     ],
     "database_specific": {
+        "slug": "olevmedia-shortcodes",
+        "name": "Olevmedia Shortcodes",
         "cwe_ids": [
             "CWE-352"
         ]

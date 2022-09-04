@@ -163,19 +163,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2220"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ninja-forms"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/ninja-forms/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ninja-forms/"
+            "url": "http://packetstormsecurity.com/files/130369/WordPress-Ninja-Forms-2.8.8-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/74857"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/534687/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2220"
         }
     ],
     "database_specific": {
+        "slug": "ninja-forms",
+        "name": "Ninja Forms Contact Form \u2013 The Drag and Drop Form Builder for WordPress",
         "cwe_ids": [
             "CWE-79"
         ]

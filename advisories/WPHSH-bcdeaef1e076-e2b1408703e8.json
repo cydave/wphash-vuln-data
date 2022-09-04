@@ -196,19 +196,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/contact-form-to-email/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20964"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contact-form-to-email"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/contact-form-to-email/"
         }
     ],
     "database_specific": {
+        "slug": "contact-form-to-email",
+        "name": "Contact Form Email",
         "cwe_ids": [
             "CWE-352"
         ]

@@ -91,19 +91,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/4621e86e-aba4-429c-8e08-32cf9b4c65e6"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24924"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/email-log"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/email-log/"
         }
     ],
     "database_specific": {
+        "slug": "email-log",
+        "name": "Email Log",
         "cwe_ids": [
             "CWE-79"
         ]

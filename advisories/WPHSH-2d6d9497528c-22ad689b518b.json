@@ -46,19 +46,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/reflex-gallery/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-7482"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/reflex-gallery"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/reflex-gallery/"
         }
     ],
     "database_specific": {
+        "slug": "reflex-gallery",
+        "name": "ReFlex Gallery \u00bb WordPress Photo Gallery",
         "cwe_ids": [
             "CWE-79"
         ]

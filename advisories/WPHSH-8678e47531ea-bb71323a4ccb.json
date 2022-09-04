@@ -169,19 +169,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24841"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/helpful"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/55d11acf-8c47-40da-be47-24f74fd7566e"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/helpful/"
+            "url": "https://mikadmin.fr/tech/XSS-Stored-Helpful-5b10bc7f40ab319f9797eb4abad4f420660.pdf"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24841"
         }
     ],
     "database_specific": {
+        "slug": "helpful",
+        "name": "Helpful",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -48,19 +48,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/cc6585c8-5798-48a1-89f7-a3337f56df3f"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24829"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/visitors-traffic-real-time-statistics"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/visitors-traffic-real-time-statistics/"
         }
     ],
     "database_specific": {
+        "slug": "visitors-traffic-real-time-statistics",
+        "name": "Visitor Traffic Real Time Statistics",
         "cwe_ids": [
             "CWE-89"
         ]

@@ -38,19 +38,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/player/changelog"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8584"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/player"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/player/"
         }
     ],
     "database_specific": {
+        "slug": "player",
+        "name": "SpiderVPlayer",
         "cwe_ids": [
             "CWE-79"
         ]

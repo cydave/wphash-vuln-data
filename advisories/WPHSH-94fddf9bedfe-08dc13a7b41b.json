@@ -233,19 +233,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/3c5a5187-42b3-4f88-9b0e-4fdfa1c39e86"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24498"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cp-multi-view-calendar"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/cp-multi-view-calendar/"
         }
     ],
     "database_specific": {
+        "slug": "cp-multi-view-calendar",
+        "name": "Calendar Event Multi View",
         "cwe_ids": [
             "CWE-79"
         ]

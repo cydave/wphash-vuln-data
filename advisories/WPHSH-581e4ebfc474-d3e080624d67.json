@@ -61,19 +61,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/all-in-one-schemaorg-rich-snippets/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20977"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/all-in-one-schemaorg-rich-snippets"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/all-in-one-schemaorg-rich-snippets/"
         }
     ],
     "database_specific": {
+        "slug": "all-in-one-schemaorg-rich-snippets",
+        "name": "Schema \u2013 All In One Schema Rich Snippets",
         "cwe_ids": [
             "CWE-79"
         ]

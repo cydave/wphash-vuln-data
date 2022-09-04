@@ -47,17 +47,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2356"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/user-private-files"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/user-private-files/"
         }
     ],
     "database_specific": {
+        "slug": "user-private-files",
+        "name": "Frontend File Manager and Sharing \u2013 User Private Files",
         "cwe_ids": []
     }
 }

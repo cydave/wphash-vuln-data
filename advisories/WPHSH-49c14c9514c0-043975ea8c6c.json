@@ -210,19 +210,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0164"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/coming-soon-page"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/942535f9-73bf-4467-872a-20075f03bc51"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/coming-soon-page/"
+            "url": "https://plugins.trac.wordpress.org/changeset/2655973"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0164"
         }
     ],
     "database_specific": {
+        "slug": "coming-soon-page",
+        "name": "Coming soon and Maintenance mode",
         "cwe_ids": [
             "CWE-863"
         ]

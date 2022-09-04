@@ -63,19 +63,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2707"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/login-with-ajax"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/52950"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/login-with-ajax/"
+            "url": "http://wordpress.org/extend/plugins/login-with-ajax/changelog/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2707"
         }
     ],
     "database_specific": {
+        "slug": "login-with-ajax",
+        "name": "Login With Ajax",
         "cwe_ids": [
             "CWE-352"
         ]

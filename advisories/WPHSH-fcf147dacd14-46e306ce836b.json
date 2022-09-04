@@ -45,19 +45,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/bbp-move-topics/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-21005"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/bbp-move-topics"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/bbp-move-topics/"
         }
     ],
     "database_specific": {
+        "slug": "bbp-move-topics",
+        "name": "bbPress Move Topics",
         "cwe_ids": [
             "CWE-94"
         ]

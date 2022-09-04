@@ -45,19 +45,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/c6f24afe-d273-4f87-83ca-a791a385b06b"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24775"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/document-emberdder"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/document-emberdder/"
         }
     ],
     "database_specific": {
+        "slug": "document-emberdder",
+        "name": "Document Embedder",
         "cwe_ids": [
             "CWE-668"
         ]

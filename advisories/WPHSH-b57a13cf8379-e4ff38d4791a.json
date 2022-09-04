@@ -47,19 +47,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-6891"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/bookly-responsive-appointment-booking-tool"
+            "type": "WEB",
+            "url": "https://www.gubello.me/blog/bookly-blind-stored-xss/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/bookly-responsive-appointment-booking-tool/"
+            "url": "https://wordpress.org/plugins/bookly-responsive-appointment-booking-tool/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-6891"
         }
     ],
     "database_specific": {
+        "slug": "bookly-responsive-appointment-booking-tool",
+        "name": "WordPress Online Booking and Scheduling Plugin \u2013 Bookly",
         "cwe_ids": [
             "CWE-79"
         ]

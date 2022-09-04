@@ -41,19 +41,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/booking-calendar-contact-form/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10908"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/booking-calendar-contact-form"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/booking-calendar-contact-form/"
         }
     ],
     "database_specific": {
+        "slug": "booking-calendar-contact-form",
+        "name": "Booking Calendar Contact Form",
         "cwe_ids": [
             "CWE-79"
         ]

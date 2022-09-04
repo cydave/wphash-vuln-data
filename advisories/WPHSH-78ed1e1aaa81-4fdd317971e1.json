@@ -98,19 +98,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/4b4e417d-0ae2-4c3c-81e6-4dcf39eb5697"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24749"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/url-shortify"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/url-shortify/"
         }
     ],
     "database_specific": {
+        "slug": "url-shortify",
+        "name": "URL Shortify \u2013 Simple, Powerful and Easy URL Shortener Plugin For WordPress",
         "cwe_ids": [
             "CWE-352"
         ]

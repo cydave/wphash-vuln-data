@@ -42,19 +42,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/visitors-online/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9325"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/visitors-online"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/visitors-online/"
         }
     ],
     "database_specific": {
+        "slug": "visitors-online",
+        "name": "Visitors Online by BestWebSoft",
         "cwe_ids": [
             "CWE-89"
         ]

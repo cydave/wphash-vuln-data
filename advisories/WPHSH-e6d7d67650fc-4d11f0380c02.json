@@ -49,19 +49,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5652"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/dark-mode"
+            "type": "WEB",
+            "url": "https://github.com/d4wner/Vulnerabilities-Report/blob/master/dark-mode.md"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/dark-mode/"
+            "url": "https://wpvulndb.com/vulnerabilities/9008"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5652"
         }
     ],
     "database_specific": {
+        "slug": "dark-mode",
+        "name": "WP Markdown Editor (Formerly Dark Mode)",
         "cwe_ids": [
             "CWE-79"
         ]

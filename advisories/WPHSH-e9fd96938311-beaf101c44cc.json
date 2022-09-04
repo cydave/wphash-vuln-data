@@ -51,17 +51,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1324"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/rich-event-timeline"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/rich-event-timeline/"
         }
     ],
     "database_specific": {
+        "slug": "rich-event-timeline",
+        "name": "Event Timeline \u2013 Vertical Timeline",
         "cwe_ids": []
     }
 }

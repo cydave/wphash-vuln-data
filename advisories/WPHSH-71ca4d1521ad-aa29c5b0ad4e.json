@@ -72,19 +72,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/0f694961-afab-44f9-846c-e80a0f6c768b"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0952"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sitemap-by-click5"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/sitemap-by-click5/"
         }
     ],
     "database_specific": {
+        "slug": "sitemap-by-click5",
+        "name": "Sitemap by click5",
         "cwe_ids": [
             "CWE-862"
         ]

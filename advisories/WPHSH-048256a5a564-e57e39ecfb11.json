@@ -186,19 +186,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24153"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wordpress-seo"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/77810044-394d-4314-b9a1-20c7dca726dc"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wordpress-seo/"
+            "url": "https://plugins.trac.wordpress.org/changeset/1466243/wordpress-seo"
+        },
+        {
+            "type": "WEB",
+            "url": "https://packetstormsecurity.com/files/138192/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24153"
         }
     ],
     "database_specific": {
+        "slug": "wordpress-seo",
+        "name": "Yoast SEO",
         "cwe_ids": [
             "CWE-79"
         ]

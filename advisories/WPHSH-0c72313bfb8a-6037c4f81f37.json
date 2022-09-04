@@ -122,19 +122,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5364"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wpglobus"
+            "type": "WEB",
+            "url": "https://github.com/d4wner/Vulnerabilities-Report/blob/master/wpglobus.md"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wpglobus/"
+            "url": "https://wpvulndb.com/vulnerabilities/9003"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5364"
         }
     ],
     "database_specific": {
+        "slug": "wpglobus",
+        "name": "WPGlobus \u2013 Multilingual Everything!",
         "cwe_ids": [
             "CWE-79"
         ]

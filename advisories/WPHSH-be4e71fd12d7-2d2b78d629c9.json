@@ -232,17 +232,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36346"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/maxbuttons"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/maxbuttons/"
         }
     ],
     "database_specific": {
+        "slug": "maxbuttons",
+        "name": "WordPress Button Plugin MaxButtons",
         "cwe_ids": []
     }
 }

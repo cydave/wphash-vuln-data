@@ -160,6 +160,9 @@
                 "3.8.4.7",
                 "3.8.4.6",
                 "3.8.4.5",
+                "dashboard",
+                "library",
+                "language",
                 "3.8.4.4",
                 "3.8.4.3",
                 "3.8.4.2",
@@ -236,19 +239,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-13570"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/adrotate"
+            "type": "WEB",
+            "url": "https://ajdg.solutions/2019/07/11/adrotate-pro-5-3-important-update-for-security-and-ads-txt/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/adrotate/"
+            "url": "https://wpvulndb.com/vulnerabilities/9475"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-13570"
         }
     ],
     "database_specific": {
+        "slug": "adrotate",
+        "name": "AdRotate \u2013 Ad manager & AdSense Ads",
         "cwe_ids": [
             "CWE-89"
         ]

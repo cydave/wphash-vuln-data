@@ -184,19 +184,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24561"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-sms"
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/changeset/2570762/wp-sms"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-sms/"
+            "url": "https://wpscan.com/vulnerability/5433ef4c-4451-4b6e-992b-69c5eccabf90"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24561"
         }
     ],
     "database_specific": {
+        "slug": "wp-sms",
+        "name": "WP SMS \u2013 Messaging & SMS Notification for WordPress, WooCommerce, GravityForms, etc",
         "cwe_ids": [
             "CWE-79"
         ]

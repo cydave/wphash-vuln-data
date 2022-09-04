@@ -64,19 +64,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9454"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/smooth-slider"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8284"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/smooth-slider/"
+            "url": "http://cinu.pl/research/wp-plugins/mail_36e814da6ac4dd903be2c77cfbdd0afd.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/smooth-slider/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9454"
         }
     ],
     "database_specific": {
+        "slug": "smooth-slider",
+        "name": "Smooth Slider",
         "cwe_ids": [
             "CWE-89"
         ]

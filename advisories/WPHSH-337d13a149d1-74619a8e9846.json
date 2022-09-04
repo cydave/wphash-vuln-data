@@ -98,19 +98,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8800"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/nextend-facebook-connect"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/nextend-facebook-connect/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/nextend-facebook-connect/"
+            "url": "http://www.exploit-db.com/exploits/35439"
+        },
+        {
+            "type": "WEB",
+            "url": "http://security.szurek.pl/nextend-facebook-connect-1459-xss.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/show/osvdb/115231"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8800"
         }
     ],
     "database_specific": {
+        "slug": "nextend-facebook-connect",
+        "name": "Nextend Social Login and Register",
         "cwe_ids": [
             "CWE-79"
         ]

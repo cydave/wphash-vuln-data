@@ -71,19 +71,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9433"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-social-bookmarking-light"
+            "type": "WEB",
+            "url": "http://cinu.pl/research/wp-plugins/mail_58e88633599b7b2fc0f44ce6fa7ff27d.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-social-bookmarking-light/"
+            "url": "https://wordpress.org/plugins/wp-social-bookmarking-light/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8252"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9433"
         }
     ],
     "database_specific": {
+        "slug": "wp-social-bookmarking-light",
+        "name": "WP Social Bookmarking Light",
         "cwe_ids": [
             "CWE-352"
         ]

@@ -100,19 +100,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/cea0ce4b-886a-47cc-8653-a297e9759d09"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25019"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/squirrly-seo"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/squirrly-seo/"
         }
     ],
     "database_specific": {
+        "slug": "squirrly-seo",
+        "name": "SEO Plugin by Squirrly SEO",
         "cwe_ids": [
             "CWE-79"
         ]

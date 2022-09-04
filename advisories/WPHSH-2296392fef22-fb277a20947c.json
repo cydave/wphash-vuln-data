@@ -152,19 +152,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/contact-form-plugin/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10869"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contact-form-plugin"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/contact-form-plugin/"
         }
     ],
     "database_specific": {
+        "slug": "contact-form-plugin",
+        "name": "Contact Form by BestWebSoft \u2013 Advanced Contact Us Form Builder for WordPress",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -58,19 +58,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-2550"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/disable-comments"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/disable-comments/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/disable-comments/"
+            "url": "https://security.dxw.com/advisories/csrf-in-disable-comments-1-0-3/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/92219"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-2550"
         }
     ],
     "database_specific": {
+        "slug": "disable-comments",
+        "name": "Disable Comments \u2013 Remove Comments & Stop Spam [Multi-Site Support]",
         "cwe_ids": [
             "CWE-352"
         ]

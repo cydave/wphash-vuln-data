@@ -53,19 +53,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11633"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/woo-checkout-for-digital-goods"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/woo-checkout-for-digital-goods/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/woo-checkout-for-digital-goods/"
+            "url": "http://labs.threatpress.com/cross-site-request-forgery-csrf-in-woo-checkout-for-digital-goods-plugin/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11633"
         }
     ],
     "database_specific": {
+        "slug": "woo-checkout-for-digital-goods",
+        "name": "Digital Goods for WooCommerce Checkout",
         "cwe_ids": [
             "CWE-352"
         ]

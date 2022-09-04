@@ -67,19 +67,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6715"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/w3-total-cache"
+            "type": "WEB",
+            "url": "https://vinhjaxt.github.io/2019/03/cve-2019-6715"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/w3-total-cache/"
+            "url": "http://packetstormsecurity.com/files/160674/WordPress-W3-Total-Cache-0.9.3-File-Read-Directory-Traversal.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6715"
         }
     ],
     "database_specific": {
+        "slug": "w3-total-cache",
+        "name": "W3 Total Cache",
         "cwe_ids": []
     }
 }

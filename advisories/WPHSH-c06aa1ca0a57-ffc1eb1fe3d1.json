@@ -158,19 +158,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/1b640519-75e1-48cb-944e-b9bff9de6d3d"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1977"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-ultimate-csv-importer"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-ultimate-csv-importer/"
         }
     ],
     "database_specific": {
+        "slug": "wp-ultimate-csv-importer",
+        "name": "Import all XML, CSV & TXT into WordPress",
         "cwe_ids": [
             "CWE-918"
         ]

@@ -133,19 +133,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-1874"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contact-form-7-to-database-extension"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/contact-form-7-to-database-extension/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/contact-form-7-to-database-extension/"
+            "url": "http://seclists.org/fulldisclosure/2015/Mar/21"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/130654/WordPress-Contact-Form-DB-2.8.29-Cross-Site-Request-Forgery.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://security.dxw.com/advisories/csrf-in-contact-form-db-allows-attacker-to-delete-all-stored-form-submissions/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/72964"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-1874"
         }
     ],
     "database_specific": {
+        "slug": "contact-form-7-to-database-extension",
+        "name": "contact-form-7-to-database-extension",
         "cwe_ids": [
             "CWE-352"
         ]

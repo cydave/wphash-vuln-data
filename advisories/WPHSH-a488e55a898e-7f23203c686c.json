@@ -38,19 +38,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2084"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/easy-social-icons"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/easy-social-icons/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/easy-social-icons/"
+            "url": "http://packetstormsecurity.com/files/130461/WordPress-Easy-Social-Icons-1.2.2-CSRF-XSS.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.exploit-db.com/exploits/36161"
+        },
+        {
+            "type": "WEB",
+            "url": "http://seclists.org/fulldisclosure/2015/Feb/76"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/74893"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2084"
         }
     ],
     "database_specific": {
+        "slug": "easy-social-icons",
+        "name": "Easy Social Icons",
         "cwe_ids": [
             "CWE-352"
         ]

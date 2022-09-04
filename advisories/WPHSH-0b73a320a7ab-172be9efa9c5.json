@@ -134,23 +134,49 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-6506"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/zingiri-web-shop"
+            "type": "WEB",
+            "url": "http://wordpress.org/extend/plugins/zingiri-web-shop/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/zingiri-web-shop/"
+            "url": "http://secunia.com/advisories/48991"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.osvdb.org/81492"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/53278"
         },
         {
             "type": "FIX",
             "url": "http://plugins.trac.wordpress.org/changeset?reponame=&old=537613%40zingiri-web-shop&new=537613%40zingiri-web-shop"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.osvdb.org/81493"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.exploit-db.com/exploits/18787"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/75179"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/75178"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-6506"
         }
     ],
     "database_specific": {
+        "slug": "zingiri-web-shop",
+        "name": "zingiri-web-shop",
         "cwe_ids": [
             "CWE-79"
         ]

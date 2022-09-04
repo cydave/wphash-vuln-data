@@ -77,19 +77,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/companion-auto-update/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20973"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/companion-auto-update"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/companion-auto-update/"
         }
     ],
     "database_specific": {
+        "slug": "companion-auto-update",
+        "name": "Companion Auto Update",
         "cwe_ids": [
             "CWE-20"
         ]

@@ -53,19 +53,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-12054"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/catch-breadcrumb"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/10184"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/catch-breadcrumb/"
+            "url": "https://cxsecurity.com/issue/WLB-2020040144"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-12054"
         }
     ],
     "database_specific": {
+        "slug": "catch-breadcrumb",
+        "name": "Catch Breadcrumb",
         "cwe_ids": [
             "CWE-79"
         ]

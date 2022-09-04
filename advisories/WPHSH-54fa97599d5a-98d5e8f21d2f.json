@@ -136,19 +136,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/cbb8fa9f-1c84-4410-ae86-64cb1771ce78"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24952"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/enhanced-e-commerce-for-woocommerce-store"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/enhanced-e-commerce-for-woocommerce-store/"
         }
     ],
     "database_specific": {
+        "slug": "enhanced-e-commerce-for-woocommerce-store",
+        "name": "Actionable Google Analytics and Google Shopping plugin for WooCommerce",
         "cwe_ids": [
             "CWE-89"
         ]

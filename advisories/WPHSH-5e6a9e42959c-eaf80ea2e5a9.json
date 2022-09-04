@@ -103,19 +103,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/search-everything/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18571"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/search-everything"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/search-everything/"
         }
     ],
     "database_specific": {
+        "slug": "search-everything",
+        "name": "Search Everything",
         "cwe_ids": [
             "CWE-89"
         ]

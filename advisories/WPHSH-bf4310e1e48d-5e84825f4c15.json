@@ -78,23 +78,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27615"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/loginizer"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/10441"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/loginizer/"
+            "url": "https://wpdeeply.com/loginizer-before-1-6-4-sqli-injection/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.zdnet.com/article/wordpress-deploys-forced-security-update-for-dangerous-bug-in-popular-plugin/"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2401010/loginizer"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27615"
         }
     ],
     "database_specific": {
+        "slug": "loginizer",
+        "name": "Loginizer",
         "cwe_ids": [
             "CWE-89"
         ]

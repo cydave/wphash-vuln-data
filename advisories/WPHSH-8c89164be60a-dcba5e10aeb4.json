@@ -58,19 +58,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36848"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/social-media-feather"
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/social-media-feather/wordpress-social-media-feather-plugin-2-0-4-authenticated-stored-cross-site-scripting-xss-vulnerability"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/social-media-feather/"
+            "url": "https://wordpress.org/plugins/social-media-feather/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36848"
         }
     ],
     "database_specific": {
+        "slug": "social-media-feather",
+        "name": "Social Media Feather | social media sharing",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -213,19 +213,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0901"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ad-inserter"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/85582b4f-a40a-4394-9834-0c88c5dc57ba"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ad-inserter/"
+            "url": "http://packetstormsecurity.com/files/166626/WordPress-Ad-Inserter-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0901"
         }
     ],
     "database_specific": {
+        "slug": "ad-inserter",
+        "name": "Ad Inserter \u2013 Ad Manager & AdSense Ads",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -104,19 +104,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/6bc6023f-a5e7-4665-896c-95afa5b638fb"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24150"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/likebtn-like-button"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/likebtn-like-button/"
         }
     ],
     "database_specific": {
+        "slug": "likebtn-like-button",
+        "name": "Like Button Rating \u2665 LikeBtn",
         "cwe_ids": [
             "CWE-918"
         ]

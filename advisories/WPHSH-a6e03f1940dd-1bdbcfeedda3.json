@@ -108,23 +108,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25026"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/patreon-connect"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/patreon-connect/"
+            "url": "https://wpscan.com/vulnerability/02756dd3-832a-4846-b9e1-a34f148b5cfe"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2682069"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25026"
         }
     ],
     "database_specific": {
+        "slug": "patreon-connect",
+        "name": "Patreon WordPress",
         "cwe_ids": [
             "CWE-79"
         ]

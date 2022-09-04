@@ -76,19 +76,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/7e11aeb0-b231-407d-86ec-9018c2c7eee3"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0634"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/thirstyaffiliates"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/thirstyaffiliates/"
         }
     ],
     "database_specific": {
+        "slug": "thirstyaffiliates",
+        "name": "ThirstyAffiliates Affiliate Link Manager",
         "cwe_ids": [
             "CWE-862"
         ]

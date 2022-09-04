@@ -50,19 +50,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8605"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/xcloner-backup-and-restore"
+            "type": "WEB",
+            "url": "http://www.vapid.dhs.org/advisories/wordpress/plugins/Xcloner-v3.1.1/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/xcloner-backup-and-restore/"
+            "url": "http://www.vapid.dhs.org/advisory.php?v=110"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8605"
         }
     ],
     "database_specific": {
+        "slug": "xcloner-backup-and-restore",
+        "name": "Backup, Restore and Migrate WordPress Sites With the XCloner Plugin",
         "cwe_ids": [
             "CWE-264"
         ]

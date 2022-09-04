@@ -96,19 +96,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/0ad020b5-0d16-4521-8ea7-39cd206ab9f6"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25120"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/easy-facebook-likebox"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/easy-facebook-likebox/"
         }
     ],
     "database_specific": {
+        "slug": "easy-facebook-likebox",
+        "name": "Easy Social Feed \u2013 Social Photos Gallery \u2013 Post Feed \u2013 Like Box",
         "cwe_ids": [
             "CWE-79"
         ]

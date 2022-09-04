@@ -40,19 +40,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/3d1f90d9-45da-42f8-93f8-15c8a4ff90ca"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1626"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sharebar"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/sharebar/"
         }
     ],
     "database_specific": {
+        "slug": "sharebar",
+        "name": "sharebar",
         "cwe_ids": [
             "CWE-352"
         ]

@@ -92,19 +92,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23981"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/perfect-woocommerce-brands"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/perfect-woocommerce-brands/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/perfect-woocommerce-brands/"
+            "url": "https://patchstack.com/database/vulnerability/perfect-woocommerce-brands/wordpress-perfect-brands-for-woocommerce-plugin-2-0-4-subscriber-set-featured-brand-vulnerability"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23981"
         }
     ],
     "database_specific": {
+        "slug": "perfect-woocommerce-brands",
+        "name": "Perfect Brands for WooCommerce",
         "cwe_ids": []
     }
 }

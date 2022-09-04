@@ -82,19 +82,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/9e1ac711-1f65-49fa-b007-66170a77b265"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25060"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/business-profile"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/business-profile/"
         }
     ],
     "database_specific": {
+        "slug": "business-profile",
+        "name": "Five Star Business Profile and Schema",
         "cwe_ids": [
             "CWE-79"
         ]

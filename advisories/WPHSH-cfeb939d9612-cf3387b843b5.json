@@ -92,19 +92,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/79982ea9-4733-4b1e-a43e-17629c1136de"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24473"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/metronet-profile-picture"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/metronet-profile-picture/"
         }
     ],
     "database_specific": {
+        "slug": "metronet-profile-picture",
+        "name": "User Profile Picture",
         "cwe_ids": [
             "CWE-639"
         ]

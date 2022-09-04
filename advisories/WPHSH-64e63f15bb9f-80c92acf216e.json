@@ -50,19 +50,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/efb1ddef-2123-416c-a932-856d41ed836d"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25121"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/rating-bws"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/rating-bws/"
         }
     ],
     "database_specific": {
+        "slug": "rating-bws",
+        "name": "Rating by BestWebSoft",
         "cwe_ids": [
             "CWE-191"
         ]

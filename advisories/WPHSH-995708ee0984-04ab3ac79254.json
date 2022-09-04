@@ -168,17 +168,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2737"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-staging"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-staging/"
         }
     ],
     "database_specific": {
+        "slug": "wp-staging",
+        "name": "WP STAGING \u2013 Backup Duplicator & Migration",
         "cwe_ids": []
     }
 }

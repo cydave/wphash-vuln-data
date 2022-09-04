@@ -133,19 +133,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36823"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ag-custom-admin"
+            "type": "WEB",
+            "url": "https://www.youtube.com/watch?v=tnyIIWntOww"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ag-custom-admin/"
+            "url": "https://plugins.svn.wordpress.org/ag-custom-admin/trunk/changelog.txt"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/ag-custom-admin/wordpress-absolutely-glamorous-custom-admin-plugin-6-8-authenticated-stored-cross-site-scripting-xss-vulnerability"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36823"
         }
     ],
     "database_specific": {
+        "slug": "ag-custom-admin",
+        "name": "Custom Dashboard & Login Page \u2013 AGCA",
         "cwe_ids": [
             "CWE-79"
         ]

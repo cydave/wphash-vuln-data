@@ -141,19 +141,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/763c08a0-4b2b-4487-b91c-be6cc2b9322e"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24849"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wc-multivendor-marketplace"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wc-multivendor-marketplace/"
         }
     ],
     "database_specific": {
+        "slug": "wc-multivendor-marketplace",
+        "name": "WCFM Marketplace \u2013 Best Multivendor Marketplace for WooCommerce",
         "cwe_ids": [
             "CWE-89"
         ]

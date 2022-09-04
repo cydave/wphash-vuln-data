@@ -44,23 +44,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25053"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-coder"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2641650/wp-coder"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-coder/"
+            "url": "https://wpscan.com/vulnerability/a5448599-64de-43b0-b04d-c6492366eab1"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/2641650/wp-coder"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25053"
         }
     ],
     "database_specific": {
+        "slug": "wp-coder",
+        "name": "WP Coder \u2013 add custom html, css and js code",
         "cwe_ids": [
             "CWE-352"
         ]

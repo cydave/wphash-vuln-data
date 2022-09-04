@@ -166,19 +166,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/29ab3c7b-58e0-4a72-b7b4-ab12a6d54f5a"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0953"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/gotmls"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/gotmls/"
         }
     ],
     "database_specific": {
+        "slug": "gotmls",
+        "name": "Anti-Malware Security and Brute-Force Firewall",
         "cwe_ids": [
             "CWE-79"
         ]

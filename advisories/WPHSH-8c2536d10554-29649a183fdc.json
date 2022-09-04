@@ -64,19 +64,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10371"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wf-cookie-consent"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wf-cookie-consent/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wf-cookie-consent/"
+            "url": "https://gist.github.com/B0UG/8615df3fe83a4deca07334af783696d6"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/9080"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/44585/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10371"
         }
     ],
     "database_specific": {
+        "slug": "wf-cookie-consent",
+        "name": "WF Cookie Consent",
         "cwe_ids": [
             "CWE-79"
         ]

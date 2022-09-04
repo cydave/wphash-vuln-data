@@ -149,17 +149,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2551"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/duplicator"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/duplicator/"
         }
     ],
     "database_specific": {
+        "slug": "duplicator",
+        "name": "Duplicator \u2013 WordPress Migration Plugin",
         "cwe_ids": []
     }
 }

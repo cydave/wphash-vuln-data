@@ -81,23 +81,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24885"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/yop-poll"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2227747/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/yop-poll/"
+            "url": "https://wpscan.com/vulnerability/d0b312f8-8b16-45be-b5e5-bf9d4b3e9b1e"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/2227747/"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24885"
         }
     ],
     "database_specific": {
+        "slug": "yop-poll",
+        "name": "YOP Poll",
         "cwe_ids": [
             "CWE-79"
         ]

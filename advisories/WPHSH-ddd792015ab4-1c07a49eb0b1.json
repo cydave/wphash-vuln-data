@@ -51,19 +51,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/55b89de0-30ed-4f98-935e-51f069faf6fc"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0773"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/documentor-lite"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/documentor-lite/"
         }
     ],
     "database_specific": {
+        "slug": "documentor-lite",
+        "name": "documentor-lite",
         "cwe_ids": [
             "CWE-89"
         ]

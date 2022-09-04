@@ -171,19 +171,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-9864"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-live-chat-support"
+            "type": "WEB",
+            "url": "https://www.youtube.com/watch?v=eHG1pWaez9w"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-live-chat-support/"
+            "url": "https://www.gubello.me/blog/wp-live-chat-support-8-0-05-stored-xss/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-live-chat-support/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-9864"
         }
     ],
     "database_specific": {
+        "slug": "wp-live-chat-support",
+        "name": "3CX Free Live Chat",
         "cwe_ids": [
             "CWE-79"
         ]

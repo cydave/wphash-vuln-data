@@ -90,19 +90,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/be895016-7365-4ce4-a54f-f36d0ef2d6f1"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0434"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/page-views-count"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/page-views-count/"
         }
     ],
     "database_specific": {
+        "slug": "page-views-count",
+        "name": "Page View Count",
         "cwe_ids": [
             "CWE-89"
         ]

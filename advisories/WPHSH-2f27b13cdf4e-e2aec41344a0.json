@@ -64,19 +64,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-5642"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/onwebchat"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/onwebchat/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/onwebchat/"
+            "url": "https://jvn.jp/en/jp/JVN92404841/index.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/changeset?new=2384440%40onwebchat&old=2364589%40onwebchat"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-5642"
         }
     ],
     "database_specific": {
+        "slug": "onwebchat",
+        "name": "Live Chat \u2013 Live support by onWebChat",
         "cwe_ids": [
             "CWE-352"
         ]

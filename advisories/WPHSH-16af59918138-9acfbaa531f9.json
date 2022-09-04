@@ -176,19 +176,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0189"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-rss-aggregator"
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/changeset/2659298"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-rss-aggregator/"
+            "url": "https://wpscan.com/vulnerability/52a71bf1-b8bc-479e-b741-eb8fb9685014"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0189"
         }
     ],
     "database_specific": {
+        "slug": "wp-rss-aggregator",
+        "name": "WP RSS Aggregator \u2013 News Feeds, Autoblogging, Youtube Video Feeds and More",
         "cwe_ids": [
             "CWE-79"
         ]

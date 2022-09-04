@@ -61,19 +61,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19207"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-gdpr-compliance"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2018/11/trends-following-vulnerability-in-wp-gdpr-compliance-plugin/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-gdpr-compliance/"
+            "url": "https://wordpress.org/plugins/wp-gdpr-compliance/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/9144"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/105921"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19207"
         }
     ],
     "database_specific": {
+        "slug": "wp-gdpr-compliance",
+        "name": "Cookie Information | Free GDPR Consent Solution",
         "cwe_ids": [
             "CWE-425"
         ]

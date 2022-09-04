@@ -65,19 +65,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/d92db61f-341c-4f3f-b962-326194ddbd1e"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24802"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/colorful-categories"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/colorful-categories/"
         }
     ],
     "database_specific": {
+        "slug": "colorful-categories",
+        "name": "Colorful Categories",
         "cwe_ids": [
             "CWE-352"
         ]

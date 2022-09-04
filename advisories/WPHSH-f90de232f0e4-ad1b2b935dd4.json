@@ -75,19 +75,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/a6bfc150-8e3f-4b2d-a6e1-09406af41dd4"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0989"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ns-woocommerce-watermark"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/ns-woocommerce-watermark/"
         }
     ],
     "database_specific": {
+        "slug": "ns-woocommerce-watermark",
+        "name": "ns-woocommerce-watermark",
         "cwe_ids": []
     }
 }

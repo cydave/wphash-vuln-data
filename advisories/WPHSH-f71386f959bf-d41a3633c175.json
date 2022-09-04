@@ -172,19 +172,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/8a588266-54cd-4779-adcf-f9b9e226c297"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24458"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ays-popup-box"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/ays-popup-box/"
         }
     ],
     "database_specific": {
+        "slug": "ays-popup-box",
+        "name": "Popup box",
         "cwe_ids": [
             "CWE-89"
         ]

@@ -37,17 +37,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2593"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/better-search-replace"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/better-search-replace/"
         }
     ],
     "database_specific": {
+        "slug": "better-search-replace",
+        "name": "Better Search Replace",
         "cwe_ids": []
     }
 }

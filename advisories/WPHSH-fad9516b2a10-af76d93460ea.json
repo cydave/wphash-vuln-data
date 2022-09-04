@@ -44,19 +44,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/6ee3e9e2-ff57-41c4-8cc5-b258801a8a02"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1845"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-post-styling"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-post-styling/"
         }
     ],
     "database_specific": {
+        "slug": "wp-post-styling",
+        "name": "WP Post Styling",
         "cwe_ids": [
             "CWE-352"
         ]

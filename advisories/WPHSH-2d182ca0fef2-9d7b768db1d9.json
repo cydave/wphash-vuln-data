@@ -65,19 +65,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10986"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/tweet-wheel"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8464"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/tweet-wheel/"
+            "url": "https://0x62626262.wordpress.com/2016/04/21/tweet-wheel-xss-vulnerability/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/tweet-wheel/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10986"
         }
     ],
     "database_specific": {
+        "slug": "tweet-wheel",
+        "name": "tweet-wheel",
         "cwe_ids": [
             "CWE-79"
         ]

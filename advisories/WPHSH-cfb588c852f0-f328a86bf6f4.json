@@ -51,19 +51,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9468"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/broken-link-manager"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/broken-link-manager/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/broken-link-manager/"
+            "url": "http://cinu.pl/research/wp-plugins/mail_604dd4c86dca013f6e5e89751352f36d.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9468"
         }
     ],
     "database_specific": {
+        "slug": "broken-link-manager",
+        "name": "broken-link-manager",
         "cwe_ids": [
             "CWE-79"
         ]

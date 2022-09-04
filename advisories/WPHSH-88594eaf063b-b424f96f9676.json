@@ -75,19 +75,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/9c608b14-dc5e-469e-b97a-84696fae804c"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1472"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/real-time-auto-find-and-replace"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/real-time-auto-find-and-replace/"
         }
     ],
     "database_specific": {
+        "slug": "real-time-auto-find-and-replace",
+        "name": "Better Find and Replace",
         "cwe_ids": [
             "CWE-89"
         ]

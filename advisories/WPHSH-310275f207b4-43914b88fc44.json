@@ -43,19 +43,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4169"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-cumulus"
+            "type": "WEB",
+            "url": "http://www.vupen.com/english/advisories/2009/3322"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-cumulus/"
+            "url": "http://www.roytanck.com/2009/09/27/wp-cumulus-1-22-fixes-a-security-hole-please-upgrade/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/37102"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4169"
         }
     ],
     "database_specific": {
+        "slug": "wp-cumulus",
+        "name": "wp-cumulus",
         "cwe_ids": [
             "CWE-79"
         ]

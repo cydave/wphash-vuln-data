@@ -107,19 +107,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/bc7d4774-fce8-4b0b-8015-8ef4c5b02d38"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24721"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/loco-translate"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/loco-translate/"
         }
     ],
     "database_specific": {
+        "slug": "loco-translate",
+        "name": "Loco Translate",
         "cwe_ids": [
             "CWE-94"
         ]

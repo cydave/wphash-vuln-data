@@ -49,19 +49,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6445"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contact-form-7-integrations"
+            "type": "WEB",
+            "url": "http://research.g0blin.co.uk/cve-2014-6445/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/contact-form-7-integrations/"
+            "url": "https://wordpress.org/plugins/contact-form-7-integrations/changelog/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6445"
         }
     ],
     "database_specific": {
+        "slug": "contact-form-7-integrations",
+        "name": "contact-form-7-integrations",
         "cwe_ids": [
             "CWE-79"
         ]

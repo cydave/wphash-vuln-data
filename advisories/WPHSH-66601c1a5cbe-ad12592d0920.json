@@ -62,19 +62,37 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2759"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/login-with-ajax"
+            "type": "WEB",
+            "url": "http://plugins.trac.wordpress.org/changeset/541069"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/login-with-ajax/"
+            "url": "http://www.secureworks.com/research/advisories/SWRX-2012-003/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/extend/plugins/login-with-ajax/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/53423"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/81712"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/75470"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2759"
         }
     ],
     "database_specific": {
+        "slug": "login-with-ajax",
+        "name": "Login With Ajax",
         "cwe_ids": [
             "CWE-79"
         ]

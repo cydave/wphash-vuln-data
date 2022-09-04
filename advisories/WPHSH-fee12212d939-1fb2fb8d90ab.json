@@ -89,19 +89,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24430"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/speed-booster-pack"
+            "type": "WEB",
+            "url": "https://m0ze.ru/vulnerability/[2021-05-10]-[WordPress]-[CWE-94]-Speed-Booster-Pack-WordPress-Plugin-v4.2.0-beta.txt"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/speed-booster-pack/"
+            "url": "https://wpscan.com/vulnerability/945d6d2e-fa25-42c0-a7b4-b1794732a0df"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24430"
         }
     ],
     "database_specific": {
+        "slug": "speed-booster-pack",
+        "name": "Speed Booster Pack \u26a1 PageSpeed Optimization Suite",
         "cwe_ids": [
             "CWE-94"
         ]

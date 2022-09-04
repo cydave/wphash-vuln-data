@@ -83,19 +83,41 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1186"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/nextgen-gallery"
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/39250"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/nextgen-gallery/"
+            "url": "http://www.coresecurity.com/content/nextgen-gallery-xss-vulnerability"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/extend/plugins/nextgen-gallery/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.exploit-db.com/exploits/12098"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.vupen.com/english/advisories/2010/0821"
+        },
+        {
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/39341"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/57562"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1186"
         }
     ],
     "database_specific": {
+        "slug": "nextgen-gallery",
+        "name": "WordPress Gallery Plugin \u2013 NextGEN Gallery",
         "cwe_ids": [
             "CWE-79"
         ]

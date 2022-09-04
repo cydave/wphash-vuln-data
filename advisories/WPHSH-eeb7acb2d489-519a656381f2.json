@@ -162,23 +162,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0533"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ditty-news-ticker"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2675223/ditty-news-ticker"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ditty-news-ticker/"
+            "url": "https://wpscan.com/vulnerability/40f36692-c898-4441-ad24-2dc17856bd74"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/2675223/ditty-news-ticker"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0533"
         }
     ],
     "database_specific": {
+        "slug": "ditty-news-ticker",
+        "name": "Ditty \u2013 WordPress Ticker Plugin \u2013 Dynamic Content Display",
         "cwe_ids": [
             "CWE-79"
         ]

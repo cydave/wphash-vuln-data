@@ -174,19 +174,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-13505"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/appointment-hour-booking"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/appointment-hour-booking/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/appointment-hour-booking/"
+            "url": "https://github.com/ivoschyk-cs/CVE-s/blob/master/Appointment%20Hour%20Booking%20%E2%80%93%20WordPress%20Booking%20Plugin%20--%20stored%20XSS"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/9458"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-13505"
         }
     ],
     "database_specific": {
+        "slug": "appointment-hour-booking",
+        "name": "Appointment Hour Booking \u2013 WordPress Booking Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

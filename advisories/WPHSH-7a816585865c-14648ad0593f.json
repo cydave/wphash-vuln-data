@@ -47,19 +47,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/286b81a0-6f6d-4024-9bbc-6cb373990a7a"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0321"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-voting-contest"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-voting-contest/"
         }
     ],
     "database_specific": {
+        "slug": "wp-voting-contest",
+        "name": "WP Voting Contest",
         "cwe_ids": [
             "CWE-79"
         ]

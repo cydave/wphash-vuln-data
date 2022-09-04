@@ -309,19 +309,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24562"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/lifterlms"
+            "type": "WEB",
+            "url": "https://make.lifterlms.com/2021/05/17/lifterlms-version-4-21-2/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/lifterlms/"
+            "url": "https://wpscan.com/vulnerability/d45bb744-4a0d-4af0-aa16-71f7e3ea6e00"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24562"
         }
     ],
     "database_specific": {
+        "slug": "lifterlms",
+        "name": "LifterLMS \u2013 WordPress LMS Plugin",
         "cwe_ids": [
             "CWE-639"
         ]

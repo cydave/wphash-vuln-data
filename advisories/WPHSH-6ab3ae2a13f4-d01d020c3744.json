@@ -82,19 +82,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-7472"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/count-per-day"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/count-per-day/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/count-per-day/"
+            "url": "https://lists.openwall.net/full-disclosure/2013/03/05/2"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-7472"
         }
     ],
     "database_specific": {
+        "slug": "count-per-day",
+        "name": "count-per-day",
         "cwe_ids": [
             "CWE-79"
         ]

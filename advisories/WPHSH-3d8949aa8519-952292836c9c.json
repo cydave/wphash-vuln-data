@@ -63,23 +63,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1165"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/blackhole-bad-bots"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2666486"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/blackhole-bad-bots/"
+            "url": "https://wpscan.com/vulnerability/10d85913-ea8c-4c2e-a32e-fa61cf191710"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/2666486"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1165"
         }
     ],
     "database_specific": {
+        "slug": "blackhole-bad-bots",
+        "name": "Blackhole for Bad Bots",
         "cwe_ids": [
             "CWE-639"
         ]

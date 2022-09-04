@@ -40,23 +40,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25062"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/woo-orders-tracking"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2643807"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/woo-orders-tracking/"
+            "url": "https://wpscan.com/vulnerability/dc9a5d36-7453-46a8-a17f-712449d7987d"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/2643807"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25062"
         }
     ],
     "database_specific": {
+        "slug": "woo-orders-tracking",
+        "name": "Orders Tracking for WooCommerce",
         "cwe_ids": [
             "CWE-79"
         ]

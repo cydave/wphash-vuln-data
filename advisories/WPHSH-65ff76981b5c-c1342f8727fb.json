@@ -48,19 +48,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24268"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/jetwidgets-for-elementor"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/68ecb965-2a9d-4e67-b069-c3dbfb14016b"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/jetwidgets-for-elementor/"
+            "url": "https://www.wordfence.com/blog/2021/04/recent-patches-rock-the-elementor-ecosystem/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24268"
         }
     ],
     "database_specific": {
+        "slug": "jetwidgets-for-elementor",
+        "name": "JetWidgets For Elementor",
         "cwe_ids": [
             "CWE-79"
         ]

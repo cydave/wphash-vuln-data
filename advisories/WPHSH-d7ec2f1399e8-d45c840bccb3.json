@@ -124,19 +124,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-15812"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/easy-appointments"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/easy-appointments/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/easy-appointments/"
+            "url": "https://wpvulndb.com/vulnerabilities/8937"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-15812"
         }
     ],
     "database_specific": {
+        "slug": "easy-appointments",
+        "name": "Easy Appointments",
         "cwe_ids": [
             "CWE-79"
         ]

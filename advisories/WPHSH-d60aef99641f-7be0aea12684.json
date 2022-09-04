@@ -119,19 +119,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-22275"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/easy-registration-forms"
+            "type": "WEB",
+            "url": "https://cert.ikiu.ac.ir/public-files/news/document/CVE-99/CVE-2020-22275.pdf"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/easy-registration-forms/"
+            "url": "https://filebin.net/30ceikgukh268yyj"
+        },
+        {
+            "type": "WEB",
+            "url": "http://uploadboy.com/ty0715vdcii6/886/mp4"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-22275"
         }
     ],
     "database_specific": {
+        "slug": "easy-registration-forms",
+        "name": "easy-registration-forms",
         "cwe_ids": [
             "CWE-1236"
         ]

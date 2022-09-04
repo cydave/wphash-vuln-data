@@ -89,19 +89,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/56628862-1687-4862-9ed4-145d8dfbca97"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24288"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/acymailing"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/acymailing/"
         }
     ],
     "database_specific": {
+        "slug": "acymailing",
+        "name": "Newsletter for WordPress \u2013 AcyMailing Newsletter",
         "cwe_ids": [
             "CWE-601"
         ]

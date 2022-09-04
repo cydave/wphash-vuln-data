@@ -122,19 +122,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11511"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/learnpress"
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/163538/WordPress-LearnPress-Privilege-Escalation.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/learnpress/"
+            "url": "https://wordpress.org/plugins/learnpress/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2020/04/high-severity-vulnerabilities-patched-in-learnpress/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://cwe.mitre.org/data/definitions/862.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11511"
         }
     ],
     "database_specific": {
+        "slug": "learnpress",
+        "name": "LearnPress \u2013 WordPress LMS Plugin",
         "cwe_ids": [
             "CWE-862"
         ]

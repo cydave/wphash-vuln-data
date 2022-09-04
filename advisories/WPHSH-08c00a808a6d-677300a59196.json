@@ -88,17 +88,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2080"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sensei-lms"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/sensei-lms/"
         }
     ],
     "database_specific": {
+        "slug": "sensei-lms",
+        "name": "Sensei LMS \u2013 Online Courses, Quizzes, & Learning",
         "cwe_ids": []
     }
 }

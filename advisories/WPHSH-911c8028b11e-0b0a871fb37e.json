@@ -92,19 +92,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/d72275bd-0c66-4b2a-940d-d5256b5426cc"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24736"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/shared-files"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/shared-files/"
         }
     ],
     "database_specific": {
+        "slug": "shared-files",
+        "name": "Shared Files \u2013 Easy Download Manager and File Sharing Plugin with Frontend File Upload",
         "cwe_ids": [
             "CWE-79"
         ]

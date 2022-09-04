@@ -90,19 +90,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/db5a0431-af4d-45b7-be4e-36b6c90a601b"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25075"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/duplicate-page-or-post"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/duplicate-page-or-post/"
         }
     ],
     "database_specific": {
+        "slug": "duplicate-page-or-post",
+        "name": "Duplicate Page or Post",
         "cwe_ids": [
             "CWE-862"
         ]

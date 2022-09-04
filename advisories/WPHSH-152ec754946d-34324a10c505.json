@@ -109,19 +109,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27844"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wpvivid-backuprestore"
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/wpvivid-backuprestore/wordpress-wpvivid-plugin-0-9-70-arbitrary-file-read-vulnerability"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wpvivid-backuprestore/"
+            "url": "https://wordpress.org/plugins/wpvivid-backuprestore/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27844"
         }
     ],
     "database_specific": {
+        "slug": "wpvivid-backuprestore",
+        "name": "Migration, Backup, Staging \u2013 WPvivid",
         "cwe_ids": [
             "CWE-22"
         ]

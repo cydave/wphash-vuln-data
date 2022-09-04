@@ -454,19 +454,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/0316e5f3-3302-40e3-8ff4-be3423a3be7b"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2099"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/woocommerce"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/woocommerce/"
         }
     ],
     "database_specific": {
+        "slug": "woocommerce",
+        "name": "WooCommerce",
         "cwe_ids": [
             "CWE-94"
         ]

@@ -268,19 +268,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-12636"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/better-wp-security"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/better-wp-security/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/better-wp-security/"
+            "url": "https://www.exploit-db.com/exploits/44943/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://lists.apache.org/thread.html/rd0e44e8ef71eeaaa3cf3d1b8b41eb25894372e2995ec908ce7624d26@%3Ccommits.pulsar.apache.org%3E"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-12636"
         }
     ],
     "database_specific": {
+        "slug": "better-wp-security",
+        "name": "iThemes Security",
         "cwe_ids": [
             "CWE-89"
         ]

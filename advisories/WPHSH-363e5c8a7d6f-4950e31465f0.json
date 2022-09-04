@@ -54,19 +54,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14679"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/arprice-responsive-pricing-table"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/arprice-responsive-pricing-table/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/arprice-responsive-pricing-table/"
+            "url": "https://www.pluginvulnerabilities.com/2019/07/11/cross-site-request-forgery-csrf-vulnerability-in-arprice-lite/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14679"
         }
     ],
     "database_specific": {
+        "slug": "arprice-responsive-pricing-table",
+        "name": "Pricing Table Plugin",
         "cwe_ids": [
             "CWE-352"
         ]

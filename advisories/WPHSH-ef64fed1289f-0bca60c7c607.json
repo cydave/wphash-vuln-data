@@ -99,23 +99,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24865"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/acf-extended"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2648200"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/acf-extended/"
+            "url": "https://wpscan.com/vulnerability/055a2dcf-77ec-4e54-be7d-9c47f7730d1b"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/2648200"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24865"
         }
     ],
     "database_specific": {
+        "slug": "acf-extended",
+        "name": "Advanced Custom Fields: Extended",
         "cwe_ids": [
             "CWE-89"
         ]

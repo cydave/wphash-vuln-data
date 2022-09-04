@@ -47,19 +47,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2021-34627"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34627"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-upload-restriction"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-upload-restriction/"
         }
     ],
     "database_specific": {
+        "slug": "wp-upload-restriction",
+        "name": "WP Upload Restriction",
         "cwe_ids": [
             "CWE-863"
         ]

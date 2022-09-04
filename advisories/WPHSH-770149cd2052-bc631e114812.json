@@ -148,19 +148,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24610"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/translatepress-multilingual"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/b87fcc2f-c2eb-4e23-9757-d1c590f26d3f"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/translatepress-multilingual/"
+            "url": "http://packetstormsecurity.com/files/164306/WordPress-TranslatePress-2.0.8-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24610"
         }
     ],
     "database_specific": {
+        "slug": "translatepress-multilingual",
+        "name": "Translate Multilingual sites \u2013 TranslatePress",
         "cwe_ids": [
             "CWE-79"
         ]

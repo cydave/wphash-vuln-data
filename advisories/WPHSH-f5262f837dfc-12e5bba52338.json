@@ -434,19 +434,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/0d276cca-d6eb-4f4c-83dd-fbc03254c679"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0211"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-simple-firewall"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-simple-firewall/"
         }
     ],
     "database_specific": {
+        "slug": "wp-simple-firewall",
+        "name": "Shield Security \u2013 Scanners, Security Hardening, Brute Force Protection & Firewall",
         "cwe_ids": [
             "CWE-79"
         ]

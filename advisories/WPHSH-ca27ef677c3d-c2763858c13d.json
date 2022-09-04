@@ -160,19 +160,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://security.dxw.com/advisories/stored-xss-in-relevanssi-could-allow-an-unauthenticated-attacker-to-do-almost-anything-an-admin-can-do/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1000038"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/relevanssi"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/relevanssi/"
         }
     ],
     "database_specific": {
+        "slug": "relevanssi",
+        "name": "Relevanssi \u2013 A Better Search",
         "cwe_ids": [
             "CWE-79"
         ]

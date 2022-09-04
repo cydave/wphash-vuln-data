@@ -44,19 +44,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-rollback/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9342"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-rollback"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-rollback/"
         }
     ],
     "database_specific": {
+        "slug": "wp-rollback",
+        "name": "WP Rollback",
         "cwe_ids": [
             "CWE-79"
         ]

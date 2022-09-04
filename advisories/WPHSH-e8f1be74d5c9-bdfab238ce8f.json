@@ -76,19 +76,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24256"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/header-footer-elementor"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2021/04/recent-patches-rock-the-elementor-ecosystem/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/header-footer-elementor/"
+            "url": "https://wpscan.com/vulnerability/a9412fed-aed3-4931-a504-1a86f876892e"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24256"
         }
     ],
     "database_specific": {
+        "slug": "header-footer-elementor",
+        "name": "Elementor Header & Footer Builder",
         "cwe_ids": [
             "CWE-79"
         ]

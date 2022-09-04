@@ -48,19 +48,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/5a363eeb-9510-4535-97e2-9dfd3b10d511"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24644"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/images-to-webp"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/images-to-webp/"
         }
     ],
     "database_specific": {
+        "slug": "images-to-webp",
+        "name": "Images to WebP",
         "cwe_ids": [
             "CWE-22"
         ]

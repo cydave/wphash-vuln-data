@@ -270,23 +270,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0653"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/profile-builder"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/profile-builder/"
+            "url": "https://www.wordfence.com/blog/2022/02/reflected-cross-site-scripting-vulnerability-patched-in-wordpress-profile-builder-plugin/"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=2655168%40profile-builder&new=2655168%40profile-builder&sfp_email=&sfph_mail="
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0653"
         }
     ],
     "database_specific": {
+        "slug": "profile-builder",
+        "name": "Profile Builder \u2013 User Profile & User Registration Forms",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -110,19 +110,37 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-1385"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/powerpress"
+            "type": "WEB",
+            "url": "http://seclists.org/fulldisclosure/2015/Jan/130"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/powerpress/"
+            "url": "http://packetstormsecurity.com/files/130155/Blubrry-PowerPress-6.0-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/72362"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.netsparker.com/cve-2015-1385-xss-vulnerability-in-blubrry-powerpress/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/powerpress/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/534577/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-1385"
         }
     ],
     "database_specific": {
+        "slug": "powerpress",
+        "name": "PowerPress Podcasting plugin by Blubrry",
         "cwe_ids": [
             "CWE-79"
         ]

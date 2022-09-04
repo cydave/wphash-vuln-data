@@ -88,19 +88,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-29045"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/food-and-drink-menu"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/food-and-drink-menu/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/food-and-drink-menu/"
+            "url": "https://appcheck-ng.com/cve-2020-29045/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-29045"
         }
     ],
     "database_specific": {
+        "slug": "food-and-drink-menu",
+        "name": "Five Star Restaurant Menu \u2013 WordPress Food Ordering Plugin",
         "cwe_ids": [
             "CWE-502"
         ]

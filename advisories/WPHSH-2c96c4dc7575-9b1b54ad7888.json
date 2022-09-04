@@ -168,19 +168,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0173"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/jetpack"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/57729"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/jetpack/"
+            "url": "http://www.securityfocus.com/bid/66789"
+        },
+        {
+            "type": "WEB",
+            "url": "http://jetpack.me/2014/04/10/jetpack-security-update/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/92560"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0173"
         }
     ],
     "database_specific": {
+        "slug": "jetpack",
+        "name": "Jetpack \u2013 WP Security, Backup, Speed, & Growth",
         "cwe_ids": [
             "CWE-264"
         ]

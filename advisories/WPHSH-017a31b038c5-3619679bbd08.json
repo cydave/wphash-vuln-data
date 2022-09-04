@@ -131,19 +131,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/download-monitor/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9296"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/download-monitor"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/download-monitor/"
         }
     ],
     "database_specific": {
+        "slug": "download-monitor",
+        "name": "Download Monitor",
         "cwe_ids": [
             "CWE-79"
         ]

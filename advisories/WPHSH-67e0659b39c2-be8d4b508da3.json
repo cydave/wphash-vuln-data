@@ -53,19 +53,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29452"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/export-all-urls"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/export-all-urls/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/export-all-urls/"
+            "url": "https://patchstack.com/database/vulnerability/export-all-urls/wordpress-export-all-urls-plugin-4-1-authenticated-stored-cross-site-scripting-xss-vulnerability"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29452"
         }
     ],
     "database_specific": {
+        "slug": "export-all-urls",
+        "name": "Export All URLs",
         "cwe_ids": [
             "CWE-79"
         ]

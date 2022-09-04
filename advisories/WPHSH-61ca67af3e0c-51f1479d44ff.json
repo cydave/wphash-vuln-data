@@ -98,19 +98,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3634"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/slideshow-jquery-image-gallery"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/slideshow-jquery-image-gallery/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/slideshow-jquery-image-gallery/"
+            "url": "https://github.com/Boonstra/Slideshow/commit/cac505e593cbe70a4d8af5b639f5385d4cc7aa04"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/74453"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.openwall.com/lists/oss-security/2015/05/02/12"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3634"
         }
     ],
     "database_specific": {
+        "slug": "slideshow-jquery-image-gallery",
+        "name": "slideshow-jquery-image-gallery",
         "cwe_ids": [
             "CWE-200"
         ]

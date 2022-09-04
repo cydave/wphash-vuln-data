@@ -86,23 +86,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0147"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-gdpr-compliance"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-gdpr-compliance/"
+            "url": "https://wpscan.com/vulnerability/2c735365-69c0-4652-b48e-c4a192dfe0d1"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2681371"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0147"
         }
     ],
     "database_specific": {
+        "slug": "wp-gdpr-compliance",
+        "name": "Cookie Information | Free GDPR Consent Solution",
         "cwe_ids": [
             "CWE-79"
         ]

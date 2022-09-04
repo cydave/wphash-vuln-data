@@ -87,19 +87,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/cc13db1e-5f7f-49b2-81da-f913cfe70543"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24766"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/404-to-301"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/404-to-301/"
         }
     ],
     "database_specific": {
+        "slug": "404-to-301",
+        "name": "404 to 301 \u2013 Redirect, Log and Notify 404 Errors",
         "cwe_ids": [
             "CWE-352"
         ]

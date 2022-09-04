@@ -54,19 +54,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2022/02/stored-cross-site-scripting-vulnerability-patched-in-a-wordpress-photo-gallery-plugin/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0750"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/photoswipe-masonry"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/photoswipe-masonry/"
         }
     ],
     "database_specific": {
+        "slug": "photoswipe-masonry",
+        "name": "Photoswipe Masonry Gallery",
         "cwe_ids": [
             "CWE-79"
         ]

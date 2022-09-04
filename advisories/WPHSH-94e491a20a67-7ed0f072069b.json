@@ -135,19 +135,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24329"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-super-cache"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/9df86d05-1408-4c22-af55-5e3d44249fd0"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-super-cache/"
+            "url": "https://m0ze.ru/vulnerability/[2021-03-23]-[WordPress]-[CWE-79]-WP-Super-Cache-WordPress-Plugin-v1.7.2.txt"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24329"
         }
     ],
     "database_specific": {
+        "slug": "wp-super-cache",
+        "name": "WP Super Cache",
         "cwe_ids": [
             "CWE-79"
         ]

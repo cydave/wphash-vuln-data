@@ -36,19 +36,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-7240"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/advanced-dewplayer"
+            "type": "WEB",
+            "url": "http://seclists.org/oss-sec/2013/q4/570"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/advanced-dewplayer/"
+            "url": "http://wordpress.org/support/topic/security-vulnerability-cve-2013-7240-directory-traversal"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/64587"
+        },
+        {
+            "type": "WEB",
+            "url": "http://seclists.org/oss-sec/2013/q4/566"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-7240"
         }
     ],
     "database_specific": {
+        "slug": "advanced-dewplayer",
+        "name": "Advanced Dewplayer",
         "cwe_ids": [
             "CWE-22"
         ]

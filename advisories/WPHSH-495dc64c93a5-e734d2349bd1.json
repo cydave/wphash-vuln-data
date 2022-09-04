@@ -41,19 +41,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10985"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/echosign"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8465"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/echosign/"
+            "url": "https://wordpress.org/plugins/echosign/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://0x62626262.wordpress.com/2016/04/21/echosign-plugin-for-wordpress-xss-vulnerability/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10985"
         }
     ],
     "database_specific": {
+        "slug": "echosign",
+        "name": "Echo Sign",
         "cwe_ids": [
             "CWE-79"
         ]

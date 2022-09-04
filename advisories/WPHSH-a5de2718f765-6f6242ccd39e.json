@@ -123,19 +123,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-0603"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/site-reviews"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/site-reviews/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/site-reviews/"
+            "url": "http://jvn.jp/en/jp/JVN60978548/index.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/9102"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-0603"
         }
     ],
     "database_specific": {
+        "slug": "site-reviews",
+        "name": "Site Reviews",
         "cwe_ids": [
             "CWE-79"
         ]

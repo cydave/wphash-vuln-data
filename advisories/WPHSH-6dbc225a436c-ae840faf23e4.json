@@ -65,19 +65,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9442"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cart66-lite"
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/changeset/1052064/cart66-lite"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/cart66-lite/"
+            "url": "http://secunia.com/advisories/61942"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/cart66-lite/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://research.g0blin.co.uk/g0blin-00022/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9442"
         }
     ],
     "database_specific": {
+        "slug": "cart66-lite",
+        "name": "cart66-lite",
         "cwe_ids": [
             "CWE-89"
         ]

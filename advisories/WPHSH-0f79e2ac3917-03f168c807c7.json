@@ -111,19 +111,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0140"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/visual-form-builder"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/9fa2b3b6-2fe3-40f0-8f71-371dd58fe336"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/visual-form-builder/"
+            "url": "https://www.fortiguard.com/zeroday/FG-VD-21-082"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0140"
         }
     ],
     "database_specific": {
+        "slug": "visual-form-builder",
+        "name": "Visual Form Builder",
         "cwe_ids": [
             "CWE-200"
         ]

@@ -185,19 +185,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35489"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contact-form-7"
+            "type": "WEB",
+            "url": "https://www.getastra.com/blog/911/plugin-exploit/contact-form-7-unrestricted-file-upload/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/contact-form-7/"
+            "url": "https://wordpress.org/plugins/contact-form-7/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.jinsonvarghese.com/unrestricted-file-upload-in-contact-form-7/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://contactform7.com/2020/12/17/contact-form-7-532/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/10508"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35489"
         }
     ],
     "database_specific": {
+        "slug": "contact-form-7",
+        "name": "Contact Form 7",
         "cwe_ids": [
             "CWE-434"
         ]

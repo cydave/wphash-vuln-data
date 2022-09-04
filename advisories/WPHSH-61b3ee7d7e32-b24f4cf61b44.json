@@ -77,23 +77,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24686"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/svg-support"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/svg-support/"
+            "url": "https://wpscan.com/vulnerability/38018695-901d-48d9-b39a-7c00df7f0a4b"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2651929"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24686"
         }
     ],
     "database_specific": {
+        "slug": "svg-support",
+        "name": "SVG Support",
         "cwe_ids": [
             "CWE-79"
         ]

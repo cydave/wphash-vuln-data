@@ -41,19 +41,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/63d6ca03-e0df-40db-9839-531c13619094"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24326"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/all-404-redirect-to-homepage"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/all-404-redirect-to-homepage/"
         }
     ],
     "database_specific": {
+        "slug": "all-404-redirect-to-homepage",
+        "name": "All 404 Redirect to Homepage & Broken images Redirection",
         "cwe_ids": [
             "CWE-79"
         ]

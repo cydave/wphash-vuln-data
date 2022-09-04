@@ -48,22 +48,20 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/ae50cec9-5f80-4221-b6a8-4593ab66c37b"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24431"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/language-bar-flags"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/language-bar-flags/"
         }
     ],
     "database_specific": {
+        "slug": "language-bar-flags",
+        "name": "language-bar-flags",
         "cwe_ids": [
-            "CWE-79",
-            "CWE-352"
+            "CWE-352",
+            "CWE-79"
         ]
     }
 }

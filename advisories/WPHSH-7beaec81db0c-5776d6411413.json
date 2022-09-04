@@ -62,19 +62,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/50f70927-9677-4ba4-a388-0a41ed356523"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1539"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/exports-and-reports"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/exports-and-reports/"
         }
     ],
     "database_specific": {
+        "slug": "exports-and-reports",
+        "name": "exports-and-reports",
         "cwe_ids": [
             "CWE-1236"
         ]

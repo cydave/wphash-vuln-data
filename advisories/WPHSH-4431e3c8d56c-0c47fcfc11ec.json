@@ -116,19 +116,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9439"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/addthis"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8246"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/addthis/"
+            "url": "http://blog.cinu.pl/2015/11/php-static-code-analysis-vs-top-1000-wordpress-plugins.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/addthis/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9439"
         }
     ],
     "database_specific": {
+        "slug": "addthis",
+        "name": "WordPress Share Buttons Plugin \u2013 AddThis",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -256,22 +256,20 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2021/02/severe-vulnerabilities-patched-in-nextgen-gallery-affect-over-800000-wordpress-sites/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35942"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/nextgen-gallery"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/nextgen-gallery/"
         }
     ],
     "database_specific": {
+        "slug": "nextgen-gallery",
+        "name": "WordPress Gallery Plugin \u2013 NextGEN Gallery",
         "cwe_ids": [
-            "CWE-79",
-            "CWE-352"
+            "CWE-352",
+            "CWE-79"
         ]
     }
 }

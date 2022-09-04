@@ -65,19 +65,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/js-support-ticket/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-21002"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/js-support-ticket"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/js-support-ticket/"
         }
     ],
     "database_specific": {
+        "slug": "js-support-ticket",
+        "name": "JS Help Desk \u2013 Best Help Desk & Support Plugin",
         "cwe_ids": [
             "CWE-352"
         ]

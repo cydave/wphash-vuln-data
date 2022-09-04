@@ -110,23 +110,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4264"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/better-wp-security"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/better-wp-security/"
+            "url": "http://bit51.com/software/better-wp-security/changelog/"
         },
         {
             "type": "FIX",
             "url": "http://plugins.trac.wordpress.org/changeset?old_path=%2Fbetter-wp-security&old=542852&new_path=%2Fbetter-wp-security&new=542852"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4264"
         }
     ],
     "database_specific": {
+        "slug": "better-wp-security",
+        "name": "iThemes Security",
         "cwe_ids": [
             "CWE-79"
         ]

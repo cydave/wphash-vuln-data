@@ -51,19 +51,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11580"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mass-pagesposts-creator"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/mass-pagesposts-creator/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/mass-pagesposts-creator/"
+            "url": "http://labs.threatpress.com/mass-pages-posts-creator/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11580"
         }
     ],
     "database_specific": {
+        "slug": "mass-pagesposts-creator",
+        "name": "Mass Pages/Posts Creator",
         "cwe_ids": [
             "CWE-79"
         ]

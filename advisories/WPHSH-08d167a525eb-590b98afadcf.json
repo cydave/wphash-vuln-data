@@ -53,19 +53,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-10889"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/tablepress"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/tablepress/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/tablepress/"
+            "url": "https://jvn.jp/en/jp/JVN05398317/index.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-10889"
         }
     ],
     "database_specific": {
+        "slug": "tablepress",
+        "name": "TablePress",
         "cwe_ids": [
             "CWE-611"
         ]

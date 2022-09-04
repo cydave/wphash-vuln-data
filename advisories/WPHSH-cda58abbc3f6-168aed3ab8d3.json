@@ -436,19 +436,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24347"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sp-client-document-manager"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/8f6e82d5-c0e9-468e-acb8-7cd549f6a45a"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/sp-client-document-manager/"
+            "url": "http://packetstormsecurity.com/files/163434/WordPress-SP-Project-And-Document-Manager-4.21-Shell-Upload.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/163675/WordPress-SP-Project-And-Document-Remote-Code-Execution.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24347"
         }
     ],
     "database_specific": {
+        "slug": "sp-client-document-manager",
+        "name": "SP Project & Document Manager",
         "cwe_ids": [
             "CWE-178"
         ]

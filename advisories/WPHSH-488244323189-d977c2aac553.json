@@ -98,19 +98,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/google-document-embedder/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10880"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/google-document-embedder"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/google-document-embedder/"
         }
     ],
     "database_specific": {
+        "slug": "google-document-embedder",
+        "name": "Google Doc Embedder",
         "cwe_ids": [
             "CWE-79"
         ]

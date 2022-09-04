@@ -57,19 +57,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/2bde2030-2dfe-4dd3-afc1-36f7031a91ea"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24902"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/typebot"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/typebot/"
         }
     ],
     "database_specific": {
+        "slug": "typebot",
+        "name": "Typebot | Build beautiful conversational forms",
         "cwe_ids": [
             "CWE-79"
         ]

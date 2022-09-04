@@ -40,19 +40,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29446"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/counter-box"
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/counter-box/wordpress-counter-box-plugin-1-1-1-authenticated-local-file-inclusion-lfi-vulnerability"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/counter-box/"
+            "url": "https://wordpress.org/plugins/counter-box/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29446"
         }
     ],
     "database_specific": {
+        "slug": "counter-box",
+        "name": "Counter Box \u2013 WordPress  plugin for countdown, timer, counter",
         "cwe_ids": [
             "CWE-552"
         ]

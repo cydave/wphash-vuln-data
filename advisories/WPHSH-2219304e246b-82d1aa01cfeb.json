@@ -203,23 +203,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24720"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/geodirectory"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2596452/geodirectory"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/geodirectory/"
+            "url": "https://wpscan.com/vulnerability/9de5cc51-f64c-4475-a0f4-d932dc4364a6"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/2596452/geodirectory"
+            "type": "WEB",
+            "url": "https://github.com/BigTiger2020/word-press/blob/main/WrodPress%20Plugin%20GeoDirectory%E2%80%94%E2%80%94Stored%20Cross-Site%20Scripting%20.md"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24720"
         }
     ],
     "database_specific": {
+        "slug": "geodirectory",
+        "name": "Business Directory WordPress Plugin \u2013 GeoDirectory",
         "cwe_ids": [
             "CWE-79"
         ]

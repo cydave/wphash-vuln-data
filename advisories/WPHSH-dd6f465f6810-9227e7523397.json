@@ -360,19 +360,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/ee3832e2-ce40-4063-a23e-44c7f7f5f46a"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1889"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/newsletter"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/newsletter/"
         }
     ],
     "database_specific": {
+        "slug": "newsletter",
+        "name": "Newsletter \u2013 Send awesome emails from WordPress",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -48,19 +48,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/9dbb0d6d-bc84-4b85-8aa5-fa2a8e6fa5e3"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1027"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/page-and-post-restriction"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/page-and-post-restriction/"
         }
     ],
     "database_specific": {
+        "slug": "page-and-post-restriction",
+        "name": "Page Restriction WordPress (WP) \u2013 Protect WP Pages/Post",
         "cwe_ids": [
             "CWE-79"
         ]

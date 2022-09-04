@@ -43,23 +43,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-1785"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/video-embed-thumbnail-generator"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/48087"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/video-embed-thumbnail-generator/"
+            "url": "http://www.securityfocus.com/bid/52180"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/extend/plugins/video-embed-thumbnail-generator/changelog/"
         },
         {
             "type": "FIX",
             "url": "http://plugins.trac.wordpress.org/changeset?old_path=%2Fvideo-embed-thumbnail-generator&old=507924&new_path=%2Fvideo-embed-thumbnail-generator&new=507924"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/73508"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-1785"
         }
     ],
     "database_specific": {
+        "slug": "video-embed-thumbnail-generator",
+        "name": "Videopack (formerly Video Embed & Thumbnail Generator)",
         "cwe_ids": [
             "CWE-20"
         ]

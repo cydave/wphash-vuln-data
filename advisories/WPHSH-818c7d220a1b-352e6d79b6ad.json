@@ -70,19 +70,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/75ed9f5f-e091-4372-a6cb-57958ad5f900"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24831"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/tabbed"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/tabbed/"
         }
     ],
     "database_specific": {
+        "slug": "tabbed",
+        "name": "Tab \u2013 Accordion, FAQ",
         "cwe_ids": [
             "CWE-862"
         ]

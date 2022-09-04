@@ -58,19 +58,53 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2824"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/simple-ads-manager"
+            "type": "WEB",
+            "url": "http://seclists.org/fulldisclosure/2015/Apr/6"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/simple-ads-manager/"
+            "url": "http://seclists.org/fulldisclosure/2015/Apr/7"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/131280/WordPress-Simple-Ads-Manager-2.5.94-2.5.96-SQL-Injection.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.itas.vn/news/ITAS-Team-found-out-multiple-critical-vulnerabilities-in-Hakin9-IT-Security-Magazine-78.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/simple-ads-manager/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/changeset/1136202/simple-ads-manager"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/73698"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/36613/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/535168/100/0/threaded"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/535165/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2824"
         }
     ],
     "database_specific": {
+        "slug": "simple-ads-manager",
+        "name": "simple-ads-manager",
         "cwe_ids": [
             "CWE-89"
         ]

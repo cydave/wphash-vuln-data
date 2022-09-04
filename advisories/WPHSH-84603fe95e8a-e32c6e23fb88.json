@@ -153,19 +153,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0377"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/learnpress"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/0d95ada6-53e3-4a80-a395-eacd7b090f26"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/learnpress/"
+            "url": "https://github.com/LearnPress/learnpress/commit/d1dc4af7ef2950f1000abc21bd9520fb3eb98faf"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bozogullarindan.com/en/2022/01/wordpress-learnpress-plugin-4.1.4.1-arbitrary-image-renaming/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0377"
         }
     ],
     "database_specific": {
+        "slug": "learnpress",
+        "name": "LearnPress \u2013 WordPress LMS Plugin",
         "cwe_ids": [
             "CWE-610"
         ]

@@ -428,23 +428,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24993"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ultimate-product-catalogue"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2650578"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ultimate-product-catalogue/"
+            "url": "https://wpscan.com/vulnerability/514416fa-d915-4953-bf1b-6dbf40b4d7e5"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/2650578"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24993"
         }
     ],
     "database_specific": {
+        "slug": "ultimate-product-catalogue",
+        "name": "Ultimate Product Catalog",
         "cwe_ids": [
             "CWE-862"
         ]

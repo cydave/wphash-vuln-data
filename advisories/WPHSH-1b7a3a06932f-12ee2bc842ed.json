@@ -56,23 +56,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25077"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/woocommerce-store-toolkit"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/woocommerce-store-toolkit/"
+            "url": "https://wpscan.com/vulnerability/53868650-aba0-4d07-89d2-a998bb0ee5f6"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2654503"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25077"
         }
     ],
     "database_specific": {
+        "slug": "woocommerce-store-toolkit",
+        "name": "Store Toolkit for WooCommerce",
         "cwe_ids": [
             "CWE-79"
         ]

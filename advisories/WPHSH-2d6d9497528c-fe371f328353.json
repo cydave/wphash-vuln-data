@@ -55,19 +55,41 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4133"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/reflex-gallery"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/reflex-gallery/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/reflex-gallery/"
+            "url": "http://packetstormsecurity.com/files/130845/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/36809/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/show/osvdb/88853"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/131515/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/7867"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/57100"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4133"
         }
     ],
     "database_specific": {
+        "slug": "reflex-gallery",
+        "name": "ReFlex Gallery \u00bb WordPress Photo Gallery",
         "cwe_ids": []
     }
 }

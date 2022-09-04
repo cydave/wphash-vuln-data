@@ -43,19 +43,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-9603"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-jobs"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-jobs/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-jobs/"
+            "url": "https://wpvulndb.com/vulnerabilities/8847"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/42172/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-9603"
         }
     ],
     "database_specific": {
+        "slug": "wp-jobs",
+        "name": "WP Jobs",
         "cwe_ids": [
             "CWE-89"
         ]

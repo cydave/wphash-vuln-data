@@ -182,19 +182,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/92db763c-ca6b-43cf-87ff-c1678cf4ade5"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25021"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/host-webfonts-local"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/host-webfonts-local/"
         }
     ],
     "database_specific": {
+        "slug": "host-webfonts-local",
+        "name": "OMGF | GDPR Compliant, Faster Google Fonts. Easy.",
         "cwe_ids": [
             "CWE-22"
         ]

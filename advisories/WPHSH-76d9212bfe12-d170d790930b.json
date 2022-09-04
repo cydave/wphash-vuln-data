@@ -260,19 +260,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2041"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/brizy"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/8edb11bc-9e8d-4a98-8538-aaff0f072109"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/brizy/"
+            "url": "https://www.fortiguard.com/zeroday/FG-VD-21-110"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2041"
         }
     ],
     "database_specific": {
+        "slug": "brizy",
+        "name": "Brizy \u2013 Page Builder",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -236,19 +236,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8809"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-symposium"
+            "type": "WEB",
+            "url": "http://www.wpsymposium.com/release-information-for-v14-11/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-symposium/"
+            "url": "http://security.szurek.pl/wp-symposium-1410-multiple-xss-and-sql-injection.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8809"
         }
     ],
     "database_specific": {
+        "slug": "wp-symposium",
+        "name": "wp-symposium",
         "cwe_ids": [
             "CWE-79"
         ]

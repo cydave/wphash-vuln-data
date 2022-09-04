@@ -40,19 +40,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/f9911a43-0f4c-403f-9fca-7822eb693317"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24538"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/current-book"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/current-book/"
         }
     ],
     "database_specific": {
+        "slug": "current-book",
+        "name": "current-book",
         "cwe_ids": [
             "CWE-79"
         ]

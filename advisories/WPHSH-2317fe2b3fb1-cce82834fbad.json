@@ -87,19 +87,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/10272"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26672"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/testimonial-rotator"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/testimonial-rotator/"
         }
     ],
     "database_specific": {
+        "slug": "testimonial-rotator",
+        "name": "testimonial-rotator",
         "cwe_ids": [
             "CWE-79"
         ]

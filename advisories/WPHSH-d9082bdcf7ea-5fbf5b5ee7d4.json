@@ -74,19 +74,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-5392"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/auth0"
+            "type": "WEB",
+            "url": "https://github.com/auth0/wp-auth0/security/advisories/GHSA-59vf-cgfw-6h6v"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/auth0/"
+            "url": "https://github.com/auth0/wp-auth0/releases"
+        },
+        {
+            "type": "WEB",
+            "url": "https://auth0.com/docs/security/bulletins/2020-03-31_wpauth0"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-5392"
         }
     ],
     "database_specific": {
+        "slug": "auth0",
+        "name": "Login by Auth0",
         "cwe_ids": [
             "CWE-79"
         ]

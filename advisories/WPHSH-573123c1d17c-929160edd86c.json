@@ -63,19 +63,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5482"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/gd-bbpress-attachments"
+            "type": "WEB",
+            "url": "https://security.dxw.com/advisories/local-file-include-vulnerability-in-gd-bbpress-attachments-allows-attackers-to-include-arbitrary-php-files/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/gd-bbpress-attachments/"
+            "url": "https://packetstormsecurity.com/files/132656/wpgdbbpress-lfi.txt"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/gd-bbpress-attachments/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8087"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5482"
         }
     ],
     "database_specific": {
+        "slug": "gd-bbpress-attachments",
+        "name": "GD bbPress Attachments",
         "cwe_ids": [
             "CWE-22"
         ]

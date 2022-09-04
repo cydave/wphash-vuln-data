@@ -40,19 +40,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4847"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/random-banner"
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/127292/WordPress-Random-Banner-1.1.2.1-Cross-Site-Scripting.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/random-banner/"
+            "url": "http://www.securityfocus.com/bid/68280"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4847"
         }
     ],
     "database_specific": {
+        "slug": "random-banner",
+        "name": "Random Banner",
         "cwe_ids": [
             "CWE-79"
         ]

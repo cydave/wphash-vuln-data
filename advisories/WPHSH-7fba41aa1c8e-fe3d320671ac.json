@@ -82,19 +82,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25069"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/download-manager"
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/changeset/2656086"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/download-manager/"
+            "url": "https://wpscan.com/vulnerability/4ff5e638-1b89-41df-b65a-f821de8934e8"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25069"
         }
     ],
     "database_specific": {
+        "slug": "download-manager",
+        "name": "Download Manager",
         "cwe_ids": [
             "CWE-89"
         ]

@@ -139,19 +139,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/dd2b3f22-5e8b-41cf-bcb8-d2e673e1d21e"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24637"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/olympus-google-fonts"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/olympus-google-fonts/"
         }
     ],
     "database_specific": {
+        "slug": "olympus-google-fonts",
+        "name": "Fonts Plugin | Google Fonts Typography",
         "cwe_ids": [
             "CWE-79"
         ]

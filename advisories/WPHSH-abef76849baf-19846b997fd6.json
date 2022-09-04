@@ -318,19 +318,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/7b4d4675-6089-4435-9b56-31496adc4767"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24824"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/custom-content-shortcode"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/custom-content-shortcode/"
         }
     ],
     "database_specific": {
+        "slug": "custom-content-shortcode",
+        "name": "Custom Content Shortcode",
         "cwe_ids": [
             "CWE-863"
         ]

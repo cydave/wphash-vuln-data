@@ -50,19 +50,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9437"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sliding-social-icons"
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/129509"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/sliding-social-icons/"
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/99510"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9437"
         }
     ],
     "database_specific": {
+        "slug": "sliding-social-icons",
+        "name": "sliding-social-icons",
         "cwe_ids": [
             "CWE-352"
         ]

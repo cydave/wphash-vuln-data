@@ -153,19 +153,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/30f2a0d5-7959-436c-9860-2535020e82d3"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24680"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-travel-engine"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-travel-engine/"
         }
     ],
     "database_specific": {
+        "slug": "wp-travel-engine",
+        "name": "WP Travel Engine \u2013 Best Travel Booking WordPress Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

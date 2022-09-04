@@ -87,19 +87,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/3a9c44c0-866e-4fdf-b53d-666db2e11720"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0186"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/final-tiles-grid-gallery-lite"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/final-tiles-grid-gallery-lite/"
         }
     ],
     "database_specific": {
+        "slug": "final-tiles-grid-gallery-lite",
+        "name": "Image Photo Gallery Final Tiles Grid",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -190,19 +190,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/b09fe120-ab9b-44f2-b50d-3b4b299d6d15"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24877"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mainwp-child"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/mainwp-child/"
         }
     ],
     "database_specific": {
+        "slug": "mainwp-child",
+        "name": "MainWP Child \u2013 Securely connects sites to the MainWP WordPress Manager Dashboard",
         "cwe_ids": [
             "CWE-89"
         ]

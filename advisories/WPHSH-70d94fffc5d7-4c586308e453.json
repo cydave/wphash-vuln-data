@@ -70,19 +70,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4846"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ml-slider"
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/127288/WordPress-ml-slider-2.5-Cross-Site-Scripting.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ml-slider/"
+            "url": "http://www.securityfocus.com/bid/68283"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4846"
         }
     ],
     "database_specific": {
+        "slug": "ml-slider",
+        "name": "Slider, Gallery, and Carousel by MetaSlider \u2013 Responsive WordPress Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

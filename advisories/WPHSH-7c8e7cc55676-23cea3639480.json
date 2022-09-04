@@ -116,19 +116,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/media-library-assistant/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11731"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/media-library-assistant"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/media-library-assistant/"
         }
     ],
     "database_specific": {
+        "slug": "media-library-assistant",
+        "name": "Media Library Assistant",
         "cwe_ids": [
             "CWE-79"
         ]

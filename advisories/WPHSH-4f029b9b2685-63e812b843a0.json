@@ -59,19 +59,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-17451"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-mailster"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-mailster/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-mailster/"
+            "url": "https://packetstormsecurity.com/files/145222/WordPress-WP-Mailster-1.5.4.0-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8973"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-17451"
         }
     ],
     "database_specific": {
+        "slug": "wp-mailster",
+        "name": "WP Mailster",
         "cwe_ids": [
             "CWE-79"
         ]

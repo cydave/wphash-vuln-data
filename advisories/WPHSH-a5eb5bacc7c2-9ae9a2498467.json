@@ -101,19 +101,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24313"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-prayer"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/c7ab736d-27c4-4ec5-9681-a3f0dda86586"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-prayer/"
+            "url": "https://bastijnouwendijk.com/cve-2021-24313/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24313"
         }
     ],
     "database_specific": {
+        "slug": "wp-prayer",
+        "name": "WP Prayer",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -113,19 +113,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/58838f51-323d-41e0-8c85-8e113dc2c587"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0765"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/loco-translate"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/loco-translate/"
         }
     ],
     "database_specific": {
+        "slug": "loco-translate",
+        "name": "Loco Translate",
         "cwe_ids": [
             "CWE-79"
         ]

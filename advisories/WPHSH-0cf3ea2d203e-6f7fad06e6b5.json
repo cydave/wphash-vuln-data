@@ -127,19 +127,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3258"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/digg-digg"
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/60046"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/digg-digg/"
+            "url": "http://wordpress.org/plugins/digg-digg/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/53120"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/84418"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3258"
         }
     ],
     "database_specific": {
+        "slug": "digg-digg",
+        "name": "digg-digg",
         "cwe_ids": [
             "CWE-352"
         ]

@@ -41,23 +41,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11366"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/loginizer"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/9088"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/loginizer/"
+            "url": "https://wordpress.org/plugins/loginizer/#developers"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/1878502/loginizer"
+        },
+        {
+            "type": "WEB",
+            "url": "https://blog.dewhurstsecurity.com/2018/05/22/loginizer-wordpress-plugin-xss-vulnerability.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11366"
         }
     ],
     "database_specific": {
+        "slug": "loginizer",
+        "name": "Loginizer",
         "cwe_ids": [
             "CWE-79"
         ]

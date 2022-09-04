@@ -42,19 +42,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://www.barrykooij.com/several-security-updates-released/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9362"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/post-connector"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/post-connector/"
         }
     ],
     "database_specific": {
+        "slug": "post-connector",
+        "name": "Post Connector",
         "cwe_ids": [
             "CWE-79"
         ]

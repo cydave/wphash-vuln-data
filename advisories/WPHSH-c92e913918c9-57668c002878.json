@@ -77,19 +77,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/42173/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-9429"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/event-list"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/event-list/"
         }
     ],
     "database_specific": {
+        "slug": "event-list",
+        "name": "event-list",
         "cwe_ids": [
             "CWE-89"
         ]

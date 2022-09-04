@@ -35,19 +35,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3844"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/tinymce-colorpicker"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/58095"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/tinymce-colorpicker/"
+            "url": "http://wordpress.org/plugins/tinymce-colorpicker/changelog"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3844"
         }
     ],
     "database_specific": {
+        "slug": "tinymce-colorpicker",
+        "name": "TinyMCE Color Picker",
         "cwe_ids": [
             "CWE-264"
         ]

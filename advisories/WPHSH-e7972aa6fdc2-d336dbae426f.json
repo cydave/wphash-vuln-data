@@ -92,19 +92,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29424"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/image-hover-effects-ultimate"
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/image-hover-effects-ultimate/wordpress-image-hover-effects-ultimate-plugin-9-7-1-authenticated-reflected-cross-site-scripting-xss-vulnerability"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/image-hover-effects-ultimate/"
+            "url": "https://wordpress.org/plugins/image-hover-effects-ultimate/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29424"
         }
     ],
     "database_specific": {
+        "slug": "image-hover-effects-ultimate",
+        "name": "Image Hover Effects Ultimate (Image Gallery, Effects, Lightbox, Comparison or Magnifier)",
         "cwe_ids": [
             "CWE-79"
         ]

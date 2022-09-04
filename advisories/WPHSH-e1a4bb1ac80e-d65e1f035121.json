@@ -70,19 +70,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24892"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/advanced-forms"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/364b0843-a990-4204-848a-60c928cc5bc0"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/advanced-forms/"
+            "url": "https://github.com/advancedforms/advanced-forms/commit/2ce3ab6985c3a909eefb01c562995bc6a994d3a2"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24892"
         }
     ],
     "database_specific": {
+        "slug": "advanced-forms",
+        "name": "Advanced Forms for ACF",
         "cwe_ids": [
             "CWE-639"
         ]

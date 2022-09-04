@@ -117,19 +117,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25011"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/gmap-embed"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/6639da0d-6d29-46c1-a3cc-5e5626305833"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/gmap-embed/"
+            "url": "https://plugins.trac.wordpress.org/changeset/2641450"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25011"
         }
     ],
     "database_specific": {
+        "slug": "gmap-embed",
+        "name": "Maps Plugin using Google Maps for WordPress \u2013 WP Google Map",
         "cwe_ids": [
             "CWE-862"
         ]

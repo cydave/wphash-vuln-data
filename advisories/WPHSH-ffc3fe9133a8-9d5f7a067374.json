@@ -51,19 +51,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/05d3af69-20b4-499a-8322-2b53674d6a58"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24893"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/stars-rating"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/stars-rating/"
         }
     ],
     "database_specific": {
+        "slug": "stars-rating",
+        "name": "Stars Rating",
         "cwe_ids": [
             "CWE-20"
         ]

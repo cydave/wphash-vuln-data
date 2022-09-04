@@ -161,19 +161,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/dde3c119-dad9-4205-a931-d49bbf3b6b87"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24937"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-asset-clean-up"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-asset-clean-up/"
         }
     ],
     "database_specific": {
+        "slug": "wp-asset-clean-up",
+        "name": "Asset CleanUp: Page Speed Booster",
         "cwe_ids": [
             "CWE-79"
         ]

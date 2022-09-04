@@ -75,19 +75,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5327"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mingle-forum"
+            "type": "WEB",
+            "url": "http://plugins.trac.wordpress.org/changeset?reponame=&new=492859@mingle-forum&old=487353@mingle-forum"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/mingle-forum/"
+            "url": "http://packetstormsecurity.org/files/view/108915/wpmingleforum-sqlxss.txt"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/extend/plugins/mingle-forum/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/72641"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5327"
         }
     ],
     "database_specific": {
+        "slug": "mingle-forum",
+        "name": "mingle-forum",
         "cwe_ids": [
             "CWE-89"
         ]

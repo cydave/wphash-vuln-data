@@ -268,19 +268,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25114"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/paid-memberships-pro"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/6c25a5f0-a137-4ea5-9422-8ae393d7b76b"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/paid-memberships-pro/"
+            "url": "https://www.paidmembershipspro.com/pmpro-update-2-6-7-security-release/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25114"
         }
     ],
     "database_specific": {
+        "slug": "paid-memberships-pro",
+        "name": "Paid Memberships Pro \u2013 Restrict Member Access to Content, Courses, Communities \u2013 Free or Paid Subscriptions",
         "cwe_ids": [
             "CWE-89"
         ]

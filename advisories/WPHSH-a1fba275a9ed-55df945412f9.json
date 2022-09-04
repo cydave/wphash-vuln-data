@@ -173,19 +173,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-13643"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/siteorigin-panels"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2020/05/vulnerabilities-patched-in-page-builder-by-siteorigin-affects-over-1-million-sites/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/siteorigin-panels/"
+            "url": "https://wordpress.org/plugins/siteorigin-panels/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-13643"
         }
     ],
     "database_specific": {
+        "slug": "siteorigin-panels",
+        "name": "Page Builder by SiteOrigin",
         "cwe_ids": [
             "CWE-352"
         ]

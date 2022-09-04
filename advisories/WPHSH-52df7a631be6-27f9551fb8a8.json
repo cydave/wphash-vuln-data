@@ -204,19 +204,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35748"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/fv-wordpress-flowplayer"
+            "type": "WEB",
+            "url": "https://github.com/arkango/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/fv-wordpress-flowplayer/"
+            "url": "https://docs.google.com/document/d/1xUTEmWqfy3u3KBSTjxCAGe3gIF15awFmzgCXrKfVl2U/edit?usp=sharing"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35748"
         }
     ],
     "database_specific": {
+        "slug": "fv-wordpress-flowplayer",
+        "name": "FV Flowplayer Video Player",
         "cwe_ids": [
             "CWE-79"
         ]

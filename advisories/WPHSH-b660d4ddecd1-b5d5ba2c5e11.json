@@ -223,19 +223,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35951"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/quiz-master-next"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2020/08/critical-vulnerabilities-patched-in-quiz-and-survey-master-plugin/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/quiz-master-next/"
+            "url": "https://wpscan.com/vulnerability/10348"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35951"
         }
     ],
     "database_specific": {
+        "slug": "quiz-master-next",
+        "name": "Quiz And Survey Master \u2013 Best Quiz, Exam and Survey Plugin for WordPress",
         "cwe_ids": [
             "CWE-306"
         ]

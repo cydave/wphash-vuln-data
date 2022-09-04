@@ -115,19 +115,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://www.vulnerability-lab.com/get_content.php?id=2158"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20368"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/master-slider"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/master-slider/"
         }
     ],
     "database_specific": {
+        "slug": "master-slider",
+        "name": "Master Slider \u2013 Responsive Touch Slider",
         "cwe_ids": [
             "CWE-79"
         ]

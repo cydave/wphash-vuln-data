@@ -59,22 +59,28 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12239"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-booking-system"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-booking-system/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-booking-system/"
+            "url": "http://dumpco.re/bugs/wp-plugin-wp-booking-system-sqli"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/9284"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12239"
         }
     ],
     "database_specific": {
+        "slug": "wp-booking-system",
+        "name": "WP Booking System \u2013 Booking Calendar",
         "cwe_ids": [
-            "CWE-89",
-            "CWE-352"
+            "CWE-352",
+            "CWE-89"
         ]
     }
 }

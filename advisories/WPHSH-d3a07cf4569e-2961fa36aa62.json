@@ -126,19 +126,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14788"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/newsletters-lite"
+            "type": "WEB",
+            "url": "https://www.pluginvulnerabilities.com/2019/07/02/there-is-also-an-authenticated-remote-code-execution-rce-vulnerability-in-newsletters/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/newsletters-lite/"
+            "url": "https://wordpress.org/plugins/newsletters-lite/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/9447"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14788"
         }
     ],
     "database_specific": {
+        "slug": "newsletters-lite",
+        "name": "Newsletters",
         "cwe_ids": [
             "CWE-22"
         ]

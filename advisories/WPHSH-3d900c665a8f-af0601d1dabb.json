@@ -146,19 +146,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/99f4fb32-e312-4059-adaf-f4cbaa92d4fa"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24746"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sassy-social-share"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/sassy-social-share/"
         }
     ],
     "database_specific": {
+        "slug": "sassy-social-share",
+        "name": "Social Sharing Plugin \u2013 Sassy Social Share",
         "cwe_ids": [
             "CWE-79"
         ]

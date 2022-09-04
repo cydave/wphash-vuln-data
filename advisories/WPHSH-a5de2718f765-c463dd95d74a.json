@@ -290,23 +290,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24973"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/site-reviews"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2629821"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/site-reviews/"
+            "url": "https://wpscan.com/vulnerability/0118f245-0e6f-44c1-9bdb-5b3a5d2403d6"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/2629821"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24973"
         }
     ],
     "database_specific": {
+        "slug": "site-reviews",
+        "name": "Site Reviews",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -94,19 +94,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10310"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/uk-cookie-consent"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/uk-cookie-consent/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/uk-cookie-consent/"
+            "url": "https://gist.github.com/B0UG/9732614abccaf2893c352d14c822d07b"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/147333/WordPress-UK-Cookie-Consent-2.3.9-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/44503/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10310"
         }
     ],
     "database_specific": {
+        "slug": "uk-cookie-consent",
+        "name": "Termly | GDPR/CCPA Cookie Consent Banner",
         "cwe_ids": [
             "CWE-79"
         ]

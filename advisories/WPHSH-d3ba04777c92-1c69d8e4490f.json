@@ -57,19 +57,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1396"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/donorbox-donation-form"
+            "type": "WEB",
+            "url": "https://packetstormsecurity.com/files/166531/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/donorbox-donation-form/"
+            "url": "https://wpscan.com/vulnerability/721ddc3e-ab24-4834-bd47-4eb6700439a9"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1396"
         }
     ],
     "database_specific": {
+        "slug": "donorbox-donation-form",
+        "name": "Donorbox \u2013 Free Recurring Donation Form",
         "cwe_ids": [
             "CWE-79"
         ]

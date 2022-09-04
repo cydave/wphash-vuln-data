@@ -98,23 +98,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3262"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/download-monitor"
+            "type": "FIX",
+            "url": "http://plugins.trac.wordpress.org/changeset/723187/download-monitor"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/download-monitor/"
+            "url": "http://www.securityfocus.com/bid/61407"
         },
         {
-            "type": "FIX",
-            "url": "http://plugins.trac.wordpress.org/changeset/723187/download-monitor"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/53116"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/85921"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3262"
         }
     ],
     "database_specific": {
+        "slug": "download-monitor",
+        "name": "Download Monitor",
         "cwe_ids": [
             "CWE-79"
         ]

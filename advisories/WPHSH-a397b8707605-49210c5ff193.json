@@ -36,19 +36,37 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3577"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wordpress-member-private-conversation"
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/53790"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wordpress-member-private-conversation/"
+            "url": "http://www.opensyscom.fr/Actualites/wordpress-plugins-nmedia-wordpress-member-conversation-shell-upload-vulnerability.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/49375"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/extend/plugins/wordpress-member-private-conversation/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.org/files/113287/WordPress-Nmedia-WP-Member-Conversation-1.35.0-Shell-Upload.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/76076"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3577"
         }
     ],
     "database_specific": {
+        "slug": "wordpress-member-private-conversation",
+        "name": "Nmedia WordPress Member Conversation",
         "cwe_ids": [
             "CWE-264"
         ]

@@ -66,19 +66,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8658"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/htaccess"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/htaccess/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/htaccess/"
+            "url": "https://github.com/V1n1v131r4/Exploiting-WP-Htaccess-by-BestWebSoft-Plugin/blob/master/README.md"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/10060"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8658"
         }
     ],
     "database_specific": {
+        "slug": "htaccess",
+        "name": "Htaccess by BestWebSoft \u2013 WordPress Website Access Control Plugin",
         "cwe_ids": [
             "CWE-352"
         ]

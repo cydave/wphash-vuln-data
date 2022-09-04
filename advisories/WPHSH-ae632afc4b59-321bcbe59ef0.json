@@ -91,19 +91,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/b5295bf9-8cf6-416e-b215-074742a5fc63"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24684"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/pdf-light-viewer"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/pdf-light-viewer/"
         }
     ],
     "database_specific": {
+        "slug": "pdf-light-viewer",
+        "name": "WordPress PDF Light Viewer Plugin",
         "cwe_ids": [
             "CWE-78"
         ]

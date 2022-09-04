@@ -58,23 +58,41 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39352"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/catch-themes-demo-import"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2617555/catch-themes-demo-import/trunk/inc/CatchThemesDemoImport.php"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/catch-themes-demo-import/"
+            "url": "https://github.com/BigTiger2020/word-press/blob/main/Catch%20Themes%20Demo%20Import.md"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/2617555/catch-themes-demo-import/trunk/inc/CatchThemesDemoImport.php"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2021-39352"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/165207/WordPress-Catch-Themes-Demo-Import-1.6.1-Shell-Upload.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/165463/WordPress-Catch-Themes-Demo-Import-Shell-Upload.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/50580"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/Hacker5preme/Exploits/tree/main/Wordpress/CVE-2021-39352"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39352"
         }
     ],
     "database_specific": {
+        "slug": "catch-themes-demo-import",
+        "name": "Catch Themes Demo Import",
         "cwe_ids": [
             "CWE-434"
         ]

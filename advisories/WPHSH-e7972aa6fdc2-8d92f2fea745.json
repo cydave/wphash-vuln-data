@@ -90,19 +90,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36888"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/image-hover-effects-ultimate"
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/image-hover-effects-ultimate/wordpress-image-hover-effects-ultimate-plugin-9-6-1-unauthenticated-arbitrary-options-update-leading-to-full-website-compromise"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/image-hover-effects-ultimate/"
+            "url": "https://wordpress.org/plugins/image-hover-effects-ultimate/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36888"
         }
     ],
     "database_specific": {
+        "slug": "image-hover-effects-ultimate",
+        "name": "Image Hover Effects Ultimate (Image Gallery, Effects, Lightbox, Comparison or Magnifier)",
         "cwe_ids": [
             "CWE-862"
         ]

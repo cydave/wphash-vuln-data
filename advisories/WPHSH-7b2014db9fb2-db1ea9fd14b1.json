@@ -39,19 +39,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4127"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/church-admin"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/church-admin/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/church-admin/"
+            "url": "https://www.exploit-db.com/exploits/37112/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.osvdb.org/121304"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/132034/WordPress-Church-Admin-0.800-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/74782"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4127"
         }
     ],
     "database_specific": {
+        "slug": "church-admin",
+        "name": "Church Admin",
         "cwe_ids": [
             "CWE-79"
         ]

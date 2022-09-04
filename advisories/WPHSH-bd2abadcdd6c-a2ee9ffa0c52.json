@@ -53,19 +53,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24276"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contact-form-by-supsystic"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/1301123c-5e63-432a-ab90-3221ca532d9c"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/contact-form-by-supsystic/"
+            "url": "http://packetstormsecurity.com/files/164308/WordPress-Contact-Form-1.7.14-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24276"
         }
     ],
     "database_specific": {
+        "slug": "contact-form-by-supsystic",
+        "name": "Contact Form by Supsystic",
         "cwe_ids": [
             "CWE-79"
         ]

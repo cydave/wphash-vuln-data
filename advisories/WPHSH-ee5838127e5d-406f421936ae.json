@@ -48,23 +48,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5180"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/hdw-player-video-player-video-gallery"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=900030%40hdw-player-video-player-video-gallery&old=798976%40hdw-player-video-player-video-gallery&sfp_email=&sfph_mail="
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/hdw-player-video-player-video-gallery/"
+            "url": "http://codevigilant.com/disclosure/wp-plugin-hdw-player-video-player-video-gallery-a1-injection"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=900030%40hdw-player-video-player-video-gallery&old=798976%40hdw-player-video-player-video-gallery&sfp_email=&sfph_mail="
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5180"
         }
     ],
     "database_specific": {
+        "slug": "hdw-player-video-player-video-gallery",
+        "name": "HDW Player Plugin (Video Player & Video Gallery)",
         "cwe_ids": [
             "CWE-89"
         ]

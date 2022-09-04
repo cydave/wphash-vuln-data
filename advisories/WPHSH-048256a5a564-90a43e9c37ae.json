@@ -272,19 +272,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19370"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wordpress-seo"
+            "type": "WEB",
+            "url": "https://www.youtube.com/watch?v=nL141dcDGCY"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wordpress-seo/"
+            "url": "https://wordpress.org/plugins/wordpress-seo/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/Yoast/wordpress-seo/pull/11502/commits/3bfa70a143f5ea3ee1934f3a1703bb5caf139ffa"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19370"
         }
     ],
     "database_specific": {
+        "slug": "wordpress-seo",
+        "name": "Yoast SEO",
         "cwe_ids": [
             "CWE-362"
         ]

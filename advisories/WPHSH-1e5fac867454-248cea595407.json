@@ -288,19 +288,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/651dc567-943e-4f57-8ec4-6eee466785f5"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24794"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/connections"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/connections/"
         }
     ],
     "database_specific": {
+        "slug": "connections",
+        "name": "Connections Business Directory",
         "cwe_ids": [
             "CWE-79"
         ]

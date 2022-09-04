@@ -43,19 +43,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29453"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/api-key-for-google-maps"
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/api-key-for-google-maps/wordpress-api-key-for-google-maps-plugin-1-2-1-csrf-vulnerability-leading-to-google-maps-api-key-update"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/api-key-for-google-maps/"
+            "url": "https://wordpress.org/plugins/api-key-for-google-maps/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29453"
         }
     ],
     "database_specific": {
+        "slug": "api-key-for-google-maps",
+        "name": "API KEY for Google Maps",
         "cwe_ids": [
             "CWE-352"
         ]

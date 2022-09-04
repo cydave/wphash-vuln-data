@@ -102,19 +102,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/b3b523b9-6c92-4091-837a-d34e3174eb19"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0345"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/bnfw"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/bnfw/"
         }
     ],
     "database_specific": {
+        "slug": "bnfw",
+        "name": "Customize WordPress Emails and Alerts \u2013 Better Notifications for WP",
         "cwe_ids": [
             "CWE-862"
         ]

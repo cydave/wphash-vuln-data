@@ -130,23 +130,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24873"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/tutor"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2615802/tutor"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/tutor/"
+            "url": "https://wpscan.com/vulnerability/19980b57-1954-4a29-b2c2-43eadf758ed3"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/2615802/tutor"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24873"
         }
     ],
     "database_specific": {
+        "slug": "tutor",
+        "name": "Tutor LMS \u2013 eLearning and online course solution",
         "cwe_ids": [
             "CWE-79"
         ]

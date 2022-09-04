@@ -195,19 +195,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/d453b547-41a8-4a6b-8349-8686b7054805"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24577"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/coming-soon-page"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/coming-soon-page/"
         }
     ],
     "database_specific": {
+        "slug": "coming-soon-page",
+        "name": "Coming soon and Maintenance mode",
         "cwe_ids": [
             "CWE-79"
         ]

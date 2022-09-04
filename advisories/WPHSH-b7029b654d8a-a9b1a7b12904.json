@@ -221,19 +221,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-22277"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/import-users-from-csv-with-meta"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/import-users-from-csv-with-meta/#:~:text=Install%20Import%20and%20export%20users%20and%20customers%20automatically,is%20uploaded%20and%20extracted%2C%20click%20Activate%20Plugin%20."
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/import-users-from-csv-with-meta/"
+            "url": "https://cert.ikiu.ac.ir/public-files/news/document/CVE-99/CVE-2020-22277.pdf"
+        },
+        {
+            "type": "WEB",
+            "url": "https://mega.nz/file/bSQnlS4R#UY_ozLkvXgXFKzqtTRKeB9RXGi6aEQF3X6eKXdSiBt0"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-22277"
         }
     ],
     "database_specific": {
+        "slug": "import-users-from-csv-with-meta",
+        "name": "Import and export users and customers",
         "cwe_ids": [
             "CWE-1236"
         ]

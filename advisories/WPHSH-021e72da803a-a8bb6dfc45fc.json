@@ -44,19 +44,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-20067"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-attachment-export"
+            "type": "WEB",
+            "url": "https://seclists.org/fulldisclosure/2015/Jul/73"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-attachment-export/"
+            "url": "https://github.com/espreto/wpsploit/blob/master/modules/auxiliary/scanner/http/wp_attachment_export_file_download.rb"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/d1a9ed65-baf3-4c85-b077-1f37d8c7793a"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-20067"
         }
     ],
     "database_specific": {
+        "slug": "wp-attachment-export",
+        "name": "WP Attachment Export",
         "cwe_ids": [
             "CWE-862"
         ]

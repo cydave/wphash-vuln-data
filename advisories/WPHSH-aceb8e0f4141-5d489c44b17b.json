@@ -68,19 +68,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/69b75983-1010-453e-bf67-27b4a2a327a8"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1301"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-contact-slider"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-contact-slider/"
         }
     ],
     "database_specific": {
+        "slug": "wp-contact-slider",
+        "name": "WP Contact Slider",
         "cwe_ids": [
             "CWE-79"
         ]

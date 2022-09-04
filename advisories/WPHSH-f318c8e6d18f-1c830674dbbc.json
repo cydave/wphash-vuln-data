@@ -102,19 +102,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/fd84dc08-0079-4fcf-81c3-a61d652e3269"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0814"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ubigeo-peru"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/ubigeo-peru/"
         }
     ],
     "database_specific": {
+        "slug": "ubigeo-peru",
+        "name": "Ubigeo de Per\u00fa para Woocommerce y WordPress",
         "cwe_ids": [
             "CWE-89"
         ]

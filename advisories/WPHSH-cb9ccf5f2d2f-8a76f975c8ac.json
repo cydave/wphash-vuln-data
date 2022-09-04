@@ -171,23 +171,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0193"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/complianz-gdpr"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/complianz-gdpr/"
+            "url": "https://wpscan.com/vulnerability/30d1d328-9f19-4c4c-b90a-04937d617864"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2654225"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0193"
         }
     ],
     "database_specific": {
+        "slug": "complianz-gdpr",
+        "name": "Complianz \u2013 GDPR/CCPA Cookie Consent",
         "cwe_ids": [
             "CWE-79"
         ]

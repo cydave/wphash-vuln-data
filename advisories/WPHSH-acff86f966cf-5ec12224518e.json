@@ -66,23 +66,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1008"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/one-click-demo-import"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/one-click-demo-import/"
+            "url": "https://wpscan.com/vulnerability/0c2e2b4d-49eb-4fd9-b9f0-3feae80c1082"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2695999"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1008"
         }
     ],
     "database_specific": {
+        "slug": "one-click-demo-import",
+        "name": "One Click Demo Import",
         "cwe_ids": [
             "CWE-434"
         ]

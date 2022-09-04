@@ -343,19 +343,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-15020"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/elementor"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/elementor/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/elementor/"
+            "url": "http://hidden-one.co.in/2020/07/07/cve-2020-1020-stored-xss-on-elementor-wordpress-plugin/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-15020"
         }
     ],
     "database_specific": {
+        "slug": "elementor",
+        "name": "Elementor Website Builder",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -92,19 +92,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9302"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/simple-fields"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/simple-fields/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/simple-fields/"
+            "url": "https://wpvulndb.com/vulnerabilities/8342"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9302"
         }
     ],
     "database_specific": {
+        "slug": "simple-fields",
+        "name": "simple-fields",
         "cwe_ids": [
             "CWE-79"
         ]

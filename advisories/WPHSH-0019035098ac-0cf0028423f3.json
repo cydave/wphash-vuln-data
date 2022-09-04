@@ -77,19 +77,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-0578"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/pixelyoursite"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/pixelyoursite/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/pixelyoursite/"
+            "url": "http://jvn.jp/en/jp/JVN61081552/index.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-0578"
         }
     ],
     "database_specific": {
+        "slug": "pixelyoursite",
+        "name": "PixelYourSite \u2013 Your smart PIXEL (TAG) Manager",
         "cwe_ids": [
             "CWE-79"
         ]

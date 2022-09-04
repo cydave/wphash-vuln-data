@@ -78,19 +78,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://github.com/kevins1022/cve/blob/master/wordpress-event-list.md"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-12068"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/event-list"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/event-list/"
         }
     ],
     "database_specific": {
+        "slug": "event-list",
+        "name": "event-list",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -196,19 +196,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9646"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contact-form-to-email"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/contact-form-to-email/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/contact-form-to-email/"
+            "url": "https://security-consulting.icu/blog/2019/02/wordpress-contact-form-email-xss-csrf/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://lists.openwall.net/full-disclosure/2019/02/05/7"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9646"
         }
     ],
     "database_specific": {
+        "slug": "contact-form-to-email",
+        "name": "Contact Form Email",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -109,19 +109,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9405"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-piwik"
+            "type": "WEB",
+            "url": "https://github.com/braekling/WP-Matomo/commit/5110bfdb437a9f19b185ba8af33776fcb5e19940"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-piwik/"
+            "url": "https://wpvulndb.com/vulnerabilities/8216"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-piwik/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9405"
         }
     ],
     "database_specific": {
+        "slug": "wp-piwik",
+        "name": "WP-Matomo Integration (WP-Piwik)",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -77,19 +77,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/e9dd62fc-bb79-4a6b-b99c-60e40f010d7a"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0994"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/hummingbird-performance"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/hummingbird-performance/"
         }
     ],
     "database_specific": {
+        "slug": "hummingbird-performance",
+        "name": "Hummingbird \u2013 Optimize Speed, Enable Cache, Minify CSS & Defer Critical JS",
         "cwe_ids": [
             "CWE-79"
         ]

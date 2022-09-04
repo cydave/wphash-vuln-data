@@ -159,19 +159,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/300ba418-63ed-4c03-9031-263742ed522e"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24687"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/modern-events-calendar-lite"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/modern-events-calendar-lite/"
         }
     ],
     "database_specific": {
+        "slug": "modern-events-calendar-lite",
+        "name": "modern-events-calendar-lite",
         "cwe_ids": [
             "CWE-79"
         ]

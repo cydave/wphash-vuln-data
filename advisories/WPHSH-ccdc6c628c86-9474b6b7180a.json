@@ -41,19 +41,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/shortcode-factory/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9321"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/shortcode-factory"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/shortcode-factory/"
         }
     ],
     "database_specific": {
+        "slug": "shortcode-factory",
+        "name": "shortcode-factory",
         "cwe_ids": [
             "CWE-79"
         ]

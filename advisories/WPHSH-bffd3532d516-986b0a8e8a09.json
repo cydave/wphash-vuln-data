@@ -56,19 +56,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/caf36ca5-aafd-48bd-a1e5-30f3973d8eb8"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24530"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/alojapro-widget"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/alojapro-widget/"
         }
     ],
     "database_specific": {
+        "slug": "alojapro-widget",
+        "name": "Alojapro Widget",
         "cwe_ids": [
             "CWE-79"
         ]

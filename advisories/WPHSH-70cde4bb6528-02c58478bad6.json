@@ -72,17 +72,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2717"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/joomsport-sports-league-results-management"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/joomsport-sports-league-results-management/"
         }
     ],
     "database_specific": {
+        "slug": "joomsport-sports-league-results-management",
+        "name": "JoomSport \u2013 for Sports: Team & League, Football, Hockey & more",
         "cwe_ids": []
     }
 }

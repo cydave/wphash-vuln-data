@@ -43,19 +43,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9424"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/multicons"
+            "type": "WEB",
+            "url": "http://cinu.pl/research/wp-plugins/mail_aea47a98ad3088dbb33528ded8e1b124.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/multicons/"
+            "url": "https://wpvulndb.com/vulnerabilities/8330"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/multicons/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9424"
         }
     ],
     "database_specific": {
+        "slug": "multicons",
+        "name": "Multicons [ Multiple Favicons ]",
         "cwe_ids": [
             "CWE-352"
         ]

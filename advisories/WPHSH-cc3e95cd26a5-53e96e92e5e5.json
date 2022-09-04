@@ -165,23 +165,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0384"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/video-conferencing-with-zoom-api"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/video-conferencing-with-zoom-api/"
+            "url": "https://wpscan.com/vulnerability/91c44c45-994b-4aed-b9f9-7db45924eeb4"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2671219"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0384"
         }
     ],
     "database_specific": {
+        "slug": "video-conferencing-with-zoom-api",
+        "name": "Video Conferencing with Zoom",
         "cwe_ids": []
     }
 }

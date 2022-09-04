@@ -69,19 +69,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/user-access-manager/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-5328"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/user-access-manager"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/user-access-manager/"
         }
     ],
     "database_specific": {
+        "slug": "user-access-manager",
+        "name": "User Access Manager",
         "cwe_ids": [
             "CWE-352"
         ]

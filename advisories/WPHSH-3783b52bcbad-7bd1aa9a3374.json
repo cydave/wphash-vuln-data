@@ -134,19 +134,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/52c8755c-46b9-4383-8c8d-8816f03456b0"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24506"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/slider-hero"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/slider-hero/"
         }
     ],
     "database_specific": {
+        "slug": "slider-hero",
+        "name": "Slider Hero with Animation, Video Background",
         "cwe_ids": [
             "CWE-89"
         ]

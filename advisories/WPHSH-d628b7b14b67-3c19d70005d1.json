@@ -63,19 +63,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18597"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/jtrt-responsive-tables"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8953"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/jtrt-responsive-tables/"
+            "url": "http://lenonleite.com.br/en/2017/09/11/jtrt-responsive-tables-wordpress-plugin-sql-injection/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/jtrt-responsive-tables/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18597"
         }
     ],
     "database_specific": {
+        "slug": "jtrt-responsive-tables",
+        "name": "JTRT Responsive Tables",
         "cwe_ids": [
             "CWE-89"
         ]

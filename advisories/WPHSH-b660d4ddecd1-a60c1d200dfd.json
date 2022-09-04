@@ -165,22 +165,20 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://security.dxw.com/advisories/csrfstored-xss-in-quiz-and-survey-master-formerly-quiz-master-next-allows-unauthenticated-attackers-to-do-almost-anything-an-admin-can/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-11085"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/quiz-master-next"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/quiz-master-next/"
         }
     ],
     "database_specific": {
+        "slug": "quiz-master-next",
+        "name": "Quiz And Survey Master \u2013 Best Quiz, Exam and Survey Plugin for WordPress",
         "cwe_ids": [
-            "CWE-79",
-            "CWE-352"
+            "CWE-352",
+            "CWE-79"
         ]
     }
 }

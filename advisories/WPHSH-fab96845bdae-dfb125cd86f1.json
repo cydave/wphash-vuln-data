@@ -50,19 +50,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9426"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/manual-image-crop"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/manual-image-crop/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/manual-image-crop/"
+            "url": "http://cinu.pl/research/wp-plugins/mail_7c87194ce1dcf0642135d17a71ed91cd.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8297"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9426"
         }
     ],
     "database_specific": {
+        "slug": "manual-image-crop",
+        "name": "Manual Image Crop",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -149,19 +149,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7747"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/caldera-forms"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/caldera-forms/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/caldera-forms/"
+            "url": "http://packetstormsecurity.com/files/147257/WordPress-Caldera-Forms-1.5.9.1-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/44489/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://calderaforms.com/updates/caldera-forms-1-6-0/#security"
+        },
+        {
+            "type": "WEB",
+            "url": "https://calderaforms.com/2018/03/caldera-forms-1-6-is-here/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7747"
         }
     ],
     "database_specific": {
+        "slug": "caldera-forms",
+        "name": "caldera-forms",
         "cwe_ids": [
             "CWE-79"
         ]

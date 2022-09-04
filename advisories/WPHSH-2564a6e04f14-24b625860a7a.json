@@ -43,19 +43,45 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4562"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/redirection"
+            "type": "WEB",
+            "url": "http://dotxed.net/2011/websicherheit/lazy-xss-wenn-statistiken-und-loggs-zur-gefahr-werden.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/redirection/"
+            "url": "http://secunia.com/advisories/46310"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/76092"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.org/files/view/105573/wpredirection229-xss.txt"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/extend/plugins/redirection/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://plugins.trac.wordpress.org/changeset?reponame=&new=447262%40redirection&old=421721%40redirection"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/49985"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/70373"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4562"
         }
     ],
     "database_specific": {
+        "slug": "redirection",
+        "name": "Redirection",
         "cwe_ids": [
             "CWE-79"
         ]

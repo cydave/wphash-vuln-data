@@ -184,23 +184,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24985"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/yikes-inc-easy-mailchimp-extender"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/yikes-inc-easy-mailchimp-extender/"
+            "url": "https://wpscan.com/vulnerability/50be0ebf-fe6d-41e5-8af9-0d74f33aeb57"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2646017"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24985"
         }
     ],
     "database_specific": {
+        "slug": "yikes-inc-easy-mailchimp-extender",
+        "name": "Easy Forms for Mailchimp",
         "cwe_ids": [
             "CWE-79"
         ]

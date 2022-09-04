@@ -113,19 +113,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9365"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ithemes-exchange"
+            "type": "WEB",
+            "url": "https://blog.sucuri.net/2015/04/security-advisory-xss-vulnerability-affecting-multiple-wordpress-plugins.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ithemes-exchange/"
+            "url": "https://ithemes.com/coordinated-wordpress-plugin-security-update/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9365"
         }
     ],
     "database_specific": {
+        "slug": "ithemes-exchange",
+        "name": "ithemes-exchange",
         "cwe_ids": [
             "CWE-79"
         ]

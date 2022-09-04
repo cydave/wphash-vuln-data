@@ -124,19 +124,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24382"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/smart-slider-3"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/7b32a282-e51f-4ee5-b59f-5ba10e62a54d"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/smart-slider-3/"
+            "url": "https://smartslider.helpscoutdocs.com/article/1746-changelog"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24382"
         }
     ],
     "database_specific": {
+        "slug": "smart-slider-3",
+        "name": "Smart Slider 3",
         "cwe_ids": [
             "CWE-79"
         ]

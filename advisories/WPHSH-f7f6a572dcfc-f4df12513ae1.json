@@ -116,19 +116,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://security.dxw.com/advisories/csrf-in-youtube-plugin/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1000224"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/youtube-embed-plus"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/youtube-embed-plus/"
         }
     ],
     "database_specific": {
+        "slug": "youtube-embed-plus",
+        "name": "Embed Plus Plugin for YouTube, with YouTube Gallery, Channel, Playlist, Live Stream, Facade",
         "cwe_ids": [
             "CWE-352"
         ]

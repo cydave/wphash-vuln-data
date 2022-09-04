@@ -52,19 +52,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5337"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wordpress-mobile-pack"
+            "type": "WEB",
+            "url": "http://wordpress.org/plugins/wordpress-mobile-pack/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wordpress-mobile-pack/"
+            "url": "https://security.dxw.com/advisories/information-disclosure-vulnerability-in-wordpress-mobile-pack-allows-anybody-to-read-password-protected-posts/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/60584"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/69292"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5337"
         }
     ],
     "database_specific": {
+        "slug": "wordpress-mobile-pack",
+        "name": "WordPress Mobile Pack \u2013 Mobile Plugin for Progressive Web Apps & Hybrid Mobile Apps",
         "cwe_ids": [
             "CWE-264"
         ]

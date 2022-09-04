@@ -86,17 +86,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2887"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-server-stats"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-server-stats/"
         }
     ],
     "database_specific": {
+        "slug": "wp-server-stats",
+        "name": "WP Server Health Stats",
         "cwe_ids": []
     }
 }

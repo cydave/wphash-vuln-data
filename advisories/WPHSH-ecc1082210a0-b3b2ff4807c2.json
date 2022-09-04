@@ -43,19 +43,37 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7527"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cool-video-gallery"
+            "type": "WEB",
+            "url": "http://www.openwall.com/lists/oss-security/2015/12/02/9"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/cool-video-gallery/"
+            "url": "https://wpvulndb.com/vulnerabilities/8348"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/support/topic/command-injection-vulnerability-in-v19"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.vapidlabs.com/advisory.php?v=158"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/134626/WordPress-Cool-Video-Gallery-1.9-Command-Injection.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/537051/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7527"
         }
     ],
     "database_specific": {
+        "slug": "cool-video-gallery",
+        "name": "cool-video-gallery",
         "cwe_ids": [
             "CWE-20"
         ]

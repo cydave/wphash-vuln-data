@@ -70,19 +70,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/5a2756c1-9abf-4fd6-8ce2-9f840514dfcc"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1569"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/pie-forms-for-wp"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/pie-forms-for-wp/"
         }
     ],
     "database_specific": {
+        "slug": "pie-forms-for-wp",
+        "name": "Drag & Drop Builder, Human Face Detector, Pre-built Templates, Spam Protection, User Email Notifications & more!",
         "cwe_ids": [
             "CWE-79"
         ]

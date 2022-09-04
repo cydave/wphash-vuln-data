@@ -50,19 +50,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24353"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/simple-301-redirects"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/74c23d56-e81f-47e9-bf8b-33d3f0e81894"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/simple-301-redirects/"
+            "url": "https://www.wordfence.com/blog/2021/05/severe-vulnerabilities-patched-in-simple-301-redirects-by-betterlinks-plugin/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24353"
         }
     ],
     "database_specific": {
+        "slug": "simple-301-redirects",
+        "name": "Simple 301 Redirects by BetterLinks",
         "cwe_ids": [
             "CWE-862"
         ]

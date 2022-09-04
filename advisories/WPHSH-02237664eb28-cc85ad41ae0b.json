@@ -55,19 +55,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/82c2ead1-1d3c-442a-ae68-359a4748447f"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24989"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/easy-paypal-donation"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/easy-paypal-donation/"
         }
     ],
     "database_specific": {
+        "slug": "easy-paypal-donation",
+        "name": "Accept Donations with PayPal",
         "cwe_ids": [
             "CWE-352"
         ]

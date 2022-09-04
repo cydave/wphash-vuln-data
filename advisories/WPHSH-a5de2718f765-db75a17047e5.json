@@ -279,19 +279,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/72aea0e5-1fa7-4827-a173-59982202d323"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24603"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/site-reviews"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/site-reviews/"
         }
     ],
     "database_specific": {
+        "slug": "site-reviews",
+        "name": "Site Reviews",
         "cwe_ids": [
             "CWE-79"
         ]

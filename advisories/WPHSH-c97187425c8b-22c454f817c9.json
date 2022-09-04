@@ -156,19 +156,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-24186"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wpdiscuz"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2020/07/critical-arbitrary-file-upload-vulnerability-patched-in-wpdiscuz-plugin/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wpdiscuz/"
+            "url": "http://packetstormsecurity.com/files/162983/WordPress-wpDiscuz-7.0.4-Shell-Upload.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/163012/WordPress-wpDiscuz-7.0.4-Remote-Code-Execution.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/163302/WordPress-wpDiscuz-7.0.4-Shell-Upload.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-24186"
         }
     ],
     "database_specific": {
+        "slug": "wpdiscuz",
+        "name": "Comments \u2013 wpDiscuz",
         "cwe_ids": [
             "CWE-434"
         ]

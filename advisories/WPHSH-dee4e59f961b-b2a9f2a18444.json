@@ -177,19 +177,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/e50bcb39-9a01-433f-81b3-fd4018672b85"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24980"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/gwolle-gb"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/gwolle-gb/"
         }
     ],
     "database_specific": {
+        "slug": "gwolle-gb",
+        "name": "Gwolle Guestbook",
         "cwe_ids": [
             "CWE-79"
         ]

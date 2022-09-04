@@ -105,19 +105,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34620"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/fluentform"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2021/06/cross-site-request-forgery-patched-in-wp-fluent-forms/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/fluentform/"
+            "url": "https://plugins.trac.wordpress.org/browser/fluentform/trunk/app/Modules/Acl/Acl.php?rev=2196688"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34620"
         }
     ],
     "database_specific": {
+        "slug": "fluentform",
+        "name": "Contact Form Plugin \u2013 Fastest Contact Form Builder Plugin for WordPress by Fluent Forms",
         "cwe_ids": [
             "CWE-352"
         ]

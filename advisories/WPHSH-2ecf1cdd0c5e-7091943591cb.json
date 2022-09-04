@@ -63,19 +63,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/1069fb40-44f0-468e-9fd4-7a0fb8cde5a5"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24852"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mousewheel-smooth-scroll"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/mousewheel-smooth-scroll/"
         }
     ],
     "database_specific": {
+        "slug": "mousewheel-smooth-scroll",
+        "name": "MouseWheel Smooth Scroll",
         "cwe_ids": [
             "CWE-352"
         ]

@@ -73,19 +73,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4064"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/landing-pages"
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/37108/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/landing-pages/"
+            "url": "http://www.securityfocus.com/bid/74777"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/landing-pages/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/132037/WordPress-Landing-Pages-1.8.4-Cross-Site-Scripting-SQL-Injection.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4064"
         }
     ],
     "database_specific": {
+        "slug": "landing-pages",
+        "name": "landing-pages",
         "cwe_ids": [
             "CWE-89"
         ]

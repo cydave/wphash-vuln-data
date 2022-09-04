@@ -111,19 +111,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8772"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/iwp-client"
+            "type": "WEB",
+            "url": "https://www.webarxsecurity.com/vulnerability-infinitewp-client-wp-time-capsule/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/iwp-client/"
+            "url": "https://wpvulndb.com/vulnerabilities/10011"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8772"
         }
     ],
     "database_specific": {
+        "slug": "iwp-client",
+        "name": "InfiniteWP Client",
         "cwe_ids": [
             "CWE-862"
         ]

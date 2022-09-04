@@ -45,19 +45,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "http://codevigilant.com/disclosure/wp-plugin-movies-a3-cross-site-scripting-xss"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4539"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/movies"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/movies/"
         }
     ],
     "database_specific": {
+        "slug": "movies",
+        "name": "movies",
         "cwe_ids": [
             "CWE-79"
         ]

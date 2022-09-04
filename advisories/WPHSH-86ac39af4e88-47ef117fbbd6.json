@@ -86,24 +86,26 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15648"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/insert-or-embed-articulate-content-into-wordpress"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/insert-or-embed-articulate-content-into-wordpress/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/insert-or-embed-articulate-content-into-wordpress/"
+            "url": "https://wpvulndb.com/vulnerabilities/9416"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15648"
         }
     ],
     "database_specific": {
+        "slug": "insert-or-embed-articulate-content-into-wordpress",
+        "name": "Insert or Embed Articulate Content into WordPress",
         "cwe_ids": [
+            "CWE-22",
             "CWE-287",
             "CWE-352",
-            "CWE-862",
-            "CWE-22"
+            "CWE-862"
         ]
     }
 }

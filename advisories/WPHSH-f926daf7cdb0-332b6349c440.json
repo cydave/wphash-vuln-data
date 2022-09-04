@@ -72,19 +72,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/8267046e-870e-4ccd-b920-340233ed3b93"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1455"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/call-now-button"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/call-now-button/"
         }
     ],
     "database_specific": {
+        "slug": "call-now-button",
+        "name": "Call Now Button",
         "cwe_ids": [
             "CWE-79"
         ]

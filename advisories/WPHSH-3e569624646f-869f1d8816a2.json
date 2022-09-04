@@ -300,19 +300,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/1697351b-c201-4e85-891e-94fdccbdfb55"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23987"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ws-form"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/ws-form/"
         }
     ],
     "database_specific": {
+        "slug": "ws-form",
+        "name": "WS Form LITE \u2013 Drag & Drop Contact Form Builder for WordPress",
         "cwe_ids": [
             "CWE-79"
         ]

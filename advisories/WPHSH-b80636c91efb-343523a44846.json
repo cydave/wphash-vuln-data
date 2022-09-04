@@ -103,19 +103,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://www.boho.or.kr/krcert/secNoticeView.do?bulletin_writing_sequence=36292"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26609"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mangboard"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/mangboard/"
         }
     ],
     "database_specific": {
+        "slug": "mangboard",
+        "name": "Mang Board WP",
         "cwe_ids": [
             "CWE-89"
         ]

@@ -41,19 +41,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/7cede02e-9af7-4f50-95a8-84ef4c7f7ded"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0680"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/plezi"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/plezi/"
         }
     ],
     "database_specific": {
+        "slug": "plezi",
+        "name": "Plezi",
         "cwe_ids": [
             "CWE-79"
         ]

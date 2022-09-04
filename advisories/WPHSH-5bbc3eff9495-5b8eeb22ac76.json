@@ -117,19 +117,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/8953d931-19f9-4b73-991c-9c48db1af8b5"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24529"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/new-grid-gallery"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/new-grid-gallery/"
         }
     ],
     "database_specific": {
+        "slug": "new-grid-gallery",
+        "name": "Grid Gallery \u2013 Photo Image Grid Gallery",
         "cwe_ids": [
             "CWE-79"
         ]

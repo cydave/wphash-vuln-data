@@ -366,19 +366,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0864"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/updraftplus"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/7337543f-4c2c-4365-aebf-3423e9d2f872"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/updraftplus/"
+            "url": "http://packetstormsecurity.com/files/166631/WordPress-UpdraftPlus-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0864"
         }
     ],
     "database_specific": {
+        "slug": "updraftplus",
+        "name": "UpdraftPlus WordPress Backup Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

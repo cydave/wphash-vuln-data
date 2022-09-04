@@ -97,19 +97,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/04fe89b3-8ad1-482f-a96d-759d1d3a0dd5"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1020"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/woo-product-table"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/woo-product-table/"
         }
     ],
     "database_specific": {
+        "slug": "woo-product-table",
+        "name": "Product Table for WooCommerce by CodeAstrology",
         "cwe_ids": [
             "CWE-352",
             "CWE-862"

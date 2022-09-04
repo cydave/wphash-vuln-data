@@ -59,19 +59,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/4fb61b84-ff5f-4b4c-a516-54b749f9611e"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24936"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-extra-file-types"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-extra-file-types/"
         }
     ],
     "database_specific": {
+        "slug": "wp-extra-file-types",
+        "name": "WP Extra File Types",
         "cwe_ids": [
             "CWE-352"
         ]

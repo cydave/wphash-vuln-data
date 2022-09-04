@@ -55,19 +55,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-13700"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/acf-to-rest-api"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/acf-to-rest-api/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/acf-to-rest-api/"
+            "url": "https://gist.github.com/mariuszpoplwski/4fbaab7f271bea99c733e3f2a4bafbb5"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/airesvsg/acf-to-rest-api"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-13700"
         }
     ],
     "database_specific": {
+        "slug": "acf-to-rest-api",
+        "name": "ACF to REST API",
         "cwe_ids": [
             "CWE-639"
         ]

@@ -50,19 +50,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2022/02/critical-vulnerabilities-in-php-everywhere-allow-remote-code-execution/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-24663"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/php-everywhere"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/php-everywhere/"
         }
     ],
     "database_specific": {
+        "slug": "php-everywhere",
+        "name": "PHP Everywhere",
         "cwe_ids": [
             "CWE-94"
         ]

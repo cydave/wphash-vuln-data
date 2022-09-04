@@ -66,19 +66,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18608"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/spotim-comments"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/spotim-comments/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/spotim-comments/"
+            "url": "https://wpvulndb.com/vulnerabilities/9360"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18608"
         }
     ],
     "database_specific": {
+        "slug": "spotim-comments",
+        "name": "spotim-comments",
         "cwe_ids": [
             "CWE-79"
         ]

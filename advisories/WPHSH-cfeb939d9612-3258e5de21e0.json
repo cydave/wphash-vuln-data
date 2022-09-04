@@ -91,19 +91,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24170"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/metronet-profile-picture"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/29fc5b0e-0a5f-4484-a1e6-a0a1206726cc"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/metronet-profile-picture/"
+            "url": "https://www.wordfence.com/blog/2021/03/medium-severity-vulnerability-patched-in-user-profile-picture-plugin/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24170"
         }
     ],
     "database_specific": {
+        "slug": "metronet-profile-picture",
+        "name": "User Profile Picture",
         "cwe_ids": [
             "CWE-200"
         ]

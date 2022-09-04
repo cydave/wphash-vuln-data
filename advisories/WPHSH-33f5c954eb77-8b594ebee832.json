@@ -179,19 +179,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/d70c5335-4c01-448d-85fc-f8e75b104351"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0229"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/miniorange-2-factor-authentication"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/miniorange-2-factor-authentication/"
         }
     ],
     "database_specific": {
+        "slug": "miniorange-2-factor-authentication",
+        "name": "miniOrange's Google Authenticator \u2013 WordPress Two Factor Authentication (2FA , Two Factor, OTP SMS and Email) | Passwordless login",
         "cwe_ids": [
             "CWE-862"
         ]

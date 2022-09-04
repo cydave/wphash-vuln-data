@@ -92,19 +92,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9409"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/alo-easymail"
+            "type": "WEB",
+            "url": "https://packetstormsecurity.com/files/133594/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/alo-easymail/"
+            "url": "https://wpvulndb.com/vulnerabilities/8190"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/alo-easymail/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9409"
         }
     ],
     "database_specific": {
+        "slug": "alo-easymail",
+        "name": "ALO EasyMail Newsletter",
         "cwe_ids": [
             "CWE-352"
         ]

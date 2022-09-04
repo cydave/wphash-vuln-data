@@ -68,19 +68,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35234"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/easy-wp-smtp"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/easy-wp-smtp/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/easy-wp-smtp/"
+            "url": "https://blog.nintechnet.com/wordpress-easy-wp-smtp-plugin-fixed-zero-day-vulnerability/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35234"
         }
     ],
     "database_specific": {
+        "slug": "easy-wp-smtp",
+        "name": "Easy WP SMTP",
         "cwe_ids": [
             "CWE-532"
         ]

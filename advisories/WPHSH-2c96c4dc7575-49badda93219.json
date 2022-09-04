@@ -215,19 +215,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9359"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/jetpack"
+            "type": "WEB",
+            "url": "https://blog.sucuri.net/2015/04/security-advisory-xss-vulnerability-affecting-multiple-wordpress-plugins.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/jetpack/"
+            "url": "https://jetpack.com/2015/04/20/jetpack-3-4-3-coordinated-security-update/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9359"
         }
     ],
     "database_specific": {
+        "slug": "jetpack",
+        "name": "Jetpack \u2013 WP Security, Backup, Speed, & Growth",
         "cwe_ids": [
             "CWE-79"
         ]

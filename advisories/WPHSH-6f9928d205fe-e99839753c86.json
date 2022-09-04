@@ -64,19 +64,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24275"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/popup-by-supsystic"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/efdc76e0-c14a-4baf-af70-9d381107308f"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/popup-by-supsystic/"
+            "url": "http://packetstormsecurity.com/files/164311/WordPress-Popup-1.10.4-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24275"
         }
     ],
     "database_specific": {
+        "slug": "popup-by-supsystic",
+        "name": "Popup by Supsystic",
         "cwe_ids": [
             "CWE-79"
         ]

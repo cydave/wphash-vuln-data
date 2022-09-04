@@ -42,19 +42,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20831"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/og-tags"
+            "type": "WEB",
+            "url": "https://jvn.jp/en/jp/JVN29428319/index.html"
         },
         {
             "type": "WEB",
             "url": "https://wordpress.org/plugins/og-tags/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20831"
         }
     ],
     "database_specific": {
+        "slug": "og-tags",
+        "name": "OG Tags",
         "cwe_ids": [
             "CWE-352"
         ]

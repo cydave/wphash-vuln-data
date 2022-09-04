@@ -120,19 +120,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/08dbe202-0136-4502-87e7-5e984dc27b16"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24465"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/meow-gallery"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/meow-gallery/"
         }
     ],
     "database_specific": {
+        "slug": "meow-gallery",
+        "name": "Meow Gallery (+ Gallery Block)",
         "cwe_ids": [
             "CWE-89"
         ]

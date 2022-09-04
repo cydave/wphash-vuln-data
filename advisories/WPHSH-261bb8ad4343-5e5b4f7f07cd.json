@@ -68,19 +68,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/twitter-cards-meta/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18503"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/twitter-cards-meta"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/twitter-cards-meta/"
         }
     ],
     "database_specific": {
+        "slug": "twitter-cards-meta",
+        "name": "Twitter Cards Meta \u2013 Best Twitter Card Plugin for WordPress",
         "cwe_ids": [
             "CWE-79"
         ]

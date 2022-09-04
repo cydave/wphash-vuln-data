@@ -162,19 +162,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-14126"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/participants-database"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/participants-database/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/participants-database/"
+            "url": "https://www.exploit-db.com/exploits/42618/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://limbenjamin.com/articles/cve-2017-14126-participants-database-xss.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-14126"
         }
     ],
     "database_specific": {
+        "slug": "participants-database",
+        "name": "Participants Database",
         "cwe_ids": [
             "CWE-79"
         ]

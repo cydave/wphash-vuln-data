@@ -60,19 +60,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/132118aa-4b72-4eaa-8aa1-6ad7b0c7f495"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24754"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mainwp-child-reports"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/mainwp-child-reports/"
         }
     ],
     "database_specific": {
+        "slug": "mainwp-child-reports",
+        "name": "MainWP Child Reports",
         "cwe_ids": [
             "CWE-89"
         ]

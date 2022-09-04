@@ -119,19 +119,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/820c51d6-186e-4d63-b4a7-bd0a59c02cc8"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25088"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/google-sitemap-generator"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/google-sitemap-generator/"
         }
     ],
     "database_specific": {
+        "slug": "google-sitemap-generator",
+        "name": "XML Sitemaps",
         "cwe_ids": [
             "CWE-79"
         ]

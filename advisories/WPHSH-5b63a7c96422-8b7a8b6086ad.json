@@ -446,17 +446,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36394"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contest-gallery"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/contest-gallery/"
         }
     ],
     "database_specific": {
+        "slug": "contest-gallery",
+        "name": "Contest Gallery \u2013 Files Upload and Contest Plugin for WordPress",
         "cwe_ids": []
     }
 }

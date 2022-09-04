@@ -55,19 +55,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/a49c5a5b-57c0-4801-8bf1-cd3a05b12288"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24634"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/recipe-card-blocks-by-wpzoom"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/recipe-card-blocks-by-wpzoom/"
         }
     ],
     "database_specific": {
+        "slug": "recipe-card-blocks-by-wpzoom",
+        "name": "Recipe Card Blocks for Gutenberg & Elementor",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -54,19 +54,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-24148"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/import-xml-feed"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/import-xml-feed/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/import-xml-feed/"
+            "url": "https://github.com/secwx/research/blob/main/cve/CVE-2020-24148.md"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-24148"
         }
     ],
     "database_specific": {
+        "slug": "import-xml-feed",
+        "name": "Import XML and RSS Feeds",
         "cwe_ids": [
             "CWE-918"
         ]

@@ -113,19 +113,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/4b7c61da-952c-492a-8ce6-3c2126942a7c"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24468"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/leaflet-map"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/leaflet-map/"
         }
     ],
     "database_specific": {
+        "slug": "leaflet-map",
+        "name": "Leaflet Map",
         "cwe_ids": [
             "CWE-79"
         ]

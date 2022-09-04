@@ -60,19 +60,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/a092548f-1ad5-44d3-9901-cdf4ebcee40a"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24670"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/coolclock"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/coolclock/"
         }
     ],
     "database_specific": {
+        "slug": "coolclock",
+        "name": "CoolClock \u2013 a Javascript Analog Clock",
         "cwe_ids": [
             "CWE-79"
         ]

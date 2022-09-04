@@ -303,19 +303,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/35516555-c50c-486a-886c-df49c9e51e2c"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24306"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ultimate-member"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/ultimate-member/"
         }
     ],
     "database_specific": {
+        "slug": "ultimate-member",
+        "name": "Ultimate Member \u2013 User Profile, User Registration, Login & Membership Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

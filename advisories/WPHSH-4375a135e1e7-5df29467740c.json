@@ -80,19 +80,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/companion-sitemap-generator/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15113"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/companion-sitemap-generator"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/companion-sitemap-generator/"
         }
     ],
     "database_specific": {
+        "slug": "companion-sitemap-generator",
+        "name": "Companion Sitemap Generator \u2013 HTML & XML",
         "cwe_ids": [
             "CWE-352"
         ]

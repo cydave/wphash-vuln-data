@@ -50,19 +50,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34660"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-fusion-lite"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2021-34660"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-fusion-lite/"
+            "url": "https://plugins.trac.wordpress.org/browser/wp-fusion-lite/trunk/includes/admin/logging/class-log-table-list.php?rev=2497097#L427"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34660"
         }
     ],
     "database_specific": {
+        "slug": "wp-fusion-lite",
+        "name": "WP Fusion Lite \u2013 Marketing Automation for WordPress",
         "cwe_ids": [
             "CWE-79"
         ]

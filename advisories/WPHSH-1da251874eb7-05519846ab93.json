@@ -63,19 +63,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24920"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/official-statcounter-plugin-for-wordpress"
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/changeset/2664933"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/official-statcounter-plugin-for-wordpress/"
+            "url": "https://wpscan.com/vulnerability/b00b5037-8ce4-4f61-b2ce-33315b39454e"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24920"
         }
     ],
     "database_specific": {
+        "slug": "official-statcounter-plugin-for-wordpress",
+        "name": "StatCounter \u2013 Free Real Time Visitor Stats",
         "cwe_ids": [
             "CWE-79"
         ]

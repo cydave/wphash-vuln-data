@@ -183,19 +183,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2021/09/over-1-million-sites-affected-by-redux-framework-vulnerabilities/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38312"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/redux-framework"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/redux-framework/"
         }
     ],
     "database_specific": {
+        "slug": "redux-framework",
+        "name": "Gutenberg Template and Pattern Library & Redux Framework",
         "cwe_ids": [
             "CWE-863"
         ]

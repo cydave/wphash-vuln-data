@@ -189,19 +189,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/73be6e92-ea37-4416-977d-52ee2afa022a"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0876"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/comments-from-facebook"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/comments-from-facebook/"
         }
     ],
     "database_specific": {
+        "slug": "comments-from-facebook",
+        "name": "Social comments by WpDevArt",
         "cwe_ids": [
             "CWE-79"
         ]

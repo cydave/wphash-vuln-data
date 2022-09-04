@@ -165,19 +165,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://web.archive.org/web/20160921003517/https://easydigitaldownloads.com/blog/security-fix-released/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9518"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/easy-digital-downloads"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/easy-digital-downloads/"
         }
     ],
     "database_specific": {
+        "slug": "easy-digital-downloads",
+        "name": "Easy Digital Downloads \u2013 Simple eCommerce for Selling Digital Files",
         "cwe_ids": [
             "CWE-79"
         ]

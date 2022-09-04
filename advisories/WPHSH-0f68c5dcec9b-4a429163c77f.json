@@ -34,23 +34,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4940"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/tera-charts"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=851874%40tera-charts&old=799253%40tera-charts&sfp_email=&sfph_mail="
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/tera-charts/"
+            "url": "http://codevigilant.com/disclosure/wp-plugin-tera-chart-local-file-inclusion/"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=851874%40tera-charts&old=799253%40tera-charts&sfp_email=&sfph_mail="
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4940"
         }
     ],
     "database_specific": {
+        "slug": "tera-charts",
+        "name": "tera-charts",
         "cwe_ids": [
             "CWE-22"
         ]

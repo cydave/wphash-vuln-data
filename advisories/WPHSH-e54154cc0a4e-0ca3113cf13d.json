@@ -119,19 +119,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9283"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/captcha"
+            "type": "WEB",
+            "url": "http://jvndb.jvn.jp/jvndb/JVNDB-2015-000029"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/captcha/"
+            "url": "https://wordpress.org/plugins/captcha/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://jvn.jp/en/jp/JVN93727681/index.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9283"
         }
     ],
     "database_specific": {
+        "slug": "captcha",
+        "name": "captcha",
         "cwe_ids": []
     }
 }

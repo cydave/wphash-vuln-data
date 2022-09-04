@@ -120,19 +120,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2069"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/woocommerce"
+            "type": "WEB",
+            "url": "http://seclists.org/fulldisclosure/2015/Feb/75"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/woocommerce/"
+            "url": "https://wordpress.org/plugins/woocommerce/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/130458/WordPress-WooCommerce-2.2.10-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/74885"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2069"
         }
     ],
     "database_specific": {
+        "slug": "woocommerce",
+        "name": "WooCommerce",
         "cwe_ids": [
             "CWE-79"
         ]

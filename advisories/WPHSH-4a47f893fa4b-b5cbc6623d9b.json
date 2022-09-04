@@ -48,19 +48,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "http://labs.threatpress.com/stored-cross-site-scripting-xss-in-woocommerce-quick-reports-plugin/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11485"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/woo-advance-search"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/woo-advance-search/"
         }
     ],
     "database_specific": {
+        "slug": "woo-advance-search",
+        "name": "woo-advance-search",
         "cwe_ids": [
             "CWE-79"
         ]

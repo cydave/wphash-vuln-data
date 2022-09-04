@@ -42,19 +42,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/be55131b-d9f2-4ac1-b667-c544c066887f"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24446"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/remove-footer-credit"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/remove-footer-credit/"
         }
     ],
     "database_specific": {
+        "slug": "remove-footer-credit",
+        "name": "Remove Footer Credit",
         "cwe_ids": [
             "CWE-352"
         ]

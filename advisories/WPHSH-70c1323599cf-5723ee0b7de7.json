@@ -56,19 +56,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5961"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/lazy-seo"
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/123349"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/lazy-seo/"
+            "url": "http://www.exploit-db.com/exploits/28452"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/97662"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/87384"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5961"
         }
     ],
     "database_specific": {
+        "slug": "lazy-seo",
+        "name": "Lazy SEO",
         "cwe_ids": []
     }
 }

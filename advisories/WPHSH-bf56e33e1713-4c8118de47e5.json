@@ -135,19 +135,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7791"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/usc-e-shop"
+            "type": "WEB",
+            "url": "http://jvn.jp/en/jp/JVN43344629/index.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/usc-e-shop/"
+            "url": "http://jvndb.jvn.jp/jvndb/JVNDB-2015-000200"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.welcart.com/community/archives/76035"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/79647"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8356"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7791"
         }
     ],
     "database_specific": {
+        "slug": "usc-e-shop",
+        "name": "Welcart e-Commerce",
         "cwe_ids": [
             "CWE-89"
         ]

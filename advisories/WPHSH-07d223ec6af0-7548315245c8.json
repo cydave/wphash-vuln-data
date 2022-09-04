@@ -188,19 +188,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/2c469e8b-c761-460b-b31d-9219a43006ff"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24896"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/caldera-forms"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/caldera-forms/"
         }
     ],
     "database_specific": {
+        "slug": "caldera-forms",
+        "name": "caldera-forms",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -47,19 +47,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/d60634a3-ca39-43be-893b-ff9ba625360f"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24445"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/site-audit"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/site-audit/"
         }
     ],
     "database_specific": {
+        "slug": "site-audit",
+        "name": "site-audit",
         "cwe_ids": [
             "CWE-79"
         ]

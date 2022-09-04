@@ -92,19 +92,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24856"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/shared-files"
+            "type": "WEB",
+            "url": "https://mikadmin.fr/tech/XSS-Stored-Shared-Files-a837703ad010d111be11ffdf478aa6114F0lK656bV.pdf"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/shared-files/"
+            "url": "https://wpscan.com/vulnerability/8fd483fb-d399-4b4f-b4ef-bbfad1b5cf1b"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24856"
         }
     ],
     "database_specific": {
+        "slug": "shared-files",
+        "name": "Shared Files \u2013 Easy Download Manager and File Sharing Plugin with Frontend File Upload",
         "cwe_ids": [
             "CWE-79"
         ]

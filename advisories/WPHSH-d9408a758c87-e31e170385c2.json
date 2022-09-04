@@ -46,19 +46,41 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4117"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/category-grid-view-gallery"
+            "type": "WEB",
+            "url": "http://openwall.com/lists/oss-security/2013/07/11/11"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/category-grid-view-gallery/"
+            "url": "http://seclists.org/bugtraq/2013/Jul/17"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/94805"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/60905"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/122259/WordPress-Category-Grid-View-Gallery-XSS.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://exploit.iedb.ir/exploits-177.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/85395"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4117"
         }
     ],
     "database_specific": {
+        "slug": "category-grid-view-gallery",
+        "name": "category-grid-view-gallery",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -99,19 +99,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/d3653976-9e0a-4f2b-87f7-26b5e7a74b9d"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2071"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/name-directory"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/name-directory/"
         }
     ],
     "database_specific": {
+        "slug": "name-directory",
+        "name": "Name Directory",
         "cwe_ids": [
             "CWE-352"
         ]

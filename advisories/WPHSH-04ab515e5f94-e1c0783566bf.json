@@ -43,19 +43,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4549"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sagepay-direct-for-woocommerce-payment-gateway"
+            "type": "WEB",
+            "url": "https://github.com/wp-plugins/sagepay-direct-for-woocommerce-payment-gateway/commit/9c6cf939c6c25377c285439b92ef2bb5ebda9db6"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/sagepay-direct-for-woocommerce-payment-gateway/"
+            "url": "http://wordpress.org/plugins/sagepay-direct-for-woocommerce-payment-gateway/changelog"
+        },
+        {
+            "type": "WEB",
+            "url": "http://codevigilant.com/disclosure/wp-plugin-sagepay-direct-for-woocommerce-payment-gateway-a3-cross-site-scripting-xss"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/65355"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4549"
         }
     ],
     "database_specific": {
+        "slug": "sagepay-direct-for-woocommerce-payment-gateway",
+        "name": "sagepay-direct-for-woocommerce-payment-gateway",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -290,6 +290,7 @@
                 "5.8",
                 "5.7",
                 "5.6",
+                "development",
                 "5.5",
                 "5.4",
                 "5.3-dev",
@@ -299,6 +300,7 @@
                 "4.24-j",
                 "4.24",
                 "5.0",
+                "ajax-devel",
                 "4.22",
                 "4.21",
                 "4.20",
@@ -374,19 +376,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24295"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cleantalk-spam-protect"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2021/05/sql-injection-vulnerability-patched-in-cleantalk-antispam-plugin/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/cleantalk-spam-protect/"
+            "url": "https://wpscan.com/vulnerability/152171fc-888c-4275-a118-5a1e664ef28b"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24295"
         }
     ],
     "database_specific": {
+        "slug": "cleantalk-spam-protect",
+        "name": "Spam protection, AntiSpam, FireWall by CleanTalk",
         "cwe_ids": [
             "CWE-89"
         ]

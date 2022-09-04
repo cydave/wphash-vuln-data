@@ -101,23 +101,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24781"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/image-source-control-isc"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/image-source-control-isc/"
+            "url": "https://wpscan.com/vulnerability/3550ba54-7786-4ad9-aeb1-1c0750f189d0"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2606615/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24781"
         }
     ],
     "database_specific": {
+        "slug": "image-source-control-isc",
+        "name": "Image Source Control Lite \u2013 Show Image Credits and Captions",
         "cwe_ids": []
     }
 }

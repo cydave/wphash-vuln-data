@@ -141,19 +141,41 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2292"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wordpress-seo"
+            "type": "WEB",
+            "url": "https://yoast.com/wordpress-seo-security-release/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wordpress-seo/"
+            "url": "http://www.securitytracker.com/id/1031920"
+        },
+        {
+            "type": "WEB",
+            "url": "http://seclists.org/fulldisclosure/2015/Mar/73"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/7841"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wordpress-seo/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/130811/WordPress-SEO-By-Yoast-1.7.3.3-SQL-Injection.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/36413/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2292"
         }
     ],
     "database_specific": {
+        "slug": "wordpress-seo",
+        "name": "Yoast SEO",
         "cwe_ids": [
             "CWE-89"
         ]

@@ -174,19 +174,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/post-pay-counter/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18584"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/post-pay-counter"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/post-pay-counter/"
         }
     ],
     "database_specific": {
+        "slug": "post-pay-counter",
+        "name": "Post Pay Counter",
         "cwe_ids": [
             "CWE-264"
         ]

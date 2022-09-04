@@ -70,19 +70,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-21007"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/woo-confirmation-email"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/woo-confirmation-email/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/woo-confirmation-email/"
+            "url": "https://wpvulndb.com/vulnerabilities/9847"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-21007"
         }
     ],
     "database_specific": {
+        "slug": "woo-confirmation-email",
+        "name": "User Email Verification for WooCommerce",
         "cwe_ids": [
             "CWE-284"
         ]

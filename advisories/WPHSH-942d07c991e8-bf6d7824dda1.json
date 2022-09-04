@@ -46,26 +46,24 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24565"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contact-form-7-simple-recaptcha"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2570402"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/contact-form-7-simple-recaptcha/"
+            "url": "https://wpscan.com/vulnerability/97bfef5e-2ee0-491a-a931-4f44c83e5be0"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/2570402"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24565"
         }
     ],
     "database_specific": {
+        "slug": "contact-form-7-simple-recaptcha",
+        "name": "Contact Form 7 Captcha",
         "cwe_ids": [
-            "CWE-79",
-            "CWE-352"
+            "CWE-352",
+            "CWE-79"
         ]
     }
 }

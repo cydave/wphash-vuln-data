@@ -56,19 +56,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/5c8adca0-fe19-4624-81ef-465b8d007f93"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24141"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/advanced-database-cleaner"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/advanced-database-cleaner/"
         }
     ],
     "database_specific": {
+        "slug": "advanced-database-cleaner",
+        "name": "Advanced Database Cleaner",
         "cwe_ids": [
             "CWE-89"
         ]

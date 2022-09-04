@@ -76,19 +76,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/4bda5dff-f577-4cd8-a225-c6b4c32f22b4"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24539"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/coming-soon-wp"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/coming-soon-wp/"
         }
     ],
     "database_specific": {
+        "slug": "coming-soon-wp",
+        "name": "Coming Soon, Under Construction & Maintenance Mode By Dazzler",
         "cwe_ids": [
             "CWE-79"
         ]

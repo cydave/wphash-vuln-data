@@ -73,19 +73,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/2c3d8c21-ecd4-41ba-8183-2ecbd9a3df25"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24738"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/logo-carousel-free"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/logo-carousel-free/"
         }
     ],
     "database_specific": {
+        "slug": "logo-carousel-free",
+        "name": "Logo Carousel \u2013 Logo Slider, Logo Showcase, and Clients Logo Gallery",
         "cwe_ids": [
             "CWE-79"
         ]

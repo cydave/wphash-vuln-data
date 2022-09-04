@@ -39,19 +39,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7319"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/appointment-booking-calendar"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/appointment-booking-calendar/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/appointment-booking-calendar/"
+            "url": "http://packetstormsecurity.com/files/133757/WordPress-Appointment-Booking-Calendar-1.1.7-SQL-Injection.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8199"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/536555/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7319"
         }
     ],
     "database_specific": {
+        "slug": "appointment-booking-calendar",
+        "name": "Appointment Booking Calendar",
         "cwe_ids": [
             "CWE-89"
         ]

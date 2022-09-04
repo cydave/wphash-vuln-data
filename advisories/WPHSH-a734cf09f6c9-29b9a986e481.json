@@ -59,17 +59,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23180"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/lead-form-builder"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/lead-form-builder/"
         }
     ],
     "database_specific": {
+        "slug": "lead-form-builder",
+        "name": "Contact Form & Lead Form Elementor Builder",
         "cwe_ids": []
     }
 }

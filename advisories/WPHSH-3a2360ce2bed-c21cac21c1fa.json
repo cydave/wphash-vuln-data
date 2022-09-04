@@ -72,19 +72,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/6781033a-f166-4198-874f-3e142854daf7"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1465"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/woo-smart-wishlist"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/woo-smart-wishlist/"
         }
     ],
     "database_specific": {
+        "slug": "woo-smart-wishlist",
+        "name": "WPC Smart Wishlist for WooCommerce",
         "cwe_ids": [
             "CWE-79"
         ]

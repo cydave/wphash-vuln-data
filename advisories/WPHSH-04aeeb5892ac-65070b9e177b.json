@@ -73,19 +73,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/formbuilder/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10910"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/formbuilder"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/formbuilder/"
         }
     ],
     "database_specific": {
+        "slug": "formbuilder",
+        "name": "formbuilder",
         "cwe_ids": [
             "CWE-79"
         ]

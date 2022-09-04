@@ -50,23 +50,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7204"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/file-manager"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/9036"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/file-manager/"
+            "url": "https://wordpress.org/plugins/file-manager/#developers"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/1823035/file-manager"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7204"
         }
     ],
     "database_specific": {
+        "slug": "file-manager",
+        "name": "Bit File Manager \u2013 100% free file manager for WordPress",
         "cwe_ids": [
             "CWE-532"
         ]

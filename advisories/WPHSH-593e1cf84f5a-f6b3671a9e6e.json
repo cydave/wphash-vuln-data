@@ -211,19 +211,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/27b64412-33a4-462c-bc45-f81697e4fe42"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0288"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ad-inserter"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/ad-inserter/"
         }
     ],
     "database_specific": {
+        "slug": "ad-inserter",
+        "name": "Ad Inserter \u2013 Ad Manager & AdSense Ads",
         "cwe_ids": [
             "CWE-79"
         ]

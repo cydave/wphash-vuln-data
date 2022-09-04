@@ -36,19 +36,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2709"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/foursquare-checkins"
+            "type": "WEB",
+            "url": "http://wordpress.org/extend/plugins/foursquare-checkins/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/foursquare-checkins/"
+            "url": "http://secunia.com/advisories/53151"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2709"
         }
     ],
     "database_specific": {
+        "slug": "foursquare-checkins",
+        "name": "foursquare-checkins",
         "cwe_ids": [
             "CWE-352"
         ]

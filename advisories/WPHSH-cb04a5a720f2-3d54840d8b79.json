@@ -78,19 +78,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18613"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/trust-form"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/trust-form/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/trust-form/"
+            "url": "https://sumofpwn.nl/advisory/2016/cross_site_scripting_vulnerability_in_trust_form_wordpress_plugin.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18613"
         }
     ],
     "database_specific": {
+        "slug": "trust-form",
+        "name": "trust-form",
         "cwe_ids": [
             "CWE-79"
         ]

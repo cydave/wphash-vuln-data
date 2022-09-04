@@ -61,19 +61,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-2040"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/media-file-renamer"
+            "type": "WEB",
+            "url": "http://www.vapid.dhs.org/advisories/wordpress/plugins/MediaFileRenamer-1.7.0/index.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/media-file-renamer/"
+            "url": "http://www.securityfocus.com/bid/65715"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/531270/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-2040"
         }
     ],
     "database_specific": {
+        "slug": "media-file-renamer",
+        "name": "Media File Renamer \u2013 Auto & Manual Rename",
         "cwe_ids": [
             "CWE-79"
         ]

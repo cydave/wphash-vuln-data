@@ -58,19 +58,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/28007c80-dc14-4987-a52c-f2a05cfe5905"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24871"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/get-custom-field-values"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/get-custom-field-values/"
         }
     ],
     "database_specific": {
+        "slug": "get-custom-field-values",
+        "name": "Get Custom Field Values",
         "cwe_ids": [
             "CWE-79"
         ]

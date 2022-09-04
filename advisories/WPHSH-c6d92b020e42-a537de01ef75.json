@@ -182,23 +182,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35037"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/events-manager"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2336019/events-manager"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/events-manager/"
+            "url": "https://wpscan.com/vulnerability/937b9bdb-7e8e-4ea8-82ec-aa5f6bd70619"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/2336019/events-manager"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35037"
         }
     ],
     "database_specific": {
+        "slug": "events-manager",
+        "name": "Events Manager",
         "cwe_ids": [
             "CWE-79"
         ]

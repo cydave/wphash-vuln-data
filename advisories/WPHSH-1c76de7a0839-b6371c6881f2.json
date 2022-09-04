@@ -92,19 +92,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24442"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/polls-widget"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/7376666e-9b2a-4239-b11f-8544435b444a"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/polls-widget/"
+            "url": "https://www.in-spired.xyz/wpdevart-polls-blind-sql-injection/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24442"
         }
     ],
     "database_specific": {
+        "slug": "polls-widget",
+        "name": "Poll, Survey, Questionnaire and Voting system",
         "cwe_ids": [
             "CWE-89"
         ]

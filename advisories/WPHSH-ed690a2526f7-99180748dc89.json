@@ -55,19 +55,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/ae322f11-d8b4-4b69-9efa-0fb87475fa44"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0190"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ad-invalid-click-protector"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/ad-invalid-click-protector/"
         }
     ],
     "database_specific": {
+        "slug": "ad-invalid-click-protector",
+        "name": "Ad Invalid Click Protector (AICP)",
         "cwe_ids": [
             "CWE-89"
         ]

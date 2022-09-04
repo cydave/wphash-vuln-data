@@ -268,19 +268,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10706"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/jetpack"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2016/05/jetpack-vulnerability/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/jetpack/"
+            "url": "https://jetpack.com/2016/05/27/jetpack-4-0-3-critical-security-update/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10706"
         }
     ],
     "database_specific": {
+        "slug": "jetpack",
+        "name": "Jetpack \u2013 WP Security, Backup, Speed, & Growth",
         "cwe_ids": [
             "CWE-79"
         ]

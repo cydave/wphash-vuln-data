@@ -76,23 +76,41 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-1834"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cms-tree-page-view"
+            "type": "WEB",
+            "url": "http://wordpress.org/extend/plugins/cms-tree-page-view/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/cms-tree-page-view/"
+            "url": "http://www.securityfocus.com/bid/52708"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.osvdb.org/80573"
+        },
+        {
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/48510"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.htbridge.com/advisory/HTB23083"
         },
         {
             "type": "FIX",
             "url": "http://plugins.trac.wordpress.org/changeset/523576/cms-tree-page-view"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/74337"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-1834"
         }
     ],
     "database_specific": {
+        "slug": "cms-tree-page-view",
+        "name": "CMS Tree Page View",
         "cwe_ids": [
             "CWE-79"
         ]

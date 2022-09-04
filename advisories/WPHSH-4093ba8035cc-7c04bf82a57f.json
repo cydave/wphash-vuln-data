@@ -133,19 +133,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34621"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-user-avatar"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2021/06/easily-exploitable-critical-vulnerabilities-patched-in-profilepress-plugin/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-user-avatar/"
+            "url": "http://packetstormsecurity.com/files/163973/WordPress-ProfilePress-3.1.3-Privilege-Escalation.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34621"
         }
     ],
     "database_specific": {
+        "slug": "wp-user-avatar",
+        "name": "Paid Membership, User Registration, User Profile & Restrict Content Plugin \u2013 ProfilePress",
         "cwe_ids": [
             "CWE-269"
         ]

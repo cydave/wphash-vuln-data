@@ -222,19 +222,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2695"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-symposium"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/52864"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-symposium/"
+            "url": "http://osvdb.org/92275"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2695"
         }
     ],
     "database_specific": {
+        "slug": "wp-symposium",
+        "name": "wp-symposium",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -88,19 +88,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24664"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wpschoolpress"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/3f8e170c-6579-4b1a-a1ac-7d93da17b669"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wpschoolpress/"
+            "url": "http://packetstormsecurity.com/files/164974/WordPress-WPSchoolPress-2.1.16-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24664"
         }
     ],
     "database_specific": {
+        "slug": "wpschoolpress",
+        "name": "School Management System \u2013 WPSchoolPress",
         "cwe_ids": [
             "CWE-79"
         ]

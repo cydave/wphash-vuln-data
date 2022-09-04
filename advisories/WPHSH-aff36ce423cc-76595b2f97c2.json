@@ -56,19 +56,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/8cc7cbbd-f74f-4f30-9483-573641fea733"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24926"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/domain-check"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/domain-check/"
         }
     ],
     "database_specific": {
+        "slug": "domain-check",
+        "name": "Domain Check",
         "cwe_ids": [
             "CWE-79"
         ]

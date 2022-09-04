@@ -101,19 +101,37 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4725"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wysija-newsletters"
+            "type": "WEB",
+            "url": "http://www.openwall.com/lists/oss-security/2014/07/08/7"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wysija-newsletters/"
+            "url": "http://arstechnica.com/security/2014/07/mass-exploit-of-wordpress-plugin-backdoors-sites-running-joomla-magento-too/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://blog.sucuri.net/2014/07/malware-infection-breaking-wordpress-sites.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wysija-newsletters/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://blog.sucuri.net/2014/07/remote-file-upload-vulnerability-on-mailpoet-wysija-newsletters.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://blog.sucuri.net/2014/07/mailpoet-vulnerability-exploited-in-the-wild-breaking-thousands-of-wordpress-sites.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4725"
         }
     ],
     "database_specific": {
+        "slug": "wysija-newsletters",
+        "name": "MailPoet Newsletters (Previous)",
         "cwe_ids": [
             "CWE-287"
         ]

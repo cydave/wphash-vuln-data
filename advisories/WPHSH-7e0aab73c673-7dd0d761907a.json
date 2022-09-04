@@ -227,19 +227,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14785"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cp-contact-form-with-paypal"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/cp-contact-form-with-paypal/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/cp-contact-form-with-paypal/"
+            "url": "https://www.pluginvulnerabilities.com/2019/06/24/reflected-cross-site-scripting-xss-vulnerability-in-cp-contact-form-with-paypal/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14785"
         }
     ],
     "database_specific": {
+        "slug": "cp-contact-form-with-paypal",
+        "name": "CP Contact Form with PayPal",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -81,19 +81,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8615"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/tutor"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/10058"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/tutor/"
+            "url": "https://www.getastra.com/blog/911/plugin-exploit/cross-site-request-forgery-in-tutor-lms-plugin/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.jinsonvarghese.com/cross-site-request-forgery-in-tutor-lms/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.themeum.com/tutor-lms-updated-v1-5-3/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/156585/WordPress-Tutor-LMS-1.5.3-Cross-Site-Request-Forgery.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8615"
         }
     ],
     "database_specific": {
+        "slug": "tutor",
+        "name": "Tutor LMS \u2013 eLearning and online course solution",
         "cwe_ids": [
             "CWE-352"
         ]

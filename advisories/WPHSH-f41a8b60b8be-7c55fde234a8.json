@@ -51,19 +51,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/4e51dffa-027d-4f3d-a190-dcc5269f6435"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24671"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mx-time-zone-clocks"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/mx-time-zone-clocks/"
         }
     ],
     "database_specific": {
+        "slug": "mx-time-zone-clocks",
+        "name": "MX Time Zone Clocks",
         "cwe_ids": [
             "CWE-79"
         ]

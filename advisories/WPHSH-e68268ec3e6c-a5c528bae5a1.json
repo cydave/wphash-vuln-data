@@ -41,17 +41,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2388"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-coder"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-coder/"
         }
     ],
     "database_specific": {
+        "slug": "wp-coder",
+        "name": "WP Coder \u2013 add custom html, css and js code",
         "cwe_ids": []
     }
 }

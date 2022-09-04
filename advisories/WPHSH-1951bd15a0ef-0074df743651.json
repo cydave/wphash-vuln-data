@@ -75,19 +75,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/bb5d94ad-e1ce-44e2-8403-d73fe75a146a"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24587"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/splash-header"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/splash-header/"
         }
     ],
     "database_specific": {
+        "slug": "splash-header",
+        "name": "Splash Header",
         "cwe_ids": [
             "CWE-79"
         ]

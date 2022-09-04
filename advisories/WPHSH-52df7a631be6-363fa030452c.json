@@ -189,19 +189,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/fv-wordpress-flowplayer/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14801"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/fv-wordpress-flowplayer"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/fv-wordpress-flowplayer/"
         }
     ],
     "database_specific": {
+        "slug": "fv-wordpress-flowplayer",
+        "name": "FV Flowplayer Video Player",
         "cwe_ids": [
             "CWE-89"
         ]

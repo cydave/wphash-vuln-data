@@ -41,23 +41,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2001"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/dx-share-selection"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/dx-share-selection/"
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2022-2001"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2747572/dx-share-selection/trunk?contextall=1&old=2384535&old_path=%2Fdx-share-selection%2Ftrunk"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2001"
         }
     ],
     "database_specific": {
+        "slug": "dx-share-selection",
+        "name": "DX Share Selection",
         "cwe_ids": [
             "CWE-352"
         ]

@@ -54,19 +54,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/05b9e478-2d3b-4460-88c1-7f81d3a68ac4"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25042"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-stats-manager"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-stats-manager/"
         }
     ],
     "database_specific": {
+        "slug": "wp-stats-manager",
+        "name": "WP Visitor Statistics (Real Time Traffic)",
         "cwe_ids": [
             "CWE-862"
         ]

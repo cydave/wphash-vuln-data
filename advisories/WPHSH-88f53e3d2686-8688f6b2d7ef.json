@@ -51,19 +51,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24842"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/bulk-datetime-change"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/054bd981-dbdd-47dd-bad0-fa327e5860a2"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/bulk-datetime-change/"
+            "url": "https://plugins.trac.wordpress.org/changeset/2618982"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24842"
         }
     ],
     "database_specific": {
+        "slug": "bulk-datetime-change",
+        "name": "Bulk Datetime Change",
         "cwe_ids": [
             "CWE-862"
         ]

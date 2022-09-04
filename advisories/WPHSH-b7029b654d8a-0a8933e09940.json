@@ -120,19 +120,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15329"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/import-users-from-csv-with-meta"
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/browser/import-users-from-csv-with-meta?rev=2050450"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/import-users-from-csv-with-meta/"
+            "url": "https://wordpress.org/plugins/import-users-from-csv-with-meta/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15329"
         }
     ],
     "database_specific": {
+        "slug": "import-users-from-csv-with-meta",
+        "name": "Import and export users and customers",
         "cwe_ids": [
             "CWE-352"
         ]

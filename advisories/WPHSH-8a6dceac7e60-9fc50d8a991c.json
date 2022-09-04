@@ -42,19 +42,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9413"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/simple-ip-ban"
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/129500/WordPress-IP-Ban-1.2.3-CSRF-XSS.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/simple-ip-ban/"
+            "url": "https://wordpress.org/plugins/simple-ip-ban/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/99503"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9413"
         }
     ],
     "database_specific": {
+        "slug": "simple-ip-ban",
+        "name": "IP Ban",
         "cwe_ids": [
             "CWE-352"
         ]

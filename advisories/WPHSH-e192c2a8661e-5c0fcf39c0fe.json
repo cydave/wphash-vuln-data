@@ -46,19 +46,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5368"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-source-control"
+            "type": "WEB",
+            "url": "http://seclists.org/oss-sec/2014/q3/417"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-source-control/"
+            "url": "http://seclists.org/oss-sec/2014/q3/407"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/69278"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/95374"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5368"
         }
     ],
     "database_specific": {
+        "slug": "wp-source-control",
+        "name": "WP Source Control",
         "cwe_ids": [
             "CWE-22"
         ]

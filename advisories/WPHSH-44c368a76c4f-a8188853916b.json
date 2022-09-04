@@ -49,19 +49,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/db8ace7b-7a44-4620-9fe8-ddf0ad520f5e"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24636"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/print-my-blog"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/print-my-blog/"
         }
     ],
     "database_specific": {
+        "slug": "print-my-blog",
+        "name": "Print My Blog \u2013 Print, PDF, & eBook Converter WordPress Plugin",
         "cwe_ids": [
             "CWE-352"
         ]

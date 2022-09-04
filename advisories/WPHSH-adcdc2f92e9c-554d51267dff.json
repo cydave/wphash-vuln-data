@@ -122,19 +122,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38342"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-nested-pages"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2021/08/nested-pages-pat\u2026on-vulnerability/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-nested-pages/"
+            "url": "https://www.wordfence.com/vulnerability-advisories/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38342"
         }
     ],
     "database_specific": {
+        "slug": "wp-nested-pages",
+        "name": "Nested Pages",
         "cwe_ids": [
             "CWE-352"
         ]

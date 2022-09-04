@@ -44,19 +44,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9234"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cp-contact-form-with-paypal"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/cp-contact-form-with-paypal/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/cp-contact-form-with-paypal/"
+            "url": "http://seclists.org/oss-sec/2015/q3/88"
+        },
+        {
+            "type": "WEB",
+            "url": "http://seclists.org/fulldisclosure/2015/Jul/49"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9234"
         }
     ],
     "database_specific": {
+        "slug": "cp-contact-form-with-paypal",
+        "name": "CP Contact Form with PayPal",
         "cwe_ids": [
             "CWE-89"
         ]

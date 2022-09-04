@@ -40,19 +40,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://cybersecurityworks.com/zerodays/cve-2021-33850-stored-cross-site-scripting-xss-in-wordpress-microsoft-clarity-plugin.html"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33850"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/microsoft-clarity"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/microsoft-clarity/"
         }
     ],
     "database_specific": {
+        "slug": "microsoft-clarity",
+        "name": "Microsoft Clarity",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -157,19 +157,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5671"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/booking-calendar"
+            "type": "WEB",
+            "url": "https://github.com/d4wner/Vulnerabilities-Report/blob/master/booking-calendar.md"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/booking-calendar/"
+            "url": "https://wpvulndb.com/vulnerabilities/9012"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5671"
         }
     ],
     "database_specific": {
+        "slug": "booking-calendar",
+        "name": "Booking calendar, Appointment Booking System",
         "cwe_ids": [
             "CWE-79"
         ]

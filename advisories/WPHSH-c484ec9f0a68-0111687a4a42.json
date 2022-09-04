@@ -71,19 +71,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14216"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/svg-vector-icon-plugin"
+            "type": "WEB",
+            "url": "https://zeroauth.ltd/blog/2019/08/09/cve-2019-14216-svg-vector-icon-plugin-wordpress-plugin-vulnerable-to-csrf-and-arbitrary-file-upload-leading-to-remote-code-execution/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/svg-vector-icon-plugin/"
+            "url": "https://wpvulndb.com/vulnerabilities/9510"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14216"
         }
     ],
     "database_specific": {
+        "slug": "svg-vector-icon-plugin",
+        "name": "svg-vector-icon-plugin",
         "cwe_ids": [
             "CWE-352"
         ]

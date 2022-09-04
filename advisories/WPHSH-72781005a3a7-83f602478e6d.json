@@ -82,17 +82,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2557"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/tlp-team"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/tlp-team/"
         }
     ],
     "database_specific": {
+        "slug": "tlp-team",
+        "name": "Team \u2013 WordPress Team Members Showcase Plugin",
         "cwe_ids": []
     }
 }

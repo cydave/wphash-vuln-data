@@ -133,19 +133,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4033"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/zingiri-web-shop"
+            "type": "WEB",
+            "url": "http://forums.zingiri.com/announcements.php?aid=2"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/zingiri-web-shop/"
+            "url": "http://secunia.com/advisories/48909"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/extend/plugins/zingiri-web-shop/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/75044"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4033"
         }
     ],
     "database_specific": {
+        "slug": "zingiri-web-shop",
+        "name": "zingiri-web-shop",
         "cwe_ids": []
     }
 }

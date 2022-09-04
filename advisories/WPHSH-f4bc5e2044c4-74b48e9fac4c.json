@@ -133,19 +133,41 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8801"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/paid-memberships-pro"
+            "type": "WEB",
+            "url": "http://www.exploit-db.com/exploits/35303"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/paid-memberships-pro/"
+            "url": "http://security.szurek.pl/paid-memberships-pro-17142-path-traversal.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/paid-memberships-pro/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.paidmembershipspro.com/2014/11/critical-security-update-pmpro-v1-7-15/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/71293"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/129189/Paid-Memberships-Pro-1.7.14.2-Path-Traversal.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/98805"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8801"
         }
     ],
     "database_specific": {
+        "slug": "paid-memberships-pro",
+        "name": "Paid Memberships Pro \u2013 Restrict Member Access to Content, Courses, Communities \u2013 Free or Paid Subscriptions",
         "cwe_ids": [
             "CWE-22"
         ]

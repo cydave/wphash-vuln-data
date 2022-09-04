@@ -46,19 +46,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/431901eb-0f95-4033-b943-324e6d3844a5"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24633"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/countdown-block"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/countdown-block/"
         }
     ],
     "database_specific": {
+        "slug": "countdown-block",
+        "name": "Countdown Block",
         "cwe_ids": [
             "CWE-862"
         ]

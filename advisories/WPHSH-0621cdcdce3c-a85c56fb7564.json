@@ -54,19 +54,37 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1463"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-table-reloaded"
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/57664"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-table-reloaded/"
+            "url": "http://packetstormsecurity.com/files/119968/WordPress-WP-Table-Reloaded-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://tobias.baethge.com/2013/01/maintenance-release-wp-table-reloaded-1-9-4/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/89754"
+        },
+        {
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/52027"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/81748"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1463"
         }
     ],
     "database_specific": {
+        "slug": "wp-table-reloaded",
+        "name": "wp-table-reloaded",
         "cwe_ids": [
             "CWE-79"
         ]

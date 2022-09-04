@@ -76,19 +76,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-15919"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ultimate-form-builder-lite"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2017/10/zero-day-vulnerability-ultimate-form-builder-lite/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ultimate-form-builder-lite/"
+            "url": "https://wordpress.org/plugins/ultimate-form-builder-lite/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8935"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/101604"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-15919"
         }
     ],
     "database_specific": {
+        "slug": "ultimate-form-builder-lite",
+        "name": "Contact Form for WordPress \u2013 Ultimate Form Builder Lite",
         "cwe_ids": [
             "CWE-89"
         ]

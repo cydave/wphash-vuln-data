@@ -639,19 +639,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24371"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/rsvpmaker"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/63be225c-ebee-4cac-b43e-cf033ee7425d"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/rsvpmaker/"
+            "url": "https://codevigilant.com/disclosure/2021/wp-plugin-rsvpmaker/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24371"
         }
     ],
     "database_specific": {
+        "slug": "rsvpmaker",
+        "name": "RSVPMaker",
         "cwe_ids": [
             "CWE-918"
         ]

@@ -46,19 +46,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/simple-add-pages-or-posts/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10883"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/simple-add-pages-or-posts"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/simple-add-pages-or-posts/"
         }
     ],
     "database_specific": {
+        "slug": "simple-add-pages-or-posts",
+        "name": "Simple add pages or posts",
         "cwe_ids": [
             "CWE-352"
         ]

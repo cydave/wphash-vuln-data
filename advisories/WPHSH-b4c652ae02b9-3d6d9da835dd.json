@@ -231,19 +231,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/43581d6b-333a-48d9-a1ae-b9479da8ff87"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1320"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/slider-wd"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/slider-wd/"
         }
     ],
     "database_specific": {
+        "slug": "slider-wd",
+        "name": "Sliderby10Web",
         "cwe_ids": [
             "CWE-79"
         ]

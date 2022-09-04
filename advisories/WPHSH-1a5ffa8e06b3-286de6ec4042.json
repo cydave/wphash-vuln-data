@@ -69,19 +69,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/4204682b-f657-42e1-941c-bee7a245e9fd"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24906"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/protect-wp-admin"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/protect-wp-admin/"
         }
     ],
     "database_specific": {
+        "slug": "protect-wp-admin",
+        "name": "Protect WP Admin",
         "cwe_ids": [
             "CWE-862"
         ]

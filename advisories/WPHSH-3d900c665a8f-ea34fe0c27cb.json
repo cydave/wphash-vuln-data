@@ -146,26 +146,28 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39321"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sassy-social-share"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2021/10/vulnerability-patched-in-sassy-social-share-plugin/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/sassy-social-share/"
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2021-39321"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2600464/sassy-social-share/trunk/admin/class-sassy-social-share-admin.php"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39321"
         }
     ],
     "database_specific": {
+        "slug": "sassy-social-share",
+        "name": "Social Sharing Plugin \u2013 Sassy Social Share",
         "cwe_ids": [
-            "CWE-863",
-            "CWE-502"
+            "CWE-502",
+            "CWE-863"
         ]
     }
 }

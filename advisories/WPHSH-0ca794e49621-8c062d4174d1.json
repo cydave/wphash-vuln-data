@@ -51,19 +51,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/6b71eb38-0a4a-49d1-96bc-84bbe675be1e"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1327"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/gallery-image-gallery-photo"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/gallery-image-gallery-photo/"
         }
     ],
     "database_specific": {
+        "slug": "gallery-image-gallery-photo",
+        "name": "Image Gallery \u2013 Grid Gallery",
         "cwe_ids": [
             "CWE-79"
         ]

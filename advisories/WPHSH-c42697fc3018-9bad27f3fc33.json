@@ -57,19 +57,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/4ad297e5-c92d-403c-abf4-9decf7e8378b"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1945"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/colorlib-coming-soon-maintenance"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/colorlib-coming-soon-maintenance/"
         }
     ],
     "database_specific": {
+        "slug": "colorlib-coming-soon-maintenance",
+        "name": "Coming Soon & Maintenance Mode by Colorlib",
         "cwe_ids": [
             "CWE-79"
         ]

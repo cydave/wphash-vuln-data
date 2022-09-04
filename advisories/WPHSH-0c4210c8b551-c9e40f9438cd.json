@@ -89,17 +89,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2382"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/woo-product-slider"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/woo-product-slider/"
         }
     ],
     "database_specific": {
+        "slug": "woo-product-slider",
+        "name": "Product Slider for WooCommerce",
         "cwe_ids": []
     }
 }

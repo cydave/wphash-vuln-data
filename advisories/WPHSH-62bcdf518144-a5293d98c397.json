@@ -106,17 +106,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9309"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/formidable"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/formidable/"
         }
     ],
     "database_specific": {
+        "slug": "formidable",
+        "name": "Formidable Forms \u2013 Contact Form, Survey, Quiz, Calculator & Custom Form Builder",
         "cwe_ids": []
     }
 }

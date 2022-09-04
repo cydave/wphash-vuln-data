@@ -107,22 +107,32 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11557"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contact-form-builder"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/contact-form-builder/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/contact-form-builder/"
+            "url": "https://lists.openwall.net/full-disclosure/2019/04/23/1"
+        },
+        {
+            "type": "WEB",
+            "url": "http://seclists.org/fulldisclosure/2019/Apr/35"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/9260"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11557"
         }
     ],
     "database_specific": {
+        "slug": "contact-form-builder",
+        "name": "WDContactFormBuilder",
         "cwe_ids": [
-            "CWE-352",
-            "CWE-22"
+            "CWE-22",
+            "CWE-352"
         ]
     }
 }

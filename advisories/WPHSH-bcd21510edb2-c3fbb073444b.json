@@ -54,19 +54,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/90f9ad6a-4855-4a8e-97f6-5f403eb6455d"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0648"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/circle-image-slider-with-lightbox"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/circle-image-slider-with-lightbox/"
         }
     ],
     "database_specific": {
+        "slug": "circle-image-slider-with-lightbox",
+        "name": "Team Circle Image Slider With Lightbox",
         "cwe_ids": [
             "CWE-79"
         ]

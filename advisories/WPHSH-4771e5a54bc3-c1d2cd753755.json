@@ -53,17 +53,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34868"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/yookassa"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/yookassa/"
         }
     ],
     "database_specific": {
+        "slug": "yookassa",
+        "name": "\u042eKassa \u0434\u043b\u044f WooCommerce",
         "cwe_ids": []
     }
 }

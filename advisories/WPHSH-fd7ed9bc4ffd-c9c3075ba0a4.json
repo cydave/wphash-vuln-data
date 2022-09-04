@@ -111,19 +111,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/e61dd498-5d0e-45ce-b660-a36c576f8d78"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24640"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/gutenslider"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/gutenslider/"
         }
     ],
     "database_specific": {
+        "slug": "gutenslider",
+        "name": "WordPress Slider Block Gutenslider",
         "cwe_ids": [
             "CWE-79"
         ]

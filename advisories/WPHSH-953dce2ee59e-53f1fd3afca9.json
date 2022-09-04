@@ -176,19 +176,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8353"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/role-scoper"
+            "type": "WEB",
+            "url": "https://www.htbridge.com/advisory/HTB23276"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/role-scoper/"
+            "url": "https://wpvulndb.com/vulnerabilities/8347"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/role-scoper/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/134600/WordPress-Role-Scoper-1.3.66-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/537019/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8353"
         }
     ],
     "database_specific": {
+        "slug": "role-scoper",
+        "name": "role-scoper",
         "cwe_ids": [
             "CWE-79"
         ]

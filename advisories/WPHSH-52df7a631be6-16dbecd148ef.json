@@ -171,19 +171,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-0642"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/fv-wordpress-flowplayer"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/fv-wordpress-flowplayer/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/fv-wordpress-flowplayer/"
+            "url": "http://jvn.jp/en/jp/JVN70246549/index.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-0642"
         }
     ],
     "database_specific": {
+        "slug": "fv-wordpress-flowplayer",
+        "name": "FV Flowplayer Video Player",
         "cwe_ids": [
             "CWE-79"
         ]

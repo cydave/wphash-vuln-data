@@ -54,19 +54,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9434"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/kiwi-logo-carousel"
+            "type": "WEB",
+            "url": "http://cinu.pl/research/wp-plugins/mail_3764bb40db5ed12aac2c7812d7544730.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/kiwi-logo-carousel/"
+            "url": "https://wordpress.org/plugins/kiwi-logo-carousel/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8290"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9434"
         }
     ],
     "database_specific": {
+        "slug": "kiwi-logo-carousel",
+        "name": "kiwi-logo-carousel",
         "cwe_ids": [
             "CWE-352"
         ]

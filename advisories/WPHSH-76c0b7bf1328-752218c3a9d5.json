@@ -98,14 +98,17 @@
                 "3.26.3",
                 "3.26.1",
                 "3.26",
+                "wpchef-salon-booking-plugin-01742f5df862",
                 "3.25",
                 "3.24.1",
                 "3.24",
                 "3.23",
+                "salon-booking-system (trunk)",
                 "3.22.2",
                 "3.22.1",
                 "3.22",
                 "3.21",
+                "wpchef-salon-booking-plugin-87fec957b982",
                 "3.20.1",
                 "3.20",
                 "3.19.1",
@@ -131,6 +134,7 @@
                 "3.9.3",
                 "3.9.0",
                 "3.8.4",
+                "wpchef-salon-booking-plugin-729d692789b2",
                 "3.8.1",
                 "3.8",
                 "3.6",
@@ -151,6 +155,7 @@
                 "2.1.0",
                 "2.0.1",
                 "2.0",
+                "salon-booking-system",
                 "1.3.1",
                 "1.3.0",
                 "1.2.2",
@@ -159,7 +164,12 @@
                 "1.0.6",
                 "1.0.5",
                 "1.0.4",
+                "bitbuket",
                 "1.0.3",
+                "languages",
+                "views",
+                "src",
+                "less",
                 "1.0.1",
                 "1.0"
             ]
@@ -167,19 +177,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/e8f32e0b-4a89-460b-bb78-7c83ef5e16b4"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0919"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/salon-booking-system"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/salon-booking-system/"
         }
     ],
     "database_specific": {
+        "slug": "salon-booking-system",
+        "name": "Salon booking system",
         "cwe_ids": [
             "CWE-862"
         ]

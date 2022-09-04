@@ -211,19 +211,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0228"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/popup-builder"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/22facac2-52f4-4e5f-be59-1d2934b260d9"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/popup-builder/"
+            "url": "https://plugins.trac.wordpress.org/changeset/2659117"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0228"
         }
     ],
     "database_specific": {
+        "slug": "popup-builder",
+        "name": "Popup Builder \u2013 Create highly converting, mobile friendly marketing popups.",
         "cwe_ids": [
             "CWE-89"
         ]

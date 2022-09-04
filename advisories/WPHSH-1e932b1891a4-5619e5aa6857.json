@@ -62,19 +62,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5468"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-ecommerce-shop-styling"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-ecommerce-shop-styling/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-ecommerce-shop-styling/"
+            "url": "http://www.vapid.dhs.org/advisory.php?v=136"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.openwall.com/lists/oss-security/2015/07/10/4"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.openwall.com/lists/oss-security/2015/07/06/19"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5468"
         }
     ],
     "database_specific": {
+        "slug": "wp-ecommerce-shop-styling",
+        "name": "wp-ecommerce-shop-styling",
         "cwe_ids": [
             "CWE-22"
         ]

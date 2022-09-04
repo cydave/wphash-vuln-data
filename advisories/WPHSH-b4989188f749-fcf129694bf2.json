@@ -179,17 +179,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2657"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/dc-woocommerce-multi-vendor"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/dc-woocommerce-multi-vendor/"
         }
     ],
     "database_specific": {
+        "slug": "dc-woocommerce-multi-vendor",
+        "name": "Multivendor Marketplace Solution for WooCommerce \u2013 WC Marketplace",
         "cwe_ids": []
     }
 }

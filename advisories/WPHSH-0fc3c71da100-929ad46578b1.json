@@ -263,19 +263,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20838"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/accelerated-mobile-pages"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2018/11/xss-injection-campaign-exploits-wordpress-amp-plugin/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/accelerated-mobile-pages/"
+            "url": "https://wordpress.org/plugins/accelerated-mobile-pages/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/browser/accelerated-mobile-pages/trunk/changelog.txt"
+        },
+        {
+            "type": "WEB",
+            "url": "https://ampforwp.com/critical-security-issues-has-been-fixed-in-0-9-97-20-version/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20838"
         }
     ],
     "database_specific": {
+        "slug": "accelerated-mobile-pages",
+        "name": "AMP for WP \u2013 Accelerated Mobile Pages",
         "cwe_ids": [
             "CWE-79"
         ]

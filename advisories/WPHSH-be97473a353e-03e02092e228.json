@@ -96,19 +96,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24454"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/yop-poll"
+            "type": "WEB",
+            "url": "https://www.in-spired.xyz/discovering-wordpress-plugin-yop-polls-v6-2-7-stored-xss/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/yop-poll/"
+            "url": "https://wpscan.com/vulnerability/48ade7a5-5abb-4267-b9b6-13e31e1b3e91"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24454"
         }
     ],
     "database_specific": {
+        "slug": "yop-poll",
+        "name": "YOP Poll",
         "cwe_ids": [
             "CWE-79"
         ]

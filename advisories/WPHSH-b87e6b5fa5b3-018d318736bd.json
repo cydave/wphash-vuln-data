@@ -63,19 +63,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12241"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/carts-guru"
+            "type": "WEB",
+            "url": "http://dumpco.re/bugs/wp-plugin-carts-guru-id"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/carts-guru/"
+            "url": "https://wpvulndb.com/vulnerabilities/9292"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12241"
         }
     ],
     "database_specific": {
+        "slug": "carts-guru",
+        "name": "Carts Guru",
         "cwe_ids": [
             "CWE-502"
         ]

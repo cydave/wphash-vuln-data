@@ -65,8 +65,12 @@
                 "1.0.7",
                 "1.0.6",
                 "1.0.5",
+                "languages",
+                "views",
+                "assets",
                 "1.0.4",
                 "1.0.3-beta",
+                "X.X.X",
                 "1.0.2-beta",
                 "1.0.1-beta",
                 "1.0.0"
@@ -75,22 +79,24 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29444"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/breeze"
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/breeze/wordpress-breeze-plugin-2-0-2-plugin-settings-change-leading-to-cross-site-scripting-xss-vulnerability"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/breeze/"
+            "url": "https://wordpress.org/plugins/breeze/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29444"
         }
     ],
     "database_specific": {
+        "slug": "breeze",
+        "name": "Breeze \u2013 WordPress Cache Plugin",
         "cwe_ids": [
-            "CWE-79",
-            "CWE-264"
+            "CWE-264",
+            "CWE-79"
         ]
     }
 }

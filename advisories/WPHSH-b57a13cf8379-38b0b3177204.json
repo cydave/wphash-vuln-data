@@ -96,19 +96,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/479704d8-057b-4642-b84a-4a78567ba20b"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24930"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/bookly-responsive-appointment-booking-tool"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/bookly-responsive-appointment-booking-tool/"
         }
     ],
     "database_specific": {
+        "slug": "bookly-responsive-appointment-booking-tool",
+        "name": "WordPress Online Booking and Scheduling Plugin \u2013 Bookly",
         "cwe_ids": [
             "CWE-79"
         ]

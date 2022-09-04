@@ -198,19 +198,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36849"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mashsharer"
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/mashsharer/wordpress-social-media-share-buttons-plugin-3-8-1-authenticated-stored-cross-site-scripting-xss-vulnerability"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/mashsharer/"
+            "url": "https://wordpress.org/plugins/mashsharer/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36849"
         }
     ],
     "database_specific": {
+        "slug": "mashsharer",
+        "name": "Social Media Share Buttons | MashShare",
         "cwe_ids": [
             "CWE-79"
         ]

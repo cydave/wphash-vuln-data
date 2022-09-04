@@ -52,17 +52,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34858"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/oauth-client"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/oauth-client/"
         }
     ],
     "database_specific": {
+        "slug": "oauth-client",
+        "name": "OAuth 2.0 client for SSO",
         "cwe_ids": []
     }
 }

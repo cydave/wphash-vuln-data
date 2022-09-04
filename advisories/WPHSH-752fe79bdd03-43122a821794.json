@@ -319,19 +319,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9335"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/photo-gallery"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/photo-gallery/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/photo-gallery/"
+            "url": "https://wpvulndb.com/vulnerabilities/10088"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9335"
         }
     ],
     "database_specific": {
+        "slug": "photo-gallery",
+        "name": "Photo Gallery by 10Web \u2013 Mobile-Friendly Image Gallery",
         "cwe_ids": [
             "CWE-79"
         ]

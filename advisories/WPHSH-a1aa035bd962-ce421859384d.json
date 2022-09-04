@@ -106,19 +106,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/58c9a007-42db-4142-b096-0b9ba8850f87"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24798"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-header-images"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-header-images/"
         }
     ],
     "database_specific": {
+        "slug": "wp-header-images",
+        "name": "WP Header Images",
         "cwe_ids": [
             "CWE-79"
         ]

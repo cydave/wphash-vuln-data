@@ -166,19 +166,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4595"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/pretty-link"
+            "type": "WEB",
+            "url": "https://www.openwall.com/lists/oss-security/2011/12/08/5"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/pretty-link/"
+            "url": "https://wordpress.org/support/topic/plugin-pretty-link-lite-152-xss-vulnerability/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4595"
         }
     ],
     "database_specific": {
+        "slug": "pretty-link",
+        "name": "Pretty Links \u2013 Link Management, Branding, Tracking & Sharing Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

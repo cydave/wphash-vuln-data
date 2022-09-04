@@ -71,19 +71,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://zeroaptitude.com/misha/wordpress-plugin-bug-hunting-part-2/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25378"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-floating-menu"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-floating-menu/"
         }
     ],
     "database_specific": {
+        "slug": "wp-floating-menu",
+        "name": "WP Floating Menu \u2013 One page navigator, sticky menu for WordPress",
         "cwe_ids": [
             "CWE-79"
         ]

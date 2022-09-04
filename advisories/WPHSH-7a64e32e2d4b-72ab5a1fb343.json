@@ -227,19 +227,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/87546554-276a-45fe-b2aa-b18bfc55db2d"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2092"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/woocommerce-pdf-invoices-packing-slips"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/woocommerce-pdf-invoices-packing-slips/"
         }
     ],
     "database_specific": {
+        "slug": "woocommerce-pdf-invoices-packing-slips",
+        "name": "WooCommerce PDF Invoices & Packing Slips",
         "cwe_ids": [
             "CWE-79"
         ]

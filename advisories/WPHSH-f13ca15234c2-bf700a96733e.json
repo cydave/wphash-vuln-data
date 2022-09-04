@@ -139,19 +139,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0383"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-facebook-reviews"
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/changeset/2666513"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-facebook-reviews/"
+            "url": "https://wpscan.com/vulnerability/e0402753-3a80-455b-9fab-a7d2a7687193"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0383"
         }
     ],
     "database_specific": {
+        "slug": "wp-facebook-reviews",
+        "name": "WP Review Slider",
         "cwe_ids": [
             "CWE-89"
         ]

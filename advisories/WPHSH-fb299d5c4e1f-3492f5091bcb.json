@@ -257,19 +257,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "http://www.defensecode.com/advisories/DC-2017-05-006_WordPress_Podlove_Podcast_Publisher_Plugin_Advisory.pdf"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-12949"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/podlove-podcasting-plugin-for-wordpress"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/podlove-podcasting-plugin-for-wordpress/"
         }
     ],
     "database_specific": {
+        "slug": "podlove-podcasting-plugin-for-wordpress",
+        "name": "Podlove Podcast Publisher",
         "cwe_ids": [
             "CWE-89"
         ]

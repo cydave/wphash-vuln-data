@@ -40,19 +40,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-17043"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/emag-marketplace-connector"
+            "type": "WEB",
+            "url": "https://wordpress.org/support/topic/wordpress-emag-marketplace-connector-1-0-cross-site-scripting-vulnerability/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/emag-marketplace-connector/"
+            "url": "https://packetstormsecurity.com/files/145060/wpemagmc10-xss.txt"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8964"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-17043"
         }
     ],
     "database_specific": {
+        "slug": "emag-marketplace-connector",
+        "name": "emag-marketplace-connector",
         "cwe_ids": [
             "CWE-79"
         ]

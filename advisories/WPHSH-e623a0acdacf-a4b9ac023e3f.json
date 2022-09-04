@@ -72,19 +72,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9415"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/bj-lazy-load"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8174"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/bj-lazy-load/"
+            "url": "https://wordpress.org/plugins/bj-lazy-load/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9415"
         }
     ],
     "database_specific": {
+        "slug": "bj-lazy-load",
+        "name": "BJ Lazy Load",
         "cwe_ids": [
             "CWE-20"
         ]

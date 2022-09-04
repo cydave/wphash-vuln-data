@@ -78,19 +78,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/59911ba4-fa06-498a-9e7c-0c337cce691c"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2114"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/data-tables-generator-by-supsystic"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/data-tables-generator-by-supsystic/"
         }
     ],
     "database_specific": {
+        "slug": "data-tables-generator-by-supsystic",
+        "name": "Data Tables Generator by Supsystic",
         "cwe_ids": [
             "CWE-79"
         ]

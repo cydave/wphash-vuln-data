@@ -128,19 +128,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/d973dc0f-3cb4-408d-a8b0-01abeb9ef951"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24796"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/my-tickets"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/my-tickets/"
         }
     ],
     "database_specific": {
+        "slug": "my-tickets",
+        "name": "My Tickets",
         "cwe_ids": [
             "CWE-79"
         ]

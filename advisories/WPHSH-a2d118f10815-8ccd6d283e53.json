@@ -84,19 +84,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/5dd6f625-6738-4e6a-81dc-21c0add4368d"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0600"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/conference-scheduler"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/conference-scheduler/"
         }
     ],
     "database_specific": {
+        "slug": "conference-scheduler",
+        "name": "Conference Scheduler",
         "cwe_ids": [
             "CWE-79"
         ]

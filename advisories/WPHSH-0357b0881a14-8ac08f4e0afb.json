@@ -140,19 +140,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34628"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/admin-custom-login"
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/browser/admin-custom-login/tags/3.2.7/includes/login-form-setting/login-form-background.php#L686"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/admin-custom-login/"
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2021-34628"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34628"
         }
     ],
     "database_specific": {
+        "slug": "admin-custom-login",
+        "name": "Admin Custom Login",
         "cwe_ids": [
             "CWE-352"
         ]

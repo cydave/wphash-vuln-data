@@ -175,19 +175,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/43aa30bf-eaf8-467a-93a1-78f9bdb37b36"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24123"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/powerpress"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/powerpress/"
         }
     ],
     "database_specific": {
+        "slug": "powerpress",
+        "name": "PowerPress Podcasting plugin by Blubrry",
         "cwe_ids": [
             "CWE-434"
         ]

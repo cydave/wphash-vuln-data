@@ -60,19 +60,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5389"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/content-audit"
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/128525/WordPress-Content-Audit-1.6-Blind-SQL-Injection.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/content-audit/"
+            "url": "http://seclists.org/fulldisclosure/2014/Oct/8"
+        },
+        {
+            "type": "WEB",
+            "url": "https://security.dxw.com/advisories/blind-sqli-vulnerability-in-content-audit-could-allow-a-privileged-attacker-to-exfiltrate-password-hashes/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/content-audit/changelog"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/70214"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5389"
         }
     ],
     "database_specific": {
+        "slug": "content-audit",
+        "name": "Content Audit",
         "cwe_ids": [
             "CWE-89"
         ]

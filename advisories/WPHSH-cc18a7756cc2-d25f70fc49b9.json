@@ -54,19 +54,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-4812"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/markdown-on-save-improved"
+            "type": "WEB",
+            "url": "http://jvndb.jvn.jp/jvndb/JVNDB-2016-000071"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/markdown-on-save-improved/"
+            "url": "http://jvn.jp/en/jp/JVN26026353/index.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://srd.wordpress.org/plugins/markdown-on-save-improved/changelog/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-4812"
         }
     ],
     "database_specific": {
+        "slug": "markdown-on-save-improved",
+        "name": "markdown-on-save-improved",
         "cwe_ids": [
             "CWE-79"
         ]

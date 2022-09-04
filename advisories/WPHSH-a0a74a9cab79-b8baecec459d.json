@@ -54,19 +54,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/8f14733e-84c3-4f7c-93f8-e27c74519160"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24494"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-ses"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-ses/"
         }
     ],
     "database_specific": {
+        "slug": "wp-ses",
+        "name": "WP Offload SES Lite",
         "cwe_ids": [
             "CWE-79"
         ]

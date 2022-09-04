@@ -57,19 +57,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8819"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cardgate"
+            "type": "WEB",
+            "url": "https://github.com/cardgate/woocommerce/issues/18"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/cardgate/"
+            "url": "https://github.com/cardgate/woocommerce/blob/f2111af7b1a3fd701c1c5916137f3ac09482feeb/cardgate/cardgate.php#L426-L442"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/156504/WordPress-WooCommerce-CardGate-Payment-Gateway-3.1.15-Bypass.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/48134"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/10097"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8819"
         }
     ],
     "database_specific": {
+        "slug": "cardgate",
+        "name": "CardGate Payments for WooCommerce",
         "cwe_ids": [
             "CWE-346"
         ]

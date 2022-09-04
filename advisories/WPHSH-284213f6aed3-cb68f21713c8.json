@@ -136,19 +136,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/832fe086-1d33-430b-bdb5-e444761576b2"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24523"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/daily-prayer-time-for-mosques"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/daily-prayer-time-for-mosques/"
         }
     ],
     "database_specific": {
+        "slug": "daily-prayer-time-for-mosques",
+        "name": "Daily Prayer Time",
         "cwe_ids": [
             "CWE-79"
         ]

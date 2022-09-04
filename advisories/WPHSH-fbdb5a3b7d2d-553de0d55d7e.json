@@ -72,19 +72,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-11007"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-invoice"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8378"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-invoice/"
+            "url": "https://wordpress.org/plugins/wp-invoice/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.pritect.net/blog/wp-invoice-4-1-1-security-vulnerabilities"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-11007"
         }
     ],
     "database_specific": {
+        "slug": "wp-invoice",
+        "name": "wp-invoice",
         "cwe_ids": [
             "CWE-668"
         ]

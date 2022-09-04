@@ -76,19 +76,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/cf031259-b76e-475c-8a8e-fa6a0d9e7bb4"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24832"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-seo-redirect-301"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-seo-redirect-301/"
         }
     ],
     "database_specific": {
+        "slug": "wp-seo-redirect-301",
+        "name": "WP SEO Redirect 301",
         "cwe_ids": [
             "CWE-352"
         ]

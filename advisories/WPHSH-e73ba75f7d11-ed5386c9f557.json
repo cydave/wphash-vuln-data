@@ -48,19 +48,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10762"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/camptix"
+            "type": "WEB",
+            "url": "https://hackerone.com/reports/151516"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/camptix/"
+            "url": "https://wordpress.org/plugins/camptix/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10762"
         }
     ],
     "database_specific": {
+        "slug": "camptix",
+        "name": "camptix",
         "cwe_ids": [
             "CWE-77"
         ]

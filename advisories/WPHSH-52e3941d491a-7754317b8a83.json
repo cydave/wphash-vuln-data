@@ -65,17 +65,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-35235"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wpide"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wpide/"
         }
     ],
     "database_specific": {
+        "slug": "wpide",
+        "name": "WPIDE \u2013 File Manager & Code Editor",
         "cwe_ids": []
     }
 }

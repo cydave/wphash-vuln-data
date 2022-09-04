@@ -155,19 +155,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/6bed00e4-b363-43b8-a392-d068d342151a"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24731"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/pie-register"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/pie-register/"
         }
     ],
     "database_specific": {
+        "slug": "pie-register",
+        "name": "Registration Forms \u2013 User Profile, Custom Registration Form, Login Form, Invitation-Based Registrations for WordPress",
         "cwe_ids": [
             "CWE-89"
         ]

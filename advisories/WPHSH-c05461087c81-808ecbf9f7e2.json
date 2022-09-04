@@ -77,19 +77,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23912"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ap-custom-testimonial"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/09512431-aa33-4514-8b20-1963c5d89f33"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/ap-custom-testimonial/"
+            "url": "https://plugins.trac.wordpress.org/changeset/2664185"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23912"
         }
     ],
     "database_specific": {
+        "slug": "ap-custom-testimonial",
+        "name": "Testimonial WordPress Plugin \u2013 AP Custom Testimonial",
         "cwe_ids": [
             "CWE-79"
         ]

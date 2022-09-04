@@ -66,19 +66,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2703"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/facebook-members"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/52962"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/facebook-members/"
+            "url": "http://wordpress.org/extend/plugins/facebook-members/changelog/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2703"
         }
     ],
     "database_specific": {
+        "slug": "facebook-members",
+        "name": "facebook-members",
         "cwe_ids": [
             "CWE-352"
         ]

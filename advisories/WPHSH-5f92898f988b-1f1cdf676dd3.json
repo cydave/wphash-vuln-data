@@ -96,23 +96,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24851"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/insert-pages"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2614442/insert-pages"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/insert-pages/"
+            "url": "https://wpscan.com/vulnerability/919e67a1-3a50-4940-bb4f-5c5cc2017a83"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/2614442/insert-pages"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24851"
         }
     ],
     "database_specific": {
+        "slug": "insert-pages",
+        "name": "Insert Pages",
         "cwe_ids": [
             "CWE-862"
         ]

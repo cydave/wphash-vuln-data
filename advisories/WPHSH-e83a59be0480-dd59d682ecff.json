@@ -54,19 +54,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7048"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wordpress-database-reset"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2020/01/easily-exploitable-vulnerabilities-patched-in-wp-database-reset-plugin/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wordpress-database-reset/"
+            "url": "https://wordpress.org/plugins/wordpress-database-reset/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/10027"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7048"
         }
     ],
     "database_specific": {
+        "slug": "wordpress-database-reset",
+        "name": "Database Reset",
         "cwe_ids": [
             "CWE-306"
         ]

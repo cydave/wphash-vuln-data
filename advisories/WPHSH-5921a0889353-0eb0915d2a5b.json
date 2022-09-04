@@ -41,19 +41,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/14b29450-2450-4b5f-8630-bb2cbfbd0a83"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24722"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mp-restaurant-menu"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/mp-restaurant-menu/"
         }
     ],
     "database_specific": {
+        "slug": "mp-restaurant-menu",
+        "name": "Restaurant Menu by MotoPress",
         "cwe_ids": [
             "CWE-79"
         ]

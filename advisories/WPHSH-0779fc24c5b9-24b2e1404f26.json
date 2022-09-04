@@ -209,19 +209,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7586"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/nextgen-gallery"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/nextgen-gallery/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/nextgen-gallery/"
+            "url": "https://wpvulndb.com/vulnerabilities/9033"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7586"
         }
     ],
     "database_specific": {
+        "slug": "nextgen-gallery",
+        "name": "WordPress Gallery Plugin \u2013 NextGEN Gallery",
         "cwe_ids": [
             "CWE-22"
         ]

@@ -55,19 +55,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/af7d62ca-09b3-41c8-b771-be936ce8f6b2"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25005"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/seur"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/seur/"
         }
     ],
     "database_specific": {
+        "slug": "seur",
+        "name": "SEUR Oficial",
         "cwe_ids": [
             "CWE-79"
         ]

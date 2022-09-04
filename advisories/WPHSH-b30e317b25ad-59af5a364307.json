@@ -53,19 +53,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/simple-login-log/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18573"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/simple-login-log"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/simple-login-log/"
         }
     ],
     "database_specific": {
+        "slug": "simple-login-log",
+        "name": "Simple Login Log",
         "cwe_ids": [
             "CWE-89"
         ]

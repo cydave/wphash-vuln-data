@@ -53,19 +53,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/74889e29-5349-43d1-baf5-1622493be90c"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24195"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-content-copy-protector"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-content-copy-protector/"
         }
     ],
     "database_specific": {
+        "slug": "wp-content-copy-protector",
+        "name": "WP Content Copy Protection & No Right Click",
         "cwe_ids": []
     }
 }

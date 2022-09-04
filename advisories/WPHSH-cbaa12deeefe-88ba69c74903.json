@@ -56,19 +56,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/181a729e-fffe-457c-9e8d-a4343fd2e630"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24752"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/essential-widgets"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/essential-widgets/"
         }
     ],
     "database_specific": {
+        "slug": "essential-widgets",
+        "name": "Essential Widgets",
         "cwe_ids": [
             "CWE-352"
         ]

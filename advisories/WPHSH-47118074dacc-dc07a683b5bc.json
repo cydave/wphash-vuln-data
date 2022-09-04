@@ -162,19 +162,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8771"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-time-capsule"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/10010"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-time-capsule/"
+            "url": "https://www.webarxsecurity.com/vulnerability-infinitewp-client-wp-time-capsule/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8771"
         }
     ],
     "database_specific": {
+        "slug": "wp-time-capsule",
+        "name": "Backup and Staging by WP Time Capsule",
         "cwe_ids": [
             "CWE-287"
         ]

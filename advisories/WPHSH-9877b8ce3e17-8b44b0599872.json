@@ -57,17 +57,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2565"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-payment-form"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-payment-form/"
         }
     ],
     "database_specific": {
+        "slug": "wp-payment-form",
+        "name": "Simple Payment Donations & Subscriptions Plugin by Paymattic \u2013 Best Payments Plugin for WP",
         "cwe_ids": []
     }
 }

@@ -103,19 +103,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/446de364-720e-41ec-b80e-7678c8f4ad80"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0205"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/yop-poll"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/yop-poll/"
         }
     ],
     "database_specific": {
+        "slug": "yop-poll",
+        "name": "YOP Poll",
         "cwe_ids": [
             "CWE-79"
         ]

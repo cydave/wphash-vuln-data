@@ -88,19 +88,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24234"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/add-search-to-menu"
+            "type": "WEB",
+            "url": "https://www.getastra.com/blog/911/plugin-exploit/reflected-xss-vulnerability-in-ivory-search-wp-plugin/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/add-search-to-menu/"
+            "url": "https://www.jinsonvarghese.com/reflected-xss-vulnerability-found-in-ivory-search-plugin/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/ecc620be-8e29-4860-9d32-86b5814a3835"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24234"
         }
     ],
     "database_specific": {
+        "slug": "add-search-to-menu",
+        "name": "Ivory Search \u2013 WordPress Search Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

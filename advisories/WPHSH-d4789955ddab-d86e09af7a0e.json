@@ -86,19 +86,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/19bffa71-705c-42fc-b2ca-bf62fabb70a0"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24888"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/imageboss"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/imageboss/"
         }
     ],
     "database_specific": {
+        "slug": "imageboss",
+        "name": "ImageBoss \u2013 Images Up To 60% Smaller & CDN",
         "cwe_ids": [
             "CWE-79"
         ]

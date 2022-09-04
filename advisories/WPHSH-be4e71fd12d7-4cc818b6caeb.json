@@ -179,19 +179,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2169"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/maxbuttons"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/maxbuttons/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/maxbuttons/"
+            "url": "https://jvn.jp/en/jp/JVN70411623/index.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://jvndb.jvn.jp/jvndb/JVNDB-2017-000093"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2169"
         }
     ],
     "database_specific": {
+        "slug": "maxbuttons",
+        "name": "WordPress Button Plugin MaxButtons",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -167,19 +167,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36920"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/download-monitor"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/download-monitor/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/download-monitor/"
+            "url": "https://patchstack.com/database/vulnerability/download-monitor/wordpress-download-monitor-plugin-4-4-6-authenticated-reflected-cross-site-scripting-xss-vulnerability"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36920"
         }
     ],
     "database_specific": {
+        "slug": "download-monitor",
+        "name": "Download Monitor",
         "cwe_ids": [
             "CWE-79"
         ]

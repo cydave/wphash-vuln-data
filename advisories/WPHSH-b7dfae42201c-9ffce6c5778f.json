@@ -172,19 +172,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10977"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/nelio-ab-testing"
+            "type": "WEB",
+            "url": "https://www.openwall.com/lists/oss-security/2016/05/10/1"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/nelio-ab-testing/"
+            "url": "https://wpvulndb.com/vulnerabilities/8491"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/nelio-ab-testing/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10977"
         }
     ],
     "database_specific": {
+        "slug": "nelio-ab-testing",
+        "name": "Nelio AB Testing",
         "cwe_ids": [
             "CWE-22"
         ]

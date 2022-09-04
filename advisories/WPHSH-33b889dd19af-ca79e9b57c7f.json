@@ -120,19 +120,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9410"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/powerpress"
+            "type": "WEB",
+            "url": "https://github.com/cybersecurityworks/Disclosed/issues/7"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/powerpress/"
+            "url": "https://wordpress.org/plugins/powerpress/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://cybersecurityworks.com/zerodays/cve-2015-9410-blubrry.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9410"
         }
     ],
     "database_specific": {
+        "slug": "powerpress",
+        "name": "PowerPress Podcasting plugin by Blubrry",
         "cwe_ids": [
             "CWE-79"
         ]

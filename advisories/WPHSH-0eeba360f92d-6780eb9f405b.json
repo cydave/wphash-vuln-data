@@ -1021,19 +1021,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/8ed549fe-7d27-4a7a-b226-c20252964b29"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24974"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/woo-product-feed-pro"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/woo-product-feed-pro/"
         }
     ],
     "database_specific": {
+        "slug": "woo-product-feed-pro",
+        "name": "Product Feed PRO for WooCommerce",
         "cwe_ids": [
             "CWE-79"
         ]

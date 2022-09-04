@@ -104,19 +104,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/9b8a00a6-622b-4309-bbbf-fe2c7fc9f8b6"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25102"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/all-in-one-wp-security-and-firewall"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/"
         }
     ],
     "database_specific": {
+        "slug": "all-in-one-wp-security-and-firewall",
+        "name": "All In One WP Security & Firewall",
         "cwe_ids": [
             "CWE-79"
         ]

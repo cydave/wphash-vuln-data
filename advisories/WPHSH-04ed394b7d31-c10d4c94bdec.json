@@ -268,19 +268,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0902"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/all-in-one-seo-pack"
+            "type": "WEB",
+            "url": "http://jvndb.jvn.jp/jvndb/JVNDB-2015-000046"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/all-in-one-seo-pack/"
+            "url": "http://jvn.jp/en/jp/JVN75615300/index.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://semperfiwebdesign.com/blog/all-in-one-seo-pack/all-in-one-seo-pack-release-history/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0902"
         }
     ],
     "database_specific": {
+        "slug": "all-in-one-seo-pack",
+        "name": "All in One SEO \u2013 Best WordPress SEO Plugin \u2013 Easily Improve SEO Rankings & Increase Traffic",
         "cwe_ids": [
             "CWE-200"
         ]

@@ -52,19 +52,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/45809/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19043"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/media-file-manager"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/media-file-manager/"
         }
     ],
     "database_specific": {
+        "slug": "media-file-manager",
+        "name": "media-file-manager",
         "cwe_ids": [
             "CWE-22"
         ]

@@ -56,19 +56,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/0260d5c0-52a9-44ce-b7be-aff642056d16"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1527"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-2fa"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-2fa/"
         }
     ],
     "database_specific": {
+        "slug": "wp-2fa",
+        "name": "WP 2FA \u2013 Two-factor authentication for WordPress",
         "cwe_ids": [
             "CWE-79"
         ]

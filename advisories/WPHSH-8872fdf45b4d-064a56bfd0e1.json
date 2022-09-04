@@ -47,19 +47,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/52eff451-8ce3-4ac4-b530-3196aa82db48"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1653"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/social-share-buttons-by-supsystic"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/social-share-buttons-by-supsystic/"
         }
     ],
     "database_specific": {
+        "slug": "social-share-buttons-by-supsystic",
+        "name": "Social Share Buttons by Supsystic",
         "cwe_ids": [
             "CWE-352"
         ]

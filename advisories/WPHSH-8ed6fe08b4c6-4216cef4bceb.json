@@ -80,19 +80,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-2558"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/file-gallery"
+            "type": "WEB",
+            "url": "http://wordpress.org/plugins/file-gallery/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/file-gallery/"
+            "url": "http://www.securityfocus.com/bid/67183"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/67120"
+        },
+        {
+            "type": "WEB",
+            "url": "http://seclists.org/fulldisclosure/2014/Apr/305"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-2558"
         }
     ],
     "database_specific": {
+        "slug": "file-gallery",
+        "name": "File Gallery",
         "cwe_ids": [
             "CWE-94"
         ]

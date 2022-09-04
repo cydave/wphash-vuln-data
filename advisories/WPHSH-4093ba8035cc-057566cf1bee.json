@@ -152,23 +152,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24954"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-user-avatar"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2626573/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-user-avatar/"
+            "url": "https://wpscan.com/vulnerability/54ff0db8-1d9e-4e67-b71a-142a9e5ed851"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/2626573/"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24954"
         }
     ],
     "database_specific": {
+        "slug": "wp-user-avatar",
+        "name": "Paid Membership, User Registration, User Profile & Restrict Content Plugin \u2013 ProfilePress",
         "cwe_ids": [
             "CWE-79"
         ]

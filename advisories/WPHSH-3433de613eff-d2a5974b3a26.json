@@ -49,19 +49,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2693"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-print"
+            "type": "WEB",
+            "url": "http://osvdb.org/92053"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-print/"
+            "url": "http://wordpress.org/plugins/wp-print/changelog"
+        },
+        {
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/52878"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2693"
         }
     ],
     "database_specific": {
+        "slug": "wp-print",
+        "name": "WP-Print",
         "cwe_ids": [
             "CWE-352"
         ]

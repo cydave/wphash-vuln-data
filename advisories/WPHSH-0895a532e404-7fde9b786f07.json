@@ -169,19 +169,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24213"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/give"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/da4ab508-a423-4c7f-a1d4-42ec6f989309"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/give/"
+            "url": "https://bentl.ee/posts/cve-givewp/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24213"
         }
     ],
     "database_specific": {
+        "slug": "give",
+        "name": "GiveWP \u2013 Donation Plugin and Fundraising Platform",
         "cwe_ids": [
             "CWE-79"
         ]

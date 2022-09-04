@@ -47,19 +47,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9493"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/my-wish-list"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/7937"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/my-wish-list/"
+            "url": "https://wordpress.org/plugins/my-wish-list/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9493"
         }
     ],
     "database_specific": {
+        "slug": "my-wish-list",
+        "name": "My Wish List",
         "cwe_ids": [
             "CWE-79"
         ]

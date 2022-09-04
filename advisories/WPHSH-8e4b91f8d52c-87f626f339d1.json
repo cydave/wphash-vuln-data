@@ -60,19 +60,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/11dc3325-e696-4c9e-ba10-968416d5c864"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24128"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/team-members"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/team-members/"
         }
     ],
     "database_specific": {
+        "slug": "team-members",
+        "name": "Team Members",
         "cwe_ids": [
             "CWE-79"
         ]

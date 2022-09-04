@@ -82,19 +82,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15082"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/360-product-rotation"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/360-product-rotation/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/360-product-rotation/"
+            "url": "https://wpvulndb.com/vulnerabilities/9405"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15082"
         }
     ],
     "database_specific": {
+        "slug": "360-product-rotation",
+        "name": "360 Product Rotation",
         "cwe_ids": [
             "CWE-79"
         ]

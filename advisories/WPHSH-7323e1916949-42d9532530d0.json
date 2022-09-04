@@ -35,19 +35,53 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2482"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wordtube"
+            "type": "WEB",
+            "url": "http://advisories.echo.or.id/adv/adv81-K-159-2007.txt"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wordtube/"
+            "url": "http://alexrabe.boelinger.com/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/23737"
+        },
+        {
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/25074"
+        },
+        {
+            "type": "WEB",
+            "url": "http://securityreason.com/securityalert/2660"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.vupen.com/english/advisories/2007/1615"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/45168"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/33996"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.exploit-db.com/exploits/3825"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/467362/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2482"
         }
     ],
     "database_specific": {
+        "slug": "wordtube",
+        "name": "wordtube",
         "cwe_ids": []
     }
 }

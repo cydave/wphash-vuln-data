@@ -84,19 +84,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24262"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/woolentor-addons"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2021/04/recent-patches-rock-the-elementor-ecosystem/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/woolentor-addons/"
+            "url": "https://wpscan.com/vulnerability/d6d16357-2bc3-4053-8274-d0275026e56b"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24262"
         }
     ],
     "database_specific": {
+        "slug": "woolentor-addons",
+        "name": "WooLentor \u2013 Elementor WooCommerce Builder Addons, Variation Swatches Addons, Quick View, Wishlist, Products Compare, Product Filter \u2013 All in One Solution",
         "cwe_ids": [
             "CWE-79"
         ]

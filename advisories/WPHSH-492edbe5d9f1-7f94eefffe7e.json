@@ -162,19 +162,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://gist.github.com/B0UG/68d3161af0c0ec85c615ca7452f9755e"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10363"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/booking-calendar"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/booking-calendar/"
         }
     ],
     "database_specific": {
+        "slug": "booking-calendar",
+        "name": "Booking calendar, Appointment Booking System",
         "cwe_ids": [
             "CWE-20"
         ]

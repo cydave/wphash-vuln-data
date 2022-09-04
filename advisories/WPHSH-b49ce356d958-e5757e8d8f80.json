@@ -48,23 +48,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4597"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-social-invitations"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-social-invitations/"
+            "url": "http://codevigilant.com/disclosure/wp-plugin-wp-social-invitations-a3-cross-site-scripting-xss"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=848497%40wp-social-invitations&old=829444%40wp-social-invitations&sfp_email=&sfph_mail=#file239"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4597"
         }
     ],
     "database_specific": {
+        "slug": "wp-social-invitations",
+        "name": "wp-social-invitations",
         "cwe_ids": [
             "CWE-79"
         ]

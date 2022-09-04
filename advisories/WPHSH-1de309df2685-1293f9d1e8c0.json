@@ -74,19 +74,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/simple-fields/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-7476"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/simple-fields"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/simple-fields/"
         }
     ],
     "database_specific": {
+        "slug": "simple-fields",
+        "name": "simple-fields",
         "cwe_ids": [
             "CWE-352"
         ]

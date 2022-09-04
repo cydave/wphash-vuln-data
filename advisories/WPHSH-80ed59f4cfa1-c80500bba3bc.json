@@ -74,19 +74,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/016453e3-803b-4a67-8ea7-2d228c2998d4"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2050"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-paginate"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-paginate/"
         }
     ],
     "database_specific": {
+        "slug": "wp-paginate",
+        "name": "WP-Paginate",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -44,19 +44,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/fcf17278-609f-4f75-8a87-9b4579dee1c8"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24373"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-security-hardening"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-security-hardening/"
         }
     ],
     "database_specific": {
+        "slug": "wp-security-hardening",
+        "name": "WP Hardening \u2013 Fix Your WordPress Security",
         "cwe_ids": [
             "CWE-79"
         ]

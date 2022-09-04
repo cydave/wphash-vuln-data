@@ -173,19 +173,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7806"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wordpress-form-manager"
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/changeset/1264145"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wordpress-form-manager/"
+            "url": "http://appcheck-ng.com/remote-command-execution-in-wordpress-form-manager-plugin-cve-2015-7806/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8220"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7806"
         }
     ],
     "database_specific": {
+        "slug": "wordpress-form-manager",
+        "name": "wordpress-form-manager",
         "cwe_ids": [
             "CWE-77"
         ]

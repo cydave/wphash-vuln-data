@@ -275,19 +275,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/08b66b69-3c69-4a1e-9c0a-5697e31bc04e"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0590"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/bulletproof-security"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/bulletproof-security/"
         }
     ],
     "database_specific": {
+        "slug": "bulletproof-security",
+        "name": "BulletProof Security",
         "cwe_ids": [
             "CWE-79"
         ]

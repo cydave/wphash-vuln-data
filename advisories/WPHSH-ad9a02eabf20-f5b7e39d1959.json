@@ -69,19 +69,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/fbc71710-123f-4c61-9796-a6a4fd354828"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0788"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-fundraising-donation"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-fundraising-donation/"
         }
     ],
     "database_specific": {
+        "slug": "wp-fundraising-donation",
+        "name": "WP Fundraising Donation and Crowdfunding Platform",
         "cwe_ids": [
             "CWE-89"
         ]

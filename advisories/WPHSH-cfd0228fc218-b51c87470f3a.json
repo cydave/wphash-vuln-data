@@ -155,19 +155,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/d33241cc-17b6-491a-b836-dd9368652316"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25047"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wd-instagram-feed"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wd-instagram-feed/"
         }
     ],
     "database_specific": {
+        "slug": "wd-instagram-feed",
+        "name": "10WebSocial",
         "cwe_ids": [
             "CWE-79"
         ]

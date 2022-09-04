@@ -75,19 +75,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/311974b5-6d6e-4b47-a33d-6d8f468aa528"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24461"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/faq-builder-ays"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/faq-builder-ays/"
         }
     ],
     "database_specific": {
+        "slug": "faq-builder-ays",
+        "name": "FAQ Builder AYS",
         "cwe_ids": [
             "CWE-89"
         ]

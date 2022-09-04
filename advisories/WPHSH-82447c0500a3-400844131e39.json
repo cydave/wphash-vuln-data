@@ -73,19 +73,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/eed70659-9e3e-42a2-b427-56c52e0fbc0d"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1013"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/personal-dictionary"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/personal-dictionary/"
         }
     ],
     "database_specific": {
+        "slug": "personal-dictionary",
+        "name": "Personal Dictionary",
         "cwe_ids": [
             "CWE-89"
         ]

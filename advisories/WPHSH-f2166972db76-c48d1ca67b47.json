@@ -328,19 +328,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24383"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-google-maps"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/1270588c-53fe-447e-b83c-1b877dc7a954"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-google-maps/"
+            "url": "http://packetstormsecurity.com/files/163261/WordPress-WP-Google-Maps-8.1.11-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24383"
         }
     ],
     "database_specific": {
+        "slug": "wp-google-maps",
+        "name": "WP Go Maps (formerly WP Google Maps)",
         "cwe_ids": [
             "CWE-79"
         ]

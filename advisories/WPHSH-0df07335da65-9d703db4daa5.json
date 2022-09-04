@@ -92,19 +92,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20231"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/two-factor-authentication"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/two-factor-authentication/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/two-factor-authentication/"
+            "url": "https://wpvulndb.com/vulnerabilities/9187"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.privacy-wise.com/two-factor-authentication-cross-site-request-forgery-csrf-vulnerability-cve-2018-20231/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20231"
         }
     ],
     "database_specific": {
+        "slug": "two-factor-authentication",
+        "name": "Two Factor Authentication",
         "cwe_ids": [
             "CWE-352"
         ]

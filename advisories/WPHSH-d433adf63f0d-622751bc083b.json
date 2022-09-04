@@ -36,23 +36,37 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-5264"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/lazyest-backup"
+            "type": "FIX",
+            "url": "http://plugins.trac.wordpress.org/changeset?reponame=&new=470737%40lazyest-backup&old=468541%40lazyest-backup"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/lazyest-backup/"
+            "url": "http://wordpress.org/extend/plugins/lazyest-backup/changelog/"
         },
         {
-            "type": "FIX",
-            "url": "http://plugins.trac.wordpress.org/changeset?reponame=&new=470737%40lazyest-backup&old=468541%40lazyest-backup"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/47092"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/50900"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.osvdb.org/77493"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/71650"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-5264"
         }
     ],
     "database_specific": {
+        "slug": "lazyest-backup",
+        "name": "lazyest-backup",
         "cwe_ids": [
             "CWE-79"
         ]

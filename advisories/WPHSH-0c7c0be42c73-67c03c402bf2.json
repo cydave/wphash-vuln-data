@@ -40,17 +40,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2355"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/username-updater"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/username-updater/"
         }
     ],
     "database_specific": {
+        "slug": "username-updater",
+        "name": "Easy Username Updater",
         "cwe_ids": []
     }
 }

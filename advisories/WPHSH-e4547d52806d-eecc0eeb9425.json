@@ -118,19 +118,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4626"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/backwpup"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/54515"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/backwpup/"
+            "url": "http://archives.neohapsis.com/archives/bugtraq/2013-08/0127.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.htbridge.com/advisory/HTB23161"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/plugins/backwpup/changelog"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/61904"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4626"
         }
     ],
     "database_specific": {
+        "slug": "backwpup",
+        "name": "BackWPup \u2013 WordPress Backup Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

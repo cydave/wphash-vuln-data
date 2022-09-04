@@ -81,19 +81,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/53f493e9-273b-4349-8a59-f2207e8f8f30"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0786"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/kivicare-clinic-management-system"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/kivicare-clinic-management-system/"
         }
     ],
     "database_specific": {
+        "slug": "kivicare-clinic-management-system",
+        "name": "KiviCare \u2013 Clinic & Patient Management System (EHR)",
         "cwe_ids": [
             "CWE-89"
         ]

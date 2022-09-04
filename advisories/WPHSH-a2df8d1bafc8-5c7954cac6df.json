@@ -104,23 +104,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2284"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/popup-maker"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/popup-maker/"
+            "url": "https://wordpress.org/plugins/popup-maker/#developers"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/1697216/#file3"
+        },
+        {
+            "type": "WEB",
+            "url": "https://jvn.jp/en/jp/JVN92921024/index.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8878"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2284"
         }
     ],
     "database_specific": {
+        "slug": "popup-maker",
+        "name": "Popup Maker \u2013 Popup for opt-ins, lead gen, & more",
         "cwe_ids": [
             "CWE-79"
         ]

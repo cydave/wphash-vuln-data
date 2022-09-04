@@ -46,19 +46,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9466"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wti-like-post"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8318"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wti-like-post/"
+            "url": "http://cinu.pl/research/wp-plugins/mail_576345187f5867ec8921b12de5884fb1.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wti-like-post/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9466"
         }
     ],
     "database_specific": {
+        "slug": "wti-like-post",
+        "name": "WTI Like Post",
         "cwe_ids": [
             "CWE-89"
         ]

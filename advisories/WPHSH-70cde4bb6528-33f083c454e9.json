@@ -58,19 +58,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14348"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/joomsport-sports-league-results-management"
+            "type": "WEB",
+            "url": "https://hackpuntes.com/cve-2019-14348-joomsport-for-sports-sql-injection/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/joomsport-sports-league-results-management/"
+            "url": "https://wpvulndb.com/vulnerabilities/9499"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/153963/WordPress-JoomSport-3.3-SQL-Injection.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14348"
         }
     ],
     "database_specific": {
+        "slug": "joomsport-sports-league-results-management",
+        "name": "JoomSport \u2013 for Sports: Team & League, Football, Hockey & more",
         "cwe_ids": [
             "CWE-89"
         ]

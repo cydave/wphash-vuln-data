@@ -131,17 +131,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2943"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ajax-load-more"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/ajax-load-more/"
         }
     ],
     "database_specific": {
+        "slug": "ajax-load-more",
+        "name": "WordPress Infinite Scroll \u2013 Ajax Load More",
         "cwe_ids": []
     }
 }

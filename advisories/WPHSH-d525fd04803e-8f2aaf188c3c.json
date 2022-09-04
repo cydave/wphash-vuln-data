@@ -306,19 +306,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24308"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/lifterlms"
+            "type": "WEB",
+            "url": "https://github.com/gocodebox/lifterlms/releases/tag/4.21.1"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/lifterlms/"
+            "url": "https://wpscan.com/vulnerability/f29f68a5-6575-441d-98c9-867145f2b082"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/162856/WordPress-LifterLMS-4.21.0-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24308"
         }
     ],
     "database_specific": {
+        "slug": "lifterlms",
+        "name": "LifterLMS \u2013 WordPress LMS Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

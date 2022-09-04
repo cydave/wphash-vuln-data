@@ -69,19 +69,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14786"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/seo-by-rank-math"
+            "type": "WEB",
+            "url": "https://www.pluginvulnerabilities.com/2019/06/20/authenticated-settings-reset-vulnerability-in-rank-math-seo/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/seo-by-rank-math/"
+            "url": "https://rankmath.com/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/9375"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14786"
         }
     ],
     "database_specific": {
+        "slug": "seo-by-rank-math",
+        "name": "Rank Math SEO \u2013 Best SEO Plugin For WordPress To Increase Your SEO Traffic",
         "cwe_ids": [
             "CWE-862"
         ]

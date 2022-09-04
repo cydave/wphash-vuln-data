@@ -200,17 +200,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2374"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/simply-schedule-appointments"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/simply-schedule-appointments/"
         }
     ],
     "database_specific": {
+        "slug": "simply-schedule-appointments",
+        "name": "Simply Schedule Appointments \u2013 WordPress Booking Plugin",
         "cwe_ids": []
     }
 }

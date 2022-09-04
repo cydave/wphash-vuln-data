@@ -115,19 +115,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/0a9830df-5f5d-40a3-9841-40994275136f"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0641"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ays-facebook-popup-likebox"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/ays-facebook-popup-likebox/"
         }
     ],
     "database_specific": {
+        "slug": "ays-facebook-popup-likebox",
+        "name": "Popup Like box \u2013 Page Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

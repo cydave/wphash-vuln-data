@@ -135,19 +135,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/43a4b2d3-1bd5-490c-982c-bb7120595865"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0279"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/anycomment"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/anycomment/"
         }
     ],
     "database_specific": {
+        "slug": "anycomment",
+        "name": "AnyComment",
         "cwe_ids": [
             "CWE-362"
         ]

@@ -114,19 +114,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/7c33ffc3-84d1-4a0f-a837-794cdc3ad243"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1057"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/pricing-deals-for-woocommerce"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/pricing-deals-for-woocommerce/"
         }
     ],
     "database_specific": {
+        "slug": "pricing-deals-for-woocommerce",
+        "name": "pricing-deals-for-woocommerce",
         "cwe_ids": [
             "CWE-89"
         ]

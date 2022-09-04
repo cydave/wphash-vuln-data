@@ -83,19 +83,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/994e6198-f0e9-4e30-989f-b5a3dfe95ded"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24463"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ays-slider"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/ays-slider/"
         }
     ],
     "database_specific": {
+        "slug": "ays-slider",
+        "name": "Image Slider by Ays- Responsive Slider and Carousel",
         "cwe_ids": [
             "CWE-89"
         ]

@@ -81,23 +81,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24598"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/testimonial-builder"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/testimonial-builder/"
+            "url": "https://wpscan.com/vulnerability/365c09a7-0b10-4145-a415-5c0e9f429ae0"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2606523/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24598"
         }
     ],
     "database_specific": {
+        "slug": "testimonial-builder",
+        "name": "Testimonial",
         "cwe_ids": [
             "CWE-79"
         ]

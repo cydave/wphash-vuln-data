@@ -60,19 +60,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/a5c9fa61-e6f1-4460-84fe-977a203bd4bc"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0737"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/text-hover"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/text-hover/"
         }
     ],
     "database_specific": {
+        "slug": "text-hover",
+        "name": "Text Hover",
         "cwe_ids": [
             "CWE-79"
         ]

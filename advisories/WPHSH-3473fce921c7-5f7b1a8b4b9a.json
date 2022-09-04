@@ -276,23 +276,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0884"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/profile-builder"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/profile-builder/"
+            "url": "https://wpscan.com/vulnerability/af06b96c-105f-429c-b2ad-c8c823897dba"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2690776"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0884"
         }
     ],
     "database_specific": {
+        "slug": "profile-builder",
+        "name": "Profile Builder \u2013 User Profile & User Registration Forms",
         "cwe_ids": [
             "CWE-79"
         ]

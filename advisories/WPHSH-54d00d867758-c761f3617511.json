@@ -84,19 +84,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24155"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/backup"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/d442acac-4394-45e4-b6bb-adf4a40960fb"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/backup/"
+            "url": "http://packetstormsecurity.com/files/163382/WordPress-Backup-Guard-1.5.8-Shell-Upload.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/163623/WordPress-Backup-Guard-Authenticated-Remote-Code-Execution.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24155"
         }
     ],
     "database_specific": {
+        "slug": "backup",
+        "name": "WordPress Backup and Migrate Plugin \u2013 Backup Guard",
         "cwe_ids": [
             "CWE-434"
         ]

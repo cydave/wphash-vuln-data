@@ -45,19 +45,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/link-log/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9344"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/link-log"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/link-log/"
         }
     ],
     "database_specific": {
+        "slug": "link-log",
+        "name": "Link Log \u2013 external link click monitor",
         "cwe_ids": [
             "CWE-89"
         ]

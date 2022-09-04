@@ -45,19 +45,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/6ee14423-f7ff-4433-987a-a1a6b7bd65e3"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24996"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/idpay-contact-form-7"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/idpay-contact-form-7/"
         }
     ],
     "database_specific": {
+        "slug": "idpay-contact-form-7",
+        "name": "idpay-contact-form-7",
         "cwe_ids": [
             "CWE-79"
         ]

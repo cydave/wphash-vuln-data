@@ -75,19 +75,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12346"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/miniorange-saml-20-single-sign-on"
+            "type": "WEB",
+            "url": "https://zeroauth.ltd/blog/2019/05/27/cve-2019-12346-miniorange-saml-sp-single-sign-on-wordpress-plugin-xss/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/miniorange-saml-20-single-sign-on/"
+            "url": "https://wpvulndb.com/vulnerabilities/9397"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12346"
         }
     ],
     "database_specific": {
+        "slug": "miniorange-saml-20-single-sign-on",
+        "name": "SAML Single Sign On \u2013 SSO Login",
         "cwe_ids": [
             "CWE-79"
         ]

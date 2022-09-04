@@ -50,19 +50,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11526"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/comments-import-export-woocommerce"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/comments-import-export-woocommerce/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/comments-import-export-woocommerce/"
+            "url": "https://wpvulndb.com/vulnerabilities/9097"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/44940/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11526"
         }
     ],
     "database_specific": {
+        "slug": "comments-import-export-woocommerce",
+        "name": "WordPress Comments Import & Export",
         "cwe_ids": [
             "CWE-1236"
         ]

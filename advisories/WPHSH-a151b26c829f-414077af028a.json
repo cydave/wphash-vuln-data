@@ -111,19 +111,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/3c9969e5-ca8e-4e5d-a482-c6b5c4257820"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1203"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/content-mask"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/content-mask/"
         }
     ],
     "database_specific": {
+        "slug": "content-mask",
+        "name": "Content Mask",
         "cwe_ids": [
             "CWE-862"
         ]

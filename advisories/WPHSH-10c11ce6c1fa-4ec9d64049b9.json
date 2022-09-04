@@ -251,19 +251,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10504"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/form-maker"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/form-maker/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/form-maker/"
+            "url": "https://www.exploit-db.com/exploits/44559/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10504"
         }
     ],
     "database_specific": {
+        "slug": "form-maker",
+        "name": "Form Maker by 10Web \u2013 Mobile-Friendly Drag & Drop Contact Form Builder",
         "cwe_ids": [
             "CWE-1236"
         ]

@@ -46,22 +46,20 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/b4a2e595-6971-4a2a-a346-ac4445a5e0cd"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24611"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/keyword-meta"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/keyword-meta/"
         }
     ],
     "database_specific": {
+        "slug": "keyword-meta",
+        "name": "keyword-meta",
         "cwe_ids": [
-            "CWE-79",
-            "CWE-352"
+            "CWE-352",
+            "CWE-79"
         ]
     }
 }

@@ -118,19 +118,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-7182"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-google-maps"
+            "type": "WEB",
+            "url": "https://www.htbridge.com/advisory/HTB23236"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-google-maps/"
+            "url": "http://packetstormsecurity.com/files/128694/WordPress-WP-Google-Maps-6.0.26-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-google-maps/changelog"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/70597"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/533699/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-7182"
         }
     ],
     "database_specific": {
+        "slug": "wp-google-maps",
+        "name": "WP Go Maps (formerly WP Google Maps)",
         "cwe_ids": [
             "CWE-79"
         ]

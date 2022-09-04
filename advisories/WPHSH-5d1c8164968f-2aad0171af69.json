@@ -108,19 +108,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/3e855e09-056f-45b5-89a9-d644b7d8c9d0"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24452"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/w3-total-cache"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/w3-total-cache/"
         }
     ],
     "database_specific": {
+        "slug": "w3-total-cache",
+        "name": "W3 Total Cache",
         "cwe_ids": [
             "CWE-79"
         ]

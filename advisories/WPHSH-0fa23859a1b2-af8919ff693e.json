@@ -63,19 +63,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24424"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-reset"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/90cf8f9d-4d37-405d-b161-239bdb281828"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-reset/"
+            "url": "https://m0ze.ru/vulnerability/[2021-05-26]-[WordPress]-[CWE-79]-WP-Reset-WordPress-Plugin-v1.86.txt"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24424"
         }
     ],
     "database_specific": {
+        "slug": "wp-reset",
+        "name": "WP Reset \u2013 Most Advanced WordPress Reset Tool",
         "cwe_ids": [
             "CWE-79"
         ]

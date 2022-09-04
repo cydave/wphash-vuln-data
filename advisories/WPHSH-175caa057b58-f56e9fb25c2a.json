@@ -41,19 +41,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/a7fa5896-5a1d-44c6-985c-e4abcc53da0e"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24733"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-post-page-clone"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-post-page-clone/"
         }
     ],
     "database_specific": {
+        "slug": "wp-post-page-clone",
+        "name": "WP Post Page Clone",
         "cwe_ids": [
             "CWE-863"
         ]

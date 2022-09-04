@@ -65,19 +65,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/8ebf56be-46c0-4435-819f-dc30370eafa4"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24277"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/rss-for-yandex-turbo"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/rss-for-yandex-turbo/"
         }
     ],
     "database_specific": {
+        "slug": "rss-for-yandex-turbo",
+        "name": "RSS for Yandex Turbo",
         "cwe_ids": [
             "CWE-79"
         ]

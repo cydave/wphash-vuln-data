@@ -92,23 +92,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-8729"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/aryo-activity-log"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/aryo-activity-log/"
+            "url": "https://wordpress.org/plugins/aryo-activity-log/#developers"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/1836276"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/pojome/activity-log/commit/e7bcd12fcb0add82bed762a971f427a360664bd9"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/pojome/activity-log/commit/950c46b2290c991187ff3471640e9688b16908fb"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/44437/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-8729"
         }
     ],
     "database_specific": {
+        "slug": "aryo-activity-log",
+        "name": "Activity Log",
         "cwe_ids": [
             "CWE-79"
         ]

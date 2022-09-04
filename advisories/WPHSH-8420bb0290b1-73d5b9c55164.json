@@ -332,19 +332,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/75a67932-d831-4dfb-a70d-a07650eaa755"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24673"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/appointment-hour-booking"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/appointment-hour-booking/"
         }
     ],
     "database_specific": {
+        "slug": "appointment-hour-booking",
+        "name": "Appointment Hour Booking \u2013 WordPress Booking Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

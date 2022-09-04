@@ -107,19 +107,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36895"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/tripetto"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/tripetto/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/tripetto/"
+            "url": "https://patchstack.com/database/vulnerability/tripetto/wordpress-tripetto-plugin-5-1-4-unauthenticated-cross-site-scripting-xss-vulnerability-via-svg-image-upload"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36895"
         }
     ],
     "database_specific": {
+        "slug": "tripetto",
+        "name": "WordPress form builder plugin for contact forms, surveys and quizzes \u2013 Tripetto",
         "cwe_ids": [
             "CWE-79"
         ]

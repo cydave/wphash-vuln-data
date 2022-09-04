@@ -66,19 +66,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24341"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/xllentech-english-islamic-calendar"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/1eba1c73-a19b-4226-afec-d27c48388a04"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/xllentech-english-islamic-calendar/"
+            "url": "https://codevigilant.com/disclosure/2021/xllentech-english-islamic-calendar/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24341"
         }
     ],
     "database_specific": {
+        "slug": "xllentech-english-islamic-calendar",
+        "name": "Xllentech English Islamic Calendar",
         "cwe_ids": [
             "CWE-89"
         ]

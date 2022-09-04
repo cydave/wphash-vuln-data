@@ -41,19 +41,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11525"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/woo-order-export-lite"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/woo-order-export-lite/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/woo-order-export-lite/"
+            "url": "https://wpvulndb.com/vulnerabilities/9096"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/44931/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11525"
         }
     ],
     "database_specific": {
+        "slug": "woo-order-export-lite",
+        "name": "Advanced Order Export For WooCommerce",
         "cwe_ids": [
             "CWE-1236"
         ]

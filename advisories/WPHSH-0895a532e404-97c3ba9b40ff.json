@@ -145,19 +145,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://blog.nintechnet.com/multiple-vulnerabilities-fixed-in-wordpress-givewp-plugin/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-20627"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/give"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/give/"
         }
     ],
     "database_specific": {
+        "slug": "give",
+        "name": "GiveWP \u2013 Donation Plugin and Fundraising Platform",
         "cwe_ids": [
             "CWE-306"
         ]

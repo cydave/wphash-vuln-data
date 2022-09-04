@@ -160,19 +160,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2245"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/shortcodes-ultimate"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/shortcodes-ultimate/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/shortcodes-ultimate/"
+            "url": "https://plugins.trac.wordpress.org/changeset/1684377/#file217"
+        },
+        {
+            "type": "WEB",
+            "url": "https://jvn.jp/en/jp/JVN63249051/index.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/99495"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2245"
         }
     ],
     "database_specific": {
+        "slug": "shortcodes-ultimate",
+        "name": "WordPress Shortcodes Plugin \u2014 Shortcodes Ultimate",
         "cwe_ids": [
             "CWE-22"
         ]

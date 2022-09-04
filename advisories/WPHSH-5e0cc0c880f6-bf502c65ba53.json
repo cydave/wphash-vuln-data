@@ -101,19 +101,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25617"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/code-snippets"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/code-snippets/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/code-snippets/"
+            "url": "https://patchstack.com/database/vulnerability/code-snippets/wordpress-code-snippets-plugin-2-14-3-authenticated-reflected-cross-site-scripting-xss-vulnerability"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25617"
         }
     ],
     "database_specific": {
+        "slug": "code-snippets",
+        "name": "Code Snippets",
         "cwe_ids": [
             "CWE-79"
         ]

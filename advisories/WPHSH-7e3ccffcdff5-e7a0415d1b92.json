@@ -43,19 +43,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/ec9292b1-5cbd-4332-bdb6-2351c94f5ac6"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24441"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sign-up-sheets"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/sign-up-sheets/"
         }
     ],
     "database_specific": {
+        "slug": "sign-up-sheets",
+        "name": "Sign-up Sheets",
         "cwe_ids": [
             "CWE-1236"
         ]

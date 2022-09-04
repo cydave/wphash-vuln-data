@@ -67,19 +67,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/a282606f-6abf-4f75-99c9-dab0bea8cc96"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24957"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/advanced-page-visit-counter"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/advanced-page-visit-counter/"
         }
     ],
     "database_specific": {
+        "slug": "advanced-page-visit-counter",
+        "name": "Advanced Page Visit Counter \u2013 Advanced WordPress Visit Counter",
         "cwe_ids": [
             "CWE-89"
         ]

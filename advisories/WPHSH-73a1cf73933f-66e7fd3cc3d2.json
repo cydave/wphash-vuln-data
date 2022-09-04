@@ -49,19 +49,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/ed9d26be-cc96-4274-a05b-0b7ad9d8cfd9"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24437"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/favicon-by-realfavicongenerator"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/favicon-by-realfavicongenerator/"
         }
     ],
     "database_specific": {
+        "slug": "favicon-by-realfavicongenerator",
+        "name": "Favicon by RealFaviconGenerator",
         "cwe_ids": [
             "CWE-79"
         ]

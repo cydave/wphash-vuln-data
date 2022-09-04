@@ -42,19 +42,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/embed-comment-images/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18561"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/embed-comment-images"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/embed-comment-images/"
         }
     ],
     "database_specific": {
+        "slug": "embed-comment-images",
+        "name": "Embed Images in Comments",
         "cwe_ids": [
             "CWE-79"
         ]

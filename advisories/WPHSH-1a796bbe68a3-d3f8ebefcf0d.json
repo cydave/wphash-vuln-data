@@ -78,19 +78,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9473"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cforms2"
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/534349/30/0/threaded"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/cforms2/"
+            "url": "https://wordpress.org/plugins/cforms2/changelog/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9473"
         }
     ],
     "database_specific": {
+        "slug": "cforms2",
+        "name": "cformsII",
         "cwe_ids": []
     }
 }

@@ -139,23 +139,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39357"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/leaky-paywall"
+            "type": "WEB",
+            "url": "https://github.com/BigTiger2020/word-press/blob/main/Leaky%20Paywall.md"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/leaky-paywall/"
+            "url": "https://wordfence.com/vulnerability-advisories/#CVE-2021-39357"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2615195/leaky-paywall/trunk/class.php"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39357"
         }
     ],
     "database_specific": {
+        "slug": "leaky-paywall",
+        "name": "Leaky Paywall",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -45,23 +45,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5183"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/simple-retail-menus"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=861170%40simple-retail-menus&old=728969%40simple-retail-menus&sfp_email=&sfph_mail=#file1"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/simple-retail-menus/"
+            "url": "http://codevigilant.com/disclosure/wp-plugin-simple-retail-menus-a1-injection"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=861170%40simple-retail-menus&old=728969%40simple-retail-menus&sfp_email=&sfph_mail=#file1"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5183"
         }
     ],
     "database_specific": {
+        "slug": "simple-retail-menus",
+        "name": "Simple Retail Menus",
         "cwe_ids": [
             "CWE-89"
         ]

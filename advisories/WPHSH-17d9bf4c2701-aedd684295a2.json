@@ -41,19 +41,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/14283389-a6b8-4dd8-9441-f16fcc4ab3c0"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1673"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/greenwallet-gateway"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/greenwallet-gateway/"
         }
     ],
     "database_specific": {
+        "slug": "greenwallet-gateway",
+        "name": "WooCommerce Green Wallet Gateway",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -54,19 +54,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8235"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-7238"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contact-form-integrated-with-google-maps"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/contact-form-integrated-with-google-maps/"
         }
     ],
     "database_specific": {
+        "slug": "contact-form-integrated-with-google-maps",
+        "name": "contact-form-integrated-with-google-maps",
         "cwe_ids": [
             "CWE-79"
         ]

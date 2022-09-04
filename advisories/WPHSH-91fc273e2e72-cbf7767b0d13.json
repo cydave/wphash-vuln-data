@@ -58,19 +58,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39320"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/underconstruction"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/49ae1df0-d6d2-4cbb-9a9d-bf3599429875"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/underconstruction/"
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2021-39320"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39320"
         }
     ],
     "database_specific": {
+        "slug": "underconstruction",
+        "name": "underConstruction",
         "cwe_ids": [
             "CWE-79"
         ]

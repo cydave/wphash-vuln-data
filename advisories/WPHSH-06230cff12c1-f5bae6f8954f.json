@@ -98,19 +98,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/db0b9480-2ff4-423c-a745-68e983ffa12b"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24992"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/buttonizer-multifunctional-button"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/buttonizer-multifunctional-button/"
         }
     ],
     "database_specific": {
+        "slug": "buttonizer-multifunctional-button",
+        "name": "Smart Floating / Sticky Buttons \u2013 Call, Sharing, Chat Widgets & More \u2013 Buttonizer",
         "cwe_ids": [
             "CWE-79"
         ]

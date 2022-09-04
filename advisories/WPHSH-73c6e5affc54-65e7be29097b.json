@@ -100,19 +100,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/ad99b9ba-5f24-4682-a787-00f0e8e32603"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1273"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/jc-importer"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/jc-importer/"
         }
     ],
     "database_specific": {
+        "slug": "jc-importer",
+        "name": "Import WP \u2013 Import and Export WordPress data to XML or CSV files",
         "cwe_ids": [
             "CWE-434"
         ]

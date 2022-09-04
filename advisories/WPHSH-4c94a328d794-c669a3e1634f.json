@@ -158,19 +158,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/b586b217-f91e-42d3-81f1-cc3ee3a4b01e"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0663"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/printfriendly"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/printfriendly/"
         }
     ],
     "database_specific": {
+        "slug": "printfriendly",
+        "name": "Print, PDF, Email by PrintFriendly",
         "cwe_ids": [
             "CWE-79"
         ]

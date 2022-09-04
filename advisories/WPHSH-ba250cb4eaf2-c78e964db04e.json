@@ -82,27 +82,27 @@
                 "1.2.0",
                 "1.1.4",
                 "1.1.3",
-                "1.1.2",
                 "1.1.0",
-                "1.0.0"
+                "1.0.0",
+                "1.1.2",
+                "languages",
+                "js"
             ]
         }
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/5f63d677-20f3-4fe0-bb90-048b6898e6cd"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24816"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/phoenix-media-rename"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/phoenix-media-rename/"
         }
     ],
     "database_specific": {
+        "slug": "phoenix-media-rename",
+        "name": "Phoenix Media Rename",
         "cwe_ids": []
     }
 }

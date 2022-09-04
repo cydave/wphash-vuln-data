@@ -139,19 +139,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/b126d2fc-6cc7-4c18-b95e-d32c2effcc4f"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25012"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/pz-linkcard"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/pz-linkcard/"
         }
     ],
     "database_specific": {
+        "slug": "pz-linkcard",
+        "name": "Pz-LinkCard",
         "cwe_ids": [
             "CWE-79"
         ]

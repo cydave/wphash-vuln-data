@@ -148,19 +148,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39341"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/optinmonster"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2021/10/1000000-sites-affected-by-optinmonster-vulnerabilities/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/optinmonster/"
+            "url": "https://wordfence.com/vulnerability-advisories/#CVE-2021-39341"
+        },
+        {
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/browser/optinmonster/trunk/OMAPI/RestApi.php?rev=2606519#L1460"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39341"
         }
     ],
     "database_specific": {
+        "slug": "optinmonster",
+        "name": "Popup Builder by OptinMonster \u2013 WordPress Popups for Optins, Email Newsletters and Lead Generation",
         "cwe_ids": [
             "CWE-863"
         ]

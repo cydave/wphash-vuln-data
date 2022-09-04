@@ -103,23 +103,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1007"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/advanced-booking-calendar"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/advanced-booking-calendar/"
+            "url": "https://wpscan.com/vulnerability/6f5b764b-d13b-4371-9cc5-91204d9d6358"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2695427"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1007"
         }
     ],
     "database_specific": {
+        "slug": "advanced-booking-calendar",
+        "name": "Advanced Booking Calendar",
         "cwe_ids": [
             "CWE-79"
         ]

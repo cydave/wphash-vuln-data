@@ -107,19 +107,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4697"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/google-analyticator"
+            "type": "WEB",
+            "url": "https://wordpress.org/support/topic/discovered-security-vulnerabilities-1/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/google-analyticator/"
+            "url": "https://plugins.trac.wordpress.org/changeset/1183563"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/75325"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.openwall.com/lists/oss-security/2015/06/21/5"
+        },
+        {
+            "type": "WEB",
+            "url": "http://seclists.org/fulldisclosure/2015/Jun/57"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4697"
         }
     ],
     "database_specific": {
+        "slug": "google-analyticator",
+        "name": "Google Analyticator",
         "cwe_ids": [
             "CWE-352"
         ]

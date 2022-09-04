@@ -96,19 +96,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-20008"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mycred"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/3175c56d-27bb-4bf1-b6ba-737541483d40"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/mycred/"
+            "url": "https://plugins.trac.wordpress.org/changeset/1639363/mycred"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-20008"
         }
     ],
     "database_specific": {
+        "slug": "mycred",
+        "name": "myCred \u2013 Points, Rewards, Gamification, Ranks, Badges & Loyalty Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

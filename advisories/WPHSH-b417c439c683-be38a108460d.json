@@ -273,19 +273,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/e37f9aa6-e409-4155-b8e4-566c5bce58d6"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24778"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/tradetracker-store"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/tradetracker-store/"
         }
     ],
     "database_specific": {
+        "slug": "tradetracker-store",
+        "name": "tradetracker-store",
         "cwe_ids": [
             "CWE-89"
         ]

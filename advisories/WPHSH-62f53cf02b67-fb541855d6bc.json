@@ -57,19 +57,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24217"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/official-facebook-pixel"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2021/03/two-vulnerabilities-patched-in-facebook-for-wordpress-plugin/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/official-facebook-pixel/"
+            "url": "https://wpscan.com/vulnerability/509f2754-a1a1-4142-9126-ae023a88533a"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24217"
         }
     ],
     "database_specific": {
+        "slug": "official-facebook-pixel",
+        "name": "Facebook for WordPress",
         "cwe_ids": [
             "CWE-502"
         ]

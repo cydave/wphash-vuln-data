@@ -60,19 +60,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/3e8bd875-2435-4a15-8ee8-8a00882b499c"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1896"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/underconstruction"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/underconstruction/"
         }
     ],
     "database_specific": {
+        "slug": "underconstruction",
+        "name": "underConstruction",
         "cwe_ids": [
             "CWE-79"
         ]

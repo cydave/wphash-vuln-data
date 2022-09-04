@@ -41,17 +41,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2152"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/duplicate-wp-page-post"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/duplicate-wp-page-post/"
         }
     ],
     "database_specific": {
+        "slug": "duplicate-wp-page-post",
+        "name": "Duplicate Page and Post",
         "cwe_ids": []
     }
 }

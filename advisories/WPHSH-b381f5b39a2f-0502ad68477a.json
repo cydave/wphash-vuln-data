@@ -51,19 +51,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/1a46cfec-24ad-4619-8579-f09bbd8ee748"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24939"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/peters-login-redirect"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/peters-login-redirect/"
         }
     ],
     "database_specific": {
+        "slug": "peters-login-redirect",
+        "name": "LoginWP (Formerly Peter's Login Redirect)",
         "cwe_ids": [
             "CWE-79"
         ]

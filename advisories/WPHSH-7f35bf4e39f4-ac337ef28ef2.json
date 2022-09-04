@@ -66,19 +66,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/a1dc0ea9-51dd-43c3-bfd9-c5106193aeb6"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24513"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contact-form-add"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/contact-form-add/"
         }
     ],
     "database_specific": {
+        "slug": "contact-form-add",
+        "name": "Form Builder | Create Responsive Contact Forms",
         "cwe_ids": [
             "CWE-79"
         ]

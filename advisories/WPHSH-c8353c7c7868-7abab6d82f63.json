@@ -39,6 +39,9 @@
                 "2.2.4",
                 "2.2.3",
                 "2.2.2",
+                "includes",
+                "assets",
+                "languages",
                 "2.1.7",
                 "2.1.6.8",
                 "2.1.6.7",
@@ -86,19 +89,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-21003"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/buddyforms"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/buddyforms/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/buddyforms/"
+            "url": "https://wpvulndb.com/vulnerabilities/9829"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-21003"
         }
     ],
     "database_specific": {
+        "slug": "buddyforms",
+        "name": "Post, Registration and Profile Form Builder \u2013 FrontEnd Editor BuddyForms \u2013 Easy WordPress Forms",
         "cwe_ids": [
             "CWE-89"
         ]

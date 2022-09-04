@@ -42,19 +42,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/aebf821f-1724-4e4c-8d42-5a94e509d271"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24760"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/pdf-viewer-block"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/pdf-viewer-block/"
         }
     ],
     "database_specific": {
+        "slug": "pdf-viewer-block",
+        "name": "PDF Viewer Block for Gutenberg",
         "cwe_ids": [
             "CWE-79"
         ]

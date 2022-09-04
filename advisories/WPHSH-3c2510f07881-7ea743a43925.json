@@ -198,6 +198,9 @@
                 "3.8.4.7",
                 "3.8.4.6",
                 "3.8.4.5",
+                "dashboard",
+                "library",
+                "language",
                 "3.8.4.4",
                 "3.8.4.3",
                 "3.8.4.2",
@@ -274,19 +277,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/284fbc98-803d-4da5-8920-411eeae4bac8"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0649"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/adrotate"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/adrotate/"
         }
     ],
     "database_specific": {
+        "slug": "adrotate",
+        "name": "AdRotate \u2013 Ad manager & AdSense Ads",
         "cwe_ids": [
             "CWE-79"
         ]

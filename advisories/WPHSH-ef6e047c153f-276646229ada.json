@@ -122,19 +122,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/d1ebd15a-72ab-4ba2-a212-7e2eea0b0fb0"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25010"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/post-snippets"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/post-snippets/"
         }
     ],
     "database_specific": {
+        "slug": "post-snippets",
+        "name": "Post Snippets",
         "cwe_ids": [
             "CWE-352"
         ]

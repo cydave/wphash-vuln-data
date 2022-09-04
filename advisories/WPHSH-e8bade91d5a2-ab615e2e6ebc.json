@@ -53,19 +53,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8087"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/post-highlights"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8240"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/post-highlights/"
+            "url": "https://wordpress.org/plugins/post-highlights/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://g0blin.co.uk/cve-2014-8087/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8087"
         }
     ],
     "database_specific": {
+        "slug": "post-highlights",
+        "name": "post-highlights",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -46,19 +46,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9429"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/yith-maintenance-mode"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/yith-maintenance-mode/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/yith-maintenance-mode/"
+            "url": "https://wpvulndb.com/vulnerabilities/8285"
+        },
+        {
+            "type": "WEB",
+            "url": "http://cinu.pl/research/wp-plugins/mail_3a14a77571c73684103e0f517a92d757.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9429"
         }
     ],
     "database_specific": {
+        "slug": "yith-maintenance-mode",
+        "name": "YITH Maintenance Mode",
         "cwe_ids": [
             "CWE-352"
         ]

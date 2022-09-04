@@ -37,19 +37,37 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2920"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/user-photo"
+            "type": "WEB",
+            "url": "http://plugins.trac.wordpress.org/changeset?old_path=%2Fuser-photo&old=541880&new_path=%2Fuser-photo&new=541880"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/user-photo/"
+            "url": "http://secunia.com/advisories/49100"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/extend/plugins/user-photo/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/53449"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/81806"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/75496"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2920"
         }
     ],
     "database_specific": {
+        "slug": "user-photo",
+        "name": "User Photo",
         "cwe_ids": [
             "CWE-79"
         ]

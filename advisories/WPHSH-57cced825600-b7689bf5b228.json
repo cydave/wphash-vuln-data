@@ -123,23 +123,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4942"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-easycart"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=829290%40wp-easycart&old=827627%40wp-easycart&sfp_email=&sfph_mail="
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-easycart/"
+            "url": "http://codevigilant.com/disclosure/wp-plugin-wp-easycart-information-disclosure/"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=829290%40wp-easycart&old=827627%40wp-easycart&sfp_email=&sfph_mail="
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4942"
         }
     ],
     "database_specific": {
+        "slug": "wp-easycart",
+        "name": "Shopping Cart & eCommerce Store",
         "cwe_ids": [
             "CWE-200"
         ]

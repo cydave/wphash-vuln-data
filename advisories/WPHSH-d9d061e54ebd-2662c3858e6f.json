@@ -57,19 +57,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24207"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-pagebuilder"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/21e7a46f-e9a3-4b20-b44a-a5b6ce7b7ce6"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-pagebuilder/"
+            "url": "https://www.themeum.com/wp-page-builder-updated-v1-2-4/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24207"
         }
     ],
     "database_specific": {
+        "slug": "wp-pagebuilder",
+        "name": "WP Page Builder",
         "cwe_ids": [
             "CWE-269"
         ]

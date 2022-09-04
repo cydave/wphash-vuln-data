@@ -44,19 +44,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18585"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/posts-in-page"
+            "type": "WEB",
+            "url": "https://www.pluginvulnerabilities.com/2017/02/13/authenticated-local-file-inclusion-lfi-vulnerability-in-posts-in-page/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/posts-in-page/"
+            "url": "https://wordpress.org/plugins/posts-in-page/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18585"
         }
     ],
     "database_specific": {
+        "slug": "posts-in-page",
+        "name": "Posts in Page",
         "cwe_ids": [
             "CWE-22"
         ]

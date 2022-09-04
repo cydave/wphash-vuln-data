@@ -195,19 +195,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24727"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/stopbadbots"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/ffa1f718-f2c5-48ef-8eea-33a18a628a2c"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/stopbadbots/"
+            "url": "https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=29174"
+        },
+        {
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/changeset/2576276/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24727"
         }
     ],
     "database_specific": {
+        "slug": "stopbadbots",
+        "name": "Block Bad Bots and Stop Bad Bots Crawlers and Spiders and Anti Spam Protection",
         "cwe_ids": [
             "CWE-89"
         ]

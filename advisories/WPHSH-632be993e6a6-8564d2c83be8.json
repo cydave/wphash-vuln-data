@@ -126,19 +126,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24867"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/accesspress-anonymous-post"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/9c76bada-fa32-4c2f-9855-d0efd1e63eff"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/accesspress-anonymous-post/"
+            "url": "https://jetpack.com/2022/01/18/backdoor-found-in-themes-and-plugins-from-accesspress-themes/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24867"
         }
     ],
     "database_specific": {
+        "slug": "accesspress-anonymous-post",
+        "name": "Frontend Post WordPress Plugin \u2013 AccessPress Anonymous Post",
         "cwe_ids": [
             "CWE-912"
         ]

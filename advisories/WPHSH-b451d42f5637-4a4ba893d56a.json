@@ -72,19 +72,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/1c55fda9-e938-4267-be77-a6d73ee46af3"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1152"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/menubar"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/menubar/"
         }
     ],
     "database_specific": {
+        "slug": "menubar",
+        "name": "Menubar",
         "cwe_ids": [
             "CWE-79"
         ]

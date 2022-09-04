@@ -69,19 +69,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/62803aae-9896-410b-9398-3497a838e494"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0867"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/arprice-responsive-pricing-table"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/arprice-responsive-pricing-table/"
         }
     ],
     "database_specific": {
+        "slug": "arprice-responsive-pricing-table",
+        "name": "Pricing Table Plugin",
         "cwe_ids": [
             "CWE-89"
         ]

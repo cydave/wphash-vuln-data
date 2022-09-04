@@ -155,19 +155,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/bb5af08f-bb19-46a1-a7ac-8381f428c11e"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1009"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-smushit"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-smushit/"
         }
     ],
     "database_specific": {
+        "slug": "wp-smushit",
+        "name": "Smush \u2013 Lazy Load Images, Optimize & Compress Images",
         "cwe_ids": [
             "CWE-79"
         ]

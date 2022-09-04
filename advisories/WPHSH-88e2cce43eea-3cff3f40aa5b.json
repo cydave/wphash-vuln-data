@@ -50,23 +50,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4514"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/alipay"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/alipay/"
+            "url": "http://codevigilant.com/disclosure/wp-plugin-alipay-a3-cross-site-scripting-xss"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/847094"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4514"
         }
     ],
     "database_specific": {
+        "slug": "alipay",
+        "name": "alipay",
         "cwe_ids": [
             "CWE-79"
         ]

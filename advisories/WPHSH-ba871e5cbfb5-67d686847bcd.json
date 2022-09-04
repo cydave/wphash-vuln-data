@@ -44,19 +44,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/cba4ccdd-9331-4ca0-b910-8f427ed9b540"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46780"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/google-maps-easy"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/google-maps-easy/"
         }
     ],
     "database_specific": {
+        "slug": "google-maps-easy",
+        "name": "Easy Google Maps",
         "cwe_ids": [
             "CWE-79"
         ]

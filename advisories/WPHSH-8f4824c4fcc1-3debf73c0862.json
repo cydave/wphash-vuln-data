@@ -132,19 +132,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9448"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sendpress"
+            "type": "WEB",
+            "url": "http://cinu.pl/research/wp-plugins/mail_8a2f7613577ea8e613ec274aeec14527.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/sendpress/"
+            "url": "https://wpvulndb.com/vulnerabilities/8324"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/sendpress/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9448"
         }
     ],
     "database_specific": {
+        "slug": "sendpress",
+        "name": "SendPress Newsletters",
         "cwe_ids": [
             "CWE-89"
         ]

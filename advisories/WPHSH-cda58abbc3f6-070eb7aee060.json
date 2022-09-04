@@ -466,19 +466,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/51b4752a-7922-444d-a022-f1c7159b5d84"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1551"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sp-client-document-manager"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/sp-client-document-manager/"
         }
     ],
     "database_specific": {
+        "slug": "sp-client-document-manager",
+        "name": "SP Project & Document Manager",
         "cwe_ids": [
             "CWE-200"
         ]

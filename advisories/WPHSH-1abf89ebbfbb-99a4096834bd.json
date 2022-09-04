@@ -79,19 +79,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/7a7603ce-d76d-4c49-a886-67653bed8cd3"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25093"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/link-library"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/link-library/"
         }
     ],
     "database_specific": {
+        "slug": "link-library",
+        "name": "Link Library",
         "cwe_ids": [
             "CWE-862"
         ]

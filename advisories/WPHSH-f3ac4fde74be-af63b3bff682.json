@@ -49,19 +49,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/af548fab-96c2-4129-b609-e24aad0b1fc4"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25111"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/english-wp-admin"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/english-wp-admin/"
         }
     ],
     "database_specific": {
+        "slug": "english-wp-admin",
+        "name": "english-wp-admin",
         "cwe_ids": [
             "CWE-601"
         ]

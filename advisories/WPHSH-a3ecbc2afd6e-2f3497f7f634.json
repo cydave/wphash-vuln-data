@@ -92,19 +92,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5344"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mobiloud-mobile-app-plugin"
+            "type": "WEB",
+            "url": "http://wordpress.org/plugins/mobiloud-mobile-app-plugin/changelog"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/mobiloud-mobile-app-plugin/"
+            "url": "http://secunia.com/advisories/60530"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5344"
         }
     ],
     "database_specific": {
+        "slug": "mobiloud-mobile-app-plugin",
+        "name": "MobiLoud \u2013 WordPress Mobile Apps \u2013 Convert your WordPress Website to Native Mobile Apps",
         "cwe_ids": [
             "CWE-79"
         ]

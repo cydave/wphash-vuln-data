@@ -93,19 +93,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1707"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/duracelltomi-google-tag-manager"
+            "type": "WEB",
+            "url": "https://github.com/duracelltomi/gtm4wp/issues/224"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/duracelltomi-google-tag-manager/"
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2022-1707"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/duracelltomi/gtm4wp/blob/1.15/public/frontend.php#L298"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/duracelltomi/gtm4wp/blob/1.15/public/frontend.php#L782"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1707"
         }
     ],
     "database_specific": {
+        "slug": "duracelltomi-google-tag-manager",
+        "name": "GTM4WP",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -189,19 +189,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9455"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/custom-registration-form-builder-with-submission-manager"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2020/03/multiple-vulnerabilities-patched-in-registrationmagic-plugin/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/custom-registration-form-builder-with-submission-manager/"
+            "url": "https://wpvulndb.com/vulnerabilities/10116"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/custom-registration-form-builder-with-submission-manager/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9455"
         }
     ],
     "database_specific": {
+        "slug": "custom-registration-form-builder-with-submission-manager",
+        "name": "RegistrationMagic \u2013 Custom Registration Forms, User Registration and User Login Plugin",
         "cwe_ids": [
             "CWE-862"
         ]

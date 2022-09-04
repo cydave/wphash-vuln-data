@@ -101,19 +101,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/a9284931-555b-4c96-86a3-09e1040b0388"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24406"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wpforo"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wpforo/"
         }
     ],
     "database_specific": {
+        "slug": "wpforo",
+        "name": "wpForo Forum",
         "cwe_ids": [
             "CWE-601"
         ]

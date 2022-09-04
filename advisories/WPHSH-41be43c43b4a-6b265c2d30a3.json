@@ -95,19 +95,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9390"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/admin-management-xtended"
+            "type": "WEB",
+            "url": "https://security.szurek.pl/admin-management-xtended-240-privilege-escalation.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/admin-management-xtended/"
+            "url": "https://wordpress.org/plugins/admin-management-xtended/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9390"
         }
     ],
     "database_specific": {
+        "slug": "admin-management-xtended",
+        "name": "Admin Management Xtended",
         "cwe_ids": [
             "CWE-269"
         ]

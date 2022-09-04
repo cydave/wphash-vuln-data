@@ -60,19 +60,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://security.dxw.com/advisories/stop-user-enumeration-rest-api/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1000226"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/stop-user-enumeration"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/stop-user-enumeration/"
         }
     ],
     "database_specific": {
+        "slug": "stop-user-enumeration",
+        "name": "Stop User Enumeration",
         "cwe_ids": [
             "CWE-200"
         ]

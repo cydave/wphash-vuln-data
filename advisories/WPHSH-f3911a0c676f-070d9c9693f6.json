@@ -40,19 +40,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38337"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/rsvpmaker-excel"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2021-38337"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/rsvpmaker-excel/"
+            "url": "https://plugins.trac.wordpress.org/browser/rsvpmaker-excel/tags/1.2/phpexcel/PHPExcel/Shared/JAMA/docs/download.php#L61"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38337"
         }
     ],
     "database_specific": {
+        "slug": "rsvpmaker-excel",
+        "name": "rsvpmaker-excel",
         "cwe_ids": [
             "CWE-79"
         ]

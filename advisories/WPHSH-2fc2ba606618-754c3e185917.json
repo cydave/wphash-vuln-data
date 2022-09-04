@@ -49,23 +49,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25080"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contact-form-entries"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/contact-form-entries/"
+            "url": "https://wpscan.com/vulnerability/acd3d98a-aab8-49be-b77e-e8c6ede171ac"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2450335"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25080"
         }
     ],
     "database_specific": {
+        "slug": "contact-form-entries",
+        "name": "Contact Form Entries \u2013 Contact Form 7, WPforms and more",
         "cwe_ids": [
             "CWE-79"
         ]

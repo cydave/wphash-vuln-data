@@ -48,19 +48,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/e7fe8218-4ef5-4ef9-9850-8567c207e8e6"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0657"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/5-stars-rating-funnel"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/5-stars-rating-funnel/"
         }
     ],
     "database_specific": {
+        "slug": "5-stars-rating-funnel",
+        "name": "5 Stars Rating Funnel WordPress Plugin | RRatingg",
         "cwe_ids": [
             "CWE-89"
         ]

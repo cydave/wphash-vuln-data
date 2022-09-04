@@ -56,19 +56,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8802"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/pie-register"
+            "type": "WEB",
+            "url": "http://security.szurek.pl/pie-register-2013-privilege-escalation.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/pie-register/"
+            "url": "http://secunia.com/advisories/62351"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/pie-register/changelog/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8802"
         }
     ],
     "database_specific": {
+        "slug": "pie-register",
+        "name": "Registration Forms \u2013 User Profile, Custom Registration Form, Login Form, Invitation-Based Registrations for WordPress",
         "cwe_ids": [
             "CWE-264"
         ]

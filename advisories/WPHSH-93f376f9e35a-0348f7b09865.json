@@ -60,19 +60,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-14125"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/gallery-album"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8907"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/gallery-album/"
+            "url": "http://seclists.org/fulldisclosure/2017/Sep/55"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-14125"
         }
     ],
     "database_specific": {
+        "slug": "gallery-album",
+        "name": "Gallery \u2013 Image and Video Gallery with Thumbnails",
         "cwe_ids": [
             "CWE-89"
         ]

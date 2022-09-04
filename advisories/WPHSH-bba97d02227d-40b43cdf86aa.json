@@ -49,17 +49,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2559"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/fluent-support"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/fluent-support/"
         }
     ],
     "database_specific": {
+        "slug": "fluent-support",
+        "name": "Fluent Support \u2013 WordPress Helpdesk and Customer Support Ticket Plugin",
         "cwe_ids": []
     }
 }

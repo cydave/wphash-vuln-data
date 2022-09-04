@@ -87,19 +87,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-2316"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/search-everything"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/56820"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/search-everything/"
+            "url": "http://wordpress.org/plugins/search-everything/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/65765"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-2316"
         }
     ],
     "database_specific": {
+        "slug": "search-everything",
+        "name": "Search Everything",
         "cwe_ids": [
             "CWE-89"
         ]

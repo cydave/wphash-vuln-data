@@ -100,19 +100,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0593"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/login-with-phone-number"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/login-with-phone-number"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/login-with-phone-number/"
+            "url": "https://wpscan.com/vulnerability/76a50157-04b5-43e8-afbc-a6ddf6d1cba3"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0593"
         }
     ],
     "database_specific": {
+        "slug": "login-with-phone-number",
+        "name": "Login with phone number",
         "cwe_ids": [
             "CWE-73"
         ]

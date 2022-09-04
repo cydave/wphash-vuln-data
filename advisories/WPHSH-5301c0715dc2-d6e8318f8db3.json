@@ -138,19 +138,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24146"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/modern-events-calendar-lite"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/c7b1ebd6-3050-4725-9c87-0ea525f8fecc"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/modern-events-calendar-lite/"
+            "url": "http://packetstormsecurity.com/files/163345/WordPress-Modern-Events-Calendar-5.16.2-Information-Disclosure.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24146"
         }
     ],
     "database_specific": {
+        "slug": "modern-events-calendar-lite",
+        "name": "modern-events-calendar-lite",
         "cwe_ids": [
             "CWE-862"
         ]

@@ -206,19 +206,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3647"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-photo-album-plus"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-photo-album-plus/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-photo-album-plus/"
+            "url": "https://www.htbridge.com/advisory/HTB23257"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/74741"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/131976/WordPress-WP-Photo-Album-Plus-6.1.2-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/535575/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3647"
         }
     ],
     "database_specific": {
+        "slug": "wp-photo-album-plus",
+        "name": "WP Photo Album Plus",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -126,19 +126,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36872"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wordpress-popular-posts"
+            "type": "WEB",
+            "url": "https://github.com/cabrerahector/wordpress-popular-posts/blob/master/changelog.md"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wordpress-popular-posts/"
+            "url": "https://patchstack.com/database/vulnerability/wordpress-popular-posts/wordpress-popular-posts-plugin-5-3-3-authenticated-persistent-cross-site-scripting-xss-vulnerability"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36872"
         }
     ],
     "database_specific": {
+        "slug": "wordpress-popular-posts",
+        "name": "WordPress Popular Posts",
         "cwe_ids": [
             "CWE-79"
         ]

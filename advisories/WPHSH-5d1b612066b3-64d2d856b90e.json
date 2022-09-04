@@ -281,23 +281,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24616"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/add-to-any"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/add-to-any/"
+            "url": "https://wpscan.com/vulnerability/04eaf380-c345-425f-8800-142e3f4745a9"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2609928/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24616"
         }
     ],
     "database_specific": {
+        "slug": "add-to-any",
+        "name": "AddToAny Share Buttons",
         "cwe_ids": [
             "CWE-79"
         ]

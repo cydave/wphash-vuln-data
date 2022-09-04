@@ -95,19 +95,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2008"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-super-cache"
+            "type": "WEB",
+            "url": "http://www.openwall.com/lists/oss-security/2013/04/24/8"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-super-cache/"
+            "url": "http://www.openwall.com/lists/oss-security/2013/04/24/10"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/83798"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2008"
         }
     ],
     "database_specific": {
+        "slug": "wp-super-cache",
+        "name": "WP Super Cache",
         "cwe_ids": [
             "CWE-79"
         ]

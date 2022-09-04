@@ -151,19 +151,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/1240797c-7f45-4c36-83f0-501c544ce76a"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2219"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/unyson"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/unyson/"
         }
     ],
     "database_specific": {
+        "slug": "unyson",
+        "name": "Unyson",
         "cwe_ids": [
             "CWE-79"
         ]

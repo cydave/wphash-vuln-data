@@ -342,19 +342,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24291"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/photo-gallery"
+            "type": "WEB",
+            "url": "https://packetstormsecurity.com/files/162227/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/photo-gallery/"
+            "url": "https://wpscan.com/vulnerability/cfb982b2-8b6d-4345-b3ab-3d2b130b873a"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24291"
         }
     ],
     "database_specific": {
+        "slug": "photo-gallery",
+        "name": "Photo Gallery by 10Web \u2013 Mobile-Friendly Image Gallery",
         "cwe_ids": [
             "CWE-79"
         ]

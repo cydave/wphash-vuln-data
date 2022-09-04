@@ -42,19 +42,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/ef6830c0-e933-4e62-8321-011d91f9cfea"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1228"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/opensea"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/opensea/"
         }
     ],
     "database_specific": {
+        "slug": "opensea",
+        "name": "Opensea",
         "cwe_ids": [
             "CWE-79"
         ]

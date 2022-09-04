@@ -75,19 +75,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/i-recommend-this/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-10376"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/i-recommend-this"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/i-recommend-this/"
         }
     ],
     "database_specific": {
+        "slug": "i-recommend-this",
+        "name": "I Recommend This",
         "cwe_ids": [
             "CWE-89"
         ]

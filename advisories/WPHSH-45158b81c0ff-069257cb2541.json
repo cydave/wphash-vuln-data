@@ -44,19 +44,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/60c9d78f-ae2c-49e0-aca3-6dce1bd8f697"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24718"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/arforms-form-builder"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/arforms-form-builder/"
         }
     ],
     "database_specific": {
+        "slug": "arforms-form-builder",
+        "name": "Contact Form, Survey & Popup Form Plugin for WordPress \u2013  ARForms Form Builder",
         "cwe_ids": [
             "CWE-79"
         ]

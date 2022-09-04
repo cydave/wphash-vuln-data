@@ -52,19 +52,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9452"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/nex-forms-express-wp-form-builder"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/nex-forms-express-wp-form-builder/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/nex-forms-express-wp-form-builder/"
+            "url": "http://cinu.pl/research/wp-plugins/mail_cb24b6204803e8e94943b198edc37af7.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8336"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9452"
         }
     ],
     "database_specific": {
+        "slug": "nex-forms-express-wp-form-builder",
+        "name": "NEX-Forms \u2013 Ultimate Form Builder \u2013 Contact forms and much more",
         "cwe_ids": [
             "CWE-89"
         ]

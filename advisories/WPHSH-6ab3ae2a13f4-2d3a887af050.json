@@ -69,19 +69,45 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0895"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/count-per-day"
+            "type": "WEB",
+            "url": "http://osvdb.org/78271"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/count-per-day/"
+            "url": "http://secunia.com/advisories/47529"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.org/files/108631/countperday-downloadxss.txt"
+        },
+        {
+            "type": "WEB",
+            "url": "http://plugins.trac.wordpress.org/changeset/488883/count-per-day"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/extend/plugins/count-per-day/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.exploit-db.com/exploits/18355"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/51402"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/72384"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0895"
         }
     ],
     "database_specific": {
+        "slug": "count-per-day",
+        "name": "count-per-day",
         "cwe_ids": [
             "CWE-79"
         ]

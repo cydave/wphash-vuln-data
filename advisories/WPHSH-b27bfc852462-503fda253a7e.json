@@ -111,19 +111,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/d5ce4b8a-9aa5-4df8-b521-c2105990a87e"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0873"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/grand-media"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/grand-media/"
         }
     ],
     "database_specific": {
+        "slug": "grand-media",
+        "name": "Gmedia Photo Gallery",
         "cwe_ids": [
             "CWE-79"
         ]

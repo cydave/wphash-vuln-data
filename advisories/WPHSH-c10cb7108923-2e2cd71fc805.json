@@ -45,19 +45,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/1bf1f255-1571-425c-92b1-02833f6a44a7"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0700"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/simple-theme-options"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/simple-theme-options/"
         }
     ],
     "database_specific": {
+        "slug": "simple-theme-options",
+        "name": "Simple Tracking",
         "cwe_ids": [
             "CWE-79"
         ]

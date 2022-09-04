@@ -51,19 +51,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15828"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/one-click-ssl"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/one-click-ssl/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/one-click-ssl/"
+            "url": "https://wpvulndb.com/vulnerabilities/9448"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15828"
         }
     ],
     "database_specific": {
+        "slug": "one-click-ssl",
+        "name": "One Click SSL",
         "cwe_ids": [
             "CWE-352"
         ]

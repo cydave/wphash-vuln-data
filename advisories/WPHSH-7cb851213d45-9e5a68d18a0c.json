@@ -81,19 +81,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/83c9c3af-9eca-45e0-90d7-edc69e616e6a"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24575"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wpschoolpress"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wpschoolpress/"
         }
     ],
     "database_specific": {
+        "slug": "wpschoolpress",
+        "name": "School Management System \u2013 WPSchoolPress",
         "cwe_ids": [
             "CWE-89"
         ]

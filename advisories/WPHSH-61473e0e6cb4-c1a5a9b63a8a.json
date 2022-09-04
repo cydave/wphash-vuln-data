@@ -46,19 +46,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/f80ef09a-d3e2-4d62-8532-f0ebe59ae110"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24774"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/check-email"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/check-email/"
         }
     ],
     "database_specific": {
+        "slug": "check-email",
+        "name": "Check & Log Email",
         "cwe_ids": [
             "CWE-89"
         ]

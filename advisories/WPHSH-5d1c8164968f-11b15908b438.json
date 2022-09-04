@@ -63,19 +63,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2010"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/w3-total-cache"
+            "type": "WEB",
+            "url": "http://www.exploit-db.com/exploits/25137"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/w3-total-cache/"
+            "url": "http://www.securityfocus.com/bid/59316"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.openwall.com/lists/oss-security/2013/04/24/9"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/130999/WordPress-W3-Total-Cache-PHP-Code-Execution.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2010"
         }
     ],
     "database_specific": {
+        "slug": "w3-total-cache",
+        "name": "W3 Total Cache",
         "cwe_ids": [
             "CWE-74"
         ]

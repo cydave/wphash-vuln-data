@@ -121,19 +121,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/51e57f25-b8b2-44ca-9162-d7328eac64eb"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24986"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/post-grid"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/post-grid/"
         }
     ],
     "database_specific": {
+        "slug": "post-grid",
+        "name": "Post Grid",
         "cwe_ids": [
             "CWE-79"
         ]

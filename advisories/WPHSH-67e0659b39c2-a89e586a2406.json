@@ -53,19 +53,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/c328be28-75dd-43db-a5b9-c1ba0636c930"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0914"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/export-all-urls"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/export-all-urls/"
         }
     ],
     "database_specific": {
+        "slug": "export-all-urls",
+        "name": "Export All URLs",
         "cwe_ids": [
             "CWE-352"
         ]

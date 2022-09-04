@@ -53,19 +53,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://cybersecurityworks.com/zerodays/cve-2021-33851-stored-cross-site-scripting-in-wordpress-customize-login-image.html"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33851"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/customize-login-image"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/customize-login-image/"
         }
     ],
     "database_specific": {
+        "slug": "customize-login-image",
+        "name": "Customize Login Image",
         "cwe_ids": [
             "CWE-79"
         ]

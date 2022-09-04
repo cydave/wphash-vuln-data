@@ -59,23 +59,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2285"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/custom-css-js"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/custom-css-js/"
+            "url": "https://wordpress.org/plugins/custom-css-js/#developers"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/1695440/#file6"
+        },
+        {
+            "type": "WEB",
+            "url": "https://jvn.jp/en/jp/JVN31459091/index.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8879"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2285"
         }
     ],
     "database_specific": {
+        "slug": "custom-css-js",
+        "name": "Simple Custom CSS and JS",
         "cwe_ids": [
             "CWE-79"
         ]

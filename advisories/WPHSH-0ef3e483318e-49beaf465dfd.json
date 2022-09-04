@@ -123,19 +123,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9174"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/google-analytics-for-wordpress/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/google-analytics-for-wordpress/"
+            "url": "http://www.securityfocus.com/bid/71330"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/7692"
+        },
+        {
+            "type": "WEB",
+            "url": "https://twitter.com/yoast/status/537569224307511296"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/99053"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9174"
         }
     ],
     "database_specific": {
+        "slug": "google-analytics-for-wordpress",
+        "name": "MonsterInsights \u2013 Google Analytics Dashboard for WordPress (Website Stats Made Easy)",
         "cwe_ids": [
             "CWE-79"
         ]

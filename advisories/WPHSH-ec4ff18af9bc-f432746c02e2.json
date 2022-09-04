@@ -122,19 +122,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/invite-anyone/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18543"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/invite-anyone"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/invite-anyone/"
         }
     ],
     "database_specific": {
+        "slug": "invite-anyone",
+        "name": "Invite Anyone",
         "cwe_ids": [
             "CWE-284"
         ]

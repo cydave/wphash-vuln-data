@@ -106,19 +106,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-9172"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-file-upload"
+            "type": "WEB",
+            "url": "https://www.iptanus.com/new-version-4-3-3-of-wordpress-file-upload-plugin/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-file-upload/"
+            "url": "https://wordpress.org/plugins/wp-file-upload/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/44443/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-9172"
         }
     ],
     "database_specific": {
+        "slug": "wp-file-upload",
+        "name": "WordPress File Upload",
         "cwe_ids": [
             "CWE-79"
         ]

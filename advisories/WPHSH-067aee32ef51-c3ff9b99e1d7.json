@@ -137,19 +137,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24157"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/themeisle-companion"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2021/01/multiple-vulnerabilities-patched-in-orbit-fox-by-themeisle-plugin/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/themeisle-companion/"
+            "url": "https://wpscan.com/vulnerability/28e42f4e-e38a-4bf4-b51b-d8f21c40f037"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24157"
         }
     ],
     "database_specific": {
+        "slug": "themeisle-companion",
+        "name": "Orbit Fox by ThemeIsle",
         "cwe_ids": [
             "CWE-79"
         ]

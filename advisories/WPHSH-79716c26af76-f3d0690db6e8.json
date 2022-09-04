@@ -247,19 +247,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/17585f16-c62c-422d-ad9c-9138b6da97b7"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0314"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/nimble-builder"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/nimble-builder/"
         }
     ],
     "database_specific": {
+        "slug": "nimble-builder",
+        "name": "Nimble Page Builder",
         "cwe_ids": [
             "CWE-79"
         ]

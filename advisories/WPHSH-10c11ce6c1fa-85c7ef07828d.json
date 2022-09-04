@@ -327,19 +327,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/17287d8a-ba27-42dc-9370-a931ef404995"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24526"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/form-maker"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/form-maker/"
         }
     ],
     "database_specific": {
+        "slug": "form-maker",
+        "name": "Form Maker by 10Web \u2013 Mobile-Friendly Drag & Drop Contact Form Builder",
         "cwe_ids": [
             "CWE-79"
         ]

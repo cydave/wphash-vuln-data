@@ -58,19 +58,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-7152"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/yikes-inc-easy-mailchimp-extender"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/yikes-inc-easy-mailchimp-extender/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/yikes-inc-easy-mailchimp-extender/"
+            "url": "http://research.g0blin.co.uk/cve-2014-7152/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-7152"
         }
     ],
     "database_specific": {
+        "slug": "yikes-inc-easy-mailchimp-extender",
+        "name": "Easy Forms for Mailchimp",
         "cwe_ids": [
             "CWE-79"
         ]

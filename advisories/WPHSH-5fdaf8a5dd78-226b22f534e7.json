@@ -66,19 +66,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7669"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/easy2map"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8206"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/easy2map/"
+            "url": "https://wordpress.org/plugins/easy2map/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/536597/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7669"
         }
     ],
     "database_specific": {
+        "slug": "easy2map",
+        "name": "easy2map",
         "cwe_ids": [
             "CWE-22"
         ]

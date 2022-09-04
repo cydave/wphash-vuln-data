@@ -67,19 +67,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/8d0e65ee-fdd1-4fd6-9a27-01664c703d90"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24779"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-debugging"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-debugging/"
         }
     ],
     "database_specific": {
+        "slug": "wp-debugging",
+        "name": "WP Debugging",
         "cwe_ids": [
             "CWE-862"
         ]

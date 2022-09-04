@@ -153,22 +153,20 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://plugins.svn.wordpress.org/gtranslate/tags/2.8.64/gtranslate.php"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34630"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/gtranslate"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/gtranslate/"
         }
     ],
     "database_specific": {
+        "slug": "gtranslate",
+        "name": "Translate WordPress with GTranslate",
         "cwe_ids": [
-            "CWE-79",
-            "CWE-116"
+            "CWE-116",
+            "CWE-79"
         ]
     }
 }

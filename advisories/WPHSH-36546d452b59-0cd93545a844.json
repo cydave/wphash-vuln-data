@@ -213,19 +213,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://blog.ripstech.com/2018/wordpress-design-flaw-leads-to-woocommerce-rce/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20714"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/woocommerce"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/woocommerce/"
         }
     ],
     "database_specific": {
+        "slug": "woocommerce",
+        "name": "WooCommerce",
         "cwe_ids": [
             "CWE-22"
         ]

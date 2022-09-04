@@ -91,19 +91,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/37e0a033-3dee-476d-ae86-68354e8f0b1c"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24211"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wordpress-23-related-posts-plugin"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wordpress-23-related-posts-plugin/"
         }
     ],
     "database_specific": {
+        "slug": "wordpress-23-related-posts-plugin",
+        "name": "wordpress-23-related-posts-plugin",
         "cwe_ids": [
             "CWE-79"
         ]

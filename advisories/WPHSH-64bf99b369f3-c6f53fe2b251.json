@@ -41,19 +41,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24348"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/side-menu"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/e0ca257e-6e78-4611-a9ad-be43d37cf474"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/side-menu/"
+            "url": "https://codevigilant.com/disclosure/2021/wp-plugin-side-menu/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24348"
         }
     ],
     "database_specific": {
+        "slug": "side-menu",
+        "name": "side-menu",
         "cwe_ids": [
             "CWE-89"
         ]

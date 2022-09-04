@@ -66,19 +66,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-11012"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sola-support-tickets"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8389"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/sola-support-tickets/"
+            "url": "https://wordpress.org/plugins/sola-support-tickets/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-11012"
         }
     ],
     "database_specific": {
+        "slug": "sola-support-tickets",
+        "name": "Sola Support Tickets",
         "cwe_ids": [
             "CWE-79"
         ]

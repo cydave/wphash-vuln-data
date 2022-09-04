@@ -222,19 +222,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24931"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/secure-copy-content-protection"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/1cd52d61-af75-43ed-9b99-b46c471c4231"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/secure-copy-content-protection/"
+            "url": "http://packetstormsecurity.com/files/165946/WordPress-Secure-Copy-Content-Protection-And-Content-Locking-2.8.1-SQL-Injection.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24931"
         }
     ],
     "database_specific": {
+        "slug": "secure-copy-content-protection",
+        "name": "Secure Copy Content Protection and Content Locking",
         "cwe_ids": [
             "CWE-89"
         ]

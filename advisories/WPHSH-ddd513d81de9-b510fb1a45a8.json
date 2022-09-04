@@ -49,19 +49,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3811"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/smart-google-code-inserter"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/smart-google-code-inserter/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/smart-google-code-inserter/"
+            "url": "https://limbenjamin.com/articles/smart-google-code-inserter-auth-bypass.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/43420/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8988"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3811"
         }
     ],
     "database_specific": {
+        "slug": "smart-google-code-inserter",
+        "name": "smart-google-code-inserter",
         "cwe_ids": [
             "CWE-89"
         ]

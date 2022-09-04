@@ -43,19 +43,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/03e7c2dc-1c6d-4cff-af59-6b41ead74978"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2091"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cache-images"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/cache-images/"
         }
     ],
     "database_specific": {
+        "slug": "cache-images",
+        "name": "Cache Images",
         "cwe_ids": [
             "CWE-352"
         ]

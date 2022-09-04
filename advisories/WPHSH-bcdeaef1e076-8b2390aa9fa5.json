@@ -253,23 +253,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42361"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contact-form-to-email"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=2628041%40contact-form-to-email&new=2628041%40contact-form-to-email&sfp_email=&sfph_mail="
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/contact-form-to-email/"
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2021-42361"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=2628041%40contact-form-to-email&new=2628041%40contact-form-to-email&sfp_email=&sfph_mail="
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42361"
         }
     ],
     "database_specific": {
+        "slug": "contact-form-to-email",
+        "name": "Contact Form Email",
         "cwe_ids": [
             "CWE-79"
         ]

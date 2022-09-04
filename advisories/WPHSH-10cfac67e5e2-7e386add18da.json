@@ -49,23 +49,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3299"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/floating-social-bar"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/1129648/floating-social-bar/trunk"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/floating-social-bar/"
+            "url": "http://www.securityfocus.com/bid/74053"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/1129648/floating-social-bar/trunk"
+            "type": "WEB",
+            "url": "http://www.openwall.com/lists/oss-security/2015/04/13/10"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3299"
         }
     ],
     "database_specific": {
+        "slug": "floating-social-bar",
+        "name": "Floating Social Bar",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -54,19 +54,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "http://lncken.cn/?p=279"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-9337"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/markdown-on-save-improved"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/markdown-on-save-improved/"
         }
     ],
     "database_specific": {
+        "slug": "markdown-on-save-improved",
+        "name": "markdown-on-save-improved",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -43,23 +43,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2640"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-mailup"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/51917"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-mailup/"
+            "url": "http://osvdb.org/91274"
         },
         {
             "type": "FIX",
             "url": "http://plugins.trac.wordpress.org/changeset?new=682420"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/extend/plugins/wp-mailup/changelog/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2640"
         }
     ],
     "database_specific": {
+        "slug": "wp-mailup",
+        "name": "wp-mailup",
         "cwe_ids": [
             "CWE-264"
         ]

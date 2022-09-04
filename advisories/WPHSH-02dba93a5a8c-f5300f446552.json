@@ -42,19 +42,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1391"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cab-fare-calculator"
+            "type": "WEB",
+            "url": "https://packetstormsecurity.com/files/166533/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/cab-fare-calculator/"
+            "url": "https://wpscan.com/vulnerability/680121fe-6668-4c1a-a30d-e70dd9be5aac"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1391"
         }
     ],
     "database_specific": {
+        "slug": "cab-fare-calculator",
+        "name": "Cab fare calculator",
         "cwe_ids": [
             "CWE-22"
         ]

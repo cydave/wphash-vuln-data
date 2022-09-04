@@ -156,19 +156,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/9e092aad-0b36-45a9-8987-8d904b34fbb2"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25018"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/woocommerce-product-addon"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/woocommerce-product-addon/"
         }
     ],
     "database_specific": {
+        "slug": "woocommerce-product-addon",
+        "name": "PPOM for WooCommerce",
         "cwe_ids": [
             "CWE-862"
         ]

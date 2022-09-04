@@ -66,17 +66,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36405"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/amcharts-charts-and-maps"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/amcharts-charts-and-maps/"
         }
     ],
     "database_specific": {
+        "slug": "amcharts-charts-and-maps",
+        "name": "amCharts: Charts and Maps",
         "cwe_ids": []
     }
 }

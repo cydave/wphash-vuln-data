@@ -43,19 +43,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/ef6d0393-0ce3-465c-84c8-53bf8c58958a"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1956"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/shortcut-macros"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/shortcut-macros/"
         }
     ],
     "database_specific": {
+        "slug": "shortcut-macros",
+        "name": "shortcut-macros",
         "cwe_ids": [
             "CWE-352"
         ]

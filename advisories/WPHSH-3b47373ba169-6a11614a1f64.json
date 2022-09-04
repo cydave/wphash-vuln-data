@@ -72,19 +72,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "http://wordpress.org/plugins/contextual-related-posts/changelog/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3937"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contextual-related-posts"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/contextual-related-posts/"
         }
     ],
     "database_specific": {
+        "slug": "contextual-related-posts",
+        "name": "Contextual Related Posts",
         "cwe_ids": [
             "CWE-89"
         ]

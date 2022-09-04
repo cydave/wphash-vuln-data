@@ -121,19 +121,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/91ca2cc9-951e-4e96-96ff-3bf131209dbe"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0447"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/post-grid"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/post-grid/"
         }
     ],
     "database_specific": {
+        "slug": "post-grid",
+        "name": "Post Grid",
         "cwe_ids": [
             "CWE-79"
         ]

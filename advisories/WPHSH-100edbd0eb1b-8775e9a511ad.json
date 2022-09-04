@@ -226,23 +226,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0513"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-statistics"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-statistics/"
+            "url": "https://www.wordfence.com/blog/2022/02/unauthenticated-sql-injection-vulnerability-patched-in-wordpress-statistics-plugin/"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2671297/wp-statistics/trunk/includes/class-wp-statistics-hits.php"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0513"
         }
     ],
     "database_specific": {
+        "slug": "wp-statistics",
+        "name": "WP Statistics",
         "cwe_ids": [
             "CWE-89"
         ]

@@ -81,19 +81,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-15038"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/coming-soon"
+            "type": "WEB",
+            "url": "https://www.getastra.com/blog/911/plugin-exploit/stored-xss-coming-soon-page-maintenance-mode-plugin/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/coming-soon/"
+            "url": "https://www.jinsonvarghese.com/stored-xss-coming-soon-maintenance-mode-wordpress-plugin/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/coming-soon/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/10283"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/158649/WordPress-Maintenance-Mode-By-SeedProd-5.1.1-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-15038"
         }
     ],
     "database_specific": {
+        "slug": "coming-soon",
+        "name": "Website Builder by SeedProd \u2014 Theme Builder, Landing Page Builder, Coming Soon Page, Maintenance Mode",
         "cwe_ids": [
             "CWE-79"
         ]

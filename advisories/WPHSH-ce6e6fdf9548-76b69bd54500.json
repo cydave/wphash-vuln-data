@@ -38,19 +38,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-6828"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/securemoz-security-audit"
+            "type": "WEB",
+            "url": "http://www.openwall.com/lists/oss-security/2015/09/06/3"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/securemoz-security-audit/"
+            "url": "http://www.openwall.com/lists/oss-security/2015/09/05/4"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8179"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-6828"
         }
     ],
     "database_specific": {
+        "slug": "securemoz-security-audit",
+        "name": "securemoz-security-audit",
         "cwe_ids": [
             "CWE-20"
         ]

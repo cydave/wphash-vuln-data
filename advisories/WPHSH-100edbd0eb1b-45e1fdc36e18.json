@@ -227,23 +227,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25149"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-statistics"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-statistics/"
+            "url": "https://gist.github.com/Xib3rR4dAr/5dbd58b7f57a5037fe461fba8e696042"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=2679983%40wp-statistics&new=2679983%40wp-statistics&sfp_email=&sfph_mail="
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2022-25149"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25149"
         }
     ],
     "database_specific": {
+        "slug": "wp-statistics",
+        "name": "WP Statistics",
         "cwe_ids": [
             "CWE-89"
         ]

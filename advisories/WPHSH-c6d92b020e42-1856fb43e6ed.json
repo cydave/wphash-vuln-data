@@ -120,19 +120,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/events-manager/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-6716"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/events-manager"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/events-manager/"
         }
     ],
     "database_specific": {
+        "slug": "events-manager",
+        "name": "Events Manager",
         "cwe_ids": [
             "CWE-79"
         ]

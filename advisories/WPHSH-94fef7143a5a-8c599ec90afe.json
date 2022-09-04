@@ -57,19 +57,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9462"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/awesome-filterable-portfolio"
+            "type": "WEB",
+            "url": "http://cinu.pl/research/wp-plugins/mail_082287dbf7a24d415ff71581fc248330.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/awesome-filterable-portfolio/"
+            "url": "https://wpvulndb.com/vulnerabilities/8311"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/awesome-filterable-portfolio/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9462"
         }
     ],
     "database_specific": {
+        "slug": "awesome-filterable-portfolio",
+        "name": "Awesome Filterable Portfolio",
         "cwe_ids": [
             "CWE-89"
         ]

@@ -50,19 +50,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7411"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/launcher"
+            "type": "WEB",
+            "url": "https://metamorfosec.com/Files/Advisories/METS-2019-002-Multiple_Stored_XSS_Vulnerabilities_in_the_MyThemeShop_Launcher_plugin_v1.0.8_for_WordPress.txt"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/launcher/"
+            "url": "https://wpvulndb.com/vulnerabilities/9275"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-7411"
         }
     ],
     "database_specific": {
+        "slug": "launcher",
+        "name": "Launcher: Coming Soon & Maintenance Mode",
         "cwe_ids": [
             "CWE-79"
         ]

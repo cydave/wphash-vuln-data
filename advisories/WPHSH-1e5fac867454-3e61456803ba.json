@@ -67,19 +67,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-5254"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/connections"
+            "type": "WEB",
+            "url": "http://wordpress.org/extend/plugins/connections/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/connections/"
+            "url": "http://secunia.com/advisories/47390"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/51204"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.osvdb.org/78063"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-5254"
         }
     ],
     "database_specific": {
+        "slug": "connections",
+        "name": "Connections Business Directory",
         "cwe_ids": []
     }
 }

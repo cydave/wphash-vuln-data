@@ -230,19 +230,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-12675"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mappress-google-maps-for-wordpress"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/mappress-google-maps-for-wordpress/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/mappress-google-maps-for-wordpress/"
+            "url": "https://blog.alertlogic.com/alert-logic-threat-research-team-identifies-new-vulnerability-cve-2020-12675-in-mappress-plugin-for-wordpress/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-12675"
         }
     ],
     "database_specific": {
+        "slug": "mappress-google-maps-for-wordpress",
+        "name": "MapPress Maps for WordPress",
         "cwe_ids": [
             "CWE-434"
         ]

@@ -41,19 +41,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/a5c97809-2ffc-4efb-8c80-1b734361cd06"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1801"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/very-simple-contact-form"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/very-simple-contact-form/"
         }
     ],
     "database_specific": {
+        "slug": "very-simple-contact-form",
+        "name": "Very Simple Contact Form",
         "cwe_ids": [
             "CWE-863"
         ]

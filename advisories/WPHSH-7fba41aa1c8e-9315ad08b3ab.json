@@ -90,23 +90,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1985"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/download-manager"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=2736071%40download-manager&new=2736071%40download-manager&sfp_email=&sfph_mail="
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/download-manager/"
+            "url": "https://www.wordfence.com/blog/2022/06/security-vulnerability-download-manager-plugin/"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=2736071%40download-manager&new=2736071%40download-manager&sfp_email=&sfph_mail="
+            "type": "WEB",
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2022-1985"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1985"
         }
     ],
     "database_specific": {
+        "slug": "download-manager",
+        "name": "Download Manager",
         "cwe_ids": [
             "CWE-79"
         ]

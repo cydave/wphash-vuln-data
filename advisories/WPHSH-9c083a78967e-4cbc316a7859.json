@@ -64,19 +64,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/cf022415-6614-4b95-913b-802186766ae6"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24905"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/advanced-cf7-db"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/advanced-cf7-db/"
         }
     ],
     "database_specific": {
+        "slug": "advanced-cf7-db",
+        "name": "Advanced Contact form 7 DB",
         "cwe_ids": [
             "CWE-863"
         ]

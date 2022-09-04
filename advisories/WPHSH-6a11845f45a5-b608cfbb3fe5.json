@@ -152,19 +152,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9273"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-slimstat"
+            "type": "WEB",
+            "url": "https://www.openwall.com/lists/oss-security/2015/07/30/1"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-slimstat/"
+            "url": "https://plugins.trac.wordpress.org/changeset/1204104"
+        },
+        {
+            "type": "WEB",
+            "url": "http://plugins.svn.wordpress.org//wp-slimstat/tags/4.1.6.1/readme.txt"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9273"
         }
     ],
     "database_specific": {
+        "slug": "wp-slimstat",
+        "name": "Slimstat Analytics",
         "cwe_ids": [
             "CWE-79"
         ]

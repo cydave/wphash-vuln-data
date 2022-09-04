@@ -129,17 +129,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2256"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/visualizer"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/visualizer/"
         }
     ],
     "database_specific": {
+        "slug": "visualizer",
+        "name": "Visualizer: Tables and Charts Manager for WordPress",
         "cwe_ids": []
     }
 }

@@ -140,19 +140,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-0579"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wonderm00ns-simple-facebook-open-graph-tags"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wonderm00ns-simple-facebook-open-graph-tags/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wonderm00ns-simple-facebook-open-graph-tags/"
+            "url": "http://jvn.jp/en/jp/JVN08386386/index.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-0579"
         }
     ],
     "database_specific": {
+        "slug": "wonderm00ns-simple-facebook-open-graph-tags",
+        "name": "Open Graph and Twitter Card Tags",
         "cwe_ids": [
             "CWE-79"
         ]

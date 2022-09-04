@@ -62,19 +62,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/4d0c60d1-db5a-4c4f-9bdb-669975ac7210"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24576"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/easy-accordion-free"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/easy-accordion-free/"
         }
     ],
     "database_specific": {
+        "slug": "easy-accordion-free",
+        "name": "Easy Accordion \u2013 Best Accordion FAQ Plugin for WordPress",
         "cwe_ids": [
             "CWE-79"
         ]

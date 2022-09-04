@@ -136,19 +136,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4932"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wordfence"
+            "type": "WEB",
+            "url": "https://www.wordfence.com/help/advanced/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wordfence/"
+            "url": "http://techdefencelabs.com/security-advisories.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4932"
         }
     ],
     "database_specific": {
+        "slug": "wordfence",
+        "name": "Wordfence Security \u2013 Firewall & Malware Scan",
         "cwe_ids": [
             "CWE-79"
         ]

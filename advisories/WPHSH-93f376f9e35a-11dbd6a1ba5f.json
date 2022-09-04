@@ -139,19 +139,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/0903920c-be2e-4515-901f-87253eb30940"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1946"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/gallery-album"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/gallery-album/"
         }
     ],
     "database_specific": {
+        "slug": "gallery-album",
+        "name": "Gallery \u2013 Image and Video Gallery with Thumbnails",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -42,19 +42,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3257"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/related-posts"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/53122"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/related-posts/"
+            "url": "http://www.securityfocus.com/bid/59836"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/plugins/related-posts/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/84245"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3257"
         }
     ],
     "database_specific": {
+        "slug": "related-posts",
+        "name": "related-posts",
         "cwe_ids": [
             "CWE-352"
         ]

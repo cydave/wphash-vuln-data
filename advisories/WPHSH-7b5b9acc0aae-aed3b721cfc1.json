@@ -194,19 +194,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/597e9686-f4e2-43bf-85ef-c5967e5652bd"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24152"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/popup-builder"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/popup-builder/"
         }
     ],
     "database_specific": {
+        "slug": "popup-builder",
+        "name": "Popup Builder \u2013 Create highly converting, mobile friendly marketing popups.",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -49,19 +49,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/16fc08ec-8476-4f3c-93ea-6a51ed880dd5"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1028"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-security-pro"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-security-pro/"
         }
     ],
     "database_specific": {
+        "slug": "wp-security-pro",
+        "name": "WordPress Security \u2013 Firewall, Malware Scanner, Secure Login and Backup",
         "cwe_ids": [
             "CWE-79"
         ]

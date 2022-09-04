@@ -107,17 +107,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1600"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/yop-poll"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/yop-poll/"
         }
     ],
     "database_specific": {
+        "slug": "yop-poll",
+        "name": "YOP Poll",
         "cwe_ids": []
     }
 }

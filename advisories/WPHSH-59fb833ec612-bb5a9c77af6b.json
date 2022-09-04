@@ -87,19 +87,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/aryo-activity-log/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10890"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/aryo-activity-log"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/aryo-activity-log/"
         }
     ],
     "database_specific": {
+        "slug": "aryo-activity-log",
+        "name": "Activity Log",
         "cwe_ids": [
             "CWE-79"
         ]

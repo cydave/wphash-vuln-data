@@ -123,19 +123,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4063"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/newstatpress"
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/74773"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/newstatpress/"
+            "url": "http://packetstormsecurity.com/files/132038/WordPress-NewStatPress-0.9.8-Cross-Site-Scripting-SQL-Injection.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/37107/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/newstatpress/changelog/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4063"
         }
     ],
     "database_specific": {
+        "slug": "newstatpress",
+        "name": "NewStatPress",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -126,17 +126,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2361"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-whatsapp-chat"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-whatsapp-chat/"
         }
     ],
     "database_specific": {
+        "slug": "wp-whatsapp-chat",
+        "name": "WP Social Chat \u2013 Click To Chat App",
         "cwe_ids": []
     }
 }

@@ -119,19 +119,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36846"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/chaty"
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/chaty/wordpress-chaty-plugin-2-8-3-authenticated-stored-cross-site-scripting-xss-vulnerability"
         },
         {
             "type": "WEB",
             "url": "https://wordpress.org/plugins/chaty/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36846"
         }
     ],
     "database_specific": {
+        "slug": "chaty",
+        "name": "Floating Chat Widget: Contact Chat Icons, Telegram Chat, Line, WeChat, Email, SMS, Call Button \u2013 Chaty",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -36,19 +36,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/129499/WordPress-Our-Team-Showcase-1.2-CSRF-XSS.html"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9523"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/our-team-enhanced"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/our-team-enhanced/"
         }
     ],
     "database_specific": {
+        "slug": "our-team-enhanced",
+        "name": "our-team-enhanced",
         "cwe_ids": [
             "CWE-352"
         ]

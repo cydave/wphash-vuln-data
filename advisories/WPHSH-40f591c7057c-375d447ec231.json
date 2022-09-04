@@ -65,19 +65,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/40603382-404b-44a2-8212-f2008366891c"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24451"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/user-export-with-their-meta-data"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/user-export-with-their-meta-data/"
         }
     ],
     "database_specific": {
+        "slug": "user-export-with-their-meta-data",
+        "name": "Export Users With Meta",
         "cwe_ids": [
             "CWE-89"
         ]

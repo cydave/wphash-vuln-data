@@ -70,19 +70,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-latest-posts/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10913"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-latest-posts"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-latest-posts/"
         }
     ],
     "database_specific": {
+        "slug": "wp-latest-posts",
+        "name": "WP Latest Posts",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -93,19 +93,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14092"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/payment-form-for-paypal-pro"
+            "type": "WEB",
+            "url": "https://wordpress.dwbooster.com/forms/payment-form-for-paypal-pro"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/payment-form-for-paypal-pro/"
+            "url": "https://wordpress.org/plugins/payment-form-for-paypal-pro/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/10287"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14092"
         }
     ],
     "database_specific": {
+        "slug": "payment-form-for-paypal-pro",
+        "name": "Payment Form for PayPal Pro",
         "cwe_ids": [
             "CWE-89"
         ]

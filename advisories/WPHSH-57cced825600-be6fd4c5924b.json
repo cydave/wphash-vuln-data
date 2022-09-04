@@ -204,19 +204,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "http://blog.rastating.com/wp-easycart-privilege-escalation-information-disclosure/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2673"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-easycart"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-easycart/"
         }
     ],
     "database_specific": {
+        "slug": "wp-easycart",
+        "name": "Shopping Cart & eCommerce Store",
         "cwe_ids": [
             "CWE-264"
         ]

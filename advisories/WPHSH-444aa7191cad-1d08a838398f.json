@@ -46,19 +46,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/a4432acd-df49-4a4f-8184-b55cdd5d4d34"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24443"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/youzify"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/youzify/"
         }
     ],
     "database_specific": {
+        "slug": "youzify",
+        "name": "Youzify \u2013 BuddyPress Community, User Profile, Social Network & Membership Plugin for WordPress",
         "cwe_ids": [
             "CWE-79"
         ]

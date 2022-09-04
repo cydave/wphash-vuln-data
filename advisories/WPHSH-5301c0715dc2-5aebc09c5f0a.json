@@ -138,19 +138,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24145"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/modern-events-calendar-lite"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/f42cc26b-9aab-4824-8168-b5b8571d1610"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/modern-events-calendar-lite/"
+            "url": "http://packetstormsecurity.com/files/163346/WordPress-Modern-Events-Calendar-5.16.2-Shell-Upload.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/163672/WordPress-Modern-Events-Calendar-Remote-Code-Execution.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24145"
         }
     ],
     "database_specific": {
+        "slug": "modern-events-calendar-lite",
+        "name": "modern-events-calendar-lite",
         "cwe_ids": [
             "CWE-434"
         ]

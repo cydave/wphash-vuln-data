@@ -172,19 +172,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9178"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sp-client-document-manager"
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/129212/WordPress-SP-Client-Document-Manager-2.4.1-SQL-Injection.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/sp-client-document-manager/"
+            "url": "http://www.exploit-db.com/exploits/35313"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.itas.vn/news/itas-team-phat-hien-nhieu-lo-hong-sql-injection-trong-sp-client-document-manager-plugin-67.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/98897"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/534041/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9178"
         }
     ],
     "database_specific": {
+        "slug": "sp-client-document-manager",
+        "name": "SP Project & Document Manager",
         "cwe_ids": [
             "CWE-89"
         ]

@@ -88,19 +88,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/total-security/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10899"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/total-security"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/total-security/"
         }
     ],
     "database_specific": {
+        "slug": "total-security",
+        "name": "total-security",
         "cwe_ids": [
             "CWE-20"
         ]

@@ -83,19 +83,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1160"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-favorite-posts"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-favorite-posts/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-favorite-posts/"
+            "url": "http://jvn.jp/en/jp/JVN86517621/index.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://jvndb.jvn.jp/jvndb/JVNDB-2016-000034"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1160"
         }
     ],
     "database_specific": {
+        "slug": "wp-favorite-posts",
+        "name": "WP Favorite Posts",
         "cwe_ids": [
             "CWE-79"
         ]

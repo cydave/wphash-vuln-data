@@ -71,19 +71,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-7181"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/maxbuttons"
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/128693/WordPress-MaxButtons-1.26.0-Cross-Site-Scripting.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/maxbuttons/"
+            "url": "https://wordpress.org/plugins/maxbuttons/changelog"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.htbridge.com/advisory/HTB23237"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/533700/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-7181"
         }
     ],
     "database_specific": {
+        "slug": "maxbuttons",
+        "name": "WordPress Button Plugin MaxButtons",
         "cwe_ids": [
             "CWE-79"
         ]

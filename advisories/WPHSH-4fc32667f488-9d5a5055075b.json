@@ -88,19 +88,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-16251"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/yith-woocommerce-wishlist"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/9932"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/yith-woocommerce-wishlist/"
+            "url": "https://blog.nintechnet.com/authenticated-settings-change-vulnerability-in-yit-plugin-framework/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-16251"
         }
     ],
     "database_specific": {
+        "slug": "yith-woocommerce-wishlist",
+        "name": "YITH WooCommerce Wishlist",
         "cwe_ids": []
     }
 }

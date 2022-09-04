@@ -417,19 +417,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24915"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contest-gallery"
+            "type": "WEB",
+            "url": "https://gist.github.com/tpmiller87/6c05596fe27dd6f69f1aaba4cbb9c917"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/contest-gallery/"
+            "url": "https://wpscan.com/vulnerability/45ee86a7-1497-4c81-98b8-9a8e5b3d4fac"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24915"
         }
     ],
     "database_specific": {
+        "slug": "contest-gallery",
+        "name": "Contest Gallery \u2013 Files Upload and Contest Plugin for WordPress",
         "cwe_ids": [
             "CWE-89"
         ]

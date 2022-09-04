@@ -49,23 +49,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39342"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/credova-financial"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/2606811/credova-financial/trunk/credova-financial.php"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/credova-financial/"
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2021-39342"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/2606811/credova-financial/trunk/credova-financial.php"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39342"
         }
     ],
     "database_specific": {
+        "slug": "credova-financial",
+        "name": "Credova_Financial",
         "cwe_ids": [
             "CWE-522"
         ]

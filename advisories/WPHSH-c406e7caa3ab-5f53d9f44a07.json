@@ -117,17 +117,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2597"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/visual-portfolio"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/visual-portfolio/"
         }
     ],
     "database_specific": {
+        "slug": "visual-portfolio",
+        "name": "Visual Portfolio, Photo Gallery & Post Grid",
         "cwe_ids": []
     }
 }

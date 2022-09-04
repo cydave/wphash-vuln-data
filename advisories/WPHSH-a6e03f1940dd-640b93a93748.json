@@ -98,19 +98,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24228"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/patreon-connect"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/7a5fadb1-3f1c-4779-8ff6-356fccb5269b"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/patreon-connect/"
+            "url": "https://jetpack.com/2021/03/26/vulnerabilities-found-in-patreon-wordpress-plugin/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24228"
         }
     ],
     "database_specific": {
+        "slug": "patreon-connect",
+        "name": "Patreon WordPress",
         "cwe_ids": [
             "CWE-79"
         ]

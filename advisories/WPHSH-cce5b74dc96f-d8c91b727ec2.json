@@ -40,19 +40,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4748"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/my-category-order"
+            "type": "WEB",
+            "url": "http://packetstormsecurity.org/0907-exploits/wpmco-sql.txt"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/my-category-order/"
+            "url": "http://www.securityfocus.com/bid/35704"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/51727"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.exploit-db.com/exploits/9150"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4748"
         }
     ],
     "database_specific": {
+        "slug": "my-category-order",
+        "name": "my-category-order",
         "cwe_ids": [
             "CWE-89"
         ]

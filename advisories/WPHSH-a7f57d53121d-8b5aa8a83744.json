@@ -51,22 +51,20 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/972ecde8-3d44-4dd9-81e3-643d8737434f"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24685"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/flat-preloader"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/flat-preloader/"
         }
     ],
     "database_specific": {
+        "slug": "flat-preloader",
+        "name": "Flat Preloader",
         "cwe_ids": [
-            "CWE-79",
-            "CWE-352"
+            "CWE-352",
+            "CWE-79"
         ]
     }
 }

@@ -75,19 +75,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7517"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/double-opt-in-for-download"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8345"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/double-opt-in-for-download/"
+            "url": "http://www.vapidlabs.com/advisory.php?v=157"
+        },
+        {
+            "type": "WEB",
+            "url": "http://permalink.gmane.org/gmane.comp.security.oss.general/18255"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/78220"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7517"
         }
     ],
     "database_specific": {
+        "slug": "double-opt-in-for-download",
+        "name": "double-opt-in-for-download",
         "cwe_ids": [
             "CWE-89"
         ]

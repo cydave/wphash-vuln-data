@@ -82,19 +82,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/icegram/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10963"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/icegram"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/icegram/"
         }
     ],
     "database_specific": {
+        "slug": "icegram",
+        "name": "Popups, Welcome Bar, Optins and Lead Generation Plugin \u2013 Icegram",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -47,19 +47,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/31cf0dfb-4025-4898-a5f4-fc7115565a10"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24214"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/daggerhart-openid-connect-generic"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/daggerhart-openid-connect-generic/"
         }
     ],
     "database_specific": {
+        "slug": "daggerhart-openid-connect-generic",
+        "name": "OpenID Connect Generic Client",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -81,19 +81,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/88869380-173d-4d4f-81d8-3c20add5f98d"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1469"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ajax-search-for-woocommerce"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/ajax-search-for-woocommerce/"
         }
     ],
     "database_specific": {
+        "slug": "ajax-search-for-woocommerce",
+        "name": "FiboSearch \u2013 Ajax Search for WooCommerce",
         "cwe_ids": [
             "CWE-79"
         ]

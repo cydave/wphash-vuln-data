@@ -51,17 +51,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38070"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/pop-up-pop-up"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/pop-up-pop-up/"
         }
     ],
     "database_specific": {
+        "slug": "pop-up-pop-up",
+        "name": "Pop-up",
         "cwe_ids": []
     }
 }

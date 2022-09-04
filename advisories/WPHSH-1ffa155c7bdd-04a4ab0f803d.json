@@ -66,19 +66,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/cf4b266c-d68e-4add-892a-d01a31987a4b"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24899"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/media-tags"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/media-tags/"
         }
     ],
     "database_specific": {
+        "slug": "media-tags",
+        "name": "media-tags",
         "cwe_ids": [
             "CWE-79"
         ]

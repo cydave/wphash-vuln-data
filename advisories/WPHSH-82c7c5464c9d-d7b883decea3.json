@@ -62,19 +62,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9269"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wordpress-mobile-pack"
+            "type": "WEB",
+            "url": "https://www.openwall.com/lists/oss-security/2015/07/19/1"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wordpress-mobile-pack/"
+            "url": "https://wordpress.org/plugins/wordpress-mobile-pack/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://seclists.org/fulldisclosure/2015/Jul/97"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9269"
         }
     ],
     "database_specific": {
+        "slug": "wordpress-mobile-pack",
+        "name": "WordPress Mobile Pack \u2013 Mobile Plugin for Progressive Web Apps & Hybrid Mobile Apps",
         "cwe_ids": [
             "CWE-200"
         ]

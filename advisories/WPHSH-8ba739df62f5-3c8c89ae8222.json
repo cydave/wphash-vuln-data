@@ -72,19 +72,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-13344"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-like-button"
+            "type": "WEB",
+            "url": "https://limbenjamin.com/articles/wp-like-button-auth-bypass.html"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-like-button/"
+            "url": "https://wordpress.org/plugins/wp-like-button/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/153541/WordPress-Like-Button-1.6.0-Authentication-Bypass.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/9432"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-13344"
         }
     ],
     "database_specific": {
+        "slug": "wp-like-button",
+        "name": "WP Like Button",
         "cwe_ids": [
             "CWE-306"
         ]

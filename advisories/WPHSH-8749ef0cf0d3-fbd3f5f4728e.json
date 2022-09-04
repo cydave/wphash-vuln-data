@@ -41,19 +41,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3478"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/contus-video-gallery"
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/59845"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/contus-video-gallery/"
+            "url": "http://secunia.com/advisories/51344"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/84239"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3478"
         }
     ],
     "database_specific": {
+        "slug": "contus-video-gallery",
+        "name": "contus-video-gallery",
         "cwe_ids": [
             "CWE-89"
         ]

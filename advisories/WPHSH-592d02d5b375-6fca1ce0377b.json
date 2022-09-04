@@ -61,19 +61,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15866"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/crelly-slider"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/crelly-slider/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/crelly-slider/"
+            "url": "https://blog.nintechnet.com/arbitrary-file-upload-vulnerability-in-wordpress-crelly-slider-plugin/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15866"
         }
     ],
     "database_specific": {
+        "slug": "crelly-slider",
+        "name": "Crelly Slider",
         "cwe_ids": [
             "CWE-434"
         ]

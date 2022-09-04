@@ -34,19 +34,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-6499"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/age-verification"
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/51357"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/age-verification/"
+            "url": "http://www.osvdb.org/82584"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.exploit-db.com/exploits/18350"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-6499"
         }
     ],
     "database_specific": {
+        "slug": "age-verification",
+        "name": "Age Verification",
         "cwe_ids": [
             "CWE-20"
         ]

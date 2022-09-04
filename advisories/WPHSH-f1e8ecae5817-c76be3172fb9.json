@@ -132,19 +132,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://blog.nintechnet.com/multiple-vulnerabilities-in-sliced-invoices-plugin/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-20625"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/sliced-invoices"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/sliced-invoices/"
         }
     ],
     "database_specific": {
+        "slug": "sliced-invoices",
+        "name": "Sliced Invoices \u2013 WordPress Invoice Plugin",
         "cwe_ids": [
             "CWE-89"
         ]

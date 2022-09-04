@@ -105,19 +105,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3907"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wysija-newsletters"
+            "type": "WEB",
+            "url": "http://wordpress.org/plugins/wysija-newsletters/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wysija-newsletters/"
+            "url": "http://jvndb.jvn.jp/jvndb/JVNDB-2014-000101"
+        },
+        {
+            "type": "WEB",
+            "url": "http://jvn.jp/en/jp/JVN94409737/index.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3907"
         }
     ],
     "database_specific": {
+        "slug": "wysija-newsletters",
+        "name": "MailPoet Newsletters (Previous)",
         "cwe_ids": [
             "CWE-352"
         ]

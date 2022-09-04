@@ -102,19 +102,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27852"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/kb-support"
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/kb-support/wordpress-kb-support-wordpress-help-desk-plugin-1-5-5-multiple-unauthenticated-stored-cross-site-scripting-xss-vulnerabilities"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/kb-support/"
+            "url": "https://wordpress.org/plugins/kb-support/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27852"
         }
     ],
     "database_specific": {
+        "slug": "kb-support",
+        "name": "KB Support \u2013 WordPress Help Desk",
         "cwe_ids": [
             "CWE-79"
         ]

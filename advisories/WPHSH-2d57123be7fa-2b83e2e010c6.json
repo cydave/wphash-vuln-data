@@ -70,17 +70,11 @@
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2184"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/advanced-nocaptcha-recaptcha"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/advanced-nocaptcha-recaptcha/"
         }
     ],
     "database_specific": {
+        "slug": "advanced-nocaptcha-recaptcha",
+        "name": "CAPTCHA 4WP",
         "cwe_ids": []
     }
 }

@@ -143,19 +143,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-retina-2x/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20983"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-retina-2x"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-retina-2x/"
         }
     ],
     "database_specific": {
+        "slug": "wp-retina-2x",
+        "name": "Perfect Images (Retina, Thumbnails, Replace, CDN)",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -54,19 +54,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1691"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/realty-workstation"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/f9363b4c-c434-4f15-93f8-46162d2d7049"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/realty-workstation/"
+            "url": "https://bulletin.iese.de/post/realty-workstation_1-0-6"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1691"
         }
     ],
     "database_specific": {
+        "slug": "realty-workstation",
+        "name": "Realty Workstation",
         "cwe_ids": [
             "CWE-89"
         ]

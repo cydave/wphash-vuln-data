@@ -77,19 +77,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/webp-express/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15330"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/webp-express"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/webp-express/"
         }
     ],
     "database_specific": {
+        "slug": "webp-express",
+        "name": "WebP Express",
         "cwe_ids": []
     }
 }

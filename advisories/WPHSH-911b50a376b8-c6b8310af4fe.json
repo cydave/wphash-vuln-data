@@ -48,23 +48,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24750"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-stats-manager"
-        },
-        {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-stats-manager/"
+            "url": "https://wpscan.com/vulnerability/7528aded-b8c9-4833-89d6-9cd7df3620de"
         },
         {
             "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2622268"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/165433/WordPress-WP-Visitor-Statistics-4.7-SQL-Injection.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24750"
         }
     ],
     "database_specific": {
+        "slug": "wp-stats-manager",
+        "name": "WP Visitor Statistics (Real Time Traffic)",
         "cwe_ids": [
             "CWE-89"
         ]

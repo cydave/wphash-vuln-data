@@ -58,19 +58,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9385"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/quotes-and-tips"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/quotes-and-tips/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/quotes-and-tips/"
+            "url": "https://wpvulndb.com/vulnerabilities/8359"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9385"
         }
     ],
     "database_specific": {
+        "slug": "quotes-and-tips",
+        "name": "Quotes and Tips by BestWebSoft",
         "cwe_ids": [
             "CWE-79"
         ]

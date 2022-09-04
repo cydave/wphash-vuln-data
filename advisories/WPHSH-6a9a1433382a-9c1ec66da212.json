@@ -92,19 +92,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9388"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mtouch-quiz"
+            "type": "WEB",
+            "url": "https://www.davidsopas.com/multiple-vulns-on-mtouch-quiz-wordpress-plugin/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/mtouch-quiz/"
+            "url": "https://wordpress.org/plugins/mtouch-quiz/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9388"
         }
     ],
     "database_specific": {
+        "slug": "mtouch-quiz",
+        "name": "mTouch Quiz",
         "cwe_ids": [
             "CWE-352"
         ]

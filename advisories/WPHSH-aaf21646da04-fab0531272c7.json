@@ -69,19 +69,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/9d4a3f09-b011-4d87-ab63-332e505cf1cd"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0779"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/user-meta"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/user-meta/"
         }
     ],
     "database_specific": {
+        "slug": "user-meta",
+        "name": "User Meta \u2013 User Profile Builder and User management plugin",
         "cwe_ids": [
             "CWE-22"
         ]

@@ -128,19 +128,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-10564"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-file-upload"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-file-upload/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-file-upload/"
+            "url": "https://github.com/beerpwn/CVE/tree/master/WP-File-Upload_disclosure_report/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/10132"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-10564"
         }
     ],
     "database_specific": {
+        "slug": "wp-file-upload",
+        "name": "WordPress File Upload",
         "cwe_ids": [
             "CWE-22"
         ]

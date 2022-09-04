@@ -56,19 +56,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/c73c7694-1cee-4f26-a425-9c336adce52b"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24763"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/perfect-survey"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/perfect-survey/"
         }
     ],
     "database_specific": {
+        "slug": "perfect-survey",
+        "name": "perfect-survey",
         "cwe_ids": [
             "CWE-352"
         ]

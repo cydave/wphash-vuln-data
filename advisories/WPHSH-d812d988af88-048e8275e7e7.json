@@ -63,19 +63,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/3491b889-94dd-4507-9fed-58f48d8275cf"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1393"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-subtitle"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-subtitle/"
         }
     ],
     "database_specific": {
+        "slug": "wp-subtitle",
+        "name": "WP Subtitle",
         "cwe_ids": [
             "CWE-79"
         ]

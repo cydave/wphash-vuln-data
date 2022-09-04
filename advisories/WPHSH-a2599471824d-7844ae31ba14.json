@@ -42,19 +42,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24602"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/hm-multiple-roles"
+            "type": "WEB",
+            "url": "https://jetpack.com/2021/08/05/privilege-escalation-in-hm-multiple-roles-wordpress-plugin/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/hm-multiple-roles/"
+            "url": "https://wpscan.com/vulnerability/5fd2548a-08de-4417-bff1-f174dab718d5"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24602"
         }
     ],
     "database_specific": {
+        "slug": "hm-multiple-roles",
+        "name": "HM Multiple Roles",
         "cwe_ids": [
             "CWE-269"
         ]

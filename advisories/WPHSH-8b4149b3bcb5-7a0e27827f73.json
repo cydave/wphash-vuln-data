@@ -67,19 +67,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/d7f0805a-61ce-454a-96fb-5ecacd767578"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0658"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/commonsbooking"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/commonsbooking/"
         }
     ],
     "database_specific": {
+        "slug": "commonsbooking",
+        "name": "CommonsBooking",
         "cwe_ids": [
             "CWE-89"
         ]

@@ -44,19 +44,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-21012"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cf7-invisible-recaptcha"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/cf7-invisible-recaptcha/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/cf7-invisible-recaptcha/"
+            "url": "https://www.pluginvulnerabilities.com/2018/05/17/reflected-cross-site-scripting-xss-vulnerability-in-cf7-invisible-recaptcha/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-21012"
         }
     ],
     "database_specific": {
+        "slug": "cf7-invisible-recaptcha",
+        "name": "CF7 Invisible reCAPTCHA",
         "cwe_ids": [
             "CWE-79"
         ]

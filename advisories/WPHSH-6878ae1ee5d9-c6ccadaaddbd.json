@@ -75,19 +75,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9449"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/microblog-poster"
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/8321"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/microblog-poster/"
+            "url": "http://cinu.pl/research/wp-plugins/mail_642d8f7d8715d08f070a35b896f2d8bd.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/microblog-poster/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9449"
         }
     ],
     "database_specific": {
+        "slug": "microblog-poster",
+        "name": "Microblog Poster \u2013 Auto Publish on Social Media",
         "cwe_ids": [
             "CWE-89"
         ]

@@ -56,19 +56,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4536"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/infusionsoft"
+            "type": "WEB",
+            "url": "http://wordpress.org/plugins/infusionsoft/changelog"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/infusionsoft/"
+            "url": "http://codevigilant.com/disclosure/wp-plugin-infusionsoft-a3-cross-site-scripting-xss"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4536"
         }
     ],
     "database_specific": {
+        "slug": "infusionsoft",
+        "name": "infusionsoft",
         "cwe_ids": [
             "CWE-79"
         ]

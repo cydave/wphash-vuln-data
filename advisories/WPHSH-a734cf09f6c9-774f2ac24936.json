@@ -53,19 +53,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/4e165122-4746-42de-952e-a3bf51393a74"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24967"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/lead-form-builder"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/lead-form-builder/"
         }
     ],
     "database_specific": {
+        "slug": "lead-form-builder",
+        "name": "Contact Form & Lead Form Elementor Builder",
         "cwe_ids": [
             "CWE-79"
         ]

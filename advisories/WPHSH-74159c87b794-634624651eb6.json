@@ -95,19 +95,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/3fafbec0-55e4-41cf-8402-1b57b6615225"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24459"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/survey-maker"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/survey-maker/"
         }
     ],
     "database_specific": {
+        "slug": "survey-maker",
+        "name": "Survey Maker \u2013 Best WordPress Survey Plugin",
         "cwe_ids": [
             "CWE-89"
         ]

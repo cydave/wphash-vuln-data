@@ -181,19 +181,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/0201f365-7acb-4640-bd3f-7119432f4917"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2090"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/woo-discount-rules"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/woo-discount-rules/"
         }
     ],
     "database_specific": {
+        "slug": "woo-discount-rules",
+        "name": "Discount Rules for WooCommerce",
         "cwe_ids": [
             "CWE-79"
         ]

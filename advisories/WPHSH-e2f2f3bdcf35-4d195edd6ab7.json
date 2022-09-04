@@ -161,19 +161,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9324"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/easy-digital-downloads"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/easy-digital-downloads/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/easy-digital-downloads/"
+            "url": "https://wpvulndb.com/vulnerabilities/9770"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9324"
         }
     ],
     "database_specific": {
+        "slug": "easy-digital-downloads",
+        "name": "Easy Digital Downloads \u2013 Simple eCommerce for Selling Digital Files",
         "cwe_ids": [
             "CWE-89"
         ]

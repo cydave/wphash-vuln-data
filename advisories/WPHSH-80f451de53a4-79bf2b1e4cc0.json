@@ -391,19 +391,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7228"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/calculated-fields-form"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/calculated-fields-form/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/calculated-fields-form/"
+            "url": "https://spider-security.co.uk/blog-cve-2020-7228"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/10043"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7228"
         }
     ],
     "database_specific": {
+        "slug": "calculated-fields-form",
+        "name": "Calculated Fields Form",
         "cwe_ids": [
             "CWE-79"
         ]

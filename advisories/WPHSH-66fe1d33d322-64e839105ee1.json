@@ -118,19 +118,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/b5035987-6227-4fc6-bc45-1e8016e5c4c0"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25016"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/chaty"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/chaty/"
         }
     ],
     "database_specific": {
+        "slug": "chaty",
+        "name": "Floating Chat Widget: Contact Chat Icons, Telegram Chat, Line, WeChat, Email, SMS, Call Button \u2013 Chaty",
         "cwe_ids": [
             "CWE-79"
         ]

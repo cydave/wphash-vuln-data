@@ -74,19 +74,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/pdf-print/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20970"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/pdf-print"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/pdf-print/"
         }
     ],
     "database_specific": {
+        "slug": "pdf-print",
+        "name": "PDF & Print by BestWebSoft \u2013 WordPress Posts and Pages PDF Generator Plugin",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -259,19 +259,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9372"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/appointment-booking-calendar"
+            "type": "WEB",
+            "url": "https://drive.google.com/open?id=1NNcYPaJir9SleyVr4cSPqpI2LNM7rtx9"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/appointment-booking-calendar/"
+            "url": "https://wordpress.org/plugins/appointment-booking-calendar/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.hotdreamweaver.com/support/view.php?id=815925"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/156694/WordPress-Appointment-Booking-Calendar-1.3.34-CSV-Injection.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9372"
         }
     ],
     "database_specific": {
+        "slug": "appointment-booking-calendar",
+        "name": "Appointment Booking Calendar",
         "cwe_ids": [
             "CWE-1236"
         ]

@@ -377,23 +377,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34645"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-easycart"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/browser/wp-easycart/trunk/admin/inc/wp_easycart_admin_initial_setup.php?rev=2463792#L240"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-easycart/"
+            "url": "https://wordfence.com/vulnerability-advisories/#CVE-2021-34645"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/browser/wp-easycart/trunk/admin/inc/wp_easycart_admin_initial_setup.php?rev=2463792#L240"
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34645"
         }
     ],
     "database_specific": {
+        "slug": "wp-easycart",
+        "name": "Shopping Cart & eCommerce Store",
         "cwe_ids": [
             "CWE-352"
         ]

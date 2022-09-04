@@ -137,19 +137,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/d1bfdce3-89bd-441f-8ebb-02cf0ff8b6cc"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24944"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/ag-custom-admin"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/ag-custom-admin/"
         }
     ],
     "database_specific": {
+        "slug": "ag-custom-admin",
+        "name": "Custom Dashboard & Login Page \u2013 AGCA",
         "cwe_ids": [
             "CWE-79"
         ]

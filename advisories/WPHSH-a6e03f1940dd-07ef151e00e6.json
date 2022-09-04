@@ -49,19 +49,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/patreon-connect/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20984"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/patreon-connect"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/patreon-connect/"
         }
     ],
     "database_specific": {
+        "slug": "patreon-connect",
+        "name": "Patreon WordPress",
         "cwe_ids": [
             "CWE-502"
         ]

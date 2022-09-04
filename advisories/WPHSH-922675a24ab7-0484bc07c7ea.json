@@ -202,19 +202,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23183"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/advanced-custom-fields"
+            "type": "WEB",
+            "url": "https://jvn.jp/en/jp/JVN42543427/index.html"
         },
         {
             "type": "WEB",
             "url": "https://wordpress.org/plugins/advanced-custom-fields/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.advancedcustomfields.com/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23183"
         }
     ],
     "database_specific": {
+        "slug": "advanced-custom-fields",
+        "name": "Advanced Custom Fields",
         "cwe_ids": [
             "CWE-862"
         ]

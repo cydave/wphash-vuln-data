@@ -48,19 +48,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29448"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mwp-herd-effect"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/mwp-herd-effect/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/mwp-herd-effect/"
+            "url": "https://patchstack.com/database/vulnerability/mwp-herd-effect/wordpress-herd-effects-plugin-5-2-local-file-inclusion-lfi-vulnerability"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29448"
         }
     ],
     "database_specific": {
+        "slug": "mwp-herd-effect",
+        "name": "Herd Effects \u2013 fake notifications and social proof plugin",
         "cwe_ids": [
             "CWE-706"
         ]

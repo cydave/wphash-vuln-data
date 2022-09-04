@@ -82,19 +82,33 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-100023"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/mtouch-quiz"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/57491"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/mtouch-quiz/"
+            "url": "https://wordpress.org/plugins/mtouch-quiz/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://security.dxw.com/advisories/admin-xss-and-sqli-in-mtouch-quiz-3-0-6/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/91950"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/91949"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-100023"
         }
     ],
     "database_specific": {
+        "slug": "mtouch-quiz",
+        "name": "mTouch Quiz",
         "cwe_ids": [
             "CWE-79"
         ]

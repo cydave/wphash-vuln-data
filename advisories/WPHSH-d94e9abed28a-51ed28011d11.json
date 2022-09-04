@@ -68,19 +68,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5660"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/responsive-coming-soon-page"
+            "type": "WEB",
+            "url": "https://github.com/d4wner/Vulnerabilities-Report/blob/master/responsive-coming-soon-page.md"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/responsive-coming-soon-page/"
+            "url": "https://wpvulndb.com/vulnerabilities/9010"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5660"
         }
     ],
     "database_specific": {
+        "slug": "responsive-coming-soon-page",
+        "name": "Coming Soon Page \u2013 Responsive Coming Soon & Maintenance Mode",
         "cwe_ids": [
             "CWE-79"
         ]

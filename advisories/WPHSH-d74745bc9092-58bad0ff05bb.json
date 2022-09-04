@@ -43,19 +43,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7670"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/simple-support-ticket-system"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/simple-support-ticket-system/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/simple-support-ticket-system/"
+            "url": "https://wpvulndb.com/vulnerabilities/8207"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/archive/1/536624/100/0/threaded"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7670"
         }
     ],
     "database_specific": {
+        "slug": "simple-support-ticket-system",
+        "name": "Support Ticket System",
         "cwe_ids": [
             "CWE-89"
         ]

@@ -125,19 +125,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/eb58f43e-4304-40e7-9e0f-d0d6fe049724"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1220"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/foxyshop"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/foxyshop/"
         }
     ],
     "database_specific": {
+        "slug": "foxyshop",
+        "name": "FoxyShop",
         "cwe_ids": [
             "CWE-79"
         ]

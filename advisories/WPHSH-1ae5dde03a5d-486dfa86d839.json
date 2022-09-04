@@ -65,19 +65,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2706"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/stream-video-player"
+            "type": "WEB",
+            "url": "http://osvdb.org/94466"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/stream-video-player/"
+            "url": "http://secunia.com/advisories/52954"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2706"
         }
     ],
     "database_specific": {
+        "slug": "stream-video-player",
+        "name": "Stream Video Player",
         "cwe_ids": [
             "CWE-352"
         ]

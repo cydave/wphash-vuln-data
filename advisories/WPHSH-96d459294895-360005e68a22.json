@@ -42,23 +42,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-6194"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-splashing-images"
+            "type": "FIX",
+            "url": "https://plugins.trac.wordpress.org/changeset/1807349/wp-splashing-images"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-splashing-images/"
+            "url": "http://seclists.org/fulldisclosure/2018/Jan/91"
         },
         {
-            "type": "FIX",
-            "url": "https://plugins.trac.wordpress.org/changeset/1807349/wp-splashing-images"
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/146109/WordPress-Splashing-Images-2.1-Cross-Site-Scripting-PHP-Object-Injection.html"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpvulndb.com/vulnerabilities/9016"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-6194"
         }
     ],
     "database_specific": {
+        "slug": "wp-splashing-images",
+        "name": "Splashing Images",
         "cwe_ids": [
             "CWE-79"
         ]

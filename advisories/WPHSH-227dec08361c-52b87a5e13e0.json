@@ -108,19 +108,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/925c4c28-ae94-4684-a365-5f1e34e6c151"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0656"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/udraw"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/udraw/"
         }
     ],
     "database_specific": {
+        "slug": "udraw",
+        "name": "udraw",
         "cwe_ids": [
             "CWE-552"
         ]

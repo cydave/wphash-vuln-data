@@ -109,19 +109,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9311"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/shareaholic"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/shareaholic/changelog/"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/shareaholic/"
+            "url": "http://security.szurek.pl/shareaholic-7603-xss.html"
+        },
+        {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/131321/WordPress-Shareaholic-7.6.0.3-Cross-Site-Scripting.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9311"
         }
     ],
     "database_specific": {
+        "slug": "shareaholic",
+        "name": "Professional Social Sharing Buttons, Icons & Related Posts \u2013 Shareaholic",
         "cwe_ids": [
             "CWE-79"
         ]

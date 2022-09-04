@@ -178,19 +178,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/531b3fac-48b9-4821-a3aa-4db073d43aae"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24464"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/youtube-video-player"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/youtube-video-player/"
         }
     ],
     "database_specific": {
+        "slug": "youtube-video-player",
+        "name": "YouTube Embed, Playlist and Popup by WpDevArt",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -35,19 +35,29 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4944"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/buddypress-extended-friendship-request"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/54048"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/buddypress-extended-friendship-request/"
+            "url": "http://osvdb.org/94807"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/plugins/buddypress-extended-friendship-request/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/85416"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4944"
         }
     ],
     "database_specific": {
+        "slug": "buddypress-extended-friendship-request",
+        "name": "BuddyPress Extended Friendship Request",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -494,19 +494,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/ff5fd894-aff3-400a-8eec-fad9d50f788e"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1905"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/events-made-easy"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/events-made-easy/"
         }
     ],
     "database_specific": {
+        "slug": "events-made-easy",
+        "name": "Events Made Easy",
         "cwe_ids": [
             "CWE-89"
         ]

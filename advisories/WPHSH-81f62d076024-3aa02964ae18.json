@@ -52,19 +52,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3250"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/wp-maintenance-mode"
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/53125"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/wp-maintenance-mode/"
+            "url": "http://wordpress.org/plugins/wp-maintenance-mode/changelog/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3250"
         }
     ],
     "database_specific": {
+        "slug": "wp-maintenance-mode",
+        "name": "WP Maintenance Mode & Coming Soon",
         "cwe_ids": [
             "CWE-352"
         ]

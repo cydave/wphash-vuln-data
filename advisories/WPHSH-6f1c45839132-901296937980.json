@@ -102,19 +102,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3173"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/custom-content-type-manager"
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/6b3d0736-7f08-4403-95eb-4385cb206f9e"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/custom-content-type-manager/"
+            "url": "https://github.com/craftsmancoding/custom-content-type-manager/blob/master/readme.txt"
+        },
+        {
+            "type": "WEB",
+            "url": "https://blog.nettitude.com/uk/custom-content-type-manager-remote-code-execution"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3173"
         }
     ],
     "database_specific": {
+        "slug": "custom-content-type-manager",
+        "name": "custom-content-type-manager",
         "cwe_ids": [
             "CWE-94"
         ]

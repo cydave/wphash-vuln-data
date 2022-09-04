@@ -196,19 +196,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/7f5659bd-50c3-4725-95f4-cf88812acf1c"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24525"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/shortcodes-ultimate"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/shortcodes-ultimate/"
         }
     ],
     "database_specific": {
+        "slug": "shortcodes-ultimate",
+        "name": "WordPress Shortcodes Plugin \u2014 Shortcodes Ultimate",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -256,19 +256,25 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0182"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/quiz-master-next"
+            "type": "WEB",
+            "url": "https://quizandsurveymaster.com/"
         },
         {
             "type": "WEB",
             "url": "https://wordpress.org/plugins/quiz-master-next/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://jvn.jp/en/jp/JVN72788165/index.html"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0182"
         }
     ],
     "database_specific": {
+        "slug": "quiz-master-next",
+        "name": "Quiz And Survey Master \u2013 Best Quiz, Exam and Survey Plugin for WordPress",
         "cwe_ids": [
             "CWE-79"
         ]

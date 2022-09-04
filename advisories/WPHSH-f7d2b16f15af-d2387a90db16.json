@@ -191,19 +191,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-29172"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/litespeed-cache"
+            "type": "WEB",
+            "url": "https://www.litespeedtech.com/products/cache-plugins/wordpress-acceleration"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/litespeed-cache/"
+            "url": "https://wordpress.org/plugins/litespeed-cache/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-29172"
         }
     ],
     "database_specific": {
+        "slug": "litespeed-cache",
+        "name": "LiteSpeed Cache",
         "cwe_ids": [
             "CWE-79"
         ]

@@ -45,19 +45,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/f0915b66-0b99-4aeb-9fba-759cafaeb0cb"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24821"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/nd-projects"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/nd-projects/"
         }
     ],
     "database_specific": {
+        "slug": "nd-projects",
+        "name": "Cost Calculator",
         "cwe_ids": [
             "CWE-79"
         ]

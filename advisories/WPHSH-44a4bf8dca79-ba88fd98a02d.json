@@ -426,19 +426,17 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://www.wordfence.com/blog/2022/03/reflected-xss-in-spam-protection-antispam-firewall-by-cleantalk/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-28221"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/cleantalk-spam-protect"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/cleantalk-spam-protect/"
         }
     ],
     "database_specific": {
+        "slug": "cleantalk-spam-protect",
+        "name": "Spam protection, AntiSpam, FireWall by CleanTalk",
         "cwe_ids": [
             "CWE-79"
         ]

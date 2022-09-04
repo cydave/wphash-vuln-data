@@ -169,19 +169,21 @@
     ],
     "references": [
         {
-            "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15318"
-        },
-        {
-            "type": "PACKAGE",
-            "url": "https://plugins.svn.wordpress.org/yikes-inc-easy-mailchimp-extender"
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/yikes-inc-easy-mailchimp-extender/#developers"
         },
         {
             "type": "WEB",
-            "url": "https://wordpress.org/plugins/yikes-inc-easy-mailchimp-extender/"
+            "url": "https://wpvulndb.com/vulnerabilities/9583"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15318"
         }
     ],
     "database_specific": {
+        "slug": "yikes-inc-easy-mailchimp-extender",
+        "name": "Easy Forms for Mailchimp",
         "cwe_ids": [
             "CWE-94"
         ]

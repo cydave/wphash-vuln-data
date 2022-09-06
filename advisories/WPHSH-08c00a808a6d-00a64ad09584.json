@@ -6,7 +6,7 @@
         "CVE-2022-2034"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Sensei LMS WordPress plugin before 4.5.0 does not have proper permissions set in one of its REST endpoint, allowing unauthenticated users to access private messages sent to teachers",
     "affected": [
         {
             "package": {

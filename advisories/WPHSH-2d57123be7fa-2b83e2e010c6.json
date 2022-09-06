@@ -6,7 +6,7 @@
         "CVE-2022-2184"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The CAPTCHA 4WP WordPress plugin before 7.1.0 lets user input reach a sensitive require_once call in one of its admin-side templates. This can be abused by attackers, via a Cross-Site Request Forgery attack to run arbitrary code on the server.",
     "affected": [
         {
             "package": {

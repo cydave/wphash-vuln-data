@@ -6,7 +6,7 @@
         "CVE-2022-2172"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The LinkWorth WordPress plugin before 3.3.4 does not implement nonce checks, which could allow attackers to make a logged in admin change settings via a CSRF attack.",
     "affected": [
         {
             "package": {

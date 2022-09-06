@@ -6,7 +6,7 @@
         "CVE-2022-2080"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Sensei LMS WordPress plugin before 4.5.2 does not ensure that the sender of a private message is either the teacher or the original sender, allowing any authenticated user to send messages to arbitrary private conversation via a IDOR attack. Note: Attackers are not able to see responses/messages between the teacher and student",
     "affected": [
         {
             "package": {

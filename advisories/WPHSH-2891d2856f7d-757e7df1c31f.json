@@ -6,7 +6,7 @@
         "CVE-2022-2046"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Directorist WordPress plugin before 7.2.3 allows administrators to download other plugins from the same vendor directly to the site, but does not check the URL domain it gets the zip files from. This could allow administrators to run code on the server, which is a problem in multisite configurations.",
     "affected": [
         {
             "package": {

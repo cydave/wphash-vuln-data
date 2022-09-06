@@ -6,7 +6,7 @@
         "CVE-2022-2559"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Fluent Support WordPress plugin before 1.5.8 does not properly sanitise, validate and escape various parameters before using them in an SQL statement, leading to an SQL Injection vulnerability exploitable by high privilege users",
     "affected": [
         {
             "package": {

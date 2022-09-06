@@ -6,7 +6,7 @@
         "CVE-2022-34658"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Multiple Authenticated (contributor+) Persistent Cross-Site Scripting (XSS) vulnerabilities in W3 Eden Download Manager plugin <= 3.2.48 at WordPress.",
     "affected": [
         {
             "package": {

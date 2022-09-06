@@ -6,7 +6,7 @@
         "CVE-2022-34857"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Reflected Cross-Site Scripting (XSS) vulnerability in smartypants SP Project & Document Manager plugin <= 4.59 at WordPress",
     "affected": [
         {
             "package": {

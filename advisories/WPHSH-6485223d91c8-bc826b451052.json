@@ -6,7 +6,7 @@
         "CVE-2022-2551"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Duplicator WordPress plugin before 1.4.7 discloses the url of the a backup to unauthenticated visitors accessing the main installer endpoint of the plugin, if the installer script has been run once by an administrator, allowing download of the full site backup without authenticating.",
     "affected": [
         {
             "package": {

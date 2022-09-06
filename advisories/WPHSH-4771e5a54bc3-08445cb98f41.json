@@ -6,7 +6,7 @@
         "CVE-2022-36379"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Cross-Site Request Forgery (CSRF) leading to plugin settings update in YooMoney ?Kassa ??? WooCommerce plugin <= 2.3.0 at WordPress.",
     "affected": [
         {
             "package": {

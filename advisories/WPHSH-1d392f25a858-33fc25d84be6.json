@@ -6,7 +6,7 @@
         "CVE-2022-1123"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Leaflet Maps Marker (Google Maps, OpenStreetMap, Bing Maps) WordPress plugin before 3.12.5 does not properly sanitize some parameters before inserting them into SQL queries. As a result, high privilege users could perform SQL injection attacks.",
     "affected": [
         {
             "package": {

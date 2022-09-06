@@ -6,7 +6,7 @@
         "CVE-2022-2389"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Abandoned Cart Recovery for WooCommerce, Follow Up Emails, Newsletter Builder & Marketing Automation By Autonami WordPress plugin before 2.1.2 does not have authorisation and CSRF checks in one of its AJAX action, allowing any authenticated users, such as subscriber to create automations",
     "affected": [
         {
             "package": {

@@ -6,7 +6,7 @@
         "CVE-2022-1932"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Rezgo Online Booking WordPress plugin before 4.1.8 does not sanitise and escape some parameters before outputting them back in a page, leading to a Reflected Cross-Site Scripting, which can be exploited either via a LFI in an AJAX action, or direct call to the affected file",
     "affected": [
         {
             "package": {

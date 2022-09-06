@@ -6,7 +6,7 @@
         "CVE-2022-2373"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Simply Schedule Appointments WordPress plugin before 1.5.7.7 is missing authorisation in a REST endpoint, allowing unauthenticated users to retrieve WordPress users details such as name and email address",
     "affected": [
         {
             "package": {

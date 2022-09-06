@@ -6,7 +6,7 @@
         "CVE-2022-36346"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Multiple Cross-Site Request Forgery (CSRF) vulnerabilities in Max Foundry MaxButtons plugin <= 9.2 at WordPress.",
     "affected": [
         {
             "package": {

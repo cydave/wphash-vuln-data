@@ -6,7 +6,7 @@
         "CVE-2022-2245"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Counter Box WordPress plugin before 1.2.1 is lacking CSRF check when activating and deactivating counters, which could allow attackers to make a logged in admin perform such actions via CSRF attacks",
     "affected": [
         {
             "package": {

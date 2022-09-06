@@ -6,7 +6,7 @@
         "CVE-2022-2375"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The WP Sticky Button WordPress plugin before 1.4.1 does not have authorisation and CSRF checks when saving its settings, allowing unauthenticated users to update them. Furthermore, due to the lack of escaping in some of them, it could lead to Stored Cross-Site Scripting issues",
     "affected": [
         {
             "package": {

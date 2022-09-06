@@ -6,7 +6,7 @@
         "CVE-2022-2181"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Advanced WordPress Reset WordPress plugin before 1.6 does not escape some generated URLs before outputting them back in href attributes of admin dashboard pages, leading to Reflected Cross-Site Scripting",
     "affected": [
         {
             "package": {

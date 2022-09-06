@@ -6,7 +6,7 @@
         "CVE-2022-2557"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Team WordPress plugin before 4.1.2 contains a file which could allow any authenticated users to download arbitrary files from the server via a path traversal vector. Furthermore, the file will also be deleted after its content is returned to the user",
     "affected": [
         {
             "package": {

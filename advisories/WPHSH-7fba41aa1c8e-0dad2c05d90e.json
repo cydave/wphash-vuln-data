@@ -6,7 +6,7 @@
         "CVE-2022-34347"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Cross-Site Request Forgery (CSRF) vulnerability in W3 Eden Download Manager plugin <= 3.2.48 at WordPress.",
     "affected": [
         {
             "package": {

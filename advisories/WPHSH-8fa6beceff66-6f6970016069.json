@@ -6,7 +6,7 @@
         "CVE-2022-36405"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Authenticated (contributor+) Stored Cross-Site Scripting (XSS) vulnerability in amCharts: Charts and Maps plugin <= 1.4 at WordPress.",
     "affected": [
         {
             "package": {

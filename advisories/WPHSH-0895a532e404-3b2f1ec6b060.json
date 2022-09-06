@@ -6,7 +6,7 @@
         "CVE-2022-2260"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The GiveWP WordPress plugin before 2.21.3 does not have CSRF in place when exporting data, and does not validate the exporting parameters such as dates, which could allow attackers to make a logged in admin DoS the web server via a CSRF attack as the plugin will try to retrieve data from the database many times which leads to overwhelm the target's CPU.",
     "affected": [
         {
             "package": {

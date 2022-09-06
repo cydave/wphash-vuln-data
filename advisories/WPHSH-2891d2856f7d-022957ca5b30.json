@@ -6,7 +6,7 @@
         "CVE-2022-2376"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Directorist WordPress plugin before 7.3.1 discloses the email address of all users in an AJAX action available to both unauthenticated and any authenticated users",
     "affected": [
         {
             "package": {

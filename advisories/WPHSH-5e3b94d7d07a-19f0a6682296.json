@@ -6,7 +6,7 @@
         "CVE-2022-2535"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The SearchWP Live Ajax Search WordPress plugin before 1.6.2 does not ensure that users making a live search are limited to published posts only, allowing unauthenticated users to make a crafted query disclosing private/draft/pending post titles along with their permalink",
     "affected": [
         {
             "package": {

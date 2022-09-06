@@ -6,7 +6,7 @@
         "CVE-2022-34149"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Authentication Bypass vulnerability in miniOrange WP OAuth Server plugin <= 3.0.4 at WordPress.",
     "affected": [
         {
             "package": {

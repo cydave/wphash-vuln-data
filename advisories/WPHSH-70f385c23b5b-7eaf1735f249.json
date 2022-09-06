@@ -6,7 +6,7 @@
         "CVE-2022-2314"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The VR Calendar WordPress plugin through 2.2.2 lets any user execute arbitrary PHP functions on the site.",
     "affected": [
         {
             "package": {

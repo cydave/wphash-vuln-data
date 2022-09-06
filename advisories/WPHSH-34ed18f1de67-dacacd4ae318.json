@@ -6,7 +6,7 @@
         "CVE-2022-2558"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Simple Job Board WordPress plugin before 2.10.0 is susceptible to Directory Listing which allows the public listing of uploaded resumes in certain configurations.",
     "affected": [
         {
             "package": {

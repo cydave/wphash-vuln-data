@@ -6,7 +6,7 @@
         "CVE-2022-2256"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "A Stored Cross-site scripting (XSS) vulnerability was found in keycloak as shipped in Red Hat Single Sign-On 7. This flaw allows a privileged attacker to execute malicious scripts in the admin console, abusing the default roles functionality.",
     "affected": [
         {
             "package": {

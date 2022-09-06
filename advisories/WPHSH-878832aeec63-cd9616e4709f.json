@@ -6,7 +6,7 @@
         "CVE-2022-2386"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Crowdsignal Dashboard WordPress plugin before 3.0.8 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting",
     "affected": [
         {
             "package": {

@@ -6,7 +6,7 @@
         "CVE-2022-36394"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Authenticated (author+) SQL Injection (SQLi) vulnerability in Contest Gallery plugin <= 17.0.4 at WordPress.",
     "affected": [
         {
             "package": {

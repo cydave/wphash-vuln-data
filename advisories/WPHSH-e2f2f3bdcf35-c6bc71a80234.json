@@ -6,7 +6,7 @@
         "CVE-2022-33900"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "PHP Object Injection vulnerability in Easy Digital Downloads plugin <= 3.0.1 at WordPress.",
     "affected": [
         {
             "package": {

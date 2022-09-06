@@ -6,7 +6,7 @@
         "CVE-2022-2361"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The WP Social Chat WordPress plugin before 6.0.5 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks.",
     "affected": [
         {
             "package": {

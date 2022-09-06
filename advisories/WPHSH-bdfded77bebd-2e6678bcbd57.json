@@ -6,7 +6,7 @@
         "CVE-2022-36282"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Authenticated (editor+) Stored Cross-Site Scripting (XSS) vulnerability in Roman Pronskiy's Search Exclude plugin <= 1.2.6 at WordPress.",
     "affected": [
         {
             "package": {

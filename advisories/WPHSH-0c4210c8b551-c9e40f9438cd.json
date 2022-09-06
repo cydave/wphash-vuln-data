@@ -6,7 +6,7 @@
         "CVE-2022-2382"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Product Slider for WooCommerce WordPress plugin before 2.5.7 has flawed CSRF checks and lack authorisation in some of its AJAX actions, allowing any authenticated users, such as subscriber to call them. One in particular could allow them to delete arbitrary blog options.",
     "affected": [
         {
             "package": {

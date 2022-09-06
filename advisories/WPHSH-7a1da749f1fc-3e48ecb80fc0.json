@@ -6,7 +6,7 @@
         "CVE-2022-2398"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The WordPress Comments Fields WordPress plugin before 4.1 does not escape Field Error Message, which could allow high-privileged users to perform Cross-Site Scripting attacks even when unfiltered_html is disallowed",
     "affected": [
         {
             "package": {

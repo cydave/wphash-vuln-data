@@ -6,7 +6,7 @@
         "CVE-2022-2383"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Feed Them Social WordPress plugin before 3.0.1 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting",
     "affected": [
         {
             "package": {

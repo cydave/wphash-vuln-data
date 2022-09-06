@@ -6,7 +6,7 @@
         "CVE-2022-2354"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The WP-DBManager WordPress plugin before 2.80.8 does not prevent administrators from running arbitrary commands on the server in multisite installations, where only super-administrators should.",
     "affected": [
         {
             "package": {

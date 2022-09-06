@@ -6,7 +6,7 @@
         "CVE-2022-2565"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Simple Payment Donations & Subscriptions WordPress plugin before 4.2.1 does not sanitise and escape user input given in its forms, which could allow unauthenticated attackers to perform Cross-Site Scripting attacks against admins",
     "affected": [
         {
             "package": {

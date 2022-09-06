@@ -6,7 +6,7 @@
         "CVE-2022-35882"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Authenticated (author or higher user role) Stored Cross-Site Scripting (XSS) vulnerability in GS Plugins GS Testimonial Slider plugin <= 1.9.1 at WordPress.",
     "affected": [
         {
             "package": {

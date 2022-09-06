@@ -6,7 +6,7 @@
         "CVE-2022-1600"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The YOP Poll WordPress plugin before 6.4.3 prioritizes getting a visitor's IP from certain HTTP headers over PHP's REMOTE_ADDR, which makes it possible to bypass IP-based limitations to vote in certain situations.",
     "affected": [
         {
             "package": {

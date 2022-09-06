@@ -6,7 +6,7 @@
         "CVE-2022-2388"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The WP Coder WordPress plugin before 2.5.3 does not have CSRF check in place when deleting code created by the plugin, which could allow attackers to make a logged in admin delete arbitrary ones via a CSRF attack",
     "affected": [
         {
             "package": {

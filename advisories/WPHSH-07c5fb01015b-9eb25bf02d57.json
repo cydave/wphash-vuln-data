@@ -6,7 +6,7 @@
         "CVE-2022-2556"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Mailchimp for WooCommerce WordPress plugin before 2.7.2 has an AJAX action that allows high privilege users to perform a POST request on behalf of the server to the internal network/LAN, the body of the request is also appended to the response so it can be used to scan private network for example",
     "affected": [
         {
             "package": {

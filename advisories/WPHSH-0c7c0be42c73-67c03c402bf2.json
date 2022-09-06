@@ -6,7 +6,7 @@
         "CVE-2022-2355"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Easy Username Updater WordPress plugin before 1.0.5 does not implement CSRF checks, which could allow attackers to make a logged in admin change any user's username includes the admin",
     "affected": [
         {
             "package": {

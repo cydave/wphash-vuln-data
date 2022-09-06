@@ -6,7 +6,7 @@
         "CVE-2022-2362"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Download Manager WordPress plugin before 3.2.50 prioritizes getting a visitor's IP from certain HTTP headers over PHP's REMOTE_ADDR, which makes it possible to bypass IP-based download blocking restrictions.",
     "affected": [
         {
             "package": {

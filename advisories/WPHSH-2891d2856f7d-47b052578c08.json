@@ -6,7 +6,7 @@
         "CVE-2022-2377"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Directorist WordPress plugin before 7.3.0 does not have authorisation and CSRF checks in an AJAX action, allowing any authenticated users to send arbitrary emails on behalf of the blog",
     "affected": [
         {
             "package": {

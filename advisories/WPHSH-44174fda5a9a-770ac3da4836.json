@@ -6,7 +6,7 @@
         "CVE-2022-2356"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Frontend File Manager & Sharing WordPress plugin before 1.1.3 does not filter file extensions when letting users upload files on the server, which may lead to malicious code being uploaded.",
     "affected": [
         {
             "package": {

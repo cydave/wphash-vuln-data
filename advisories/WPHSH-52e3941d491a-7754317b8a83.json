@@ -6,7 +6,7 @@
         "CVE-2022-35235"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Authenticated (admin+) Arbitrary File Read vulnerability in XplodedThemes WPide plugin <= 2.6 at WordPress.",
     "affected": [
         {
             "package": {

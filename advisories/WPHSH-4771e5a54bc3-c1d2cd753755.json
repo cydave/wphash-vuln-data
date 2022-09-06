@@ -6,7 +6,7 @@
         "CVE-2022-34868"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Authenticated Arbitrary Settings Update vulnerability in YooMoney ?Kassa ??? WooCommerce plugin <= 2.3.0 at WordPress.",
     "affected": [
         {
             "package": {

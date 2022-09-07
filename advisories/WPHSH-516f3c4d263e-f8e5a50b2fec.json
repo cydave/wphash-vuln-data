@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-6112"
     ],
-    "summary": "FIXME",
+    "summary": "Sell Media < 2.4.2 - Unauthenticated Cross-Site Scripting",
     "details": "A Cross-site scripting (XSS) vulnerability in /inc/class-search.php in the Sell Media plugin v2.4.1 for WordPress allows remote attackers to inject arbitrary web script or HTML via the keyword parameter (aka $search_term or the Search field).",
     "severity": [
         {

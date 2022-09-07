@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24874"
     ],
-    "summary": "FIXME",
+    "summary": "Newsletter, SMTP, Email marketing and Subscribe forms by Sendinblue < 3.1.25 - Unauthenticated Cross-Site Scripting",
     "details": "The Newsletter, SMTP, Email marketing and Subscribe forms by Sendinblue WordPress plugin before 3.1.31 does not escape the lang and pid parameter before outputting them back in attributes, leading to Reflected Cross-Site Scripting issues",
     "severity": [
         {

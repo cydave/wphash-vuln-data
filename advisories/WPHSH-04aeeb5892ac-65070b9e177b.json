@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10910"
     ],
-    "summary": "FIXME",
+    "summary": "formbuilder < 1.06 - Unauthenticated Cross-Site Scripting",
     "details": "The formbuilder plugin before 1.06 for WordPress has multiple XSS issues.",
     "severity": [
         {

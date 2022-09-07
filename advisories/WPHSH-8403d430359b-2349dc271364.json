@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-34641"
     ],
-    "summary": "FIXME",
+    "summary": "SEOPress, on-site SEO < 5.0.4 - Cross-Site Scripting",
     "details": "The SEOPress WordPress plugin is vulnerable to Stored Cross-Site-Scripting via the processPut function found in the ~/src/Actions/Api/TitleDescriptionMeta.php file which allows authenticated attackers to inject arbitrary web scripts, in versions 5.0.0 - 5.0.3.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15113"
     ],
-    "summary": "FIXME",
+    "summary": "Companion Sitemap Generator \u2013 HTML & XML < 3.7.0 - CSRF",
     "details": "The companion-sitemap-generator plugin before 3.7.0 for WordPress has CSRF.",
     "severity": [
         {

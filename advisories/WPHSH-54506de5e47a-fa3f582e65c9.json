@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10913"
     ],
-    "summary": "FIXME",
+    "summary": "WP Latest Posts < 3.7.5 - Unauthenticated Cross-Site Scripting",
     "details": "The wp-latest-posts plugin before 3.7.5 for WordPress has XSS.",
     "severity": [
         {

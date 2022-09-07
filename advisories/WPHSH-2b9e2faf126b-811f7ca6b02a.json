@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-10564"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress File Upload < 4.13.0 - Unauthenticated Path Traversal",
     "details": "An issue was discovered in the File Upload plugin before 4.13.0 for WordPress. A directory traversal can lead to remote code execution by uploading a crafted txt file into the lib directory, because of a wfu_include_lib call.",
     "severity": [
         {

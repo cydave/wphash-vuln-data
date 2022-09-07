@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-20108"
     ],
-    "summary": "FIXME",
+    "summary": "easy-table < 1.7 - Cross-Site Scripting",
     "details": "A vulnerability classified as problematic has been found in Easy Table Plugin 1.6. This affects an unknown part of the file /wordpress/wp-admin/options-general.php. The manipulation with the input \"><script>alert(1)</script> leads to basic cross site scripting. It is possible to initiate the attack remotely.",
     "severity": [
         {

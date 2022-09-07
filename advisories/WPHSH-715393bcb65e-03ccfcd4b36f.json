@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2014-10379"
     ],
-    "summary": "FIXME",
+    "summary": "Yoast Duplicate Post < 2.6 - Unauthenticated SQL Injection",
     "details": "The duplicate-post plugin before 2.6 for WordPress has SQL injection.",
     "severity": [
         {

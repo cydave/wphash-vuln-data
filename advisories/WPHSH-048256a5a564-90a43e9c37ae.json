@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-19370"
     ],
-    "summary": "FIXME",
+    "summary": "Yoast SEO < 9.2 - Race Condition",
     "details": "A Race condition vulnerability in unzip_file in admin/import/class-import-settings.php in the Yoast SEO (wordpress-seo) plugin before 9.2.0 for WordPress allows an SEO Manager to perform command execution on the Operating System via a ZIP import.",
     "severity": [
         {

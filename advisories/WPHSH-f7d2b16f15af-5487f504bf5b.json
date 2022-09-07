@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24963"
     ],
-    "summary": "FIXME",
+    "summary": "LiteSpeed Cache < 4.4.4 - Cross-Site Scripting",
     "details": "The LiteSpeed Cache WordPress plugin before 4.4.4 does not escape the qc_res parameter before outputting it back in the JS code of an admin page, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

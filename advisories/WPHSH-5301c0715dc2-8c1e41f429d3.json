@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-30533"
     ],
-    "summary": "FIXME",
+    "summary": "modern-events-calendar-lite < 6.4.7 - Cross-Site Scripting",
     "details": "Cross-site scripting vulnerability in Modern Events Calendar Lite versions prior to 6.3.0 allows remote an authenticated attacker to inject an arbitrary script via unspecified vectors.",
     "severity": [
         {

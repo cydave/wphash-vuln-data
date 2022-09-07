@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-17884"
     ],
-    "summary": "FIXME",
+    "summary": "Gwolle Guestbook < 2.5.4 - Unauthenticated Cross-Site Scripting",
     "details": "XSS exists in admin/gb-dashboard-widget.php in the Gwolle Guestbook (gwolle-gb) plugin before 2.5.4 for WordPress via the PATH_INFO to wp-admin/index.php",
     "severity": [
         {

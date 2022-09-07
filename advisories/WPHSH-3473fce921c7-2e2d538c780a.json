@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9328"
     ],
-    "summary": "FIXME",
+    "summary": "Profile Builder \u2013 User Profile & User Registration Forms < 2.2.5 - Unauthenticated Cross-Site Scripting",
     "details": "The profile-builder plugin before 2.2.5 for WordPress has XSS.",
     "severity": [
         {

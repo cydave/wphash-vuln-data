@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24920"
     ],
-    "summary": "FIXME",
+    "summary": "StatCounter \u2013 Free Real Time Visitor Stats < 2.0.7 - Cross-Site Scripting",
     "details": "The StatCounter WordPress plugin before 2.0.7 does not sanitise and escape the Project ID and Secure Code settings, which could allow high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed",
     "severity": [
         {

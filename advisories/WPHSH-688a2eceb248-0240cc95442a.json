@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1829"
     ],
-    "summary": "FIXME",
+    "summary": "google-maps-advanced < 5.12 - CSRF",
     "details": "The Inline Google Maps WordPress plugin through 5.11 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack, and lead to Stored Cross-Site Scripting due to the lack of sanitisation and escaping",
     "severity": [
         {

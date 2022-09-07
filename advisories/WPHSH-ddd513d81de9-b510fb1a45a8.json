@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-3811"
     ],
-    "summary": "FIXME",
+    "summary": "smart-google-code-inserter < 3.5 - Unauthenticated SQL Injection",
     "details": "SQL Injection vulnerability in the Oturia Smart Google Code Inserter plugin before 3.5 for WordPress allows unauthenticated attackers to execute SQL queries in the context of the web server. The saveGoogleAdWords() function in smartgooglecode.php did not use prepared statements and did not sanitize the $_POST[\"oId\"] variable before passing it as input into the SQL query.",
     "severity": [
         {

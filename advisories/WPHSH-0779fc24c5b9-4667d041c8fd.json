@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9538"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress Gallery Plugin \u2013 NextGEN Gallery < 2.1.15 - Path Traversal",
     "details": "The NextGEN Gallery plugin before 2.1.15 for WordPress allows ../ Directory Traversal in path selection.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10889"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress Gallery Plugin \u2013 NextGEN Gallery < 2.1.57 - Unauthenticated SQL Injection",
     "details": "The nextgen-gallery plugin before 2.1.57 for WordPress has SQL injection via a gallery name.",
     "severity": [
         {

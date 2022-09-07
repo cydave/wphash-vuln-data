@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0818"
     ],
-    "summary": "FIXME",
+    "summary": "WooCommerce Affiliate Plugin \u2013 Coupon Affiliates < 4.16.4 - Unauthenticated Cross-Site Scripting",
     "details": "The WooCommerce Affiliate Plugin WordPress plugin before 4.16.4.5 does not have authorization and CSRF checks on a specific action handler, as well as does not sanitize its settings, which enables an unauthenticated attacker to inject malicious XSS payloads into the settings page of the plugin.",
     "severity": [
         {

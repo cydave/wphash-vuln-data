@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24700"
     ],
-    "summary": "FIXME",
+    "summary": "Forminator \u2013 Contact Form, Payment Form & Custom Form Builder < 1.15.4 - Cross-Site Scripting",
     "details": "The Forminator WordPress plugin before 1.15.4 does not sanitize and escape the email field label, which could allow high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html is disallowed",
     "severity": [
         {

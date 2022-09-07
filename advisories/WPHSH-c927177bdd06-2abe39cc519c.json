@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24855"
     ],
-    "summary": "FIXME",
+    "summary": "Display Post Metadata < 1.5.0 - Cross-Site Scripting",
     "details": "The Display Post Metadata WordPress plugin before 1.5.0 adds a shortcode to print out custom fields, however their content is not sanitised or escaped which could allow users with a role as low as Contributor to perform Cross-Site Scripting attacks",
     "severity": [
         {

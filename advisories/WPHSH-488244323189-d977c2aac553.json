@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10880"
     ],
-    "summary": "FIXME",
+    "summary": "Google Doc Embedder < 2.6.1 - Unauthenticated Cross-Site Scripting",
     "details": "The google-document-embedder plugin before 2.6.1 for WordPress has XSS.",
     "severity": [
         {

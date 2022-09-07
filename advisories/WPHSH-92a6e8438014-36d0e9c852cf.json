@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24670"
     ],
-    "summary": "FIXME",
+    "summary": "CoolClock \u2013 a Javascript Analog Clock < 4.3.5 - Cross-Site Scripting",
     "details": "The CoolClock WordPress plugin before 4.3.5 does not escape some shortcode attributes, allowing users with a role as low as Contributor toperform Stored Cross-Site Scripting attacks",
     "severity": [
         {

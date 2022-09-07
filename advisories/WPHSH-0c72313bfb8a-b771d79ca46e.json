@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-5361"
     ],
-    "summary": "FIXME",
+    "summary": "WPGlobus \u2013 Multilingual Everything! < 1.9.7 - CSRF",
     "details": "The WPGlobus plugin 1.9.6 for WordPress has CSRF via wp-admin/options.php.",
     "severity": [
         {

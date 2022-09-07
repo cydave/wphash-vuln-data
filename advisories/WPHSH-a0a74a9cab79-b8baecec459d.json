@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24494"
     ],
-    "summary": "FIXME",
+    "summary": "WP Offload SES Lite < 1.4.5 - Cross-Site Scripting",
     "details": "The WP Offload SES Lite WordPress plugin before 1.4.5 did not escape some of the fields in the Activity page of the admin dashboard, such as the email's id, subject and recipient, which could lead to Stored Cross-Site Scripting issues when an attacker can control any of these fields, like the subject when filling a contact form for example. The XSS will be executed in the context of a logged in admin viewing the Activity tab of the plugin.",
     "severity": [
         {

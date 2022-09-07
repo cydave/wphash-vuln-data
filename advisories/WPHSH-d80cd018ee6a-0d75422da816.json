@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-25618"
     ],
-    "summary": "FIXME",
+    "summary": "wpDataTables \u2013 WordPress Tables & Table Charts Plugin < 2.1.28 - Cross-Site Scripting",
     "details": "Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability in wpDataTables (WordPress plugin) versions <= 2.1.27",
     "severity": [
         {

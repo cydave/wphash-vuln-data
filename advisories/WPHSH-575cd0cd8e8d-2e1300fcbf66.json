@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0771"
     ],
-    "summary": "FIXME",
+    "summary": "SiteSuperCharger < 5.2.0 - Unauthenticated SQL Injection",
     "details": "The SiteSuperCharger WordPress plugin before 5.2.0 does not validate, sanitise and escape various user inputs before using them in SQL statements via AJAX actions (available to both unauthenticated and authenticated users), leading to Unauthenticated SQL Injections",
     "severity": [
         {

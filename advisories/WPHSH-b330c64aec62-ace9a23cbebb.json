@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15643"
     ],
-    "summary": "FIXME",
+    "summary": "Ultimate FAQ \u2013 WordPress FAQ and Accordion Plugin < 1.8.22 - Unauthenticated Cross-Site Scripting",
     "details": "The ultimate-faqs plugin before 1.8.22 for WordPress has XSS.",
     "severity": [
         {

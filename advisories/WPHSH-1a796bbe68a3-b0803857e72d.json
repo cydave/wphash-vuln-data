@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15238"
     ],
-    "summary": "FIXME",
+    "summary": "cformsII < 15.0.2 - CSRF",
     "details": "The cforms2 plugin before 15.0.2 for WordPress has CSRF related to the IP address field.",
     "severity": [
         {

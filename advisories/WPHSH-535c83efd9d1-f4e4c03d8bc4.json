@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-36880"
     ],
-    "summary": "FIXME",
+    "summary": "Listing, Classified Ads & Business Directory \u2013 uListing < 2.0.4 - Unauthenticated SQL Injection",
     "details": "Unauthenticated SQL Injection (SQLi) vulnerability in WordPress uListing plugin (versions <= 2.0.3), vulnerable parameter: custom.",
     "severity": [
         {

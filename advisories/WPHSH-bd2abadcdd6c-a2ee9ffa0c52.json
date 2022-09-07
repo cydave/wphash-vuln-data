@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24276"
     ],
-    "summary": "FIXME",
+    "summary": "Contact Form by Supsystic < 1.7.15 - Unauthenticated Cross-Site Scripting",
     "details": "The Contact Form by Supsystic WordPress plugin before 1.7.15 did not sanitise the tab parameter of its options page before outputting it in an attribute, leading to a reflected Cross-Site Scripting issue",
     "severity": [
         {

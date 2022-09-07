@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-12826"
     ],
-    "summary": "FIXME",
+    "summary": "Widget Logic < 5.10.2 - CSRF",
     "details": "A Cross-Site-Request-Forgery (CSRF) vulnerability in widget_logic.php in the 2by2host Widget Logic plugin before 5.10.2 for WordPress allows remote attackers to execute PHP code via snippets (that are attached to widgets and then eval'd to dynamically determine their visibility) by crafting a malicious POST request that tricks administrators into adding the code.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-13478"
     ],
-    "summary": "FIXME",
+    "summary": "Yoast SEO < 11.6 - Unauthenticated Cross-Site Scripting",
     "details": "The Yoast SEO plugin before 11.6-RC5 for WordPress does not properly restrict unfiltered HTML in term descriptions.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24899"
     ],
-    "summary": "FIXME",
+    "summary": "media-tags < 3.2.0.3 - Cross-Site Scripting",
     "details": "The Media-Tags WordPress plugin through 3.2.0.2 does not sanitise and escape any of its Labels settings, which could allow high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_htnl capability is disallowed.",
     "severity": [
         {

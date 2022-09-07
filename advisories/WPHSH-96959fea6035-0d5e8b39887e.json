@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-35937"
     ],
-    "summary": "FIXME",
+    "summary": "Post Grid < 2.0.73 - Cross-Site Scripting",
     "details": "Stored Cross-Site Scripting (XSS) vulnerabilities in the Team Showcase plugin before 1.22.16 for WordPress allow remote authenticated attackers to import layouts including JavaScript supplied via a remotely hosted crafted payload in the source parameter via AJAX. The action must be set to team_import_xml_layouts.",
     "severity": [
         {

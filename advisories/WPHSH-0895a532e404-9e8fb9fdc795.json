@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15317"
     ],
-    "summary": "FIXME",
+    "summary": "GiveWP \u2013 Donation Plugin and Fundraising Platform < 2.4.7 - Cross-Site Scripting",
     "details": "The give plugin before 2.4.7 for WordPress has XSS via a donor name.",
     "severity": [
         {

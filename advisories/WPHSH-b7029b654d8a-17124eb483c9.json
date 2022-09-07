@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15327"
     ],
-    "summary": "FIXME",
+    "summary": "Import and export users and customers < 1.14.1.3 - Unauthenticated Cross-Site Scripting",
     "details": "The import-users-from-csv-with-meta plugin before 1.14.1.3 for WordPress has XSS via imported data.",
     "severity": [
         {

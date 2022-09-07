@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-29453"
     ],
-    "summary": "FIXME",
+    "summary": "API KEY for Google Maps < 1.2.2 - CSRF",
     "details": "Cross-Site Request Forgery (CSRF) vulnerability in API KEY for Google Maps plugin <= 1.2.1 at WordPress leading to Google Maps API key update.",
     "severity": [
         {

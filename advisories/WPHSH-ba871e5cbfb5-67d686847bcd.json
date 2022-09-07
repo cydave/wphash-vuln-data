@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-46780"
     ],
-    "summary": "FIXME",
+    "summary": "Easy Google Maps < 1.9.32 - Unauthenticated Cross-Site Scripting",
     "details": "The Easy Google Maps WordPress plugin before 1.9.32 does not escape the tab parameter before outputting it back in an attribute in the admin dashboard, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

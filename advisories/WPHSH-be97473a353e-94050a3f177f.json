@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-9914"
     ],
-    "summary": "FIXME",
+    "summary": "YOP Poll < 6.0.3 - Unauthenticated Cross-Site Scripting",
     "details": "The yop-poll plugin before 6.0.3 for WordPress has wp-admin/admin.php?page=yop-polls&action=view-votes poll_id XSS.",
     "severity": [
         {

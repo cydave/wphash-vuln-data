@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15868"
     ],
-    "summary": "FIXME",
+    "summary": "Affiliates Manager < 2.6.6 - CSRF",
     "details": "The affiliates-manager plugin before 2.6.6 for WordPress has CSRF.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-39339"
     ],
-    "summary": "FIXME",
+    "summary": "telefication < 1.8.1 - Unauthenticated SSRF",
     "details": "The Telefication WordPress plugin is vulnerable to Open Proxy and Server-Side Request Forgery via the ~/bypass.php file due to a user-supplied URL request value that gets called by a curl requests. This affects versions up to, and including, 1.8.0.",
     "severity": [
         {

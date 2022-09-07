@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-17947"
     ],
-    "summary": "FIXME",
+    "summary": "Snazzy Maps < 1.1.5 - Unauthenticated Cross-Site Scripting",
     "details": "The Snazzy Maps plugin before 1.1.5 for WordPress has XSS via the text or tab parameter.",
     "severity": [
         {

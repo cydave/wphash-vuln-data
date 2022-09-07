@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24828"
     ],
-    "summary": "FIXME",
+    "summary": "Mortgage Calculator / Loan Calculator < 1.5.17 - Cross-Site Scripting",
     "details": "The Mortgage Calculator / Loan Calculator WordPress plugin before 1.5.17 does not escape the some of the attributes of its mlcalc shortcode before outputting them, which could allow users with a role as low as contributor to perform Cross-Site Scripting attacks",
     "severity": [
         {

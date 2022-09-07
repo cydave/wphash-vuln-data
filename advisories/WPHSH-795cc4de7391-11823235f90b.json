@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-20361"
     ],
-    "summary": "FIXME",
+    "summary": "Email Subscribers & Newsletters \u2013 Simple and Effective Email Marketing WordPress Plugin < 4.3.1 - Unauthenticated SQL Injection",
     "details": "There was a flaw in the WordPress plugin, Email Subscribers & Newsletters before 4.3.1, that allowed SQL statements to be passed to the database in the hash parameter (a blind SQL injection vulnerability).",
     "severity": [
         {

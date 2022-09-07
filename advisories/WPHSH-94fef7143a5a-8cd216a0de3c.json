@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9461"
     ],
-    "summary": "FIXME",
+    "summary": "Awesome Filterable Portfolio < 1.9 - SQL Injection",
     "details": "The awesome-filterable-portfolio plugin before 1.9 for WordPress has afp_get_new_portfolio_item_page SQL injection via the item_id parameter.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24996"
     ],
-    "summary": "FIXME",
+    "summary": "idpay-contact-form-7 < 2.1.3 - Unauthenticated Cross-Site Scripting",
     "details": "The IDPay for Contact Form 7 WordPress plugin through 2.1.2 does not sanitise and escape the idpay_error parameter before outputting it back in the page leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

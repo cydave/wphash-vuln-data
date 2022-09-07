@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9439"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress Share Buttons Plugin \u2013 AddThis < 5.0.13 - Cross-Site Scripting",
     "details": "The addthis plugin before 5.0.13 for WordPress has CSRF with resultant XSS via the wp-admin/options-general.php?page=addthis_social_widget pubid parameter.",
     "severity": [
         {

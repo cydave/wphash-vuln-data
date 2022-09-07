@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-33851"
     ],
-    "summary": "FIXME",
+    "summary": "Customize Login Image < 3.5.3 - Cross-Site Scripting",
     "details": "A cross-site scripting (XSS) attack can cause arbitrary code (JavaScript) to run in a user's browser and can use an application as the vehicle for the attack. The XSS payload given in the \"Custom logo link\" executes whenever the user opens the Settings Page of the \"Customize Login Image\" Plugin.",
     "severity": [
         {

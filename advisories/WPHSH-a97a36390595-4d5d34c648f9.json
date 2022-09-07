@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-38326"
     ],
-    "summary": "FIXME",
+    "summary": "post-title-counter < 1.0 - Unauthenticated Cross-Site Scripting",
     "details": "The Post Title Counter WordPress plugin is vulnerable to Reflected Cross-Site Scripting via the notice parameter found in the ~/post-title-counter.php file which allows attackers to inject arbitrary web scripts, in versions up to and including 1.1.",
     "severity": [
         {

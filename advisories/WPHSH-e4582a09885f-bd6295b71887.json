@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1456"
     ],
-    "summary": "FIXME",
+    "summary": "Poll Maker \u2013 Best WordPress Poll Plugin < 4.0.2 - Cross-Site Scripting",
     "details": "The Poll Maker WordPress plugin before 4.0.2 does not sanitise and escape some settings, which could allow high privilege users such as admin to perform Store Cross-Site Scripting attack even when unfiltered_html is disallowed",
     "severity": [
         {

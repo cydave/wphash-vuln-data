@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-36919"
     ],
-    "summary": "FIXME",
+    "summary": "Awesome Support \u2013 WordPress HelpDesk & Support Plugin < 6.0.7 - Cross-Site Scripting",
     "details": "Multiple Authenticated Reflected Cross-Site Scripting (XSS) vulnerabilities in WordPress Awesome Support plugin (versions <= 6.0.6), vulnerable parameters (&id, &assignee).",
     "severity": [
         {

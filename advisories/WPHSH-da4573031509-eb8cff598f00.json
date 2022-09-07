@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25112"
     ],
-    "summary": "FIXME",
+    "summary": "WHMCS Bridge < 6.4b - Unauthenticated Cross-Site Scripting",
     "details": "The WHMCS Bridge WordPress plugin before 6.4b does not sanitise and escape the error parameter before outputting it back in admin dashboard, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

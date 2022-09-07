@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25092"
     ],
-    "summary": "FIXME",
+    "summary": "Link Library < 7.2.8 - CSRF",
     "details": "The Link Library WordPress plugin before 7.2.8 does not have CSRF check when resetting library settings, allowing attackers to make a logged in admin reset arbitrary settings via a CSRF attack",
     "severity": [
         {

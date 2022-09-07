@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-1000139"
     ],
-    "summary": "FIXME",
+    "summary": "infusionsoft < 1.5.12 - Unauthenticated Cross-Site Scripting",
     "details": "Reflected XSS in wordpress plugin infusionsoft v1.5.11",
     "severity": [
         {

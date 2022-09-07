@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15774"
     ],
-    "summary": "FIXME",
+    "summary": "Hotel Booking < 2.5 - Unauthenticated Open Redirect",
     "details": "The nd-booking plugin before 2.5 for WordPress has a nopriv_ AJAX action that allows modification of the siteurl setting.",
     "severity": [
         {

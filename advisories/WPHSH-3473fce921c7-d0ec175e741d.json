@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24448"
     ],
-    "summary": "FIXME",
+    "summary": "Profile Builder \u2013 User Profile & User Registration Forms < 3.4.8 - Cross-Site Scripting",
     "details": "The User Registration & User Profile \u00e2\u20ac\u201c Profile Builder WordPress plugin before 3.4.8 does not sanitise or escape its 'Modify default Redirect Delay timer' setting, allowing high privilege users to use JavaScript code in it, even when the unfiltered_html capability is disallowed, leading to an authenticated Stored Cross-Site Scripting issue",
     "severity": [
         {

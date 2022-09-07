@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2012-6717"
     ],
-    "summary": "FIXME",
+    "summary": "Redirection < 2.2.12 - Unauthenticated Cross-Site Scripting",
     "details": "The redirection plugin before 2.2.12 for WordPress has XSS, a different issue than CVE-2011-4562.",
     "severity": [
         {

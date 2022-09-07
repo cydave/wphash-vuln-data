@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0873"
     ],
-    "summary": "FIXME",
+    "summary": "Gmedia Photo Gallery < 1.20.0 - Cross-Site Scripting",
     "details": "The Gmedia Photo Gallery WordPress plugin before 1.20.0 does not sanitise and escape the Album's name before outputting it in pages/posts with a media embed, which could allow high privilege users such as admin to perform Cross-Site Scripting attacks even when the unfiltered-html capability is disallowed",
     "severity": [
         {

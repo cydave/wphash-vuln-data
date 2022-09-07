@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-15079"
     ],
-    "summary": "FIXME",
+    "summary": "Smush \u2013 Lazy Load Images, Optimize & Compress Images < 2.7.6 - Unauthenticated Path Traversal",
     "details": "The Smush Image Compression and Optimization plugin before 2.7.6 for WordPress allows directory traversal.",
     "severity": [
         {

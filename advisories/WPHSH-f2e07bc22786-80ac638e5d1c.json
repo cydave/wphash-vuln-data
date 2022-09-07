@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9420"
     ],
-    "summary": "FIXME",
+    "summary": "SoundCloud Is Gold < 2.3.2 - Unauthenticated Cross-Site Scripting",
     "details": "The soundcloud-is-gold plugin before 2.3.2 for WordPress has XSS via the wp-admin/admin-ajax.php?action=get_soundcloud_player id parameter.",
     "severity": [
         {

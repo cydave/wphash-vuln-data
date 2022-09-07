@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1889"
     ],
-    "summary": "FIXME",
+    "summary": "Newsletter \u2013 Send awesome emails from WordPress < 7.4.6 - Cross-Site Scripting",
     "details": "The Newsletter WordPress plugin before 7.4.6 does not escape and sanitise the preheader_text setting, which could allow high privilege users to perform Stored Cross-Site Scripting attacks when the unfilteredhtml is disallowed",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-14314"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress Gallery Plugin \u2013 NextGEN Gallery < 3.2.11 - Unauthenticated SQL Injection",
     "details": "A SQL injection vulnerability exists in the Imagely NextGEN Gallery plugin before 3.2.11 for WordPress. Successful exploitation of this vulnerability would allow a remote attacker to execute arbitrary SQL commands on the affected system via modules/nextgen_gallery_display/package.module.nextgen_gallery_display.php.",
     "severity": [
         {

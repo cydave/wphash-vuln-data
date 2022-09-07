@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24875"
     ],
-    "summary": "FIXME",
+    "summary": "eCommerce Product Catalog Plugin for WordPress < 3.0.39 - Unauthenticated Cross-Site Scripting",
     "details": "The eCommerce Product Catalog Plugin for WordPress plugin before 3.0.39 does not escape the ic-settings-search parameter before outputting it back in the page in an attribute, leading to a Reflected Cross-Site Scripting issue",
     "severity": [
         {

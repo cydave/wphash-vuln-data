@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2014-4539"
     ],
-    "summary": "FIXME",
+    "summary": "movies < 0.7 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting (XSS) vulnerability in the Movies plugin 0.6 and earlier for WordPress allows remote attackers to inject arbitrary web script or HTML via the filename parameter to getid3/demos/demo.mimeonly.php.",
     "severity": [
         {

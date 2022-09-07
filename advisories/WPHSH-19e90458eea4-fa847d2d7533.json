@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-13426"
     ],
-    "summary": "FIXME",
+    "summary": "multi-scheduler < 1.0.1 - CSRF",
     "details": "The Multi-Scheduler plugin 1.0.0 for WordPress has a Cross-Site Request Forgery (CSRF) vulnerability in the forms it presents, allowing the possibility of deleting records (users) when an ID is known.",
     "severity": [
         {

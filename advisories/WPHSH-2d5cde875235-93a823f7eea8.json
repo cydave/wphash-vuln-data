@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1603"
     ],
-    "summary": "FIXME",
+    "summary": "Mail Subscribe List < 2.1.4 - CSRF",
     "details": "The Mail Subscribe List WordPress plugin before 2.1.4 does not have CSRF check in place when deleting subscribed users, which could allow attackers to make a logged in admin perform such action and delete arbitrary users from the subscribed list",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1611"
     ],
-    "summary": "FIXME",
+    "summary": "Bulk Page Creator < 1.1.4 - CSRF",
     "details": "The Bulk Page Creator WordPress plugin before 1.1.4 does not protect its page creation functionalities with nonce checks, which makes them vulnerable to CSRF.",
     "severity": [
         {

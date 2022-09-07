@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24746"
     ],
-    "summary": "FIXME",
+    "summary": "Social Sharing Plugin \u2013 Sassy Social Share < 3.3.40 - Unauthenticated Cross-Site Scripting",
     "details": "The Social Sharing Plugin WordPress plugin before 3.3.40 does not escape the viewed post URL before outputting it back in onclick attributes when the \"Enable 'More' icon\" option is enabled (which is the default setting), leading to a Reflected Cross-Site Scripting issue.",
     "severity": [
         {

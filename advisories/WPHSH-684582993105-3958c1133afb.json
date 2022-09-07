@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24580"
     ],
-    "summary": "FIXME",
+    "summary": "Side Menu Lite \u2013 add sticky fixed buttons < 2.2.6 - SQL Injection",
     "details": "The Side Menu Lite WordPress plugin before 2.2.6 does not sanitise user input from the List page in the admin dashboard before using it in SQL statement, leading to a SQL Injection issue",
     "severity": [
         {

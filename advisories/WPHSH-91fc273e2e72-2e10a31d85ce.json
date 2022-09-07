@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1895"
     ],
-    "summary": "FIXME",
+    "summary": "underConstruction < 1.21 - CSRF",
     "details": "The underConstruction WordPress plugin before 1.20 does not have CSRF check in place when deactivating the construction mode, which could allow attackers to make a logged in admin perform such action via a CSRF attack",
     "severity": [
         {

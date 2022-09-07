@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1905"
     ],
-    "summary": "FIXME",
+    "summary": "Events Made Easy < 2.2.81 - Unauthenticated SQL Injection",
     "details": "The Events Made Easy WordPress plugin before 2.2.81 does not properly sanitise and escape a parameter before using it in a SQL statement via an AJAX action available to unauthenticated users, leading to a SQL injection",
     "severity": [
         {

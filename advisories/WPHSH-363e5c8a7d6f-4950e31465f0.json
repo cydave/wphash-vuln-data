@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-14679"
     ],
-    "summary": "FIXME",
+    "summary": "Pricing Table Plugin < 2.3 - CSRF",
     "details": "core/views/arprice_import_export.php in the ARPrice Lite plugin 2.2 for WordPress allows wp-admin/admin.php?page=arplite_import_export CSRF.",
     "severity": [
         {

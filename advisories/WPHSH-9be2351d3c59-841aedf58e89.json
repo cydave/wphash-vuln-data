@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15837"
     ],
-    "summary": "FIXME",
+    "summary": "WebP Express < 0.14.8 - Cross-Site Scripting",
     "details": "The webp-express plugin before 0.14.8 for WordPress has stored XSS.",
     "severity": [
         {

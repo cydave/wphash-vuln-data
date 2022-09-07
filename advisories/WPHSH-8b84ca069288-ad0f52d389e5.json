@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-6780"
     ],
-    "summary": "FIXME",
+    "summary": "Wise Chat < 2.7 - Unauthenticated Open Redirect",
     "details": "The Wise Chat plugin before 2.7 for WordPress mishandles external links because rendering/filters/post/WiseChatLinksPostFilter.php omits noopener and noreferrer.",
     "severity": [
         {

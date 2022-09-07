@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25120"
     ],
-    "summary": "FIXME",
+    "summary": "Easy Social Feed \u2013 Social Photos Gallery \u2013 Post Feed \u2013 Like Box < 6.2.7 - Unauthenticated Cross-Site Scripting",
     "details": "The Easy Social Feed Free and Pro WordPress plugins before 6.2.7 do not sanitise some of their parameters used via AJAX actions before outputting them back in the response, leading to Reflected Cross-Site Scripting issues",
     "severity": [
         {

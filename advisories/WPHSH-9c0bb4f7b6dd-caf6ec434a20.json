@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-29442"
     ],
-    "summary": "FIXME",
+    "summary": "private-messages-for-wordpress < 2.1.11 - Cross-Site Scripting",
     "details": "Authenticated (subscriber or higher user role) Stored Cross-Site Scripting (XSS) vulnerability in Messages For WordPress <= 2.1.10 at WordPress.",
     "severity": [
         {

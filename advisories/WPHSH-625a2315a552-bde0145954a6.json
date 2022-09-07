@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-23227"
     ],
-    "summary": "FIXME",
+    "summary": "PHP Everywhere < 3.0.0 - CSRF",
     "details": "Cross-Site Request Forgery (CSRF) vulnerability discovered in PHP Everywhere (WordPress plugin) versions (<= 2.0.2).",
     "severity": [
         {

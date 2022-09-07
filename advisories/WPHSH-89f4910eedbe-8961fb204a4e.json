@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-35950"
     ],
-    "summary": "FIXME",
+    "summary": "Backup, Restore and Migrate WordPress Sites With the XCloner Plugin < 4.2.153 - CSRF",
     "details": "An issue was discovered in the XCloner Backup and Restore plugin before 4.2.153 for WordPress. It allows CSRF (via almost any endpoint).",
     "severity": [
         {

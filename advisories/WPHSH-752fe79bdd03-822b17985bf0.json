@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9380"
     ],
-    "summary": "FIXME",
+    "summary": "Photo Gallery by 10Web \u2013 Mobile-Friendly Image Gallery < 1.2.42 - CSRF",
     "details": "The photo-gallery plugin before 1.2.42 for WordPress has CSRF.",
     "severity": [
         {

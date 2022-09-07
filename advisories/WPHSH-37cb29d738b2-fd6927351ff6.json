@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9320"
     ],
-    "summary": "FIXME",
+    "summary": "OptionTree < 2.5.4 - Unauthenticated Cross-Site Scripting",
     "details": "The option-tree plugin before 2.5.4 for WordPress has XSS related to add_query_arg.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-19198"
     ],
-    "summary": "FIXME",
+    "summary": "scoutnet-kalender < 0.2.3 - Cross-Site Scripting",
     "details": "The Scoutnet Kalender plugin 1.1.0 for WordPress allows XSS.",
     "severity": [
         {

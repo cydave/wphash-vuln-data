@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-36846"
     ],
-    "summary": "FIXME",
+    "summary": "Floating Chat Widget: Contact Chat Icons, Telegram Chat, Line, WeChat, Email, SMS, Call Button \u2013 Chaty < 2.8.4 - Cross-Site Scripting",
     "details": "Authenticated (admin or higher user role) Stored Cross-Site Scripting (XSS) vulnerability in Premio Chaty (WordPress plugin) <= 2.8.3",
     "severity": [
         {

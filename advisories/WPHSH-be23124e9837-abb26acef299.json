@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9454"
     ],
-    "summary": "FIXME",
+    "summary": "Smooth Slider < 2.7 - SQL Injection",
     "details": "The smooth-slider plugin before 2.7 for WordPress has SQL Injection via the wp-admin/admin.php?page=smooth-slider-admin current_slider_id parameter.",
     "severity": [
         {

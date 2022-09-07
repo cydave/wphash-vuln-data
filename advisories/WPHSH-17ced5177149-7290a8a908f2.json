@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24470"
     ],
-    "summary": "FIXME",
+    "summary": "Yada Wiki < 3.4.1 - Cross-Site Scripting",
     "details": "The Yada Wiki WordPress plugin before 3.4.1 did not sanitise, validate or escape the anchor attribute of its shortcode, leading to a Stored Cross-Site Scripting issue",
     "severity": [
         {

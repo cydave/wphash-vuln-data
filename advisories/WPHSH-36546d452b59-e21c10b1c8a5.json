@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10112"
     ],
-    "summary": "FIXME",
+    "summary": "WooCommerce < 2.6.9 - Cross-Site Scripting",
     "details": "Cross-site scripting (XSS) vulnerability in the WooCommerce plugin before 2.6.9 for WordPress allows remote authenticated administrators to inject arbitrary web script or HTML by providing crafted tax-rate table values in CSV format.",
     "severity": [
         {

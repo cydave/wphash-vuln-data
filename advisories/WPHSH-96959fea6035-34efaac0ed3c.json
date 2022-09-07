@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24488"
     ],
-    "summary": "FIXME",
+    "summary": "Post Grid < 2.1.8 - Unauthenticated Cross-Site Scripting",
     "details": "The slider import search feature and tab parameter of the Post Grid WordPress plugin before 2.1.8 settings are not properly sanitised before being output back in the pages, leading to Reflected Cross-Site Scripting issues",
     "severity": [
         {

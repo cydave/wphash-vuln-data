@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-5980"
     ],
-    "summary": "FIXME",
+    "summary": "Related YouTube Videos < 1.9.9 - CSRF",
     "details": "Cross-site request forgery (CSRF) vulnerability in Related YouTube Videos versions prior to 1.9.9 allows remote attackers to hijack the authentication of administrators via unspecified vectors.",
     "severity": [
         {

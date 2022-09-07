@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-24141"
     ],
-    "summary": "FIXME",
+    "summary": "WP-DownloadManager < 1.68.5 - Unauthenticated SSRF",
     "details": "Server-side request forgery in the WP-DownloadManager plugin 1.68.4 for WordPress lets an attacker send crafted requests from the back-end server of a vulnerable web application via the file_remote parameter to download-add.php. It can help identify open ports, local network hosts and execute command on services",
     "severity": [
         {

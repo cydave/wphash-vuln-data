@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0376"
     ],
-    "summary": "FIXME",
+    "summary": "User Meta \u2013 User Profile Builder and User management plugin < 2.4.3 - Cross-Site Scripting",
     "details": "The User Meta WordPress plugin before 2.4.3 does not sanitise and escape the Form Name, as well as Shared Field Labels before outputting them in the admin dashboard when editing a form, which could allow high privilege users to perform Cross-Site Scripting attacks even when unfiltered_html is disallowed",
     "severity": [
         {

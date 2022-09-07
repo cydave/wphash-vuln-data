@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10908"
     ],
-    "summary": "FIXME",
+    "summary": "Booking Calendar Contact Form < 1.0.3 - Unauthenticated Cross-Site Scripting",
     "details": "The booking-calendar-contact-form plugin before 1.0.24 for WordPress has XSS.",
     "severity": [
         {

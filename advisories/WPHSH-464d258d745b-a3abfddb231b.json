@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24918"
     ],
-    "summary": "FIXME",
+    "summary": "Smash Balloon Social Post Feed < 4.0.1 - Cross-Site Scripting",
     "details": "The Smash Balloon Social Post Feed WordPress plugin before 4.0.1 did not have any privilege or nonce validation before saving the plugin's setting. As a result, any logged-in user on a vulnerable site could update the settings and store rogue JavaScript on each of its posts and pages.",
     "severity": [
         {

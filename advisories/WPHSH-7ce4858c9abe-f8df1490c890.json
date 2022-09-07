@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24599"
     ],
-    "summary": "FIXME",
+    "summary": "Email Encoder \u2013 Protect Email Addresses and Phone Numbers < 2.1.2 - Unauthenticated Cross-Site Scripting",
     "details": "The Email Encoder \u00e2\u20ac\u201c Protect Email Addresses WordPress plugin before 2.1.2 has an endpoint that requires no authentication and will render a user supplied value in the HTML response without escaping or sanitizing the data.",
     "severity": [
         {

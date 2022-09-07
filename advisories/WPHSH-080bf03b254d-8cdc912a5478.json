@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10897"
     ],
-    "summary": "FIXME",
+    "summary": "sermon-browser < 0.45.16 - Unauthenticated Cross-Site Scripting",
     "details": "The sermon-browser plugin before 0.45.16 for WordPress has multiple XSS issues.",
     "severity": [
         {

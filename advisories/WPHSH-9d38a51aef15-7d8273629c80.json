@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15773"
     ],
-    "summary": "FIXME",
+    "summary": "nd-travel < 1.7 - Unauthenticated Open Redirect",
     "details": "The nd-travel plugin before 1.7 for WordPress has a nopriv_ AJAX action that allows modification of the siteurl setting.",
     "severity": [
         {

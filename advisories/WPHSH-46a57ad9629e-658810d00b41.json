@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-13892"
     ],
-    "summary": "FIXME",
+    "summary": "SportsPress \u2013 Sports Club & League Manager < 2.7.2 - Cross-Site Scripting",
     "details": "The SportsPress plugin before 2.7.2 for WordPress allows XSS.",
     "severity": [
         {

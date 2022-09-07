@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10898"
     ],
-    "summary": "FIXME",
+    "summary": "total-security < 3.4.1 - Unauthenticated Cross-Site Scripting",
     "details": "The total-security plugin before 3.4.1 for WordPress has XSS.",
     "severity": [
         {

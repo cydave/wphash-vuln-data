@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15840"
     ],
-    "summary": "FIXME",
+    "summary": "Facebook for WooCommerce < 1.9.15 - CSRF",
     "details": "The facebook-for-woocommerce plugin before 1.9.14 for WordPress has CSRF.",
     "severity": [
         {

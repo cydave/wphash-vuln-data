@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-14801"
     ],
-    "summary": "FIXME",
+    "summary": "FV Flowplayer Video Player < 7.3.15.727 - Unauthenticated SQL Injection",
     "details": "The FV Flowplayer Video Player plugin before 7.3.15.727 for WordPress allows email subscription SQL injection.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-17866"
     ],
-    "summary": "FIXME",
+    "summary": "Ultimate Member \u2013 User Profile, User Registration, Login & Membership Plugin < 2.0.28 - Unauthenticated Cross-Site Scripting",
     "details": "Multiple cross-site scripting (XSS) vulnerabilities in includes/core/um-actions-login.php in the \"Ultimate Member - User Profile & Membership\" plugin before 2.0.28 for WordPress allow remote attackers to inject arbitrary web script or HTML via the \"Primary button Text\" or \"Second button text\" field.",
     "severity": [
         {

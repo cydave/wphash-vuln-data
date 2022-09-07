@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-23174"
     ],
-    "summary": "FIXME",
+    "summary": "Download Monitor < 4.4.5 - Cross-Site Scripting",
     "details": "Authenticated (admin+) Persistent Cross-Site Scripting (XSS) vulnerability discovered in Download Monitor WordPress plugin (versions <= 4.4.6) Vulnerable parameters: &post_title, &downloadable_file_version[0].",
     "severity": [
         {

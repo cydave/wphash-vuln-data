@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-24313"
     ],
-    "summary": "FIXME",
+    "summary": "Ultimate Appointment Booking & Scheduling < 1.1.10 - Unauthenticated Cross-Site Scripting",
     "details": "Etoile Web Design Ultimate Appointment Booking & Scheduling WordPress Plugin v1.1.9 and lower does not sanitize the value of the \"Appointment_ID\" GET parameter before echoing it back out inside an input tag. This results in a reflected XSS vulnerability that attackers can exploit with a specially crafted URL.",
     "severity": [
         {

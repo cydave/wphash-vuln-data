@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-11930"
     ],
-    "summary": "FIXME",
+    "summary": "Translate WordPress with GTranslate < 2.8.52 - Unauthenticated Cross-Site Scripting",
     "details": "The GTranslate plugin before 2.8.52 for WordPress has Reflected XSS via a crafted link. This requires use of the hreflang tags feature within a sub-domain or sub-directory paid option.",
     "severity": [
         {

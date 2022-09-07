@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-18527"
     ],
-    "summary": "FIXME",
+    "summary": "AdPush < 1.44 - Unauthenticated Cross-Site Scripting",
     "details": "The pagination plugin before 1.0.7 for WordPress has multiple XSS issues.",
     "severity": [
         {

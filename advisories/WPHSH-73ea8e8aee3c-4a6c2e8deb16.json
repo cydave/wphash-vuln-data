@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-33850"
     ],
-    "summary": "FIXME",
+    "summary": "Microsoft Clarity < 0.4 - Cross-Site Scripting",
     "details": "There is a Cross-Site Scripting vulnerability in Microsoft Clarity version 0.3. The XSS payload executes whenever the user changes the clarity configuration in Microsoft Clarity version 0.3. The payload is stored on the configuring project Id page.",
     "severity": [
         {

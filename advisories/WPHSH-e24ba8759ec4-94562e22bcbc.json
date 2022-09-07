@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0681"
     ],
-    "summary": "FIXME",
+    "summary": "Simple Membership < 4.1.0 - CSRF",
     "details": "The Simple Membership WordPress plugin before 4.1.0 does not have CSRF check in place when deleting Transactions, which could allow attackers to make a logged in admin delete arbitrary transactions via a CSRF attack",
     "severity": [
         {

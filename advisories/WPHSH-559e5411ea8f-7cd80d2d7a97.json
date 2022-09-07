@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-18593"
     ],
-    "summary": "FIXME",
+    "summary": "UpdraftPlus WordPress Backup Plugin < 1.13.5 - Unauthenticated Cross-Site Scripting",
     "details": "The updraftplus plugin before 1.13.5 for WordPress has XSS in rare cases where an attacker controls a string logged to a log file.",
     "severity": [
         {

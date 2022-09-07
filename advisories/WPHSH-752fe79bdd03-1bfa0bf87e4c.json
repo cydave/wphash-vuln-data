@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-16119"
     ],
-    "summary": "FIXME",
+    "summary": "Photo Gallery by 10Web \u2013 Mobile-Friendly Image Gallery < 1.5.35 - Unauthenticated SQL Injection",
     "details": "SQL injection in the photo-gallery (10Web Photo Gallery) plugin before 1.5.35 for WordPress exists via the admin/controllers/Albumsgalleries.php album_id parameter.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24428"
     ],
-    "summary": "FIXME",
+    "summary": "RSS for Yandex Turbo < 1.31 - Cross-Site Scripting",
     "details": "The RSS for Yandex Turbo WordPress plugin through 1.30 does not sanitise or escape some of its settings before saving and outputing them in the admin dashboard, leading to an Authenticated Stored Cross-Site Scripting issue even when the unfiltered_html capability is disallowed.",
     "severity": [
         {

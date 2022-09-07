@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-16206"
     ],
-    "summary": "FIXME",
+    "summary": "spam-byebye < 2.2.2 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting vulnerability in WordPress plugin spam-byebye 2.2.1 and earlier allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.",
     "severity": [
         {

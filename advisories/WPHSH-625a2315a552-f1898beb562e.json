@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-24664"
     ],
-    "summary": "FIXME",
+    "summary": "PHP Everywhere < 3.0.0 - Code Injection",
     "details": "PHP Everywhere <= 2.0.3 included functionality that allowed execution of PHP Code Snippets via WordPress metaboxes, which could be used by any user able to edit posts.",
     "severity": [
         {

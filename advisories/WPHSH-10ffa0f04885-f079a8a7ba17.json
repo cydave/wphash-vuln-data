@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24239"
     ],
-    "summary": "FIXME",
+    "summary": "Registration Forms \u2013 User Profile, Custom Registration Form, Login Form, Invitation-Based Registrations for WordPress < 3.7.0.1 - Unauthenticated Cross-Site Scripting",
     "details": "The Pie Register \u00e2\u20ac\u201c User Registration Forms. Invitation based registrations, Custom Login, Payments WordPress plugin before 3.7.0.1 does not sanitise the invitaion_code GET parameter when outputting it in the Activation Code page, leading to a reflected Cross-Site Scripting issue.",
     "severity": [
         {

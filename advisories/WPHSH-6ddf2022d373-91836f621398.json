@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-17207"
     ],
-    "summary": "FIXME",
+    "summary": "Broken Link Checker < 1.11.9 - Cross-Site Scripting",
     "details": "A reflected XSS vulnerability was found in includes/admin/table-printer.php in the broken-link-checker (aka Broken Link Checker) plugin 1.11.8 for WordPress. This allows unauthorized users to inject client-side JavaScript into an admin-only WordPress page via the wp-admin/tools.php?page=view-broken-links s_filter parameter in a search action.",
     "severity": [
         {

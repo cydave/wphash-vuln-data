@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24257"
     ],
-    "summary": "FIXME",
+    "summary": "Premium Addons for Elementor (Blog Post Grid, Mega Menu Builder, WooCommerce Products Grid, Carousel, Free Elementor Templates) < 4.2.8 - Cross-Site Scripting",
     "details": "The \u201cPremium Addons for Elementor\u201d WordPress Plugin before 4.2.8 has several widgets that are vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.",
     "severity": [
         {

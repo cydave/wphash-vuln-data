@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9433"
     ],
-    "summary": "FIXME",
+    "summary": "WP Social Bookmarking Light < 1.7.10 - CSRF",
     "details": "The wp-social-bookmarking-light plugin before 1.7.10 for WordPress has CSRF with resultant XSS via configuration parameters for Tumblr, Twitter, Facebook, etc. in wp-admin/options-general.php?page=wp-social-bookmarking-light%2Fmodules%2Fadmin.php.",
     "severity": [
         {

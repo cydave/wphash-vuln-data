@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24251"
     ],
-    "summary": "FIXME",
+    "summary": "Business Directory Plugin \u2013 Easy Listing Directories for WordPress < 5.11.2 - CSRF",
     "details": "The Business Directory Plugin \u00e2\u20ac\u201c Easy Listing Directories for WordPress WordPress plugin before 5.11.2 suffered from a Cross-Site Request Forgery issue, allowing an attacker to make a logged in administrator update arbitrary payment history, such as change their status (from pending to completed to example)",
     "severity": [
         {

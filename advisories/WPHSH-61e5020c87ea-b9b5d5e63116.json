@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0710"
     ],
-    "summary": "FIXME",
+    "summary": "Header Footer Code Manager < 1.1.17 - Unauthenticated Cross-Site Scripting",
     "details": "The Header Footer Code Manager plugin <= 1.1.16 for WordPress is vulnerable to Reflected Cross-Site Scripting (XSS) via the $_REQUEST['page'] parameter.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24334"
     ],
-    "summary": "FIXME",
+    "summary": "Instant Images \u2013 One Click Unsplash, Pixabay and Pexels Uploads < 4.4.0.1 - Cross-Site Scripting",
     "details": "The Instant Images \u00e2\u20ac\u201c One Click Unsplash Uploads WordPress plugin before 4.4.0.1 did not properly validate and sanitise its unsplash_download_w and unsplash_download_h parameter settings (/wp-admin/upload.php?page=instant-images), only validating them client side before saving them, leading to a Stored Cross-Site Scripting issue.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-14695"
     ],
-    "summary": "FIXME",
+    "summary": "Popup Builder \u2013 Create highly converting, mobile friendly marketing popups. < 3.45 - Unauthenticated SQL Injection",
     "details": "A SQL injection vulnerability exists in the Sygnoos Popup Builder plugin before 3.45 for WordPress. Successful exploitation of this vulnerability would allow a remote attacker to execute arbitrary SQL commands on the affected system via com/libs/Table.php because Subscribers Table ordering is mishandled.",
     "severity": [
         {

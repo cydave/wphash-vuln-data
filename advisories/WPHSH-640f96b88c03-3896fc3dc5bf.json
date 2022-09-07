@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0876"
     ],
-    "summary": "FIXME",
+    "summary": "Social comments by WpDevArt < 2.5.0 - Cross-Site Scripting",
     "details": "The Social comments by WpDevArt WordPress plugin before 2.5.0 does not sanitise and escape its settings, allowing high privilege users such as admin to perform cross-Site Scripting attacks even when unfiltered_html is disallowed",
     "severity": [
         {

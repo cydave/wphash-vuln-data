@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-11005"
     ],
-    "summary": "FIXME",
+    "summary": "instalinker < 1.1.2 - Unauthenticated Cross-Site Scripting",
     "details": "The instalinker plugin before 1.1.2 for WordPress has includes/instalinker-admin-preview.php?client_id= XSS.",
     "severity": [
         {

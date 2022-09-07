@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-9172"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress File Upload < 4.3.3 - Cross-Site Scripting",
     "details": "The Iptanus WordPress File Upload plugin before 4.3.3 for WordPress mishandles shortcode attributes.",
     "severity": [
         {

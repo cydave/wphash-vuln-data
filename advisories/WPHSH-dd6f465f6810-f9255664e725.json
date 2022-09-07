@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-35933"
     ],
-    "summary": "FIXME",
+    "summary": "Newsletter \u2013 Send awesome emails from WordPress < 6.8.2 - Cross-Site Scripting",
     "details": "A Reflected Authenticated Cross-Site Scripting (XSS) vulnerability in the Newsletter plugin before 6.8.2 for WordPress allows remote attackers to trick a victim into submitting a tnpc_render AJAX request containing either JavaScript in an options parameter, or a base64-encoded JSON string containing JavaScript in the encoded_options parameter.",
     "severity": [
         {

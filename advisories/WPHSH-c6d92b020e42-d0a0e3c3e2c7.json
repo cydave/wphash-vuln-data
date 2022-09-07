@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2013-7480"
     ],
-    "summary": "FIXME",
+    "summary": "Events Manager < 5.3.6.1 - Unauthenticated Cross-Site Scripting",
     "details": "The events-manager plugin before 5.3.6.1 for WordPress has XSS via the booking form and admin areas.",
     "severity": [
         {

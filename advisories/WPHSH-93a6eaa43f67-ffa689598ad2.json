@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-6726"
     ],
-    "summary": "FIXME",
+    "summary": "WP Fastest Cache < 0.8.9.1 - Unauthenticated Path Traversal",
     "details": "The WP Fastest Cache plugin through 0.8.9.0 for WordPress allows remote attackers to delete arbitrary files because wp_postratings_clear_fastest_cache and rm_folder_recursively in wpFastestCache.php mishandle ../ in an HTTP Referer header.",
     "severity": [
         {

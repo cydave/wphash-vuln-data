@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-11731"
     ],
-    "summary": "FIXME",
+    "summary": "Media Library Assistant < 2.82 - Unauthenticated Cross-Site Scripting",
     "details": "The Media Library Assistant plugin before 2.82 for Wordpress suffers from multiple XSS vulnerabilities in all Settings/Media Library Assistant tabs, which allow remote authenticated users to execute arbitrary JavaScript.",
     "severity": [
         {

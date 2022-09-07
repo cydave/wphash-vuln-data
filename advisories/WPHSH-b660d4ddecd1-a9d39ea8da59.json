@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-9575"
     ],
-    "summary": "FIXME",
+    "summary": "Quiz And Survey Master \u2013 Best Quiz, Exam and Survey Plugin for WordPress < 6.2.2 - Unauthenticated Cross-Site Scripting",
     "details": "The Quiz And Survey Master plugin 6.0.4 for WordPress allows wp-admin/admin.php?page=mlw_quiz_results quiz_id XSS.",
     "severity": [
         {

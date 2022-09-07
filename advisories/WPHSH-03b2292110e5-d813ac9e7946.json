@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1709"
     ],
-    "summary": "FIXME",
+    "summary": "Throws SPAM Away < 3.3.1 - CSRF",
     "details": "The Throws SPAM Away WordPress plugin before 3.3.1 does not have CSRF checks in place when deleting comments (either all, spam, or pending), allowing attackers to make a logged in admin delete comments via a CSRF attack",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-5979"
     ],
-    "summary": "FIXME",
+    "summary": "WooHero WooCommerce Store Customizer < 2.5 - CSRF",
     "details": "Cross-site request forgery (CSRF) vulnerability in Personalized WooCommerce Cart Page 2.4 and earlier allows remote attackers to hijack the authentication of administrators via unspecified vectors.",
     "severity": [
         {

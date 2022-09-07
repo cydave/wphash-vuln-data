@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24668"
     ],
-    "summary": "FIXME",
+    "summary": "MAZ Loader \u2013 Preloader Builder for WordPress < 1.4.0 - CSRF",
     "details": "The MAZ Loader WordPress plugin before 1.4.1 does not enforce nonce checks, which allows attackers to make administrators delete arbitrary loaders via a CSRF attack",
     "severity": [
         {

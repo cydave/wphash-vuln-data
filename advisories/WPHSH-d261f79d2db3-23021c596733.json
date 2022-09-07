@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2014-4544"
     ],
-    "summary": "FIXME",
+    "summary": "Podcast Channels < 0.28 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting (XSS) vulnerability in the Podcast Channels plugin 0.20 and earlier for WordPress allows remote attackers to inject arbitrary web script or HTML via the Filename parameter to getid3/demos/demo.write.php.",
     "severity": [
         {

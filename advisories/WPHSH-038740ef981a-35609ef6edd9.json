@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24185"
     ],
-    "summary": "FIXME",
+    "summary": "Tutor LMS \u2013 eLearning and online course solution < 1.7.7 - SQL Injection",
     "details": "The tutor_place_rating AJAX action from the Tutor LMS \u2013 eLearning and online course solution WordPress plugin before 1.7.7 was vulnerable to blind and time based SQL injections that could be exploited by students.",
     "severity": [
         {

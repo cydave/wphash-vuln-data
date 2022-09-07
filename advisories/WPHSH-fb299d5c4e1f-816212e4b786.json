@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10942"
     ],
-    "summary": "FIXME",
+    "summary": "Podlove Podcast Publisher < 2.3.16 - Unauthenticated SQL Injection",
     "details": "The podlove-podcasting-plugin-for-wordpress plugin before 2.3.16 for WordPress has SQL injection via the insert_id parameter exploitable via CSRF.",
     "severity": [
         {

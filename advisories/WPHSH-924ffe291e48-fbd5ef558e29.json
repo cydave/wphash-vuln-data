@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-9576"
     ],
-    "summary": "FIXME",
+    "summary": "Blog2Social: Social Media Auto Post & Scheduler < 5.0.3 - Unauthenticated Cross-Site Scripting",
     "details": "The Blog2Social plugin before 5.0.3 for WordPress allows wp-admin/admin.php?page=blog2social-ship XSS.",
     "severity": [
         {

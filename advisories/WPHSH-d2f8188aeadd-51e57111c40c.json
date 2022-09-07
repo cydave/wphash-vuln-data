@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-5970"
     ],
-    "summary": "FIXME",
+    "summary": "Attendance Manager < 0.5.7 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting vulnerability in Attendance Manager 0.5.6 and earlier allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.",
     "severity": [
         {

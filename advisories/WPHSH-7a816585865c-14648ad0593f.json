@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0321"
     ],
-    "summary": "FIXME",
+    "summary": "WP Voting Contest < 3.0 - Unauthenticated Cross-Site Scripting",
     "details": "The WP Voting Contest WordPress plugin before 3.0 does not sanitise and escape the post_id parameter before outputting it back in the response via the wpvc_social_share_icons AJAX action (available to both unauthenticated and authenticated users), leading to a Reflected Cross-Site Scripting issue",
     "severity": [
         {

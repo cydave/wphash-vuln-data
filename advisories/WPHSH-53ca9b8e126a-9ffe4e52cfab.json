@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2014-10394"
     ],
-    "summary": "FIXME",
+    "summary": "rich-counter < 1.2.0 - Unauthenticated Injection",
     "details": "The rich-counter plugin before 1.2.0 for WordPress has JavaScript injection via a User-Agent header.",
     "severity": [
         {

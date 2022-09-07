@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24577"
     ],
-    "summary": "FIXME",
+    "summary": "Coming soon and Maintenance mode < 3.5.3 - Cross-Site Scripting",
     "details": "The Coming soon and Maintenance mode WordPress plugin before 3.5.3 does not properly sanitize inputs submitted by authenticated users when setting adding or modifying coming soon or maintenance mode pages, leading to stored XSS.",
     "severity": [
         {

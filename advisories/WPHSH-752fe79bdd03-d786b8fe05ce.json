@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-2324"
     ],
-    "summary": "FIXME",
+    "summary": "Photo Gallery by 10Web \u2013 Mobile-Friendly Image Gallery < 1.2.13 - Cross-Site Scripting",
     "details": "Cross-site scripting (XSS) vulnerability in the filemanager in the Photo Gallery plugin before 1.2.13 for WordPress allows remote authenticated users with edit permission to inject arbitrary web script or HTML via unspecified vectors.",
     "severity": [
         {

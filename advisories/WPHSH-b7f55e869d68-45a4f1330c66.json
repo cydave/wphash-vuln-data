@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-2090"
     ],
-    "summary": "FIXME",
+    "summary": "Discount Rules for WooCommerce < 2.4.2 - Unauthenticated Cross-Site Scripting",
     "details": "The Discount Rules for WooCommerce WordPress plugin before 2.4.2 does not escape a parameter before outputting it back in an attribute of the plugin's discount rule page, leading to Reflected Cross-Site Scripting",
     "severity": [
         {

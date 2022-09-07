@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-2195"
     ],
-    "summary": "FIXME",
+    "summary": "Multi Feed Reader < 2.2.4 - SQL Injection",
     "details": "SQL injection vulnerability in the Multi Feed Reader prior to version 2.2.4 allows authenticated attackers to execute arbitrary SQL commands via unspecified vectors.",
     "severity": [
         {

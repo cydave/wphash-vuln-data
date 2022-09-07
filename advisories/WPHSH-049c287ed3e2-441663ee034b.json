@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24338"
     ],
-    "summary": "FIXME",
+    "summary": "Pods \u2013 Custom Content Types and Fields < 2.7.27 - Cross-Site Scripting",
     "details": "The Pods \u00e2\u20ac\u201c Custom Content Types and Fields WordPress plugin before 2.7.27 was vulnerable to an Authenticated Stored Cross-Site Scripting (XSS) security vulnerability within the 'Singular Label' field parameter.",
     "severity": [
         {

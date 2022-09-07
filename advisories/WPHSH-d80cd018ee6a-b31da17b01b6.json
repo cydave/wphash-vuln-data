@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-6012"
     ],
-    "summary": "FIXME",
+    "summary": "wpDataTables \u2013 WordPress Tables & Table Charts Plugin < 2.0.12 - SQL Injection",
     "details": "SQL injection vulnerability in the wpDataTables Lite Version 2.0.11 and earlier allows remote authenticated attackers to execute arbitrary SQL commands via unspecified vectors.",
     "severity": [
         {

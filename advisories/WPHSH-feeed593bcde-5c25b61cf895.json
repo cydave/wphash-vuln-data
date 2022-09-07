@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25045"
     ],
-    "summary": "FIXME",
+    "summary": "Asgaros Forum < 1.15.15 - SQL Injection",
     "details": "The Asgaros Forum WordPress plugin before 1.15.15 does not validate or escape the forum_id parameter before using it in a SQL statement when editing a forum, leading to an SQL injection issue",
     "severity": [
         {

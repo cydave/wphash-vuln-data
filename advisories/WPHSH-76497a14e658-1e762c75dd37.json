@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0347"
     ],
-    "summary": "FIXME",
+    "summary": "LoginPress | Custom Login Page Customizer < 1.5.12 - Unauthenticated Cross-Site Scripting",
     "details": "The LoginPress | Custom Login Page Customizer WordPress plugin before 1.5.12 does not escape the redirect-page parameter before outputting it back in an attribute, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

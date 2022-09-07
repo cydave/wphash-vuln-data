@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9410"
     ],
-    "summary": "FIXME",
+    "summary": "PowerPress Podcasting plugin by Blubrry < 6.0.5 - Cross-Site Scripting",
     "details": "The Blubrry PowerPress Podcasting plugin 6.0.4 for WordPress has XSS via the tab parameter.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0493"
     ],
-    "summary": "FIXME",
+    "summary": "String locator < 2.5.0 - Path Traversal",
     "details": "The String locator WordPress plugin before 2.5.0 does not properly validate the path of the files to be searched, allowing high privilege users such as admin to query arbitrary files on the web server via a path traversal vector. Furthermore, due to a flaw in the search, allowing a pattern to be provided, which will be used to output the relevant matches from the matching file, all content of the file can be disclosed.",
     "severity": [
         {

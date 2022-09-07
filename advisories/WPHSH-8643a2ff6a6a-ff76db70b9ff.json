@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-32280"
     ],
-    "summary": "FIXME",
+    "summary": "XO Slider < 3.3.3 - Cross-Site Scripting",
     "details": "Authenticated (contributor or higher user role) Stored Cross-Site Scripting (XSS) vulnerability in Xakuro's XO Slider plugin <= 3.3.2 at WordPress.",
     "severity": [
         {

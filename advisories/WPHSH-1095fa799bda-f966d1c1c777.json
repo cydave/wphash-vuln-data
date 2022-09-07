@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-2187"
     ],
-    "summary": "FIXME",
+    "summary": "3CX Free Live Chat < 7.0.07 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting vulnerability in WP Live Chat Support prior to version 7.0.07 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.",
     "severity": [
         {

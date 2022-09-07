@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-38344"
     ],
-    "summary": "FIXME",
+    "summary": "Brizy \u2013 Page Builder < 2.3.12 - Cross-Site Scripting",
     "details": "The Brizy Page Builder plugin <= 2.3.11 for WordPress was vulnerable to stored XSS by lower-privileged users such as a subscribers. It was possible to add malicious JavaScript to a page by modifying the request sent to update the page via the brizy_update_item AJAX action and adding JavaScript to the data parameter, which would be executed in the session of any visitor viewing or previewing the post or page.",
     "severity": [
         {

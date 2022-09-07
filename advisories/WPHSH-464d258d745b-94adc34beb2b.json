@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25065"
     ],
-    "summary": "FIXME",
+    "summary": "Smash Balloon Social Post Feed < 4.1.1 - Cross-Site Scripting",
     "details": "The Smash Balloon Social Post Feed WordPress plugin before 4.1.1 was affected by a reflected XSS in custom-facebook-feed in cff-top admin page.",
     "severity": [
         {

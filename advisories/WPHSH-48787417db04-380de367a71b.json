@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1562"
     ],
-    "summary": "FIXME",
+    "summary": "Enable SVG < 1.4.0 - Cross-Site Scripting",
     "details": "The Enable SVG WordPress plugin before 1.4.0 does not sanitise uploaded SVG files, which could allow users with a role as low as Author to upload a malicious SVG containing XSS payloads",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1691"
     ],
-    "summary": "FIXME",
+    "summary": "Realty Workstation < 1.0.15 - SQL Injection",
     "details": "The Realty Workstation WordPress plugin before 1.0.15 does not sanitise and escape the trans_edit parameter before using it in a SQL statement when an agent edit a transaction, leading to an SQL injection",
     "severity": [
         {

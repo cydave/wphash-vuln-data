@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24268"
     ],
-    "summary": "FIXME",
+    "summary": "JetWidgets For Elementor < 1.0.9 - Cross-Site Scripting",
     "details": "The \u201cJetWidgets For Elementor\u201d WordPress Plugin before 1.0.9 has several widgets that are vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.",
     "severity": [
         {

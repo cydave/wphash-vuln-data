@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24502"
     ],
-    "summary": "FIXME",
+    "summary": "Maps Plugin using Google Maps for WordPress \u2013 WP Google Map < 1.7.7 - Cross-Site Scripting",
     "details": "The WP Google Map WordPress plugin before 1.7.7 did not sanitise or escape the Map Title before outputting them in the page, leading to a Stored Cross-Site Scripting issue by high privilege users, even when the unfiltered_html capability is disallowed",
     "severity": [
         {

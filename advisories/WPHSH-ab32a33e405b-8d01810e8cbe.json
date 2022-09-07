@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9434"
     ],
-    "summary": "FIXME",
+    "summary": "kiwi-logo-carousel < 1.7.2 - CSRF",
     "details": "The kiwi-logo-carousel plugin before 1.7.2 for WordPress has CSRF with resultant XSS via the wp-admin/edit.php?post_type=kwlogos&page=kwlogos_settings tab or tab_flags_order parameter.",
     "severity": [
         {

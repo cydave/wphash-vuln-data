@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0892"
     ],
-    "summary": "FIXME",
+    "summary": "Export All URLs < 4.2 - Unauthenticated Cross-Site Scripting",
     "details": "The Export All URLs WordPress plugin before 4.2 does not sanitise and escape the CSV filename before outputting it back in the page, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

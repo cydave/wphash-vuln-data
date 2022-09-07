@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9296"
     ],
-    "summary": "FIXME",
+    "summary": "Download Monitor < 1.7.1 - Unauthenticated Cross-Site Scripting",
     "details": "The download-monitor plugin before 1.7.1 for WordPress has XSS related to add_query_arg.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25091"
     ],
-    "summary": "FIXME",
+    "summary": "Link Library < 7.2.9 - Unauthenticated Cross-Site Scripting",
     "details": "The Link Library WordPress plugin before 7.2.9 does not sanitise and escape the settingscopy parameter before outputting it back in an admin page, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

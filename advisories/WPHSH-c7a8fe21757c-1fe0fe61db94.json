@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-21001"
     ],
-    "summary": "FIXME",
+    "summary": "AnyComment < 0.0.33 - Unauthenticated Cross-Site Scripting",
     "details": "The anycomment plugin before 0.0.33 for WordPress has XSS.",
     "severity": [
         {

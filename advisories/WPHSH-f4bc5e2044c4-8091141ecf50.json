@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24979"
     ],
-    "summary": "FIXME",
+    "summary": "Paid Memberships Pro \u2013 Restrict Member Access to Content, Courses, Communities \u2013 Free or Paid Subscriptions < 2.6.6 - Unauthenticated Cross-Site Scripting",
     "details": "The Paid Memberships Pro WordPress plugin before 2.6.6 does not escape the s parameter before outputting it back in an attribute in an admin page, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

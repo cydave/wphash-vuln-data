@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-7806"
     ],
-    "summary": "FIXME",
+    "summary": "wordpress-form-manager < 1.7.3 - Unauthenticated Command Injection",
     "details": "Eval injection vulnerability in the fm_saveHelperGatherItems function in ajax.php in the Form Manager plugin before 1.7.3 for WordPress allows remote attackers to execute arbitrary code via unspecified vectors.",
     "severity": [
         {

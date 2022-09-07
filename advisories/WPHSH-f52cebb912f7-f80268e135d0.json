@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15770"
     ],
-    "summary": "FIXME",
+    "summary": "WooCommerce Address Book < 1.6.0 - CSRF",
     "details": "The woo-address-book plugin before 1.6.0 for WordPress has save calls without nonce verification checks.",
     "severity": [
         {

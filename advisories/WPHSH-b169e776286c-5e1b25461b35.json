@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15827"
     ],
-    "summary": "FIXME",
+    "summary": "OneSignal \u2013 Web Push Notifications < 1.17.8 - Cross-Site Scripting",
     "details": "The onesignal-free-web-push-notifications plugin before 1.17.8 for WordPress has XSS via the subdomain parameter.",
     "severity": [
         {

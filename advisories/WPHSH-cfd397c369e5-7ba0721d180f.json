@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-15863"
     ],
-    "summary": "FIXME",
+    "summary": "wp-noexternallinks < 3.5.19 - Unauthenticated Cross-Site Scripting",
     "details": "Cross Site Scripting (XSS) exists in the wp-noexternallinks plugin before 3.5.19 for WordPress via the date1 or date2 parameter to wp-admin/options-general.php.",
     "severity": [
         {

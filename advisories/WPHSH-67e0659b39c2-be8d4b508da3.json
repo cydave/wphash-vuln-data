@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-29452"
     ],
-    "summary": "FIXME",
+    "summary": "Export All URLs < 4.2 - Cross-Site Scripting",
     "details": "Authenticated (editor or higher user role) Stored Cross-Site Scripting (XSS) vulnerability in Export All URLs plugin <= 4.1 at WordPress.",
     "severity": [
         {

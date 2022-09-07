@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2014-10380"
     ],
-    "summary": "FIXME",
+    "summary": "Profile Builder \u2013 User Profile & User Registration Forms < 1.1.66 - Unauthenticated Cross-Site Scripting",
     "details": "The profile-builder plugin before 1.1.66 for WordPress has multiple XSS issues in forms.",
     "severity": [
         {

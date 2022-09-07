@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0279"
     ],
-    "summary": "FIXME",
+    "summary": "AnyComment < 0.2.18 - Race Condition",
     "details": "The AnyComment WordPress plugin before 0.2.18 is affected by a race condition when liking/disliking a comment/reply, which could allow any authenticated user to quickly raise their rating or lower the rating of other users",
     "severity": [
         {

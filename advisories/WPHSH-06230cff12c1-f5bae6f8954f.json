@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24992"
     ],
-    "summary": "FIXME",
+    "summary": "Smart Floating / Sticky Buttons \u2013 Call, Sharing, Chat Widgets & More \u2013 Buttonizer < 2.5.5 - Cross-Site Scripting",
     "details": "The Smart Floating / Sticky Buttons WordPress plugin before 2.5.5 does not sanitise and escape some parameter before outputting them in attributes and page, which could allow high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1001"
     ],
-    "summary": "FIXME",
+    "summary": "WP Downgrade | Specific Core Version < 1.2.3 - Cross-Site Scripting",
     "details": "The WP Downgrade WordPress plugin before 1.2.3 only perform client side validation of its \"WordPress Target Version\" settings, but does not sanitise and escape it server side, allowing high privilege users such as admin to perform Cross-Site attacks even when the unfiltered_html capability is disallowed",
     "severity": [
         {

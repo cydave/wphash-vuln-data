@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-36832"
     ],
-    "summary": "FIXME",
+    "summary": "Popups, Welcome Bar, Optins and Lead Generation Plugin \u2013 Icegram < 2.0.3 - Cross-Site Scripting",
     "details": "WordPress Popups, Welcome Bar, Optins and Lead Generation Plugin \u2013 Icegram (versions <= 2.0.2) vulnerable at \"Headline\" (&message_data[16][headline]) input.",
     "severity": [
         {

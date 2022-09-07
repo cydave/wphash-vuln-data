@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0412"
     ],
-    "summary": "FIXME",
+    "summary": "TI WooCommerce Wishlist < 1.40.1 - Unauthenticated SQL Injection",
     "details": "The TI WooCommerce Wishlist WordPress plugin before 1.40.1, TI WooCommerce Wishlist Pro WordPress plugin before 1.40.1 do not sanitise and escape the item_id parameter before using it in a SQL statement via the wishlist/remove_product REST endpoint, allowing unauthenticated attackers to perform SQL injection attacks",
     "severity": [
         {

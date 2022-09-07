@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-29172"
     ],
-    "summary": "FIXME",
+    "summary": "LiteSpeed Cache < 3.6.1 - Unauthenticated Cross-Site Scripting",
     "details": "A cross-site scripting (XSS) vulnerability in the LiteSpeed Cache plugin before 3.6.1 for WordPress can be exploited via the Server IP setting.",
     "severity": [
         {

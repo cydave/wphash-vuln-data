@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15109"
     ],
-    "summary": "FIXME",
+    "summary": "The Events Calendar < 4.8.2 - Unauthenticated Cross-Site Scripting",
     "details": "The the-events-calendar plugin before 4.8.2 for WordPress has XSS via the tribe_paged URL parameter.",
     "severity": [
         {

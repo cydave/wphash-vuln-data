@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9335"
     ],
-    "summary": "FIXME",
+    "summary": "Limit Attempts by BestWebSoft \u2013 WordPress Anti-Bot and Security Plugin for Login and Forms < 1.1.1 - Unauthenticated SQL Injection",
     "details": "The limit-attempts plugin before 1.1.1 for WordPress has SQL injection during IP address handling.",
     "severity": [
         {

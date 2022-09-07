@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24150"
     ],
-    "summary": "FIXME",
+    "summary": "Like Button Rating \u2665 LikeBtn < 2.6.32 - Unauthenticated SSRF",
     "details": "The LikeBtn WordPress Like Button Rating \u00e2\u2122\u00a5 LikeBtn WordPress plugin before 2.6.32 was vulnerable to Unauthenticated Full-Read Server-Side Request Forgery (SSRF).",
     "severity": [
         {

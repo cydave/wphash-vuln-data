@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0887"
     ],
-    "summary": "FIXME",
+    "summary": "Easy Social Icons < 3.2.1 - SQL Injection",
     "details": "The Easy Social Icons WordPress plugin before 3.1.4 does not sanitize the selected_icons attribute to the cnss_widget before using it in an SQL statement, leading to a SQL injection vulnerability.",
     "severity": [
         {

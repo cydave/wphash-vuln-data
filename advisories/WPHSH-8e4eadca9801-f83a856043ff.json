@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2014-6604"
     ],
-    "summary": "FIXME",
+    "summary": "Subscribe2 \u2013 Form, Email Subscribers & Newsletters < 10.16 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting (XSS) vulnerability in class-s2-list-table.php in the Subscribe2 plugin before 10.16 for WordPress allows remote attackers to inject arbitrary web script or HTML via the ip parameter.",
     "severity": [
         {

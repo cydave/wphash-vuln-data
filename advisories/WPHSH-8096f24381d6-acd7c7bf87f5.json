@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24820"
     ],
-    "summary": "FIXME",
+    "summary": "Cost Calculator < 1.5 - Path Traversal",
     "details": "The Cost Calculator WordPress plugin through 1.6 allows authenticated users (Contributor+ in versions < 1.5, and Admin+ in versions <= 1.6) to perform path traversal and local PHP file inclusion on Windows Web Servers via the Cost Calculator post's Layout",
     "severity": [
         {

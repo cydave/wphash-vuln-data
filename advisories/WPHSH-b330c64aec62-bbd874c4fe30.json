@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-17233"
     ],
-    "summary": "FIXME",
+    "summary": "Ultimate FAQ \u2013 WordPress FAQ and Accordion Plugin < 1.8.25 - Unauthenticated Cross-Site Scripting",
     "details": "Functions/EWD_UFAQ_Import.php in the ultimate-faqs plugin through 1.8.24 for WordPress allows HTML content injection.",
     "severity": [
         {

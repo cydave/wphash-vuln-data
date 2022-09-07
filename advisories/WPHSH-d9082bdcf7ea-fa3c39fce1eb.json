@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-5391"
     ],
-    "summary": "FIXME",
+    "summary": "Login by Auth0 < 4.0.0 - CSRF",
     "details": "Cross-site request forgery (CSRF) vulnerabilities exist in the Auth0 plugin before 4.0.0 for WordPress via the domain field.",
     "severity": [
         {

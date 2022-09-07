@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-36873"
     ],
-    "summary": "FIXME",
+    "summary": "iQ Block Country < 1.2.12 - Cross-Site Scripting",
     "details": "Authenticated Persistent Cross-Site Scripting (XSS) vulnerability in WordPress iQ Block Country plugin (versions <= 1.2.11). Vulnerable parameter: &blockcountry_blockmessage.",
     "severity": [
         {

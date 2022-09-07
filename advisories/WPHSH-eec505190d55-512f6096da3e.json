@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-13832"
     ],
-    "summary": "FIXME",
+    "summary": "All In One Favicon < 4.7 - Cross-Site Scripting",
     "details": "Multiple Persistent cross-site scripting (XSS) issues in the Techotronic all-in-one-favicon (aka All In One Favicon) plugin 4.6 for WordPress allow remote attackers to inject arbitrary web script or HTML via Apple-Text, GIF-Text, ICO-Text, PNG-Text, or JPG-Text.",
     "severity": [
         {

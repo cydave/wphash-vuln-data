@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9414"
     ],
-    "summary": "FIXME",
+    "summary": "wp-symposium < 15.9 - Unauthenticated Cross-Site Scripting",
     "details": "The wp-symposium plugin through 15.8.1 for WordPress has XSS via the wp-content/plugins/wp-symposium/get_album_item.php?size parameter.",
     "severity": [
         {

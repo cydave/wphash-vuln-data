@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-15020"
     ],
-    "summary": "FIXME",
+    "summary": "Elementor Website Builder < 2.9.14 - Cross-Site Scripting",
     "details": "An issue was discovered in the Elementor plugin through 2.9.13 for WordPress. An authenticated attacker can achieve stored XSS via the Name Your Template field.",
     "severity": [
         {

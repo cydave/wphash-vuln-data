@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-5532"
     ],
-    "summary": "FIXME",
+    "summary": "Paid Memberships Pro \u2013 Restrict Member Access to Content, Courses, Communities \u2013 Free or Paid Subscriptions < 1.8.4.3 - Unauthenticated Cross-Site Scripting",
     "details": "Multiple cross-site scripting (XSS) vulnerabilities in the Paid Memberships Pro (PMPro) plugin before 1.8.4.3 for WordPress allow remote attackers to inject arbitrary web script or HTML via the (1) s parameter to membershiplevels.php, (2) memberslist.php, or (3) orders.php in adminpages/ or the (4) edit parameter to adminpages/membershiplevels.php.",
     "severity": [
         {

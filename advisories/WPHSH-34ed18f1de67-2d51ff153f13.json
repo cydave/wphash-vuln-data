@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-35749"
     ],
-    "summary": "FIXME",
+    "summary": "Simple Job Board < 2.9.4 - Path Traversal",
     "details": "Directory traversal vulnerability in class-simple_job_board_resume_download_handler.php in the Simple Board Job plugin 2.9.3 and earlier for WordPress allows remote attackers to read arbitrary files via the sjb_file parameter to wp-admin/post.php.",
     "severity": [
         {

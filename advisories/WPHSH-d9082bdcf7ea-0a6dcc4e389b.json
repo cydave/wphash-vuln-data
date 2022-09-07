@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-20173"
     ],
-    "summary": "FIXME",
+    "summary": "Login by Auth0 < 3.11.3 - Unauthenticated Cross-Site Scripting",
     "details": "The Auth0 wp-auth0 plugin 3.11.x before 3.11.3 for WordPress allows XSS via a wle parameter associated with wp-login.php.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1672"
     ],
-    "summary": "FIXME",
+    "summary": "Insights from Google PageSpeed < 4.0.7 - CSRF",
     "details": "The Insights from Google PageSpeed WordPress plugin before 4.0.7 does not verify for CSRF before doing various actions such as deleting Custom URLs, which could allow attackers to make a logged in admin perform such actions via CSRF attacks",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-46782"
     ],
-    "summary": "FIXME",
+    "summary": "Pricing Table by Supsystic < 1.9.5 - Unauthenticated Cross-Site Scripting",
     "details": "The Pricing Table by Supsystic WordPress plugin before 1.9.5 does not escape the tab parameter before outputting it back in an attribute in the admin dashboard, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

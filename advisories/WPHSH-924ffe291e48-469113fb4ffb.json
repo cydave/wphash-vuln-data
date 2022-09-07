@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24956"
     ],
-    "summary": "FIXME",
+    "summary": "Blog2Social: Social Media Auto Post & Scheduler < 6.8.7 - Unauthenticated Cross-Site Scripting",
     "details": "The Blog2Social: Social Media Auto Post & Scheduler WordPress plugin before 6.8.7 does not sanitise and escape the b2sShowByDate parameter before outputting it back in an admin page, leading to a Reflected Cross-Site Scripting issue",
     "severity": [
         {

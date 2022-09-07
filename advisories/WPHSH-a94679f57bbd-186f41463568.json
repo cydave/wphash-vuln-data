@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-0585"
     ],
-    "summary": "FIXME",
+    "summary": "Ultimate Member \u2013 User Profile, User Registration, Login & Membership Plugin < 2.0.4 - Cross-Site Scripting",
     "details": "Cross-site scripting vulnerability in Ultimate Member plugin prior to version 2.0.4 for WordPress allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.",
     "severity": [
         {

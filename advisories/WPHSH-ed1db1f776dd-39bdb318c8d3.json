@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-38323"
     ],
-    "summary": "FIXME",
+    "summary": "rentpress < 6.6.5 - Unauthenticated Cross-Site Scripting",
     "details": "The RentPress WordPress plugin is vulnerable to Reflected Cross-Site Scripting via the selections parameter found in the ~/src/rentPress/AjaxRequests.php file which allows attackers to inject arbitrary web scripts, in versions up to and including 6.6.4.",
     "severity": [
         {

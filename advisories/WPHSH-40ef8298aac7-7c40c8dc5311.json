@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-17386"
     ],
-    "summary": "FIXME",
+    "summary": "Animate It! < 2.3.6 - CSRF",
     "details": "The animate-it plugin before 2.3.6 for WordPress has CSRF in edsanimate.php.",
     "severity": [
         {

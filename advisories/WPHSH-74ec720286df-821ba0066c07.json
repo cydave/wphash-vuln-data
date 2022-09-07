@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24900"
     ],
-    "summary": "FIXME",
+    "summary": "Ninja Tables \u2013 Best Data Table Plugin for WordPress < 4.1.8 - Cross-Site Scripting",
     "details": "The Ninja Tables WordPress plugin before 4.1.8 does not sanitise and escape some of its table fields, which could allow high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed",
     "severity": [
         {

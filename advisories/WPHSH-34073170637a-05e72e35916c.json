@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-16164"
     ],
-    "summary": "FIXME",
+    "summary": "event-calendar-wd < 1.1.22 - Cross-Site Scripting",
     "details": "Cross-site scripting vulnerability in Event Calendar WD version 1.1.21 and earlier allows remote authenticated attackers to inject arbitrary web script or HTML via unspecified vectors.",
     "severity": [
         {

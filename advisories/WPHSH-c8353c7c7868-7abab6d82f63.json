@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-21003"
     ],
-    "summary": "FIXME",
+    "summary": "Post, Registration and Profile Form Builder \u2013 FrontEnd Editor BuddyForms \u2013 Easy WordPress Forms < 2.2.8 - Unauthenticated SQL Injection",
     "details": "The buddyforms plugin before 2.2.8 for WordPress has SQL injection.",
     "severity": [
         {

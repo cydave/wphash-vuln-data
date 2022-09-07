@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24762"
     ],
-    "summary": "FIXME",
+    "summary": "perfect-survey < 1.5.2 - Unauthenticated SQL Injection",
     "details": "The Perfect Survey WordPress plugin before 1.5.2 does not validate and escape the question_id GET parameter before using it in a SQL statement in the get_question AJAX action, allowing unauthenticated users to perform SQL injection.",
     "severity": [
         {

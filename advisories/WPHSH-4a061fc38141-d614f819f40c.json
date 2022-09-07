@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-5293"
     ],
-    "summary": "FIXME",
+    "summary": "GD Rating System < 2.3.1 - Unauthenticated Cross-Site Scripting",
     "details": "The GD Rating System plugin 2.3 for WordPress has XSS via the wp-admin/admin.php panel parameter for the gd-rating-system-tools page.",
     "severity": [
         {

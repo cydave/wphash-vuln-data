@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15835"
     ],
-    "summary": "FIXME",
+    "summary": "WP Better Permalinks < 3.0.5 - CSRF",
     "details": "The wp-better-permalinks plugin before 3.0.5 for WordPress has CSRF.",
     "severity": [
         {

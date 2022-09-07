@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24459"
     ],
-    "summary": "FIXME",
+    "summary": "Survey Maker \u2013 Best WordPress Survey Plugin < 1.5.6 - SQL Injection",
     "details": "The get_results() and get_items() functions in the Survey Maker WordPress plugin before 1.5.6 did not use whitelist or validate the orderby parameter before using it in SQL statements passed to the get_results() DB calls, leading to SQL injection issues in the admin dashboard",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-9603"
     ],
-    "summary": "FIXME",
+    "summary": "WP Jobs < 1.5 - SQL Injection",
     "details": "SQL injection vulnerability in the WP Jobs plugin before 1.5 for WordPress allows authenticated users to execute arbitrary SQL commands via the jobid parameter to wp-admin/edit.php.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24616"
     ],
-    "summary": "FIXME",
+    "summary": "AddToAny Share Buttons < 1.7.48 - Cross-Site Scripting",
     "details": "The AddToAny Share Buttons WordPress plugin before 1.7.48 does not escape its Image URL button setting, which could lead allow high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed.",
     "severity": [
         {

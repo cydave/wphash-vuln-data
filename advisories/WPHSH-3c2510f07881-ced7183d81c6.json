@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24138"
     ],
-    "summary": "FIXME",
+    "summary": "AdRotate \u2013 Ad manager & AdSense Ads < 5.8.4 - SQL Injection",
     "details": "Unvalidated input in the AdRotate WordPress plugin, versions before 5.8.4, leads to Authenticated SQL injection via param \"id\". This requires an admin privileged user.",
     "severity": [
         {

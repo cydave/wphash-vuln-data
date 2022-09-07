@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9453"
     ],
-    "summary": "FIXME",
+    "summary": "broken-link-manager < 0.6.0 - Unauthenticated Cross-Site Scripting",
     "details": "The broken-link-manager plugin before 0.6.0 for WordPress has XSS via the HTTP Referer or User-Agent header to a URL that does not exist.",
     "severity": [
         {

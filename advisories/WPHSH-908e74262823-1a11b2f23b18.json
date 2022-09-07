@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9346"
     ],
-    "summary": "FIXME",
+    "summary": "Polls CP < 1.0.5 - Unauthenticated Cross-Site Scripting",
     "details": "The cp-polls plugin before 1.0.5 for WordPress has XSS.",
     "severity": [
         {

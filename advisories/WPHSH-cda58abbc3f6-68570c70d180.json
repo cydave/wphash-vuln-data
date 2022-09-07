@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-38315"
     ],
-    "summary": "FIXME",
+    "summary": "SP Project & Document Manager < 4.24 - Unauthenticated Cross-Site Scripting",
     "details": "The SP Project & Document Manager WordPress plugin is vulnerable to attribute-based Reflected Cross-Site Scripting via the from and to parameters in the ~/functions.php file which allows attackers to inject arbitrary web scripts, in versions up to and including 4.25.",
     "severity": [
         {

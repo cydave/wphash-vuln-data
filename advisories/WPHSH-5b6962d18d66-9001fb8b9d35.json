@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-2039"
     ],
-    "summary": "FIXME",
+    "summary": "Free Live Chat Support < 1.0.12 - CSRF",
     "details": "The Free Live Chat Support plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including 1.0.11. This is due to missing nonce protection on the livesupporti_settings() function found in the ~/livesupporti.php file. This makes it possible for unauthenticated attackers to inject malicious web scripts into the page, granted they can trick a site's administrator into performing an action such as clicking on a link.",
     "severity": [
         {

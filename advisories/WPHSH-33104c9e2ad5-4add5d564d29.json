@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24525"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress Shortcodes Plugin \u2014 Shortcodes Ultimate < 5.10.2 - Cross-Site Scripting",
     "details": "The Shortcodes Ultimate WordPress plugin before 5.10.2 allows users with Contributor roles to perform stored XSS via shortcode attributes. Note: the plugin is inconsistent in its handling of shortcode attributes; some do escape, most don't, and there are even some attributes that are insecure by design (like [su_button]'s onclick attribute).",
     "severity": [
         {

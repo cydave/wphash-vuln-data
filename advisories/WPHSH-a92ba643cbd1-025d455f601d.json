@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24760"
     ],
-    "summary": "FIXME",
+    "summary": "PDF Viewer Block for Gutenberg < 1.0.1 - Cross-Site Scripting",
     "details": "The Gutenberg PDF Viewer Block WordPress plugin before 1.0.1 does not sanitise and escape its block, which could allow users with a role as low as Contributor to perform Cross-Site Scripting attacks.",
     "severity": [
         {

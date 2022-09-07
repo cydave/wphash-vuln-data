@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10921"
     ],
-    "summary": "FIXME",
+    "summary": "Photo Gallery by Ays \u2013 Responsive Image Gallery < 1.0.1 - Unauthenticated SQL Injection",
     "details": "The gallery-photo-gallery plugin before 1.0.1 for WordPress has SQL injection.",
     "severity": [
         {

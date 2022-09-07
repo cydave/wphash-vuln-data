@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10920"
     ],
-    "summary": "FIXME",
+    "summary": "GNUCommerce < 0.5.7-beta - Unauthenticated Cross-Site Scripting",
     "details": "The gnucommerce plugin before 0.5.7-BETA for WordPress has XSS.",
     "severity": [
         {

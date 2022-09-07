@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2014-4525"
     ],
-    "summary": "FIXME",
+    "summary": "WP eBay Product Feeds < 1.2 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting (XSS) vulnerability in magpie/scripts/magpie_slashbox.php in the Ebay Feeds for WordPress plugin 1.1 and earlier for WordPress allows remote attackers to inject arbitrary web script or HTML via the rss_url parameter.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1091"
     ],
-    "summary": "FIXME",
+    "summary": "Safe SVG < 1.9.10 - Unauthenticated Cross-Site Scripting",
     "details": "The sanitisation step of the Safe SVG WordPress plugin before 1.9.10 can be bypassed by spoofing the content-type in the POST request to upload a file. Exploiting this vulnerability, an attacker will be able to perform the kinds of attacks that this plugin should prevent (mainly XSS, but depending on further use of uploaded SVG files potentially other XML attacks).",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25108"
     ],
-    "summary": "FIXME",
+    "summary": "IP2Location Country Blocker < 2.26.5 - CSRF",
     "details": "The IP2Location Country Blocker WordPress plugin before 2.26.6 does not have CSRF check in the ip2location_country_blocker_save_rules AJAX action, allowing attackers to make a logged in admin block arbitrary country, or block all of them at once, preventing users from accessing the frontend.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24864"
     ],
-    "summary": "FIXME",
+    "summary": "wp-cloudy < 4.4.9 - SQL Injection",
     "details": "The WP Cloudy, weather plugin WordPress plugin before 4.4.9 does not escape the post_id parameter before using it in a SQL statement in the admin dashboard, leading to a SQL Injection issue",
     "severity": [
         {

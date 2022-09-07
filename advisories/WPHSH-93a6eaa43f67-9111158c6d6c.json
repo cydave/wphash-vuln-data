@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-20714"
     ],
-    "summary": "FIXME",
+    "summary": "WP Fastest Cache < 0.9.1.7 - Path Traversal",
     "details": "Directory traversal vulnerability in WP Fastest Cache versions prior to 0.9.1.7 allows a remote attacker with administrator privileges to delete arbitrary files on the server via unspecified vectors.",
     "severity": [
         {

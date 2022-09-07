@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25040"
     ],
-    "summary": "FIXME",
+    "summary": "Booking Calendar < 8.9.2 - Unauthenticated Cross-Site Scripting",
     "details": "The Booking Calendar WordPress plugin before 8.9.2 does not sanitise and escape the booking_type parameter before outputting it back in an admin page, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

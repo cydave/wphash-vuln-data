@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1627"
     ],
-    "summary": "FIXME",
+    "summary": "My Private Site < 3.0.8 - CSRF",
     "details": "The My Private Site WordPress plugin before 3.0.8 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack",
     "severity": [
         {

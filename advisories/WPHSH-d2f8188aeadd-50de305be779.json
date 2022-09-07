@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-5971"
     ],
-    "summary": "FIXME",
+    "summary": "Attendance Manager < 0.5.7 - CSRF",
     "details": "Cross-site request forgery (CSRF) vulnerability in Attendance Manager 0.5.6 and earlier allows remote attackers to hijack the authentication of administrators via unspecified vectors.",
     "severity": [
         {

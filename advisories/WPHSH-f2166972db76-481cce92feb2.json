@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-9912"
     ],
-    "summary": "FIXME",
+    "summary": "WP Go Maps (formerly WP Google Maps) < 7.10.43 - Unauthenticated Cross-Site Scripting",
     "details": "The wp-google-maps plugin before 7.10.43 for WordPress has XSS via the wp-admin/admin.php PATH_INFO.",
     "severity": [
         {

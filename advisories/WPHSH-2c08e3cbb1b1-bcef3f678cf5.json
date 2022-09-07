@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25074"
     ],
-    "summary": "FIXME",
+    "summary": "Converter for Media \u2013 One-click image optimization | Convert WebP and AVIF & Optimize Images < 4.0.3 - Unauthenticated Open Redirect",
     "details": "The WebP Converter for Media WordPress plugin before 4.0.3 contains a file (passthru.php) which does not validate the src parameter before redirecting the user to it, leading to an Open Redirect issue",
     "severity": [
         {

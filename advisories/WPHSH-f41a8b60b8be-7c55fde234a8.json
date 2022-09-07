@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24671"
     ],
-    "summary": "FIXME",
+    "summary": "MX Time Zone Clocks < 3.4.1 - Cross-Site Scripting",
     "details": "The MX Time Zone Clocks WordPress plugin before 3.4.1 does not escape the time_zone attribute of the mxmtzc_time_zone_clocks shortcode, allowing users with a role as low as Contributor to perform Stored Cross-Site Scripting attacks",
     "severity": [
         {

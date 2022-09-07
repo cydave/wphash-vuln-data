@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-14683"
     ],
-    "summary": "FIXME",
+    "summary": "Import and export users and customers < 1.14.2.2 - CSRF",
     "details": "The codection \"Import users from CSV with meta\" plugin before 1.14.2.2 for WordPress allows wp-admin/admin-ajax.php?action=acui_delete_attachment CSRF.",
     "severity": [
         {

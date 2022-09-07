@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-1785"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress Gallery Plugin \u2013 NextGEN Gallery < 2.0.77.3 - CSRF",
     "details": "In nextgen-galery wordpress plugin before 2.0.77.3 there are two vulnerabilities which can allow an attacker to gain full access over the web application. The vulnerabilities lie in how the application validates user uploaded files and lack of security measures preventing unwanted HTTP requests.",
     "severity": [
         {

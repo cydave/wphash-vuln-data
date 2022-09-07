@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0252"
     ],
-    "summary": "FIXME",
+    "summary": "GiveWP \u2013 Donation Plugin and Fundraising Platform < 2.17.3 - Unauthenticated Cross-Site Scripting",
     "details": "The GiveWP WordPress plugin before 2.17.3 does not escape the json parameter before outputting it back in an attribute in the Import admin dashboard, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

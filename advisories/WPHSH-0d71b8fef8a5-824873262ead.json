@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24485"
     ],
-    "summary": "FIXME",
+    "summary": "Special Text Boxes < 5.9.110 - Cross-Site Scripting",
     "details": "The Special Text Boxes WordPress plugin before 5.9.110 does not sanitise or escape some of its settings, which could allow high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html is disallowed.",
     "severity": [
         {

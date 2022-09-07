@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24940"
     ],
-    "summary": "FIXME",
+    "summary": "\u0648\u0648\u06a9\u0627\u0645\u0631\u0633 \u0641\u0627\u0631\u0633\u06cc < 5.8.1 - Unauthenticated Cross-Site Scripting",
     "details": "The Persian Woocommerce WordPress plugin through 5.8.0 does not escape the s parameter before outputting it back in an attribute in the admin dashboard, which could lead to a Reflected Cross-Site Scripting issue",
     "severity": [
         {

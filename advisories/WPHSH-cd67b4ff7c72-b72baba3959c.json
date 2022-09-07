@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24598"
     ],
-    "summary": "FIXME",
+    "summary": "Testimonial < 1.6.0 - Cross-Site Scripting",
     "details": "The Testimonial WordPress plugin before 1.6.0 does not escape some testimonial fields which could allow high privilege users to perform Cross Site Scripting attacks even when the unfiltered_html capability is disallowed",
     "severity": [
         {

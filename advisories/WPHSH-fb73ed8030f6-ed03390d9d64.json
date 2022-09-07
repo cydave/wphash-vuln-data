@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0346"
     ],
-    "summary": "FIXME",
+    "summary": "www-xml-sitemap-generator-org < 2.0.4 - Unauthenticated Cross-Site Scripting",
     "details": "The XML Sitemap Generator for Google WordPress plugin before 2.0.4 does not validate a parameter which can be set to an arbitrary value, thus causing XSS via error message or RCE if allow_url_include is turned on.",
     "severity": [
         {

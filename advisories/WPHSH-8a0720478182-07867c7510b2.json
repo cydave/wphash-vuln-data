@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15318"
     ],
-    "summary": "FIXME",
+    "summary": "Easy Forms for Mailchimp < 6.5.3 - Unauthenticated Code Injection",
     "details": "The yikes-inc-easy-mailchimp-extender plugin before 6.5.3 for WordPress has code injection via the admin input field.",
     "severity": [
         {

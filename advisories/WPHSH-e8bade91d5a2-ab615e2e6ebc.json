@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2014-8087"
     ],
-    "summary": "FIXME",
+    "summary": "post-highlights < 2.6.1 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting (XSS) vulnerability in the post highlights plugin before 2.6.1 for WordPress allows remote attackers to inject arbitrary web script or HTML via the txt parameter in a headline action to ajax/ph_save.php.",
     "severity": [
         {

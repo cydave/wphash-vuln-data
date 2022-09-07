@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24340"
     ],
-    "summary": "FIXME",
+    "summary": "WP Statistics < 13.0.8 - Unauthenticated SQL Injection",
     "details": "The WP Statistics WordPress plugin before 13.0.8 relied on using the WordPress esc_sql() function on a field not delimited by quotes and did not first prepare the query. Additionally, the page, which should have been accessible to administrator only, was also available to any visitor, including unauthenticated ones.",
     "severity": [
         {

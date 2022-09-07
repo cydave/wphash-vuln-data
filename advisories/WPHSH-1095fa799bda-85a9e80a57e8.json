@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-9913"
     ],
-    "summary": "FIXME",
+    "summary": "3CX Free Live Chat < 8.0.18 - Unauthenticated Cross-Site Scripting",
     "details": "The wp-live-chat-support plugin before 8.0.18 for WordPress has wp-admin/admin.php?page=wplivechat-menu-gdpr-page term XSS.",
     "severity": [
         {

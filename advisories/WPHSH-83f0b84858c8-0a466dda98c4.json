@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24211"
     ],
-    "summary": "FIXME",
+    "summary": "wordpress-23-related-posts-plugin < 3.6.5 - Cross-Site Scripting",
     "details": "The WordPress Related Posts plugin through 3.6.4 contains an authenticated (admin+) stored XSS vulnerability in the title field on the settings page. By exploiting that an attacker will be able to execute JavaScript code in the user's browser.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24425"
     ],
-    "summary": "FIXME",
+    "summary": "Floating Notification Bar, Sticky Menu on Scroll, and Sticky Header for Any Theme \u2013 myStickymenu < 2.5.2 - Cross-Site Scripting",
     "details": "The Floating Notification Bar, Sticky Menu on Scroll, and Sticky Header for Any Theme \u00e2\u20ac\u201c myStickymenu WordPress plugin before 2.5.2 does not sanitise or escape its Bar Text settings, allowing hight privilege users to use malicious JavaScript in it, leading to a Stored Cross-Site Scripting issue, which will be triggered in the plugin's setting, as well as all front-page of the blog (when the Welcome bar is active)",
     "severity": [
         {

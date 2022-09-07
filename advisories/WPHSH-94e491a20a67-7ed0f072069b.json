@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24329"
     ],
-    "summary": "FIXME",
+    "summary": "WP Super Cache < 1.7.3 - Cross-Site Scripting",
     "details": "The WP Super Cache WordPress plugin before 1.7.3 did not properly sanitise its wp_cache_location parameter in its settings, which could lead to a Stored Cross-Site Scripting issue.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0149"
     ],
-    "summary": "FIXME",
+    "summary": "WooCommerce \u2013 Store Exporter < 2.7.1 - Unauthenticated Cross-Site Scripting",
     "details": "The WooCommerce Stored Exporter WordPress plugin before 2.7.1 was affected by a Reflected Cross-Site Scripting (XSS) vulnerability in the woo_ce admin page.",
     "severity": [
         {

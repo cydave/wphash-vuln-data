@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24576"
     ],
-    "summary": "FIXME",
+    "summary": "Easy Accordion \u2013 Best Accordion FAQ Plugin for WordPress < 2.0.22 - Cross-Site Scripting",
     "details": "The Easy Accordion WordPress plugin before 2.0.22 does not properly sanitize inputs when adding new items to an accordion.",
     "severity": [
         {

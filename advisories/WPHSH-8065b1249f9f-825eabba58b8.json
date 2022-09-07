@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24322"
     ],
-    "summary": "FIXME",
+    "summary": "Database Backup for WordPress < 2.4 - Cross-Site Scripting",
     "details": "The Database Backup for WordPress plugin before 2.4 did not escape the backup_recipient POST parameter in before output it back in the attribute of an HTML tag, leading to a Stored Cross-Site Scripting issue.",
     "severity": [
         {

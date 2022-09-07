@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-13571"
     ],
-    "summary": "FIXME",
+    "summary": "Advanced Contact form 7 DB < 1.7.1 - Unauthenticated SQL Injection",
     "details": "A SQL injection vulnerability exists in the Vsourz Digital Advanced CF7 DB plugin through 1.6.1 for WordPress. Successful exploitation of this vulnerability would allow a remote attacker to execute arbitrary SQL commands on the affected system.",
     "severity": [
         {

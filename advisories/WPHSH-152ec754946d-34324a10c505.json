@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-27844"
     ],
-    "summary": "FIXME",
+    "summary": "Migration, Backup, Staging \u2013 WPvivid < 0.9.71 - Unauthenticated Path Traversal",
     "details": "Arbitrary File Read vulnerability in WPvivid Team Migration, Backup, Staging \u2013 WPvivid (WordPress plugin) versions <= 0.9.70",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1209"
     ],
-    "summary": "FIXME",
+    "summary": "Ultimate Member \u2013 User Profile, User Registration, Login & Membership Plugin < 2.3.2 - Open Redirect",
     "details": "The Ultimate Member plugin for WordPress is vulnerable to open redirects due to insufficient validation on supplied URLs in the social fields of the Profile Page, which makes it possible for attackers to redirect unsuspecting victims in versions up to, and including, 2.3.1 granted the victim clicks on a social icon on a user's profile page.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25073"
     ],
-    "summary": "FIXME",
+    "summary": "WP125 < 1.5.5 - CSRF",
     "details": "The WP125 WordPress plugin before 1.5.5 does not have CSRF checks in various action, for example when deleting an ad, allowing attackers to make a logged in admin delete them via a CSRF attack",
     "severity": [
         {

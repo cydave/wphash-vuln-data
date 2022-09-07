@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-3421"
     ],
-    "summary": "FIXME",
+    "summary": "eshop < 6.3.12 - Unauthenticated Cross-Site Scripting",
     "details": "The eshop_checkout function in checkout.php in the Wordpress Eshop plugin 6.3.11 and earlier does not validate variables in the \"eshopcart\" HTTP cookie, which allows remote attackers to perform cross-site scripting (XSS) attacks, or a path disclosure attack via crafted variables named after target PHP variables.",
     "severity": [
         {

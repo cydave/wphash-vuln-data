@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24136"
     ],
-    "summary": "FIXME",
+    "summary": "Testimonials Widget < 4.0.0 - Cross-Site Scripting",
     "details": "Unvalidated input and lack of output encoding in the Testimonials Widget WordPress plugin, versions before 4.0.0, lead to multiple Cross-Site Scripting vulnerabilities, allowing remote attackers to inject arbitrary JavaScript code or HTML via the below parameters: - Author - Job Title - Location - Company - Email - URL",
     "severity": [
         {

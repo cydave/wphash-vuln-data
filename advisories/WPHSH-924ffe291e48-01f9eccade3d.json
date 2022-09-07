@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24137"
     ],
-    "summary": "FIXME",
+    "summary": "Blog2Social: Social Media Auto Post & Scheduler < 6.3.1 - SQL Injection",
     "details": "Unvalidated input in the Blog2Social WordPress plugin, versions before 6.3.1, lead to SQL Injection in the Re-Share Posts feature, allowing authenticated users to inject arbitrary SQL commands.",
     "severity": [
         {

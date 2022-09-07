@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-8615"
     ],
-    "summary": "FIXME",
+    "summary": "Tutor LMS \u2013 eLearning and online course solution < 1.5.3 - CSRF",
     "details": "A CSRF vulnerability in the Tutor LMS plugin before 1.5.3 for WordPress can result in an attacker approving themselves as an instructor and performing other malicious actions (such as blocking legitimate instructors).",
     "severity": [
         {

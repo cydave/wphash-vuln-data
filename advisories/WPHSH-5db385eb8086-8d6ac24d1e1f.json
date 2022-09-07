@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24724"
     ],
-    "summary": "FIXME",
+    "summary": "Timetable and Event Schedule by MotoPress < 2.3.19 - Cross-Site Scripting",
     "details": "The Timetable and Event Schedule by MotoPress WordPress plugin before 2.3.19 does not sanitise some of its parameters, which could allow low privilege users such as author to perform XSS attacks against frontend and backend users when viewing the related event/s",
     "severity": [
         {

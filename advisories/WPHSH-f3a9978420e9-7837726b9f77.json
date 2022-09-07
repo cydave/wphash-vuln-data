@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24641"
     ],
-    "summary": "FIXME",
+    "summary": "Images to WebP < 1.9 - CSRF",
     "details": "The Images to WebP WordPress plugin before 1.9 does not have CSRF checks in place when performing some administrative actions, which could result in modification of plugin settings, Denial-of-Service, as well as arbitrary image conversion",
     "severity": [
         {

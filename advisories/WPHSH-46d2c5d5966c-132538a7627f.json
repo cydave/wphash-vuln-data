@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9230"
     ],
-    "summary": "FIXME",
+    "summary": "BulletProof Security < .52.5 - Cross-Site Scripting",
     "details": "In the admin/db-backup-security/db-backup-security.php page in the BulletProof Security plugin before .52.5 for WordPress, XSS is possible for remote authenticated administrators via the DBTablePrefix parameter.",
     "severity": [
         {

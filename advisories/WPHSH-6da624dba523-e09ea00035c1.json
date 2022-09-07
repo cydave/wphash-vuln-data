@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-16525"
     ],
-    "summary": "FIXME",
+    "summary": "Checklist < 1.1.9 - Unauthenticated Cross-Site Scripting",
     "details": "An XSS issue was discovered in the checklist plugin before 1.1.9 for WordPress. The fill parameter is not correctly filtered in the checklist-icon.php file, and it is possible to inject JavaScript code.",
     "severity": [
         {

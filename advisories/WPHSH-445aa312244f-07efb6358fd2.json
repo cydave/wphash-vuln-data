@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24747"
     ],
-    "summary": "FIXME",
+    "summary": "SEO Booster < 3.8 - SQL Injection",
     "details": "The SEO Booster WordPress plugin before 3.8 allows for authenticated SQL injection via the \"fn_my_ajaxified_dataloader_ajax\" AJAX request as the $_REQUEST['order'][0]['dir'] parameter is not properly escaped leading to blind and error-based SQL injections.",
     "severity": [
         {

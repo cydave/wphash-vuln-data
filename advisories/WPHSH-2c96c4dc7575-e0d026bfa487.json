@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10706"
     ],
-    "summary": "FIXME",
+    "summary": "Jetpack \u2013 WP Security, Backup, Speed, & Growth < 4.0.3 - Unauthenticated Cross-Site Scripting",
     "details": "The Jetpack plugin before 4.0.3 for WordPress has XSS via a crafted Vimeo link.",
     "severity": [
         {

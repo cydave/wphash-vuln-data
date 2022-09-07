@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24259"
     ],
-    "summary": "FIXME",
+    "summary": "Elementor Addon Elements < 1.11.2 - Cross-Site Scripting",
     "details": "The \u201cElementor Addon Elements\u201d WordPress Plugin before 1.11.2 has several widgets that are vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9384"
     ],
-    "summary": "FIXME",
+    "summary": "Relevant \u2013 Related, Featured, Latest, and Popular Posts by BestWebSoft < 1.0.8 - Unauthenticated Cross-Site Scripting",
     "details": "The relevant plugin before 1.0.8 for WordPress has XSS.",
     "severity": [
         {

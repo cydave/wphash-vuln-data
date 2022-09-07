@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1945"
     ],
-    "summary": "FIXME",
+    "summary": "Coming Soon & Maintenance Mode by Colorlib < 1.0.99 - Cross-Site Scripting",
     "details": "The Coming Soon & Maintenance Mode by Colorlib WordPress plugin before 1.0.99 does not sanitize and escape some settings, allowing high privilege users such as admin to perform Stored Cross-Site Scripting when unfiltered_html is disallowed (for example in multisite setup)",
     "severity": [
         {

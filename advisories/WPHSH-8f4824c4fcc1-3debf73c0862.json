@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9448"
     ],
-    "summary": "FIXME",
+    "summary": "SendPress Newsletters < 1.2 - SQL Injection",
     "details": "The sendpress plugin before 1.2 for WordPress has SQL Injection via the wp-admin/admin.php?page=sp-queue listid parameter.",
     "severity": [
         {

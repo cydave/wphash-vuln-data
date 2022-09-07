@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24648"
     ],
-    "summary": "FIXME",
+    "summary": "RegistrationMagic \u2013 Custom Registration Forms, User Registration and User Login Plugin < 5.0.1.9 - Unauthenticated Cross-Site Scripting",
     "details": "The RegistrationMagic WordPress plugin before 5.0.1.9 does not sanitise and escape the rm_search_value parameter before outputting back in an attribute, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24291"
     ],
-    "summary": "FIXME",
+    "summary": "Photo Gallery by 10Web \u2013 Mobile-Friendly Image Gallery < 1.5.69 - Unauthenticated Cross-Site Scripting",
     "details": "The Photo Gallery by 10Web \u00e2\u20ac\u201c Mobile-Friendly Image Gallery WordPress plugin before 1.5.69 was vulnerable to Reflected Cross-Site Scripting (XSS) issues via the gallery_id, tag, album_id and _id GET parameters passed to the bwg_frontend_data AJAX action (available to both unauthenticated and authenticated users)",
     "severity": [
         {

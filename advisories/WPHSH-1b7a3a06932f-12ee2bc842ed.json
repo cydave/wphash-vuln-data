@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25077"
     ],
-    "summary": "FIXME",
+    "summary": "Store Toolkit for WooCommerce < 2.3.2 - Unauthenticated Cross-Site Scripting",
     "details": "The Store Toolkit for WooCommerce WordPress plugin before 2.3.2 does not sanitise and escape the tab parameter before outputting it back in an admin page in an error message, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

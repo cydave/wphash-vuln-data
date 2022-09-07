@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-18577"
     ],
-    "summary": "FIXME",
+    "summary": "MC4WP: Mailchimp for WordPress < 4.1.8 - Unauthenticated Cross-Site Scripting",
     "details": "The mailchimp-for-wp plugin before 4.1.8 for WordPress has XSS via the return value of add_query_arg.",
     "severity": [
         {

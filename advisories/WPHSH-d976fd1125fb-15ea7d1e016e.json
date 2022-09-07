@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9457"
     ],
-    "summary": "FIXME",
+    "summary": "Pretty Links \u2013 Link Management, Branding, Tracking & Sharing Plugin < 1.6.8 - SQL Injection",
     "details": "The pretty-link plugin before 1.6.8 for WordPress has PrliLinksController::list_links SQL injection via the group parameter.",
     "severity": [
         {

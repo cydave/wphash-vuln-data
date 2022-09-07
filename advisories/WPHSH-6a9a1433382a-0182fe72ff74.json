@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9389"
     ],
-    "summary": "FIXME",
+    "summary": "mTouch Quiz < 3.1.3 - Cross-Site Scripting",
     "details": "The mtouch-quiz plugin before 3.1.3 for WordPress has XSS via a quiz name.",
     "severity": [
         {

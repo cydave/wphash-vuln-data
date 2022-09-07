@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-29450"
     ],
-    "summary": "FIXME",
+    "summary": "Admin Management Xtended < 2.4.5 - CSRF",
     "details": "Multiple Cross-Site Request Forgery (CSRF) vulnerabilities in Admin Management Xtended plugin <= 2.4.4 at WordPress.",
     "severity": [
         {

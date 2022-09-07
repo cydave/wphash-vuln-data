@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25090"
     ],
-    "summary": "FIXME",
+    "summary": "Portfolio Gallery, Product Catalog \u2013 Grid KIT Portfolio < 2.1.0 - Cross-Site Scripting",
     "details": "The Portfolio Gallery, Product Catalog WordPress plugin before 2.1.0 does not have authorisation and CSRF checks in various functions related to AJAX actions, allowing any authenticated users, such as subscriber, to call them. Due to the lack of sanitisation and escaping, it could also allows attackers to perform Cross-Site Scripting attacks on pages where a Portfolio is embed",
     "severity": [
         {

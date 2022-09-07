@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1505"
     ],
-    "summary": "FIXME",
+    "summary": "RSVPMaker < 9.2.6 - Unauthenticated SQL Injection",
     "details": "The RSVPMaker plugin for WordPress is vulnerable to unauthenticated SQL Injection due to missing SQL escaping and parameterization on user supplied data passed to a SQL query in the rsvpmaker-api-endpoints.php file. This makes it possible for unauthenticated attackers to steal sensitive information from the database in versions up to and including 9.2.6.",
     "severity": [
         {

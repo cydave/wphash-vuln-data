@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1896"
     ],
-    "summary": "FIXME",
+    "summary": "underConstruction < 1.21 - Cross-Site Scripting",
     "details": "The underConstruction WordPress plugin before 1.21 does not sanitise or escape the \"Display a custom page using your own HTML\" setting before outputting it, allowing high privilege users to perform Cross-Site Scripting attacks even when the unfiletred_html capability is disallowed.",
     "severity": [
         {

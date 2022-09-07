@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0683"
     ],
-    "summary": "FIXME",
+    "summary": "Essential Addons for Elementor < 5.0.9 - Unauthenticated Cross-Site Scripting",
     "details": "The Essential Addons for Elementor Lite WordPress plugin is vulnerable to Cross-Site Scripting due to insufficient escaping and sanitization of the settings parameter found in the ~/includes/Traits/Helper.php file which allows attackers to inject arbitrary web scripts onto a pages that executes whenever a user clicks on a specially crafted link by an attacker. This affects versions up to and including 5.0.8.",
     "severity": [
         {

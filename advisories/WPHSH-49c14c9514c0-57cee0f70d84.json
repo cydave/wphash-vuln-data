@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0199"
     ],
-    "summary": "FIXME",
+    "summary": "Coming soon and Maintenance mode < 3.6.8 - CSRF",
     "details": "The Coming soon and Maintenance mode WordPress plugin before 3.6.8 does not have CSRF check in its coming_soon_send_mail AJAX action, allowing attackers to make logged in admin to send arbitrary emails to all subscribed users via a CSRF attack",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24986"
     ],
-    "summary": "FIXME",
+    "summary": "Post Grid < 2.1.16 - Unauthenticated Cross-Site Scripting",
     "details": "The Post Grid WordPress plugin before 2.1.16 does not escape the keyword parameter before outputting it back in an attribute, leading to a Reflected Cross-Site Scripting in pages containing a Post Grid with a search form",
     "severity": [
         {

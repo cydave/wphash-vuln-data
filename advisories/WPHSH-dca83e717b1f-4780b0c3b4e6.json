@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24772"
     ],
-    "summary": "FIXME",
+    "summary": "Stream < 3.8.2 - SQL Injection",
     "details": "The Stream WordPress plugin before 3.8.2 does not sanitise and validate the order GET parameter from the Stream Records admin dashboard before using it in a SQL statement, leading to an SQL injection issue.",
     "severity": [
         {

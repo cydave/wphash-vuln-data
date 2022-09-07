@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-36876"
     ],
-    "summary": "FIXME",
+    "summary": "Listing, Classified Ads & Business Directory \u2013 uListing < 2.0.4 - CSRF",
     "details": "Multiple Cross-Site Request Forgery (CSRF) vulnerabilities in WordPress uListing plugin (versions <= 2.0.5) as it lacks CSRF checks on plugin administration pages.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-12636"
     ],
-    "summary": "FIXME",
+    "summary": "iThemes Security < 7.0.3 - SQL Injection",
     "details": "The iThemes Security (better-wp-security) plugin before 7.0.3 for WordPress allows SQL Injection (by attackers with Admin privileges) via the logs page.",
     "severity": [
         {

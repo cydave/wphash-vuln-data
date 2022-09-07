@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-17236"
     ],
-    "summary": "FIXME",
+    "summary": "igniteup < 3.4.1 - Unauthenticated Cross-Site Scripting",
     "details": "includes/class-coming-soon-creator.php in the igniteup plugin through 3.4 for WordPress is vulnerable to stored XSS.",
     "severity": [
         {

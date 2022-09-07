@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-14348"
     ],
-    "summary": "FIXME",
+    "summary": "JoomSport \u2013 for Sports: Team & League, Football, Hockey & more < 3.4 - Unauthenticated SQL Injection",
     "details": "The BearDev JoomSport plugin 3.3 for WordPress allows SQL injection to steal, modify, or delete database information via the joomsport_season/new-yorkers/?action=playerlist sid parameter.",
     "severity": [
         {

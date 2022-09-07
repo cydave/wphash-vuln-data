@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24754"
     ],
-    "summary": "FIXME",
+    "summary": "MainWP Child Reports < 2.0.8 - SQL Injection",
     "details": "The MainWP Child Reports WordPress plugin before 2.0.8 does not validate or sanitise the order parameter before using it in a SQL statement in the admin dashboard, leading to an SQL injection issue",
     "severity": [
         {

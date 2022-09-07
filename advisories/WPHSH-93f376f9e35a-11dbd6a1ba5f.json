@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1946"
     ],
-    "summary": "FIXME",
+    "summary": "Gallery \u2013 Image and Video Gallery with Thumbnails < 2.0.0 - Unauthenticated Cross-Site Scripting",
     "details": "The Gallery WordPress plugin before 2.0.0 does not sanitise and escape a parameter before outputting it back in the response of an AJAX action (available to both unauthenticated and authenticated users), leading to a Reflected Cross-Site Scripting issue",
     "severity": [
         {

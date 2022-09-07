@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-2169"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress Button Plugin MaxButtons < 6.19 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting vulnerability in MaxButtons prior to version 6.19 and MaxButtons Pro prior to version 6.19 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.",
     "severity": [
         {

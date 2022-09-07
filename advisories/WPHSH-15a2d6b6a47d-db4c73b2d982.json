@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-2062"
     ],
-    "summary": "FIXME",
+    "summary": "slider-image < 2.7.0 - SQL Injection",
     "details": "Multiple SQL injection vulnerabilities in the Huge-IT Slider (slider-image) plugin before 2.7.0 for WordPress allow remote administrators to execute arbitrary SQL commands via the removeslide parameter in a popup_posts or edit_cat action in the sliders_huge_it_slider page to wp-admin/admin.php.",
     "severity": [
         {

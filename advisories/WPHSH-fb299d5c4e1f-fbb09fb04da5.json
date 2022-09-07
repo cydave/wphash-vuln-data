@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10941"
     ],
-    "summary": "FIXME",
+    "summary": "Podlove Podcast Publisher < 2.3.16 - Unauthenticated Cross-Site Scripting",
     "details": "The podlove-podcasting-plugin-for-wordpress plugin before 2.3.16 for WordPress has XSS exploitable via CSRF.",
     "severity": [
         {

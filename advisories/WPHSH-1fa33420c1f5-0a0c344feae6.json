@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24862"
     ],
-    "summary": "FIXME",
+    "summary": "RegistrationMagic \u2013 Custom Registration Forms, User Registration and User Login Plugin < 5.0.1.6 - SQL Injection",
     "details": "The RegistrationMagic WordPress plugin before 5.0.1.6 does not escape user input in its rm_chronos_ajax AJAX action before using it in a SQL statement when duplicating tasks in batches, which could lead to a SQL injection issue",
     "severity": [
         {

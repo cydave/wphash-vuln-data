@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-36828"
     ],
-    "summary": "FIXME",
+    "summary": "WP Maintenance < 6.0.6 - Cross-Site Scripting",
     "details": "Authenticated (admin+) Stored Cross-Site Scripting (XSS) in WP Maintenance (WordPress plugin) <= 6.0.4 affects multiple inputs.",
     "severity": [
         {

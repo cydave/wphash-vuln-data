@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-36920"
     ],
-    "summary": "FIXME",
+    "summary": "Download Monitor < 4.4.7 - Cross-Site Scripting",
     "details": "Authenticated Reflected Cross-Site Scripting (XSS) vulnerability discovered in WordPress plugin Download Monitor (versions <= 4.4.6).",
     "severity": [
         {

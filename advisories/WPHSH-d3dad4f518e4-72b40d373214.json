@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9436"
     ],
-    "summary": "FIXME",
+    "summary": "dynamic-widgets < 1.5.11 - Cross-Site Scripting",
     "details": "The dynamic-widgets plugin before 1.5.11 for WordPress has XSS via the wp-admin/admin-ajax.php?action=term_tree prefix or widget_id parameter.",
     "severity": [
         {

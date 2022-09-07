@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-1000142"
     ],
-    "summary": "FIXME",
+    "summary": "MW Font Changer < 4.3 - Unauthenticated Cross-Site Scripting",
     "details": "Reflected XSS in wordpress plugin parsi-font v4.2.5",
     "severity": [
         {

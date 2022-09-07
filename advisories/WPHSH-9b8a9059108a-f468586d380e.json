@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0641"
     ],
-    "summary": "FIXME",
+    "summary": "Popup Like box \u2013 Page Plugin < 3.6.1 - Unauthenticated Cross-Site Scripting",
     "details": "The Popup Like box WordPress plugin before 3.6.1 does not sanitize and escape the ays_fb_tab parameter before outputting it back in an admin page, leading to a Reflected Cross-Site Scripting.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10914"
     ],
-    "summary": "FIXME",
+    "summary": "Add From Server < 3.3.2 - CSRF",
     "details": "The add-from-server plugin before 3.3.2 for WordPress has CSRF for importing a large file.",
     "severity": [
         {

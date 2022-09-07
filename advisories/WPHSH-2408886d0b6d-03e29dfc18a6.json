@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-20840"
     ],
-    "summary": "FIXME",
+    "summary": "Booking Package \u2013 Appointment Booking Calendar System < 1.5.11 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting vulnerability in Booking Package - Appointment Booking Calendar System versions prior to 1.5.11 allows a remote attacker to inject an arbitrary script via unspecified vectors.",
     "severity": [
         {

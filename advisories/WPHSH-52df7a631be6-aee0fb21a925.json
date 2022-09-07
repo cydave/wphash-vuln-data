@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-13573"
     ],
-    "summary": "FIXME",
+    "summary": "FV Flowplayer Video Player < 7.3.19.727 - Unauthenticated SQL Injection",
     "details": "A SQL injection vulnerability exists in the FolioVision FV Flowplayer Video Player plugin before 7.3.19.727 for WordPress. Successful exploitation of this vulnerability would allow a remote attacker to execute arbitrary SQL commands on the affected system.",
     "severity": [
         {

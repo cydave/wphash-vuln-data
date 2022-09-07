@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-11013"
     ],
-    "summary": "FIXME",
+    "summary": "IMPress Listings < 2.0.2 - Unauthenticated Cross-Site Scripting",
     "details": "The wp-listings plugin before 2.0.2 for WordPress has includes/views/single-listing.php XSS.",
     "severity": [
         {

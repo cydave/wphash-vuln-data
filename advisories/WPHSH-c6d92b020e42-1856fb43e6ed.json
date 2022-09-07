@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2012-6716"
     ],
-    "summary": "FIXME",
+    "summary": "Events Manager < 5.1.7 - Unauthenticated Cross-Site Scripting",
     "details": "The events-manager plugin before 5.1.7 for WordPress has XSS via JSON call links.",
     "severity": [
         {

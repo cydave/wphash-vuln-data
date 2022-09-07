@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24208"
     ],
-    "summary": "FIXME",
+    "summary": "WP Page Builder < 1.2.4 - Cross-Site Scripting",
     "details": "The editor of the WP Page Builder WordPress plugin before 1.2.4 allows lower-privileged users to insert unfiltered HTML, including JavaScript, into pages via the \u201cRaw HTML\u201d widget and the \u201cCustom HTML\u201d widgets (though the custom HTML widget requires sending a crafted request - it appears that this widget uses some form of client side validation but not server side validation), all of which are added via the \u201cpage_builder_data\u201d parameter when performing the \u201cwppb_page_save\u201d AJAX action. It is also possible to insert malicious JavaScript via the \u201cwppb_page_css\u201d parameter (this can be done by closing out the style tag and opening a script tag) when performing the \u201cwppb_page_save\u201d AJAX action.",
     "severity": [
         {

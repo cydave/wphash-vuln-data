@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-13640"
     ],
-    "summary": "FIXME",
+    "summary": "Comments \u2013 wpDiscuz < 5.3.6 - Unauthenticated SQL Injection",
     "details": "A SQL injection issue in the gVectors wpDiscuz plugin 5.3.5 and earlier for WordPress allows remote attackers to execute arbitrary SQL commands via the order parameter of a wpdLoadMoreComments request. (No 7.x versions are affected.)",
     "severity": [
         {

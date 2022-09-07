@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-21004"
     ],
-    "summary": "FIXME",
+    "summary": "RSVPMaker < 5.6.4 - Unauthenticated SQL Injection",
     "details": "The rsvpmaker plugin before 5.6.4 for WordPress has SQL injection.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-36174"
     ],
-    "summary": "FIXME",
+    "summary": "Ninja Forms Contact Form \u2013 The Drag and Drop Form Builder for WordPress < 3.4.27.1 - CSRF",
     "details": "The Ninja Forms plugin before 3.4.27.1 for WordPress allows CSRF via services integration.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2014-8621"
     ],
-    "summary": "FIXME",
+    "summary": "Store Locator for WordPress with Google Maps \u2013 LotsOfLocales < 3.12 - Unauthenticated SQL Injection",
     "details": "SQL injection vulnerability in the Store Locator plugin 2.3 through 3.11 for WordPress allows remote attackers to execute arbitrary SQL commands via the sl_custom_field parameter to sl-xml.php.",
     "severity": [
         {

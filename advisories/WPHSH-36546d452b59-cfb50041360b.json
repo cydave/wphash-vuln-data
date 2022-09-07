@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-2099"
     ],
-    "summary": "FIXME",
+    "summary": "WooCommerce < 6.6.0 - Code Injection",
     "details": "The WooCommerce WordPress plugin before 6.6.0 is vulnerable to stored HTML injection due to lack of escaping and sanitizing in the payment gateway titles",
     "severity": [
         {

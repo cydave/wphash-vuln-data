@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-10969"
     ],
-    "summary": "FIXME",
+    "summary": "Registration Forms \u2013 User Profile, Custom Registration Form, Login Form, Invitation-Based Registrations for WordPress < 3.0.10 - Unauthenticated SQL Injection",
     "details": "SQL injection vulnerability in the Pie Register plugin before 3.0.10 for WordPress allows remote attackers to execute arbitrary SQL commands via the invitation codes grid.",
     "severity": [
         {

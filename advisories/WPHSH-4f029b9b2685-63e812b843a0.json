@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-17451"
     ],
-    "summary": "FIXME",
+    "summary": "WP Mailster < 1.5.5 - Unauthenticated Cross-Site Scripting",
     "details": "The WP Mailster plugin before 1.5.5 for WordPress has XSS in the unsubscribe handler via the mes parameter to view/subscription/unsubscribe2.php.",
     "severity": [
         {

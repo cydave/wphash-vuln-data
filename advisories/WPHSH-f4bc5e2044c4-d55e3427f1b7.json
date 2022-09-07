@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25114"
     ],
-    "summary": "FIXME",
+    "summary": "Paid Memberships Pro \u2013 Restrict Member Access to Content, Courses, Communities \u2013 Free or Paid Subscriptions < 2.6.7 - Unauthenticated SQL Injection",
     "details": "The Paid Memberships Pro WordPress plugin before 2.6.7 does not escape the discount_code in one of its REST route (available to unauthenticated users) before using it in a SQL statement, leading to a SQL injection",
     "severity": [
         {

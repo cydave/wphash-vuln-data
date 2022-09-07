@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24636"
     ],
-    "summary": "FIXME",
+    "summary": "Print My Blog \u2013 Print, PDF, & eBook Converter WordPress Plugin < 3.4.2 - CSRF",
     "details": "The Print My Blog WordPress Plugin before 3.4.2 does not enforce nonce (CSRF) checks, which allows attackers to make logged in administrators deactivate the Print My Blog plugin and delete all saved data for that plugin by tricking them to open a malicious link",
     "severity": [
         {

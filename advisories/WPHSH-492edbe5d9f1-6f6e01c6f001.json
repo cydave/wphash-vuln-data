@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-5673"
     ],
-    "summary": "FIXME",
+    "summary": "Booking calendar, Appointment Booking System < 2.1.8 - CSRF",
     "details": "An issue was discovered in the booking-calendar plugin 2.1.7 for WordPress. CSRF exists via wp-admin/admin.php.",
     "severity": [
         {

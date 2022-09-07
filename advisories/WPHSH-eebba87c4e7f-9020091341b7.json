@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24552"
     ],
-    "summary": "FIXME",
+    "summary": "simple-events-calendar < 1.4.1 - SQL Injection",
     "details": "The Simple Events Calendar WordPress plugin through 1.4.0 does not sanitise, validate or escape the event_id POST parameter before using it in a SQL statement when deleting events, leading to an authenticated SQL injection issue",
     "severity": [
         {

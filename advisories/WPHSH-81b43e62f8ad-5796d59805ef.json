@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25063"
     ],
-    "summary": "FIXME",
+    "summary": "CF7 Skins for Contact Form 7 < 2.5.1 - Unauthenticated Cross-Site Scripting",
     "details": "The Skins for Contact Form 7 WordPress plugin before 2.5.1 does not sanitise and escape the tab parameter before outputting it back in an admin page, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

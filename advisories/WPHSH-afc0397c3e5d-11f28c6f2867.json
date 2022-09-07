@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-5310"
     ],
-    "summary": "FIXME",
+    "summary": "Media from FTP < 9.85 - Path Traversal",
     "details": "In the \"Media from FTP\" plugin before 9.85 for WordPress, Directory Traversal exists via the searchdir parameter to the wp-admin/admin.php?page=mediafromftp-search-register URI.",
     "severity": [
         {

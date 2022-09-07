@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-18561"
     ],
-    "summary": "FIXME",
+    "summary": "Embed Images in Comments < 0.6 - Unauthenticated Cross-Site Scripting",
     "details": "The embed-comment-images plugin before 0.6 for WordPress has XSS.",
     "severity": [
         {

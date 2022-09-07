@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-20964"
     ],
-    "summary": "FIXME",
+    "summary": "Contact Form Email < 1.2.66 - CSRF",
     "details": "The contact-form-to-email plugin before 1.2.66 for WordPress has CSRF.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1910"
     ],
-    "summary": "FIXME",
+    "summary": "Shortcodes and extra features for Phlox theme < 2.9.8 - Unauthenticated Cross-Site Scripting",
     "details": "The Shortcodes and extra features for Phlox WordPress plugin before 2.9.8 does not sanitise and escape a parameter before outputting it back in the response, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-0603"
     ],
-    "summary": "FIXME",
+    "summary": "Site Reviews < 2.15.3 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting vulnerability in Site Reviews versions prior to 2.15.3 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.",
     "severity": [
         {

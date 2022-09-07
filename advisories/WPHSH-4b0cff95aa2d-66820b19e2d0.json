@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24727"
     ],
-    "summary": "FIXME",
+    "summary": "Block Bad Bots and Stop Bad Bots Crawlers and Spiders and Anti Spam Protection < 6.60 - SQL Injection",
     "details": "The StopBadBots WordPress plugin before 6.60 did not validate or escape the order and orderby GET parameter in some of its admin dashboard pages, leading to Authenticated SQL Injections",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-29424"
     ],
-    "summary": "FIXME",
+    "summary": "Image Hover Effects Ultimate (Image Gallery, Effects, Lightbox, Comparison or Magnifier) < 9.7.2 - Cross-Site Scripting",
     "details": "Authenticated (admin or higher user role) Reflected Cross-Site Scripting (XSS) vulnerability in Biplob Adhikari's Image Hover Effects Ultimate plugin <= 9.7.1 at WordPress.",
     "severity": [
         {

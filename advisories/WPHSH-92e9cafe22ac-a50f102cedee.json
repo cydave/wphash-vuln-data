@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9362"
     ],
-    "summary": "FIXME",
+    "summary": "Post Connector < 1.0.4 - Unauthenticated Cross-Site Scripting",
     "details": "The Post Connector plugin before 1.0.4 for WordPress has XSS via add_query_arg() and remove_query_arg().",
     "severity": [
         {

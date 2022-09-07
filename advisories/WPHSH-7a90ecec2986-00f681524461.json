@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-2222"
     ],
-    "summary": "FIXME",
+    "summary": "WP-Members Membership Plugin < 3.1.8 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting vulnerability in WP-Members prior to version 3.1.8 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.",
     "severity": [
         {

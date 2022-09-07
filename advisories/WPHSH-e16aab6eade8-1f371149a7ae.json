@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9354"
     ],
-    "summary": "FIXME",
+    "summary": "GigPress < 2.3.11 - Cross-Site Scripting",
     "details": "The gigpress plugin before 2.3.11 for WordPress has XSS.",
     "severity": [
         {

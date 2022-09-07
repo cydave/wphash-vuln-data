@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-44760"
     ],
-    "summary": "FIXME",
+    "summary": "WP-DownloadManager < 1.68.7 - Cross-Site Scripting",
     "details": "Authenticated Reflected Cross-Site Scripting (XSS) vulnerability discovered in WP-DownloadManager WordPress plugin (versions <= 1.68.6).",
     "severity": [
         {

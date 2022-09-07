@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9409"
     ],
-    "summary": "FIXME",
+    "summary": "ALO EasyMail Newsletter < 2.6.01 - CSRF",
     "details": "The alo-easymail plugin before 2.6.01 for WordPress has CSRF with resultant XSS in pages/alo-easymail-admin-options.php.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24684"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress PDF Light Viewer Plugin < 1.4.12 - OS Command Injection",
     "details": "The WordPress PDF Light Viewer Plugin WordPress plugin before 1.4.12 allows users with Author roles to execute arbitrary OS command on the server via OS Command Injection when invoking Ghostscript.",
     "severity": [
         {

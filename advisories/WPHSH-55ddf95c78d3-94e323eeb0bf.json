@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-36826"
     ],
-    "summary": "FIXME",
+    "summary": "WP Project Manager \u2013 Project, Task Management & Team Collaboration Software < 2.4.14 - Cross-Site Scripting",
     "details": "Authenticated (subscriber or higher user role if allowed to access projects) Stored Cross-Site Scripting (XSS) vulnerability in weDevs WP Project Manager (WordPress plugin) versions <= 2.4.13.",
     "severity": [
         {

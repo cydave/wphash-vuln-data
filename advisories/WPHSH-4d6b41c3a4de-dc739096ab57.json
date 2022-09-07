@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24214"
     ],
-    "summary": "FIXME",
+    "summary": "OpenID Connect Generic Client < 3.8.2 - Unauthenticated Cross-Site Scripting",
     "details": "The OpenID Connect Generic Client WordPress plugin 3.8.0 and 3.8.1 did not sanitise the login error when output back in the login form, leading to a reflected Cross-Site Scripting issue. This issue does not require authentication and can be exploited with the default configuration.",
     "severity": [
         {

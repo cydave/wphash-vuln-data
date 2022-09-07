@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-16932"
     ],
-    "summary": "FIXME",
+    "summary": "Visualizer: Tables and Charts Manager for WordPress < 3.3.1 - Unauthenticated SSRF",
     "details": "A blind SSRF vulnerability exists in the Visualizer plugin before 3.3.1 for WordPress via wp-json/visualizer/v1/upload-data.",
     "severity": [
         {

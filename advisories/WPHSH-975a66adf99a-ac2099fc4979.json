@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1967"
     ],
-    "summary": "FIXME",
+    "summary": "wp-championship < 9.3 - CSRF",
     "details": "The WP Championship WordPress plugin before 9.3 is lacking CSRF checks in various places, allowing attackers to make a logged in admin perform unwanted actions, such as create and delete arbitrary teams as well as update the plugin's settings. Due to the lack of sanitisation and escaping, it could also lead to Stored Cross-Site Scripting issues",
     "severity": [
         {

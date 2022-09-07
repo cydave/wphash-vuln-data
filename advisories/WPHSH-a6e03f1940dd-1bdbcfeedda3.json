@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25026"
     ],
-    "summary": "FIXME",
+    "summary": "Patreon WordPress < 1.8.2 - Cross-Site Scripting",
     "details": "The Patreon WordPress plugin before 1.8.2 does not sanitise and escape the field \"Custom Patreon Page name\", which could allow high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed",
     "severity": [
         {

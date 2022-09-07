@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2014-10393"
     ],
-    "summary": "FIXME",
+    "summary": "cformsII < 10.5 - Unauthenticated Cross-Site Scripting",
     "details": "The cforms2 plugin before 10.5 for WordPress has XSS.",
     "severity": [
         {

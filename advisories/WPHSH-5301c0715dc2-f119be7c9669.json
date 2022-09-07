@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-27848"
     ],
-    "summary": "FIXME",
+    "summary": "modern-events-calendar-lite < 6.5.2 - Cross-Site Scripting",
     "details": "Authenticated (admin+ user) Stored Cross-Site Scripting (XSS) in Modern Events Calendar Lite (WordPress plugin) <= 6.5.1",
     "severity": [
         {

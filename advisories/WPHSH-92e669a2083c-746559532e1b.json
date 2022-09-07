@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15820"
     ],
-    "summary": "FIXME",
+    "summary": "Login or Logout Menu Item < 1.2.0 - Unauthenticated Open Redirect",
     "details": "The login-or-logout-menu-item plugin before 1.2.0 for WordPress has no requirement for lolmi_save_settings authentication.",
     "severity": [
         {

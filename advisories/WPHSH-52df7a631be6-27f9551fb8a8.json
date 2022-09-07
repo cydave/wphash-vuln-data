@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-35748"
     ],
-    "summary": "FIXME",
+    "summary": "FV Flowplayer Video Player < 7.4.38.727 - Cross-Site Scripting",
     "details": "Cross-site scripting (XSS) vulnerability in models/list-table.php in the FV Flowplayer Video Player plugin before 7.4.37.727 for WordPress allows remote authenticated users to inject arbitrary web script or HTML via the fv_wp_fvvideoplayer_src JSON field in the data parameter.",
     "severity": [
         {

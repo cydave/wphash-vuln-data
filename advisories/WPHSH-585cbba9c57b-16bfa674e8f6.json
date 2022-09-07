@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-11709"
     ],
-    "summary": "FIXME",
+    "summary": "wpForo Forum < 1.4.12 - Unauthenticated Cross-Site Scripting",
     "details": "wpforo_get_request_uri in wpf-includes/functions.php in the wpForo Forum plugin before 1.4.12 for WordPress allows Unauthenticated Reflected Cross-Site Scripting (XSS) via the URI.",
     "severity": [
         {

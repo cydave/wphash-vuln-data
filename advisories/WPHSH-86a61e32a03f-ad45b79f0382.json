@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15838"
     ],
-    "summary": "FIXME",
+    "summary": "Custom 404 Pro < 3.2.8 - Unauthenticated Cross-Site Scripting",
     "details": "The custom-404-pro plugin before 3.2.8 for WordPress has reflected XSS, a different vulnerability than CVE-2019-14789.",
     "severity": [
         {

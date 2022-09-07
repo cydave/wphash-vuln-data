@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15776"
     ],
-    "summary": "FIXME",
+    "summary": "Simple 301 Redirects \u2013 Addon \u2013 Bulk Uploader < 1.2.5 - Unauthenticated Open Redirect",
     "details": "The simple-301-redirects-addon-bulk-uploader plugin before 1.2.5 for WordPress has no protection against 301 redirect rule injection via a CSV file.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1027"
     ],
-    "summary": "FIXME",
+    "summary": "Page Restriction WordPress (WP) \u2013 Protect WP Pages/Post < 1.2.7 - Cross-Site Scripting",
     "details": "The Page Restriction WordPress (WP) WordPress plugin before 1.2.7 allows bad actors with administrator privileges to the settings page to inject Javascript code to its settings leading to stored Cross-Site Scripting that will only affect administrator users.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-18559"
     ],
-    "summary": "FIXME",
+    "summary": "cformsII < 14.13.3 - Unauthenticated Cross-Site Scripting",
     "details": "The cforms2 plugin before 14.13.3 for WordPress has multiple XSS issues.",
     "severity": [
         {

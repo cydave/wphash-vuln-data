@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-16118"
     ],
-    "summary": "FIXME",
+    "summary": "Photo Gallery by 10Web \u2013 Mobile-Friendly Image Gallery < 1.5.35 - Unauthenticated Cross-Site Scripting",
     "details": "Cross site scripting (XSS) in the photo-gallery (10Web Photo Gallery) plugin before 1.5.35 for WordPress exists via admin/controllers/Options.php.",
     "severity": [
         {

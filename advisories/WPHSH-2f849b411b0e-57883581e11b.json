@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-18585"
     ],
-    "summary": "FIXME",
+    "summary": "Posts in Page < 1.3.0 - Path Traversal",
     "details": "The posts-in-page plugin before 1.3.0 for WordPress has ic_add_posts template='../ directory traversal.",
     "severity": [
         {

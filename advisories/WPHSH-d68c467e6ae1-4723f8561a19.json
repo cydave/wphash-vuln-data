@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-11580"
     ],
-    "summary": "FIXME",
+    "summary": "Mass Pages/Posts Creator < 1.2.5 - Cross-Site Scripting",
     "details": "An issue was discovered in mass-pages-posts-creator.php in the MULTIDOTS Mass Pages/Posts Creator plugin 1.2.2 for WordPress. Any logged in user can launch Mass Pages/Posts creation with custom content. There is no nonce or user capability check, so anyone can launch a DoS attack against a site and create hundreds of thousands of posts with custom content.",
     "severity": [
         {

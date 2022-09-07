@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0773"
     ],
-    "summary": "FIXME",
+    "summary": "documentor-lite < 1.5.4 - Unauthenticated SQL Injection",
     "details": "The Documentor WordPress plugin through 1.5.3 fails to sanitize and escape user input before it is being interpolated in an SQL statement and then executed, leading to an SQL Injection exploitable by unauthenticated users.",
     "severity": [
         {

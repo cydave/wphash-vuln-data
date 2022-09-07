@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24640"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress Slider Block Gutenslider < 5.2.0 - Cross-Site Scripting",
     "details": "The WordPress Slider Block Gutenslider plugin before 5.2.0 does not escape the minWidth attribute of a Gutenburg block, which could allow users with a role as low as contributor to perform Cross-Site Scripting attacks",
     "severity": [
         {

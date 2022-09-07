@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15777"
     ],
-    "summary": "FIXME",
+    "summary": "WP DSGVO Tools (GDPR) < 2.2.19 - Cross-Site Scripting",
     "details": "The shapepress-dsgvo plugin before 2.2.19 for WordPress has wp-admin/admin-ajax.php?action=admin-common-settings&admin_email= XSS.",
     "severity": [
         {

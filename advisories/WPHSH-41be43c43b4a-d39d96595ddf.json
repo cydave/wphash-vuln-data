@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1599"
     ],
-    "summary": "FIXME",
+    "summary": "Admin Management Xtended < 2.4.5 - CSRF",
     "details": "The Admin Management Xtended WordPress plugin before 2.4.5 does not have CSRF checks in some of its AJAX actions, allowing attackers to make a logged users with the right capabilities to call them. This can lead to changes in post status (draft, published), slug, post date, comment status (enabled, disabled) and more.",
     "severity": [
         {

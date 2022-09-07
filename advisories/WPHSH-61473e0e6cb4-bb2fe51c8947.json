@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24908"
     ],
-    "summary": "FIXME",
+    "summary": "Check & Log Email < 1.0.4 - Unauthenticated Cross-Site Scripting",
     "details": "The Check & Log Email WordPress plugin before 1.0.4 does not escape the d parameter before outputting it back in an attribute, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

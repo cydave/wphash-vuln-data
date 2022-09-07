@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0205"
     ],
-    "summary": "FIXME",
+    "summary": "YOP Poll < 6.3.5 - Cross-Site Scripting",
     "details": "The YOP Poll WordPress plugin before 6.3.5 does not sanitise and escape some of the settings (available to users with a role as low as author) before outputting them, leading to a Stored Cross-Site Scripting issue",
     "severity": [
         {

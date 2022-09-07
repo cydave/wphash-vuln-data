@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9298"
     ],
-    "summary": "FIXME",
+    "summary": "Events Manager < 5.6 - Unauthenticated Code Injection",
     "details": "The events-manager plugin before 5.6 for WordPress has code injection.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9465"
     ],
-    "summary": "FIXME",
+    "summary": "Yasr \u2013 Yet Another Stars Rating < 0.9.1 - SQL Injection",
     "details": "The yet-another-stars-rating plugin before 0.9.1 for WordPress has yasr_get_multi_set_values_and_field SQL injection via the set_id parameter.",
     "severity": [
         {

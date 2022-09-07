@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24863"
     ],
-    "summary": "FIXME",
+    "summary": "Block Bad Bots and Stop Bad Bots Crawlers and Spiders and Anti Spam Protection < 6.67 - Unauthenticated SQL Injection",
     "details": "The WP Block and Stop Bad Bots Crawlers and Spiders and Anti Spam Protection Plugin StopBadBots WordPress plugin before 6.67 does not sanitise and escape the User Agent before using it in a SQL statement to save it, leading to a SQL injection",
     "severity": [
         {

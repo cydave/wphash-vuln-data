@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2012-6714"
     ],
-    "summary": "FIXME",
+    "summary": "count-per-day < 3.2.3 - Unauthenticated Cross-Site Scripting",
     "details": "The count-per-day plugin before 3.2.3 for WordPress has XSS via search words.",
     "severity": [
         {

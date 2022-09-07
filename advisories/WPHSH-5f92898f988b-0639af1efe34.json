@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24850"
     ],
-    "summary": "FIXME",
+    "summary": "Insert Pages < 3.7.0 - Cross-Site Scripting",
     "details": "The Insert Pages WordPress plugin before 3.7.0 adds a shortcode that prints out other pages' content and custom fields. It can be used by users with a role as low as Contributor to perform Cross-Site Scripting attacks by storing the payload/s in another post's custom fields.",
     "severity": [
         {

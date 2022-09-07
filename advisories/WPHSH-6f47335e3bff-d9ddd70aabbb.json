@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-17239"
     ],
-    "summary": "FIXME",
+    "summary": "Download Plugins and Themes from Dashboard < 1.6.0 - Unauthenticated Cross-Site Scripting",
     "details": "includes/settings/class-alg-download-plugins-settings.php in the download-plugins-dashboard plugin through 1.5.0 for WordPress has multiple unauthenticated stored XSS issues.",
     "severity": [
         {

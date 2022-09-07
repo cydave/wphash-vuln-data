@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-2329"
     ],
-    "summary": "FIXME",
+    "summary": "WooCommerce < 2.3.6 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting (XSS) vulnerability in the WooCommerce plugin before 2.3.6 for WordPress allows remote attackers to inject arbitrary web script or HTML via a crafted order.",
     "severity": [
         {

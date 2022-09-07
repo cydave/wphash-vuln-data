@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-7107"
     ],
-    "summary": "FIXME",
+    "summary": "Ultimate FAQ \u2013 WordPress FAQ and Accordion Plugin < 1.8.30 - Unauthenticated Cross-Site Scripting",
     "details": "The Ultimate FAQ plugin before 1.8.30 for WordPress allows XSS via Display_FAQ to Shortcodes/DisplayFAQs.php.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-23980"
     ],
-    "summary": "FIXME",
+    "summary": "Yasr \u2013 Yet Another Stars Rating < 3.0.2 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-Site Scripting (XSS) vulnerability discovered in Yasr \u2013 Yet Another Stars Rating WordPress plugin (versions <= 2.9.9), vulnerable at parameter 'source'.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-34635"
     ],
-    "summary": "FIXME",
+    "summary": "Poll Maker \u2013 Best WordPress Poll Plugin < 3.2.9 - Unauthenticated Cross-Site Scripting",
     "details": "The Poll Maker WordPress plugin is vulnerable to Reflected Cross-Site Scripting via the mcount parameter found in the ~/admin/partials/settings/poll-maker-settings.php file which allows attackers to inject arbitrary web scripts, in versions up to and including 3.2.8.",
     "severity": [
         {

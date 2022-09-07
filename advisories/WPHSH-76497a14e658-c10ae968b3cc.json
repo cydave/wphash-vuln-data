@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15872"
     ],
-    "summary": "FIXME",
+    "summary": "LoginPress | Custom Login Page Customizer < 1.1.14 - Unauthenticated SQL Injection",
     "details": "The LoginPress plugin before 1.1.4 for WordPress has SQL injection via an import of settings.",
     "severity": [
         {

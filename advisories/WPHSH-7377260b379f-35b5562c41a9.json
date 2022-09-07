@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24891"
     ],
-    "summary": "FIXME",
+    "summary": "Elementor Website Builder < 3.1.4 - Unauthenticated Cross-Site Scripting",
     "details": "The Elementor Website Builder WordPress plugin before 3.4.8 does not sanitise or escape user input appended to the DOM via a malicious hash, resulting in a DOM Cross-Site Scripting issue.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-7719"
     ],
-    "summary": "FIXME",
+    "summary": "spider-event-calendar < 1.5.52 - Unauthenticated SQL Injection",
     "details": "SQL injection in the Spider Event Calendar (aka spider-event-calendar) plugin before 1.5.52 for WordPress is exploitable with the order_by parameter to calendar_functions.php or widget_Theme_functions.php, related to front_end/frontend_functions.php.",
     "severity": [
         {

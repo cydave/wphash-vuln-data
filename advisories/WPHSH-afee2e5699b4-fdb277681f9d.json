@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-27845"
     ],
-    "summary": "FIXME",
+    "summary": "Plausible Analytics < 1.2.3 - Cross-Site Scripting",
     "details": "Authenticated (admin or higher user role) Stored Cross-Site Scripting (XSS) in PlausibleHQ Plausible Analytics (WordPress plugin) <= 1.2.2",
     "severity": [
         {

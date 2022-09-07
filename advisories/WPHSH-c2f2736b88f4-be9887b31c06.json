@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9317"
     ],
-    "summary": "FIXME",
+    "summary": "Awesome Support \u2013 WordPress HelpDesk & Support Plugin < 3.1.7 - Unauthenticated Cross-Site Scripting",
     "details": "The awesome-support plugin before 3.1.7 for WordPress has XSS via custom information messages.",
     "severity": [
         {

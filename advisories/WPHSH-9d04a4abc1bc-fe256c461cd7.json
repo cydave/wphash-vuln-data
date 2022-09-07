@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-20779"
     ],
-    "summary": "FIXME",
+    "summary": "Email Template Designer \u2013 WP HTML Mail < 3.0.8 - CSRF",
     "details": "Cross-site request forgery (CSRF) vulnerability in WordPress Email Template Designer - WP HTML Mail versions prior to 3.0.8 allows remote attackers to hijack the authentication of administrators via unspecified vectors.",
     "severity": [
         {

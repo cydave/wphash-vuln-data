@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24804"
     ],
-    "summary": "FIXME",
+    "summary": "Simple JWT Login \u2013 Login and Register to WordPress using JWT < 3.2.1 - CSRF",
     "details": "The Simple JWT Login WordPress plugin before 3.2.1 does not have nonce checks when saving its settings, allowing attackers to make a logged in admin changed them. Settings such as HMAC verification secret, account registering and default user roles can be updated, which could result in site takeover.",
     "severity": [
         {

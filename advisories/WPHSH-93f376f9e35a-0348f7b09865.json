@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-14125"
     ],
-    "summary": "FIXME",
+    "summary": "Gallery \u2013 Image and Video Gallery with Thumbnails < 1.2.1 - Unauthenticated SQL Injection",
     "details": "SQL injection vulnerability in the Responsive Image Gallery plugin before 1.2.1 for WordPress allows remote attackers to execute arbitrary SQL commands via the \"id\" parameter in an add_edit_theme task in the wpdevart_gallery_themes page to wp-admin/admin.php.",
     "severity": [
         {

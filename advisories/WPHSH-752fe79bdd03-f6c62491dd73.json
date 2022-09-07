@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1282"
     ],
-    "summary": "FIXME",
+    "summary": "Photo Gallery by 10Web \u2013 Mobile-Friendly Image Gallery < 1.6.3 - Unauthenticated Cross-Site Scripting",
     "details": "The Photo Gallery by 10Web WordPress plugin before 1.6.3 does not properly sanitize the $_GET['image_url'] variable, which is reflected back to the users when executing the editimage_bwg AJAX action.",
     "severity": [
         {

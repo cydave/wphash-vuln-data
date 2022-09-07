@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-20204"
     ],
-    "summary": "FIXME",
+    "summary": "Postie < 1.9.42 - Cross-Site Scripting",
     "details": "The Postie plugin 1.9.40 for WordPress allows XSS, as demonstrated by a certain payload with jaVasCript:/* at the beginning and a crafted SVG element.",
     "severity": [
         {

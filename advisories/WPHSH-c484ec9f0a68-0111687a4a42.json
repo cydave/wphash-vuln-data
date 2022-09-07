@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-14216"
     ],
-    "summary": "FIXME",
+    "summary": "svg-vector-icon-plugin < 3.2.3 - CSRF",
     "details": "An issue was discovered in the svg-vector-icon-plugin (aka WP SVG Icons) plugin through 3.2.1 for WordPress. wp-admin/admin.php?page=wp-svg-icons-custom-set mishandles Custom Icon uploads. CSRF leads to upload of a ZIP archive containing a .php file.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-14945"
     ],
-    "summary": "FIXME",
+    "summary": "Ultimate Member \u2013 User Profile, User Registration, Login & Membership Plugin < 2.0.54 - Cross-Site Scripting",
     "details": "The ultimate-member plugin before 2.0.54 for WordPress has XSS.",
     "severity": [
         {

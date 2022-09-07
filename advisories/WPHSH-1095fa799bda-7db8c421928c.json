@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2014-10386"
     ],
-    "summary": "FIXME",
+    "summary": "3CX Free Live Chat < 4.1.0 - Unauthenticated Injection",
     "details": "The wp-live-chat-support plugin before 4.1.0 for WordPress has JavaScript injections.",
     "severity": [
         {

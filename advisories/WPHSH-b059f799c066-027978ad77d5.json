@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1476"
     ],
-    "summary": "FIXME",
+    "summary": "All-in-One WP Migration < 7.59 - Path Traversal",
     "details": "The All-in-One WP Migration plugin for WordPress is vulnerable to arbitrary file deletion via directory traversal due to insufficient file validation via the ~/lib/model/class-ai1wm-backups.php file, in versions up to, and including, 7.58. This can be exploited by administrative users, and users who have access to the site's secret key.",
     "severity": [
         {

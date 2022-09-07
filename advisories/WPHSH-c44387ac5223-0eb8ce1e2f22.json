@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9429"
     ],
-    "summary": "FIXME",
+    "summary": "YITH Maintenance Mode < 1.2.0 - CSRF",
     "details": "The yith-maintenance-mode plugin before 1.2.0 for WordPress has CSRF with resultant XSS via the wp-admin/themes.php?page=yith-maintenance-mode panel_page parameter.",
     "severity": [
         {

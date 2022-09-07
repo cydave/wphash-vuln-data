@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24691"
     ],
-    "summary": "FIXME",
+    "summary": "Quiz And Survey Master \u2013 Best Quiz, Exam and Survey Plugin for WordPress < 7.1.14 - Cross-Site Scripting",
     "details": "The Quiz And Survey Master WordPress plugin before 7.3.2 does not escape the Quiz Url Slug setting before outputting it in some pages, which could allow high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed",
     "severity": [
         {

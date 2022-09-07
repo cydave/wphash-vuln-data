@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-16204"
     ],
-    "summary": "FIXME",
+    "summary": "XML Sitemaps < 4.1.0 - Cross-Site Scripting",
     "details": "Cross-site scripting vulnerability in Google XML Sitemaps Version 4.0.9 and earlier allows remote authenticated attackers to inject arbitrary web script or HTML via unspecified vectors.",
     "severity": [
         {

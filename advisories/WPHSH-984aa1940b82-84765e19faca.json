@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-20633"
     ],
-    "summary": "FIXME",
+    "summary": "CookieYes | GDPR Cookie Consent & Compliance Notice (CCPA Ready) < 1.8.3 - Cross-Site Scripting",
     "details": "ajax_policy_generator in admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php in GDPR Cookie Consent (cookie-law-info) 1.8.2 and below plugin for WordPress, allows authenticated stored XSS and privilege escalation.",
     "severity": [
         {

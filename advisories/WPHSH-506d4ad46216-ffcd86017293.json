@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9294"
     ],
-    "summary": "FIXME",
+    "summary": "All In One WP Security & Firewall < 3.9.5 - Unauthenticated Cross-Site Scripting",
     "details": "The all-in-one-wp-security-and-firewall plugin before 3.9.5 for WordPress has XSS in add_query_arg and remove_query_arg function instances.",
     "severity": [
         {

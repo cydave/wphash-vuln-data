@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-19042"
     ],
-    "summary": "FIXME",
+    "summary": "media-file-manager < 1.4.3 - Unauthenticated Path Traversal",
     "details": "The Media File Manager plugin 1.4.2 for WordPress allows arbitrary file movement via a ../ directory traversal in the dir_from and dir_to parameters of an mrelocator_move action to the wp-admin/admin-ajax.php URI.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-35773"
     ],
-    "summary": "FIXME",
+    "summary": "Site Offline Or Coming Soon Or Maintenance Mode < 1.4.4 - CSRF",
     "details": "The site-offline plugin before 1.4.4 for WordPress lacks certain wp_create_nonce and wp_verify_nonce calls, aka CSRF.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-10692"
     ],
-    "summary": "FIXME",
+    "summary": "WP Go Maps (formerly WP Google Maps) < 7.11.18 - Unauthenticated SQL Injection",
     "details": "In the wp-google-maps plugin before 7.11.18 for WordPress, includes/class.rest-api.php in the REST API does not sanitize field names before a SELECT statement.",
     "severity": [
         {

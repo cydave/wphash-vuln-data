@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0814"
     ],
-    "summary": "FIXME",
+    "summary": "Ubigeo de Per\u00fa para Woocommerce y WordPress < 3.6.4 - Unauthenticated SQL Injection",
     "details": "The Ubigeo de Per\u00c3\u00ba para Woocommerce WordPress plugin before 3.6.4 does not properly sanitise and escape some parameters before using them in SQL statements via various AJAX actions, some of which are available to unauthenticated users, leading to SQL Injections",
     "severity": [
         {

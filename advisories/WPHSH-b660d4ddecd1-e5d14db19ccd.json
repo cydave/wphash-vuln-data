@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-17599"
     ],
-    "summary": "FIXME",
+    "summary": "Quiz And Survey Master \u2013 Best Quiz, Exam and Survey Plugin for WordPress < 6.3.5 - Unauthenticated Cross-Site Scripting",
     "details": "The quiz-master-next (aka Quiz And Survey Master) plugin before 6.3.5 for WordPress is affected by: Cross Site Scripting (XSS). The impact is: Allows an attacker to execute arbitrary HTML and JavaScript code via the from or till parameter (and/or the quiz_id parameter). The component is: admin/quiz-options-page.php. The attack vector is: When the Administrator is logged in, a reflected XSS may execute upon a click on a malicious URL.",
     "severity": [
         {

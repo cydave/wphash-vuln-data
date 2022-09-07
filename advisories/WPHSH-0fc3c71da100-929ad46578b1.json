@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-20838"
     ],
-    "summary": "FIXME",
+    "summary": "AMP for WP \u2013 Accelerated Mobile Pages < 0.9.97.21 - Cross-Site Scripting",
     "details": "ampforwp_save_steps_data in the AMP for WP plugin before 0.9.97.21 for WordPress allows stored XSS.",
     "severity": [
         {

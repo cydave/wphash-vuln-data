@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1630"
     ],
-    "summary": "FIXME",
+    "summary": "WP-EMail < 2.69.0 - CSRF",
     "details": "The WP-EMail WordPress plugin before 2.69.0 does not protect its log deletion functionality with nonce checks, allowing attacker to make a logged in admin delete logs via a CSRF attack",
     "severity": [
         {

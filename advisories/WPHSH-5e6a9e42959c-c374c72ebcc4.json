@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10917"
     ],
-    "summary": "FIXME",
+    "summary": "Search Everything < 8.1.6 - Unauthenticated SQL Injection",
     "details": "The search-everything plugin before 8.1.6 for WordPress has SQL injection related to empty search strings, a different vulnerability than CVE-2014-2316.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-19111"
     ],
-    "summary": "FIXME",
+    "summary": "wpForo Forum < 1.7.0 - Unauthenticated Cross-Site Scripting",
     "details": "The wpForo plugin 1.6.5 for WordPress allows XSS via the wp-admin/admin.php?page=wpforo-phrases langid parameter.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-36850"
     ],
-    "summary": "FIXME",
+    "summary": "Media File Renamer \u2013 Auto & Manual Rename < 5.2.7 - CSRF",
     "details": "Cross-Site Request Forgery (CSRF) vulnerability in WordPress Media File Renamer \u2013 Auto & Manual Rename plugin (versions <= 5.1.9). Affected parameters \"post_title\", \"filename\", \"lock\". This allows changing the uploaded media title, media file name, and media locking state.",
     "severity": [
         {

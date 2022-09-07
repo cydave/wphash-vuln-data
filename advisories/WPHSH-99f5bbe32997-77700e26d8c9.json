@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24812"
     ],
-    "summary": "FIXME",
+    "summary": "BetterLinks \u2013 Shorten, Track and Manage any URL < 1.2.6 - Cross-Site Scripting",
     "details": "The BetterLinks WordPress plugin before 1.2.6 does not sanitise and escape some of imported link fields, which could lead to Stored Cross-Site Scripting issues when an admin import a malicious CSV.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-36895"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress form builder plugin for contact forms, surveys and quizzes \u2013 Tripetto < 5.3.1 - Unauthenticated Cross-Site Scripting",
     "details": "Unauthenticated Cross-Site Scripting (XSS) vulnerability in Tripetto's Tripetto plugin <= 5.1.4 on WordPress via SVG image upload.",
     "severity": [
         {

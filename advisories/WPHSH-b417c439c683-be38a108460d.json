@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24778"
     ],
-    "summary": "FIXME",
+    "summary": "tradetracker-store < 4.6.60 - SQL Injection",
     "details": "The test parameter of the xmlfeed in the Tradetracker-Store WordPress plugin before 4.6.60 is not sanitised, escaped or validated before inserting to a SQL statement, leading to SQL injection.",
     "severity": [
         {

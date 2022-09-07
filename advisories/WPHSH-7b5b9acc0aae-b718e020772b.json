@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0479"
     ],
-    "summary": "FIXME",
+    "summary": "Popup Builder \u2013 Create highly converting, mobile friendly marketing popups. < 4.1.1 - Unauthenticated SQL Injection",
     "details": "The Popup Builder WordPress plugin before 4.1.1 does not sanitise and escape the sgpb-subscription-popup-id parameter before using it in a SQL statement in the All Subscribers admin dashboard, leading to a SQL injection, which could also be used to perform Reflected Cross-Site Scripting attack against a logged in admin opening a malicious link",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24419"
     ],
-    "summary": "FIXME",
+    "summary": "WP YouTube Lyte < 1.7.16 - Cross-Site Scripting",
     "details": "The WP YouTube Lyte WordPress plugin before 1.7.16 did not sanitise or escape its lyte_yt_api_key and lyte_notification settings before outputting them back in the page, allowing high privilege users to set XSS payload on them and leading to stored Cross-Site Scripting issues.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-8426"
     ],
-    "summary": "FIXME",
+    "summary": "Elementor Website Builder < 2.8.5 - Cross-Site Scripting",
     "details": "The Elementor plugin before 2.8.5 for WordPress suffers from a reflected XSS vulnerability on the elementor-system-info page. These can be exploited by targeting an authenticated user.",
     "severity": [
         {

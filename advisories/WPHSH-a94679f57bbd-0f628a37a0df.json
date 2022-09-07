@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-13136"
     ],
-    "summary": "FIXME",
+    "summary": "Ultimate Member \u2013 User Profile, User Registration, Login & Membership Plugin < 2.0.18 - Unauthenticated Cross-Site Scripting",
     "details": "The Ultimate Member (aka ultimatemember) plugin before 2.0.18 for WordPress has XSS via the wp-admin settings screen.",
     "severity": [
         {

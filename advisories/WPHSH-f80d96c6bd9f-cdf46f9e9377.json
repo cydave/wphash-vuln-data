@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25027"
     ],
-    "summary": "FIXME",
+    "summary": "PowerPack Addons for Elementor (Instagram Feed, Pricing Table, Forms Stylers, Display Conditions, Free Elementor Widgets and Elementor Templates) < 2.6.2 - Unauthenticated Cross-Site Scripting",
     "details": "The PowerPack Addons for Elementor WordPress plugin before 2.6.2 does not escape the tab parameter before outputting it back in an attribute in the admin dashboard, leading to a Reflected Cross-Site Scripting issue",
     "severity": [
         {

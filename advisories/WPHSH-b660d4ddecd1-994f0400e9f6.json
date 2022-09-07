@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-20792"
     ],
-    "summary": "FIXME",
+    "summary": "Quiz And Survey Master \u2013 Best Quiz, Exam and Survey Plugin for WordPress < 7.1.14 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting vulnerability in Quiz And Survey Master versions prior to 7.1.14 allows a remote attacker to inject arbitrary script via unspecified vectors.",
     "severity": [
         {

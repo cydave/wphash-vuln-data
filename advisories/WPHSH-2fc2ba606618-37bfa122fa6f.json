@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25079"
     ],
-    "summary": "FIXME",
+    "summary": "Contact Form Entries \u2013 Contact Form 7, WPforms and more < 1.1.7 - Unauthenticated Cross-Site Scripting",
     "details": "The Contact Form Entries WordPress plugin before 1.2.4 does not sanitise and escape various parameters, such as form_id, status, end_date, order, orderby and search before outputting them back in the admin page",
     "severity": [
         {

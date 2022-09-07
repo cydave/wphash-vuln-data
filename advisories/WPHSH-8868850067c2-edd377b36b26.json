@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-39332"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress ERP, HR, CRM, and Project Management Plugin \u2013 Business Manager < 1.4.6 - Cross-Site Scripting",
     "details": "The Business Manager WordPress plugin is vulnerable to Stored Cross-Site Scripting due to insufficient input validation and sanitization found throughout the plugin which allowed attackers with administrative user access to inject arbitrary web scripts, in versions up to and including 1.4.5. This affects multi-site installations where unfiltered_html is disabled for administrators, and sites where unfiltered_html is disabled.",
     "severity": [
         {

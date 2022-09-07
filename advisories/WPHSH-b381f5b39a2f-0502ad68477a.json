@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24939"
     ],
-    "summary": "FIXME",
+    "summary": "LoginWP (Formerly Peter's Login Redirect) < 3.0.0.5 - Unauthenticated Cross-Site Scripting",
     "details": "The LoginWP (Formerly Peter's Login Redirect) WordPress plugin before 3.0.0.5 does not sanitise and escape the rul_login_url and rul_logout_url parameter before outputting them back in attributes in an admin page, leading to a Reflected Cross-Site Scripting issue",
     "severity": [
         {

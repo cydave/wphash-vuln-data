@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24829"
     ],
-    "summary": "FIXME",
+    "summary": "Visitor Traffic Real Time Statistics < 3.9 - SQL Injection",
     "details": "The Visitor Traffic Real Time Statistics WordPress plugin before 3.9 does not validate and escape user input passed to the today_traffic_index AJAX action (available to any authenticated users) before using it in a SQL statement, leading to an SQL injection issue",
     "severity": [
         {

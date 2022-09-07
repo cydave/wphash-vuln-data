@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-18015"
     ],
-    "summary": "FIXME",
+    "summary": "Share This Image < 1.04 - Unauthenticated Cross-Site Scripting",
     "details": "The ILLID Share This Image plugin before 1.04 for WordPress has XSS via the sharer.php url parameter.",
     "severity": [
         {

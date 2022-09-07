@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24669"
     ],
-    "summary": "FIXME",
+    "summary": "MAZ Loader \u2013 Preloader Builder for WordPress < 1.3.3 - SQL Injection",
     "details": "The MAZ Loader \u00e2\u20ac\u201c Preloader Builder for WordPress plugin before 1.3.3 does not validate or escape the loader_id parameter of the mzldr shortcode, which allows users with a role as low as Contributor to perform SQL injection.",
     "severity": [
         {

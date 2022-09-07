@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2014-10385"
     ],
-    "summary": "FIXME",
+    "summary": "memphis-documents-library < 3.0 - Unauthenticated Cross-Site Scripting",
     "details": "The memphis-documents-library plugin before 3.0 for WordPress has XSS via $_REQUEST.",
     "severity": [
         {

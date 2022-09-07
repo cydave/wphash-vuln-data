@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2013-7472"
     ],
-    "summary": "FIXME",
+    "summary": "count-per-day < 3.2.6 - Unauthenticated Cross-Site Scripting",
     "details": "The \"Count per Day\" plugin before 3.2.6 for WordPress allows XSS via the wp-admin/?page=cpd_metaboxes daytoshow parameter.",
     "severity": [
         {

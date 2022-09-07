@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-15877"
     ],
-    "summary": "FIXME",
+    "summary": "Plainview Activity Monitor < 20180826 - OS Command Injection",
     "details": "The Plainview Activity Monitor plugin before 20180826 for WordPress is vulnerable to OS command injection via shell metacharacters in the ip parameter of a wp-admin/admin.php?page=plainview_activity_monitor&tab=activity_tools request.",
     "severity": [
         {

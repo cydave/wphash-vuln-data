@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-13864"
     ],
-    "summary": "FIXME",
+    "summary": "Elementor Website Builder < 2.9.10 - Cross-Site Scripting",
     "details": "The Elementor Page Builder plugin before 2.9.9 for WordPress suffers from a stored XSS vulnerability. An author user can create posts that result in a stored XSS by using a crafted payload in custom links.",
     "severity": [
         {

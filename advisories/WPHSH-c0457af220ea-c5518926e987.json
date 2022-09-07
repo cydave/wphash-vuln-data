@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-21002"
     ],
-    "summary": "FIXME",
+    "summary": "JS Help Desk \u2013 Best Help Desk & Support Plugin < 2.0.6 - CSRF",
     "details": "The js-support-ticket plugin before 2.0.6 for WordPress has CSRF.",
     "severity": [
         {

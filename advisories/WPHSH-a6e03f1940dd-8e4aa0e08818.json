@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24229"
     ],
-    "summary": "FIXME",
+    "summary": "Patreon WordPress < 1.7.2 - Unauthenticated Cross-Site Scripting",
     "details": "The Jetpack Scan team identified a Reflected Cross-Site Scripting via the patreon_save_attachment_patreon_level AJAX action of the Patreon WordPress plugin before 1.7.2. This AJAX hook is used to update the pledge level required by Patreon subscribers to access a given attachment. This action is accessible for user accounts with the \u2018manage_options\u2019 privilege (i.e.., only administrators). Unfortunately, one of the parameters used in this AJAX endpoint is not sanitized before being printed back to the user, so the risk it represents is the same as the previous XSS vulnerability.",
     "severity": [
         {

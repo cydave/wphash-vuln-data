@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0141"
     ],
-    "summary": "FIXME",
+    "summary": "Visual Form Builder < 3.0.8 - CSRF",
     "details": "The Visual Form Builder WordPress plugin before 3.0.8 does not enforce nonce checks which could allow attackers to make a logged in admin or editor delete and restore arbitrary form entries via CSRF attacks",
     "severity": [
         {

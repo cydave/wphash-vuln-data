@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-42363"
     ],
-    "summary": "FIXME",
+    "summary": "Preview E-mails for WooCommerce < 2.0.0 - Unauthenticated Cross-Site Scripting",
     "details": "The Preview E-Mails for WooCommerce WordPress plugin is vulnerable to Reflected Cross-Site Scripting via the search_order parameter found in the ~/views/form.php file which allows attackers to inject arbitrary web scripts, in versions up to and including 1.6.8.",
     "severity": [
         {

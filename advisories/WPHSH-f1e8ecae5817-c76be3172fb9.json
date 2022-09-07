@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-20625"
     ],
-    "summary": "FIXME",
+    "summary": "Sliced Invoices \u2013 WordPress Invoice Plugin < 3.8.4 - Unauthenticated SQL Injection",
     "details": "Sliced Invoices plugin for WordPress 3.8.2 and earlier allows unauthenticated information disclosure and authenticated SQL injection via core/class-sliced.php.",
     "severity": [
         {

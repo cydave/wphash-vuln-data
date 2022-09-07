@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0694"
     ],
-    "summary": "FIXME",
+    "summary": "Advanced Booking Calendar < 1.7.0 - Unauthenticated SQL Injection",
     "details": "The Advanced Booking Calendar WordPress plugin before 1.7.0 does not validate and escape the calendar parameter before using it in a SQL statement via the abc_booking_getSingleCalendar AJAX action (available to both unauthenticated and authenticated users), leading to an unauthenticated SQL injection",
     "severity": [
         {

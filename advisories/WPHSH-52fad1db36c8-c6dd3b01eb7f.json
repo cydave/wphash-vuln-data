@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-20978"
     ],
-    "summary": "FIXME",
+    "summary": "Import any XML or CSV File to WordPress < 3.4.7 - Unauthenticated Cross-Site Scripting",
     "details": "The wp-all-import plugin before 3.4.7 for WordPress has XSS.",
     "severity": [
         {

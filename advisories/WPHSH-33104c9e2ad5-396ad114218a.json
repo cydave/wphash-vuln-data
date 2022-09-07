@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-2245"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress Shortcodes Plugin \u2014 Shortcodes Ultimate < 4.10.0 - Path Traversal",
     "details": "Directory traversal vulnerability in Shortcodes Ultimate prior to version 4.10.0 allows remote attackers to read arbitrary files via unspecified vectors.",
     "severity": [
         {

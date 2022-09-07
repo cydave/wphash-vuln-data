@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24965"
     ],
-    "summary": "FIXME",
+    "summary": "Five Star Restaurant Reservations \u2013 WordPress Booking Plugin < 2.4.8 - Cross-Site Scripting",
     "details": "The Five Star Restaurant Reservations WordPress plugin before 2.4.8 does not have capability and CSRF checks in the rtb_welcome_set_schedule AJAX action, allowing any authenticated users to call it. Due to the lack of sanitisation and escaping, users with a role as low as subscriber could perform Cross-Site Scripting attacks against logged in admins",
     "severity": [
         {

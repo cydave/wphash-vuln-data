@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0134"
     ],
-    "summary": "FIXME",
+    "summary": "AnyComment < 0.2.18 - CSRF",
     "details": "The AnyComment WordPress plugin before 0.2.18 does not have CSRF checks in the Import and Revert HyperComments features, allowing attackers to make logged in admin perform such actions via a CSRF attack",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-8596"
     ],
-    "summary": "FIXME",
+    "summary": "Participants Database < 1.9.5.6 - SQL Injection",
     "details": "participants-database.php in the Participants Database plugin 1.9.5.5 and previous versions for WordPress has a time-based SQL injection vulnerability via the ascdesc, list_filter_count, or sortBy parameters. It is possible to exfiltrate data and potentially execute code (if certain conditions are met).",
     "severity": [
         {

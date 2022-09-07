@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-7586"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress Gallery Plugin \u2013 NextGEN Gallery < 2.2.50 - Unauthenticated Path Traversal",
     "details": "In the nextgen-gallery plugin before 2.2.50 for WordPress, gallery paths are not secured.",
     "severity": [
         {

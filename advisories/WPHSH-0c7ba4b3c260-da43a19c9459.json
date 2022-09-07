@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24343"
     ],
-    "summary": "FIXME",
+    "summary": "iFlyChat \u2013 WordPress Chat < 4.7.0 - Cross-Site Scripting",
     "details": "The iFlyChat WordPress plugin before 4.7.0 does not sanitise its APP ID setting before outputting it back in the page, leading to an authenticated Stored Cross-Site Scripting issue",
     "severity": [
         {

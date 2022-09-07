@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-19109"
     ],
-    "summary": "FIXME",
+    "summary": "wpForo Forum < 1.7.0 - CSRF",
     "details": "The wpForo plugin 1.6.5 for WordPress allows wp-admin/admin.php?page=wpforo-usergroups CSRF.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-36869"
     ],
-    "summary": "FIXME",
+    "summary": "Ivory Search \u2013 WordPress Search Plugin < 5.4.4 - Unauthenticated Cross-Site Scripting",
     "details": "Reflected Cross-Site Scripting (XSS) vulnerability in WordPress Ivory Search plugin (versions <= 4.6.6). Vulnerable parameter: &post.",
     "severity": [
         {

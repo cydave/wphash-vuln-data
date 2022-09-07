@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10877"
     ],
-    "summary": "FIXME",
+    "summary": "WP Editor < 1.2.6.3 - Unauthenticated Cross-Site Scripting",
     "details": "The wp-editor plugin before 1.2.6.3 for WordPress has multiple XSS issues.",
     "severity": [
         {

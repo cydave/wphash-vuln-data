@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24127"
     ],
-    "summary": "FIXME",
+    "summary": "ThirstyAffiliates Affiliate Link Manager < 3.9.3 - Cross-Site Scripting",
     "details": "Unvalidated input and lack of output encoding in the ThirstyAffiliates Affiliate Link Manager WordPress plugin, versions before 3.9.3, was vulnerable to authenticated Stored Cross-Site Scripting (XSS), which could lead to privilege escalation.",
     "severity": [
         {

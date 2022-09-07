@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24128"
     ],
-    "summary": "FIXME",
+    "summary": "Team Members < 5.0.4 - Cross-Site Scripting",
     "details": "Unvalidated input and lack of output encoding in the Team Members WordPress plugin, versions before 5.0.4, lead to Cross-site scripting vulnerabilities allowing medium-privileged authenticated attacker (contributor+) to inject arbitrary web script or HTML via the 'Description/biography' of a member.",
     "severity": [
         {

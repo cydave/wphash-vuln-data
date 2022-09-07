@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-36857"
     ],
-    "summary": "FIXME",
+    "summary": "Testimonial < 1.6.2 - Cross-Site Scripting",
     "details": "Authenticated (editor+) Stored Cross-Site Scripting (XSS) vulnerability in wpshopmart Testimonial Builder plugin <= 1.6.1 at WordPress.",
     "severity": [
         {

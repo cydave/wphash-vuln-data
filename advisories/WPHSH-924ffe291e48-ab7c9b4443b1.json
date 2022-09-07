@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-13572"
     ],
-    "summary": "FIXME",
+    "summary": "Blog2Social: Social Media Auto Post & Scheduler < 5.6.0 - Unauthenticated SQL Injection",
     "details": "The Adenion Blog2Social plugin through 5.5.0 for WordPress allows SQL Injection.",
     "severity": [
         {

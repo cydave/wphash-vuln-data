@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-9864"
     ],
-    "summary": "FIXME",
+    "summary": "3CX Free Live Chat < 8.0.06 - Unauthenticated Cross-Site Scripting",
     "details": "The WP Live Chat Support plugin before 8.0.06 for WordPress has stored XSS via the Name field.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1977"
     ],
-    "summary": "FIXME",
+    "summary": "Import all XML, CSV & TXT into WordPress < 6.5.3 - SSRF",
     "details": "The Import Export All WordPress Images, Users & Post Types WordPress plugin before 6.5.3 does not fully validate the file to be imported via an URL before making an HTTP request to it, which could allow high privilege users such as admin to perform Blind SSRF attacks",
     "severity": [
         {

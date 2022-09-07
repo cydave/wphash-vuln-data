@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-8417"
     ],
-    "summary": "FIXME",
+    "summary": "Code Snippets < 2.14.0 - CSRF",
     "details": "The Code Snippets plugin before 2.14.0 for WordPress allows CSRF because of the lack of a Referer check on the import menu.",
     "severity": [
         {

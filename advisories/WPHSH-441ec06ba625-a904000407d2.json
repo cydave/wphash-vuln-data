@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24847"
     ],
-    "summary": "FIXME",
+    "summary": "SEO Redirection Plugin \u2013 301 Redirect Manager < 8.2 - SQL Injection",
     "details": "The importFromRedirection AJAX action of the SEO Redirection Plugin \u00e2\u20ac\u201c 301 Redirect Manager WordPress plugin before 8.2, available to any authenticated user, does not properly sanitise the offset parameter before using it in a SQL statement, leading an SQL injection when the redirection plugin is also installed",
     "severity": [
         {

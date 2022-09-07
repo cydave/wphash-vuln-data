@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24827"
     ],
-    "summary": "FIXME",
+    "summary": "Asgaros Forum < 1.15.13 - Unauthenticated SQL Injection",
     "details": "The Asgaros Forum WordPress plugin before 1.15.13 does not validate and escape user input when subscribing to a topic before using it in a SQL statement, leading to an unauthenticated SQL injection issue",
     "severity": [
         {

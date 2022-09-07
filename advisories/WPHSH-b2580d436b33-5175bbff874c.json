@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25012"
     ],
-    "summary": "FIXME",
+    "summary": "Pz-LinkCard < 2.4.5.3 - Unauthenticated Cross-Site Scripting",
     "details": "The Pz-LinkCard WordPress plugin through 2.4.4.4 does not sanitise and escape multiple parameters before outputting them back in admin dashboard pages, leading to Reflected Cross-Site Scripting issues",
     "severity": [
         {

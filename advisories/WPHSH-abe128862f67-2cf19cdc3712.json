@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24561"
     ],
-    "summary": "FIXME",
+    "summary": "WP SMS \u2013 Messaging & SMS Notification for WordPress, WooCommerce, GravityForms, etc < 5.4.13 - Cross-Site Scripting",
     "details": "The WP SMS WordPress plugin before 5.4.13 does not sanitise the \"wp_group_name\" parameter before outputting it back in the \"Groups\" page, leading to an Authenticated Stored Cross-Site Scripting issue",
     "severity": [
         {

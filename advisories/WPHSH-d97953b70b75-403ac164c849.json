@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-18560"
     ],
-    "summary": "FIXME",
+    "summary": "Content Audit < 1.9.2 - Unauthenticated Cross-Site Scripting",
     "details": "The content-audit plugin before 1.9.2 for WordPress has XSS.",
     "severity": [
         {

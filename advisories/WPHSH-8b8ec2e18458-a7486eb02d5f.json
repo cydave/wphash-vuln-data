@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24277"
     ],
-    "summary": "FIXME",
+    "summary": "RSS for Yandex Turbo < 1.30 - Cross-Site Scripting",
     "details": "The RSS for Yandex Turbo WordPress plugin before 1.30 did not properly sanitise the user inputs from its \u00d0\u00a1\u00d1\u2021\u00d0\u00b5\u00d1\u201a\u00d1\u2021\u00d0\u00b8\u00d0\u00ba\u00d0\u00b8 settings tab before outputting them back in the page, leading to authenticated stored Cross-Site Scripting issues",
     "severity": [
         {

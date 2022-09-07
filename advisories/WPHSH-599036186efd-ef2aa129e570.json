@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24270"
     ],
-    "summary": "FIXME",
+    "summary": "DethemeKit For Elementor < 1.5.5.5 - Cross-Site Scripting",
     "details": "The \u201cDeTheme Kit for Elementor\u201d WordPress Plugin before 1.5.5.5 has a widget that is vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.",
     "severity": [
         {

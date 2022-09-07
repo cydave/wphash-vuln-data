@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-18614"
     ],
-    "summary": "FIXME",
+    "summary": "Kama Click Counter < 3.5.0 - Unauthenticated SQL Injection",
     "details": "The kama-clic-counter plugin 3.4.9 for WordPress has SQL injection via the admin.php order parameter.",
     "severity": [
         {

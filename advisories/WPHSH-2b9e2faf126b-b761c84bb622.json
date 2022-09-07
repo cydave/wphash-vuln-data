@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24961"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress File Upload < 4.16.3 - Cross-Site Scripting",
     "details": "The WordPress File Upload WordPress plugin before 4.16.3, wordpress-file-upload-pro WordPress plugin before 4.16.3 does not escape some of its shortcode argument, which could allow users with a role as low as Contributor to perform Cross-Site Scripting attacks",
     "severity": [
         {

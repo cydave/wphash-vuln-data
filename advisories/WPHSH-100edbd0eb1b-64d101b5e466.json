@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-27231"
     ],
-    "summary": "FIXME",
+    "summary": "WP Statistics < 13.2.2 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting vulnerability exists in WP Statistics versions prior to 13.2.0 because it improperly processes a platform parameter. By exploiting this vulnerability, an arbitrary script may be executed on the web browser of the user who is logging in to the website using the product.",
     "severity": [
         {

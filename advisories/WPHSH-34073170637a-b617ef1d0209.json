@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25024"
     ],
-    "summary": "FIXME",
+    "summary": "event-calendar-wd < 1.1.51 - Unauthenticated Cross-Site Scripting",
     "details": "The EventCalendar WordPress plugin before 1.1.51 does not escape some user input before outputting it back in attributes, leading to Reflected Cross-SIte Scripting issues",
     "severity": [
         {

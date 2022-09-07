@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2012-6715"
     ],
-    "summary": "FIXME",
+    "summary": "formbuilder < 0.91 - Unauthenticated Cross-Site Scripting",
     "details": "The formbuilder plugin before 0.9.1 for WordPress has XSS via a Referer header.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1396"
     ],
-    "summary": "FIXME",
+    "summary": "Donorbox \u2013 Free Recurring Donation Form < 7.1.7 - Cross-Site Scripting",
     "details": "The Donorbox WordPress plugin before 7.1.7 does not sanitise and escape its Campaign URL settings before outputting it in an attribute, leading to a Stored Cross-Site Scripting issue even when the unfiltered_html capability is disallowed",
     "severity": [
         {

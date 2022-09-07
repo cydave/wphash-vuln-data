@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24213"
     ],
-    "summary": "FIXME",
+    "summary": "GiveWP \u2013 Donation Plugin and Fundraising Platform < 2.10.0 - Unauthenticated Cross-Site Scripting",
     "details": "The GiveWP \u00e2\u20ac\u201c Donation Plugin and Fundraising Platform WordPress plugin before 2.10.0 was affected by a reflected Cross-Site Scripting vulnerability inside of the administration panel, via the 's' GET parameter on the Donors page.",
     "severity": [
         {

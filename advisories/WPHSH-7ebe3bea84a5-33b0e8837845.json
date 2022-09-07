@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0148"
     ],
-    "summary": "FIXME",
+    "summary": "All-in-one Floating Contact Form, Call, Chat, and 50+ Social Icon Tabs  \u2013 My Sticky Elements < 2.0.4 - Cross-Site Scripting",
     "details": "The All-in-one Floating Contact Form, Call, Chat, and 50+ Social Icon Tabs WordPress plugin before 2.0.4 was vulnerable to reflected XSS on the my-sticky-elements-leads admin page.",
     "severity": [
         {

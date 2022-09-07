@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15082"
     ],
-    "summary": "FIXME",
+    "summary": "360 Product Rotation < 1.4.8 - Unauthenticated Cross-Site Scripting",
     "details": "The 360-product-rotation plugin before 1.4.8 for WordPress has reflected XSS.",
     "severity": [
         {

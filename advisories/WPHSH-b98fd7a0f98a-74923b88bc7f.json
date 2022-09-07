@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0445"
     ],
-    "summary": "FIXME",
+    "summary": "Real Cookie Banner: GDPR (DSGVO) & ePrivacy Cookie Consent < 2.14.2 - CSRF",
     "details": "The WordPress Real Cookie Banner: GDPR (DSGVO) & ePrivacy Cookie Consent WordPress plugin before 2.14.2 does not have CSRF checks in place when resetting its settings, allowing attackers to make a logged in admin reset them via a CSRF attack",
     "severity": [
         {

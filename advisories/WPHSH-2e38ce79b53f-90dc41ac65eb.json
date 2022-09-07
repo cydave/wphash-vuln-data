@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2012-6713"
     ],
-    "summary": "FIXME",
+    "summary": "job-manager < 0.7.19 - Unauthenticated Cross-Site Scripting",
     "details": "The job-manager plugin before 0.7.19 for WordPress has multiple XSS issues.",
     "severity": [
         {

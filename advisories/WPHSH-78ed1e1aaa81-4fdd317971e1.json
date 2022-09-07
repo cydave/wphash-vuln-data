@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24749"
     ],
-    "summary": "FIXME",
+    "summary": "URL Shortify \u2013 Simple, Powerful and Easy URL Shortener Plugin For WordPress < 1.5.1 - CSRF",
     "details": "The URL Shortify WordPress plugin before 1.5.1 does not have CSRF check in place when bulk-deleting links or groups, which could allow attackers to make a logged in admin delete arbitrary link and group via a CSRF attack.",
     "severity": [
         {

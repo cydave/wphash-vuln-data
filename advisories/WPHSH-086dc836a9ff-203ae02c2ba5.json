@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24372"
     ],
-    "summary": "FIXME",
+    "summary": "WP Hardening \u2013 Fix Your WordPress Security < 1.2.2 - Unauthenticated Cross-Site Scripting",
     "details": "The WP Hardening \u00e2\u20ac\u201c Fix Your WordPress Security WordPress plugin before 1.2.2 did not sanitise or escape the $_SERVER['REQUEST_URI'] before outputting it in an attribute, leading to a reflected Cross-Site Scripting issue.",
     "severity": [
         {

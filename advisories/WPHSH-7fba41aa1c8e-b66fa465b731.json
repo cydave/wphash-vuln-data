@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24969"
     ],
-    "summary": "FIXME",
+    "summary": "Download Manager < 3.2.22 - Cross-Site Scripting",
     "details": "The WordPress Download Manager WordPress plugin before 3.2.22 does not sanitise and escape Template data before outputting it in various pages (such as admin dashboard and frontend). Due to the lack of authorisation and CSRF checks in the wpdm_save_template AJAX action, any authenticated users such as subscriber is able to call it and perform Cross-Site Scripting attacks",
     "severity": [
         {

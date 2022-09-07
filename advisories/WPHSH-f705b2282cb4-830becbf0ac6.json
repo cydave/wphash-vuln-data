@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-42364"
     ],
-    "summary": "FIXME",
+    "summary": "Stetic < 1.0.9 - CSRF",
     "details": "The Stetic WordPress plugin is vulnerable to Cross-Site Request Forgery due to missing nonce validation via the stats_page function found in the ~/stetic.php file, which made it possible for attackers to inject arbitrary web scripts in versions up to, and including 1.0.6.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2014-7238"
     ],
-    "summary": "FIXME",
+    "summary": "contact-form-integrated-with-google-maps < 2.5 - Unauthenticated Cross-Site Scripting",
     "details": "The WordPress plugin Contact Form Integrated With Google Maps 1.0-2.4 has Stored XSS",
     "severity": [
         {

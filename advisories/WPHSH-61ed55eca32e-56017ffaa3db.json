@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-18563"
     ],
-    "summary": "FIXME",
+    "summary": "RSVP and Event Management Plugin < 2.3.8 - Unauthenticated Cross-Site Scripting",
     "details": "The rsvp plugin before 2.3.8 for WordPress has persistent XSS via the note field on the attendee-list screen.",
     "severity": [
         {

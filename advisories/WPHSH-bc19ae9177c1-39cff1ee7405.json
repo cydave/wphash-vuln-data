@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15025"
     ],
-    "summary": "FIXME",
+    "summary": "Ninja Forms Contact Form \u2013 The Drag and Drop Form Builder for WordPress < 3.3.21.2 - Unauthenticated SQL Injection",
     "details": "The ninja-forms plugin before 3.3.21.2 for WordPress has SQL injection in the search filter on the submissions page.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9467"
     ],
-    "summary": "FIXME",
+    "summary": "broken-link-manager < 0.5.0 - Unauthenticated SQL Injection",
     "details": "The broken-link-manager plugin before 0.5.0 for WordPress has wpslDelURL or wpslEditURL SQL injection via the url parameter.",
     "severity": [
         {

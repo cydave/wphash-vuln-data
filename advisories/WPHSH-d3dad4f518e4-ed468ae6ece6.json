@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9437"
     ],
-    "summary": "FIXME",
+    "summary": "dynamic-widgets < 1.5.11 - CSRF",
     "details": "The dynamic-widgets plugin before 1.5.11 for WordPress has CSRF with resultant XSS via the wp-admin/themes.php?page=dynwid-config page_limit parameter.",
     "severity": [
         {

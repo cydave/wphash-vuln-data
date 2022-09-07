@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24169"
     ],
-    "summary": "FIXME",
+    "summary": "Advanced Order Export For WooCommerce < 3.1.8 - Unauthenticated Cross-Site Scripting",
     "details": "This Advanced Order Export For WooCommerce WordPress plugin before 3.1.8 helps you to easily export WooCommerce order data. The tab parameter in the Admin Panel is vulnerable to reflected XSS.",
     "severity": [
         {

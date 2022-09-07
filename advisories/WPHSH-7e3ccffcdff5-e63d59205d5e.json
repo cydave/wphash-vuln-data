@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24440"
     ],
-    "summary": "FIXME",
+    "summary": "Sign-up Sheets < 1.0.14 - Cross-Site Scripting",
     "details": "The Sign-up Sheets WordPress plugin before 1.0.14 did not sanitise or escape some of its fields when creating a new sheet, allowing high privilege users to add JavaScript in them, leading to a Stored Cross-Site Scripting issue. The payloads will be triggered when viewing the 'All Sheets' page in the admin dashboard",
     "severity": [
         {

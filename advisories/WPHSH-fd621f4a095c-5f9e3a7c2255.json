@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-18529"
     ],
-    "summary": "FIXME",
+    "summary": "AdPush < 1.44 - Unauthenticated Cross-Site Scripting",
     "details": "The promobar plugin before 1.1.1 for WordPress has multiple XSS issues.",
     "severity": [
         {

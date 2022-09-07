@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-18566"
     ],
-    "summary": "FIXME",
+    "summary": "AdPush < 1.44 - Unauthenticated Cross-Site Scripting",
     "details": "The user-role plugin before 1.5.6 for WordPress has multiple XSS issues.",
     "severity": [
         {

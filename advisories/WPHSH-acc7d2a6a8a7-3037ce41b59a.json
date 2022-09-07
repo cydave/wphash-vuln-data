@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24482"
     ],
-    "summary": "FIXME",
+    "summary": "Related Posts for WordPress < 2.0.5 - Cross-Site Scripting",
     "details": "The Related Posts for WordPress plugin through 2.0.4 does not sanitise its heading_text and CSS settings, allowing high privilege users (admin) to set XSS payloads in them, leading to Stored Cross-Site Scripting issues.",
     "severity": [
         {

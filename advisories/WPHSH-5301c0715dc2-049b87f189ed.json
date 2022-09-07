@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24149"
     ],
-    "summary": "FIXME",
+    "summary": "modern-events-calendar-lite < 5.16.6 - SQL Injection",
     "details": "Unvalidated input in the Modern Events Calendar Lite WordPress plugin, versions before 5.16.6, did not sanitise the mec[post_id] POST parameter in the mec_fes_form AJAX action when logged in as an author+, leading to an authenticated SQL Injection issue.",
     "severity": [
         {

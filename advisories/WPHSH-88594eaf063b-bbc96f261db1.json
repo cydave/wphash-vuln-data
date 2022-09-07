@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24676"
     ],
-    "summary": "FIXME",
+    "summary": "Better Find and Replace < 1.2.9 - Unauthenticated Cross-Site Scripting",
     "details": "The Better Find and Replace WordPress plugin before 1.2.9 does not escape the 's' GET parameter before outputting back in the All Masking Rules page, leading to a Reflected Cross-Site Scripting issue",
     "severity": [
         {

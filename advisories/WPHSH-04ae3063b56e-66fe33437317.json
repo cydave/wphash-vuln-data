@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24927"
     ],
-    "summary": "FIXME",
+    "summary": "My Calendar < 3.2.18 - Cross-Site Scripting",
     "details": "The My Calendar WordPress plugin before 3.2.18 does not sanitise and escape the callback parameter of the mc_post_lookup AJAX action (available to any authenticated user) before outputting it back in the response, leading to a Reflected Cross-Site Scripting issue",
     "severity": [
         {

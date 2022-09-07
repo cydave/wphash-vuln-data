@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-20231"
     ],
-    "summary": "FIXME",
+    "summary": "Two Factor Authentication < 1.3.13 - CSRF",
     "details": "Cross Site Request Forgery (CSRF) in the two-factor-authentication plugin before 1.3.13 for WordPress allows remote attackers to disable 2FA via the tfa_enable_tfa parameter due to missing nonce validation.",
     "severity": [
         {

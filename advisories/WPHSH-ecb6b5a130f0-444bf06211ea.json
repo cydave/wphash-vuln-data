@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-14092"
     ],
-    "summary": "FIXME",
+    "summary": "Payment Form for PayPal Pro < 1.1.65 - Unauthenticated SQL Injection",
     "details": "The CodePeople Payment Form for PayPal Pro plugin before 1.1.65 for WordPress allows SQL Injection.",
     "severity": [
         {

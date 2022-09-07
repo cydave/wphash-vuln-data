@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-36891"
     ],
-    "summary": "FIXME",
+    "summary": "Photo Gallery by Supsystic < 1.15.6 - CSRF",
     "details": "Cross-Site Request Forgery (CSRF) vulnerability in Photo Gallery by Supsystic plugin <= 1.15.5 at WordPress allows changing the plugin settings.",
     "severity": [
         {

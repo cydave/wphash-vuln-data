@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24256"
     ],
-    "summary": "FIXME",
+    "summary": "Elementor Header & Footer Builder < 1.5.8 - Cross-Site Scripting",
     "details": "The \u201cElementor \u2013 Header, Footer & Blocks Template\u201d WordPress Plugin before 1.5.8 has two widgets that are vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.",
     "severity": [
         {

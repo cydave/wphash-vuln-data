@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2014-2550"
     ],
-    "summary": "FIXME",
+    "summary": "Disable Comments \u2013 Remove Comments & Stop Spam [Multi-Site Support] < 1.0.4 - CSRF",
     "details": "Cross-site request forgery (CSRF) vulnerability in the Disable Comments plugin before 1.0.4 for WordPress allows remote attackers to hijack the authentication of administrators for requests that enable comments via a request to the disable_comments_settings page to wp-admin/options-general.php.",
     "severity": [
         {

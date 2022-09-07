@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-29441"
     ],
-    "summary": "FIXME",
+    "summary": "private-messages-for-wordpress < 2.1.11 - CSRF",
     "details": "Cross-Site Request Forgery (CSRF) vulnerability in Private Messages For WordPress plugin <= 2.1.10 at WordPress allows attackers to send messages.",
     "severity": [
         {

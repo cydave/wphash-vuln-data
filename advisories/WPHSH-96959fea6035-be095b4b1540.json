@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-35936"
     ],
-    "summary": "FIXME",
+    "summary": "Post Grid < 2.0.73 - Cross-Site Scripting",
     "details": "Stored Cross-Site Scripting (XSS) vulnerabilities in the Post Grid plugin before 2.0.73 for WordPress allow remote authenticated attackers to import layouts including JavaScript supplied via a remotely hosted crafted payload in the source parameter via AJAX. The action must be set to post_grid_import_xml_layouts.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-14364"
     ],
-    "summary": "FIXME",
+    "summary": "Email Subscribers & Newsletters \u2013 Simple and Effective Email Marketing WordPress Plugin < 4.1.7 - Unauthenticated Cross-Site Scripting",
     "details": "An XSS vulnerability in the \"Email Subscribers & Newsletters\" plugin 4.1.6 for WordPress allows an attacker to inject malicious JavaScript code through a publicly available subscription form using the esfpx_name wp-admin/admin-ajax.php POST parameter.",
     "severity": [
         {

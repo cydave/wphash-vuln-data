@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24882"
     ],
-    "summary": "FIXME",
+    "summary": "Slideshow Gallery LITE < 1.7.4 - Cross-Site Scripting",
     "details": "The Slideshow Gallery WordPress plugin before 1.7.4 does not sanitise and escape the Slide \"Title\", \"Description\", and Gallery \"Title\" fields, which could allow high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html is disallowed",
     "severity": [
         {

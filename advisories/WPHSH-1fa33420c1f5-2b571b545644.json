@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-9454"
     ],
-    "summary": "FIXME",
+    "summary": "RegistrationMagic \u2013 Custom Registration Forms, User Registration and User Login Plugin < 4.6.0.4 - CSRF",
     "details": "A CSRF vulnerability in the RegistrationMagic plugin through 4.6.0.3 for WordPress allows remote attackers to forge requests on behalf of a site administrator to change all settings for the plugin, including deleting users, creating new roles with escalated privileges, and allowing PHP file uploads via forms.",
     "severity": [
         {

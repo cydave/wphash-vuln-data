@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-39322"
     ],
-    "summary": "FIXME",
+    "summary": "Easy Social Icons < 3.0.9 - Unauthenticated Cross-Site Scripting",
     "details": "The Easy Social Icons plugin <= 3.0.8 for WordPress echoes out the raw value of `$_SERVER['PHP_SELF']` in its main file. On certain configurations including Apache+modPHP this makes it possible to use it to perform a reflected Cross-Site Scripting attack by injecting malicious code in the request path.",
     "severity": [
         {

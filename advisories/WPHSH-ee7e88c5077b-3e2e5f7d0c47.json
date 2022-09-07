@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-18011"
     ],
-    "summary": "FIXME",
+    "summary": "Affiliate Ads for Clickbank Products < 1.7 - Unauthenticated Cross-Site Scripting",
     "details": "The MyCBGenie Affiliate Ads for Clickbank Products plugin through 1.6 for WordPress has XSS via the text_ads_ajax.php border_color parameter.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24786"
     ],
-    "summary": "FIXME",
+    "summary": "Download Monitor < 4.4.5 - SQL Injection",
     "details": "The Download Monitor WordPress plugin before 4.4.5 does not properly validate and escape the \"orderby\" GET parameter before using it in a SQL statement when viewing the logs, leading to an SQL Injection issue",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24409"
     ],
-    "summary": "FIXME",
+    "summary": "Prismatic < 2.8 - Unauthenticated Cross-Site Scripting",
     "details": "The Prismatic WordPress plugin before 2.8 does not escape the 'tab' GET parameter before outputting it back in an attribute, leading to a reflected Cross-Site Scripting issue which will be executed in the context of a logged in administrator",
     "severity": [
         {

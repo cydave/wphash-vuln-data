@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24363"
     ],
-    "summary": "FIXME",
+    "summary": "Photo Gallery by 10Web \u2013 Mobile-Friendly Image Gallery < 1.5.75 - Path Traversal",
     "details": "The Photo Gallery by 10Web \u00e2\u20ac\u201c Mobile-Friendly Image Gallery WordPress plugin before 1.5.75 did not ensure that uploaded files are kept inside its uploads folder, allowing high privilege users to put images/SVG anywhere in the filesystem via a path traversal vector",
     "severity": [
         {

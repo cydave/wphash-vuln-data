@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-0547"
     ],
-    "summary": "FIXME",
+    "summary": "Import any XML or CSV File to WordPress < 3.4.7 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting vulnerability in WP All Import plugin prior to version 3.4.7 for WordPress allows an attacker to inject arbitrary web script or HTML via unspecified vectors.",
     "severity": [
         {

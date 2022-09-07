@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9455"
     ],
-    "summary": "FIXME",
+    "summary": "buddypress-activity-plus < 1.6.2 - CSRF",
     "details": "The buddypress-activity-plus plugin before 1.6.2 for WordPress has CSRF with resultant directory traversal via the wp-admin/admin-ajax.php bpfb_photos[] parameter in a bpfb_remove_temp_images action.",
     "severity": [
         {

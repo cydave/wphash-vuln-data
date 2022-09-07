@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24290"
     ],
-    "summary": "FIXME",
+    "summary": "Store Locator Plus\u00ae for WordPress < 5.7 - Unauthenticated Cross-Site Scripting",
     "details": "There are several endpoints in the Store Locator Plus for WordPress plugin through 5.5.15 that could allow unauthenticated attackers the ability to inject malicious JavaScript into pages.",
     "severity": [
         {

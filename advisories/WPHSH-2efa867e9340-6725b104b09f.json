@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24125"
     ],
-    "summary": "FIXME",
+    "summary": "contact-form-submissions < 1.7.1 - SQL Injection",
     "details": "Unvalidated input in the Contact Form Submissions WordPress plugin before 1.7.1, could lead to SQL injection in the wpcf7_contact_form GET parameter when submitting a filter request as a high privilege user (admin+)",
     "severity": [
         {

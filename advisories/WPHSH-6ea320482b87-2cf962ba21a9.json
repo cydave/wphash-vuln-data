@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9466"
     ],
-    "summary": "FIXME",
+    "summary": "WTI Like Post < 1.4.3 - Unauthenticated SQL Injection",
     "details": "The wti-like-post plugin before 1.4.3 for WordPress has WtiLikePostProcessVote SQL injection via the HTTP_CLIENT_IP, HTTP_X_FORWARDED_FOR, HTTP_X_FORWARDED, HTTP_FORWARDED_FOR, or HTTP_FORWARDED variable.",
     "severity": [
         {

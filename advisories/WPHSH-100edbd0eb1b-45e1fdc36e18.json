@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-25149"
     ],
-    "summary": "FIXME",
+    "summary": "WP Statistics < 13.1.6 - Unauthenticated SQL Injection",
     "details": "The WP Statistics WordPress plugin is vulnerable to SQL Injection due to insufficient escaping and parameterization of the IP parameter found in the ~/includes/class-wp-statistics-hits.php file which allows attackers without authentication to inject arbitrary SQL queries to obtain sensitive information, in versions up to and including 13.1.5.",
     "severity": [
         {

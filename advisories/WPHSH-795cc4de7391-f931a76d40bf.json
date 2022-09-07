@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-5768"
     ],
-    "summary": "FIXME",
+    "summary": "Email Subscribers & Newsletters \u2013 Simple and Effective Email Marketing WordPress Plugin < 4.5.1 - SQL Injection",
     "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') in Icegram Email Subscribers & Newsletters Plugin for WordPress v4.4.8 allows a remote, authenticated attacker to determine the value of database fields.",
     "severity": [
         {

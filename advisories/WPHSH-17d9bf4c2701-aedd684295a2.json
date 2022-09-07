@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1673"
     ],
-    "summary": "FIXME",
+    "summary": "WooCommerce Green Wallet Gateway < 1.0.2 - Unauthenticated Cross-Site Scripting",
     "details": "The WooCommerce Green Wallet Gateway WordPress plugin before 1.0.2 does not escape the error_envision query parameter before outputting it to the page, leading to a Reflected Cross-Site Scripting vulnerability.",
     "severity": [
         {

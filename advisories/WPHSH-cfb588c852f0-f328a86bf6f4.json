@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9468"
     ],
-    "summary": "FIXME",
+    "summary": "broken-link-manager < 0.5.0 - Unauthenticated Cross-Site Scripting",
     "details": "The broken-link-manager plugin 0.4.5 for WordPress has XSS via the page parameter in a delURL action.",
     "severity": [
         {

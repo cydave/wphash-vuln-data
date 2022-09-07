@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24258"
     ],
-    "summary": "FIXME",
+    "summary": "ElementsKit Elementor addons (Header Footer Builder, Mega Menu Builder, Free Elementor Widgets & Elementor Templates Library) < 2.2.0 - Cross-Site Scripting",
     "details": "The Elements Kit Lite and Elements Kit Pro WordPress Plugins before 2.2.0 have a number of widgets that are vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.",
     "severity": [
         {

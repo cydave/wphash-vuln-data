@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25003"
     ],
-    "summary": "FIXME",
+    "summary": "WPCargo Track & Trace < 6.9.0 - Unauthenticated Code Injection",
     "details": "The WPCargo Track & Trace WordPress plugin before 6.9.0 contains a file which could allow unauthenticated attackers to write a PHP file anywhere on the web server, leading to RCE",
     "severity": [
         {

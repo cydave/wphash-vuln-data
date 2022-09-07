@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-20101"
     ],
-    "summary": "FIXME",
+    "summary": "Import and export users and customers < 1.12.1 - Unauthenticated Cross-Site Scripting",
     "details": "The codection \"Import users from CSV with meta\" plugin before 1.12.1 for WordPress allows XSS via the value of a cell.",
     "severity": [
         {

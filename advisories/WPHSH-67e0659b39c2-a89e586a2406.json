@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0914"
     ],
-    "summary": "FIXME",
+    "summary": "Export All URLs < 4.2 - CSRF",
     "details": "The Export All URLs WordPress plugin before 4.3 does not have CSRF in place when exporting data, which could allow attackers to make a logged in admin export all posts and pages (including private and draft) into an arbitrary CSV file, which the attacker can then download and retrieve the list of titles for example",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1093"
     ],
-    "summary": "FIXME",
+    "summary": "WP Meta SEO < 4.4.7 - Cross-Site Scripting",
     "details": "The WP Meta SEO WordPress plugin before 4.4.7 does not sanitise or escape the breadcrumb separator before outputting it to the page, allowing a high privilege user such as an administrator to inject arbitrary javascript into the page even when unfiltered html is disallowed.",
     "severity": [
         {

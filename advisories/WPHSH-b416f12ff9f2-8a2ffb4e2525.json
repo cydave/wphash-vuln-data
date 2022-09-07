@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-33852"
     ],
-    "summary": "FIXME",
+    "summary": "Post Duplicator < 2.27 - Cross-Site Scripting",
     "details": "A cross-site scripting (XSS) attack can cause arbitrary code (JavaScript) to run in a user's browser and can use an application as the vehicle for the attack. The XSS payload given in the \"Duplicate Title\" text box executes whenever the user opens the Settings Page of the Post Duplicator Plugin or the application root page after duplicating any of the existing posts.",
     "severity": [
         {

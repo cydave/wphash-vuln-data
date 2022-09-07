@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24672"
     ],
-    "summary": "FIXME",
+    "summary": "One User Avatar | User Profile Picture < 2.3.7 - Cross-Site Scripting",
     "details": "The One User Avatar WordPress plugin before 2.3.7 does not escape the link and target attributes of its shortcode, allowing users with a role as low as Contributor to perform Stored Cross-Site Scripting attacks",
     "severity": [
         {

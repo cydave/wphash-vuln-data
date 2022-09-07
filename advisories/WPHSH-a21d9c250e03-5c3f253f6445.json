@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-11012"
     ],
-    "summary": "FIXME",
+    "summary": "Sola Support Tickets < 3.13 - Cross-Site Scripting",
     "details": "The sola-support-tickets plugin before 3.13 for WordPress has incorrect access control for /wp-admin with resultant XSS.",
     "severity": [
         {

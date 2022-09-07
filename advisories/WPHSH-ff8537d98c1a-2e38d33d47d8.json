@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24365"
     ],
-    "summary": "FIXME",
+    "summary": "Admin Columns < 4.3.2 - Cross-Site Scripting",
     "details": "The Admin Columns WordPress plugin Free before 4.3.2 and Pro before 5.5.2 allowed to configure individual columns for tables. Each column had a type. The type \"Custom Field\" allowed to choose an arbitrary database column to display in the table. There was no escaping applied to the contents of \"Custom Field\" columns.",
     "severity": [
         {

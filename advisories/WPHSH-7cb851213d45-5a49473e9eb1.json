@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24664"
     ],
-    "summary": "FIXME",
+    "summary": "School Management System \u2013 WPSchoolPress < 2.1.17 - Cross-Site Scripting",
     "details": "The School Management System \u2013 WPSchoolPress WordPress plugin before 2.1.17 sanitise some fields using sanitize_text_field() but does not escape them before outputting in attributes, resulting in Stored Cross-Site Scripting issues.",
     "severity": [
         {

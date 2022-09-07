@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1582"
     ],
-    "summary": "FIXME",
+    "summary": "External Links in New Window / New Tab < 1.43 - Unauthenticated Cross-Site Scripting",
     "details": "The External Links in New Window / New Tab WordPress plugin before 1.43 does not properly escape URLs it concatenates to onclick event handlers, which makes Stored Cross-Site Scripting attacks possible.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15834"
     ],
-    "summary": "FIXME",
+    "summary": "Converter for Media \u2013 One-click image optimization | Convert WebP and AVIF & Optimize Images < 1.0.3 - CSRF",
     "details": "The webp-converter-for-media plugin before 1.0.3 for WordPress has CSRF.",
     "severity": [
         {

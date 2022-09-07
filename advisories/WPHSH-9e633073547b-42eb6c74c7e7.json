@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25055"
     ],
-    "summary": "FIXME",
+    "summary": "FeedWordPress < 2022.0123 - Unauthenticated Cross-Site Scripting",
     "details": "The FeedWordPress plugin before 2022.0123 is affected by a Reflected Cross-Site Scripting (XSS) within the \"visibility\" parameter.",
     "severity": [
         {

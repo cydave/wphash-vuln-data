@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24383"
     ],
-    "summary": "FIXME",
+    "summary": "WP Go Maps (formerly WP Google Maps) < 8.1.12 - Cross-Site Scripting",
     "details": "The WP Google Maps WordPress plugin before 8.1.12 did not sanitise, validate of escape the Map Name when output in the Map List of the admin dashboard, leading to an authenticated Stored Cross-Site Scripting issue",
     "severity": [
         {

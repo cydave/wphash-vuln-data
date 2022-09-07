@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-4697"
     ],
-    "summary": "FIXME",
+    "summary": "Google Analyticator < 6.4.9.4 - CSRF",
     "details": "Cross-site request forgery (CSRF) vulnerability in Google Analyticator Wordpress Plugin before 6.4.9.3 rev @1183563.",
     "severity": [
         {

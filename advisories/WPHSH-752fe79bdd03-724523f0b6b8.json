@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-14797"
     ],
-    "summary": "FIXME",
+    "summary": "Photo Gallery by 10Web \u2013 Mobile-Friendly Image Gallery < 1.5.23 - Cross-Site Scripting",
     "details": "The 10Web Photo Gallery plugin before 1.5.23 for WordPress has authenticated stored XSS.",
     "severity": [
         {

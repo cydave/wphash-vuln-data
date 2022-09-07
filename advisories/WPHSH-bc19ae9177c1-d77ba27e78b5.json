@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-7280"
     ],
-    "summary": "FIXME",
+    "summary": "Ninja Forms Contact Form \u2013 The Drag and Drop Form Builder for WordPress < 3.2.14 - Unauthenticated Cross-Site Scripting",
     "details": "The Ninja Forms plugin before 3.2.14 for WordPress has XSS.",
     "severity": [
         {

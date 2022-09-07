@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-23983"
     ],
-    "summary": "FIXME",
+    "summary": "WP Content Copy Protection & No Right Click < 3.4.5 - CSRF",
     "details": "Cross-Site Request Forgery (CSRF) vulnerability leading to plugin Settings Update discovered in WP Content Copy Protection & No Right Click WordPress plugin (versions <= 3.4.4).",
     "severity": [
         {

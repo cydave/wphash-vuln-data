@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25062"
     ],
-    "summary": "FIXME",
+    "summary": "Orders Tracking for WooCommerce < 1.1.10 - Unauthenticated Cross-Site Scripting",
     "details": "The Orders Tracking for WooCommerce WordPress plugin before 1.1.10 does not sanitise and escape the file_url before outputting it back in an admin page, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

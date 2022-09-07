@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24438"
     ],
-    "summary": "FIXME",
+    "summary": "ShareThis Dashboard for Google Analytics < 2.5.2 - Unauthenticated Cross-Site Scripting",
     "details": "The ShareThis Dashboard for Google Analytics WordPress plugin before 2.5.2 does not sanitise or escape the 'ga_action' parameter in the stats view before outputting it back in an attribute when the plugin is connected to a Google Analytics account, leading to a reflected Cross-Site Scripting issue which will be executed in the context of a logged in administrator",
     "severity": [
         {

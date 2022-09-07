@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-5672"
     ],
-    "summary": "FIXME",
+    "summary": "Booking calendar, Appointment Booking System < 2.1.8 - Cross-Site Scripting",
     "details": "An issue was discovered in the booking-calendar plugin 2.1.7 for WordPress. XSS exists via the wp-admin/admin.php form_field5[label] parameter.",
     "severity": [
         {

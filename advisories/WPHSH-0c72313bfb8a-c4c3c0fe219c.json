@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-5366"
     ],
-    "summary": "FIXME",
+    "summary": "WPGlobus \u2013 Multilingual Everything! < 1.9.7 - Cross-Site Scripting",
     "details": "The WPGlobus plugin 1.9.6 for WordPress has XSS via the wpglobus_option[more_languages] parameter to wp-admin/options.php.",
     "severity": [
         {

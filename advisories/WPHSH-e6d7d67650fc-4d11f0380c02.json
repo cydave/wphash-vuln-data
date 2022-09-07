@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-5652"
     ],
-    "summary": "FIXME",
+    "summary": "WP Markdown Editor (Formerly Dark Mode) < 1.7 - Cross-Site Scripting",
     "details": "An issue was discovered in the dark-mode plugin 1.6 for WordPress. XSS exists via the wp-admin/profile.php dark_mode_end parameter.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-23150"
     ],
-    "summary": "FIXME",
+    "summary": "AMP for WP \u2013 Accelerated Mobile Pages < 1.0.77.33 - Cross-Site Scripting",
     "details": "Authenticated (admin or higher user role) Stored Cross-Site Scripting (XSS) vulnerability discovered in AMP for WP \u2013 Accelerated Mobile Pages WordPress plugin (versions <= 1.0.77.31).",
     "severity": [
         {

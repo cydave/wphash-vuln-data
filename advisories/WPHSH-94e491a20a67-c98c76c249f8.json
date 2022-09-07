@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24312"
     ],
-    "summary": "FIXME",
+    "summary": "WP Super Cache < 1.7.3 - OS Command Injection",
     "details": "The parameters $cache_path, $wp_cache_debug_ip, $wp_super_cache_front_page_text, $cache_scheduled_time, $cached_direct_pages used in the settings of WP Super Cache WordPress plugin before 1.7.3 result in RCE because they allow input of '$' and '\\n'. This is due to an incomplete fix of CVE-2021-24209.",
     "severity": [
         {

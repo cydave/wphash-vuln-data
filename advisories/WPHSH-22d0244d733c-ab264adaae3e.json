@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9421"
     ],
-    "summary": "FIXME",
+    "summary": "Olevmedia Shortcodes < 1.1.9 - CSRF",
     "details": "The olevmedia-shortcodes plugin before 1.1.9 for WordPress has CSRF with resultant XSS via the wp-admin/admin-ajax.php?action=omsc_popup id parameter.",
     "severity": [
         {

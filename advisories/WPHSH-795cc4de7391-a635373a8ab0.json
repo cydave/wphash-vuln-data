@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-13569"
     ],
-    "summary": "FIXME",
+    "summary": "Email Subscribers & Newsletters \u2013 Simple and Effective Email Marketing WordPress Plugin < 4.1.8 - Unauthenticated SQL Injection",
     "details": "A SQL injection vulnerability exists in the Icegram Email Subscribers & Newsletters plugin through 4.1.7 for WordPress. Successful exploitation of this vulnerability would allow a remote attacker to execute arbitrary SQL commands on the affected system.",
     "severity": [
         {

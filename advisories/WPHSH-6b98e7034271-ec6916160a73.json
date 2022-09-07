@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9385"
     ],
-    "summary": "FIXME",
+    "summary": "Quotes and Tips by BestWebSoft < 1.20 - Unauthenticated Cross-Site Scripting",
     "details": "The quotes-and-tips plugin before 1.20 for WordPress has XSS.",
     "severity": [
         {

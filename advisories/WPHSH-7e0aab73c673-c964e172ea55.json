@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-14784"
     ],
-    "summary": "FIXME",
+    "summary": "CP Contact Form with PayPal < 1.3.02 - Unauthenticated Cross-Site Scripting",
     "details": "The \"CP Contact Form with PayPal\" plugin before 1.2.98 for WordPress has XSS in CSS edition.",
     "severity": [
         {

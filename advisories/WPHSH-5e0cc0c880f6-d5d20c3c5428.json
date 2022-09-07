@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25008"
     ],
-    "summary": "FIXME",
+    "summary": "Code Snippets < 2.14.3 - Unauthenticated Cross-Site Scripting",
     "details": "The Code Snippets WordPress plugin before 2.14.3 does not escape the snippets-safe-mode parameter before outputting it back in attributes, leading to a Reflected Cross-Site Scripting issue",
     "severity": [
         {

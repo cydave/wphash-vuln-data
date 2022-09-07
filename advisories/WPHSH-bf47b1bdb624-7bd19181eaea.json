@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15817"
     ],
-    "summary": "FIXME",
+    "summary": "Easy Property Listings < 3.4 - Unauthenticated Cross-Site Scripting",
     "details": "The easy-property-listings plugin before 3.4 for WordPress has XSS.",
     "severity": [
         {

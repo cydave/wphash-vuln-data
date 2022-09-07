@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24515"
     ],
-    "summary": "FIXME",
+    "summary": "Video Gallery \u2013 Vimeo and YouTube Gallery < 1.1.5 - Cross-Site Scripting",
     "details": "The Video Gallery WordPress plugin before 1.1.5 does not escape the Title and Description of the videos in a gallery before outputting them in attributes, leading to Stored Cross-Site Scripting issues",
     "severity": [
         {

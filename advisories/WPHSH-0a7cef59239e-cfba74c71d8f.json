@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0150"
     ],
-    "summary": "FIXME",
+    "summary": "WP Accessibility Helper (WAH) < 0.6.0.7 - Unauthenticated Cross-Site Scripting",
     "details": "The WP Accessibility Helper (WAH) WordPress plugin before 0.6.0.7 does not sanitise and escape the wahi parameter before outputting back its base64 decode value in the page, leading to a Reflected Cross-Site Scripting issue",
     "severity": [
         {

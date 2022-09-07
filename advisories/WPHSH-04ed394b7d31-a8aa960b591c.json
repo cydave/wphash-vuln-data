@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-16520"
     ],
-    "summary": "FIXME",
+    "summary": "All in One SEO \u2013 Best WordPress SEO Plugin \u2013 Easily Improve SEO Rankings & Increase Traffic < 3.2.7 - Cross-Site Scripting",
     "details": "The all-in-one-seo-pack plugin before 3.2.7 for WordPress (aka All in One SEO Pack) is susceptible to Stored XSS due to improper encoding of the SEO-specific description for posts provided by the plugin via unsafe placeholder replacement.",
     "severity": [
         {

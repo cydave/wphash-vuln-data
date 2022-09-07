@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9359"
     ],
-    "summary": "FIXME",
+    "summary": "Jetpack \u2013 WP Security, Backup, Speed, & Growth < 3.4.3 - Unauthenticated Cross-Site Scripting",
     "details": "The Jetpack plugin before 3.4.3 for WordPress has XSS via add_query_arg() and remove_query_arg().",
     "severity": [
         {

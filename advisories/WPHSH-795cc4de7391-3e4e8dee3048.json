@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-19981"
     ],
-    "summary": "FIXME",
+    "summary": "Email Subscribers & Newsletters \u2013 Simple and Effective Email Marketing WordPress Plugin < 4.2.3 - CSRF",
     "details": "The WordPress plugin, Email Subscribers & Newsletters, before 4.2.3 had a flaw that allowed for CSRF to be exploited on all plugin settings.",
     "severity": [
         {

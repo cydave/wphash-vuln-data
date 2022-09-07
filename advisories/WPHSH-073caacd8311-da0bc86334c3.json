@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24261"
     ],
-    "summary": "FIXME",
+    "summary": "HT Mega \u2013 Addons for Elementor Page Builder ( Elementor Addons, Post Grid, Slider, Carousel, Mega Menu, Elementor Widgets, Elementor Templates, Accordion, Forms, Table) < 1.5.7 - Cross-Site Scripting",
     "details": "The \u201cHT Mega \u2013 Absolute Addons for Elementor Page Builder\u201d WordPress Plugin before 1.5.7 has several widgets that are vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.",
     "severity": [
         {

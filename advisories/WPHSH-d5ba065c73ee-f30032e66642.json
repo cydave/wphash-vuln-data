@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-20846"
     ],
-    "summary": "FIXME",
+    "summary": "Push Notifications for WordPress (Lite) < 6.0.1 - CSRF",
     "details": "Cross-site request forgery (CSRF) vulnerability in Push Notifications for WordPress (Lite) versions prior to 6.0.1 allows a remote attacker to hijack the authentication of an administrator and conduct an arbitrary operation via a specially crafted web page.",
     "severity": [
         {

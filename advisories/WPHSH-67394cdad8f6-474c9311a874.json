@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15772"
     ],
-    "summary": "FIXME",
+    "summary": "nd-donations < 1.4 - Unauthenticated Open Redirect",
     "details": "The nd-donations plugin before 1.4 for WordPress has a nopriv_ AJAX action that allows modification of the siteurl setting.",
     "severity": [
         {

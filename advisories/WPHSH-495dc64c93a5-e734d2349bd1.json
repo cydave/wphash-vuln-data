@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10985"
     ],
-    "summary": "FIXME",
+    "summary": "Echo Sign < 1.2 - Unauthenticated Cross-Site Scripting",
     "details": "The echosign plugin before 1.2 for WordPress has XSS via the templates/add_templates.php id parameter.",
     "severity": [
         {

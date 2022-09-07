@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25047"
     ],
-    "summary": "FIXME",
+    "summary": "10WebSocial < 1.4.29 - Unauthenticated Cross-Site Scripting",
     "details": "The 10Web Social Photo Feed WordPress plugin before 1.4.29 was affected by a reflected Cross-Site Scripting (XSS) vulnerability in the wdi_apply_changes admin page, allowing an attacker to perform such attack against any logged in users",
     "severity": [
         {

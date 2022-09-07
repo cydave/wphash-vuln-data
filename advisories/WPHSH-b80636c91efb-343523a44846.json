@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-26609"
     ],
-    "summary": "FIXME",
+    "summary": "Mang Board WP < 1.6.9 - Unauthenticated SQL Injection",
     "details": "A vulnerability was found in Mangboard(WordPress plugin). A SQL-Injection vulnerability was found in order_type parameter. The order_type parameter makes a SQL query using unfiltered data. This vulnerability allows a remote attacker to steal user information.",
     "severity": [
         {

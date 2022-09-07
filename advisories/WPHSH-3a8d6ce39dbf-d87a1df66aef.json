@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24273"
     ],
-    "summary": "FIXME",
+    "summary": "Clever Addons for Elementor < 2.1.0 - Cross-Site Scripting",
     "details": "The \u201cClever Addons for Elementor\u201d WordPress Plugin before 2.1.0 has several widgets that are vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.",
     "severity": [
         {

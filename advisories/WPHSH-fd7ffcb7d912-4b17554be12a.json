@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1435"
     ],
-    "summary": "FIXME",
+    "summary": "WPCargo Track & Trace < 6.9.5 - Cross-Site Scripting",
     "details": "The WPCargo Track & Trace WordPress plugin before 6.9.5 does not sanitize and escapes some of its settings, which could allow high privilege users such as admin to perform Cross-Site Scripting attacks even when unfiltered_html is disallowed.",
     "severity": [
         {

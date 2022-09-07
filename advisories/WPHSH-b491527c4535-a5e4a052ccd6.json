@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9424"
     ],
-    "summary": "FIXME",
+    "summary": "Multicons [ Multiple Favicons ] < 3.0 - CSRF",
     "details": "The multicons plugin before 3.0 for WordPress has CSRF with resultant XSS via the wp-admin/options-general.php?page=multicons%2Fmulticons.php global_url or admin_url parameter.",
     "severity": [
         {

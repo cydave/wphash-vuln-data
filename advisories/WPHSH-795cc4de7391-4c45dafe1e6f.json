@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-0602"
     ],
-    "summary": "FIXME",
+    "summary": "Email Subscribers & Newsletters \u2013 Simple and Effective Email Marketing WordPress Plugin < 3.5.0 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting vulnerability in Email Subscribers & Newsletters versions prior to 3.5.0 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.",
     "severity": [
         {

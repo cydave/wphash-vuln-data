@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1321"
     ],
-    "summary": "FIXME",
+    "summary": "miniOrange's Google Authenticator \u2013 WordPress Two Factor Authentication (2FA , Two Factor, OTP SMS and Email) | Passwordless login < 5.5.6 - Cross-Site Scripting",
     "details": "The miniOrange's Google Authenticator WordPress plugin before 5.5.6 does not sanitise and escape some of its settings, leading to malicious users with administrator privileges to store malicious Javascript code leading to Cross-Site Scripting attacks when unfiltered_html is disallowed (for example in multisite setup)",
     "severity": [
         {

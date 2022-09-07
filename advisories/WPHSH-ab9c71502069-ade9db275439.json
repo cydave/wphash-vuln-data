@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-5284"
     ],
-    "summary": "FIXME",
+    "summary": "ImageInject < 1.16 - Cross-Site Scripting",
     "details": "The ImageInject plugin 1.15 for WordPress has XSS via the flickr_appid parameter to wp-admin/options-general.php.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-5992"
     ],
-    "summary": "FIXME",
+    "summary": "wp-ultra-simple-paypal-shopping-cart < 4.5 - CSRF",
     "details": "Cross-site request forgery (CSRF) vulnerability in WordPress Ultra Simple Paypal Shopping Cart v4.4 and earlier allows remote attackers to hijack the authentication of administrators via unspecified vectors.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24766"
     ],
-    "summary": "FIXME",
+    "summary": "404 to 301 \u2013 Redirect, Log and Notify 404 Errors < 3.0.9 - CSRF",
     "details": "The 404 to 301 \u00e2\u20ac\u201c Redirect, Log and Notify 404 Errors WordPress plugin before 3.0.9 does not have CSRF check in place when cleaning the logs, which could allow attacker to make a logged in admin delete all of them via a CSRF attack",
     "severity": [
         {

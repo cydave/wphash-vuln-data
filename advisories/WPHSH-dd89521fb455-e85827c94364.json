@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15830"
     ],
-    "summary": "FIXME",
+    "summary": "Popups, Welcome Bar, Optins and Lead Generation Plugin \u2013 Icegram < 1.10.29 - Cross-Site Scripting",
     "details": "The icegram plugin before 1.10.29 for WordPress has ig_cat_list XSS.",
     "severity": [
         {

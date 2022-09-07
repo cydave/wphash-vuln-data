@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-36851"
     ],
-    "summary": "FIXME",
+    "summary": "Testimonial Slider \u2013 Free Testimonials Slider Plugin < 3.5.8.4 - Cross-Site Scripting",
     "details": "Authenticated (editor or higher user role) Cross-Site Scripting (XSS) vulnerability in Web-Settler Testimonial Slider \u2013 Free Testimonials Slider Plugin (WordPress plugin) via parameters mpsp_posts_bg_color, mpsp_posts_description_color, mpsp_slide_nav_button_color.",
     "severity": [
         {

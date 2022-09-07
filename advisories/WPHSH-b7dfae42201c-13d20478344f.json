@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-18547"
     ],
-    "summary": "FIXME",
+    "summary": "Nelio AB Testing < 4.6.4 - CSRF",
     "details": "The nelio-ab-testing plugin before 4.6.4 for WordPress has CSRF in experiment forms.",
     "severity": [
         {

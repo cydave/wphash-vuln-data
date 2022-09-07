@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-5372"
     ],
-    "summary": "FIXME",
+    "summary": "Testimonial Slider < 1.2.5 - SQL Injection",
     "details": "The Testimonial Slider plugin through 1.2.4 for WordPress has SQL Injection via settings\\sliders.php (current_slider_id parameter).",
     "severity": [
         {

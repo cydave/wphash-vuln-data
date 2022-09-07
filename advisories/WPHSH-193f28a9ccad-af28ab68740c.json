@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-15811"
     ],
-    "summary": "FIXME",
+    "summary": "pootle button < 1.2.0 - Cross-Site Scripting",
     "details": "The Pootle Button plugin before 1.2.0 for WordPress has XSS via the assets_url parameter in assets/dialog.php, exploitable via wp-admin/admin-ajax.php.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25023"
     ],
-    "summary": "FIXME",
+    "summary": "Speed Booster Pack \u26a1 PageSpeed Optimization Suite < 4.3.3.1 - SQL Injection",
     "details": "The Speed Booster Pack \u00e2\u0161\u00a1 PageSpeed Optimization Suite WordPress plugin before 4.3.3.1 does not escape the sbp_convert_table_name parameter before using it in a SQL statement to convert the related table, leading to an SQL injection",
     "severity": [
         {

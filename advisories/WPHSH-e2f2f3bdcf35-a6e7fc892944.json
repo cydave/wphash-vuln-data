@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0707"
     ],
-    "summary": "FIXME",
+    "summary": "Easy Digital Downloads \u2013 Simple eCommerce for Selling Digital Files < 2.11.6 - CSRF",
     "details": "The Easy Digital Downloads WordPress plugin before 2.11.6 does not have CSRF check in place when inserting payment notes, which could allow attackers to make a logged admin insert arbitrary notes via a CSRF attack",
     "severity": [
         {

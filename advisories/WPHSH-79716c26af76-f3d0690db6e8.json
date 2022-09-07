@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0314"
     ],
-    "summary": "FIXME",
+    "summary": "Nimble Page Builder < 3.2.2 - Unauthenticated Cross-Site Scripting",
     "details": "The Nimble Page Builder WordPress plugin before 3.2.2 does not sanitise and escape the preview-level-guid parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

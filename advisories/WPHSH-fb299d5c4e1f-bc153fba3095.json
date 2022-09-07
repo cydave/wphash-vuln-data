@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24666"
     ],
-    "summary": "FIXME",
+    "summary": "Podlove Podcast Publisher < 3.5.6 - Unauthenticated SQL Injection",
     "details": "The Podlove Podcast Publisher WordPress plugin before 3.5.6 contains a 'Social & Donations' module (not activated by default), which adds the rest route '/services/contributor/(?P<id>[\\d]+), takes an 'id' and 'category' parameters as arguments. Both parameters can be used for the SQLi.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25070"
     ],
-    "summary": "FIXME",
+    "summary": "Block Bad Bots and Stop Bad Bots Crawlers and Spiders and Anti Spam Protection < 6.930 - Unauthenticated SQL Injection",
     "details": "The Block Bad Bots WordPress plugin before 6.88 does not properly sanitise and escape the User Agent before using it in a SQL statement to record logs, leading to an SQL Injection issue",
     "severity": [
         {

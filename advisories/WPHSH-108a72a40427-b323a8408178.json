@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1057"
     ],
-    "summary": "FIXME",
+    "summary": "pricing-deals-for-woocommerce < 2.0.3 - Unauthenticated SQL Injection",
     "details": "The Pricing Deals for WooCommerce WordPress plugin through 2.0.2.02 does not properly sanitise and escape a parameter before using it in a SQL statement via an AJAX action available to unauthenticated users, leading to an unauthenticated SQL injection",
     "severity": [
         {

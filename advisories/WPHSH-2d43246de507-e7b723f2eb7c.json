@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10916"
     ],
-    "summary": "FIXME",
+    "summary": "Appointment Booking Calendar < 1.1.24 - Unauthenticated SQL Injection",
     "details": "The appointment-booking-calendar plugin before 1.1.24 for WordPress has SQL injection, a different vulnerability than CVE-2015-7319.",
     "severity": [
         {

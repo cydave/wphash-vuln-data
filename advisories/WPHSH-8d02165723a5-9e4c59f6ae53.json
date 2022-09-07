@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24142"
     ],
-    "summary": "FIXME",
+    "summary": "301 Redirects \u2013 Easy Redirect Manager < 2.51 - SQL Injection",
     "details": "Unvaludated input in the 301 Redirects - Easy Redirect Manager WordPress plugin, versions before 2.51, did not sanitise its \"Redirect From\" column when importing a CSV file, allowing high privilege users to perform SQL injections.",
     "severity": [
         {

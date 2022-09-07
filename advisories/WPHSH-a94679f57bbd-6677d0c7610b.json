@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-8354"
     ],
-    "summary": "FIXME",
+    "summary": "Ultimate Member \u2013 User Profile, User Registration, Login & Membership Plugin < 1.3.29 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting (XSS) vulnerability in the Ultimate Member WordPress plugin before 1.3.29 for WordPress allows remote attackers to inject arbitrary web script or HTML via the _refer parameter to wp-admin/users.php.",
     "severity": [
         {

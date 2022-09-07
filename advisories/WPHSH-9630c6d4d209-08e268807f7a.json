@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-13575"
     ],
-    "summary": "FIXME",
+    "summary": "Contact Form Plugin \u2013 Easy Drag and Drop Form Builder for WordPress \u2013 Everest Forms < 1.5.0 - Unauthenticated SQL Injection",
     "details": "A SQL injection vulnerability exists in WPEverest Everest Forms plugin for WordPress through 1.4.9. Successful exploitation of this vulnerability would allow a remote attacker to execute arbitrary SQL commands on the affected system via includes/evf-entry-functions.php",
     "severity": [
         {

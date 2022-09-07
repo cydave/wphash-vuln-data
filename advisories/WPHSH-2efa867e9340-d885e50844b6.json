@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0248"
     ],
-    "summary": "FIXME",
+    "summary": "contact-form-submissions < 1.7.3 - Unauthenticated Cross-Site Scripting",
     "details": "The Contact Form Submissions WordPress plugin before 1.7.3 does not sanitise and escape additional fields in contact form requests before outputting them in the related submission. As a result, unauthenticated attacker could perform Cross-Site Scripting attacks against admins viewing the malicious submission",
     "severity": [
         {

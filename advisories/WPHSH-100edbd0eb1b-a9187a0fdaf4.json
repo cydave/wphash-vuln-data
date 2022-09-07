@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-25307"
     ],
-    "summary": "FIXME",
+    "summary": "WP Statistics < 13.1.6 - Unauthenticated Cross-Site Scripting",
     "details": "The WP Statistics WordPress plugin is vulnerable to Cross-Site Scripting due to insufficient escaping and sanitization of the platform parameter found in the ~/includes/class-wp-statistics-hits.php file which allows attackers to inject arbitrary web scripts onto several pages that execute when site administrators view a sites statistics, in versions up to and including 13.1.5.",
     "severity": [
         {

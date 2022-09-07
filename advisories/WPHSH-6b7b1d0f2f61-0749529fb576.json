@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-4833"
     ],
-    "summary": "FIXME",
+    "summary": "nofollow-links < 1.0.11 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting (XSS) vulnerability in the Nofollow Links plugin before 1.0.11 for WordPress allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.",
     "severity": [
         {

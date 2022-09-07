@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-5661"
     ],
-    "summary": "FIXME",
+    "summary": "Coming Soon Page \u2013 Responsive Coming Soon & Maintenance Mode < 1.1.19 - Cross-Site Scripting",
     "details": "An issue was discovered in the responsive-coming-soon-page plugin 1.1.18 for WordPress. XSS exists via the wp-admin/admin.php logo_width parameter.",
     "severity": [
         {

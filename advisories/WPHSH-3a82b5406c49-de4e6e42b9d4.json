@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9343"
     ],
-    "summary": "FIXME",
+    "summary": "WP Rollback < 1.2.3 - CSRF",
     "details": "The wp-rollback plugin before 1.2.3 for WordPress has CSRF.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24830"
     ],
-    "summary": "FIXME",
+    "summary": "Advanced Access Manager < 6.8.0 - Cross-Site Scripting",
     "details": "The Advanced Access Manager WordPress plugin before 6.8.0 does not escape some of its settings when outputting them, allowing high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed",
     "severity": [
         {

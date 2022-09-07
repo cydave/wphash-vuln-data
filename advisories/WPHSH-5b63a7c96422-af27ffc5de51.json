@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24915"
     ],
-    "summary": "FIXME",
+    "summary": "Contest Gallery \u2013 Files Upload and Contest Plugin for WordPress < 13.1.0.6 - Unauthenticated SQL Injection",
     "details": "The Contest Gallery WordPress plugin before 13.1.0.6 does not have capability checks and does not sanitise or escape the cg-search-user-name-original parameter before using it in a SQL statement when exporting users from a gallery, which could allow unauthenticated to perform SQL injections attacks, as well as get the list of all users registered on the blog, including their username and email address",
     "severity": [
         {

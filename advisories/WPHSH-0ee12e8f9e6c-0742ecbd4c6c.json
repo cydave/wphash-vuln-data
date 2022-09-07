@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-20983"
     ],
-    "summary": "FIXME",
+    "summary": "Perfect Images (Retina, Thumbnails, Replace, CDN) < 5.2.3 - Unauthenticated Cross-Site Scripting",
     "details": "The wp-retina-2x plugin before 5.2.3 for WordPress has XSS.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24689"
     ],
-    "summary": "FIXME",
+    "summary": "lastform < 1.0.6 - Path Traversal",
     "details": "The Contact Forms - Drag & Drop Contact Form Builder WordPress plugin through 1.0.5 allows high privilege users to download arbitrary files from the web server via a path traversal attack",
     "severity": [
         {

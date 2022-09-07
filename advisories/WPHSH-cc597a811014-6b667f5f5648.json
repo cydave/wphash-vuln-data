@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-36872"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress Popular Posts < 5.3.4 - Cross-Site Scripting",
     "details": "Authenticated Persistent Cross-Site Scripting (XSS) vulnerability in WordPress Popular Posts plugin (versions <= 5.3.3). Vulnerable at &widget-wpp[2][post_type].",
     "severity": [
         {

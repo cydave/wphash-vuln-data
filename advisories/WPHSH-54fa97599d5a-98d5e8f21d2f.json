@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24952"
     ],
-    "summary": "FIXME",
+    "summary": "Actionable Google Analytics and Google Shopping plugin for WooCommerce < 4.6.2 - SQL Injection",
     "details": "The Conversios.io WordPress plugin before 4.6.2 does not sanitise, validate and escape the sync_progressive_data parameter for the tvcajax_product_sync_bantch_wise AJAX action before using it in a SQL statement, allowing any authenticated user to perform SQL injection attacks.",
     "severity": [
         {

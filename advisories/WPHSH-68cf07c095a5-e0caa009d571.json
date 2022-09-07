@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24262"
     ],
-    "summary": "FIXME",
+    "summary": "WooLentor \u2013 Elementor WooCommerce Builder Addons, Variation Swatches Addons, Quick View, Wishlist, Products Compare, Product Filter \u2013 All in One Solution < 1.8.6 - Cross-Site Scripting",
     "details": "The \u201cWooLentor \u2013 WooCommerce Elementor Addons + Builder\u201d WordPress Plugin before 1.8.6 has a widget that is vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.",
     "severity": [
         {

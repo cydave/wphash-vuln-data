@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24274"
     ],
-    "summary": "FIXME",
+    "summary": "Ultimate Maps by Supsystic < 1.2.5 - Unauthenticated Cross-Site Scripting",
     "details": "The Ultimate Maps by Supsystic WordPress plugin before 1.2.5 did not sanitise the tab parameter of its options page before outputting it in an attribute, leading to a reflected Cross-Site Scripting issue",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25017"
     ],
-    "summary": "FIXME",
+    "summary": "Tutor LMS \u2013 eLearning and online course solution < 1.9.12 - Unauthenticated Cross-Site Scripting",
     "details": "The Tutor LMS WordPress plugin before 1.9.12 does not escape the search parameter before outputting it back in an attribute in an admin page, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

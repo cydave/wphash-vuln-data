@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-2168"
     ],
-    "summary": "FIXME",
+    "summary": "Download Manager < 3.2.44 - Unauthenticated Cross-Site Scripting",
     "details": "The Download Manager WordPress plugin before 3.2.44 does not escape a generated URL before outputting it back in an attribute of the history dashboard, leading to Reflected Cross-Site Scripting",
     "severity": [
         {

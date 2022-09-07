@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10869"
     ],
-    "summary": "FIXME",
+    "summary": "Contact Form by BestWebSoft \u2013 Advanced Contact Us Form Builder for WordPress < 4.0.2 - Unauthenticated Cross-Site Scripting",
     "details": "The contact-form-plugin plugin before 4.0.2 for WordPress has XSS.",
     "severity": [
         {

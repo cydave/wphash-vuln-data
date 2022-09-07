@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24924"
     ],
-    "summary": "FIXME",
+    "summary": "Email Log < 2.4.7 - Unauthenticated Cross-Site Scripting",
     "details": "The Email Log WordPress plugin before 2.4.8 does not escape the d parameter before outputting it back in an attribute in the Log page, leading to a Reflected Cross-Site Scripting issue",
     "severity": [
         {

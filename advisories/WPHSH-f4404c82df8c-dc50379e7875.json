@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0659"
     ],
-    "summary": "FIXME",
+    "summary": "Sync QCloud COS < 2.0.1 - Cross-Site Scripting",
     "details": "The Sync QCloud COS WordPress plugin before 2.0.1 does not escape some of its settings, allowing high privilege users such as admin to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed",
     "severity": [
         {

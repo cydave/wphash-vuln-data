@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-23979"
     ],
-    "summary": "FIXME",
+    "summary": "Ultimate Reviews < 3.0.16 - Cross-Site Scripting",
     "details": "Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability discovered in Ultimate Reviews WordPress plugin (versions <= 3.0.15).",
     "severity": [
         {

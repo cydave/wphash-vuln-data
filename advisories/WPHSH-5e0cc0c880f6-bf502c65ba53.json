@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-25617"
     ],
-    "summary": "FIXME",
+    "summary": "Code Snippets < 2.14.4 - Unauthenticated Cross-Site Scripting",
     "details": "Reflected Cross-Site Scripting (XSS) vulnerability in Code Snippets plugin <= 2.14.3 at WordPress via &orderby vulnerable parameter.",
     "severity": [
         {

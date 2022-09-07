@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-20782"
     ],
-    "summary": "FIXME",
+    "summary": "Software License Manager < 4.4.6 - CSRF",
     "details": "Cross-site request forgery (CSRF) vulnerability in Software License Manager versions prior to 4.4.6 allows remote attackers to hijack the authentication of administrators via unspecified vectors.",
     "severity": [
         {

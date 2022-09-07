@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24366"
     ],
-    "summary": "FIXME",
+    "summary": "Admin Columns < 4.3 - Cross-Site Scripting",
     "details": "The Admin Columns Free WordPress plugin before 4.3 and Admin Columns Pro WordPress plugin before 5.5.1, rendered input on the posted pages with improper input validation on the value passed into the field 'Label' parameter, by taking this as an advantage an authenticated attacker can supply a crafted arbitrary script and execute it.",
     "severity": [
         {

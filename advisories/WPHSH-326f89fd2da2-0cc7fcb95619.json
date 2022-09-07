@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-6027"
     ],
-    "summary": "FIXME",
+    "summary": "WP Spell Check < 7.1.10 - CSRF",
     "details": "Cross-site request forgery (CSRF) vulnerability in WP Spell Check 7.1.9 and earlier allows remote attackers to hijack the authentication of administrators via unspecified vectors.",
     "severity": [
         {

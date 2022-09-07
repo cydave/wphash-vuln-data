@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-2091"
     ],
-    "summary": "FIXME",
+    "summary": "Cache Images < 3.2.1 - CSRF",
     "details": "The Cache Images WordPress plugin before 3.2.1 does not implement nonce checks, which could allow attackers to make any logged user upload images via a CSRF attack.",
     "severity": [
         {

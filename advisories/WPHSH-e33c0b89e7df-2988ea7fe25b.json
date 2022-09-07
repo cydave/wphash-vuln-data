@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-38355"
     ],
-    "summary": "FIXME",
+    "summary": "Bug Library < 2.0.4 - Unauthenticated Cross-Site Scripting",
     "details": "The Bug Library WordPress plugin is vulnerable to Reflected Cross-Site Scripting via the successimportcount parameter found in the ~/bug-library.php file which allows attackers to inject arbitrary web scripts, in versions up to and including 2.0.3.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-21005"
     ],
-    "summary": "FIXME",
+    "summary": "bbPress Move Topics < 1.1.6 - Unauthenticated Code Injection",
     "details": "The bbp-move-topics plugin before 1.1.6 for WordPress has code injection.",
     "severity": [
         {

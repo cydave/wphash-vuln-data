@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24885"
     ],
-    "summary": "FIXME",
+    "summary": "YOP Poll < 6.1.2 - Unauthenticated Cross-Site Scripting",
     "details": "The YOP Poll WordPress plugin before 6.1.2 does not escape the perpage parameter before outputting it back in an attribute, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

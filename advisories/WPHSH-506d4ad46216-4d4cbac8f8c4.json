@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10887"
     ],
-    "summary": "FIXME",
+    "summary": "All In One WP Security & Firewall < 4.0.9 - Unauthenticated SQL Injection",
     "details": "The all-in-one-wp-security-and-firewall plugin before 4.0.9 for WordPress has multiple SQL injection issues.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-8594"
     ],
-    "summary": "FIXME",
+    "summary": "Ninja Forms Contact Form \u2013 The Drag and Drop Form Builder for WordPress < 3.4.23 - Cross-Site Scripting",
     "details": "The Ninja Forms plugin 3.4.22 for WordPress has Multiple Stored XSS vulnerabilities via ninja_forms[recaptcha_site_key], ninja_forms[recaptcha_secret_key], ninja_forms[recaptcha_lang], or ninja_forms[date_format].",
     "severity": [
         {

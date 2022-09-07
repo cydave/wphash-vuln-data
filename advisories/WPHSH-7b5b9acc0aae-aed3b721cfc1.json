@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24152"
     ],
-    "summary": "FIXME",
+    "summary": "Popup Builder \u2013 Create highly converting, mobile friendly marketing popups. < 3.74 - Unauthenticated Cross-Site Scripting",
     "details": "The \"All Subscribers\" setting page of Popup Builder was vulnerable to reflected Cross-Site Scripting.",
     "severity": [
         {

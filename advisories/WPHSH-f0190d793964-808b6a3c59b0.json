@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-13463"
     ],
-    "summary": "FIXME",
+    "summary": "Simple Link Directory < 7.3.5 - Unauthenticated Cross-Site Scripting",
     "details": "An XSS vulnerability in qcopd-shortcode-generator.php in the Simple Link Directory plugin before 7.3.5 for WordPress allows remote attackers to inject arbitrary web script or HTML, because esc_html is not called for the \"echo get_the_title()\" or \"echo $term->name\" statement.",
     "severity": [
         {

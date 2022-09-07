@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-19041"
     ],
-    "summary": "FIXME",
+    "summary": "media-file-manager < 1.4.3 - Unauthenticated Cross-Site Scripting",
     "details": "The Media File Manager plugin 1.4.2 for WordPress allows XSS via the dir parameter of an mrelocator_getdir action to the wp-admin/admin-ajax.php URI.",
     "severity": [
         {

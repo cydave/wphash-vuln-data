@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0784"
     ],
-    "summary": "FIXME",
+    "summary": "Title Experiments Free < 9.0.1 - Unauthenticated SQL Injection",
     "details": "The Title Experiments Free WordPress plugin before 9.0.1 does not sanitise and escape the id parameter before using it in a SQL statement via the wpex_titles AJAX action (available to unauthenticated users), leading to an unauthenticated SQL injection",
     "severity": [
         {

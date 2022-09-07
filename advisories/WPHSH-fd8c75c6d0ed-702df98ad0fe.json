@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24266"
     ],
-    "summary": "FIXME",
+    "summary": "The Plus Addons for Elementor | FREE Elementor Widgets & Elementor Templates, Header Menu, Blog Post Builder, Dark Mode, Full-Page Scroll, Cross Domain Copy < 2.0.6 - Cross-Site Scripting",
     "details": "The \u201cThe Plus Addons for Elementor Page Builder Lite\u201d WordPress Plugin before 2.0.6 has four widgets that are vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.",
     "severity": [
         {

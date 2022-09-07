@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9425"
     ],
-    "summary": "FIXME",
+    "summary": "social-locker < 4.2.5 - CSRF",
     "details": "The social-locker plugin before 4.2.5 for WordPress has CSRF with resultant XSS via the wp-admin/edit.php?post_type=opanda-item&page=license-manager-sociallocker-next licensekey parameter.",
     "severity": [
         {

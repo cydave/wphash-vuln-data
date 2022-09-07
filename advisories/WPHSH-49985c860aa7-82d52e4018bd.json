@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-12832"
     ],
-    "summary": "FIXME",
+    "summary": "Simple File List < 4.2.8 - Unauthenticated Path Traversal",
     "details": "WordPress Plugin Simple File List before 4.2.8 is prone to a vulnerability that lets attackers delete arbitrary files because the application fails to properly verify user-supplied input.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-39354"
     ],
-    "summary": "FIXME",
+    "summary": "Easy Digital Downloads \u2013 Simple eCommerce for Selling Digital Files < 2.11.2.1 - Cross-Site Scripting",
     "details": "The Easy Digital Downloads WordPress plugin is vulnerable to Reflected Cross-Site Scripting via the $start_date and $end_date parameters found in the ~/includes/admin/payments/class-payments-table.php file which allows attackers to inject arbitrary web scripts, in versions up to and including 2.11.2.",
     "severity": [
         {

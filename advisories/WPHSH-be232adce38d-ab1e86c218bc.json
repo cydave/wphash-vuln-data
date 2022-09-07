@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9270"
     ],
-    "summary": "FIXME",
+    "summary": "The Holiday Calendar < 1.11.3 - Unauthenticated Cross-Site Scripting",
     "details": "XSS exists in the the-holiday-calendar plugin before 1.11.3 for WordPress via the thc-month parameter.",
     "severity": [
         {

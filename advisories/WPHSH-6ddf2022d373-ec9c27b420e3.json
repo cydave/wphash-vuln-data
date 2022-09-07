@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-16521"
     ],
-    "summary": "FIXME",
+    "summary": "Broken Link Checker < 1.11.9 - Unauthenticated Cross-Site Scripting",
     "details": "The broken-link-checker plugin through 1.11.8 for WordPress (aka Broken Link Checker) is susceptible to Reflected XSS due to improper encoding and insertion of an HTTP GET parameter into HTML. The filter function on the page listing all detected broken links can be exploited by providing an XSS payload in the s_filter GET parameter in a filter_id=search request. NOTE: this is an end-of-life product.",
     "severity": [
         {

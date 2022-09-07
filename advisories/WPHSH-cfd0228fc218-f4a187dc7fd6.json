@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-10301"
     ],
-    "summary": "FIXME",
+    "summary": "10WebSocial < 1.3.1 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting (XSS) vulnerability in the Web-Dorado Instagram Feed WD plugin before 1.3.1 Premium for WordPress allows remote attackers to inject arbitrary web script or HTML by passing payloads in a comment on an Instagram post.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9353"
     ],
-    "summary": "FIXME",
+    "summary": "GigPress < 2.3.11 - SQL Injection",
     "details": "The gigpress plugin before 2.3.11 for WordPress has SQL injection in the admin area, a different vulnerability than CVE-2015-4066.",
     "severity": [
         {

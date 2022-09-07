@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-2187"
     ],
-    "summary": "FIXME",
+    "summary": "Contact Form 7 Captcha < 0.1.2 - Unauthenticated Cross-Site Scripting",
     "details": "The Contact Form 7 Captcha WordPress plugin before 0.1.2 does not escape the $_SERVER['REQUEST_URI'] parameter before outputting it back in an attribute, which could lead to Reflected Cross-Site Scripting in old web browsers",
     "severity": [
         {

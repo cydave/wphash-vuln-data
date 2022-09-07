@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1465"
     ],
-    "summary": "FIXME",
+    "summary": "WPC Smart Wishlist for WooCommerce < 2.9.9 - Unauthenticated Cross-Site Scripting",
     "details": "The WPC Smart Wishlist for WooCommerce WordPress plugin before 2.9.9 does not sanitise and escape a parameter before outputting it back in an attribute via an AJAX action, leading to a Reflected Cross-Site Scripting issue.",
     "severity": [
         {

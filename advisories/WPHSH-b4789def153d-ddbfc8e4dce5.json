@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24624"
     ],
-    "summary": "FIXME",
+    "summary": "MP3 Audio Player for Music, Radio & Podcast by Sonaar < 2.4.2 - Cross-Site Scripting",
     "details": "The MP3 Audio Player for Music, Radio & Podcast by Sonaar WordPress plugin before 2.4.2 does not properly sanitize or escape data in some of its Playlist settings, allowing high privilege users to perform Cross-Site Scripting attacks",
     "severity": [
         {

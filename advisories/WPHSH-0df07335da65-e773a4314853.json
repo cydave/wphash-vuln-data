@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9355"
     ],
-    "summary": "FIXME",
+    "summary": "Two Factor Authentication < 1.1.10 - Unauthenticated Cross-Site Scripting",
     "details": "The two-factor-authentication plugin before 1.1.10 for WordPress has XSS in the admin area.",
     "severity": [
         {

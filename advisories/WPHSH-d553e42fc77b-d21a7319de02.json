@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15769"
     ],
-    "summary": "FIXME",
+    "summary": "HandL UTM Grabber / Tracker < 2.6.5 - CSRF",
     "details": "The handl-utm-grabber plugin before 2.6.5 for WordPress has CSRF via add_option and update_option.",
     "severity": [
         {

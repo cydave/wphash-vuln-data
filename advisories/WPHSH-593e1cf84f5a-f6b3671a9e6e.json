@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0288"
     ],
-    "summary": "FIXME",
+    "summary": "Ad Inserter \u2013 Ad Manager & AdSense Ads < 2.7.10 - Unauthenticated Cross-Site Scripting",
     "details": "The Ad Inserter WordPress plugin before 2.7.10, Ad Inserter Pro WordPress plugin before 2.7.10 do not sanitise and escape the html_element_selection parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

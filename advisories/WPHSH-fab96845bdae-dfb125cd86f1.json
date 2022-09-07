@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9426"
     ],
-    "summary": "FIXME",
+    "summary": "Manual Image Crop < 1.11 - Cross-Site Scripting",
     "details": "The manual-image-crop plugin before 1.11 for WordPress has CSRF with resultant XSS via the wp-admin/admin-ajax.php?action=mic_editor_window postId parameter.",
     "severity": [
         {

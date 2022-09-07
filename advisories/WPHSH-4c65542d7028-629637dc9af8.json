@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-1002017"
     ],
-    "summary": "FIXME",
+    "summary": "Gift Certificate Creator < 1.1 - Unauthenticated Cross-Site Scripting",
     "details": "Vulnerability in wordpress plugin gift-certificate-creator v1.0, The code in gc-list.php doesn't sanitize user input to prevent a stored XSS vulnerability.",
     "severity": [
         {

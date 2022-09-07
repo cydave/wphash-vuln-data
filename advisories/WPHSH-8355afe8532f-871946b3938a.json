@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24638"
     ],
-    "summary": "FIXME",
+    "summary": "OMGF | GDPR Compliant, Faster Google Fonts. Easy. < 4.5.4 - Unauthenticated Path Traversal",
     "details": "The OMGF WordPress plugin before 4.5.4 does not escape or validate the handle parameter of the REST API, which allows unauthenticated users to perform path traversal and overwrite arbitrary CSS file with Google Fonts CSS, or download fonts uploaded on Google Fonts website.",
     "severity": [
         {

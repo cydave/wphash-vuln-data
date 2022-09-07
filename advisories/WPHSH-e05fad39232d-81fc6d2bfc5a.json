@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15829"
     ],
-    "summary": "FIXME",
+    "summary": "Gallery PhotoBlocks < 1.1.43 - Cross-Site Scripting",
     "details": "The photoblocks-grid-gallery plugin before 1.1.33 for WordPress has wp-admin/admin.php?page=photoblocks-edit&id= XSS.",
     "severity": [
         {

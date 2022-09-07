@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0313"
     ],
-    "summary": "FIXME",
+    "summary": "Float menu \u2013 awesome floating side menu < 4.3.1 - CSRF",
     "details": "The Float menu WordPress plugin before 4.3.1 does not have CSRF check in place when deleting menu, which could allow attackers to make a logged in admin delete them via a CSRF attack",
     "severity": [
         {

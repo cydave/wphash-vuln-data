@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10990"
     ],
-    "summary": "FIXME",
+    "summary": "WP Cerber Security, Anti-spam & Malware Scan < 2.7 - Unauthenticated Cross-Site Scripting",
     "details": "The wp-cerber plugin before 2.7 for WordPress has XSS via the X-Forwarded-For HTTP header.",
     "severity": [
         {

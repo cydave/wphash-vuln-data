@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9322"
     ],
-    "summary": "FIXME",
+    "summary": "Erident Custom Login and Dashboard < 3.5 - CSRF",
     "details": "The erident-custom-login-and-dashboard plugin before 3.5 for WordPress has CSRF.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15778"
     ],
-    "summary": "FIXME",
+    "summary": "Additional Variation Images Gallery for WooCommerce < 1.1.29 - Cross-Site Scripting",
     "details": "The woo-variation-gallery plugin before 1.1.29 for WordPress has XSS.",
     "severity": [
         {

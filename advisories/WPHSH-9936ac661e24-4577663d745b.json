@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2014-4536"
     ],
-    "summary": "FIXME",
+    "summary": "infusionsoft < 1.5.7 - Unauthenticated Cross-Site Scripting",
     "details": "Multiple cross-site scripting (XSS) vulnerabilities in tests/notAuto_test_ContactService_pauseCampaign.php in the Infusionsoft Gravity Forms plugin before 1.5.6 for WordPress allow remote attackers to inject arbitrary web script or HTML via the (1) go, (2) contactId, or (3) campaignId parameter.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-14681"
     ],
-    "summary": "FIXME",
+    "summary": "Deny All Firewall < 1.1.7 - CSRF",
     "details": "The Deny All Firewall plugin before 1.1.7 for WordPress allows wp-admin/options-general.php?page=daf_settings&daf_remove=true CSRF.",
     "severity": [
         {

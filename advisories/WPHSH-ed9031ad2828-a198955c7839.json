@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10903"
     ],
-    "summary": "FIXME",
+    "summary": "GoDaddy Email Marketing < 1.1.4 - CSRF",
     "details": "The GoDaddy godaddy-email-marketing-sign-up-forms plugin before 1.1.3 for WordPress has CSRF.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24667"
     ],
-    "summary": "FIXME",
+    "summary": "Gallery Blocks with Lightbox. Image Gallery, (HTML5 video , YouTube, Vimeo) Video Gallery and Lightbox for native gallery < 2.2.1 - Cross-Site Scripting",
     "details": "A stored cross-site scripting vulnerability has been discovered in : Simply Gallery Blocks with Lightbox (Version \u2013 2.2.0 & below). The vulnerability exists in the Lightbox functionality where a user with low privileges is allowed to execute arbitrary script code within the context of the application. This vulnerability is due to insufficient validation of image parameters in meta data.",
     "severity": [
         {

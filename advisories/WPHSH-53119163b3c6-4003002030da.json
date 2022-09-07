@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-20831"
     ],
-    "summary": "FIXME",
+    "summary": "OG Tags < 2.0.2 - CSRF",
     "details": "Cross-site request forgery (CSRF) vulnerability in OG Tags versions prior to 2.0.2 allows a remote attacker to hijack the authentication of administrators and unintended operation may be performed via unspecified vectors.",
     "severity": [
         {

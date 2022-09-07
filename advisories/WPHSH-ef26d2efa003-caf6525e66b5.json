@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9472"
     ],
-    "summary": "FIXME",
+    "summary": "incoming-links < 0.9.10b - Unauthenticated Cross-Site Scripting",
     "details": "The incoming-links plugin before 0.9.10b for WordPress has referrers.php XSS via the Referer HTTP header.",
     "severity": [
         {

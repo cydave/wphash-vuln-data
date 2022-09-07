@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-1000133"
     ],
-    "summary": "FIXME",
+    "summary": "Forget About Shortcode Buttons < 1.1.2 - Unauthenticated Cross-Site Scripting",
     "details": "Reflected XSS in wordpress plugin forget-about-shortcode-buttons v1.1.1",
     "severity": [
         {

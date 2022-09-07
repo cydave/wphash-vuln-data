@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1653"
     ],
-    "summary": "FIXME",
+    "summary": "Social Share Buttons by Supsystic < 2.2.4 - CSRF",
     "details": "The Social Share Buttons by Supsystic WordPress plugin before 2.2.4 does not perform CSRF checks in it's ajax endpoints and admin pages, allowing an attacker to trick any logged in user to manipulate or change the plugin settings, as well as create, delete and rename projects and networks.",
     "severity": [
         {

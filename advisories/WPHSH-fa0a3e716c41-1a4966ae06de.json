@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24764"
     ],
-    "summary": "FIXME",
+    "summary": "perfect-survey < 1.5.2 - Unauthenticated Cross-Site Scripting",
     "details": "The Perfect Survey WordPress plugin before 1.5.2 does not sanitise and escape multiple parameters (id and filters[session_id] of single_statistics page, type and message of importexport page) before outputting them back in pages/attributes in the admin dashboard, leading to Reflected Cross-Site Scripting issues",
     "severity": [
         {

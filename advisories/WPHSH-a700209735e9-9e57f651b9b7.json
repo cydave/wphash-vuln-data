@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-29420"
     ],
-    "summary": "FIXME",
+    "summary": "Countdown, Coming Soon, Maintenance \u2013 Countdown & Clock < 2.3.3 - Cross-Site Scripting",
     "details": "Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Adam Skaat's Countdown & Clock plugin <= 2.3.2 at WordPress via &ycd-circle-countdown-before-countdown and &ycd-circle-countdown-after-countdown vulnerable parameters.",
     "severity": [
         {

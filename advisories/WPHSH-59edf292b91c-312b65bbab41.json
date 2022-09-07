@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24744"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress Contact Forms by Cimatti < 1.4.12 - Cross-Site Scripting",
     "details": "The WordPress Contact Forms by Cimatti WordPress plugin before 1.4.12 does not sanitise and escape the Form Title before outputting it in some admin pages. which could allow high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html is disallowed.",
     "severity": [
         {

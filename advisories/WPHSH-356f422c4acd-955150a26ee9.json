@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-14682"
     ],
-    "summary": "FIXME",
+    "summary": "ACF: Better Search < 3.3.1 - CSRF",
     "details": "The acf-better-search (aka ACF: Better Search) plugin before 3.3.1 for WordPress allows wp-admin/options-general.php?page=acfbs_admin_page CSRF.",
     "severity": [
         {

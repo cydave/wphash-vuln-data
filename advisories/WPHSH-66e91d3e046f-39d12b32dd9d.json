@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9452"
     ],
-    "summary": "FIXME",
+    "summary": "NEX-Forms \u2013 Ultimate Form Builder \u2013 Contact forms and much more < 4.6.1 - Unauthenticated SQL Injection",
     "details": "The nex-forms-express-wp-form-builder plugin before 4.6.1 for WordPress has SQL injection via the wp-admin/admin.php?page=nex-forms-main nex_forms_Id parameter.",
     "severity": [
         {

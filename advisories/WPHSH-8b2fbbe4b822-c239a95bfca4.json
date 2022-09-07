@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-17074"
     ],
-    "summary": "FIXME",
+    "summary": "Feed Statistics < 4.0 - Unauthenticated Open Redirect",
     "details": "The Feed Statistics plugin before 4.0 for WordPress has an Open Redirect via the feed-stats-url parameter.",
     "severity": [
         {

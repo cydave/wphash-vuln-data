@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10870"
     ],
-    "summary": "FIXME",
+    "summary": "Translate WordPress \u2013 Google Language Translator < 5.0.06 - Unauthenticated Cross-Site Scripting",
     "details": "The google-language-translator plugin before 5.0.06 for WordPress has XSS.",
     "severity": [
         {

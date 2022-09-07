@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-14798"
     ],
-    "summary": "FIXME",
+    "summary": "Photo Gallery by 10Web \u2013 Mobile-Friendly Image Gallery < 1.5.25 - Path Traversal",
     "details": "The 10Web Photo Gallery plugin before 1.5.25 for WordPress has Authenticated Local File Inclusion via directory traversal in the wp-admin/admin-ajax.php?action=shortcode_bwg tagtext parameter.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-28649"
     ],
-    "summary": "FIXME",
+    "summary": "Child Theme Creator by Orbisius < 1.5.2 - CSRF",
     "details": "The orbisius-child-theme-creator plugin before 1.5.2 for WordPress allows CSRF via orbisius_ctc_theme_editor_manage_file.",
     "severity": [
         {

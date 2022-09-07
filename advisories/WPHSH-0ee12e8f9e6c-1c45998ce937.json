@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-0511"
     ],
-    "summary": "FIXME",
+    "summary": "Perfect Images (Retina, Thumbnails, Replace, CDN) < 5.2.3 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting vulnerability in WP Retina 2x prior to version 5.2.2 allows an attacker to inject arbitrary web script or HTML via unspecified vectors.",
     "severity": [
         {

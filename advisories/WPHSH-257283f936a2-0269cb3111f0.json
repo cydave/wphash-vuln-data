@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24675"
     ],
-    "summary": "FIXME",
+    "summary": "One User Avatar | User Profile Picture < 2.3.7 - CSRF",
     "details": "The One User Avatar WordPress plugin before 2.3.7 does not check for CSRF when updating the Avatar in page where the [avatar_upload] shortcode is embed. As a result, attackers could make logged in user change their avatar via a CSRF attack",
     "severity": [
         {

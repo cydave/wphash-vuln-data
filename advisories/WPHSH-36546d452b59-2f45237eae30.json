@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-9168"
     ],
-    "summary": "FIXME",
+    "summary": "WooCommerce < 3.5.5 - Unauthenticated Cross-Site Scripting",
     "details": "WooCommerce before 3.5.5 allows XSS via a Photoswipe caption.",
     "severity": [
         {

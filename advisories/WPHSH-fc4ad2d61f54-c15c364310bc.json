@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24464"
     ],
-    "summary": "FIXME",
+    "summary": "YouTube Embed, Playlist and Popup by WpDevArt < 2.3.9 - Cross-Site Scripting",
     "details": "The YouTube Embed, Playlist and Popup by WpDevArt WordPress plugin before 2.3.9 did not escape, validate or sanitise some of its shortcode options, available to users with a role as low as Contributor, leading to an authenticated Stored Cross-Site Scripting issue.",
     "severity": [
         {

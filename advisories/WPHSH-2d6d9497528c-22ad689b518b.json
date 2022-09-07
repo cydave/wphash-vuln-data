@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2013-7482"
     ],
-    "summary": "FIXME",
+    "summary": "ReFlex Gallery \u00bb WordPress Photo Gallery < 1.4.3 - Unauthenticated Cross-Site Scripting",
     "details": "The reflex-gallery plugin before 1.4.3 for WordPress has XSS.",
     "severity": [
         {

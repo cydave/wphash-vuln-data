@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-36171"
     ],
-    "summary": "FIXME",
+    "summary": "Elementor Website Builder < 3.0.14 - Unauthenticated Cross-Site Scripting",
     "details": "The Elementor Website Builder plugin before 3.0.14 for WordPress does not properly restrict SVG uploads.",
     "severity": [
         {

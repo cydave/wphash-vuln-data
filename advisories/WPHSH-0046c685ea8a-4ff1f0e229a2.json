@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9344"
     ],
-    "summary": "FIXME",
+    "summary": "Link Log \u2013 external link click monitor < 2.1 - Unauthenticated SQL Injection",
     "details": "The link-log plugin before 2.1 for WordPress has SQL injection.",
     "severity": [
         {

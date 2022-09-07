@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-0642"
     ],
-    "summary": "FIXME",
+    "summary": "FV Flowplayer Video Player < 6.6.5 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting vulnerability in FV Flowplayer Video Player 6.1.2 to 6.6.4 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.",
     "severity": [
         {

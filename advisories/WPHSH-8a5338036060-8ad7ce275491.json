@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24588"
     ],
-    "summary": "FIXME",
+    "summary": "SMS Alert Order Notifications \u2013 WooCommerce < 3.4.7 - Unauthenticated Cross-Site Scripting",
     "details": "The SMS Alert Order Notifications WordPress plugin before 3.4.7 is affected by a cross site scripting (XSS) vulnerability in the plugin's setting page.",
     "severity": [
         {

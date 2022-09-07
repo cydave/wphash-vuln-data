@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24728"
     ],
-    "summary": "FIXME",
+    "summary": "Membership & Content Restriction \u2013 Paid Member Subscriptions < 2.4.2 - SQL Injection",
     "details": "The Membership & Content Restriction \u2013 Paid Member Subscriptions WordPress plugin before 2.4.2 did not sanitise, validate or escape its order and orderby parameters before using them in SQL statement, leading to Authenticated SQL Injections in the Members and Payments pages.",
     "severity": [
         {

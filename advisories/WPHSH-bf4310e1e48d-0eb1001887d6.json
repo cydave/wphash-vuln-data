@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-12650"
     ],
-    "summary": "FIXME",
+    "summary": "Loginizer < 1.3.6 - Unauthenticated SQL Injection",
     "details": "SQL Injection exists in the Loginizer plugin before 1.3.6 for WordPress via the X-Forwarded-For HTTP header.",
     "severity": [
         {

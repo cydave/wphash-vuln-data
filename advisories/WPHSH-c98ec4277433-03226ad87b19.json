@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-7239"
     ],
-    "summary": "FIXME",
+    "summary": "Chatbot with IBM Watson < 0.8.21 - Unauthenticated Cross-Site Scripting",
     "details": "The conversation-watson plugin before 0.8.21 for WordPress has a DOM-based XSS vulnerability that is executed when a chat message containing JavaScript is sent.",
     "severity": [
         {

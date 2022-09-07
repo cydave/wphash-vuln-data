@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24716"
     ],
-    "summary": "FIXME",
+    "summary": "modern-events-calendar-lite < 5.22.3 - Cross-Site Scripting",
     "details": "The Modern Events Calendar Lite WordPress plugin before 5.22.3 does not properly sanitize or escape values set by users with access to adjust settings withing wp-admin.",
     "severity": [
         {

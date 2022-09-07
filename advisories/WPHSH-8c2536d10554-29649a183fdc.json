@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-10371"
     ],
-    "summary": "FIXME",
+    "summary": "WF Cookie Consent < 1.1.4 - Unauthenticated Cross-Site Scripting",
     "details": "An issue was discovered in the wunderfarm WF Cookie Consent plugin 1.1.3 for WordPress. A persistent cross-site scripting vulnerability has been identified in the web interface of the plugin that allows the execution of arbitrary HTML/script code to be executed in a victim's web browser via a page title.",
     "severity": [
         {

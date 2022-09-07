@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-18586"
     ],
-    "summary": "FIXME",
+    "summary": "Insert Pages < 3.2.4 - Unauthenticated Path Traversal",
     "details": "The insert-pages plugin before 3.2.4 for WordPress has directory traversal via custom template paths.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24873"
     ],
-    "summary": "FIXME",
+    "summary": "Tutor LMS \u2013 eLearning and online course solution < 1.9.11 - Unauthenticated Cross-Site Scripting",
     "details": "The Tutor LMS WordPress plugin before 1.9.11 does not sanitise and escape user input before outputting back in attributes in the Student Registration page, leading to a Reflected Cross-Site Scripting issue",
     "severity": [
         {

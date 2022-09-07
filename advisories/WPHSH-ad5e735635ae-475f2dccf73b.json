@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1915"
     ],
-    "summary": "FIXME",
+    "summary": "WP Zillow Review Slider < 2.4 - Cross-Site Scripting",
     "details": "The WP Zillow Review Slider WordPress plugin before 2.4 does not escape a settings, which could allow high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite)",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24876"
     ],
-    "summary": "FIXME",
+    "summary": "Registrations for the Events Calendar \u2013 Event Registration Plugin < 2.7.5 - Unauthenticated Cross-Site Scripting",
     "details": "The Registrations for the Events Calendar WordPress plugin before 2.7.5 does not escape the v parameter before outputting it back in an attribute, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

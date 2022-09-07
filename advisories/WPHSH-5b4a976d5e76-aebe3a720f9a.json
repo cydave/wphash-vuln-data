@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-34625"
     ],
-    "summary": "FIXME",
+    "summary": "WP Upload Restriction < 2.2.5 - Cross-Site Scripting",
     "details": "A vulnerability in the saveCustomType function of the WP Upload Restriction WordPress plugin allows low-level authenticated users to inject arbitrary web scripts. This issue affects versions 2.2.3 and prior.",
     "severity": [
         {

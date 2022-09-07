@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24610"
     ],
-    "summary": "FIXME",
+    "summary": "Translate Multilingual sites \u2013 TranslatePress < 2.0.9 - Cross-Site Scripting",
     "details": "The TranslatePress WordPress plugin before 2.0.9 does not implement a proper sanitisation on the translated strings. The 'trp_sanitize_string' function only removes script tag with a regex, still allowing other HTML tags and attributes to execute javascript, which could lead to authenticated Stored Cross-Site Scripting issues.",
     "severity": [
         {

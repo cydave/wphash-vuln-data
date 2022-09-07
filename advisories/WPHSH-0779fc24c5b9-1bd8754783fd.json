@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-1000172"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress Gallery Plugin \u2013 NextGEN Gallery < 2.2.45 - Cross-Site Scripting",
     "details": "Imagely NextGEN Gallery version 2.2.30 and earlier contains a Cross Site Scripting (XSS) vulnerability in Image Alt & Title Text. This attack appears to be exploitable via a victim viewing the image in the administrator page. This vulnerability appears to have been fixed in 2.2.45.",
     "severity": [
         {

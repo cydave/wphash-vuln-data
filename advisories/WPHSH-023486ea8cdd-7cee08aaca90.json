@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24660"
     ],
-    "summary": "FIXME",
+    "summary": "PostX \u2013 Gutenberg Post Grid Blocks < 2.4.10 - Cross-Site Scripting",
     "details": "The PostX \u00e2\u20ac\u201c Gutenberg Blocks for Post Grid WordPress plugin before 2.4.10, with Saved Templates Addon enabled, allows users with a role as low as Contributor to perform Stored Cross-Site Scripting attacks via the plugin's shortcode.",
     "severity": [
         {

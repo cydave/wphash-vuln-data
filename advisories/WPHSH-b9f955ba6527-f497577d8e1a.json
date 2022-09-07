@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24776"
     ],
-    "summary": "FIXME",
+    "summary": "WP Performance Score Booster \u2013 Optimize Speed, Enable Cache & Page Preload < 2.1 - CSRF",
     "details": "The WP Performance Score Booster WordPress plugin before 2.1 does not have CSRF check when saving its settings, which could allow attackers to make a logged in admin change them via a CSRF attack.",
     "severity": [
         {

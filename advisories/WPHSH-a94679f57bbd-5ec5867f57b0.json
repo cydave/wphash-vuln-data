@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-0586"
     ],
-    "summary": "FIXME",
+    "summary": "Ultimate Member \u2013 User Profile, User Registration, Login & Membership Plugin < 2.0.4 - Path Traversal",
     "details": "Directory traversal vulnerability in the shortcodes function of Ultimate Member plugin prior to version 2.0.4 for WordPress allows remote authenticated attackers to read arbitrary files via unspecified vectors.",
     "severity": [
         {

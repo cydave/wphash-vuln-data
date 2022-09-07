@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-7667"
     ],
-    "summary": "FIXME",
+    "summary": "ResAds < 1.0.2 - Unauthenticated Cross-Site Scripting",
     "details": "Multiple cross-site scripting (XSS) vulnerabilities in (1) templates/admanagement/admanagement.php and (2) templates/adspot/adspot.php in the ResAds plugin before 1.0.2 for WordPress allow remote attackers to inject arbitrary web script or HTML via the page parameter.",
     "severity": [
         {

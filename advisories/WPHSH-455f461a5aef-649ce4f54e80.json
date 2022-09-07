@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-12346"
     ],
-    "summary": "FIXME",
+    "summary": "SAML Single Sign On \u2013 SSO Login < 4.8.73 - Unauthenticated Cross-Site Scripting",
     "details": "In the miniOrange SAML SP Single Sign On plugin before 4.8.73 for WordPress, the SAML Login Endpoint is vulnerable to XSS via a specially crafted SAMLResponse XML post.",
     "severity": [
         {

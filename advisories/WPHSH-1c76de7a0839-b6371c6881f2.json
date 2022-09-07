@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24442"
     ],
-    "summary": "FIXME",
+    "summary": "Poll, Survey, Questionnaire and Voting system < 1.5.3 - Unauthenticated SQL Injection",
     "details": "The Poll, Survey, Questionnaire and Voting system WordPress plugin before 1.5.3 did not sanitise, escape or validate the date_answers[] POST parameter before using it in a SQL statement when sending a Poll result, allowing unauthenticated users to perform SQL Injection attacks",
     "severity": [
         {

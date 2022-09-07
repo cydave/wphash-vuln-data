@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25016"
     ],
-    "summary": "FIXME",
+    "summary": "Floating Chat Widget: Contact Chat Icons, Telegram Chat, Line, WeChat, Email, SMS, Call Button \u2013 Chaty < 2.8.3 - Unauthenticated Cross-Site Scripting",
     "details": "The Chaty WordPress plugin before 2.8.3 and Chaty Pro WordPress plugin before 2.8.2 do not sanitise and escape the search parameter before outputting it back in the admin dashboard, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

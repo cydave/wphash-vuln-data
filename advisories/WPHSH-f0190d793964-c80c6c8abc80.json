@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0760"
     ],
-    "summary": "FIXME",
+    "summary": "Simple Link Directory < 7.7.2 - Unauthenticated SQL Injection",
     "details": "The Simple Link Directory WordPress plugin before 7.7.2 does not validate and escape the post_id parameter before using it in a SQL statement via the qcopd_upvote_action AJAX action (available to unauthenticated and authenticated users), leading to an unauthenticated SQL Injection",
     "severity": [
         {

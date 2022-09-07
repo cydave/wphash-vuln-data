@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-13643"
     ],
-    "summary": "FIXME",
+    "summary": "Page Builder by SiteOrigin < 2.10.16 - CSRF",
     "details": "An issue was discovered in the SiteOrigin Page Builder plugin before 2.10.16 for WordPress. The live editor feature did not do any nonce verification, allowing for requests to be forged on behalf of an administrator. The live_editor_panels_data $_POST variable allows for malicious JavaScript to be executed in the victim's browser.",
     "severity": [
         {

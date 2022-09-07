@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24974"
     ],
-    "summary": "FIXME",
+    "summary": "Product Feed PRO for WooCommerce < 11.0.7 - Cross-Site Scripting",
     "details": "The Product Feed PRO for WooCommerce WordPress plugin before 11.0.7 does not have authorisation and CSRF check in some of its AJAX actions, allowing any authenticated users to call then, which could lead to Stored Cross-Site Scripting issue (which will be triggered in the admin dashboard) due to the lack of escaping.",
     "severity": [
         {

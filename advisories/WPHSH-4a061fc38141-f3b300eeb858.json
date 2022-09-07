@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-5287"
     ],
-    "summary": "FIXME",
+    "summary": "GD Rating System < 2.3.1 - Unauthenticated Path Traversal",
     "details": "The GD Rating System plugin 2.3 for WordPress has Directory Traversal in the wp-admin/admin.php panel parameter for the gd-rating-system-about page.",
     "severity": [
         {

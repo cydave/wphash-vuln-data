@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-18546"
     ],
-    "summary": "FIXME",
+    "summary": "Jayj Quicktag < 1.3.2 - CSRF",
     "details": "The jayj-quicktag plugin before 1.3.2 for WordPress has CSRF.",
     "severity": [
         {

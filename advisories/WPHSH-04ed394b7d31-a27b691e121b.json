@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2013-5988"
     ],
-    "summary": "FIXME",
+    "summary": "All in One SEO \u2013 Best WordPress SEO Plugin \u2013 Easily Improve SEO Rankings & Increase Traffic < 2.0.3.1 - Unauthenticated Cross-Site Scripting",
     "details": "A Cross-site Scripting (XSS) vulnerability exists in the All in One SEO Pack plugin before 2.0.3.1 for WordPress via the Search parameter.",
     "severity": [
         {

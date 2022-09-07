@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24802"
     ],
-    "summary": "FIXME",
+    "summary": "Colorful Categories < 2.0.15 - CSRF",
     "details": "The Colorful Categories WordPress plugin before 2.0.15 does not enforce nonce checks which could allow attackers to make a logged in admin or editor change taxonomy colors via a CSRF attack",
     "severity": [
         {

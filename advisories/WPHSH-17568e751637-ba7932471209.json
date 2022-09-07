@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0448"
     ],
-    "summary": "FIXME",
+    "summary": "CP Blocks < 1.0.15 - Cross-Site Scripting",
     "details": "The CP Blocks WordPress plugin before 1.0.15 does not sanitise and escape its \"License ID\" settings, which could allow high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html is disallowed.",
     "severity": [
         {

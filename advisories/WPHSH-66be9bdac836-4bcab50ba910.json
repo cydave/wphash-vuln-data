@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2013-2109"
     ],
-    "summary": "FIXME",
+    "summary": "WP CleanFix < 3.0.2 - CSRF",
     "details": "WordPress plugin wp-cleanfix has Remote Code Execution",
     "severity": [
         {

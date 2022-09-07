@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-5767"
     ],
-    "summary": "FIXME",
+    "summary": "Email Subscribers & Newsletters \u2013 Simple and Effective Email Marketing WordPress Plugin < 4.5.1 - CSRF",
     "details": "Cross-site request forgery in Icegram Email Subscribers & Newsletters Plugin for WordPress v4.4.8 allows a remote attacker to send forged emails by tricking legitimate users into clicking a crafted link.",
     "severity": [
         {

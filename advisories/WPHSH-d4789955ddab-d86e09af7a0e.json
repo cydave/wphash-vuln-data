@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24888"
     ],
-    "summary": "FIXME",
+    "summary": "ImageBoss \u2013 Images Up To 60% Smaller & CDN < 3.0.6 - Cross-Site Scripting",
     "details": "The ImageBoss WordPress plugin before 3.0.6 does not sanitise and escape its Source Name setting, which could allow high privilege users to perform Cross-Site Scripting attacks",
     "severity": [
         {

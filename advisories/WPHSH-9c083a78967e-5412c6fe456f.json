@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-29408"
     ],
-    "summary": "FIXME",
+    "summary": "Advanced Contact form 7 DB < 1.8.8 - Unauthenticated Cross-Site Scripting",
     "details": "Persistent Cross-Site Scripting (XSS) vulnerability in Vsourz Digital's Advanced Contact form 7 DB plugin <= 1.8.7 at WordPress.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10988"
     ],
-    "summary": "FIXME",
+    "summary": "leenk.me < 2.6.0 - Unauthenticated Cross-Site Scripting",
     "details": "The leenkme plugin before 2.6.0 for WordPress has stored XSS via facebook_message, facebook_linkname, facebook_caption, facebook_description, default_image, or _wp_http_referer.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24143"
     ],
-    "summary": "FIXME",
+    "summary": "AccessPress Social Icons < 1.8.1 - SQL Injection",
     "details": "Unvalidated input in the AccessPress Social Icons plugin, versions before 1.8.1, did not sanitise its widget attribute, allowing accounts with post permission, such as author, to perform SQL injections.",
     "severity": [
         {

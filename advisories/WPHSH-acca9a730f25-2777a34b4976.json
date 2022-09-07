@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-10310"
     ],
-    "summary": "FIXME",
+    "summary": "Termly | GDPR/CCPA Cookie Consent Banner < 2.3.10 - Cross-Site Scripting",
     "details": "A persistent cross-site scripting vulnerability has been identified in the web interface of the Catapult UK Cookie Consent plugin before 2.3.10 for WordPress that allows the execution of arbitrary HTML/script code in the context of a victim's browser.",
     "severity": [
         {

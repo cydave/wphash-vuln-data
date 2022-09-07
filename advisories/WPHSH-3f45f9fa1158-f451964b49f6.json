@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-5972"
     ],
-    "summary": "FIXME",
+    "summary": "Online Lesson Booking < 0.8.7 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting vulnerability in Online Lesson Booking 0.8.6 and earlier allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.",
     "severity": [
         {

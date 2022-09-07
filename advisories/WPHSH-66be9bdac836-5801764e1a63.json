@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2013-2108"
     ],
-    "summary": "FIXME",
+    "summary": "WP CleanFix < 3.0.2 - CSRF",
     "details": "WordPress WP Cleanfix Plugin 2.4.4 has CSRF",
     "severity": [
         {

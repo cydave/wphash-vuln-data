@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-34660"
     ],
-    "summary": "FIXME",
+    "summary": "WP Fusion Lite \u2013 Marketing Automation for WordPress < 3.37.30 - Unauthenticated Cross-Site Scripting",
     "details": "The WP Fusion Lite WordPress plugin is vulnerable to Reflected Cross-Site Scripting via the startdate parameter found in the ~/includes/admin/logging/class-log-table-list.php file which allows attackers to inject arbitrary web scripts, in versions up to and including 3.37.18.",
     "severity": [
         {

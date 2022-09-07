@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0533"
     ],
-    "summary": "FIXME",
+    "summary": "Ditty \u2013 WordPress Ticker Plugin \u2013 Dynamic Content Display < 3.0.15 - Unauthenticated Cross-Site Scripting",
     "details": "The Ditty (formerly Ditty News Ticker) WordPress plugin before 3.0.15 is affected by a Reflected Cross-Site Scripting (XSS) vulnerability.",
     "severity": [
         {

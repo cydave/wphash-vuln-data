@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10762"
     ],
-    "summary": "FIXME",
+    "summary": "camptix < 1.5 - Unauthenticated Command Injection",
     "details": "The CampTix Event Ticketing plugin before 1.5 for WordPress allows CSV injection when the export tool is used.",
     "severity": [
         {

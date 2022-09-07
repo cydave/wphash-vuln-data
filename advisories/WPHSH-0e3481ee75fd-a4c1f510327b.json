@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15818"
     ],
-    "summary": "FIXME",
+    "summary": "Simple 301 Redirects \u2013 Addon \u2013 Bulk Uploader < 1.2.5 - Unauthenticated Open Redirect",
     "details": "The simple-301-redirects-addon-bulk-uploader plugin through 1.2.4 for WordPress has no requirement for authentication for action=bulk301export or action=bulk301clearlist.",
     "severity": [
         {

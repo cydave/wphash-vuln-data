@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10705"
     ],
-    "summary": "FIXME",
+    "summary": "Jetpack \u2013 WP Security, Backup, Speed, & Growth < 4.0.4 - Unauthenticated Cross-Site Scripting",
     "details": "The Jetpack plugin before 4.0.4 for WordPress has XSS via the Likes module.",
     "severity": [
         {

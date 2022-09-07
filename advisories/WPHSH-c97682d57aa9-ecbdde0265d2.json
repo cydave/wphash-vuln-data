@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24921"
     ],
-    "summary": "FIXME",
+    "summary": "Advanced Database Cleaner < 3.0.4 - Unauthenticated Cross-Site Scripting",
     "details": "The Advanced Database Cleaner WordPress plugin before 3.0.4 does not sanitise and escape $_GET keys and values before outputting them back in attributes, leading to Reflected Cross-Site Scripting issues",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-38337"
     ],
-    "summary": "FIXME",
+    "summary": "rsvpmaker-excel < 1.2 - Unauthenticated Cross-Site Scripting",
     "details": "The RSVPMaker Excel WordPress plugin is vulnerable to Reflected Cross-Site Scripting due to a reflected $_SERVER[\"PHP_SELF\"] value in the ~/phpexcel/PHPExcel/Shared/JAMA/docs/download.php file which allows attackers to inject arbitrary web scripts, in versions up to and including 1.1.",
     "severity": [
         {

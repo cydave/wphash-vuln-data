@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24936"
     ],
-    "summary": "FIXME",
+    "summary": "WP Extra File Types < 0.5.1 - CSRF",
     "details": "The WP Extra File Types WordPress plugin before 0.5.1 does not have CSRF check when saving its settings, nor sanitise and escape some of them, which could allow attackers to make a logged in admin change them and perform Cross-Site Scripting attacks",
     "severity": [
         {

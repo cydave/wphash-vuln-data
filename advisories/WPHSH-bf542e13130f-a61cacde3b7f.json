@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0875"
     ],
-    "summary": "FIXME",
+    "summary": "Login with TOTP (Google Authenticator, Microsoft Authenticator) < 1.0.5 - CSRF",
     "details": "The Google Authenticator WordPress plugin before 1.0.5 does not have CSRF check when saving its settings, and does not sanitise as well as escape them, allowing attackers to make a logged in admin change them and perform Cross-Site Scripting attacks",
     "severity": [
         {

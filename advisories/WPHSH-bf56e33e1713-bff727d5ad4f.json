@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-20734"
     ],
-    "summary": "FIXME",
+    "summary": "Welcart e-Commerce < 2.2.4 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting vulnerability in Welcart e-Commerce versions prior to 2.2.4 allows remote attackers to inject arbitrary script or HTML via unspecified vectors.",
     "severity": [
         {

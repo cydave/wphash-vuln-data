@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1187"
     ],
-    "summary": "FIXME",
+    "summary": "WP YouTube Live < 1.7.22 - Unauthenticated Cross-Site Scripting",
     "details": "The WordPress WP YouTube Live Plugin is vulnerable to Reflected Cross-Site Scripting via POST data found in the ~/inc/admin.php file which allows unauthenticated attackers to inject arbitrary web scripts in versions up to, and including, 1.7.21.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0879"
     ],
-    "summary": "FIXME",
+    "summary": "caldera-forms < 1.9.7 - Unauthenticated Cross-Site Scripting",
     "details": "The Caldera Forms WordPress plugin before 1.9.7 does not validate and escape the cf-api parameter before outputting it back in the response, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

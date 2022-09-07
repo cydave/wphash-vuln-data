@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24357"
     ],
-    "summary": "FIXME",
+    "summary": "Best WordPress Gallery Plugin \u2013 FooGallery < 2.0.35 - Cross-Site Scripting",
     "details": "In the Best Image Gallery & Responsive Photo Gallery \u00e2\u20ac\u201c FooGallery WordPress plugin before 2.0.35, the Custom CSS field of each gallery is not properly sanitised or validated before being being output in the page where the gallery is embed, leading to a stored Cross-Site Scripting issue.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24529"
     ],
-    "summary": "FIXME",
+    "summary": "Grid Gallery \u2013 Photo Image Grid Gallery < 1.2.5 - Cross-Site Scripting",
     "details": "The Grid Gallery \u00e2\u20ac\u201c Photo Image Grid Gallery WordPress plugin before 1.2.5 does not properly sanitize the title field for image galleries when adding them via the admin dashboard, resulting in an authenticated Stored Cross-Site Scripting vulnerability.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25066"
     ],
-    "summary": "FIXME",
+    "summary": "Ninja Forms Contact Form \u2013 The Drag and Drop Form Builder for WordPress < 3.6.11 - Cross-Site Scripting",
     "details": "The Ninja Forms Contact Form WordPress plugin before 3.6.10 does not sanitize and escape some imported data, allowing high privilege users to perform Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed.",
     "severity": [
         {

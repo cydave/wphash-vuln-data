@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-18571"
     ],
-    "summary": "FIXME",
+    "summary": "Search Everything < 8.1.7 - Unauthenticated SQL Injection",
     "details": "The search-everything plugin before 8.1.7 for WordPress has SQL injection related to WordPress 4.7.x, a different vulnerability than CVE-2014-2316.",
     "severity": [
         {

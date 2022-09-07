@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9321"
     ],
-    "summary": "FIXME",
+    "summary": "shortcode-factory < 1.1.1 - Unauthenticated Cross-Site Scripting",
     "details": "The shortcode-factory plugin before 1.1.1 for WordPress has XSS via add_query_arg.",
     "severity": [
         {

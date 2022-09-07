@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2011-5329"
     ],
-    "summary": "FIXME",
+    "summary": "Redirection < 2.2.9 - Unauthenticated Cross-Site Scripting",
     "details": "The redirection plugin before 2.2.9 for WordPress has XSS in the admin menu, a different issue than CVE-2011-4562.",
     "severity": [
         {

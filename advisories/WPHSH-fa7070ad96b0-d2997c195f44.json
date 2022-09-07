@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24743"
     ],
-    "summary": "FIXME",
+    "summary": "Podcast Subscribe Buttons < 1.4.2 - Cross-Site Scripting",
     "details": "The Podcast Subscribe Buttons WordPress plugin before 1.4.2 allows users with any role capable of editing or adding posts to perform stored XSS.",
     "severity": [
         {

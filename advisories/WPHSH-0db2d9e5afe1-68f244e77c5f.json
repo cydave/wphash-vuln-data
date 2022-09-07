@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0147"
     ],
-    "summary": "FIXME",
+    "summary": "Cookie Information | Free GDPR Consent Solution < 2.0.8 - Unauthenticated Cross-Site Scripting",
     "details": "The Cookie Information | Free GDPR Consent Solution WordPress plugin before 2.0.8 does not escape user data before outputting it back in attributes in the admin dashboard, leading to a Reflected Cross-Site Scripting issue",
     "severity": [
         {

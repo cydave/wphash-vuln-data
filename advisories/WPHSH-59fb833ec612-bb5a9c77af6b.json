@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10890"
     ],
-    "summary": "FIXME",
+    "summary": "Activity Log < 2.3.2 - Unauthenticated Cross-Site Scripting",
     "details": "The aryo-activity-log plugin before 2.3.2 for WordPress has XSS.",
     "severity": [
         {

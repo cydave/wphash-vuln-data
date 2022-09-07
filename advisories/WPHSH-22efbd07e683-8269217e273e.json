@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-20966"
     ],
-    "summary": "FIXME",
+    "summary": "Booster for WooCommerce < 3.8.0 - Unauthenticated Cross-Site Scripting",
     "details": "The woocommerce-jetpack plugin before 3.8.0 for WordPress has XSS in the Products Per Page feature.",
     "severity": [
         {

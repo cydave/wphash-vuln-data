@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-17515"
     ],
-    "summary": "FIXME",
+    "summary": "Spam protection, AntiSpam, FireWall by CleanTalk < 5.127.4 - Unauthenticated Cross-Site Scripting",
     "details": "The CleanTalk cleantalk-spam-protect plugin before 5.127.4 for WordPress is affected by: Cross Site Scripting (XSS). The impact is: Allows an attacker to execute arbitrary HTML and JavaScript code via the from or till parameter. The component is: inc/cleantalk-users.php and inc/cleantalk-comments.php. The attack vector is: When the Administrator is logged in, a reflected XSS may execute upon a click on a malicious URL.",
     "severity": [
         {

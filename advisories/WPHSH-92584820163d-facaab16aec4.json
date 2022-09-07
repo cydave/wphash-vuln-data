@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24637"
     ],
-    "summary": "FIXME",
+    "summary": "Fonts Plugin | Google Fonts Typography < 3.0.3 - Cross-Site Scripting",
     "details": "The Google Fonts Typography WordPress plugin before 3.0.3 does not escape and sanitise some of its block settings, allowing users with as role as low as Contributor to perform Stored Cross-Site Scripting attacks via blockType (combined with content), align, color, variant and fontID argument of a Gutenberg block.",
     "severity": [
         {

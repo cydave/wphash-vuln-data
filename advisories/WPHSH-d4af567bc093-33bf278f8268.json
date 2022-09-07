@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-16159"
     ],
-    "summary": "FIXME",
+    "summary": "Gift Cards (Gift Vouchers and Packages) (WooCommerce Supported) < 4.1.8 - Unauthenticated SQL Injection",
     "details": "The Gift Vouchers plugin through 2.0.1 for WordPress allows SQL Injection via the template_id parameter in a wp-admin/admin-ajax.php wpgv_doajax_front_template request.",
     "severity": [
         {

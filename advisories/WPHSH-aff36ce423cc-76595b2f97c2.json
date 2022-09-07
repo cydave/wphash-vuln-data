@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24926"
     ],
-    "summary": "FIXME",
+    "summary": "Domain Check < 1.0.17 - Unauthenticated Cross-Site Scripting",
     "details": "The Domain Check WordPress plugin before 1.0.17 does not sanitise and escape the domain parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting issue",
     "severity": [
         {

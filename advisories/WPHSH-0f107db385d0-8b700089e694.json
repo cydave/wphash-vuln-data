@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24234"
     ],
-    "summary": "FIXME",
+    "summary": "Ivory Search \u2013 WordPress Search Plugin < 4.6.1 - Unauthenticated Cross-Site Scripting",
     "details": "The Search Forms page of the Ivory Search WordPress lugin before 4.6.1 did not properly sanitise the tab parameter before output it in the page, leading to a reflected Cross-Site Scripting issue when opening a malicious crafted link as a high privilege user. Knowledge of a form id is required to conduct the attack.",
     "severity": [
         {

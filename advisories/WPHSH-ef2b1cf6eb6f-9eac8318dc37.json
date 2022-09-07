@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24590"
     ],
-    "summary": "FIXME",
+    "summary": "Cookie Notice & Consent Banner for\u00a0GDPR & CCPA Compliance < 1.7.2 - Cross-Site Scripting",
     "details": "The Cookie Notice & Consent Banner for GDPR & CCPA Compliance WordPress plugin before 1.7.2 does not properly sanitize inputs to prevent injection of arbitrary HTML within the plugin's design customization options.",
     "severity": [
         {

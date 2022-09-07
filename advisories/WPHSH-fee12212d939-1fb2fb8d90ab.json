@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24430"
     ],
-    "summary": "FIXME",
+    "summary": "Speed Booster Pack \u26a1 PageSpeed Optimization Suite < 4.2.0 - Code Injection",
     "details": "The Speed Booster Pack \u00e2\u0161\u00a1 PageSpeed Optimization Suite WordPress plugin before 4.2.0 did not validate its caching_exclude_urls and caching_include_query_strings settings before outputting them in a PHP file, which could lead to RCE",
     "severity": [
         {

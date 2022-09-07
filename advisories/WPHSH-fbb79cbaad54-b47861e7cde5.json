@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-36833"
     ],
-    "summary": "FIXME",
+    "summary": "MC4WP: Mailchimp for WordPress < 4.8.7 - Cross-Site Scripting",
     "details": "Authenticated (admin or higher user role) Stored Cross-Site Scripting (XSS) vulnerability in ibericode's MC4WP plugin <= 4.8.6 at WordPress.",
     "severity": [
         {

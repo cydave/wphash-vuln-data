@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-19287"
     ],
-    "summary": "FIXME",
+    "summary": "Ninja Forms Contact Form \u2013 The Drag and Drop Form Builder for WordPress < 3.3.18 - Unauthenticated Cross-Site Scripting",
     "details": "XSS in the Ninja Forms plugin before 3.3.18 for WordPress allows Remote Attackers to execute JavaScript via the includes/Admin/Menus/Submissions.php (aka submissions page) begin_date, end_date, or form_id parameter.",
     "severity": [
         {

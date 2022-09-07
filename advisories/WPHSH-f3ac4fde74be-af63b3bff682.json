@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25111"
     ],
-    "summary": "FIXME",
+    "summary": "english-wp-admin < 1.5.2 - Unauthenticated Open Redirect",
     "details": "The English WordPress Admin WordPress plugin before 1.5.2 does not validate the admin_custom_language_return_url before redirecting users o it, leading to an open redirect issue",
     "severity": [
         {

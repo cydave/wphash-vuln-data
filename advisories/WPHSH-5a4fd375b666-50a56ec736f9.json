@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10992"
     ],
-    "summary": "FIXME",
+    "summary": "Music Store \u2013 WordPress eCommerce < 1.0.43 - Unauthenticated Cross-Site Scripting",
     "details": "The music-store plugin before 1.0.43 for WordPress has XSS via the wp-admin/admin.php?page=music-store-menu-reports from_year parameter.",
     "severity": [
         {

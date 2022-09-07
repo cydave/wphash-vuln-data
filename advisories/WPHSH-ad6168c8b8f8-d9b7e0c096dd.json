@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1541"
     ],
-    "summary": "FIXME",
+    "summary": "Video Slider \u2013 Slider Carousel < 1.4.8 - Cross-Site Scripting",
     "details": "The Video Slider WordPress plugin before 1.4.8 does not sanitize or escape some of its video settings, which could allow high-privileged users to perform Cross-Site Scripting attacks even when unfiltered_html is disallowed",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1220"
     ],
-    "summary": "FIXME",
+    "summary": "FoxyShop < 4.8.2 - Unauthenticated Cross-Site Scripting",
     "details": "The FoxyShop WordPress plugin before 4.8.2 does not sanitise and escape a parameter before outputting it back in an admin page, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

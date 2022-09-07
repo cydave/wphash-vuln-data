@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-14948"
     ],
-    "summary": "FIXME",
+    "summary": "PPOM for WooCommerce < 18.4 - Cross-Site Scripting",
     "details": "The woocommerce-product-addon plugin before 18.4 for WordPress has XSS via an import of a new meta data structure.",
     "severity": [
         {

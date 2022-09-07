@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24773"
     ],
-    "summary": "FIXME",
+    "summary": "Download Manager < 3.2.16 - Cross-Site Scripting",
     "details": "The WordPress Download Manager WordPress plugin before 3.2.16 does not escape some of the Download settings when outputting them, allowing high privilege users to perform XSS attacks even when the unfiltered_html capability is disallowed",
     "severity": [
         {

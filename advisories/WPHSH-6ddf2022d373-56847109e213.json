@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-5057"
     ],
-    "summary": "FIXME",
+    "summary": "Broken Link Checker < 1.10.9 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting (XSS) vulnerability exists in the Wordpress admin panel when the Broken Link Checker plugin before 1.10.9 is installed.",
     "severity": [
         {

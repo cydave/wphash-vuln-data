@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24483"
     ],
-    "summary": "FIXME",
+    "summary": "Poll Maker \u2013 Best WordPress Poll Plugin < 3.2.1 - SQL Injection",
     "details": "The get_poll_categories(), get_polls() and get_reports() functions in the Poll Maker WordPress plugin before 3.2.1 did not use whitelist or validate the orderby parameter before using it in SQL statements passed to the get_results() DB calls, leading to SQL injection issues in the admin dashboard",
     "severity": [
         {

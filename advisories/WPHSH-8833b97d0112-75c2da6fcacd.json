@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-12054"
     ],
-    "summary": "FIXME",
+    "summary": "Catch Breadcrumb < 1.5.7 - Unauthenticated Cross-Site Scripting",
     "details": "The Catch Breadcrumb plugin before 1.5.4 for WordPress allows Reflected XSS via the s parameter (a search query). Also affected are 16 themes (if the plugin is enabled) by the same author: Alchemist and Alchemist PRO, Izabel and Izabel PRO, Chique and Chique PRO, Clean Enterprise and Clean Enterprise PRO, Bold Photography PRO, Intuitive PRO, Devotepress PRO, Clean Blocks PRO, Foodoholic PRO, Catch Mag PRO, Catch Wedding PRO, and Higher Education PRO.",
     "severity": [
         {

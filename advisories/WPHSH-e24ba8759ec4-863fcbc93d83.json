@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-18499"
     ],
-    "summary": "FIXME",
+    "summary": "Simple Membership < 3.5.7 - Unauthenticated Cross-Site Scripting",
     "details": "The simple-membership plugin before 3.5.7 for WordPress has XSS.",
     "severity": [
         {

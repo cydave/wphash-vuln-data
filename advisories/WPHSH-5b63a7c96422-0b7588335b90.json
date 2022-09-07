@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-5974"
     ],
-    "summary": "FIXME",
+    "summary": "Contest Gallery \u2013 Files Upload and Contest Plugin for WordPress < 10.4.5 - CSRF",
     "details": "Cross-site request forgery (CSRF) vulnerability in Contest Gallery versions prior to 10.4.5 allows remote attackers to hijack the authentication of administrators via unspecified vectors.",
     "severity": [
         {

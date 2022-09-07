@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-5642"
     ],
-    "summary": "FIXME",
+    "summary": "Live Chat \u2013 Live support by onWebChat < 3.2.0 - CSRF",
     "details": "Cross-site request forgery (CSRF) vulnerability in Live Chat - Live support version 3.1.0 and earlier allows remote attackers to hijack the authentication of administrators via unspecified vectors.",
     "severity": [
         {

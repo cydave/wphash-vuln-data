@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2013-7476"
     ],
-    "summary": "FIXME",
+    "summary": "simple-fields < 1.2 - CSRF",
     "details": "The simple-fields plugin before 1.2 for WordPress has CSRF in the admin interface.",
     "severity": [
         {

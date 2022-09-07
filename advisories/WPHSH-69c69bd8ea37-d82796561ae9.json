@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9374"
     ],
-    "summary": "FIXME",
+    "summary": "ithemes-exchange < 1.12.0 - Unauthenticated Cross-Site Scripting",
     "details": "Stripe Add-on for iThemes Exchange before 1.2.0 for WordPress has XSS via add_query_arg() and remove_query_arg().",
     "severity": [
         {

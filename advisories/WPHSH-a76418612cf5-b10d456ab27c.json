@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25076"
     ],
-    "summary": "FIXME",
+    "summary": "WP User Frontend \u2013 Membership, Profile, Registration & Post Submission Plugin for WordPress < 3.5.26 - SQL Injection",
     "details": "The WP User Frontend WordPress plugin before 3.5.26 does not validate and escape the status parameter before using it in a SQL statement in the Subscribers dashboard, leading to an SQL injection. Due to the lack of sanitisation and escaping, this could also lead to Reflected Cross-Site Scripting",
     "severity": [
         {

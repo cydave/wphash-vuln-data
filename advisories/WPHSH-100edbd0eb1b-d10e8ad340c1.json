@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1005"
     ],
-    "summary": "FIXME",
+    "summary": "WP Statistics < 13.2.2 - Unauthenticated Cross-Site Scripting",
     "details": "The WP Statistics WordPress plugin before 13.2.2 does not sanitise the REQUEST_URI parameter before outputting it back in the rendered page, leading to Cross-Site Scripting (XSS) in web browsers which do not encode characters",
     "severity": [
         {

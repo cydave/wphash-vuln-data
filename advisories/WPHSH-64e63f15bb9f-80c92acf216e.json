@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25121"
     ],
-    "summary": "FIXME",
+    "summary": "Rating by BestWebSoft < 1.6 - Wrap or Wraparound",
     "details": "The Rating by BestWebSoft WordPress plugin before 1.6 does not validate the submitted rating, allowing submission of long integer, causing a Denial of Service on the post/page when a user submit such rating",
     "severity": [
         {

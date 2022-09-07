@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0255"
     ],
-    "summary": "FIXME",
+    "summary": "Database Backup for WordPress < 2.5.1 - SQL Injection",
     "details": "The Database Backup for WordPress plugin before 2.5.1 does not properly sanitise and escape the fragment parameter before using it in a SQL statement in the admin dashboard, leading to a SQL injection issue",
     "severity": [
         {

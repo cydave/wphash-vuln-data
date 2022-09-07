@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-9003"
     ],
-    "summary": "FIXME",
+    "summary": "Customizable WordPress Gallery Plugin \u2013 Modula Image Gallery < 2.2.5 - Cross-Site Scripting",
     "details": "A stored XSS vulnerability exists in the Modula Image Gallery plugin before 2.2.5 for WordPress. Successful exploitation of this vulnerability would allow an authenticated low-privileged user to inject arbitrary JavaScript code that is viewed by other users.",
     "severity": [
         {

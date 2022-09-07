@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25021"
     ],
-    "summary": "FIXME",
+    "summary": "OMGF | GDPR Compliant, Faster Google Fonts. Easy. < 4.5.12 - Path Traversal",
     "details": "The OMGF | Host Google Fonts Locally WordPress plugin before 4.5.12 does not validate the cache directory setting, allowing high privilege users to use a path traversal vector and delete arbitrary folders when uninstalling the plugin",
     "severity": [
         {

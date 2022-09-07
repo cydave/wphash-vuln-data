@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-6850"
     ],
-    "summary": "FIXME",
+    "summary": "SAML Single Sign On \u2013 SSO Login < 4.8.84 - Unauthenticated Cross-Site Scripting",
     "details": "Utilities.php in the miniorange-saml-20-single-sign-on plugin before 4.8.84 for WordPress allows XSS via a crafted SAML XML Response to wp-login.php. This is related to the SAMLResponse and RelayState variables, and the Destination parameter of the samlp:Response XML element.",
     "severity": [
         {
@@ -78,9 +78,7 @@
                 "4.8.26",
                 "4.8.25",
                 "4.8.24",
-                "4.8.23",
-                "Version 3.1 - Bug fixes in auto registration",
-                "Version 3.0 - Removed miniOrange dependency"
+                "4.8.23"
             ]
         }
     ],

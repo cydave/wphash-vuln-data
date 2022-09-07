@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24603"
     ],
-    "summary": "FIXME",
+    "summary": "Site Reviews < 5.13.1 - Cross-Site Scripting",
     "details": "The Site Reviews WordPress plugin before 5.13.1 does not sanitise some of its Review Details when adding a review as an admin, which could allow them to perform Cross-Site Scripting attacks when the unfiltered_html is disallowed",
     "severity": [
         {

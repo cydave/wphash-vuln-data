@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9312"
     ],
-    "summary": "FIXME",
+    "summary": "NewStatPress < 1.0.6 - Unauthenticated Cross-Site Scripting",
     "details": "The newstatpress plugin before 1.0.5 for WordPress has XSS related to an IMG element.",
     "severity": [
         {

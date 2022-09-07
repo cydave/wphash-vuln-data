@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-1000137"
     ],
-    "summary": "FIXME",
+    "summary": "hero-maps-pro < 2.1.1 - Unauthenticated Cross-Site Scripting",
     "details": "Reflected XSS in wordpress plugin hero-maps-pro v2.1.0",
     "severity": [
         {

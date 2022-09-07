@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-12696"
     ],
-    "summary": "FIXME",
+    "summary": "iframe < 4.5 - Unauthenticated Cross-Site Scripting",
     "details": "The iframe plugin before 4.5 for WordPress does not sanitize a URL.",
     "severity": [
         {

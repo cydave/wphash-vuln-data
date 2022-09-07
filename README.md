@@ -12,8 +12,10 @@ for all.
 
 ## Quality / State of the data
 
-This repo includes both user contributed and publicly available vulnerability data and as such varies in both accuracy and quality.
-The affected version numbers are unfortunately quite a pain to get right, if you stumble upon invalid data feel free to contribute!
+This repo includes both user contributed and publicly available vulnerability
+data and as such varies in both accuracy and quality. The affected version
+numbers are unfortunately quite a pain to get right, if you stumble upon
+invalid data feel free to contribute!
 
 
 ## Contributing

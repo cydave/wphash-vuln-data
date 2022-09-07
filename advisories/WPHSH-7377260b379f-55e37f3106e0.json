@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-29455"
     ],
-    "summary": "FIXME",
+    "summary": "Elementor Website Builder < 3.5.6 - Unauthenticated Cross-Site Scripting",
     "details": "DOM-based Reflected Cross-Site Scripting (XSS) vulnerability in Elementor's Elementor Website Builder plugin <= 3.5.5 versions.",
     "severity": [
         {

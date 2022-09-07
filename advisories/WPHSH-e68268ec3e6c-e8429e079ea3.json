@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25053"
     ],
-    "summary": "FIXME",
+    "summary": "WP Coder \u2013 add custom html, css and js code < 2.5.2 - CSRF",
     "details": "The WP Coder WordPress plugin before 2.5.2 within the wow-company admin menu page allows to include() arbitrary file with PHP extension (as well as with data:// or http:// protocols), thus leading to CSRF RCE.",
     "severity": [
         {

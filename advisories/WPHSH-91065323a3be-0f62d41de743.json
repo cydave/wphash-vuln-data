@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24300"
     ],
-    "summary": "FIXME",
+    "summary": "PickPlugins Product Slider for WooCommerce < 1.13.22 - Unauthenticated Cross-Site Scripting",
     "details": "The slider import search feature of the PickPlugins Product Slider for WooCommerce WordPress plugin before 1.13.22 did not properly sanitised the keyword GET parameter, leading to reflected Cross-Site Scripting issue",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24849"
     ],
-    "summary": "FIXME",
+    "summary": "WCFM Marketplace \u2013 Best Multivendor Marketplace for WooCommerce < 3.4.12 - Unauthenticated SQL Injection",
     "details": "The wcfm_ajax_controller AJAX action of the WCFM Marketplace WordPress plugin before 3.4.12, available to unauthenticated and authenticated user, does not properly sanitise multiple parameters before using them in SQL statements, leading to SQL injections",
     "severity": [
         {

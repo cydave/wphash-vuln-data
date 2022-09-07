@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-17584"
     ],
-    "summary": "FIXME",
+    "summary": "WP Fastest Cache < 0.8.8.6 - CSRF",
     "details": "The WP Fastest Cache plugin 0.8.8.5 for WordPress has CSRF via the wp-admin/admin.php wpfastestcacheoptions page.",
     "severity": [
         {

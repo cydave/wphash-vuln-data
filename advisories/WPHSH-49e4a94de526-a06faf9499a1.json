@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9319"
     ],
-    "summary": "FIXME",
+    "summary": "gregs-high-performance-seo < 1.6.2 - Unauthenticated Cross-Site Scripting",
     "details": "The gregs-high-performance-seo plugin before 1.6.2 for WordPress has XSS in the context of an old browser.",
     "severity": [
         {

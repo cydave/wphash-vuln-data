@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24575"
     ],
-    "summary": "FIXME",
+    "summary": "School Management System \u2013 WPSchoolPress < 2.1.10 - SQL Injection",
     "details": "The School Management System \u00e2\u20ac\u201c WPSchoolPress WordPress plugin before 2.1.10 does not properly sanitize or use prepared statements before using POST variable in SQL queries, leading to SQL injection in multiple actions available to various authenticated users, from simple subscribers/students to teachers and above.",
     "severity": [
         {

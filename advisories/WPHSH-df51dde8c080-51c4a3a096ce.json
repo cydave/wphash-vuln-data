@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1788"
     ],
-    "summary": "FIXME",
+    "summary": "change-uploaded-file-permissions < 5.0.0 - CSRF",
     "details": "Due to missing checks the Change Uploaded File Permissions WordPress plugin through 4.0.0 is vulnerable to CSRF attacks. This can be used to change the file and folder permissions of any folder. This could be problematic when specific files like ini files are made readable for everyone due to this.",
     "severity": [
         {

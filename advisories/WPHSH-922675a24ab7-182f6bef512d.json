@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-36172"
     ],
-    "summary": "FIXME",
+    "summary": "Advanced Custom Fields < 5.8.12 - Unauthenticated Cross-Site Scripting",
     "details": "The Advanced Custom Fields plugin before 5.8.12 for WordPress mishandles the escaping of strings in Select2 dropdowns, potentially leading to XSS.",
     "severity": [
         {

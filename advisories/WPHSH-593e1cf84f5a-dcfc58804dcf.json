@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9497"
     ],
-    "summary": "FIXME",
+    "summary": "Ad Inserter \u2013 Ad Manager & AdSense Ads < 1.5.3 - CSRF",
     "details": "The ad-inserter plugin before 1.5.3 for WordPress has CSRF with resultant XSS via wp-admin/options-general.php?page=ad-inserter.php.",
     "severity": [
         {

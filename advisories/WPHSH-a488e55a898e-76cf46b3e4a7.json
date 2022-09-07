@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0840"
     ],
-    "summary": "FIXME",
+    "summary": "Easy Social Icons < 3.2.1 - Cross-Site Scripting",
     "details": "The Easy Social Icons WordPress plugin before 3.2.1 does not properly escape the image_file field when adding a new social icon, allowing high privileged users to inject arbitrary javascript even when the unfiltered_html capability is disallowed.",
     "severity": [
         {

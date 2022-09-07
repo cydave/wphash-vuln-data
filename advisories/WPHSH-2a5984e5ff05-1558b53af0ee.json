@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15833"
     ],
-    "summary": "FIXME",
+    "summary": "simple-mail-address-encoder < 1.7 - Unauthenticated Cross-Site Scripting",
     "details": "The simple-mail-address-encoder plugin before 1.7 for WordPress has reflected XSS.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9493"
     ],
-    "summary": "FIXME",
+    "summary": "My Wish List < 1.4.2 - Unauthenticated Cross-Site Scripting",
     "details": "The my-wish-list plugin before 1.4.2 for WordPress has multiple XSS issues.",
     "severity": [
         {

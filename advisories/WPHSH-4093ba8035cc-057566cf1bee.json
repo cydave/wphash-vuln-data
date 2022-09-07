@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24954"
     ],
-    "summary": "FIXME",
+    "summary": "Paid Membership, User Registration, User Profile & Restrict Content Plugin \u2013 ProfilePress < 3.2.3 - Unauthenticated Cross-Site Scripting",
     "details": "The User Registration, Login Form, User Profile & Membership WordPress plugin before 3.2.3 does not sanitise and escape the ppress_cc_data parameter before outputting it back in an attribute of an admin dashboard page, leading to a Reflected Cross-Site Scripting issue",
     "severity": [
         {

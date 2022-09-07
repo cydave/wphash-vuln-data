@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15781"
     ],
-    "summary": "FIXME",
+    "summary": "Social LikeBox & Feed < 2.8.5 - CSRF",
     "details": "The facebook-by-weblizar plugin before 2.8.5 for WordPress has CSRF.",
     "severity": [
         {

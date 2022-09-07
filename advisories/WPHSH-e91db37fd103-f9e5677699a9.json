@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24832"
     ],
-    "summary": "FIXME",
+    "summary": "WP SEO Redirect 301 < 2.3.2 - CSRF",
     "details": "The WP SEO Redirect 301 WordPress plugin before 2.3.2 does not have CSRF in place when deleting redirects, which could allow attackers to make a logged in admin delete them via a CSRF attack",
     "severity": [
         {

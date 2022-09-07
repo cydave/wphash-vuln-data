@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-23209"
     ],
-    "summary": "FIXME",
+    "summary": "AMP for WP \u2013 Accelerated Mobile Pages < 1.0.77.33 - Cross-Site Scripting",
     "details": "Multiple Authenticated (admin user role) Persistent Cross-Site Scripting (XSS) vulnerabilities discovered in AMP for WP \u2013 Accelerated Mobile Pages WordPress plugin (versions <= 1.0.77.32).",
     "severity": [
         {

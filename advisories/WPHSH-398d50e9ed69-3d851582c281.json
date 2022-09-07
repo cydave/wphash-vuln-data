@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24758"
     ],
-    "summary": "FIXME",
+    "summary": "Email Log < 2.4.7 - SQL Injection",
     "details": "The Email Log WordPress plugin before 2.4.7 does not properly validate, sanitise and escape the \"orderby\" and \"order\" GET parameters before using them in SQL statement in the admin dashboard, leading to SQL injections",
     "severity": [
         {

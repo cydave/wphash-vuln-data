@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2014-8758"
     ],
-    "summary": "FIXME",
+    "summary": "gallery-bank < 3.0.70 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting (XSS) vulnerability in Best Gallery Albums Plugin before 3.0.70for WordPress allows remote attackers to inject arbitrary web script or HTML via the order_id parameter in the gallery_album_sorting page to wp-admin/admin.php.",
     "severity": [
         {

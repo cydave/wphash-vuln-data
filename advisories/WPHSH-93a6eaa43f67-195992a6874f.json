@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-13635"
     ],
-    "summary": "FIXME",
+    "summary": "WP Fastest Cache < 0.8.9.6 - Unauthenticated Path Traversal",
     "details": "The WP Fastest Cache plugin through 0.8.9.5 for WordPress allows wpFastestCache.php and inc/cache.php Directory Traversal.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24267"
     ],
-    "summary": "FIXME",
+    "summary": "All-in-One Addons for Elementor \u2013 WidgetKit < 2.3.10 - Cross-Site Scripting",
     "details": "The \u201cAll-in-One Addons for Elementor \u2013 WidgetKit\u201d WordPress Plugin before 2.3.10 has several widgets that are vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.",
     "severity": [
         {

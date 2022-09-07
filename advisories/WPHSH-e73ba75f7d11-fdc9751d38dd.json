@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10763"
     ],
-    "summary": "FIXME",
+    "summary": "camptix < 1.5 - Cross-Site Scripting",
     "details": "The CampTix Event Ticketing plugin before 1.5 for WordPress allows XSS in the admin section via a ticket title or body.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-24663"
     ],
-    "summary": "FIXME",
+    "summary": "PHP Everywhere < 3.0.0 - Code Injection",
     "details": "PHP Everywhere <= 2.0.3 included functionality that allowed execution of PHP Code Snippets via WordPress shortcodes, which can be used by any authenticated user.",
     "severity": [
         {

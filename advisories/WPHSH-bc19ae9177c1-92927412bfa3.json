@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24889"
     ],
-    "summary": "FIXME",
+    "summary": "Ninja Forms Contact Form \u2013 The Drag and Drop Form Builder for WordPress < 3.6.4 - SQL Injection",
     "details": "The Ninja Forms Contact Form WordPress plugin before 3.6.4 does not escape keys of the fields POST parameter, which could allow high privilege users to perform SQL injections attacks",
     "severity": [
         {

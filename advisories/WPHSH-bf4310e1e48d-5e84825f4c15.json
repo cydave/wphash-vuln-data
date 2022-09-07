@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-27615"
     ],
-    "summary": "FIXME",
+    "summary": "Loginizer < 1.6.4 - Unauthenticated SQL Injection",
     "details": "The Loginizer plugin before 1.6.4 for WordPress allows SQL injection (with resultant XSS), related to loginizer_login_failed and lz_valid_ip.",
     "severity": [
         {

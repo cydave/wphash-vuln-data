@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24745"
     ],
-    "summary": "FIXME",
+    "summary": "About Author Box < 1.0.2 - Cross-Site Scripting",
     "details": "The About Author Box WordPress plugin before 1.0.2 does not sanitise and escape the Social Profiles field values before outputting them in attributes, which could allow user with a role as low as contributor to perform Cross-Site Scripting attacks.",
     "severity": [
         {

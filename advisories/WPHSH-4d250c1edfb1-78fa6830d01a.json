@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-25605"
     ],
-    "summary": "FIXME",
+    "summary": "WP-DownloadManager < 1.68.7 - Cross-Site Scripting",
     "details": "Multiple Authenticated Stored Cross-Site Scripting (XSS) vulnerabilities discovered in WP-DownloadManager WordPress plugin (versions <= 1.68.6). Vvulnerable parameters &download_path, &download_path_url, &download_page_url.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-11515"
     ],
-    "summary": "FIXME",
+    "summary": "wpForo Forum < 1.4.11 - Unauthenticated SQL Injection",
     "details": "The wpForo plugin through 2018-02-05 for WordPress has SQL Injection via a search with the /forum/ wpfo parameter.",
     "severity": [
         {

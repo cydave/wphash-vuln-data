@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24332"
     ],
-    "summary": "FIXME",
+    "summary": "Autoptimize < 2.8.4 - Cross-Site Scripting",
     "details": "The Autoptimize WordPress plugin before 2.8.4 was missing proper escaping and sanitisation in some of its settings, allowing high privilege users to set XSS payloads in them, leading to stored Cross-Site Scripting issues",
     "severity": [
         {

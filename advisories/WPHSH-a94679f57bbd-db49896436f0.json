@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24306"
     ],
-    "summary": "FIXME",
+    "summary": "Ultimate Member \u2013 User Profile, User Registration, Login & Membership Plugin < 2.1.20 - Cross-Site Scripting",
     "details": "The Ultimate Member \u00e2\u20ac\u201c User Profile, User Registration, Login & Membership Plugin WordPress plugin before 2.1.20 did not properly sanitise, validate or encode the query string when generating a link to edit user's own profile, leading to an authenticated reflected Cross-Site Scripting issue. Knowledge of the targeted username is required to exploit this, and attackers would then need to make the related logged in user open a malicious link.",
     "severity": [
         {

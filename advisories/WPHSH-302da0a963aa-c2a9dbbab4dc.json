@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-6167"
     ],
-    "summary": "FIXME",
+    "summary": "Minimal Coming Soon \u2013 Coming Soon Page < 2.15 - CSRF",
     "details": "A flaw in the WordPress plugin, Minimal Coming Soon & Maintenance Mode through 2.10, allows a CSRF attack to enable maintenance mode, inject XSS, modify several important settings, or include remote files as a logo.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-4826"
     ],
-    "summary": "FIXME",
+    "summary": "Welcart e-Commerce < 1.8.3 - Unauthenticated Cross-Site Scripting",
     "details": "Cross-site scripting (XSS) vulnerability in the Collne Welcart e-Commerce plugin before 1.8.3 for WordPress allows remote attackers to inject arbitrary web script or HTML via unspecified vectors, a different vulnerability than CVE-2016-4827.",
     "severity": [
         {

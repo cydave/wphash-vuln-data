@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-7791"
     ],
-    "summary": "FIXME",
+    "summary": "Welcart e-Commerce < 1.5.3 - SQL Injection",
     "details": "Multiple SQL injection vulnerabilities in admin.php in the Collne Welcart plugin before 1.5.3 for WordPress allow remote authenticated users to execute arbitrary SQL commands via the (1) search[column] or (2) switch parameter.",
     "severity": [
         {

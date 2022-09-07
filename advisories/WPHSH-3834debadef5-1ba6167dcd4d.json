@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-1000217"
     ],
-    "summary": "FIXME",
+    "summary": "Zotpress < 6.1.3 - Unauthenticated SQL Injection",
     "details": "Zotpress plugin for WordPress SQLi in zp_get_account()",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10977"
     ],
-    "summary": "FIXME",
+    "summary": "Nelio AB Testing < 4.5.0 - Path Traversal",
     "details": "The nelio-ab-testing plugin before 4.5.0 for WordPress has filename=..%2f directory traversal.",
     "severity": [
         {

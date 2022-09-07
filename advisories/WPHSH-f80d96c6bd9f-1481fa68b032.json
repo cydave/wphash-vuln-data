@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24263"
     ],
-    "summary": "FIXME",
+    "summary": "PowerPack Addons for Elementor (Instagram Feed, Pricing Table, Forms Stylers, Display Conditions, Free Elementor Widgets and Elementor Templates) < 2.3.2 - Cross-Site Scripting",
     "details": "The \u201cElementor Addons \u2013 PowerPack Addons for Elementor\u201d WordPress Plugin before 2.3.2 for WordPress has several widgets that are vulnerable to stored Cross-Site Scripting (XSS) by lower-privileged users such as contributors, all via a similar method.",
     "severity": [
         {

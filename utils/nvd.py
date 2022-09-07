@@ -86,3 +86,14 @@ def extract_cwe_ids(cve_entry: Dict) -> List[Dict]:
 
 def extract_aliases(cve_entry: Dict) -> List[str]:
     return [extract_cve_id(cve_entry)]
+
+
+def extract_cpes(cve_entry: Dict) -> List[str]:
+    cpes = []
+    for node in cve_entry["configurations"].get("nodes", []):
+        for cpe_match in node.get("cpe_match", []):
+            cpes.append(cpe_match["cpe23Uri"])
+        for child in node.get("children", []):
+            for cpe_match in child.get("cpe_match", []):
+                cpes.append(cpe_match["cpe23Uri"])
+    return cpes

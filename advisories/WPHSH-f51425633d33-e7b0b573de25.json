@@ -1,0 +1,54 @@
+{
+    "id": "WPHSH-f51425633d33-e7b0b573de25",
+    "modified": "2022-09-07T11:20:02Z",
+    "published": "2022-09-07T11:20:02Z",
+    "aliases": [
+        "CVE-2022-3132"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "goolytics-simple-google-analytics"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/goolytics-simple-google-analytics",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.1.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.1",
+                "1.1.0",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3132"
+        }
+    ],
+    "database_specific": {
+        "slug": "goolytics-simple-google-analytics",
+        "name": "Goolytics \u2013 Simple Google Analytics",
+        "cwe_ids": []
+    }
+}

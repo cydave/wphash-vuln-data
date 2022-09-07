@@ -1,0 +1,99 @@
+{
+    "id": "WPHSH-25d96d2d090e-4a85618a4a22",
+    "modified": "2022-09-07T11:20:05Z",
+    "published": "2022-09-07T11:20:05Z",
+    "aliases": [
+        "CVE-2022-2763"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-socializer"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-socializer",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "7.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "7.2",
+                "7.1",
+                "7.0",
+                "6.5",
+                "6.4",
+                "6.3",
+                "6.2",
+                "6.1",
+                "6.0.1",
+                "6.0",
+                "5.2.1",
+                "5.2",
+                "5.1",
+                "5.0",
+                "4.2",
+                "4.1.9",
+                "4.1.8",
+                "4.1.7",
+                "4.1.6",
+                "4.1.5",
+                "4.1.4",
+                "4.1.3",
+                "4.1.2",
+                "4.1.1",
+                "4.1",
+                "4.0",
+                "3.3.4",
+                "3.3.3",
+                "3.3.2",
+                "3.3.1",
+                "3.3",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.4.9.9",
+                "2.4.9.8",
+                "2.4.9.7",
+                "2.4.9.6",
+                "2.4.9.5",
+                "2.4.9",
+                "2.4.8",
+                "2.4.7",
+                "2.4.6",
+                "2.4.5",
+                "2.4.4",
+                "2.4.3",
+                "2.4.2",
+                "2.4.1",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2763"
+        }
+    ],
+    "database_specific": {
+        "slug": "wp-socializer",
+        "name": "WP Socializer \u2013 Simple & Easy Social Media Share Icons",
+        "cwe_ids": []
+    }
+}

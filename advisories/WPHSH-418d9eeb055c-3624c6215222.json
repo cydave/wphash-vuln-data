@@ -1,0 +1,48 @@
+{
+    "id": "WPHSH-418d9eeb055c-3624c6215222",
+    "modified": "2022-09-08T00:00:00Z",
+    "published": "2022-09-08T00:00:00Z",
+    "aliases": [
+        "CVE-2022-38068"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "export-post-info"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/export-post-info",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.0",
+                "1.0.4",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38068"
+        }
+    ],
+    "database_specific": {
+        "slug": "export-post-info",
+        "name": "Export Post Info",
+        "cwe_ids": []
+    }
+}

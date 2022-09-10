@@ -84,6 +84,14 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://hackerone.com/reports/1590237"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/aba3dd58-7a8e-4129-add5-4dd5972c0426"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2034"
         }

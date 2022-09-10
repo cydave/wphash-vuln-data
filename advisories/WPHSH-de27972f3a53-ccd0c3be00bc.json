@@ -6,7 +6,7 @@
         "CVE-2022-36425"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Broken Access Control vulnerability in Beaver Builder plugin <= 2.5.4.3 at WordPress.",
     "affected": [
         {
             "package": {
@@ -136,6 +136,14 @@
         }
     ],
     "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/beaver-builder-lite-version/wordpress-beaver-builder-plugin-2-5-4-3-broken-access-control-vulnerability/_s_id=cve"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/beaver-builder-lite-version/#developers"
+        },
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36425"

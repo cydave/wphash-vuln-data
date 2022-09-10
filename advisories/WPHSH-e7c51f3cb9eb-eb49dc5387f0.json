@@ -1,33 +1,38 @@
 {
-    "id": "WPHSH-444aa7191cad-ef7754afffae",
-    "modified": "2022-07-11T07:19:31Z",
-    "published": "2022-07-11T07:19:31Z",
+    "id": "WPHSH-e7c51f3cb9eb-eb49dc5387f0",
+    "modified": "2022-09-08T00:00:00Z",
+    "published": "2022-09-08T00:00:00Z",
     "aliases": [
-        "CVE-2022-1950"
+        "CVE-2022-40191"
     ],
     "summary": "FIXME",
-    "details": "The Youzify WordPress plugin before 1.2.0 does not sanitise and escape a parameter before using it in a SQL statement via an AJAX action available to unauthenticated users, leading to an unauthenticated SQL injection",
+    "details": "FIXME",
     "affected": [
         {
             "package": {
                 "ecosystem": "wordpress-plugin",
-                "name": "youzify"
+                "name": "mega-forms"
             },
             "ranges": [
                 {
                     "type": "ECOSYSTEM",
-                    "repo": "https://plugins.svn.wordpress.org/youzify",
+                    "repo": "https://plugins.svn.wordpress.org/mega-forms",
                     "events": [
                         {
                             "introduced": "0"
                         },
                         {
-                            "fixed": "1.2.0"
+                            "fixed": "1.2.5"
                         }
                     ]
                 }
             ],
             "versions": [
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
                 "1.1.9",
                 "1.1.8",
                 "1.1.7",
@@ -47,23 +52,20 @@
                 "1.0.3",
                 "1.0.1",
                 "1.0.2",
+                "1.01",
                 "1.0.0"
             ]
         }
     ],
     "references": [
         {
-            "type": "WEB",
-            "url": "https://wpscan.com/vulnerability/4352283f-dd43-4827-b417-0c55d0f4637d"
-        },
-        {
             "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1950"
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40191"
         }
     ],
     "database_specific": {
-        "slug": "youzify",
-        "name": "Youzify \u2013 BuddyPress Community, User Profile, Social Network & Membership Plugin for WordPress",
+        "slug": "mega-forms",
+        "name": "Contact Form By Mega Forms \u2013 Drag and Drop Form Builder",
         "cwe_ids": []
     }
 }

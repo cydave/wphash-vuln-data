@@ -6,7 +6,7 @@
         "CVE-2022-2433"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The WordPress Infinite Scroll \u2013 Ajax Load More plugin for WordPress is vulnerable to deserialization of untrusted input via the 'alm_repeaters_export' parameter in versions up to, and including 5.5.3. This makes it possible for unauthenticated users to call files using a PHAR wrapper, granted they can trick a site administrator into performing an action such as clicking on a link, that will deserialize and call arbitrary PHP Objects that can be used to perform a variety of malicious actions granted a POP chain is also present. It also requires that the attacker is successful in uploading a file with the serialized payload.",
     "affected": [
         {
             "package": {
@@ -128,6 +128,14 @@
         }
     ],
     "references": [
+        {
+            "type": "WEB",
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2022-2433"
+        },
+        {
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/changeset/2772627/ajax-load-more/trunk/admin/admin.php"
+        },
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2433"

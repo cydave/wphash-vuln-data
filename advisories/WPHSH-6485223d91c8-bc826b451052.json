@@ -147,6 +147,14 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/f27d753e-861a-4d8d-9b9a-6c99a8a7ebe0"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/SecuriTrust/CVEsLab/tree/main/CVE-2022-2551"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2551"
         }

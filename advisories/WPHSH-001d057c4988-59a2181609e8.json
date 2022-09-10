@@ -6,7 +6,7 @@
         "CVE-2022-33177"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Cross-Site Request Forgery (CSRF) vulnerability in WPdevelop/Oplugins Booking Calendar plugin <= 9.2.1 at WordPress leading to Translations Update.",
     "affected": [
         {
             "package": {
@@ -163,6 +163,14 @@
         }
     ],
     "references": [
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/booking/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/booking/wordpress-booking-calendar-plugin-9-2-1-cross-site-request-forgery-csrf-leading-to-translations-update/_s_id=cve"
+        },
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-33177"

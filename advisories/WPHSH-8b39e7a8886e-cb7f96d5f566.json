@@ -6,7 +6,7 @@
         "CVE-2022-2943"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The WordPress Infinite Scroll \u2013 Ajax Load More plugin for Wordpress is vulnerable to arbitrary file reading in versions up to, and including, 5.5.3 due to insufficient file path validation on the alm_repeaters_export() function. This makes it possible for authenticated attackers, with administrative privileges, to download arbitrary files hosted on the server that may contain sensitive content, such as the wp-config.php file.",
     "affected": [
         {
             "package": {
@@ -128,6 +128,18 @@
         }
     ],
     "references": [
+        {
+            "type": "WEB",
+            "url": "https://plugins.svn.wordpress.org/ajax-load-more/tags/5.5.4/README.txt"
+        },
+        {
+            "type": "WEB",
+            "url": "https://gist.github.com/Xib3rR4dAr/f9a4b4838154854ec6cde7d5deb76bf9"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2022-2943"
+        },
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2943"

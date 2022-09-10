@@ -297,6 +297,14 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/easy-digital-downloads/wordpress-easy-digital-downloads-plugin-3-0-1-php-object-injection-vulnerability"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/easy-digital-downloads/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-33900"
         }

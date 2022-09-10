@@ -6,7 +6,7 @@
         "CVE-2022-2716"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "The Beaver Builder \u2013 WordPress Page Builder for WordPress is vulnerable to Stored Cross-Site Scripting via the 'Text Editor' block in versions up to, and including, 2.5.5.2 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers with access to the Beaver Builder editor to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
     "affected": [
         {
             "package": {
@@ -139,6 +139,14 @@
         }
     ],
     "references": [
+        {
+            "type": "WEB",
+            "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2022-2716"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.wpbeaverbuilder.com/change-logs/"
+        },
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2716"

@@ -109,6 +109,14 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/official-mailerlite-sign-up-forms/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/official-mailerlite-sign-up-forms/wordpress-mailerlite-signup-forms-official-plugin-1-5-7-cross-site-request-forgery-csrf-vulnerability"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-33201"
         }

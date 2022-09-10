@@ -50,6 +50,14 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/oauth-client/wordpress-oauth-2-0-client-for-sso-plugin-1-11-3-authentication-bypass-vulnerability"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/oauth-client/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34858"
         }

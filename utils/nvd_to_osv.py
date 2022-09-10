@@ -8,7 +8,7 @@ import requests
 import nvd
 
 
-def make_ovs_id(slug: str, cve_id: str) -> str:
+def make_osv_id(slug: str, cve_id: str) -> str:
     """Create a WPHSH identifier."""
     sh = hashlib.sha256(slug.encode()).hexdigest()[:12]
     ch = hashlib.sha256(cve_id.encode()).hexdigest()[:12]
@@ -38,8 +38,8 @@ def main(args):
         print("Error: Unable to find plugin on wpha.sh...")
         exit(1)
 
-    raw_ovs = {
-        "id": make_ovs_id(args.slug.strip(), args.cve.upper()),
+    raw_osv = {
+        "id": make_osv_id(args.slug.strip(), args.cve.upper()),
         "modified": nvd.extract_modified(nvd_entry),
         "published": nvd.extract_published(nvd_entry),
         "aliases": nvd.extract_aliases(nvd_entry),
@@ -76,9 +76,9 @@ def main(args):
             "cwe_ids": nvd.extract_cwe_ids(nvd_entry)
         }
     }
-    if raw_ovs["severity"] is None:
-        del raw_ovs["severity"]
-    print(json.dumps(raw_ovs, indent=4))
+    if raw_osv["severity"] is None:
+        del raw_osv["severity"]
+    print(json.dumps(raw_osv, indent=4))
 
 
 

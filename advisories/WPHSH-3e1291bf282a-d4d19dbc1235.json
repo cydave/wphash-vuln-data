@@ -140,11 +140,11 @@
     ],
     "references": [
         {
-            "type": "FIX",
+            "type": "WEB",
             "url": "https://plugins.trac.wordpress.org/changeset/2245581/gtranslate"
         },
         {
-            "type": "FIX",
+            "type": "WEB",
             "url": "https://plugins.trac.wordpress.org/changeset/2245591/gtranslate"
         },
         {

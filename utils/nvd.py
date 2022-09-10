@@ -17,13 +17,12 @@ def _convert_reference(reference: Dict[str, str]) -> Dict:
     if "cve.mitre.org/cgi-bin/cvename.cgi" in reference["url"]:
         ref_type = "ADVISORY"
 
-# XXX: Unreliable, may produce more than one FIX entry.
-#    # Find potential patch entries
-#    if "trac.wordpress.org" in reference["url"]:
-#        for tag in reference.get("tags", []):
-#            if tag == "Patch":
-#                ref_type = "FIX"
-#                break
+    # Find potential patch entries
+    if "trac.wordpress.org" in reference["url"]:
+        for tag in reference.get("tags", []):
+            if tag == "Patch":
+                ref_type = "FIX"
+                break
 
     return {
         "type": ref_type,
@@ -43,6 +42,15 @@ def extract_references(cve_entry: Dict) -> List[Dict]:
         if converted_ref.get("type") == "ADIVSORY":
             has_advisory = True
         references.append(converted_ref)
+
+    # Ensure only one FIX entry exists. Revert to WEB types if the list of
+    # references does not have exactly one entry.
+    num_fixes = sum([1 for ref in references if ref["type"] == "FIX"])
+    if num_fixes > 1:
+        for ref in references:
+            if ref["type"] == "FIX":
+                ref["type"] = "WEB"
+
 
     if has_advisory is False:
         cve_id = extract_cve_id(cve_entry)

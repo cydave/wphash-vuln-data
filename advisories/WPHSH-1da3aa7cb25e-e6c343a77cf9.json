@@ -50,11 +50,11 @@
             "url": "https://www.wordfence.com/blog/2021/10/high-severity-vulnerability-patched-in-access-demo-importer-plugin/"
         },
         {
-            "type": "FIX",
+            "type": "WEB",
             "url": "https://plugins.trac.wordpress.org/changeset/2602132/access-demo-importer/trunk/inc/demo-functions.php"
         },
         {
-            "type": "FIX",
+            "type": "WEB",
             "url": "https://plugins.trac.wordpress.org/changeset/2592642/access-demo-importer/trunk/inc/demo-functions.php"
         },
         {

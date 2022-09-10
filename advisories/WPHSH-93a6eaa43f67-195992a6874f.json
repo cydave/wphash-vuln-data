@@ -73,11 +73,11 @@
             "url": "https://wordpress.org/plugins/wp-fastest-cache/#developers"
         },
         {
-            "type": "FIX",
+            "type": "WEB",
             "url": "https://plugins.trac.wordpress.org/changeset/2124619"
         },
         {
-            "type": "FIX",
+            "type": "WEB",
             "url": "https://plugins.trac.wordpress.org/changeset/2124614"
         },
         {

@@ -355,11 +355,11 @@
     ],
     "references": [
         {
-            "type": "FIX",
+            "type": "WEB",
             "url": "https://plugins.trac.wordpress.org/changeset/2635585/updraftplus"
         },
         {
-            "type": "FIX",
+            "type": "WEB",
             "url": "https://plugins.trac.wordpress.org/changeset/2637112/updraftplus"
         },
         {

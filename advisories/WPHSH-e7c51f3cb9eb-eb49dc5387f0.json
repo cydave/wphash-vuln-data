@@ -6,7 +6,7 @@
         "CVE-2022-40191"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Authenticated (subscriber+) Stored Cross-Site Scripting (XSS) vulnerability in Ali Khallad's Contact Form By Mega Forms plugin <= 1.2.4 at WordPress.",
     "affected": [
         {
             "package": {
@@ -58,6 +58,14 @@
         }
     ],
     "references": [
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/mega-forms/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/mega-forms/wordpress-contact-form-by-mega-forms-plugin-1-2-4-authenticated-stored-cross-site-scripting-xss-vulnerability/_s_id=cve"
+        },
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40191"

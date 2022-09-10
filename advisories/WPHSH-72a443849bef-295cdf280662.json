@@ -6,7 +6,7 @@
         "CVE-2022-36422"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Rating increase/decrease via race condition in Lester 'GaMerZ' Chan WP-PostRatings plugin <= 1.89 at WordPress.",
     "affected": [
         {
             "package": {
@@ -68,6 +68,14 @@
         }
     ],
     "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/wp-postratings/wordpress-wp-postratings-plugin-1-89-rating-increase-decrease-via-race-condition-vulnerability/_s_id=cve"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-postratings/#developers"
+        },
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36422"

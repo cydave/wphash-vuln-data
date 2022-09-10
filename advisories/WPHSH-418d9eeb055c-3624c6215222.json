@@ -6,7 +6,7 @@
         "CVE-2022-38068"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Apasionados Export Post Info plugin <= 1.1.0 at WordPress.",
     "affected": [
         {
             "package": {
@@ -35,6 +35,14 @@
         }
     ],
     "references": [
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/export-post-info/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/export-post-info/wordpress-export-post-info-plugin-1-1-0-authenticated-stored-cross-site-scripting-xss-vulnerability/_s_id=cve"
+        },
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38068"

@@ -111,15 +111,15 @@
             "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2022-2442"
         },
         {
-            "type": "WEB",
+            "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/browser/wpvivid-backuprestore/trunk/includes/staging/class-wpvivid-staging.php?rev=2749419#L1747"
         },
         {
-            "type": "WEB",
+            "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=2766112%40wpvivid-backuprestore%2Ftrunk%2Fincludes%2Fstaging%2Fclass-wpvivid-staging.php&new=2766112%40wpvivid-backuprestore%2Ftrunk%2Fincludes%2Fstaging%2Fclass-wpvivid-staging.php"
         },
         {
-            "type": "WEB",
+            "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/browser/wpvivid-backuprestore/trunk/includes/staging/class-wpvivid-staging.php?rev=2749419#L1783"
         },
         {

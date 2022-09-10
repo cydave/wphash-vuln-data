@@ -6,7 +6,7 @@
         "CVE-2022-38144"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Cross-Site Request Forgery (CSRF) vulnerability in gVectors Team wpForo Forum plugin <= 2.0.5 at WordPress.",
     "affected": [
         {
             "package": {
@@ -104,6 +104,14 @@
         }
     ],
     "references": [
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wpforo/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/wpforo/wordpress-wpforo-forum-plugin-2-0-5-cross-site-request-forgery-csrf-vulnerability/_s_id=cve"
+        },
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38144"

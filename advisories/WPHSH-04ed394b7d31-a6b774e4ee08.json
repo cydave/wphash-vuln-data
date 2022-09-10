@@ -6,7 +6,7 @@
         "CVE-2022-38093"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Multiple Cross-Site Request Forgery (CSRF) vulnerabilities in All in One SEO plugin <= 4.2.3.1 at WordPress.",
     "affected": [
         {
             "package": {
@@ -426,6 +426,14 @@
         }
     ],
     "references": [
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/all-in-one-seo-pack/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/all-in-one-seo-pack/wordpress-all-in-one-seo-plugin-4-2-3-1-multiple-cross-site-request-forgery-csrf-vulnerabilities/_s_id=cve"
+        },
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38093"

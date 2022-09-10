@@ -6,7 +6,7 @@
         "CVE-2022-36356"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Liam Gladdy / Thirty8 Digital Culture Object plugin <= 4.0.1 at WordPress.",
     "affected": [
         {
             "package": {
@@ -38,6 +38,14 @@
         }
     ],
     "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/culture-object/wordpress-culture-object-plugin-4-0-1-authenticated-stored-cross-site-scripting-xss-vulnerability/_s_id=cve"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/culture-object/#developers"
+        },
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36356"

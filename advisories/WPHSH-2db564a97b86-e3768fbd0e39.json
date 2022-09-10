@@ -6,7 +6,7 @@
         "CVE-2022-36376"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Server-Side Request Forgery (SSRF) vulnerability in Rank Math SEO plugin <= 1.0.95 at WordPress.",
     "affected": [
         {
             "package": {
@@ -225,6 +225,14 @@
         }
     ],
     "references": [
+        {
+            "type": "WEB",
+            "url": "https://rankmath.com/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/seo-by-rank-math/wordpress-rank-math-seo-plugin-1-0-95-server-side-request-forgery-ssrf-vulnerability/_s_id=cve"
+        },
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36376"

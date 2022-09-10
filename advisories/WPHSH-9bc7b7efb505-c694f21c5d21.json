@@ -6,7 +6,7 @@
         "CVE-2022-38070"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Privilege Escalation (subscriber+) vulnerability in Pop-up plugin <= 1.1.5 at WordPress.",
     "affected": [
         {
             "package": {
@@ -48,6 +48,14 @@
         }
     ],
     "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/pop-up-pop-up/wordpress-pop-up-plugin-1-1-5-privilege-escalation-vulnerability/_s_id=cve"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/pop-up-pop-up/#developers"
+        },
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38070"

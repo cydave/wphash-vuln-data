@@ -6,7 +6,7 @@
         "CVE-2022-35275"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Authenticated (shop manager+) Reflected Cross-Site Scripting (XSS) vulnerability in AlgolPlus Advanced Order Export For WooCommerce plugin <= 3.3.1 at WordPress.",
     "affected": [
         {
             "package": {
@@ -59,6 +59,14 @@
         }
     ],
     "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/woo-order-export-lite/wordpress-advanced-order-export-for-woocommerce-plugin-3-3-1-reflected-cross-site-scripting-xss-vulnerability/_s_id=cve"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/woo-order-export-lite/"
+        },
         {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-35275"

@@ -133,7 +133,7 @@
             "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2022-2433"
         },
         {
-            "type": "WEB",
+            "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2772627/ajax-load-more/trunk/admin/admin.php"
         },
         {

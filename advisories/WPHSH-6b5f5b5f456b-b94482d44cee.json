@@ -1,0 +1,142 @@
+{
+    "id": "WPHSH-6b5f5b5f456b-b94482d44cee",
+    "modified": "2016-12-22T14:40Z",
+    "published": "2016-10-10T20:59Z",
+    "aliases": [
+        "CVE-2016-1000155"
+    ],
+    "summary": "wpsolr-search-engine < 8.7 - Unauthenticated Reflected Cross-Site Scripting",
+    "details": "Reflected XSS in wordpress plugin wpsolr-search-engine v7.6",
+    "severity": [
+        {
+            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wpsolr-search-engine"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wpsolr-search-engine",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "8.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "8.6",
+                "8.5",
+                "8.4",
+                "8.3",
+                "8.2",
+                "8.1",
+                "8.0",
+                "7.9",
+                "7.8",
+                "7.7",
+                "7.6",
+                "7.5",
+                "7.4",
+                "7.3",
+                "7.2",
+                "7.1",
+                "7.0",
+                "6.9",
+                "6.8",
+                "6.7",
+                "6.6",
+                "6.5",
+                "6.4",
+                "6.3",
+                "6.2",
+                "6.1",
+                "6.0",
+                "5.9",
+                "5.8",
+                "5.7",
+                "5.6",
+                "5.5",
+                "5.4",
+                "5.3",
+                "5.2",
+                "5.1",
+                "5.0",
+                "4.9",
+                "4.8",
+                "4.7",
+                "4.6",
+                "4.5",
+                "4.4",
+                "4.3",
+                "4.2",
+                "4.1",
+                "4.0",
+                "3.9",
+                "3.8",
+                "3.7",
+                "3.6",
+                "3.5",
+                "3.4",
+                "3.3",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.9",
+                "2.8",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.2",
+                "1.3",
+                "1.4",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wpsolr-search-engine"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.vapidlabs.com/wp/wp_advisory.php?v=303"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/93536"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1000155"
+        }
+    ],
+    "database_specific": {
+        "slug": "wpsolr-search-engine",
+        "name": "wpsolr-search-engine",
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

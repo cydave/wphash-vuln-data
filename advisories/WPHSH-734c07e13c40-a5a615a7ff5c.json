@@ -1,0 +1,72 @@
+{
+    "id": "WPHSH-734c07e13c40-a5a615a7ff5c",
+    "modified": "2017-08-29T01:32Z",
+    "published": "2012-10-09T15:55Z",
+    "aliases": [
+        "CVE-2012-5350"
+    ],
+    "summary": "FIXME",
+    "details": "SQL injection vulnerability in the Pay With Tweet plugin before 1.2 for WordPress allows remote authenticated users with certain permissions to execute arbitrary SQL commands via the id parameter in a paywithtweet shortcode.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "pay-with-tweet"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/pay-with-tweet",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "http://www.exploit-db.com/exploits/18330"
+        },
+        {
+            "type": "WEB",
+            "url": "http://wordpress.org/extend/plugins/pay-with-tweet/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/51308"
+        },
+        {
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/47475"
+        },
+        {
+            "type": "WEB",
+            "url": "http://www.osvdb.org/78204"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/72165"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5350"
+        }
+    ],
+    "database_specific": {
+        "slug": "pay-with-tweet",
+        "name": "pay-with-tweet",
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "id": "WPHSH-b1c2f3234d4f-86face2f92f7",
+    "modified": "2017-09-29T01:32Z",
+    "published": "2008-12-30T17:30Z",
+    "aliases": [
+        "CVE-2008-5752"
+    ],
+    "summary": "FIXME",
+    "details": "Directory traversal vulnerability in getConfig.php in the Page Flip Image Gallery plugin 0.2.2 and earlier for WordPress, when magic_quotes_gpc is disabled, allows remote attackers to read arbitrary files via a .. (dot dot) in the book_id parameter.  NOTE: some of these details are obtained from third party information.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "page-flip-image-gallery"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/page-flip-image-gallery",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.2.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.2.2",
+                "0.2.1",
+                "0.2",
+                "0.1.6",
+                "0.2.0",
+                "0.1.4",
+                "0.1.3",
+                "0.1.2",
+                "0.1.1",
+                "0.1",
+                "page-flip.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "http://www.securityfocus.com/bid/32966"
+        },
+        {
+            "type": "WEB",
+            "url": "http://secunia.com/advisories/33274"
+        },
+        {
+            "type": "WEB",
+            "url": "http://osvdb.org/50902"
+        },
+        {
+            "type": "WEB",
+            "url": "http://securityreason.com/securityalert/4836"
+        },
+        {
+            "type": "WEB",
+            "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/47568"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.exploit-db.com/exploits/7543"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-5752"
+        }
+    ],
+    "database_specific": {
+        "slug": "page-flip-image-gallery",
+        "name": "page-flip-image-gallery",
+        "cwe_ids": [
+            "CWE-22"
+        ]
+    }
+}

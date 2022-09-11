@@ -1,0 +1,59 @@
+{
+    "id": "WPHSH-bfa7b1ab0858-b32cbed7c9f9",
+    "modified": "2019-06-24T17:30Z",
+    "published": "2015-01-08T01:59Z",
+    "aliases": [
+        "CVE-2012-5853"
+    ],
+    "summary": "FIXME",
+    "details": "SQL injection vulnerability in the \"the_search_function\" function in cardoza_ajax_search.php in the AJAX Post Search (cardoza-ajax-search) plugin before 1.3 for WordPress allows remote attackers to execute arbitrary SQL commands via the srch_txt parameter in a \"the_search_text\" action to wp-admin/admin-ajax.php.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "cardoza-ajax-search"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/cardoza-ajax-search",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/cardoza-ajax-search/changelog/"
+        },
+        {
+            "type": "WEB",
+            "url": "http://seclists.org/bugtraq/2012/Nov/33"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5853"
+        }
+    ],
+    "database_specific": {
+        "slug": "cardoza-ajax-search",
+        "name": "cardoza-ajax-search",
+        "cwe_ids": [
+            "CWE-89"
+        ]
+    }
+}

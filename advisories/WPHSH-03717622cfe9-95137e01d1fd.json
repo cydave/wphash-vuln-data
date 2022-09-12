@@ -61,7 +61,7 @@
     "references": [
         {
             "type": "WEB",
-            "url": "https://patchstack.com/database/vulnerability/woo-order-export-lite/wordpress-advanced-order-export-for-woocommerce-plugin-3-3-1-reflected-cross-site-scripting-xss-vulnerability/_s_id=cve"
+            "url": "https://patchstack.com/database/vulnerability/woo-order-export-lite/wordpress-advanced-order-export-for-woocommerce-plugin-3-3-1-reflected-cross-site-scripting-xss-vulnerability/"
         },
         {
             "type": "WEB",

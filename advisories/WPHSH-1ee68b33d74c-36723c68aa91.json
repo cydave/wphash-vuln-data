@@ -1,0 +1,60 @@
+{
+    "id": "WPHSH-1ee68b33d74c-36723c68aa91",
+    "modified": "2022-09-06T23:15Z",
+    "published": "2022-09-09T02:53Z",
+    "aliases": [
+        "CVE-2022-37344"
+    ],
+    "summary": "FIXME",
+    "details": "Missing Access Control vulnerability in PHP Crafts Accommodation System plugin <= 1.0.1 at WordPress.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "accommodation-system"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/accommodation-system",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": []
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/accommodation-system/wordpress-accommodation-system-plugin-1-0-1-missing-access-control-vulnerability/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/accommodation-system/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-37344"
+        }
+    ],
+    "database_specific": {
+        "slug": "accommodation-system",
+        "name": "Accommodation System",
+        "cwe_ids": [
+            "CWE-862"
+        ]
+    }
+}

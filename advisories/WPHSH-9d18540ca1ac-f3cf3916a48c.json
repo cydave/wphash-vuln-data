@@ -1,0 +1,78 @@
+{
+    "id": "WPHSH-9d18540ca1ac-f3cf3916a48c",
+    "modified": "2022-09-09T15:15Z",
+    "published": "2022-09-09T16:44Z",
+    "aliases": [
+        "CVE-2022-37411"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-Site Request Forgery (CSRF) vulnerability in Vinoj Cardoza's Captcha Code plugin <= 2.7 at WordPress.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "captcha-code-authentication"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/captcha-code-authentication",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.6.2",
+                "2.6.1",
+                "2.6",
+                "2.5.6",
+                "2.5.5",
+                "2.5.3",
+                "2.5.2",
+                "2.5.1",
+                "2.5",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/captcha-code-authentication/wordpress-captcha-code-plugin-2-7-cross-site-request-forgery-csrf-vulnerability-leading-to-plugin-settings-update/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/captcha-code-authentication/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-37411"
+        }
+    ],
+    "database_specific": {
+        "slug": "captcha-code-authentication",
+        "name": "Captcha Code",
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

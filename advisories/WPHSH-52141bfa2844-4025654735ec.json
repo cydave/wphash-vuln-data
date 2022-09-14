@@ -1,0 +1,58 @@
+{
+    "id": "WPHSH-52141bfa2844-4025654735ec",
+    "modified": "2022-09-09T15:15Z",
+    "published": "2022-09-10T03:51Z",
+    "aliases": [
+        "CVE-2022-36793"
+    ],
+    "summary": "FIXME",
+    "details": "Unauthenticated Plugin Settings Change & Data Deletion vulnerabilities in WP Shop plugin <= 3.9.6 at WordPress.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-shop-original"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-shop-original",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        }
+                    ]
+                }
+            ],
+            "versions": []
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-shop-original/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/wp-shop-original/wordpress-wp-shop-plugin-3-9-6-unauthenticated-plugin-settings-change-data-deletion-vulnerabilities/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36793"
+        }
+    ],
+    "database_specific": {
+        "slug": "wp-shop-original",
+        "name": "WP Shop",
+        "cwe_ids": [
+            "CWE-269"
+        ]
+    },
+    "versions": []
+}

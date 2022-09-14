@@ -2,6 +2,7 @@ import sys
 import argparse
 import hashlib
 import json
+from typing import Dict
 
 import requests
 
@@ -23,6 +24,8 @@ def load_nvd_entry(filepath):
 def fetch_plugin_info(slug: str):
     response = requests.get(f"https://wpha.sh/api/plugins/{slug}")
     if response.status_code != 200:
+        print(response)
+        print(response.text)
         return None
     raw_plugin = response.json()
     versions = [v for v in raw_plugin["versions"] if v["seen_date"]]
@@ -31,15 +34,10 @@ def fetch_plugin_info(slug: str):
     return raw_plugin
 
 
-def main(args):
-    nvd_entry = load_nvd_entry(args.nvd_file)
-    plugin = fetch_plugin_info(args.slug)
-    if plugin is None:
-        print("Error: Unable to find plugin on wpha.sh...")
-        exit(1)
-
+def construct_osv(nvd_entry: Dict, plugin: Dict) -> Dict:
+    cve_id = nvd.extract_cve_id(nvd_entry)
     raw_osv = {
-        "id": make_osv_id(args.slug.strip(), args.cve.upper()),
+        "id": make_osv_id(plugin["slug"], cve_id),
         "modified": nvd.extract_modified(nvd_entry),
         "published": nvd.extract_published(nvd_entry),
         "aliases": nvd.extract_aliases(nvd_entry),
@@ -50,12 +48,12 @@ def main(args):
             {
                 "package": {
                     "ecosystem": "wordpress-plugin",
-                    "name": args.slug
+                    "name": plugin["slug"]
                 },
                 "ranges": [
                     {
                         "type": "ECOSYSTEM",
-                        "repo": f"https://plugins.svn.wordpress.org/{args.slug}",
+                        "repo": f"https://plugins.svn.wordpress.org/{plugin['slug']}",
                         "events": [
                             {
                                 "introduced": "0"
@@ -71,13 +69,24 @@ def main(args):
         ],
         "references": nvd.extract_references(nvd_entry),
         "database_specific": {
-            "slug": args.slug,
+            "slug": plugin["slug"],
             "name": plugin["name"],
             "cwe_ids": nvd.extract_cwe_ids(nvd_entry)
         }
     }
     if raw_osv["severity"] is None:
         del raw_osv["severity"]
+    return raw_osv
+
+
+def main(args):
+    nvd_entry = load_nvd_entry(args.nvd_file)
+    plugin = fetch_plugin_info(args.slug)
+    if plugin is None:
+        print("Error: Unable to find plugin on wpha.sh...")
+        exit(1)
+
+    raw_osv = construct_osv(nvd_entry, plugin)
     print(json.dumps(raw_osv, indent=4))
 
 

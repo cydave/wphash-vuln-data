@@ -104,6 +104,7 @@ def extract_cwe_ids(cve_entry: Dict) -> List[Dict]:
                 cwe_ids.append(description["value"])
     return cwe_ids
 
+
 def extract_aliases(cve_entry: Dict) -> List[str]:
     return [extract_cve_id(cve_entry)]
 

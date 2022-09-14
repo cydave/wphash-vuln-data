@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-6a20cdaa5ac5-c8aa2d77b455",
+    "modified": "2022-09-09T15:15Z",
+    "published": "2022-09-10T03:40Z",
+    "aliases": [
+        "CVE-2022-37404"
+    ],
+    "summary": "FIXME",
+    "details": "Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Christian Salazar's add2fav plugin <= 1.0 at WordPress.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "add2fav"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/add2fav",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/add2fav/wordpress-add2fav-plugin-1-0-authenticated-stored-cross-site-scripting-xss-vulnerability/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/add2fav/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-37404"
+        }
+    ],
+    "database_specific": {
+        "slug": "add2fav",
+        "name": "add2fav",
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

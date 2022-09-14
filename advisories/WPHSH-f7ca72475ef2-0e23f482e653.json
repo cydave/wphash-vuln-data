@@ -1,0 +1,62 @@
+{
+    "id": "WPHSH-f7ca72475ef2-0e23f482e653",
+    "modified": "2022-09-09T15:15Z",
+    "published": "2022-09-10T03:41Z",
+    "aliases": [
+        "CVE-2022-37403"
+    ],
+    "summary": "FIXME",
+    "details": "Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Nikhil Vaghela's Add User Role plugin <= 0.0.1 at WordPress.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "add-user-role"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/add-user-role",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/add-user-role/wordpress-add-user-role-plugin-0-0-1-authenticated-stored-cross-site-scripting-xss-vulnerability/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/add-user-role/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-37403"
+        }
+    ],
+    "database_specific": {
+        "slug": "add-user-role",
+        "name": "Add User Role",
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

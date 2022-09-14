@@ -1,0 +1,74 @@
+{
+    "id": "WPHSH-ec9a6e9fe278-2af59293472b",
+    "modified": "2022-09-06T18:15Z",
+    "published": "2022-09-09T03:38Z",
+    "aliases": [
+        "CVE-2021-36829"
+    ],
+    "summary": "FIXME",
+    "details": "Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability in MyThemeShop Launcher: Coming Soon & Maintenance Mode plugin <= 1.0.11 at WordPress.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "launcher"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/launcher",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.12",
+                "1.0.11",
+                "1.0.10",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/launcher/wordpress-launcher-coming-soon-maintenance-mode-plugin-1-0-11-authenticated-stored-cross-site-scripting-xss-vulnerability"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/launcher/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36829"
+        }
+    ],
+    "database_specific": {
+        "slug": "launcher",
+        "name": "Launcher: Coming Soon & Maintenance Mode",
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

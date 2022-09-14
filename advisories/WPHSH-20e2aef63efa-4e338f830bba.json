@@ -1,0 +1,73 @@
+{
+    "id": "WPHSH-20e2aef63efa-4e338f830bba",
+    "modified": "2022-09-06T23:15Z",
+    "published": "2022-09-09T02:40Z",
+    "aliases": [
+        "CVE-2022-36387"
+    ],
+    "summary": "FIXME",
+    "details": "Broken Access Control vulnerability in Alessio Caiazza's About Me plugin <= 1.0.12 at WordPress.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "about-me"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/about-me",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.12",
+                "1.0.11",
+                "1.0.10",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/about-me/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/about-me/wordpress-about-me-plugin-1-0-12-broken-access-control-vulnerability/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36387"
+        }
+    ],
+    "database_specific": {
+        "slug": "about-me",
+        "name": "About Me",
+        "cwe_ids": [
+            "CWE-863"
+        ]
+    }
+}

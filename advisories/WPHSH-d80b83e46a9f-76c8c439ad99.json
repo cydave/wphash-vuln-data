@@ -1,0 +1,60 @@
+{
+    "id": "WPHSH-d80b83e46a9f-76c8c439ad99",
+    "modified": "2022-09-09T15:15Z",
+    "published": "2022-09-10T03:37Z",
+    "aliases": [
+        "CVE-2022-38059"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-Site Request Forgery (CSRF) vulnerability in Alexey Trofimov's Access Code Feeder plugin <= 1.0.3 at WordPress.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "access-code-feeder"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/access-code-feeder",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": []
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/access-code-feeder/wordpress-access-code-feeder-plugin-1-0-3-cross-site-request-forgery-csrf-vulnerability/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/access-code-feeder/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38059"
+        }
+    ],
+    "database_specific": {
+        "slug": "access-code-feeder",
+        "name": "Access Code Feeder",
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

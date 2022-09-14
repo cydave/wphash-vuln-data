@@ -1,0 +1,65 @@
+{
+    "id": "WPHSH-ba01581b9cf8-4cbb3c0be0c0",
+    "modified": "2022-09-06T23:15Z",
+    "published": "2022-09-09T02:41Z",
+    "aliases": [
+        "CVE-2022-36427"
+    ],
+    "summary": "FIXME",
+    "details": "Missing Access Control vulnerability in About Rentals. Inc. About Rentals plugin <= 1.5 at WordPress.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "about-rentals"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/about-rentals",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5",
+                "1.3.1",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/about-rentals/wordpress-about-rentals-plugin-1-5-missing-access-control-vulnerability/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/about-rentals/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36427"
+        }
+    ],
+    "database_specific": {
+        "slug": "about-rentals",
+        "name": "About Rentals",
+        "cwe_ids": [
+            "CWE-862"
+        ]
+    }
+}

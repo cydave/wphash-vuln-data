@@ -1,0 +1,137 @@
+{
+    "id": "WPHSH-1c76de7a0839-f1793081dbc0",
+    "modified": "2022-09-06T18:15Z",
+    "published": "2022-09-09T02:42Z",
+    "aliases": [
+        "CVE-2022-34656"
+    ],
+    "summary": "FIXME",
+    "details": "Authenticated (admin+) Cross-Site Scripting (XSS) vulnerability in wpdevart Poll, Survey, Questionnaire and Voting system plugin <= 1.7.4 at WordPress.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "polls-widget"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/polls-widget",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.7.5",
+                "1.7.4",
+                "1.7.3",
+                "1.7.2",
+                "1.7.1",
+                "1.7.0",
+                "1.6.9",
+                "1.6.8",
+                "1.6.7",
+                "1.6.6",
+                "1.6.5",
+                "1.6.4",
+                "1.6.3",
+                "1.6.2",
+                "1.6.1",
+                "1.6.0",
+                "1.5.9",
+                "1.5.8",
+                "1.5.7",
+                "1.5.6",
+                "1.5.5",
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.5.0",
+                "1.4.9",
+                "1.4.8",
+                "1.4.7",
+                "1.4.6",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.9",
+                "1.3.8",
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.9",
+                "1.2.8",
+                "1.2.7",
+                "1.2.6",
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.9",
+                "1.1.8",
+                "1.1.7",
+                "1.1.6",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/polls-widget/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/polls-widget/wordpress-poll-survey-questionnaire-and-voting-system-plugin-1-7-4-authenticated-cross-site-scripting-xss-vulnerability/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34656"
+        }
+    ],
+    "database_specific": {
+        "slug": "polls-widget",
+        "name": "Poll, Survey, Questionnaire and Voting system",
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

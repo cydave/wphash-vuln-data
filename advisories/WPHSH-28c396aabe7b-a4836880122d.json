@@ -1,0 +1,54 @@
+{
+    "id": "WPHSH-28c396aabe7b-a4836880122d",
+    "modified": "2022-09-12T21:15Z",
+    "published": "2022-09-13T12:59Z",
+    "aliases": [
+        "CVE-2022-38135"
+    ],
+    "summary": "FIXME",
+    "details": "Broken Access Control vulnerability in Dean Oakley's Photospace Gallery plugin <= 2.3.5 at WordPress allows users with subscriber or higher role to change plugin settings.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "photospace"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/photospace",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": []
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/photospace/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/photospace/wordpress-photospace-gallery-plugin-2-3-5-broken-access-control-vulnerability"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38135"
+        }
+    ],
+    "database_specific": {
+        "slug": "photospace",
+        "name": "Photospace Gallery",
+        "cwe_ids": [
+            "CWE-264"
+        ]
+    }
+}

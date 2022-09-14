@@ -1,0 +1,102 @@
+{
+    "id": "WPHSH-ff00df42c687-56c42b9030d7",
+    "modified": "2022-09-09T15:15Z",
+    "published": "2022-09-09T16:44Z",
+    "aliases": [
+        "CVE-2022-38067"
+    ],
+    "summary": "FIXME",
+    "details": "Unauthenticated Event Deletion vulnerability in Totalsoft Event Calendar \u2013 Calendar plugin <= 1.4.6 at WordPress.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "calendar-event"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/calendar-event",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.4.8",
+                "1.4.7",
+                "1.4.6",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.9",
+                "1.3.8",
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.9",
+                "1.2.8",
+                "1.2.7",
+                "1.2.6",
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.9",
+                "1.1.8",
+                "1.1.7",
+                "1.1.6",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/calendar-event/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/calendar-event/wordpress-event-calendar-calendar-plugin-1-4-6-unauthenticated-event-deletion-vulnerability/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38067"
+        }
+    ],
+    "database_specific": {
+        "slug": "calendar-event",
+        "name": "Event Calendar \u2013 Calendar",
+        "cwe_ids": [
+            "CWE-264"
+        ]
+    }
+}

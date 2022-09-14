@@ -1,0 +1,128 @@
+{
+    "id": "WPHSH-764f5f723ea5-5fcaf3980d42",
+    "modified": "2022-09-09T15:15Z",
+    "published": "2022-09-10T03:52Z",
+    "aliases": [
+        "CVE-2022-35725"
+    ],
+    "summary": "FIXME",
+    "details": "Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Hans Matzen's wp-forecast plugin <= 7.5 at WordPress.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-forecast"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-forecast",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "8.2",
+                "8.1",
+                "8.0",
+                "7.9",
+                "7.8",
+                "7.7",
+                "7.6",
+                "7.5",
+                "7.4",
+                "7.3",
+                "7.2",
+                "7.1",
+                "7.0",
+                "6.9",
+                "6.8",
+                "6.7",
+                "6.6",
+                "6.5",
+                "6.4",
+                "6.3",
+                "6.2",
+                "6.1",
+                "6.0",
+                "5.9",
+                "5.8",
+                "5.7",
+                "5.6",
+                "5.5",
+                "5.4",
+                "5.3",
+                "5.2",
+                "5.1",
+                "5.0",
+                "4.9",
+                "4.8",
+                "4.7",
+                "4.6",
+                "4.5",
+                "4.4",
+                "4.3",
+                "4.2",
+                "4.0",
+                "3.9",
+                "3..8",
+                "3.7",
+                "3.6",
+                "3..5",
+                "3.4",
+                "3.3",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.9",
+                "2.8",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/wp-forecast/wordpress-wp-forecast-plugin-7-5-authenticated-stored-cross-site-scripting-xss-vulnerability/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-forecast/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-35725"
+        }
+    ],
+    "database_specific": {
+        "slug": "wp-forecast",
+        "name": "wp-forecast",
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

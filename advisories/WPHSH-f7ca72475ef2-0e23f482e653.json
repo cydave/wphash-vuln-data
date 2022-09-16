@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-37403"
     ],
-    "summary": "FIXME",
+    "summary": "Add User Role < TODO - Cross-Site Scripting",
     "details": "Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Nikhil Vaghela's Add User Role plugin <= 0.0.1 at WordPress.",
     "severity": [
         {
@@ -26,9 +26,6 @@
                     "events": [
                         {
                             "introduced": "0"
-                        },
-                        {
-                            "fixed": "TODO"
                         }
                     ]
                 }

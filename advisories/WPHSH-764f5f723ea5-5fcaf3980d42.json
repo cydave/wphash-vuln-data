@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-35725"
     ],
-    "summary": "FIXME",
+    "summary": "wp-forecast < TODO - Cross-Site Scripting",
     "details": "Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Hans Matzen's wp-forecast plugin <= 7.5 at WordPress.",
     "severity": [
         {

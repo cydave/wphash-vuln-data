@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-37412"
     ],
-    "summary": "FIXME",
+    "summary": "Better Delete Revision <= 1.6.1 - Admin+ Reflected Cross-Site Scripting",
     "details": "Authenticated (admin+) Reflected Cross-Site Scripting (XSS) vulnerability in Galerio & Urda's Better Delete Revision plugin <= 1.6.1 at WordPress.",
     "severity": [
         {
@@ -28,7 +28,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "TODO"
+                            "fixed": "FIXME"
                         }
                     ]
                 }

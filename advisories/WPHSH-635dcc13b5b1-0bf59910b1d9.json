@@ -113,7 +113,7 @@
             "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2022-2939"
         },
         {
-            "type": "WEB",
+            "type": "FIX",
             "url": "https://plugins.trac.wordpress.org/changeset/2772930/wp-cerber/trunk/cerber-load.php"
         },
         {

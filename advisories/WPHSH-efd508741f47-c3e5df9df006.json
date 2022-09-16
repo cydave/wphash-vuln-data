@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-37405"
     ],
-    "summary": "FIXME",
+    "summary": "Better Font Awesome < TODO - CSRF",
     "details": "Cross-Site Request Forgery (CSRF) vulnerability in Mickey Kay's Better Font Awesome plugin <= 2.0.1 at WordPress.",
     "severity": [
         {

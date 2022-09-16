@@ -21,6 +21,10 @@ if __name__ == "__main__":
         if "wordpress" not in str_entry.lower():
             continue
 
+        details = nvd.extract_details(cve_entry)
+        if details is None:
+            continue
+
         unsorted_filepath = f"../unsorted/{cve_id}.json"
         with open(unsorted_filepath, "w") as fout:
             json.dump(cve_entry, fout, indent=2)

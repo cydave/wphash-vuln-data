@@ -1,0 +1,14 @@
+{
+    "CWE-1321": "Prototype Pollution",
+    "CWE-22": "Path Traversal",
+    "CWE-352": "CSRF",
+    "CWE-564": "SQL Injection",
+    "CWE-601": "Open Redirect",
+    "CWE-643": "XPath Injection",
+    "CWE-77": "Command Injection",
+    "CWE-78": "Command Injection",
+    "CWE-79": "Cross-Site Scripting",
+    "CWE-89": "SQL Injection",
+    "CWE-918": "SSRF",
+    "CWE-776": "XXE"
+}

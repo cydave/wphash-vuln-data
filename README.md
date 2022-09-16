@@ -20,7 +20,8 @@ invalid data feel free to contribute!
 
 ## Contributing
 
-+ Spot a `FIXME` inside an advisory file? Try and FIX it! :)
++ Spot a `FIXME` or `TODO` inside an advisory file? Try and FIX it! :)
++ The `summary` field should follow the format: `{plugin name} < {fixed version} [Unauthenticated|<required role>] <vulnerability name>`
 + Ensure new advisory files are validated against the [OSV's JSON schema](utils/schema.json)
 
 

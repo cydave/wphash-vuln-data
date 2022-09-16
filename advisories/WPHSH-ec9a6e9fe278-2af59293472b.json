@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-36829"
     ],
-    "summary": "Launcher: Coming Soon & Maintenance Mode < TODO - Cross-Site Scripting",
+    "summary": "Launcher: Coming Soon & Maintenance Mode < 1.0.11 - Admin+ Stored Cross-Site Scripting",
     "details": "Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability in MyThemeShop Launcher: Coming Soon & Maintenance Mode plugin <= 1.0.11 at WordPress.",
     "severity": [
         {
@@ -28,13 +28,12 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "TODO"
+                            "fixed": "1.0.12"
                         }
                     ]
                 }
             ],
             "versions": [
-                "1.0.12",
                 "1.0.11",
                 "1.0.10",
                 "1.0.9",

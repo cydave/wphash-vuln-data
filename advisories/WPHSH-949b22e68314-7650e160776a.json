@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-37335"
     ],
-    "summary": "Word Search Puzzles game < TODO - Cross-Site Scripting",
+    "summary": "Word Search Puzzles game <= 2.0.1 - Author+ Stored Cross-Site Scripting",
     "details": "Authenticated (author+) Stored Cross-Site Scripting (XSS) vulnerability in WHA's Word Search Puzzles game plugin <= 2.0.1 at WordPress.",
     "severity": [
         {
@@ -26,9 +26,6 @@
                     "events": [
                         {
                             "introduced": "0"
-                        },
-                        {
-                            "fixed": "TODO"
                         }
                     ]
                 }

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-37407"
     ],
-    "summary": "Gallery PhotoBlocks < TODO - Cross-Site Scripting",
+    "summary": "Gallery PhotoBlocks < 1.2.7 - Authenticated Stored Cross-Site Scripting",
     "details": "Multiple Authenticated Stored Cross-Site Scripting (XSS) vulnerabilities in WPChill Gallery PhotoBlocks plugin <= 1.2.6 at WordPress.",
     "severity": [
         {
@@ -28,7 +28,7 @@
                             "introduced": "0"
                         },
                         {
-                            "fixed": "TODO"
+                            "fixed": "1.2.7"
                         }
                     ]
                 }

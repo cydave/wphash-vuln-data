@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-38059"
     ],
-    "summary": "Access Code Feeder < TODO - CSRF",
+    "summary": "Access Code Feeder <= 1.0.3 - CSRF",
     "details": "Cross-Site Request Forgery (CSRF) vulnerability in Alexey Trofimov's Access Code Feeder plugin <= 1.0.3 at WordPress.",
     "severity": [
         {
@@ -26,14 +26,16 @@
                     "events": [
                         {
                             "introduced": "0"
-                        },
-                        {
-                            "fixed": "TODO"
                         }
                     ]
                 }
             ],
-            "versions": []
+            "versions": [
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
         }
     ],
     "references": [

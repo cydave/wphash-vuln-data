@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-37404"
     ],
-    "summary": "add2fav < TODO - Cross-Site Scripting",
+    "summary": "add2fav <= 1.0 - Admin+ Stored Cross-Site Scripting",
     "details": "Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Christian Salazar's add2fav plugin <= 1.0 at WordPress.",
     "severity": [
         {
@@ -26,9 +26,6 @@
                     "events": [
                         {
                             "introduced": "0"
-                        },
-                        {
-                            "fixed": "TODO"
                         }
                     ]
                 }

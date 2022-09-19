@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15092"
     ],
-    "summary": "FIXME",
+    "summary": "Import Export WordPress Users and WooCommerce Customers < 1.3.2 - CSV Injection",
     "details": "The webtoffee \"WordPress Users & WooCommerce Customers Import Export\" plugin 1.3.0 for WordPress allows CSV injection in the user_url, display_name, first_name, and last_name columns in an exported CSV file created by the WF_CustomerImpExpCsv_Exporter class.",
     "severity": [
         {

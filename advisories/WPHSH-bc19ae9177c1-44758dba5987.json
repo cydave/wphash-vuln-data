@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-16308"
     ],
-    "summary": "FIXME",
+    "summary": "Ninja Forms Contact Form \u2013 The Drag and Drop Form Builder for WordPress < 3.3.14 - Unauthenticated CSV Injection",
     "details": "The Ninja Forms plugin before 3.3.14.1 for WordPress allows CSV injection.",
     "severity": [
         {

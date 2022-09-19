@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-36427"
     ],
-    "summary": "FIXME",
+    "summary": "about-rentals <= 1.5 - Unauthenticated Stored Cross-Site Scripting",
     "details": "Missing Access Control vulnerability in About Rentals. Inc. About Rentals plugin <= 1.5 at WordPress.",
     "severity": [
         {
@@ -26,9 +26,6 @@
                     "events": [
                         {
                             "introduced": "0"
-                        },
-                        {
-                            "fixed": "TODO"
                         }
                     ]
                 }

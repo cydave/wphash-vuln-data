@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-10504"
     ],
-    "summary": "FIXME",
+    "summary": "Form Maker by 10Web \u2013 Mobile-Friendly Drag & Drop Contact Form Builder < 1.12.24 - Unauthenticated CSV Injection",
     "details": "The WebDorado \"Form Maker by WD\" plugin before 1.12.24 for WordPress allows CSV injection.",
     "severity": [
         {

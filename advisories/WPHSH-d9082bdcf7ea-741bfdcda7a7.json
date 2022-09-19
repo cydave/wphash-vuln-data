@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-7947"
     ],
-    "summary": "FIXME",
+    "summary": "Login by Auth0 < 4.0.0 - Unauthenticated CSV Injection",
     "details": "An issue was discovered in the Login by Auth0 plugin before 4.0.0 for WordPress. It has numerous fields that can contain data that is pulled from different sources. One issue with this is that the data isn't sanitized, and no input validation is performed, before the exporting of the user data. This can lead to (at least) CSV injection if a crafted Excel document is uploaded.",
     "severity": [
         {

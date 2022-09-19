@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24441"
     ],
-    "summary": "FIXME",
+    "summary": "Sign-up Sheets < 1.0.14 - CSV Injection",
     "details": "The Sign-up Sheets WordPress plugin before 1.0.14 does not not sanitise or validate the Sheet title when generating the CSV to export, which could lead to a CSV injection issue",
     "severity": [
         {

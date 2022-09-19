@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-22276"
     ],
-    "summary": "FIXME",
+    "summary": "weForms \u2013 Easy Drag & Drop Contact Form Builder For WordPress < 1.6.4 - Unauthenticated CSV Injection",
     "details": "WeForms Wordpress Plugin 1.4.7 allows CSV injection via a form's entry.",
     "severity": [
         {

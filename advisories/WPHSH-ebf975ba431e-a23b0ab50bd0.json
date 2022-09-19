@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-16120"
     ],
-    "summary": "FIXME",
+    "summary": "Event Tickets and Registration < 4.10.7.2 - CSV Injection",
     "details": "CSV injection in the event-tickets (Event Tickets) plugin before 4.10.7.2 for WordPress exists via the \"All Post> Ticketed > Attendees\" Export Attendees feature.",
     "severity": [
         {

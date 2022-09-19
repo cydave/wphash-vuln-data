@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-11526"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress Comments Import & Export < 2.0.5 - Unauthenticated CSV Injection",
     "details": "The plugin \"WordPress Comments Import & Export\" for WordPress (v2.0.4 and before) is vulnerable to CSV Injection.",
     "severity": [
         {

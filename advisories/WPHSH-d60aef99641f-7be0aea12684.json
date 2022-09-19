@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-22275"
     ],
-    "summary": "FIXME",
+    "summary": "easy-registration-forms < 2.0.7 - Unauthenticated CSV Injection",
     "details": "Easy Registration Forms (ER Forms) Wordpress Plugin 2.0.6 allows an attacker to submit an entry with malicious CSV commands. After that, when the system administrator generates CSV output from the forms information, there is no check on this inputs and the codes are executable.",
     "severity": [
         {

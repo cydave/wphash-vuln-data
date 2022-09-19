@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-22277"
     ],
-    "summary": "FIXME",
+    "summary": "Import and export users and customers < 1.16.3.6 - CSV Injection",
     "details": "Import and export users and customers WordPress Plugin through 1.15.5.11 allows CSV injection via a customer's profile.",
     "severity": [
         {

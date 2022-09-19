@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0142"
     ],
-    "summary": "FIXME",
+    "summary": "Visual Form Builder < 3.0.7 - Unauthenticated CSV Injection",
     "details": "The Visual Form Builder WordPress plugin before 3.0.8 is vulnerable to CSV injection allowing a user with low level or no privileges to inject a command that will be included in the exported CSV file, leading to possible code execution.",
     "severity": [
         {

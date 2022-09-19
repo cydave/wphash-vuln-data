@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2018-0587"
     ],
-    "summary": "FIXME",
+    "summary": "Ultimate Member \u2013 User Profile, User Registration, Login & Membership Plugin < 2.0.4 - Arbitrary File Upload",
     "details": "Unrestricted file upload vulnerability in Ultimate Member plugin prior to version 2.0.4 for WordPress allows remote authenticated users to upload arbitrary image files via unspecified vectors.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-24186"
     ],
-    "summary": "FIXME",
+    "summary": "Comments \u2013 wpDiscuz < 7.0.5 - Unauthenticated Arbitrary File Upload",
     "details": "A Remote Code Execution vulnerability exists in the gVectors wpDiscuz plugin 7.0 through 7.0.4 for WordPress, which allows unauthenticated users to upload any type of file, including PHP files via the wmuUploadFiles AJAX action.",
     "severity": [
         {

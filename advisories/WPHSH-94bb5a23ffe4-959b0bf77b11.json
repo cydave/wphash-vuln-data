@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24248"
     ],
-    "summary": "FIXME",
+    "summary": "Business Directory Plugin \u2013 Easy Listing Directories for WordPress < 5.11.1 - Arbitrary File Upload",
     "details": "The Business Directory Plugin \u00e2\u20ac\u201c Easy Listing Directories for WordPress WordPress plugin before 5.11.1 did not properly check for imported files, forbidding certain extension via a blacklist approach, allowing administrator to import an archive with a .php4 inside for example, leading to RCE",
     "severity": [
         {

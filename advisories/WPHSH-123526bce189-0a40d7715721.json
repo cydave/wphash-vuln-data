@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2013-1916"
     ],
-    "summary": "FIXME",
+    "summary": "User Photo < 0.9.5 - Arbitrary File Upload",
     "details": "In WordPress Plugin User Photo 0.9.4, when a photo is uploaded, it is only partially validated and it is possible to upload a backdoor on the server hosting WordPress. This backdoor can be called (executed) even if the photo has not been yet approved.",
     "severity": [
         {

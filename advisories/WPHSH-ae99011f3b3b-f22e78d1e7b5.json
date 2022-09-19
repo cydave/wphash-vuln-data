@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-12077"
     ],
-    "summary": "FIXME",
+    "summary": "MapPress Maps for WordPress < 2.53.9 - Arbitrary File Upload",
     "details": "The mappress-google-maps-for-wordpress plugin before 2.53.9 for WordPress does not correctly implement AJAX functions with nonces (or capability checks), leading to remote code execution.",
     "severity": [
         {

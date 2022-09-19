@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-25602"
     ],
-    "summary": "FIXME",
+    "summary": "Responsive Menu \u2013 Create Mobile-Friendly Menu < 4.1.8 - Arbitrary File Upload",
     "details": "Nonce token leak vulnerability leading to arbitrary file upload, theme deletion, plugin settings change discovered in Responsive Menu WordPress plugin (versions <= 4.1.7).",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15866"
     ],
-    "summary": "FIXME",
+    "summary": "Crelly Slider < 1.3.5 - Arbitrary File Upload",
     "details": "The crelly-slider plugin before 1.3.5 for WordPress has arbitrary file upload via a PHP file inside a ZIP archive to wp_ajax_crellyslider_importSlider.",
     "severity": [
         {

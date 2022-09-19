@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24123"
     ],
-    "summary": "FIXME",
+    "summary": "PowerPress Podcasting plugin by Blubrry < 8.3.8 - Arbitrary File Upload",
     "details": "Arbitrary file upload in the PowerPress WordPress plugin, versions before 8.3.8, did not verify some of the uploaded feed images (such as the ones from Podcast Artwork section), allowing high privilege accounts (admin+) being able to upload arbitrary files, such as php, leading to RCE.",
     "severity": [
         {

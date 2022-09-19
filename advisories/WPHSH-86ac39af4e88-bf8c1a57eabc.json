@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-15649"
     ],
-    "summary": "FIXME",
+    "summary": "Insert or Embed Articulate Content into WordPress < 4.2999 - Arbitrary File Upload",
     "details": "The insert-or-embed-articulate-content-into-wordpress plugin before 4.2999 for WordPress has insufficient restrictions on file upload.",
     "severity": [
         {

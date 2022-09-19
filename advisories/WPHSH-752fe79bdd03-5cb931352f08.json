@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2014-9312"
     ],
-    "summary": "FIXME",
+    "summary": "Photo Gallery by 10Web \u2013 Mobile-Friendly Image Gallery < 1.2.6 - Arbitrary File Upload",
     "details": "Unrestricted File Upload vulnerability in Photo Gallery 1.2.5.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9338"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress File Upload < 2.5.0 - Unauthenticated Arbitrary File Upload",
     "details": "The wp-file-upload plugin before 2.5.0 for WordPress has insufficient restrictions on upload of .php files.",
     "severity": [
         {

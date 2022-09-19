@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1952"
     ],
-    "summary": "FIXME",
+    "summary": "Free Booking Plugin for Hotels, Restaurant and Car Rental \u2013 eaSYNC < 1.1.16 - Unauthenticated Arbitrary File Upload",
     "details": "The Free Booking Plugin for Hotels, Restaurant and Car Rental WordPress plugin before 1.1.16 suffers from insufficient input validation which leads to arbitrary file upload and subsequently to remote code execution. An AJAX action accessible to unauthenticated users is affected by this issue. An allowlist of valid file extensions is defined but is not used during the validation steps.",
     "severity": [
         {

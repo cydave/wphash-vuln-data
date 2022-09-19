@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-25052"
     ],
-    "summary": "Button Generator \u2013 easily Button Builder < 2.3.3 - CSRF",
+    "summary": "Button Generator < 2.3.3 - RFI leading to RCE via CSRF",
     "details": "The Button Generator WordPress plugin before 2.3.3 within the wow-company admin menu page allows to include() arbitrary file with PHP extension (as well as with data:// or http:// protocols), thus leading to CSRF RCE.",
     "severity": [
         {
@@ -60,7 +60,7 @@
         "slug": "button-generation",
         "name": "Button Generator \u2013 easily Button Builder",
         "cwe_ids": [
-            "CWE-352"
+            "CWE-94"
         ]
     }
 }

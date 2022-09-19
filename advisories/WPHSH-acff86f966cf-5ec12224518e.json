@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1008"
     ],
-    "summary": "FIXME",
+    "summary": "One Click Demo Import < 3.1.0 - Arbitrary File Upload",
     "details": "The One Click Demo Import WordPress plugin before 3.1.0 does not validate the imported file, allowing high privilege users such as admin to upload arbitrary files (such as PHP) even when FILE_MODS and FILE_EDIT are disallowed",
     "severity": [
         {

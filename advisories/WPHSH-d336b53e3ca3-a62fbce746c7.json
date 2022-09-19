@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2017-1002016"
     ],
-    "summary": "FIXME",
+    "summary": "flickr-picture-backup < 0.8 - Unauthenticated Arbitrary File Upload",
     "details": "Vulnerability in wordpress plugin flickr-picture-backup v0.7, The code in flickr-picture-download.php doesn't check to see if the user is authenticated or that they have permission to upload files.",
     "severity": [
         {

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24155"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress Backup and Migrate Plugin \u2013 Backup Guard < 1.6.0 - Arbitrary File Upload",
     "details": "The WordPress Backup and Migrate Plugin \u2013 Backup Guard WordPress plugin before 1.6.0 did not ensure that the imported files are of the SGBP format and extension, allowing high privilege users (admin+) to upload arbitrary files, including PHP ones, leading to RCE.",
     "severity": [
         {

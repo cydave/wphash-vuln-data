@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-11807"
     ],
-    "summary": "FIXME",
+    "summary": "Checkout Field Manager (Checkout Manager) for WooCommerce < 4.3 - Unauthenticated Arbitrary File Upload",
     "details": "The WooCommerce Checkout Manager plugin before 4.3 for WordPress allows media deletion via the wp-admin/admin-ajax.php?action=update_attachment_wccm wccm_default_keys_load parameter because of a nopriv_ registration and a lack of capabilities checks.",
     "severity": [
         {

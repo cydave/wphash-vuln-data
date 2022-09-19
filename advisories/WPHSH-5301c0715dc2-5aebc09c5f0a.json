@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-24145"
     ],
-    "summary": "FIXME",
+    "summary": "modern-events-calendar-lite < 5.16.5 - Arbitrary File Upload",
     "details": "Arbitrary file upload in the Modern Events Calendar Lite WordPress plugin, versions before 5.16.5, did not properly check the imported file, allowing PHP ones to be uploaded by administrator by using the 'text/csv' content-type in the request.",
     "severity": [
         {

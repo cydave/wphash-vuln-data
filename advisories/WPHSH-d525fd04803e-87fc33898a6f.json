@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2020-6008"
     ],
-    "summary": "FIXME",
+    "summary": "LifterLMS \u2013 WordPress LMS Plugin < 3.37.15 - Unauthenticated Arbitrary File Upload",
     "details": "LifterLMS Wordpress plugin version below 3.37.15 is vulnerable to arbitrary file write leading to remote code execution",
     "severity": [
         {

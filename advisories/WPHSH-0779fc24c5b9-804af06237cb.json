@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2015-9228"
     ],
-    "summary": "FIXME",
+    "summary": "WordPress Gallery Plugin \u2013 NextGEN Gallery < 2.1.15 - Arbitrary File Upload",
     "details": "In post-new.php in the Photocrati NextGEN Gallery plugin 2.1.10 for WordPress, unrestricted file upload is available via the name parameter, if a file extension is changed from .jpg to .php.",
     "severity": [
         {

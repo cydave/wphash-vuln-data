@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1273"
     ],
-    "summary": "FIXME",
+    "summary": "Import WP \u2013 Import and Export WordPress data to XML or CSV files < 2.4.6 - Arbitrary File Upload",
     "details": "The Import WP WordPress plugin before 2.4.6 does not validate the imported file in some cases, allowing high privilege users such as admin to upload arbitrary files (such as PHP), leading to RCE",
     "severity": [
         {

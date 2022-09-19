@@ -11,5 +11,7 @@
     "CWE-89": "SQL Injection",
     "CWE-918": "SSRF",
     "CWE-776": "XXE",
-    "CWE-1236": "CSV Injection"
+    "CWE-1236": "CSV Injection",
+    "CWE-434": "Arbitrary File Upload",
+    "CWE-98": "Remote File Inclusion"
 }

@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2019-1010209"
     ],
-    "summary": "FIXME",
+    "summary": "GoUrl Bitcoin Payment Gateway & Paid Downloads & Membership < 1.4.14 - Unauthenticated Arbitrary File Upload",
     "details": "GoUrl.io GoURL Wordpress Plugin 1.4.13 and earlier is affected by: CWE-434. The impact is: unauthenticated/unzuthorized Attacker can upload executable file in website. The component is: gourl.php#L5637. The fixed version is: 1.4.14.",
     "severity": [
         {

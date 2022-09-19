@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2016-10958"
     ],
-    "summary": "FIXME",
+    "summary": "Estatik Real Estate Plugin < 2.3.1 - Unauthenticated Arbitrary File Upload",
     "details": "The estatik plugin before 2.3.0 for WordPress has unauthenticated arbitrary file upload via es_media_images[] to wp-admin/admin-ajax.php.",
     "severity": [
         {

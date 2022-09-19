@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-1092"
     ],
-    "summary": "FIXME",
+    "summary": "myCred < 2.4.4 - Subscriber+ Import/Export to Email Address Disclosure",
     "details": "The myCred WordPress plugin before 2.4.4 does not have authorisation and CSRF checks in its mycred-tools-import-export AJAX action, allowing any authenticated user to call and and retrieve the list of email address present in the blog",
     "severity": [
         {

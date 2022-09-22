@@ -1,0 +1,46 @@
+{
+    "id": "WPHSH-3ff792341d2d-9f0756dcf43a",
+    "modified": "2022-09-21T00:00:00Z",
+    "published": "2022-09-21T00:00:00Z",
+    "aliases": [
+        "CVE-2022-3149"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-custom-cursors"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-custom-cursors",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3149"
+        }
+    ],
+    "database_specific": {
+        "slug": "wp-custom-cursors",
+        "name": "WP Custom Cursors | WordPress Cursor Plugin",
+        "cwe_ids": []
+    }
+}

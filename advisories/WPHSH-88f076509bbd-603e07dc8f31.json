@@ -1,0 +1,75 @@
+{
+    "id": "WPHSH-88f076509bbd-603e07dc8f31",
+    "modified": "2022-09-22T00:00:00Z",
+    "published": "2022-09-22T00:00:00Z",
+    "aliases": [
+        "CVE-2022-40215"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "vc-tabs"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/vc-tabs",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "3.7.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.7.1",
+                "3.7.0",
+                "3.6.0",
+                "3.5.4",
+                "3.5.3",
+                "3.5.2",
+                "3.5.1",
+                "3.5.0",
+                "3.4.0",
+                "3.3.2",
+                "3.3.1",
+                "3.3.0",
+                "3.2.1",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.9",
+                "2.8",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.2",
+                "2.0",
+                "1.1",
+                "1.1.2",
+                "1.2",
+                "2.3",
+                "2.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40215"
+        }
+    ],
+    "database_specific": {
+        "slug": "vc-tabs",
+        "name": "Tabs \u2013 Responsive Tabs with WooCommerce Product Tab Extension",
+        "cwe_ids": []
+    }
+}

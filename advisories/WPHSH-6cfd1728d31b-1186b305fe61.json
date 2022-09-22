@@ -1,0 +1,78 @@
+{
+    "id": "WPHSH-6cfd1728d31b-1186b305fe61",
+    "modified": "2022-09-22T00:00:00Z",
+    "published": "2022-09-22T00:00:00Z",
+    "aliases": [
+        "CVE-2022-2864"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "demon-image-annotation"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/demon-image-annotation",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.7",
+                "4.6",
+                "4.5",
+                "4.1",
+                "4.0",
+                "3.9",
+                "3.8",
+                "3.7",
+                "3.6",
+                "3.5",
+                "3.4",
+                "3.3",
+                "3.2",
+                "3.1",
+                "2.5.4",
+                "3.0",
+                "2.5.3",
+                "2.5.1",
+                "2.4.8",
+                "2.4.7",
+                "2.4.6",
+                "2.4.5",
+                "2.4.4",
+                "2.4.3",
+                "2.4.1",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0",
+                "1.2",
+                "1.0",
+                "1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2864"
+        }
+    ],
+    "database_specific": {
+        "slug": "demon-image-annotation",
+        "name": "demon image annotation",
+        "cwe_ids": []
+    }
+}

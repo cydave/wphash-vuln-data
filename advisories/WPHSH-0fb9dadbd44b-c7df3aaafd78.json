@@ -1,0 +1,54 @@
+{
+    "id": "WPHSH-0fb9dadbd44b-c7df3aaafd78",
+    "modified": "2022-09-21T20:15Z",
+    "published": "2022-09-22T12:41Z",
+    "aliases": [
+        "CVE-2022-36365"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple Authenticated (contributor+) Stored Cross-Site Scripting (XSS) vulnerabilities in WHA Crossword plugin <= 1.1.10 at WordPress.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wha-crossword"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wha-crossword",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": []
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/wha-crossword/wordpress-wha-crossword-plugin-1-1-10-multiple-authenticated-stored-cross-site-scripting-xss-vulnerabilities"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wha-crossword/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36365"
+        }
+    ],
+    "database_specific": {
+        "slug": "wha-crossword",
+        "name": "WHA Crossword",
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

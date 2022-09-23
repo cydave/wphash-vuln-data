@@ -1,0 +1,54 @@
+{
+    "id": "WPHSH-949b22e68314-fcb707eb7b93",
+    "modified": "2022-09-21T20:15Z",
+    "published": "2022-09-22T12:41Z",
+    "aliases": [
+        "CVE-2022-36383"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple Authenticated (contributor+) Stored Cross-Site Scripting (XSS) vulnerabilities in WHA Word Search Puzzles game plugin <= 2.0.1 at WordPress.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wha-wordsearch"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wha-wordsearch",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": []
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/wha-wordsearch/wordpress-word-search-puzzles-game-plugin-2-0-1-multiple-authenticated-stored-cross-site-scripting-xss-vulnerabilities"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wha-wordsearch/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36383"
+        }
+    ],
+    "database_specific": {
+        "slug": "wha-wordsearch",
+        "name": "Word Search Puzzles game",
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

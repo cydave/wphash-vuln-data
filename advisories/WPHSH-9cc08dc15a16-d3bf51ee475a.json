@@ -258,6 +258,14 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/customer-reviews-woocommerce/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/customer-reviews-woocommerce/wordpress-customer-reviews-for-woocommerce-plugin-5-3-5-authenticated-broken-access-control-vulnerability/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38134"
         }

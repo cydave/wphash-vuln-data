@@ -73,6 +73,14 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/rate-my-post/wordpress-rate-my-post-wp-rating-system-plugin-3-3-4-race-condition-vulnerability/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/rate-my-post/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40310"
         }

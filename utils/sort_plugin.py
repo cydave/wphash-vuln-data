@@ -16,6 +16,9 @@ if __name__ == "__main__":
             if ref["url"].startswith("https://wordpress.org/plugins/"):
                 is_plugin = True
                 break
+            if ref["url"].startswith("https://plugins.trac.wordpress.org/"):
+                is_plugin = True
+                break
 
         if not is_plugin:
             continue

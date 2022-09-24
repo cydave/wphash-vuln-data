@@ -85,6 +85,10 @@
             "url": "https://www.wordfence.com/vulnerability-advisories/#CVE-2022-2941"
         },
         {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/168479/WordPress-WP-UserOnline-2.88.0-Cross-Site-Scripting.html"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2941"
         }

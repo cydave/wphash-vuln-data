@@ -6,6 +6,13 @@ import json
 import nvd
 
 
+PLUGIN_URL_PREFIXES = (
+    "https://wordpress.org/plugins/",
+    "https://plugins.trac.wordpress.org/",
+    "https://plugins.svn.wordpress.org/"
+)
+
+
 if __name__ == "__main__":
     for nvd_entry_filepath in glob.iglob("../unsorted/CVE-*.json"):
         with open(nvd_entry_filepath) as fin:
@@ -13,12 +20,11 @@ if __name__ == "__main__":
 
         is_plugin = False
         for ref in nvd.extract_references(nvd_entry):
-            if ref["url"].startswith("https://wordpress.org/plugins/"):
-                is_plugin = True
-                break
-            if ref["url"].startswith("https://plugins.trac.wordpress.org/"):
-                is_plugin = True
-                break
+            if "wordpress" in ref["url"]:
+                for prefix in PLUGIN_URL_PREFIXES:
+                    if ref["url"].startswith(prefix):
+                        is_plugin = True
+                        break
 
         if not is_plugin:
             continue

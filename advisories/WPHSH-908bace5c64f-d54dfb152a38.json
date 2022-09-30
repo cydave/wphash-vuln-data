@@ -1,0 +1,67 @@
+{
+    "id": "WPHSH-908bace5c64f-d54dfb152a38",
+    "modified": "2022-09-23T14:15Z",
+    "published": "2022-09-23T14:26Z",
+    "aliases": [
+        "CVE-2022-37339"
+    ],
+    "summary": "FIXME",
+    "details": "Authenticated (contributor+) Stored Cross-Site Scripting (XSS) vulnerability in Fullworks Meet My Team plugin <= 2.0.5 at WordPress.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "meet-my-team"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/meet-my-team",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.0.5",
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.2.2",
+                "1.2.1",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/meet-my-team/wordpress-meet-my-team-plugin-2-0-5-authenticated-stored-cross-site-scripting-xss-vulnerability"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/meet-my-team/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-37339"
+        }
+    ],
+    "database_specific": {
+        "slug": "meet-my-team",
+        "name": "Meet My Team",
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

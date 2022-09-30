@@ -1,0 +1,82 @@
+{
+    "id": "WPHSH-36ce35303c0c-201201737f85",
+    "modified": "2022-09-23T16:15Z",
+    "published": "2022-09-23T16:31Z",
+    "aliases": [
+        "CVE-2022-36417"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple Stored Cross-Site Scripting (XSS) via Cross-Site Request Forgery (CSRF) vulnerability in 3D Tag Cloud plugin <= 3.8 at WordPress.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "cardoza-3d-tag-cloud"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/cardoza-3d-tag-cloud",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "3.3",
+                "3.2",
+                "3.1",
+                "3.0",
+                "2.9",
+                "2.8",
+                "2.7",
+                "2.6",
+                "2.5",
+                "2.4",
+                "2.3",
+                "2.2",
+                "2.1",
+                "1.9",
+                "1.8",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.1",
+                "1.0",
+                "1.2",
+                "1.3",
+                "Version 1.2",
+                "Version 1.1",
+                "Version 1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/cardoza-3d-tag-cloud/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/cardoza-3d-tag-cloud/wordpress-3d-tag-cloud-plugin-3-8-multiple-stored-cross-site-scripting-xss-via-cross-site-request-forgery-csrf-vulnerability/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36417"
+        }
+    ],
+    "database_specific": {
+        "slug": "cardoza-3d-tag-cloud",
+        "name": "3D Tag Cloud",
+        "cwe_ids": [
+            "CWE-352",
+            "CWE-79"
+        ]
+    }
+}

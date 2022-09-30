@@ -1,0 +1,61 @@
+{
+    "id": "WPHSH-10e799d14cdf-6ff439028e0f",
+    "modified": "2022-09-27T00:00:00Z",
+    "published": "2022-09-27T00:00:00Z",
+    "aliases": [
+        "CVE-2022-34654"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "manage-notification-emails"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/manage-notification-emails",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.8.3"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.8.2",
+                "1.8.1",
+                "1.8.0",
+                "1.7.1",
+                "1.6.1",
+                "1.7.0",
+                "1.6.0",
+                "1.5.1",
+                "1.5.0",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.0",
+                "1.2.0",
+                "1.0.0",
+                "1.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34654"
+        }
+    ],
+    "database_specific": {
+        "slug": "manage-notification-emails",
+        "name": "Manage Notification E-mails",
+        "cwe_ids": []
+    }
+}

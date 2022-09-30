@@ -1,0 +1,57 @@
+{
+    "id": "WPHSH-ee4685415f61-28b53f198c01",
+    "modified": "2022-09-23T15:15Z",
+    "published": "2022-09-23T16:06Z",
+    "aliases": [
+        "CVE-2022-38460"
+    ],
+    "summary": "FIXME",
+    "details": "Authenticated (contributor+) Stored Cross-Site Scripting (XSS) vulnerability in NOTICE BOARD plugin <= 1.1 at WordPress.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "notice-board"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/notice-board",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/notice-board/wordpress-notice-board-plugin-1-1-authenticated-stored-cross-site-scripting-xss-vulnerability/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/notice-board/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38460"
+        }
+    ],
+    "database_specific": {
+        "slug": "notice-board",
+        "name": "NOTICE BOARD",
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

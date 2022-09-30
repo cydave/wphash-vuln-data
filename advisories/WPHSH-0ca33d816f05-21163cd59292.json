@@ -1,0 +1,88 @@
+{
+    "id": "WPHSH-0ca33d816f05-21163cd59292",
+    "modified": "2022-09-23T19:15Z",
+    "published": "2022-09-23T20:54Z",
+    "aliases": [
+        "CVE-2022-38454"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-Site Request Forgery (CSRF) vulnerability in Kraken.io Image Optimizer plugin <= 2.6.5 at WordPress.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "kraken-image-optimizer"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/kraken-image-optimizer",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.6.5",
+                "2.6.4",
+                "2.6.3",
+                "2.6.2",
+                "2.6.1",
+                "2.6.0",
+                "2.5.1",
+                "2.5.0",
+                "2.0.0",
+                "1.0.9.1",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5.9",
+                "1.0.5.8",
+                "1.0.5.7",
+                "1.0.5.6",
+                "1.0.5.5",
+                "1.0.5.4",
+                "1.0.5.3",
+                "1.0.5.2",
+                "1.0.5.1",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3.4",
+                "1.0.3.3",
+                "1.0.3.2",
+                "1.0.3.1",
+                "1.0.3",
+                "1.0.2.1",
+                "1.0.2",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/kraken-image-optimizer/wordpress-kraken-io-image-optimizer-plugin-2-6-5-cross-site-request-forgery-csrf-vulnerability/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/kraken-image-optimizer/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38454"
+        }
+    ],
+    "database_specific": {
+        "slug": "kraken-image-optimizer",
+        "name": "Kraken.io Image Optimizer",
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

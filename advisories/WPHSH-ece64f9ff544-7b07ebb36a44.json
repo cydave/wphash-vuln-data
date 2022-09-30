@@ -1,0 +1,74 @@
+{
+    "id": "WPHSH-ece64f9ff544-7b07ebb36a44",
+    "modified": "2022-09-23T15:15Z",
+    "published": "2022-09-23T16:06Z",
+    "aliases": [
+        "CVE-2022-38085"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-Site Request Forgery (CSRF) vulnerability in Read more By Adam plugin <= 1.1.8 at WordPress.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "read-more"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/read-more",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.1.8",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6.5",
+                "1.0.6.4",
+                "1.0.6.3",
+                "1.0.6.2",
+                "1.0.6.1",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4.1",
+                "1.0.4",
+                "1.0.2",
+                "1.0.3",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/read-more/wordpress-read-more-by-adam-plugin-1-1-8-cross-site-request-forgery-csrf-vulnerability/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/read-more/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38085"
+        }
+    ],
+    "database_specific": {
+        "slug": "read-more",
+        "name": "Read more By Adam",
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

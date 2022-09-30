@@ -1,0 +1,60 @@
+{
+    "id": "WPHSH-d1443cbc29f9-52b98458c089",
+    "modified": "2022-09-23T14:15Z",
+    "published": "2022-09-23T14:26Z",
+    "aliases": [
+        "CVE-2022-37338"
+    ],
+    "summary": "FIXME",
+    "details": "Multiple Authenticated (contributor+) Stored Cross-Site Scripting (XSS) vulnerabilities in Blossom Recipe Maker plugin <= 1.0.7 at WordPress.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "blossom-recipe-maker"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/blossom-recipe-maker",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/blossom-recipe-maker/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/blossom-recipe-maker/wordpress-blossom-recipe-maker-plugin-1-0-7-multiple-authenticated-stored-cross-site-scripting-xss-vulnerabilities"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-37338"
+        }
+    ],
+    "database_specific": {
+        "slug": "blossom-recipe-maker",
+        "name": "Blossom Recipe Maker",
+        "cwe_ids": []
+    }
+}

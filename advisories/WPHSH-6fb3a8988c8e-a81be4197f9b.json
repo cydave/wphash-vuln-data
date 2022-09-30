@@ -1,0 +1,52 @@
+{
+    "id": "WPHSH-6fb3a8988c8e-a81be4197f9b",
+    "modified": "2022-09-23T15:15Z",
+    "published": "2022-09-23T16:06Z",
+    "aliases": [
+        "CVE-2022-37328"
+    ],
+    "summary": "FIXME",
+    "details": "Authenticated (author+) Stored Cross-Site Scripting (XSS) vulnerability in Themes Awesome History Timeline plugin <= 1.0.5 at WordPress.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "timeline-awesome"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/timeline-awesome",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": []
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/timeline-awesome/wordpress-history-timeline-plugin-1-0-5-authenticated-stored-cross-site-scripting-xss-vulnerability/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/timeline-awesome/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-37328"
+        }
+    ],
+    "database_specific": {
+        "slug": "timeline-awesome",
+        "name": "History Timeline for Biography, Company History & Event Timeline",
+        "cwe_ids": []
+    }
+}

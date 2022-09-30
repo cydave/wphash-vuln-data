@@ -1,0 +1,50 @@
+{
+    "id": "WPHSH-3cd259719cc1-2825409b0a35",
+    "modified": "2022-09-29T00:00:00Z",
+    "published": "2022-09-29T00:00:00Z",
+    "aliases": [
+        "CVE-2022-38104"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "accordions-or-faqs"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/accordions-or-faqs",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.1.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.0.2",
+                "2.0.1",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38104"
+        }
+    ],
+    "database_specific": {
+        "slug": "accordions-or-faqs",
+        "name": "Accordions \u2013 Multiple Accordions or FAQs Builder",
+        "cwe_ids": []
+    }
+}

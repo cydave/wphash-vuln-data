@@ -1,0 +1,77 @@
+{
+    "id": "WPHSH-94fef7143a5a-0bf97a388a16",
+    "modified": "2022-09-23T15:15Z",
+    "published": "2022-09-23T16:06Z",
+    "aliases": [
+        "CVE-2022-40193"
+    ],
+    "summary": "FIXME",
+    "details": "Unauthenticated Stored Cross-Site Scripting (XSS) vulnerability in Awesome Filterable Portfolio plugin <= 1.9.7 at WordPress.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "awesome-filterable-portfolio"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/awesome-filterable-portfolio",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.9.7",
+                "1.9.6",
+                "1.9.5",
+                "1.9",
+                "1.8.6",
+                "1.8.4",
+                "1.8.5",
+                "1.8.3",
+                "1.8.2",
+                "1.8.1",
+                "1.8",
+                "1.7.8",
+                "1.7.5",
+                "1.7.4",
+                "1.7",
+                "1.6",
+                "1.5",
+                "1.4",
+                "1.3",
+                "1.2",
+                "1.1",
+                "1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/awesome-filterable-portfolio/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/awesome-filterable-portfolio/wordpress-awesome-filterable-portfolio-plugin-1-9-7-unauthenticated-stored-cross-site-scripting-xss-vulnerability/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40193"
+        }
+    ],
+    "database_specific": {
+        "slug": "awesome-filterable-portfolio",
+        "name": "Awesome Filterable Portfolio",
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "id": "WPHSH-1c7826c8f16a-741bb49c16c2",
+    "modified": "2022-09-23T15:15Z",
+    "published": "2022-09-23T16:06Z",
+    "aliases": [
+        "CVE-2022-40672"
+    ],
+    "summary": "FIXME",
+    "details": "Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability in CPO Shortcodes plugin <= 1.5.0 at WordPress.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "cpo-shortcodes"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/cpo-shortcodes",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": []
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/cpo-shortcodes/wordpress-cpo-shortcodes-plugin-1-5-0-authenticated-stored-cross-site-scripting-xss-vulnerability/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/cpo-shortcodes/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40672"
+        }
+    ],
+    "database_specific": {
+        "slug": "cpo-shortcodes",
+        "name": "CPO Shortcodes",
+        "cwe_ids": [
+            "CWE-79"
+        ]
+    }
+}

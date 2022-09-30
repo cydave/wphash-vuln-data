@@ -1,0 +1,56 @@
+{
+    "id": "WPHSH-a067a986fc01-607e29570ad3",
+    "modified": "2022-09-23T15:15Z",
+    "published": "2022-09-23T16:06Z",
+    "aliases": [
+        "CVE-2022-36388"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-Site Request Forgery (CSRF) vulnerability in YDS Support Ticket System plugin <= 1.0 at WordPress.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "yds-support-ticket-system"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/yds-support-ticket-system",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "TODO"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/yds-support-ticket-system/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/yds-support-ticket-system/wordpress-yds-support-ticket-system-plugin-1-0-cross-site-request-forgery-csrf-vulnerability/"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36388"
+        }
+    ],
+    "database_specific": {
+        "slug": "yds-support-ticket-system",
+        "name": "YDS Support Ticket System",
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

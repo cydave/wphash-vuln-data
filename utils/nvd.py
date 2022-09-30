@@ -39,6 +39,7 @@ def extract_references(cve_entry: Dict) -> List[Dict]:
         # trailing /_s_id=cve which appears to be wrong as they point to 404.
         # Get rid if that.
         if ref_data["url"].endswith("/_s_id=cve") and "patchstack" in ref_data["url"]:
+            ref_data["url"] = ref_data["url"].replace("/?_s_id=cve", "/")
             ref_data["url"] = ref_data["url"].replace("/_s_id=cve", "/")
 
         if ref_data["url"] in uniq_ref:

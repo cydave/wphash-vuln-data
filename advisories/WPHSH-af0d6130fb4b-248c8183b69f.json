@@ -1,0 +1,67 @@
+{
+    "id": "WPHSH-af0d6130fb4b-248c8183b69f",
+    "modified": "2022-10-03T00:00:00Z",
+    "published": "2022-10-03T00:00:00Z",
+    "aliases": [
+        "CVE-2022-3393"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "post-to-csv"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/post-to-csv",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.3.9",
+                "1.3.8",
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.9",
+                "1.2.8",
+                "1.2.7",
+                "1.2.6",
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3393"
+        }
+    ],
+    "database_specific": {
+        "slug": "post-to-csv",
+        "name": "Post to CSV by BestWebSoft",
+        "cwe_ids": []
+    }
+}

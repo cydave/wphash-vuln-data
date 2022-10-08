@@ -578,6 +578,10 @@
             "url": "https://www.pluginvulnerabilities.com/2022/04/12/5-million-install-wordpress-plugin-elementor-contains-authenticated-remote-code-execution-rce-vulnerability/"
         },
         {
+            "type": "WEB",
+            "url": "http://packetstormsecurity.com/files/168615/WordPress-Elementor-3.6.2-Shell-Upload.html"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1329"
         }

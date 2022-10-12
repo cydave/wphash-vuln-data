@@ -1,0 +1,47 @@
+{
+    "id": "WPHSH-714db89df42b-e14ad2befdd4",
+    "modified": "2022-10-12T00:00:00Z",
+    "published": "2022-10-12T00:00:00Z",
+    "aliases": [
+        "CVE-2022-41643"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "accessibility"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/accessibility",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41643"
+        }
+    ],
+    "database_specific": {
+        "slug": "accessibility",
+        "name": "Accessibility",
+        "cwe_ids": []
+    }
+}

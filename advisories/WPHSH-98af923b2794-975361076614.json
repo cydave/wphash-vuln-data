@@ -1,9 +1,9 @@
 {
-    "id": "WPHSH-01a779f9c0cf-deebdf890827",
-    "modified": "2022-09-19T00:00:00Z",
-    "published": "2022-09-19T00:00:00Z",
+    "id": "WPHSH-98af923b2794-975361076614",
+    "modified": "2022-10-10T00:00:00Z",
+    "published": "2022-10-10T00:00:00Z",
     "aliases": [
-        "CVE-2022-3136"
+        "CVE-2022-3334"
     ],
     "summary": "FIXME",
     "details": "FIXME",
@@ -11,59 +11,66 @@
         {
             "package": {
                 "ecosystem": "wordpress-plugin",
-                "name": "social-rocket"
+                "name": "easy-wp-smtp"
             },
             "ranges": [
                 {
                     "type": "ECOSYSTEM",
-                    "repo": "https://plugins.svn.wordpress.org/social-rocket",
+                    "repo": "https://plugins.svn.wordpress.org/easy-wp-smtp",
                     "events": [
                         {
                             "introduced": "0"
                         },
                         {
-                            "fixed": "1.3.3"
+                            "fixed": "1.5.0"
                         }
                     ]
                 }
             ],
             "versions": [
+                "1.4.4",
+                "1.4.3",
+                "1.4.1",
+                "1.4.0",
+                "1.3.9.3",
+                "1.3.9.2",
+                "1.3.9.1",
+                "1.3.6",
+                "1.3.5",
+                "1.3.3",
                 "1.3.2",
                 "1.3.1",
                 "1.3.0",
-                "1.2.12",
-                "1.2.11",
-                "1.2.10",
                 "1.2.9",
-                "1.2.8",
                 "1.2.7",
-                "1.2.6",
-                "1.2.5",
                 "1.2.4",
                 "1.2.3",
                 "1.2.2",
                 "1.2.1",
                 "1.2.0",
-                "1.1.1",
+                "1.1.9",
                 "1.1.0",
-                "1.0.1",
-                "1.0.0"
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1"
             ]
         }
     ],
     "references": [
         {
-            "type": "WEB",
-            "url": "https://wpscan.com/vulnerability/913d7e78-23f6-4b0d-aca3-17051a2dc649"
-        },
-        {
             "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3136"
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3334"
         }
     ],
     "database_specific": {
-        "slug": "social-rocket",
-        "name": "Social Rocket \u2013 Social Sharing Plugin",
+        "slug": "easy-wp-smtp",
+        "name": "Easy WP SMTP",
         "cwe_ids": []
     }
 }

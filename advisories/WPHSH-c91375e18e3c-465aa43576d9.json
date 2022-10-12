@@ -1,0 +1,107 @@
+{
+    "id": "WPHSH-c91375e18e3c-465aa43576d9",
+    "modified": "2022-10-10T00:00:00Z",
+    "published": "2022-10-10T00:00:00Z",
+    "aliases": [
+        "CVE-2022-3366"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "capability-manager-enhanced"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/capability-manager-enhanced",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.5.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.5.1",
+                "2.5.0",
+                "2.4.4",
+                "2.4.3",
+                "2.4.2",
+                "2.4.1",
+                "2.4.0",
+                "2.3.6",
+                "2.3.5",
+                "2.3.4",
+                "2.3.3",
+                "2.3.2",
+                "2.0.3",
+                "2.2.1",
+                "2.1.1",
+                "2.3.1",
+                "2.3",
+                "2.2",
+                "2.1",
+                "2.0.2",
+                "2.0",
+                "1.10.1",
+                "1.10",
+                "1.9.12",
+                "1.9.10",
+                "1.9.9",
+                "1.9.6",
+                "1.9.5",
+                "1.9.4",
+                "1.9.3",
+                "1.9.2",
+                "1.9",
+                "1.8.1",
+                "1.7.5",
+                "1.7.4",
+                "1.7.3",
+                "1.7.2",
+                "1.7.1",
+                "1.7",
+                "1.6.1",
+                "1.6",
+                "1.5.11",
+                "1.5.10",
+                "1.5.9",
+                "1.5.8",
+                "1.5.7",
+                "1.5.5",
+                "1.5.4",
+                "1.5.3",
+                "1.5.2",
+                "1.5.1",
+                "1.4.8",
+                "1.5",
+                "1.4.9",
+                "1.4.10",
+                "1.4.7",
+                "1.4.6",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3366"
+        }
+    ],
+    "database_specific": {
+        "slug": "capability-manager-enhanced",
+        "name": "PublishPress Capabilities \u2013 User Role Access, Editor Permissions, Admin Menus",
+        "cwe_ids": []
+    }
+}

@@ -156,6 +156,10 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/9f03bc1a-214f-451a-89fd-2cd3517e8f8a"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3243"
         }

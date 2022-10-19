@@ -1,0 +1,55 @@
+{
+    "id": "WPHSH-e8cd71722f15-793c98e79525",
+    "modified": "2022-10-12T00:00:00Z",
+    "published": "2022-10-12T00:00:00Z",
+    "aliases": [
+        "CVE-2022-41647"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "optinly"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/optinly",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.0.11.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.0.11",
+                "1.0.10",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41647"
+        }
+    ],
+    "database_specific": {
+        "slug": "optinly",
+        "name": "Optinly: Best WordPress Popup Plugin \u2013 Exit Intent, Newsletter Popups, Gamification & Opt-in Forms",
+        "cwe_ids": []
+    }
+}

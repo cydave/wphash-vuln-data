@@ -84,6 +84,10 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/11c89925-4fe9-45f7-9020-55fe7bbae3db"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3139"
         }

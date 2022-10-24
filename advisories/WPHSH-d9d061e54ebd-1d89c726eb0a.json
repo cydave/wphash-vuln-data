@@ -1,0 +1,66 @@
+{
+    "id": "WPHSH-d9d061e54ebd-1d89c726eb0a",
+    "modified": "2022-10-21T00:00:00Z",
+    "published": "2022-10-21T00:00:00Z",
+    "aliases": [
+        "CVE-2022-40963"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-pagebuilder"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-pagebuilder",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.6",
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0",
+                "1.0.0-beta2",
+                "1.0.0-beta1",
+                "1.0.0-beta"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40963"
+        }
+    ],
+    "database_specific": {
+        "slug": "wp-pagebuilder",
+        "name": "WP Page Builder",
+        "cwe_ids": []
+    }
+}

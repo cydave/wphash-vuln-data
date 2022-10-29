@@ -1,9 +1,9 @@
 {
-    "id": "WPHSH-1c67cb4f1f26-8c42c98c978a",
-    "modified": "2022-09-30T00:00:00Z",
-    "published": "2022-09-30T00:00:00Z",
+    "id": "WPHSH-7eab5c413c96-8caf899aa8ad",
+    "modified": "2022-10-28T00:00:00Z",
+    "published": "2022-10-28T00:00:00Z",
     "aliases": [
-        "CVE-2022-3097"
+        "CVE-2022-3618"
     ],
     "summary": "FIXME",
     "details": "FIXME",
@@ -11,41 +11,46 @@
         {
             "package": {
                 "ecosystem": "wordpress-plugin",
-                "name": "lbstopattack"
+                "name": "spacer"
             },
             "ranges": [
                 {
                     "type": "ECOSYSTEM",
-                    "repo": "https://plugins.svn.wordpress.org/lbstopattack",
+                    "repo": "https://plugins.svn.wordpress.org/spacer",
                     "events": [
                         {
                             "introduced": "0"
                         },
                         {
-                            "fixed": "1.1.3"
+                            "fixed": "3.0.7"
                         }
                     ]
                 }
             ],
             "versions": [
-                "1.1.2",
-                "1.1.1"
+                "3.0.6",
+                "3.0.5",
+                "3.0.4",
+                "3.0.3",
+                "3.0.2",
+                "3.0.1",
+                "3.0",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0"
             ]
         }
     ],
     "references": [
         {
-            "type": "WEB",
-            "url": "https://wpscan.com/vulnerability/9ebb8318-ebaf-4de7-b337-c91327685a43"
-        },
-        {
             "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3097"
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3618"
         }
     ],
     "database_specific": {
-        "slug": "lbstopattack",
-        "name": "Plugin LBstopattack",
+        "slug": "spacer",
+        "name": "Spacer",
         "cwe_ids": []
     }
 }

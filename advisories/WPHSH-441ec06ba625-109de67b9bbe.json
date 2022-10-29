@@ -1,0 +1,64 @@
+{
+    "id": "WPHSH-441ec06ba625-109de67b9bbe",
+    "modified": "2022-10-25T00:00:00Z",
+    "published": "2022-10-25T00:00:00Z",
+    "aliases": [
+        "CVE-2022-40695"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "seo-redirection"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/seo-redirection",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "9.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "8.9",
+                "8.8",
+                "8.7",
+                "8.6",
+                "8.5",
+                "8.4",
+                "8.3",
+                "8.2",
+                "8.1",
+                "7.9",
+                "7.8",
+                "7.7",
+                "7.6",
+                "7.5",
+                "7.4",
+                "7.3",
+                "7.2",
+                "7.1",
+                "4.17"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40695"
+        }
+    ],
+    "database_specific": {
+        "slug": "seo-redirection",
+        "name": "SEO Redirection Plugin \u2013 301 Redirect Manager",
+        "cwe_ids": []
+    }
+}

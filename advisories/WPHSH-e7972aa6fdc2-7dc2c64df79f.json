@@ -1,0 +1,98 @@
+{
+    "id": "WPHSH-e7972aa6fdc2-7dc2c64df79f",
+    "modified": "2022-10-25T00:00:00Z",
+    "published": "2022-10-25T00:00:00Z",
+    "aliases": [
+        "CVE-2022-42459"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "image-hover-effects-ultimate"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/image-hover-effects-ultimate",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "9.7.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "9.7.1",
+                "9.7.0",
+                "9.6.2",
+                "9.6.1",
+                "9.6.0",
+                "9.5.3",
+                "9.5.2",
+                "9.5.1",
+                "9.5.0",
+                "9.4.3",
+                "9.4.2",
+                "9.4.1",
+                "9.4.0",
+                "9.3.4",
+                "9.3.3",
+                "9.3.2",
+                "9.3.1",
+                "9.3.0",
+                "9.2",
+                "9.1",
+                "9.0",
+                "8.9",
+                "8.8",
+                "8.7",
+                "8.6",
+                "8.5",
+                "8.4",
+                "8.3",
+                "8.2",
+                "8.1",
+                "8.0",
+                "7.6",
+                "7.5",
+                "7.3",
+                "7.2",
+                "6.9.3",
+                "7.0.1",
+                "6.9.2",
+                "6.9.1",
+                "6.9",
+                "6.8.2",
+                "6.4",
+                "6.3",
+                "6.2",
+                "6.1",
+                "6.0",
+                "5.1",
+                "5.0",
+                "4.1",
+                "4.0",
+                "3.0",
+                "1.0",
+                "2.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-42459"
+        }
+    ],
+    "database_specific": {
+        "slug": "image-hover-effects-ultimate",
+        "name": "Image Hover Effects Ultimate (Image Gallery, Effects, Lightbox, Comparison or Magnifier)",
+        "cwe_ids": []
+    }
+}

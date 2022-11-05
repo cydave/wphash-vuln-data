@@ -1,0 +1,108 @@
+{
+    "id": "WPHSH-8854051a298d-eb522c8a0eb4",
+    "modified": "2022-11-04T14:08Z",
+    "published": "2022-11-03T20:15Z",
+    "aliases": [
+        "CVE-2022-25952"
+    ],
+    "summary": "FIXME",
+    "details": "Cross-Site Request Forgery (CSRF) vulnerability in Keywordrush Content Egg plugin <= 5.4.0 on WordPress.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "content-egg"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/content-egg",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "5.5.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "5.4.0",
+                "5.3.1",
+                "5.3.0",
+                "\\$\\{version\\}",
+                "5.2.1",
+                "5.2.0",
+                "5.1.0",
+                "5.0.0",
+                "4.9.8",
+                "4.8.0",
+                "4.5.0",
+                "4.4.3",
+                "4.3.0",
+                "4.2.1",
+                "4.0.3",
+                "3.9.1",
+                "3.9.0",
+                "3.7.0",
+                "3.6.2",
+                "3.5.1",
+                "3.5.0",
+                "3.4.1",
+                "3.2.1",
+                "3.2.0",
+                "3.0.5",
+                "3.0.2",
+                "3.0.1",
+                "3.0.0",
+                "2.9.1",
+                "2.9.0",
+                "2.8.1",
+                "2.8.0",
+                "2.7.0",
+                "2.6.1",
+                "2.6.0",
+                "2.5.1",
+                "2.4.2",
+                "2.4.0",
+                "2.3.0",
+                "2.2.0",
+                "2.1.0",
+                "2.0.1",
+                "1.9.0",
+                "1.8.0",
+                "1.7.1",
+                "1.6.1",
+                "1.6.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/content-egg/wordpress-content-egg-plugin-5-4-0-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/content-egg/#developers"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25952"
+        }
+    ],
+    "database_specific": {
+        "slug": "content-egg",
+        "name": "Content Egg",
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

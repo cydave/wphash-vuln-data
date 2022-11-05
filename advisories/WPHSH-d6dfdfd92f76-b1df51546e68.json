@@ -90,6 +90,14 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/rock-convert/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/rock-convert/wordpress-rock-convert-plugin-2-11-0-auth-cross-site-scripting-xss-vulnerability?_s_id=cve"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-36428"
         }

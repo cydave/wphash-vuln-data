@@ -1,0 +1,96 @@
+{
+    "id": "WPHSH-4f16ba514381-68f46f97abd2",
+    "modified": "2022-11-04T02:26Z",
+    "published": "2022-11-03T17:15Z",
+    "aliases": [
+        "CVE-2022-3776"
+    ],
+    "summary": "FIXME",
+    "details": "The Restaurant Menu \u2013 Food Ordering System \u2013 Table Reservation plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions up to, and including, 2.3.1. This is due to missing or incorrect nonce validation on several functions called via AJAX actions such as forms_action, set_option, & chosen_options to name a few . This makes it possible for unauthenticated attackers to perform a variety of administrative actions like modifying forms, via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "menu-ordering-reservations"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/menu-ordering-reservations",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.3.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.3.1",
+                "2.3.0",
+                "2.2.2",
+                "2.2.1",
+                "2.2.0",
+                "2.1.0",
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.5.1",
+                "1.5.0",
+                "1.4.8",
+                "1.4.7",
+                "1.4.6",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.1",
+                "1.2.0",
+                "1.1.1",
+                "1.1.0",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://www.wordfence.com/vulnerability-advisories-continued/#CVE-2022-3776"
+        },
+        {
+            "type": "WEB",
+            "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=2807967%40menu-ordering-reservations&new=2807967%40menu-ordering-reservations&sfp_email=&sfph_mail="
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3776"
+        }
+    ],
+    "database_specific": {
+        "slug": "menu-ordering-reservations",
+        "name": "Restaurant Menu \u2013 Food Ordering System \u2013 Table Reservation",
+        "cwe_ids": [
+            "CWE-352"
+        ]
+    }
+}

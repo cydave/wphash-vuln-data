@@ -1,0 +1,89 @@
+{
+    "id": "WPHSH-5fc70ed28660-8caf1b3bea7f",
+    "modified": "2022-10-30T00:00:00Z",
+    "published": "2022-10-30T00:00:00Z",
+    "aliases": [
+        "CVE-2022-43481"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "advanced-coupons-for-woocommerce-free"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/advanced-coupons-for-woocommerce-free",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.5.0.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.5",
+                "4.4.1",
+                "4.4",
+                "4.3.4",
+                "4.3.3",
+                "4.3.2",
+                "4.3.1",
+                "4.3",
+                "4.2.1",
+                "4.2",
+                "4.1",
+                "4.0.3",
+                "4.0.2",
+                "4.0.1",
+                "4.0",
+                "3.1.4",
+                "3.1.3",
+                "3.1.2",
+                "3.1.1",
+                "3.1",
+                "3.0.2",
+                "3.0.1",
+                "3.0",
+                "1.6.1",
+                "1.6",
+                "1.5",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4",
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2",
+                "1.1",
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-43481"
+        }
+    ],
+    "database_specific": {
+        "slug": "advanced-coupons-for-woocommerce-free",
+        "name": "Advanced Coupons \u2013 Better WooCommerce Coupons, Store Credit, Gift Cards, Loyalty Program & More",
+        "cwe_ids": []
+    }
+}

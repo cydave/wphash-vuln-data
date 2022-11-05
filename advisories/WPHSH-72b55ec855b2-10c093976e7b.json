@@ -1,0 +1,90 @@
+{
+    "id": "WPHSH-72b55ec855b2-10c093976e7b",
+    "modified": "2022-10-31T00:00:00Z",
+    "published": "2022-10-31T00:00:00Z",
+    "aliases": [
+        "CVE-2022-1581"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-polls"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-polls",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.76.0"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.75.6",
+                "2.75.5",
+                "2.75.4",
+                "2.75.3",
+                "2.75.2",
+                "2.75.1",
+                "2.74.1",
+                "2.74",
+                "2.73.8",
+                "2.73.7",
+                "2.73.6",
+                "2.73.5",
+                "2.73.4",
+                "2.73.3",
+                "2.73.2",
+                "2.73.1",
+                "2.73",
+                "2.72",
+                "2.71",
+                "2.70",
+                "2.69",
+                "2.68",
+                "2.67",
+                "2.66",
+                "2.65",
+                "2.64",
+                "2.50",
+                "2.40",
+                "2.31",
+                "2.30",
+                "2.21",
+                "2.20",
+                "2.04",
+                "2.02a",
+                "1.00",
+                "2.06",
+                "2.11",
+                "2.12",
+                "2.13",
+                "2.05",
+                "2.03",
+                "2.06a",
+                "2.10",
+                "2.06b",
+                "2.14"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1581"
+        }
+    ],
+    "database_specific": {
+        "slug": "wp-polls",
+        "name": "WP-Polls",
+        "cwe_ids": []
+    }
+}

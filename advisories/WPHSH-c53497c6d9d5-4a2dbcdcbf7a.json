@@ -1,0 +1,46 @@
+{
+    "id": "WPHSH-c53497c6d9d5-4a2dbcdcbf7a",
+    "modified": "2022-11-02T00:00:00Z",
+    "published": "2022-11-02T00:00:00Z",
+    "aliases": [
+        "CVE-2022-3610"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "jeeng-push-notifications"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/jeeng-push-notifications",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.0.4"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.0.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3610"
+        }
+    ],
+    "database_specific": {
+        "slug": "jeeng-push-notifications",
+        "name": "Jeeng Push Notifications",
+        "cwe_ids": []
+    }
+}

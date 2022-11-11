@@ -61,6 +61,14 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/woo-order-export-lite/wordpress-advanced-order-export-for-woocommerce-plugin-3-3-2-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/woo-order-export-lite/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40128"
         }

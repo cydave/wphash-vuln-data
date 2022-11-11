@@ -127,6 +127,10 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/e2a59481-db45-4b8e-b17a-447303469364"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3463"
         }

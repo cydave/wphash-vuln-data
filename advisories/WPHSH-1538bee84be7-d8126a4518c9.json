@@ -1,0 +1,83 @@
+{
+    "id": "WPHSH-1538bee84be7-d8126a4518c9",
+    "modified": "2022-11-09T00:00:00Z",
+    "published": "2022-11-09T00:00:00Z",
+    "aliases": [
+        "CVE-2022-45073"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-rest-api-authentication"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-rest-api-authentication",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.4.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.4.0",
+                "2.3.0",
+                "2.30",
+                "2.2.1",
+                "2.2.0",
+                "2.1.0",
+                "1.6.7",
+                "1.6.6",
+                "1.6.5",
+                "1.6.4",
+                "1.6.3",
+                "1.6.2",
+                "1.6.1",
+                "1.6.0",
+                "1.5.2",
+                "1.5.1",
+                "1.5.0",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.10",
+                "1.3.9",
+                "1.3.8",
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.0",
+                "1.1.1",
+                "1.1.0",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45073"
+        }
+    ],
+    "database_specific": {
+        "slug": "wp-rest-api-authentication",
+        "name": "WordPress REST API Authentication",
+        "cwe_ids": []
+    }
+}

@@ -290,6 +290,14 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/advanced-ads/wordpress-advanced-ads-ad-manager-adsense-plugin-1-31-1-authenticated-stored-cross-site-scripting-xss-vulnerability?_s_id=cve"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/advanced-ads/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32776"
         }

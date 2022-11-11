@@ -1,0 +1,67 @@
+{
+    "id": "WPHSH-44d6b6b22ed2-c57479a64807",
+    "modified": "2022-11-09T00:00:00Z",
+    "published": "2022-11-09T00:00:00Z",
+    "aliases": [
+        "CVE-2022-3249"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-csv-exporter"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-csv-exporter",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.3.7"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.1.3",
+                "1.1.1",
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3249"
+        }
+    ],
+    "database_specific": {
+        "slug": "wp-csv-exporter",
+        "name": "WP CSV Exporter",
+        "cwe_ids": []
+    }
+}

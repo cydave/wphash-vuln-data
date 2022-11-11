@@ -295,6 +295,10 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/db3c3c78-1724-4791-9ab6-ebb2e8a4c8b8"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2387"
         }

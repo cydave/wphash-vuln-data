@@ -135,6 +135,14 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-analytify/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/wp-analytify/wordpress-analytify-plugin-4-2-2-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38137"
         }

@@ -89,6 +89,14 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/advanced-dynamic-pricing-for-woocommerce/wordpress-advanced-dynamic-pricing-for-woocommerce-plugin-4-1-5-cross-site-request-forgery-csrf-vulnerability-2?_s_id=cve"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/advanced-dynamic-pricing-for-woocommerce/"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-43488"
         }

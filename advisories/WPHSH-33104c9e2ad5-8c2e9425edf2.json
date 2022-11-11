@@ -194,6 +194,14 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/shortcodes-ultimate/wordpress-shortcodes-ultimate-plugin-5-12-0-csrf-vulnerability-leading-to-stored-xss?_s_id=cve"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/shortcodes-ultimate/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41136"
         }

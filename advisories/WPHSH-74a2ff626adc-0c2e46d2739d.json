@@ -1,0 +1,88 @@
+{
+    "id": "WPHSH-74a2ff626adc-0c2e46d2739d",
+    "modified": "2022-11-07T00:00:00Z",
+    "published": "2022-11-07T00:00:00Z",
+    "aliases": [
+        "CVE-2022-3768"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "wp-smart-contracts"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/wp-smart-contracts",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.3.12"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.3.11",
+                "1.3.10",
+                "1.3.9",
+                "1.3.8",
+                "1.3.7",
+                "1.3.6",
+                "1.3.5",
+                "1.3.4",
+                "1.3.3",
+                "1.3.2",
+                "1.3.1",
+                "1.3.0",
+                "1.2.12",
+                "1.2.11",
+                "1.2.10",
+                "1.2.9",
+                "1.2.8",
+                "1.2.7",
+                "1.2.6",
+                "1.2.5",
+                "1.2.4",
+                "1.2.3",
+                "1.2.2",
+                "1.2.1",
+                "1.2.0",
+                "1.1.11",
+                "1.1.10",
+                "1.1.9",
+                "1.1.8",
+                "1.1.7",
+                "1.1.6",
+                "1.1.5",
+                "1.1.4",
+                "1.1.3",
+                "1.1.2",
+                "1.1.1",
+                "1.1.0",
+                "1.0.5",
+                "1.0.4",
+                "1.0.3",
+                "1.0.2",
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3768"
+        }
+    ],
+    "database_specific": {
+        "slug": "wp-smart-contracts",
+        "name": "WPSmartContracts",
+        "cwe_ids": []
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "id": "WPHSH-b1f9e44fed9e-d8e17b402851",
+    "modified": "2022-10-24T00:00:00Z",
+    "published": "2022-10-24T00:00:00Z",
+    "aliases": [
+        "CVE-2022-43458"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "advanced-floating-content-lite"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/advanced-floating-content-lite",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.1",
+                "1.2",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-43458"
+        }
+    ],
+    "database_specific": {
+        "slug": "advanced-floating-content-lite",
+        "name": "Advanced Floating Content",
+        "cwe_ids": []
+    }
+}

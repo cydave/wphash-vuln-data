@@ -1,0 +1,48 @@
+{
+    "id": "WPHSH-8f1e8fbd0658-0c3800408b41",
+    "modified": "2022-11-07T00:00:00Z",
+    "published": "2022-11-07T00:00:00Z",
+    "aliases": [
+        "CVE-2022-44625"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "cyklodev-wp-notify"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/cyklodev-wp-notify",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.2"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.1",
+                "1.2.0",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-44625"
+        }
+    ],
+    "database_specific": {
+        "slug": "cyklodev-wp-notify",
+        "name": "Cyklodev WP Notify",
+        "cwe_ids": []
+    }
+}

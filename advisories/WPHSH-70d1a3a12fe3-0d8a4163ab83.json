@@ -1,0 +1,67 @@
+{
+    "id": "WPHSH-70d1a3a12fe3-0d8a4163ab83",
+    "modified": "2022-11-18T04:37Z",
+    "published": "2022-11-17T23:15Z",
+    "aliases": [
+        "CVE-2022-44591"
+    ],
+    "summary": "FIXME",
+    "details": "Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Anthologize plugin <= 0.8.0 on WordPress.",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "anthologize"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/anthologize",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "0.8.1"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "0.8.0",
+                "0.7.8",
+                "0.7.7",
+                "0.7.6",
+                "0.7.5",
+                "0.7.4",
+                "0.7.3",
+                "0.7.2",
+                "0.7.1",
+                "0.7",
+                "0.6.2-alpha",
+                "0.6.1-alpha",
+                "0.6.1",
+                "0.6-alpha",
+                "0.5-alpha",
+                "0.5",
+                "0.4-alpha",
+                "0.3-alpha"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/anthologize/wordpress-anthologize-plugin-0-8-0-auth-stored-cross-site-scripting-xss-vulnerability?_s_id=cve"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-44591"
+        }
+    ],
+    "database_specific": {
+        "slug": "anthologize",
+        "name": "Anthologize",
+        "cwe_ids": []
+    }
+}

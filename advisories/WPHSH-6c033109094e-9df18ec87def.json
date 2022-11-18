@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2021-36839"
     ],
-    "summary": "FIXME",
+    "summary": "Social Media Follow Buttons Bar < 5.0 - Cross-Site Scripting",
     "details": "Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability in Social Media Follow Buttons Bar plugin <= 4.73 at WordPress.",
     "severity": [
         {

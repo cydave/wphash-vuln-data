@@ -1,0 +1,82 @@
+{
+    "id": "WPHSH-7090ac01bd77-5084c27f3938",
+    "modified": "2022-07-29T15:16Z",
+    "published": "2022-07-25T13:15Z",
+    "aliases": [
+        "CVE-2022-2240"
+    ],
+    "summary": "FIXME",
+    "details": "The Request a Quote WordPress plugin through 2.3.7 does not validate uploaded CSV files, allowing unauthenticated users to attach a malicious CSV file to a quote, which could lead to a CSV injection once an admin download and open it",
+    "severity": [
+        {
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "type": "CVSS_V3"
+        }
+    ],
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "request-a-quote"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/request-a-quote",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "2.3.8"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "2.3.7",
+                "2.3.6",
+                "2.3.5",
+                "2.3.4",
+                "2.3.3",
+                "2.3.2",
+                "2.3.1",
+                "2.3.0",
+                "2.2.0",
+                "2.1.0",
+                "2.0.5",
+                "2.0.4",
+                "2.0.3",
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.9.6",
+                "1.9.5",
+                "1.9.1",
+                "1.9.0",
+                "1.8.0",
+                "1.7.0",
+                "1.6.0",
+                "1.5.0",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/6a3a573e-f9f2-45ec-9156-332cc551fc7e"
+        },
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2240"
+        }
+    ],
+    "database_specific": {
+        "slug": "request-a-quote",
+        "name": "request-a-quote",
+        "cwe_ids": [
+            "CWE-1236"
+        ]
+    }
+}

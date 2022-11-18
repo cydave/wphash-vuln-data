@@ -1,0 +1,58 @@
+{
+    "id": "WPHSH-d7a88ec0f8db-8db3d0f65f75",
+    "modified": "2022-11-16T00:00:00Z",
+    "published": "2022-11-16T00:00:00Z",
+    "aliases": [
+        "CVE-2022-4000"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "woo-shipping-dpd-baltic"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/woo-shipping-dpd-baltic",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.2.11"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.8",
+                "1.2.7",
+                "1.2.5",
+                "1.2.4",
+                "1.2.2",
+                "1.2.1",
+                "1.1.1",
+                "1.1.0",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.6",
+                "1.0.5"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4000"
+        }
+    ],
+    "database_specific": {
+        "slug": "woo-shipping-dpd-baltic",
+        "name": "WooCommerce Shipping \u2013 DPD baltic",
+        "cwe_ids": []
+    }
+}

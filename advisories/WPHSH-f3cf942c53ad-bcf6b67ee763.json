@@ -1,0 +1,89 @@
+{
+    "id": "WPHSH-f3cf942c53ad-bcf6b67ee763",
+    "modified": "2022-10-31T00:00:00Z",
+    "published": "2022-10-31T00:00:00Z",
+    "aliases": [
+        "CVE-2022-37402"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "addfreestats"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/addfreestats",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "4.16"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "4.15",
+                "4.14",
+                "4.13",
+                "4.12",
+                "4.11",
+                "4.10",
+                "4.09",
+                "4.08",
+                "4.07",
+                "4.06",
+                "4.05",
+                "4.04",
+                "4.03",
+                "4.02",
+                "4.01",
+                "4.O",
+                "3.35",
+                "3.34",
+                "3.33",
+                "3.32",
+                "3.31",
+                "3.30",
+                "3.22",
+                "3.21",
+                "3.20",
+                "3.19",
+                "3.18",
+                "3.17",
+                "3.16",
+                "3.15",
+                "3.14",
+                "3.12",
+                "3.11",
+                "3.10",
+                "3.9",
+                "3.8",
+                "3.7",
+                "3.6",
+                "3.5",
+                "3.4",
+                "3.3",
+                "3.2",
+                "3.1",
+                "3.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-37402"
+        }
+    ],
+    "database_specific": {
+        "slug": "addfreestats",
+        "name": "AFS Analytics",
+        "cwe_ids": []
+    }
+}

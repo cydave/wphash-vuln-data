@@ -1,12 +1,12 @@
 {
-    "id": "WPHSH-585cbba9c57b-976309a383ee",
-    "modified": "2022-11-09T00:00:00Z",
-    "published": "2022-11-09T00:00:00Z",
+    "id": "WPHSH-585cbba9c57b-a8b178347062",
+    "modified": "2022-11-18T04:37Z",
+    "published": "2022-11-17T23:15Z",
     "aliases": [
-        "CVE-2022-40200"
+        "CVE-2022-40192"
     ],
     "summary": "FIXME",
-    "details": "FIXME",
+    "details": "Cross-Site Request Forgery (CSRF) vulnerability in wpForo Forum plugin <= 2.0.9 on WordPress.",
     "affected": [
         {
             "package": {
@@ -110,15 +110,11 @@
     "references": [
         {
             "type": "WEB",
-            "url": "https://patchstack.com/database/vulnerability/wpforo/wordpress-wpforo-forum-plugin-2-0-9-arbitrary-file-upload-vulnerability?_s_id=cve"
-        },
-        {
-            "type": "WEB",
-            "url": "https://wordpress.org/plugins/wpforo/#developers"
+            "url": "https://patchstack.com/database/vulnerability/wpforo/wordpress-wpforo-forum-plugin-2-0-9-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
         },
         {
             "type": "ADVISORY",
-            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40200"
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40192"
         }
     ],
     "database_specific": {

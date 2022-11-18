@@ -1,0 +1,72 @@
+{
+    "id": "WPHSH-6725c830506a-44b531896491",
+    "modified": "2022-11-09T00:00:00Z",
+    "published": "2022-11-09T00:00:00Z",
+    "aliases": [
+        "CVE-2022-44739"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "quick-restaurant-reservations"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/quick-restaurant-reservations",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.5.5"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.5.4",
+                "1.5.2",
+                "1.5.1",
+                "1.5.0",
+                "1.4.8",
+                "1.4.7",
+                "1.4.6",
+                "1.4.5",
+                "1.4.4",
+                "1.4.3",
+                "1.4.2",
+                "1.4.1",
+                "1.4.0",
+                "1.3.9",
+                "1.3.8",
+                "1.3.7",
+                "1.3.5",
+                "1.3.3",
+                "1.3.1",
+                "1.3.0",
+                "1.2.8",
+                "1.2.7",
+                "1.2.5",
+                "1.2.0",
+                "1.1.5",
+                "1.0.5",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-44739"
+        }
+    ],
+    "database_specific": {
+        "slug": "quick-restaurant-reservations",
+        "name": "Quick Restaurant Reservations",
+        "cwe_ids": []
+    }
+}

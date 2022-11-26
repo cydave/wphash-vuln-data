@@ -110,7 +110,7 @@
         },
         {
             "type": "WEB",
-            "url": "https://patchstack.com/database/vulnerability/wpforo/wordpress-wpforo-forum-plugin-2-0-5-insecure-direct-object-references-idor-vulnerability?_s_id=cve"
+            "url": "https://patchstack.com/database/vulnerability/wpforo/wordpress-wpforo-forum-plugin-2-0-5-insecure-direct-object-references-idor-vulnerability"
         },
         {
             "type": "ADVISORY",

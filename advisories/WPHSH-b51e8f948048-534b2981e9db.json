@@ -140,7 +140,7 @@
         },
         {
             "type": "WEB",
-            "url": "https://patchstack.com/database/vulnerability/wp-analytify/wordpress-analytify-plugin-4-2-2-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
+            "url": "https://patchstack.com/database/vulnerability/wp-analytify/wordpress-analytify-plugin-4-2-2-cross-site-request-forgery-csrf-vulnerability"
         },
         {
             "type": "ADVISORY",

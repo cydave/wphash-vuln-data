@@ -120,7 +120,7 @@
     "references": [
         {
             "type": "WEB",
-            "url": "https://patchstack.com/database/vulnerability/polldaddy/wordpress-crowdsignal-dashboard-plugin-3-0-9-privilege-escalation-vulnerability?_s_id=cve"
+            "url": "https://patchstack.com/database/vulnerability/polldaddy/wordpress-crowdsignal-dashboard-plugin-3-0-9-privilege-escalation-vulnerability"
         },
         {
             "type": "ADVISORY",

@@ -72,7 +72,7 @@
     "references": [
         {
             "type": "WEB",
-            "url": "https://patchstack.com/database/vulnerability/wp-rest-api-authentication/wordpress-rest-api-authentication-plugin-2-4-0-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
+            "url": "https://patchstack.com/database/vulnerability/wp-rest-api-authentication/wordpress-rest-api-authentication-plugin-2-4-0-cross-site-request-forgery-csrf-vulnerability"
         },
         {
             "type": "ADVISORY",

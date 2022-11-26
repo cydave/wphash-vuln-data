@@ -112,7 +112,7 @@
     "references": [
         {
             "type": "WEB",
-            "url": "https://patchstack.com/database/vulnerability/all-in-one-wp-security-and-firewall/wordpress-all-in-one-wp-security-plugin-5-1-0-multiple-cross-site-request-forgery-csrf-vulnerabilities?_s_id=cve"
+            "url": "https://patchstack.com/database/vulnerability/all-in-one-wp-security-and-firewall/wordpress-all-in-one-wp-security-plugin-5-1-0-multiple-cross-site-request-forgery-csrf-vulnerabilities"
         },
         {
             "type": "ADVISORY",

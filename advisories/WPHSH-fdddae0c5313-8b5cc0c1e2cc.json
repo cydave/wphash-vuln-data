@@ -71,7 +71,7 @@
     "references": [
         {
             "type": "WEB",
-            "url": "https://patchstack.com/database/vulnerability/watchtowerhq/wordpress-watchtowerhq-plugin-3-6-15-unauth-arbitrary-file-deletion-vulnerability?_s_id=cve"
+            "url": "https://patchstack.com/database/vulnerability/watchtowerhq/wordpress-watchtowerhq-plugin-3-6-15-unauth-arbitrary-file-deletion-vulnerability"
         },
         {
             "type": "WEB",

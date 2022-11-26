@@ -116,7 +116,7 @@
     "references": [
         {
             "type": "WEB",
-            "url": "https://patchstack.com/database/vulnerability/loginpress/wordpress-loginpress-plugin-1-6-2-broken-access-control-vulnerability?_s_id=cve"
+            "url": "https://patchstack.com/database/vulnerability/loginpress/wordpress-loginpress-plugin-1-6-2-broken-access-control-vulnerability"
         },
         {
             "type": "ADVISORY",

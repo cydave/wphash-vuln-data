@@ -74,7 +74,7 @@
     "references": [
         {
             "type": "WEB",
-            "url": "https://patchstack.com/database/vulnerability/integration-for-szamlazzhu-woocommerce/wordpress-integration-for-szamlazz-hu-woocommerce-plugin-5-6-3-2-multiple-cross-site-request-forgery-csrf-vulnerabilities?_s_id=cve"
+            "url": "https://patchstack.com/database/vulnerability/integration-for-szamlazzhu-woocommerce/wordpress-integration-for-szamlazz-hu-woocommerce-plugin-5-6-3-2-multiple-cross-site-request-forgery-csrf-vulnerabilities"
         },
         {
             "type": "WEB",
@@ -82,7 +82,7 @@
         },
         {
             "type": "WEB",
-            "url": "https://patchstack.com/database/vulnerability/hungarian-pickup-points-for-woocommerce/wordpress-csomagpontok-es-szallitasi-cimkek-woocommerce-hez-plugin-1-9-0-2-multiple-cross-site-request-forgery-csrf-vulnerabilities?_s_id=cve"
+            "url": "https://patchstack.com/database/vulnerability/hungarian-pickup-points-for-woocommerce/wordpress-csomagpontok-es-szallitasi-cimkek-woocommerce-hez-plugin-1-9-0-2-multiple-cross-site-request-forgery-csrf-vulnerabilities"
         },
         {
             "type": "WEB",

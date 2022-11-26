@@ -223,7 +223,7 @@
     "references": [
         {
             "type": "WEB",
-            "url": "https://patchstack.com/database/vulnerability/woocommerce-jetpack/wordpress-booster-for-woocommerce-plugin-5-6-6-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
+            "url": "https://patchstack.com/database/vulnerability/woocommerce-jetpack/wordpress-booster-for-woocommerce-plugin-5-6-6-cross-site-request-forgery-csrf-vulnerability"
         },
         {
             "type": "ADVISORY",

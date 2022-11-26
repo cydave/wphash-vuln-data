@@ -224,7 +224,7 @@
     "references": [
         {
             "type": "WEB",
-            "url": "https://patchstack.com/database/vulnerability/ezoic-integration/wordpress-ezoic-plugin-2-8-8-auth-stored-cross-site-scripting-xss-vulnerability?_s_id=cve"
+            "url": "https://patchstack.com/database/vulnerability/ezoic-integration/wordpress-ezoic-plugin-2-8-8-auth-stored-cross-site-scripting-xss-vulnerability"
         },
         {
             "type": "ADVISORY",

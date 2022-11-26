@@ -194,7 +194,7 @@
         },
         {
             "type": "WEB",
-            "url": "https://patchstack.com/database/vulnerability/wpdiscuz/wordpress-comments-wpdiscuz-plugin-7-4-2-insecure-direct-object-references-idor-vulnerability?_s_id=cve"
+            "url": "https://patchstack.com/database/vulnerability/wpdiscuz/wordpress-comments-wpdiscuz-plugin-7-4-2-insecure-direct-object-references-idor-vulnerability"
         },
         {
             "type": "ADVISORY",

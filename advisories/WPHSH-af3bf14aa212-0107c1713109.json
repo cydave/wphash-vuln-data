@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-3578"
     ],
-    "summary": "FIXME",
+    "summary": "ProfileGrid \u2013 User Profiles, Memberships, Groups and Communities < 5.1.1 - Unauthenticated Cross-Site Scripting",
     "details": "The ProfileGrid WordPress plugin before 5.1.1 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting",
     "severity": [
         {

@@ -114,6 +114,10 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/permalink-manager/wordpress-permalink-manager-lite-plugin-2-2-20-broken-access-control-vulnerability?_s_id=cve"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41781"
         }

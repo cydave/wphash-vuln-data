@@ -122,6 +122,14 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/media-library-assistant/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/media-library-assistant/wordpress-media-library-assistant-plugin-3-00-unauthenticated-error-log-disclosure-vulnerability?_s_id=cve"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41618"
         }

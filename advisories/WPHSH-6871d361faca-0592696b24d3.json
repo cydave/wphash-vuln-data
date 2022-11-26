@@ -83,6 +83,10 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/yikes-inc-easy-custom-woocommerce-product-tabs/wordpress-custom-product-tabs-for-woocommerce-plugin-1-7-9-auth-stored-cross-site-scripting-xss-vulnerability?_s_id=cve"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-43463"
         }

@@ -115,6 +115,14 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/iq-block-country/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/iq-block-country/wordpress-iq-block-country-plugin-1-2-18-block-bypass-vulnerability?_s_id=cve"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41155"
         }

@@ -75,6 +75,14 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/phone-orders-for-woocommerce/wordpress-phone-orders-for-woocommerce-plugin-3-7-1-auth-sensitive-data-exposure-vulnerability?_s_id=cve"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/phone-orders-for-woocommerce/#developers"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41655"
         }

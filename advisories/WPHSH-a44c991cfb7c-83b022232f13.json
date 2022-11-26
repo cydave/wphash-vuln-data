@@ -1,0 +1,46 @@
+{
+    "id": "WPHSH-a44c991cfb7c-83b022232f13",
+    "modified": "2022-11-25T00:00:00Z",
+    "published": "2022-11-25T00:00:00Z",
+    "aliases": [
+        "CVE-2022-44742"
+    ],
+    "summary": "FIXME",
+    "details": "FIXME",
+    "affected": [
+        {
+            "package": {
+                "ecosystem": "wordpress-plugin",
+                "name": "community-events"
+            },
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "repo": "https://plugins.svn.wordpress.org/community-events",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        },
+                        {
+                            "fixed": "1.4.9"
+                        }
+                    ]
+                }
+            ],
+            "versions": [
+                "1.2.9"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "ADVISORY",
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-44742"
+        }
+    ],
+    "database_specific": {
+        "slug": "community-events",
+        "name": "Community Events",
+        "cwe_ids": []
+    }
+}

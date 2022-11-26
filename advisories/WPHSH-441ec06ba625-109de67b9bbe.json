@@ -52,6 +52,14 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/seo-redirection/#developers"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/seo-redirection/wordpress-seo-redirection-plugin-plugin-8-9-multiple-cross-site-scripting-csrf-vulnerabilities?_s_id=cve"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40695"
         }

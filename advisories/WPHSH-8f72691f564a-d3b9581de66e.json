@@ -113,6 +113,10 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/widget-google-reviews/wordpress-plugin-for-google-reviews-plugin-2-2-2-auth-broken-access-control-vulnerability?_s_id=cve"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45369"
         }

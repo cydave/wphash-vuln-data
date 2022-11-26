@@ -54,6 +54,14 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://wordpress.org/plugins/wp-pagebuilder/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://patchstack.com/database/vulnerability/wp-pagebuilder/wordpress-wp-page-builder-plugin-1-2-6-multiple-auth-stored-cross-site-scripting-xss-vulnerabilities?_s_id=cve"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40963"
         }

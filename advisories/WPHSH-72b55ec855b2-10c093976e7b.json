@@ -78,6 +78,14 @@
     ],
     "references": [
         {
+            "type": "WEB",
+            "url": "https://www.hightechdad.com/2009/12/21/warning-wp-polls-wordpress-poll-plugin-can-be-exploited/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://wpscan.com/vulnerability/c1896ab9-9585-40e2-abbf-ef5153b3c6b2"
+        },
+        {
             "type": "ADVISORY",
             "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1581"
         }

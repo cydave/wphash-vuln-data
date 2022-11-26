@@ -5,7 +5,7 @@
     "aliases": [
         "CVE-2022-0817"
     ],
-    "summary": "FIXME",
+    "summary": "BadgeOS < 3.7.1 - Unauthenticated SQL Injection",
     "details": "The BadgeOS WordPress plugin through 3.7.0 does not sanitise and escape a parameter before using it in a SQL statement via an AJAX action, leading to an SQL Injection exploitable by unauthenticated users",
     "severity": [
         {
